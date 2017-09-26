@@ -329,3 +329,71 @@ usually 1-4-4-4
 {tab}{ensp} 4{D} = agrees M (higher suit) +
 {tab}{ensp} 4{H} (M={S}) = agrees {S} with short {D} +
 {tab}{ensp} 4M,5{D} = sign-off
+
+== NoTrump Overcalls
+
+*Direct* = 15-18 : Systems ON
+
+Balancing::
+@ vs. minor = 11-14
+@ vs. major = 13-16
+@ Systems ON
+
+Sandwich position 1NT::
+@ unpassed hand = 16-19 natural
+@ Sys OFF, cue of under-suit = Stayman
+@ passed hand = unusual
+
+vs weak two::
+@ 2NT = 16-19
+@ Our 2NT system ON ##including 3{S} {forces} 3NT##
+@ Transfer to their major = inv in other major
+
+== Suit Balancing
+
+Following a balancing 1M, the unbid minor shows a good raise (like Drury).
+
+[subs="normal,attributes"]
+..................................................
+              (1C)   P
+  (P)   1H    (P)    ?
+                     2C = natural
+	             2D = good raise of hearts
+..................................................
+
+== Suit Overcalls
+
+New-suit = non-forcing, constructive
+
+Jump-shift = natural, good hand, but NF. Any continuation by
+overcaller is forcing.
+
+=== One Major
+@ 2NT = good 4-card raise
+@ Cheapest cue = most defensive raise, or some good hand
+@ Jump cue = mixed raise
+@ When opps bid and raise, double = responsive
+
+=== Two-level overcalls
+
+Responder passes::
+_e.g._ {thinsp}(1{S}) - 2{C} - (P) - ? +
+@ cue-bid = good constructive-raise or better
+@ 2NT = natural
+
+Responder raises::
+_e.g._ {thinsp}(1{S}) - 2{C} - (2{S}) - ? +
+@ double = responsive
+@ 2NT = good constrictive-raise or better
+
+Responder doubles (negative)::
+_e.g._ {thinsp}(1{S}) - 2{C} - (Dble) - ? +
+@ ReDble = defensive strength, no fit
+@ cue = good 3-card raise or better
+@ 2NT = good 4-card raise or better
+
+=== vs Further Interference
+
+Bidding shows extra length or strength in the suit bid, __except when
+partner guarantees four-card support and forces the bidding to the
+three level__.
