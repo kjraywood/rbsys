@@ -309,9 +309,9 @@ Transfer responses::
 |===
 2+^| Second Negative
 | 2{C} - 2{D} +
-  2M   - 2NT
+  2M   - 2NT*
 | 2{C} - 2{D} +
-  3m   - 3{H}
+  3m   - 3{H}*
 |===
 
 Following a 2nd neg, we can stop in 3M or 4m.
@@ -321,4 +321,11 @@ Special sequences::
 2{C}-2{D}; 2{S}-3{H} = a positive with no-site and no five-card suit;
 usually 1-4-4-4
 +
-2{C}-2{D}; 3M = 4{times}M, 5^*+*^{times}{D}, GF
+2{C} - 2{D} +
+3M {tab}{ensp} = 4 {times} M, 5^*{plus}*^ {times} {D}, GF +
+{tab}{ensp} 3{S} (M={H}) = natural, 6^*{plus}*^ {times} {S} +
+{tab}{ensp} 3NT = to play, no help in opener's suits +
+{tab}{ensp} 4{C} = agrees {D} (lower suit) +
+{tab}{ensp} 4{D} = agrees M (higher suit) +
+{tab}{ensp} 4{H} (M={S}) = agrees {S} with short {D} +
+{tab}{ensp} 4M,5{D} = sign-off
