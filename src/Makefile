@@ -1,8 +1,10 @@
+THIS_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+
 SOURCES = $(wildcard *.bdoc)
 MAIN = system.adoc
 MACROS = macros.adoc
 ADOCS = $(SOURCES:.bdoc=.adoc)
-HTML = $(MAIN:.adoc=.html)
+HTML = index.html
 
 SPADES = {spades}
 HEARTS = {hearts}
@@ -27,18 +29,18 @@ WRAPPING_LIST = -e '/^[[:blank:]]*@[[:blank:]]/{ \
 
 SED = /usr/bin/sed -E
 
-.PHONY: all tidy clean status update commit force
+.PHONY: all install tidy clean status update commit force
 
 all: $(HTML)
 
 $(HTML): $(MAIN) $(MACROS) $(ADOCS)
-
-%.html: %.adoc
-	asciidoctor -a stylesheet=foundation.css $<
-#	asciidoctor -a stylesheet=colony.css $<
+	asciidoctor -a stylesheet=foundation.css $(MAIN) -o $@
 
 %.adoc : %.bdoc
 	$(SED) $(BIDS) $(WRAPPING_LIST) $< >$@
+
+install: $(HTML)
+	install -m 0664 -t $(THIS_DIR)../ $<
 
 tidy:
 	$(RM) $(ADOCS)
