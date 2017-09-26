@@ -1,0 +1,28 @@
+= System Notes
+:toc: left
+:icons: font
+:xrefstyle: short
+:doctype: book
+Kelvin Raywood, Shelley Burns
+v0.1, August 19, 2017
+
+include::macros.adoc[]
+
+= Part 1: Summary
+'''
+
+include::summary.adoc[]
+
+'''
+= Part 2: Details
+'''
+
+include::opening-and-responding.adoc[]
+
+include::2-way-checkback.adoc[]
+
+// include::rebid-by-opener.adoc[]
+
+// include::rebid-by-responder.adoc[]
+
+// include::notrump.adoc[]

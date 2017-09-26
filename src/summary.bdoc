@@ -1,0 +1,324 @@
+// -*-adoc-*-
+
+== General Approach
+
+@ 1NT = 15 to 17
+@ 2NT = 20 to bad 22
+@ Five-card majors
+@ 2/1 GF
+@ semi-forcing 1NT
+@ aggressive preempts and pre-balancing
+@ most low-level doubles are take-out
+
+Responding to 1{C}::
+Responder bypasses 1{D} when: +
+@ can cope with a three-card raise
+@ will rebid or raise NT
+
+Opener’s rebid with a balanced hand::
+Opener usually bypasses four-card majors to rebid notrump
+
+== 1NT Opening
+
+=== Stayman
+
+Promises a four-card major. +
+Smolen @ 2-level for both majors except 5-5 GF +
+OMaR to agree major, or show inv.{sp}2-suiter with spades
+
+[WARNING]
+====
+We do NOT play delayed Texas or delayed Gerber
+====
+
+=== Jacoby transfers
+
+*Super accept* = 2T + 1 +
+{tab} {tribull} Responder can re-transfer or describe further +
+*Transfer then 3m* is GF +
+{tab} {tribull} Opener assumes COG.  New-suit agrees minor. +
+*OMaR* for +
+{tab} {bull}{nbsp} {H} + m inv
+@ 3NT vs.{sp}4M COG
+@ void self-splinter
+
+=== Minor-suit transfers
+
+*2{S} {nbsp}*= {C} weak or strong, or balanced inv. +
+{tab} {tribull} Opener bids 2NT (min) or 3{C} (max). +
+*2NT* = {D} weak or strong, or weak with both minors. +
+{tab} {tribull} Opener bids preferred minor
+
+Transfer to {C} then 3{D} = 5-5 minors GF. +
+{nbsp}{downRA} then by opener: 3{H} => {C}, 3{S} => {D}
+
+Transfer to minor then 3M = shortness
+
+
+=== 3-level responses
+
+3{C} = five-card Stayman + 
+3{D} = at least 5-5 majors, GF +
+3{H},3{S} = stiff with three in other major
+
+=== Interference over 1NT
+
+vs. penalty double::
+Redouble forces 2{C} for pass or correct to 2{D} +
+2{C} = both majors.  Then 2{D} or XX = no preference +
+2{D}, 2{H} = transfers +
+2{S} = four spades and a six-card minor +
+2NT = both minors +
+3m = six-card minor and four hearts
+
+vs. artificial double or 2{C}::
+System ON. Double of 2{C} is Stayman. We can pass to discover an
+unspecified suit, then use a take-out double or Lebensohl.
++
+If 2{C} is natural, double then cue (3{C}) requests a stopper
+
+vs. 2{D}, 2{H} or 2{S} (any)::
+Double by either player is take-out as though the interference was
+natural.
+// +
+// A negative double by responder creates a competitive force and
+// subsequent doubles are penalty.
+// +
+// After a balancing double by opener further doubles by either player
+// are takeout until responder shows values by passing or making his
+// own take-out double.
++
+2M = to play (except when they show 5, then Michaels) +
+#3m = inv.# +
+3M = forcing +
+3{thinsp}__cue-bid__ = Stayman, no stopper +
+2NT = Lebensohl
+
+vs. 2NT (minors)::
+We play our 2NT system
+
+== 2NT Opening
+
+@ Regular Stayman and Smolen
+@ NO delayed Texas or Gerber
+@ OMaR to set trump after Stayman
+@ Smolen can include 5-5 majors COG
+
+*3{S}* {forces} 3NT, then +
+{tab} pass = to play +
+{tab} 4m = natural slam inv., then +
+{tab}{tab} next-step = RKC +
+{tab}{tab} 4NT = to play +
+{tab} 4M = stiff with three in other major +
+{tab} 4NT = both minors weak +
+
+*3NT* = at least 5-5 minors slam inv.
+
+== Major Opening
+
+@ *3{C}* = 4-card support, 7-11
+@ *3{D}* = 3-card LR
+@ *JS to other major* = mini-splinter, any suit
+@ *3M + 1* = weak splinter, any suit
+
+Jacoby 2NT::
+@ jump new-suit = length
+@ 3NT by either = minimum
+
+Game and slam tries::
+@ next-step game-try
+@ new-suit slam-try
+
+Passed hand responses::
+@ *3-way Drury:* {nbsp}ON vs X & 1{S},{thinsp} OFF vs 2{C}
+@ *JS* = mini-splinter
+@ *2NT* = both minors inv. 
+
+vs. double::
+@ 2NT = LR
+@ 3NT = GF bal.-raise
+@ JS = weak (not fit)
+@ double-JS = splinter
+
+vs. overcall::
+@ cue = {LRplus}
+@ jump-raise = weak
+@ ##JS below 3M = natural inv (not fit)##
+@ ##JS (or DJS) above 3M = suit {plus} fit##
+
+vs. 1NT::
+@ 2m = m + oM
+@ X = penalty, __creates a force below__{thinsp} 2{S}
+
+vs. Unusual 2NT::
+@ X = neg. (4-cards in oM)
+@ lo cue = oM inv.
+@ hi cue = {LRplus}
+@ 3oM = forcing
+
+== Minor Opening
+
+@ *Single raise* = GF
+@ *Jump raise* = weak
+@ *JS to other minor* = LR
+@ *2{S}* = mixed raise
+@ *2NT* = 11-12
+@ *3NT* = 13-15
+@ *2{H}* = rev. flannery
+
+Passed hand::
+Single raise = normal
+
+vs. double::
+@ 2NT = bal. 11-12 {plus} fit, NF
+@ 3NT = bal. 13-15 {plus} fit
+@ JS to other minor = unbal {LRplus}
+@ JS to major = weak
+
+vs. overcall::
+@ cue = {LRplus}
+@ jump-raise = weak
+@ ##JS below 3m = natural inv##
+@ ##JS (or DJS) above 3m = natural weak##
+
+vs. 1NT::
+@ 2{C} = majors
+@ 2{D},2{H} = transfer
+@ 2{S} = other minor
+@ X = penalty, __creates a force below__{thinsp} 2{S}
+
+vs. Unusual 2NT ({H} + other minor)::
+@ X = neg. (4 {times} {S})
+@ lo cue = {S} inv.
+@ hi cue (3{H}) = {LRplus}
+@ 3{S} = forcing
+
+vs. Michaels (majors)::
+@ lo cue (2{H}) = other minor
+@ hi cue (2{S}) = {LRplus}
+@ 1{C}-(2{C})-2{D} = NF
+@ 1{C}-(2{C})-2{H} = {D} GF
+
+== Responder's Rebid
+
+=== Second-round jumps and 4th-suit forcing
+
+Uncontested::
+Second-round jumps are natural and GF +
+#A second-round raise of a minor is GF# +
+Fourth suit or new third-suit is forcing one round
+
+Contested::
+*vs double:* system on +
+*vs suit bid:* jumps are invitational and cue-bid is GF +
+{tab} {tab} {tab} AKA _Limit bidding in competition_
+
+1{C} {ndash} 1{D}; 1{H} {ndash} ?::
+1{S} = natural 6-10 or 11+ artificial +
+{tab}{tribull} opener assumes natural +
+2{S}, 2NT = natural GF
+
+1{H} {ndash} 1{S}; 2{D} {ndash} ?::
+#2NT = GF, 11-14# +
+3{D}, 3{H}, 3{S} = natural GF +
+3NT = 15-17 +
+3{C} = invitation in {D}, {H} or {S} +
+{tab}{tribull} 3{D} = decline {D} +
+{tab}{tribull} 3{H} = accept {D}, decline {H} +
+{tab}__etc.__
+
+=== 2-Way Checkback
+
+ON after both minors or both majors +
+ON vs take-out double by either opp +
+OFF if either opp has shown a suit +
+{nbsp}{downRA} cue = GF, jumps are inv
+
+Passed hand::
+2{C}{thinsp}{forces}{thinsp}2{D} sequences ON +
+2{D} = natural weak with 5{times}M
+
+=== Wolff Sign-Off
+
+Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
+
+=== Reverses
+
+[%autowidth,cols="2*<",options="header"]
+|===
+2+^| Weakness signals
+| 1m   - 1{S} +
+  2{H} - 2NT
+| 1{C} - 1M +
+  2{D} - 2oM
+|===
+
+Following a weakness signal, opener can force again by bidding above
+three of the original minor.
+
+*Reverse after 1NT response*
+
+_e.g._{thinsp} 1{D} {ndash} 1NT; 2{H} = unbalanced raise to 2NT
+
+Responder can sign-off in 2NT, 3{C}, or 3{D}
+
+=== After opener raises
+
+1m {ndash} 1M; 2M {ndash} ?
+
+[WARNING]
+====
+We do NOT play _Quality & Quantity_
+====
+
+Natural continuations, including NF 2NT +
+Return to opener's minor = natural, inv,## NF{nbsp}## +
+Other major = natural, inv+ (F1) +
+Other minor = GF, semi-natural.  Then by opener: +
+{nbsp}{tribull} 3M = 4-card raise +
+{nbsp}{tribull} 3NT = 3-card raise short in other minor +
+{nbsp}{tribull} 3oM = (4th suit) 3-card raise short in oM +
+
+When opener is known to have a 4-card raise (_e.g._{thinsp} no support
+double), then new-suits are natural game-tries.
+
+== Weak 2 Opening
+
+**Ogust:**{emsp}ON vs double, OFF vs overcall
+
+**New suits:**{emsp}forcing after overcall, non-forcing vs double.
+
+== 2{clubsuit} Opening
+
+WARNING: We do NOT play Kokish
+
+Catch-all response::
+@ *2{D}* = weak or waiting
+
+Natural responses::
+@ *2{H}* = natural positive, any suit-quality
+@ *2NT* = bal 8{ndash}10 (or 13^**{plus}**^)
+@ *3NT* = bal 11{ndash}12
+
+Transfer responses::
+@ *2{S}* = one-loser __red-suit__
+@ *3{C}* = one-loser __black-suit__
+@ *3{D},3{H},3{S},4{C}* = transfer to solid suit
+
+[%autowidth,cols="2*<",options="header"]
+|===
+2+^| Second Negative
+| 2{C} - 2{D} +
+  2M   - 2NT
+| 2{C} - 2{D} +
+  3m   - 3{H}
+|===
+
+Following a 2nd neg, we can stop in 3M or 4m.
+
+Special sequences::
+
+2{C}-2{D}; 2{S}-3{H} = a positive with no-site and no five-card suit;
+usually 1-4-4-4
++
+2{C}-2{D}; 3M = 4{times}M, 5^*+*^{times}{D}, GF

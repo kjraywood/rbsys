@@ -1,0 +1,62 @@
+// -*-adoc-*-
+
+== Opening and responding
+
+1NT = 15 to 17, 2NT = 20 to bad 22, Five-card majors, 2/1 GF,
+semi-forcing 1NT, aggressive preempts and pre-balancing, most
+low-level doubles are take-out.
+
+=== Opening bids
+
+Balanced hands::
+Pass with 12 HCP, 4333 and poor spots.  Open other
+12-counts and some 11-counts with good spots.
+
+Unbalanced hands::
+Open with as little as 9 or 10 HCP, lots of playing
+strength and two quick tricks. _e.g._ Open 1{S} with:
+ {S}AJTxxx{nbsp}{H}x{nbsp}{D}Axx{nbsp}{C}xx
+
+Third seat::
+A good four-card major is possible.  We do NOT open light
+in 3rd.  Weak twos and weak jump-overcalls are often a decent
+five-card suit when NV.
+
+=== Responding to 1{clubsuit}
+
+After 1{C}-1M;2M responder can not introduce diamonds to play.  So
+responder bypasses 1{D} when able to cope with a three-card raise, and
+without intention to introduce diamonds as a possible strain.
+
+[%autowidth%header,cols="3*^",caption=]
+.Guideline for choosing to bypass
+|===
+2+|   Strength   | Bypass {D}
+| Weak   | 6-9   | sometimes
+| Medium | 10-14 | usually
+| Strong | 15+   | rarely
+|===
+
+// === Opener’s rebid
+
+// With a balanced hand, opener usually bypasses four-card majors to rebid
+// notrump [<<rebid-by-opener>>].
+
+// === Responder’s rebid
+
+// ==== Uncontested
+
+// Second-round jumps are natural and GF +
+// A second-round raise of a minor is GF +
+
+// To invite, responder temporises with the cheapest new-suit
+// _(artificial)_, then follows with a natural non-jump bid.
+
+// ==== Contested
+
+// vs double: system on +
+// vs suit bid: jumps are invitational and cue-bid = GF
+
+// ==== More info
+
+// Example auctions and responder's notrump ladder are in <<rebid-by-responder>>.

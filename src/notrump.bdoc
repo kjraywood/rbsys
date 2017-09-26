@@ -1,0 +1,99 @@
+// -*-adoc-*-
+
+== 1NT Opening
+
+=== Stayman
+
+Promises a four-card major. +
+Includes inv.{sp}2-suiter with spades. +
+Smolen @ 2-level for both majors except 5-5 GF +
+OMaR to agree major.
+
+[WARNING]
+====
+We do NOT play delayed Texas or delayed Gerber
+====
+
+=== Jacoby transfers
+
+Super accept = 2T{nbsp}+{nbsp}1 :  Responder can re-transfer or describe further.
+
+Transfer then 3m is GF:  Opener assumes COG.  New-suit agrees minor. +
+
+==== OMaR
+
+[subs="normal,attributes"]
+....
+  1NT - 2D
+  2H  - 2S : forces next-step
+  2NT - ?
+
+        3C,3D = second-suit, inv.
+        3H    = slammish 6-4 ({hearts}-{spades})
+        3NT   = good six-card suit, COG
+     3S,4C,4D = void self-splinter
+....
+
+[subs="normal,attributes"]
+....
+  1NT - 2H
+  2S  - 3H : forces next-step
+  3S  - ?
+
+        3NT   = good six-card suit, COG
+     4C,4D,4H = void self-splinter
+....
+
+=== Minor-suit transfers
+
+[%autowidth,cols="^,<,<"]
+|====
+| 2{S} | {C} weak or strong, or balanced inv.
+                | Opener bids 2NT to show a min or 3{C} to show a max.
+| 2NT  | {D} weak or strong, possibly weak with both minors
+                | Opener assumes weak both minors and bids preferred minor
+|====
+
+Transfer to {C} then 3{D} = 5-5 minors GF, then by opener: 3{H} =
+agree {C}, 3{S} = agree {D}
+
+Transfer to minor then 3M = shortness
+
+=== 3-level responses
+
+3{C} = five-card Stayman + 
+3{D} = at least 5-5 majors, GF +
+3{H}, 3{S} = stiff with three in other major
+
+=== Interference over our 1NT opening
+
+vs. artificial double (any)::
+System ON
++
+If their double shows an unspecified suit, we can pass to discover
+the suit, then use a take-out double or Lebensohl.
+
+vs. penalty double::
+Redouble forces 2{C} for pass or correct to 2{D} +
+2{C} = both majors.  With no preference, opener can bid 2{D} (or redouble) +
+2{D}, 2{H} = transfers +
+2{S} = four spades and a six-card minor +
+2NT = both minors +
+3m = six-card minor and four hearts
+
+vs. 2{C} (any)::
+System ON.  Double is Stayman
++
+If 2{C} shows an unspecified suit, we can pass to discover the suit,
+then use a take-out double or Lebensohl.
+
+vs. 2{D}, 2{H} or 2{S} (any)::
+Double by either player is take-out as though the interference was
+natural.
++
+A negative double by responder creates a competitive force and
+subsequent doubles are penalty.
++
+After a balancing double by opener further doubles by either player
+are takeout until responder shows values by passing or making his
+own take-out double.

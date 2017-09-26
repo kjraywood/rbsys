@@ -1,0 +1,33 @@
+== 2-Way Checkback
+
+Longer route = longer {H}-suit
+
+[%autowidth,cols="2*l",subs="normal,attributes"]
+|===
+|
+1m  - 1H
+1NT - 2S
+|
+1m  - 1H
+1NT - 2C
+2D  - 2S
+| 4{times}{hearts}, 4{times}{spades}, inv.
+| 5{times}{hearts}, 4{times}{spades}, inv.
+|===
+
+[%autowidth,cols="2*l",subs="normal,attributes"]
+|===
+|
+1m  - 1S
+1NT - 2H
+|
+1m  - 1S
+1NT - 2C
+2D  - 2H
+| 5{times}{spades}, 4{times}{hearts}, inv.
+| 5{times}{spades}, 5{times}{hearts}, inv.
+|===
+
+Jumps on 2nd-round = slammish +
+{bull} new suit => 5--5
+{bull} opener's minor => 4{times}M + known 8-card or more fit in minor
