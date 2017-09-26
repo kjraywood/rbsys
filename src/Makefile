@@ -20,12 +20,17 @@ BIDS := $(foreach n, 1 2 3 4 5 6 7, \
 # wrapping list : on lines beginning with "@ " or " @ "
 #               : squeeze multiple blanks & replace leading @
 #               : replace " *some string* " with " **some string** "
-#		: replace all spaces with {nbsb}
+#		: replace all spaces with {nbsb}, but handle EOL
 
-WRAPPING_LIST = -e '/^[[:blank:]]*@[[:blank:]]/{ \
+WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
                  s/[[:blank:]]+/ /g; s/^ *@/{nbsp}{bull}{nbsp}/; \
-                 s/ \*([^ ])/ \*\*\1/g;s/([^ ])\* /\1\*\* /g; \
-                 s/ /{nbsp}/g}'
+                 s/ \*([^ *])/ \*\*\1/g;s/([^ *])\* /\1\*\* /g; \
+                 s/ \+$$/{EOL}/; s/ /{nbsp}/g; s/\{EOL\}$$/ \+/}'
+
+WRAPPING_LEV2 = -e '/^[[:blank:]]*@@[[:blank:]]/{ \
+                 s/[[:blank:]]+/ /g; s/^ *@@/{nbsp}{nbsp}{tribull}{nbsp}/; \
+                 s/ \*([^ *])/ \*\*\1/g;s/([^ *])\* /\1\*\* /g; \
+                 s/ \+$$/{EOL}/; s/ /{nbsp}/g; s/\{EOL\}$$/ \+/}'
 
 SED = /usr/bin/sed -E
 
@@ -37,7 +42,7 @@ $(HTML): $(MAIN) $(MACROS) $(ADOCS)
 	asciidoctor -a stylesheet=foundation.css $(MAIN) -o $@
 
 %.adoc : %.bdoc
-	$(SED) $(BIDS) $(WRAPPING_LIST) $< >$@
+	$(SED) $(BIDS) $(WRAPPING_LEV1) $(WRAPPING_LEV2) $< >$@
 
 install: $(HTML)
 	install -m 0664 -t $(THIS_DIR)../ $<

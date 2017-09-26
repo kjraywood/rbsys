@@ -22,9 +22,9 @@ Opener usually bypasses four-card majors to rebid notrump
 
 === Stayman
 
-Promises a four-card major. +
-Smolen @ 2-level for both majors except 5-5 GF +
-OMaR to agree major, or show inv.{sp}2-suiter with spades
+@ Promises a four-card major
+@ Smolen @ 2-level for both majors except 5-5 GF
+@ OMaR to agree major, or show inv.{sp}2-suiter with spades
 
 [WARNING]
 ====
@@ -33,24 +33,21 @@ We do NOT play delayed Texas or delayed Gerber
 
 === Jacoby transfers
 
-*Super accept* = 2T + 1 +
-{tab} {tribull} Responder can re-transfer or describe further +
-*Transfer then 3m* is GF +
-{tab} {tribull} Opener assumes COG.  New-suit agrees minor. +
-*OMaR* for +
-{tab} {bull}{nbsp} {H} + m inv
-@ 3NT vs.{sp}4M COG
-@ void self-splinter
+*Super accept* = 2T + 1
+@@ Responder can re-transfer or describe further +
+*Transfer then 3m* = GF
+@@ Opener assumes COG.  New-suit agrees minor +
+*OMaR* for:{ensp}{H} + m inv | 3NT vs.{sp}4M COG | void self-splinter
 
 === Minor-suit transfers
 
-*2{S} {nbsp}*= {C} weak or strong, or balanced inv. +
-{tab} {tribull} Opener bids 2NT (min) or 3{C} (max). +
-*2NT* = {D} weak or strong, or weak with both minors. +
-{tab} {tribull} Opener bids preferred minor
+*2{S} {nbsp}*= {C} weak|strong, or balanced inv
+@@ Opener bids 2NT (min) or 3{C} (max). +
+*2NT* = {D} weak|strong, or weak with both minors
+@@ Opener bids preferred minor
 
-Transfer to {C} then 3{D} = 5-5 minors GF. +
-{nbsp}{downRA} then by opener: 3{H} => {C}, 3{S} => {D}
+Transfer to {C} then 3{D} = 5-5 minors GF.
+@@ then by opener: 3{H} => {C}, 3{S} => {D}
 
 Transfer to minor then 3M = shortness
 
