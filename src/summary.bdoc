@@ -4,15 +4,15 @@
 
 @ 1NT = 15 to 17
 @ 2NT = 20 to bad 22
-@ Five-card majors
+@ Five{hyph}card majors
 @ 2/1 GF
-@ semi-forcing 1NT
-@ aggressive preempts and pre-balancing
-@ most low-level doubles are take-out
+@ semi{hyph}forcing 1NT
+@ aggressive preempts and pre{hyph}balancing
+@ low{hyph}level take{hyph}out doubles
 
 Responding to 1{C}::
 Responder bypasses 1{D} when: +
-@ can cope with a three-card raise
+@ can cope with a three{hyph}card raise
 @ will rebid or raise NT
 
 Opener’s rebid with a balanced hand::
@@ -22,9 +22,9 @@ Opener usually bypasses four-card majors to rebid notrump
 
 === Stayman
 
-@ Promises a four-card major
-@ Smolen @ 2-level for both majors except 5-5 GF
-@ OMaR to agree major, or show inv.{sp}2-suiter with spades
+@ Promises a four{hyph}card major
+@ Smolen @ 2{hyph}level for both majors except 5{hyph}5 GF
+@ OMaR to agree major, or show inv. 2{hyph}suiter with spades
 
 [WARNING]
 ====
@@ -34,10 +34,10 @@ We do NOT play delayed Texas or delayed Gerber
 === Jacoby transfers
 
 *Super accept* = 2T + 1
-@@ Responder can re-transfer or describe further +
+@@ Responder can re{hyph}transfer or describe further +
 *Transfer then 3m* = GF
-@@ Opener assumes COG.  New-suit agrees minor +
-*OMaR* for:{ensp}{H} + m inv | 3NT vs.{sp}4M COG | void self-splinter
+@@ Opener assumes COG.  New suit agrees minor +
+*OMaR* for:{ensp}{H} + m inv | 3NT vs.{sp}4M COG | void self{hyph}splinter
 
 === Minor-suit transfers
 
@@ -99,12 +99,12 @@ We play our 2NT system
 @ Regular Stayman and Smolen
 @ NO delayed Texas or Gerber
 @ OMaR to set trump after Stayman
-@ Smolen can include 5-5 majors COG
+@ Smolen can include 5{hyph}5 majors COG
 
 *3{S}* {forces} 3NT, then +
 {tab} pass = to play +
 {tab} 4m = natural slam inv., then +
-{tab}{tab} next-step = RKC +
+{tab}{tab} next step = RKC +
 {tab}{tab} 4NT = to play +
 {tab} 4M = stiff with three in other major +
 {tab} 4NT = both minors weak +
@@ -113,33 +113,33 @@ We play our 2NT system
 
 == Major Opening
 
-@ *3{C}* = 4-card support, 7-11
-@ *3{D}* = 3-card LR
-@ *JS to other major* = mini-splinter, any suit
+@ *3{C}* = 4{hyph}card support, 7{ndash}11
+@ *3{D}* = 3{hyph}card LR
+@ *JS to other major* = mini{hyph}splinter, any suit
 @ *3M + 1* = weak splinter, any suit
 
 Jacoby 2NT::
-@ jump new-suit = length
+@ jump new{hyph}suit = length
 @ 3NT by either = minimum
 
 Game and slam tries::
-@ next-step game-try
-@ new-suit slam-try
+@ next{hyph}step game{hyph}try
+@ new{hyph}suit slam{hyph}try
 
 Passed hand responses::
 @ *3-way Drury:* {nbsp}ON vs X & 1{S},{thinsp} OFF vs 2{C}
-@ *JS* = mini-splinter
+@ *JS* = mini{hyph}splinter
 @ *2NT* = both minors inv. 
 
 vs. double::
 @ 2NT = LR
-@ 3NT = GF bal.-raise
+@ 3NT = GF bal.{hyph}raise
 @ JS = weak (not fit)
-@ double-JS = splinter
+@ double JS = splinter
 
 vs. overcall::
 @ cue = {LRplus}
-@ jump-raise = weak
+@ jump raise = weak
 @ ##JS below 3M = natural inv (not fit)##
 @ ##JS (or DJS) above 3M = suit {plus} fit##
 
@@ -148,7 +148,7 @@ vs. 1NT::
 @ X = penalty, __creates a force below__{thinsp} 2{S}
 
 vs. Unusual 2NT::
-@ X = neg. (4-cards in oM)
+@ X = neg. (4 {times} oM)
 @ lo cue = oM inv.
 @ hi cue = {LRplus}
 @ 3oM = forcing
@@ -174,7 +174,7 @@ vs. double::
 
 vs. overcall::
 @ cue = {LRplus}
-@ jump-raise = weak
+@ jump raise = weak
 @ ##JS below 3m = natural inv##
 @ ##JS (or DJS) above 3m = natural weak##
 
@@ -277,7 +277,7 @@ Other minor = GF, semi-natural.  Then by opener: +
 {nbsp}{tribull} 3oM = (4th suit) 3-card raise short in oM +
 
 When opener is known to have a 4-card raise (_e.g._{thinsp} no support
-double), then new-suits are natural game-tries.
+double), then new suits are natural game-tries.
 
 == Weak 2 Opening
 
@@ -293,13 +293,13 @@ Catch-all response::
 @ *2{D}* = weak or waiting
 
 Natural responses::
-@ *2{H}* = natural positive, any suit-quality
+@ *2{H}* = natural positive, any suit{hyph}quality
 @ *2NT* = bal 8{ndash}10 (or 13^**{plus}**^)
 @ *3NT* = bal 11{ndash}12
 
 Transfer responses::
-@ *2{S}* = one-loser __red-suit__
-@ *3{C}* = one-loser __black-suit__
+@ *2{S}* = one{hyph}loser __red{hyph}suit__
+@ *3{C}* = one{hyph}loser __black{hyph}suit__
 @ *3{D},3{H},3{S},4{C}* = transfer to solid suit
 
 [%autowidth,cols="2*<",options="header"]
@@ -338,7 +338,7 @@ Balancing::
 
 Sandwich position 1NT::
 @ unpassed hand = 16-19 natural
-@ Sys OFF, cue of under-suit = Stayman
+@ Sys OFF, under{hyph}suit cue = Stayman
 @ passed hand = unusual
 
 vs weak two::
@@ -360,13 +360,13 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
 == Suit Overcalls
 
-New-suit = non-forcing, constructive
+New suit = non-forcing, constructive
 
-Jump-shift = natural, good hand, but NF. Any continuation by
-overcaller is forcing.
+JS = natural, good hand, but NF. Any continuation by overcaller is
+forcing.
 
 === One Major
-@ 2NT = good 4-card raise
+@ 2NT = good 4{hyph}card raise
 @ Cheapest cue = most defensive raise, or some good hand
 @ Jump cue = mixed raise
 @ When opps bid and raise, double = responsive
@@ -375,19 +375,19 @@ overcaller is forcing.
 
 Responder passes::
 _e.g._ {thinsp}(1{S}) - 2{C} - (P) - ? +
-@ cue-bid = good constructive-raise or better
+@ cue = good constructive{hyph}raise or better
 @ 2NT = natural
 
 Responder raises::
 _e.g._ {thinsp}(1{S}) - 2{C} - (2{S}) - ? +
 @ double = responsive
-@ 2NT = good constrictive-raise or better
+@ 2NT = good constructive{hyph}raise or better
 
 Responder doubles (negative)::
 _e.g._ {thinsp}(1{S}) - 2{C} - (Dble) - ? +
 @ ReDble = defensive strength, no fit
-@ cue = good 3-card raise or better
-@ 2NT = good 4-card raise or better
+@ cue = good 3{hyph}card raise or better
+@ 2NT = good 4{hyph}card raise or better
 
 === vs Further Interference
 
