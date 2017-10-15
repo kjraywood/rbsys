@@ -136,36 +136,37 @@ We play our 2NT system
 @ Jump shift = natural inv.
 @ *3M + 1* = weak splinter, any suit
 
-Jacoby 2NT::
+*Jacoby 2NT*
 @ jump new-suit = length
 @ 3NT by either = minimum
 
-Game and slam tries::
+*Game and slam tries*
 @ next-step game-try
 @ new-suit slam-try
 
-Passed hand responses::
-@ *3-way Drury:* {nbsp}ON vs X & 1{S},{thinsp} OFF vs 2{C}
-@ *JS* = mini-splinter
-@ *2NT* = both minors inv. 
+*Passed hand responses*
+@ 3-way Drury
+@@ ON vs X & 1{S},{thinsp} OFF vs 2{C} +
+@ JS = mini-splinter
+@ 2NT = both minors inv. 
 
-vs. double::
+*vs. double*
 @ 2NT = LR
 @ 3NT = GF bal.-raise
 @ JS = weak (not fit)
 @ double JS = splinter
 
-vs. overcall::
+*vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
 @ #JS below 3M = natural inv (not fit)#
 @ #JS (or DJS) above 3M = suit {plus} fit#
 
-vs. 1NT::
+*vs. 1NT*
 @ 2m = m + oM
-@ X = penalty, _creates a force below_{thinsp} 2{S}
+@ X = penalty & _creates a force below_{thinsp} 2{S}
 
-vs. Unusual 2NT::
+*vs. Unusual 2NT*
 @ X = neg. (4 {times} oM)
 @ lo cue = oM inv.
 @ hi cue = {LRplus}
@@ -173,42 +174,42 @@ vs. Unusual 2NT::
 
 == Minor Opening
 
-@ *Single raise* = GF
-@ *Jump raise* = weak
-@ *JS to other minor* = LR
-@ *2{S}* = mixed raise
-@ *2NT* = 11-12
-@ *3NT* = 13-15
-@ *2{H}* = rev. Flannery
+@ Single raise = GF
+@ Jump raise = weak
+@ JS to other minor = LR
+@ 2{S} = mixed raise
+@ 2NT = 11-12
+@ 3NT = 13-15
+@ 2{H} = rev. Flannery
 
-Passed hand::
-Single raise = normal
+*Passed hand*
+@ Single raise = normal
 
-vs. double::
+*vs. double*
 @ 2NT = bal. 11-12 {plus} fit, NF
 @ 3NT = bal. 13-15 {plus} fit
 @ JS to other minor = unbal {LRplus}
 @ JS to major = weak
 
-vs. overcall::
+*vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
 @ #JS below 3m = natural inv#
 @ #JS (or DJS) above 3m = natural weak#
 
-vs. 1NT::
+*vs. 1NT*
 @ 2{C} = majors
 @ 2{D},2{H} = transfer
 @ 2{S} = other minor
-@ X = penalty, _creates a force below_{thinsp} 2{S}
+@ X = penalty & _creates a force below_{thinsp} 2{S}
 
-vs. Unusual 2NT ({H} + other minor)::
+*vs. Unusual 2NT ({H} + other minor)*
 @ X = neg. (4 {times} {S})
 @ lo cue = {S} inv.
 @ hi cue (3{H}) = {LRplus}
 @ 3{S} = forcing
 
-vs. Michaels (majors)::
+*vs. Michaels (majors)*
 @ lo cue (2{H}) = other minor
 @ hi cue (2{S}) = {LRplus}
 @ 1{C}-(2{C})-2{D} = NF
@@ -309,26 +310,30 @@ double), then new suits are natural game-tries.
 
 == Weak 2 Opening
 
-**Ogust:**{emsp}ON vs double, OFF vs overcall
-
-**New suits:**{emsp}forcing after overcall, non-forcing vs double.
+*Ogust*
+@ ON vs double
+@ OFF vs overcall
+ +
+*New suits*
+@ forcing after overcall
+@ non-forcing vs double.
 
 == 2{clubsuit} Opening
 
 {warning} We do NOT play Kokish
 
-Catch-all response::
-@ *2{D}* = weak or waiting
-
-Natural responses::
-@ *2{H}* = natural positive, any suit-quality
-@ *2NT* = bal 8{ndash}10 (or 13{OrMore})
-@ *3NT* = bal 11{ndash}12
-
-Transfer responses::
-@ *2{S}* = one-loser red-suit
-@ *3{C}* = one-loser black-suit
-@ *3{D},3{H},3{S},4{C}* = transfer to solid suit
+*Default response*
+@ 2{D} = weak or waiting
+ +
+*Natural responses*
+@ 2{H} = natural positive, any suit-quality
+@ 2NT = bal 8-10 (or 13{OrMore})
+@ 3NT = bal 11-12
+ +
+*Transfer responses*
+@ 2{S} = one-loser red-suit
+@ 3{C} = one-loser black-suit
+@ 3{D},3{H},3{S},4{C} = transfer to solid suit
 
 [%autowidth,cols="2*<",options="header"]
 |===
@@ -359,22 +364,61 @@ Special sequences::
 
 *Direct* = 15-18 : Systems ON
 
-Balancing::
+*Balancing*
 @ vs. minor = 11-14
 @ vs. major = 13-16
 @ Systems ON
-
-Sandwich position 1NT::
+ +
+*Sandwich position 1NT*
 @ unpassed hand = 16-19 natural
-@ Sys OFF, under-suit cue = Stayman
+@ Sys OFF
+@ under-suit cue = Stayman
 @ passed hand = unusual
-
-vs weak two::
+ +
+*vs weak two*
 @ 2NT = 16-19
 @ Our 2NT system ON #including 3{S} {forces} 3NT#
 @ Transfer to their major = inv in other major
 
-== Suit Balancing
+== Suit Overcalls
+
+@ New suit = constructive, NF +
+@ JS = natural, good hand, but NF
+@@ any continuation by overcaller is forcing.
+
+=== One-major overcalls
+
+@ 2NT = good 4-card raise
+@ cue = good 3-card raise, or any force
+@ Jump cue = mixed raise
+@ double of raise = responsive
+@ double of new suit = snapdragon
+
+=== Two-level overcalls
+
+*Responder passes:*
+{nbsp} _e.g._ {thinsp}(1{S}) - 2{C} - (P) - ? +
+@ cue = good constructive-raise or better
+@ 2NT = natural
+ +
+*Responder raises:*
+{nbsp} _e.g._ {thinsp}(1{S}) - 2{C} - (2{S}) - ? +
+@ double = responsive
+@ 2NT = good constructive-raise or better
+ +
+*Responder doubles (negative):*
+{nbsp} _e.g._ {thinsp}(1{S}) - 2{C} - (Dble) - ? +
+@ ReDble = defensive strength, no fit
+@ cue = good 3-card raise or better
+@ 2NT = good 4-card raise or better
+
+=== vs Further Interference
+
+Bidding shows extra length or strength in the suit bid, _except when
+partner guarantees four-card support and forces the bidding to the
+three level_.
+
+=== Balancing
 
 Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
@@ -385,40 +429,3 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
                      2C = natural
                      2D = good raise of hearts
 ..................................................
-
-== Suit Overcalls
-
-@ New suit = constructive, NF +
-@ JS = natural, good hand, but NF
-@@ any continuation by overcaller is forcing.
-
-=== One-major overcalls
-@ 2NT = good 4-card raise
-@ cue = good 3-card raise, or any force
-@ Jump cue = mixed raise
-@ double of raise = responsive
-@ double of new suit = snapdragon
-
-=== Two-level overcalls
-
-Responder passes::
-_e.g._ {thinsp}(1{S}) - 2{C} - (P) - ? +
-@ cue = good constructive-raise or better
-@ 2NT = natural
-
-Responder raises::
-_e.g._ {thinsp}(1{S}) - 2{C} - (2{S}) - ? +
-@ double = responsive
-@ 2NT = good constructive-raise or better
-
-Responder doubles (negative)::
-_e.g._ {thinsp}(1{S}) - 2{C} - (Dble) - ? +
-@ ReDble = defensive strength, no fit
-@ cue = good 3-card raise or better
-@ 2NT = good 4-card raise or better
-
-=== vs Further Interference
-
-Bidding shows extra length or strength in the suit bid, _except when
-partner guarantees four-card support and forces the bidding to the
-three level_.
