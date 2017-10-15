@@ -18,20 +18,18 @@ BIDS := $(foreach n, 1 2 3 4 5 6 7, \
 	   ) \
 	)
 # wrapping list : on lines beginning with "@ " or " @ "
-#               : replace leading @ with opening text
-#		: insert closing text before final " +" or at EOL
+#               : replace leading @ "[nobr]##{isep}"
+#		: insert closing " ##" before final " +" or at EOL
 
 # WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
 #                  s/@/pass:\[<span class="nobr">\]{nbsp}{bull}{nbsp}/; \
 #                  s=( \+)?$$= pass:\[</span>\]\1=}'
 
 WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
-                 s/@/\[nobr\]\#\#{nbsp}{bull}{nbsp}/; \
-                 s/( \+)?$$/ \#\#\1/}'
+                 s/@/\[nobr\]\#\#{isep}/; s/( \+)?$$/ \#\#\1/}'
 
 WRAPPING_LEV2 = -e '/^[[:blank:]]*@@[[:blank:]]/{ \
-                 s/@@/\[nobr\]\#\#{nbsp}{nbsp}{tribull}{nbsp}/; \
-                 s/( \+)?$$/ \#\#\1/}'
+                 s/@@/\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}'
 
 SED = /usr/bin/sed -E
 
