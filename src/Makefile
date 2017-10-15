@@ -18,19 +18,20 @@ BIDS := $(foreach n, 1 2 3 4 5 6 7, \
 	   ) \
 	)
 # wrapping list : on lines beginning with "@ " or " @ "
-#               : squeeze multiple blanks & replace leading @
-#               : replace " *some string* " with " **some string** "
-#		: replace all spaces with {nbsb}, but handle EOL
+#               : replace leading @ with opening text
+#		: insert closing text before final " +" or at EOL
+
+# WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
+#                  s/@/pass:\[<span class="nobr">\]{nbsp}{bull}{nbsp}/; \
+#                  s=( \+)?$$= pass:\[</span>\]\1=}'
 
 WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
-                 s/[[:blank:]]+/ /g; s/^ *@/{nbsp}{bull}{nbsp}/; \
-                 s/ \*([^ *])/ \*\*\1/g;s/([^ *])\* /\1\*\* /g; \
-                 s/ \+$$/{EOL}/; s/ /{nbsp}/g; s/\{EOL\}$$/ \+/}'
+                 s/@/\[nobr\]\#\#{nbsp}{bull}{nbsp}/; \
+                 s/( \+)?$$/ \#\#\1/}'
 
 WRAPPING_LEV2 = -e '/^[[:blank:]]*@@[[:blank:]]/{ \
-                 s/[[:blank:]]+/ /g; s/^ *@@/{nbsp}{nbsp}{tribull}{nbsp}/; \
-                 s/ \*([^ *])/ \*\*\1/g;s/([^ *])\* /\1\*\* /g; \
-                 s/ \+$$/{EOL}/; s/ /{nbsp}/g; s/\{EOL\}$$/ \+/}'
+                 s/@@/\[nobr\]\#\#{nbsp}{nbsp}{tribull}{nbsp}/; \
+                 s/( \+)?$$/ \#\#\1/}'
 
 SED = /usr/bin/sed -E
 
