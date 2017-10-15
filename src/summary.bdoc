@@ -22,11 +22,23 @@ Opener usually bypasses four-card majors to rebid notrump
 
 === Stayman
 
-@ Promises a four-card major
-@ Smolen @ 2-level for both majors except 5-5 GF
-@ OMaR to agree major, or show inv. 2-suiter with spades
+@ Promises a 4-card major
+@ Includes 5{times}{S} + 5{times}__other__{thinsp} inv
+
+*Rebids:*{ensp}splinter
+@ Smolen @ 2-level
+@ OMaR{ensp}[{ensp}5{times}{S} + 5{times}m inv
+[nobr]##{nbsp}|{nbsp} COG (3NT = 4333 with fit)##
+[nobr]##{nbsp}|{nbsp} void splinter##
+[nobr]##{nbsp}|{nbsp} set trump for RKC{ensp}]##
 
 {warning} _We do NOT play delayed Texas or delayed Gerber_
+
+*vs double:*{ensp}pass promises a stopper
+@ reverse transfers
+@ 2NT = 4-4 majors min
+@ 3{C} = 4-4 majors max
+@ Redouble = double neg. (no stop, no M)
 
 === Jacoby transfers
 
@@ -34,7 +46,9 @@ Opener usually bypasses four-card majors to rebid notrump
 @@ Responder can re-transfer or describe further +
 *Transfer then 3m* = GF
 @@ Opener assumes COG.  New suit agrees minor +
-*OMaR* for:{ensp}{H} + m, inv | COG (3NT vs.{sp}4M) | void self-splinter
+*OMaR*{ensp}{startsb}{ensp}{H} + m, inv
+[nobr]##{nbsp}|{nbsp} COG (3NT vs.{sp}4M)##
+[nobr]##{nbsp}|{nbsp} void self-splinter{ensp}{endsb}##
 
 === Minor-suit transfers
 
@@ -58,26 +72,30 @@ Transfer to minor then 3M = shortness
 === Interference over 1NT
 
 vs. penalty double::
-Redouble forces 2{C} for pass or correct to 2{D} +
-2{C} = both majors.  Then 2{D} or XX = no preference +
-2{D}, 2{H} = transfers +
-2{S} = four spades and a six-card minor +
-2NT = both minors +
-3m = six-card minor and four hearts
+@ pass = to play
+@@ XX by opener = 5-card suit +
+@ Redble = {C} or {D}
+@ 2{C} = {H} + {S}{ensp}{tribull}{ensp}2{D} or XX = no pref +
+@ 2{D}, 2{H} = transfers
+@ 2{S} = 4{thinsp}{times}{thinsp}{S} + 6{thinsp}{times}{thinsp}m
+@ 2NT =  {C} + {D}
+@ 3m = 6{thinsp}{times}{thinsp}m + 4{thinsp}{times}{thinsp}{H}
 
 vs. natural (single-suit) 2{C}::
- {nbsp}{bull}{nbsp} double (take-out) then cue (3{C}) requests a stopper +
- @ Other system ON
+ @ dble = take-out
+ @@ cue (3{C}) on next-round requests stopper +
+ @ other system ON
 
 vs. artificial double or 2{C}::
-We can pass to discover an unspecified suit, then use a take-out
-double or Lebensohl. +
 @ System ON
-@ Double of 2{C} is Stayman
+@ double of 2{C} = Stayman
++
+We can pass to discover an unspecified suit, then use a take-out
+double or Lebensohl.
 
 vs. 2{D}, 2{H} or 2{S} (any)::
-Double by either player is take-out as though the interference was
-natural.
+Double by either player is take-out _as though the interference was
+natural._
 // +
 // A negative double by responder creates a competitive force and
 // subsequent doubles are penalty.
@@ -376,9 +394,10 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
 === One-major overcalls
 @ 2NT = good 4-card raise
-@ Cheapest cue = most defensive raise, or some good hand
+@ cue = good 3-card raise, or any force
 @ Jump cue = mixed raise
-@ When opps bid and raise, double = responsive
+@ double of raise = responsive
+@ double of new suit = snapdragon
 
 === Two-level overcalls
 
