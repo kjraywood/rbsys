@@ -363,7 +363,7 @@ Special sequences::
 2{S}-3{H} = positive, no fit, no 5{hyph}card suit, usually 1{hyph}4{hyph}4{hyph}4
 +
 2{C} - 2{D} +
-3M {tab}{ensp} = 4 {times} M, 5{OrMore} {times} {D}, GF +
+3M {ensp} = 4 {times} M, 5{OrMore} {times} {D}, GF +
 {tab}{ensp} 3{S} (M={H}) = natural, 6{OrMore} {times} {S} +
 {tab}{ensp} 3NT = to play, no help in opener's suits +
 {tab}{ensp} 4{C} = agrees M (secondary suit) +
