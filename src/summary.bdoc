@@ -73,9 +73,9 @@ Transfer to minor then 3M = shortness
 
 vs. penalty double::
 @ pass = to play
-@@ XX by opener = 5-card suit +
+@@ Redble by opener = 5-card suit +
 @ Redble = {C} or {D}
-@ 2{C} = {H} + {S}{ensp}{tribull}{ensp}2{D} or XX = no pref +
+@ 2{C} = {H} + {S}{ensp}{tribull}{ensp}2{D} or Redble = no pref +
 @ 2{D}, 2{H} = transfers
 @ 2{S} = 4{thinsp}{times}{thinsp}{S} + 6{thinsp}{times}{thinsp}m
 @ 2NT =  {C} + {D}
@@ -146,7 +146,7 @@ We play our 2NT system
 
 *Passed hand responses*
 @ 3-way Drury
-@@ ON vs X & 1{S},{thinsp} OFF vs 2{C} +
+@@ ON vs Dble & 1{S},{thinsp} OFF vs 2{C} +
 @ JS = mini-splinter
 @ 2NT = both minors inv. 
 
@@ -173,10 +173,10 @@ We play our 2NT system
 
 *vs. 1NT*
 @ 2m = m + oM
-@ X = penalty & _creates a force below_{thinsp} 2{S}
+@ Dble = penalty & _creates a force below_{thinsp} 2{S}
 
 *vs. Unusual 2NT*
-@ X = neg. (4 {times} oM)
+@ Dble = neg. (4 {times} oM)
 @ lo cue = oM inv.
 @ hi cue = {LRplus}
 @ 3oM = forcing
@@ -219,10 +219,10 @@ We play our 2NT system
 @ 2{C} = majors
 @ 2{D},2{H} = transfer
 @ 2{S} = other minor
-@ X = penalty & _creates a force below_{thinsp} 2{S}
+@ Dble = penalty & _creates a force below_{thinsp} 2{S}
 
 *vs. Unusual 2NT ({H} + other minor)*
-@ X = neg. (4 {times} {S})
+@ Dble = neg. (4 {times} {S})
 @ lo cue = {S} inv.
 @ hi cue (3{H}) = {LRplus}
 @ 3{S} = forcing
