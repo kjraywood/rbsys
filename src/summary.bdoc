@@ -396,7 +396,7 @@ Special sequences::
 3M {ensp} = 4 {times} M, 5{OrMore} {times} {D}, GF +
 {tab}{ensp} 3{S} (M={H}) = natural, 6{OrMore} {times} {S} +
 {tab}{ensp} 3NT = to play, no help in opener's suits +
-{tab}{ensp} 4{C} = agrees M (secondary suit) +
+#{tab}{ensp} 4{C} = agrees M (secondary suit)# +
 {tab}{ensp} 4{D} = agrees {D} (primary suit) +
 {tab}{ensp} 4{H} (M={S}) = agrees {S} with short {D} +
 {tab}{ensp} 4M,5{D} = sign-off
