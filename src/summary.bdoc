@@ -470,3 +470,41 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
                      2C = natural
                      2D = good raise of hearts
 ..................................................
+
+=== 2/1 Auctions
+
+@ Forcing to game or 4m
+@ 1M-2{C} = could be short
+@@ 2{D} rebid = default +
+@ 1M-2{C};{thinsp}2M = 6{OrMore} {times} M
+
+{warning} _Need more_
+
+=== Two-suited overcalls (Klinger)
+
+@ cue & lowest J.O. = next 2 suits
+@ 2NT = suit-below + suit-above
+@ Only applies in direct seat
+@ ON vs short club or diamond
+
+*Advancing*
+
+If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
+an Ogust-type enquiry.
+
+[subs="normal,attributes,macros"]
+..................................................
+          (1C)  2D   = majors
+(P)  2NT* (P)   ?    * range-ask
+                3C   = weak   (6-8)
+                3D   = medium (9-11)
+                3H   = strong (12-14)
+                3S   = huge   (16+)
+..................................................
+
+The HCP ranges do not count queens and jacks in the side suits and are
+a point or two higher when vulnerable.
+
+When the Klinger bid is 2NT or 3{C}, then the cue-bid of opener’s suit
+asks for strength.
+
