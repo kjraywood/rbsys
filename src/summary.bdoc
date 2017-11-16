@@ -159,8 +159,13 @@ We play our 2NT system
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ #JS below 3M = natural inv (not fit)#
-@ #JS (or DJS) above 3M = suit {plus} fit#
+@ #JS to 3m = natural inv (not fit)#
+@ #JS or DJS to 4m = suit {plus} fit#
+
+IMPORTANT: Neg. free bids apply in _other major_ after 1M-(2m) +
+@ 2oM = 6 cd-suit (or good 5), NF
+@ JS to 3oM = 6-cd suit, GF
+@ Dble = 4 or 5 {times} oM, _any strength_
 
 *vs. 1NT*
 @ 2m = m + oM
@@ -194,8 +199,14 @@ We play our 2NT system
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ #JS below 3m = natural inv#
-@ #JS (or DJS) above 3m = natural weak#
+@ #1{D}-(1M)-3{C} = natural inv#
+@ #1{D}-(2{C})-3M = natural inv#
+@ #DJS to 4om = suit {plus} fit#
+
+IMPORTANT: Neg. free bids apply in _other major_ after 1m-(1M) +
+@ 2oM = 6 cd-suit (or good 5), NF
+@ JS to 3oM = 6-cd suit, GF
+@ Dble = 4 or 5 {times} oM, _any strength_
 
 *vs. 1NT*
 @ 2{C} = majors
@@ -282,7 +293,7 @@ Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
   2{D} - 2oM
 |===
 
-Following a weakness signal, opener can force again by bidding above
+Following a default bid, opener can force again by bidding above
 three of the original minor.
 
 *Reverse after 1NT response*
