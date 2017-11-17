@@ -471,7 +471,7 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
                      2D = good raise of hearts
 ..................................................
 
-=== 2/1 Auctions
+== 2/1 Auctions
 
 @ Forcing to game or 4m
 @ 1M-2{C} = could be short
@@ -480,7 +480,7 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
 {warning} _Need more_
 
-=== Two-suited overcalls (Klinger)
+== Two-suited overcalls (Klinger)
 
 @ cue & lowest J.O. = next 2 suits
 @ 2NT = suit-below + suit-above
@@ -507,4 +507,116 @@ a point or two higher when vulnerable.
 
 When the Klinger bid is 2NT or 3{C}, then the cue-bid of opener’s suit
 asks for strength.
+
+== Competitive Bidding
+
+=== Rule #1
+
+_A call is natural and non-forcing unless defined otherwise._
+
+[subs="normal,attributes,macros"]
+..................................................
+       1D   (P)	  1S
+(2H)   P    (P)	  3C    = natural, NF
+
+       1NT  (P)   2D
+(2S)    P   (P)   3C    = natural, NF
+..................................................
+
+=== After a support double
+
+Responder bids:
+@ at or below two of 1^st^ suit = weak
+@ above two of 1^st^ suit = inv
+@ cue = GF
+
+=== After a negative double of 1{D} or 1{H}
+
+With four-card support for a major shown by responder, opener bids _as
+though raising a one-level bid_.{thinsp} That is, opener bids
+immediately to the two-level or higher with 4-card support.
+ 
+[subs="normal,attributes,macros"]
+..................................................
+1C   (1H)  Dble  (P)
+?
+
+1S = 3{times}{spades}, up to 17 without {hearts} stopper
+2S = 4{times}{spades}, minimum range
+2H = GF, not 4{times}{spades}
+..................................................
+
+=== When opps have each bid a suit
+
+Bidding a suit we are over is natural.  Bidding a suit we are under is
+a cue-bid.
+ 
+[subs="normal,attributes,macros"]
+..................................................
+(1D)  P  (1H)  1S
+(P)   ?
+
+      2D = natural
+      2H = cue = good raise to 2S
+..................................................
+
+=== Strength redouble
+
+1__suit__ - (Dble) - Redble
+
+The strength redouble shows a good ten count (preferably 11) or more
+and at least four-cards in at least two of the unbid suits. Subsequent
+doubles by either player promise four cards in their suit.  A pass
+below two of opener’s suit is forcing.
+
+With a 4333 hand and a decent ten or more HCP, responder should pass
+on the first round.  A subsequent double shows high cards and three
+cards in their suit.  Opener should pull with a singleton in their
+suit, or with a doubleton and a five cards in his first suit.
+
+=== Following our take-out double
+
+Raising a one-level response just confirms a four-card suit and a good
+double.  A cue-bid might be an invitational raise so advancer can
+repeat a four-card suit with a minimum.
+
+*1NT response:* _The higher their suit, the wider the ranger_.
+
+{tab}(1{C}) - Dble - (P) - 1NT = 8{ndash}11 +
+{tab}(1{S}) - Dble - (P) - 1NT = 4{ndash}10 +
+
+Following a 1NT response, 2M shows a big hand but #2m is to play#.
+
+[subs="normal,attributes,macros"]
+..................................................
+          (1H)  Dble
+(P)  1NT  (P)    ?
+
+                Bid 2C with: {spades}A82 {hearts}7 {diams}QJ94 {clubs}AQT74
+..................................................
+
+When they bid 1NT over our take-out double, a cue-bid of their minor
+shows both majors but does not promise a good hand.
+
+
+[subs="normal,attributes,macros"]
+..................................................
+(1D)  Dble  (1NT)  ?
+
+                  Bid 2D with: {spades}JT93 {hearts}K982 {diams}8763 {clubs}4
+..................................................
+
+=== Passing a redouble
+
+At the two-level or higher, passing a redouble is for penalty.
+
+At the one-level, passing a redouble is for penalty only when OVER their suit.
+
+[subs="normal,attributes,macros"]
+..................................................
+(1S)  Dble  (Rdbl)  P   = NOT for penalty, doubler must bid
+
+             (1S)   P
+(P)   Dble  (Rdbl)  P   =  PENALTY
+..................................................
 
