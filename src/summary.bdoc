@@ -159,7 +159,7 @@ We play our 2NT system
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ #JS to 3m = natural inv (not fit)#
+@ JS to 3m = weak
 @ #JS or DJS to 4m = suit {plus} fit#
 
 
@@ -203,8 +203,8 @@ We play our 2NT system
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ #1{D}-(1M)-3{C} = natural inv#
-@ #1{D}-(2{C})-3M = natural inv#
+@ 1{D}-(1M)-3{C} = weak
+@ 1{D}-(2{C})-3M = weak
 @ #DJS to 4om = suit {plus} fit#
 
 [IMPORTANT]
