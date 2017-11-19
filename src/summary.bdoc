@@ -501,12 +501,12 @@ three level_.
 
 Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-|     |      | (1{C}) | P    |
-| (P) | 1{H} | (P)    | ?    |
-|     |      |        | 2{C} | natural
-|     |      |        | 2{D} | good raise of {H}
+|     |      | (1{C}) | P    | |
+| (P) | 1{H} | (P)    | ?    | |
+|     |      |        | 2{C} | | natural
+|     |      |        | 2{D} | | good raise of {H}
 |===
 
 == 2/1 Auctions
@@ -581,9 +581,9 @@ immediately to the two-level or higher with 4-card support.
 |===
 | 1{C} | (1{H}) | Dble | (P) |
 |  ?   3+| | {tab}{tab}{tab}
-| 1{S} 4+<| 3{times}{spades}, up to 17 with no {H} stopper
-| 2{S} 4+<| 4{times}{spades}, minimum range
-| 2{H} 4+<| GF, not 4{times}{spades}
+| 1{S} | 3+<| 3{times}{spades}, up to 17 with no {H} stopper
+| 2{S} | 3+<| 4{times}{spades}, minimum range
+| 2{H} | 3+<| GF, not 4{times}{spades}
 |===
 
 === When opps have each bid a suit
