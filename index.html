@@ -196,7 +196,7 @@ a:hover, a:focus { color: #333; }
 a img { border: none; }
 
 /* Default paragraph styles */
-p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.6; margin-bottom: 1.25em; text-rendering: optimizeLegibility; }
+p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.4; margin-bottom: 1.25em; text-rendering: optimizeLegibility; }
 p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
 
 /* Default header styles */
@@ -205,7 +205,7 @@ h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title
 
 h1 { font-size: 2.125em; }
 
-h2 { font-size: 1.6875em; }
+h2 { font-size: 1.6875em; color: #993300;}
 
 h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; }
 
@@ -269,16 +269,17 @@ blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
 .vevent abbr { cursor: auto; text-decoration: none; font-weight: bold; border: none; padding: 0 0.0625em; }
 
 @media only screen and (min-width: 768px) { h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { line-height: 1.4; }
-  h1 { font-size: 2.75em; }
-  h2 { font-size: 2.3125em; }
-  h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.6875em; }
-  h4 { font-size: 1.4375em; } }
+  /* h1 { font-size: 2.75em; } */
+  /* h2 { font-size: 2.3125em; } */
+  /* h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.6875em; } */
+  /* h4 { font-size: 1.4375em; } */
+					  }
 /* Tables */
 table { background: #fff; margin-bottom: 1.25em; border: solid 1px #ddd; }
-table thead, table tfoot { background: #f5f5f5; font-weight: bold; }
-table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.5em 0.625em 0.625em; font-size: inherit; color: #222; text-align: left; }
-table tr th, table tr td { padding: 0.5625em 0.625em; font-size: inherit; color: #222; }
-table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f9f9f9; }
+table thead, table tfoot { background: #f0f0f0; font-weight: bold; }
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.125em 0.5em; font-size: inherit; color: #222; text-align: left; }
+table tr th, table tr td { padding: 0em 0.5em; font-size: inherit; color: #222; }
+table tr.even, table tr.alt, table tr:nth-of-type(even) { background: #f0f0f0; }
 table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td { display: table-cell; line-height: 1.4; }
 
 body { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; tab-size: 4; }
@@ -913,11 +914,11 @@ double or Lebensohl.</p>
 <p>Double by either player is take-out <em>as though the interference was
 natural.</em></p>
 <div class="paragraph">
-<p>2M = to play (except when they show 5, then Michaels)<br>
-<mark>3m = inv.</mark><br>
-3M = forcing<br>
-3&thinsp;<em>cue-bid</em> = Stayman, no stopper<br>
-2NT = Lebensohl</p>
+<p>&#160;<span class="mildblue">&bull;</span> 2M = to play (except when they show 5, then Michaels)<br>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>3m = inv.</mark> </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3M = forcing </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3&thinsp;<em>cue-bid</em> = Stayman, no stopper </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = Lebensohl </span></p>
 </div>
 </dd>
 <dt class="hdlist1">vs. 2NT (minors)</dt>
@@ -938,18 +939,84 @@ natural.</em></p>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> OMaR to set trump after Stayman </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Smolen can include 5-5 majors COG </span></p>
 </div>
-<div class="paragraph">
-<p><strong>3&#9824;</strong> &#10140; 3NT, then<br>
-&emsp;&ensp; pass = to play<br>
-&emsp;&ensp; 4m = natural slam inv., then<br>
-&emsp;&ensp;&emsp;&ensp; next step = RKC<br>
-&emsp;&ensp;&emsp;&ensp; 4NT = to play<br>
-&emsp;&ensp; 4M = stiff with three in other major<br>
-&emsp;&ensp; 4NT = both minors weak<br></p>
-</div>
-<div class="paragraph">
-<p><strong>3NT</strong> = at least 5-5 minors slam inv.</p>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9824;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">forces 3NT</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">pass</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">to play</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4m</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural slam inv.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="mildblue">&#8227;</span> next step = RKC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="mildblue">&#8227;</span> 4NT = to play</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">stiff with three in other major</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">both minors weak</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">at least 5-5 minors slam inv.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4m</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RKC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">decline</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
@@ -1061,10 +1128,10 @@ natural.</em></p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p><strong>Neg. free bids</strong> apply in <em>other major</em>&thinsp; after 1m-(1M)<br>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2oM = 6-cd suit (or good 5), NF </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> JS to 3oM = 6-cd suit, GF </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Dble = 4 or 5 &times; oM, <em>any strength</em> </span></p>
+<p><strong>Neg. free bid</strong> in <em>hearts</em>&thinsp; after 1m-(1&#9824;)<br>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2<span class="red">&#9829;</span> = 6-cd suit (or good 5), NF </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3<span class="red">&#9829;</span> = 6-cd suit, GF </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Dble = 4 or 5 &times; <span class="red">&#9829;</span>, <em>any strength</em> </span></p>
 </div>
 </td>
 </tr>
@@ -1115,34 +1182,104 @@ Fourth suit or new third-suit is forcing one round</p>
 <dt class="hdlist1">Fourth suit at the 1-level</dt>
 </dl>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>  1&#9827; - 1&#9826;
-  1&#9825; - ?
-       1&#9824; = natural 6-10 or 11+ artificial
-         \_ opener assumes natural
-       2&#9824;,2NT = natural GF</pre>
-</div>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1&#9827;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1&#9824;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural 6-10 or 11+ artificial</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="mildblue">&#8227;</span> opener assumes natural</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2&#9824;,2NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural GF</p></td>
+</tr>
+</tbody>
+</table>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Fourth suit at the 3-level</dt>
 </dl>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>  1&#9825; - 1&#9824;
-  2&#9826; - ?
-       <mark>2NT = 11-14, one-round force</mark>
-       3&#9826;, 3&#9825;, 3&#9824; = natural, GF
-       3NT = 15-17
-       3&#9827; = invitation in &#9826;, &#9825;, or &#9824;
-         \_ opener uses paradox responses
-            3&#9826; = decline &#9826;
-            3&#9825; = accept &#9826;, decline &#9825;
-            etc.</pre>
-</div>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1&#9824;</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>11-14, F1</mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="red">&#9830;</span>,3<span class="red">&#9829;</span>,3&#9824;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, GF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15-17</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3&#9827;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">invitation in <span class="red">&#9830;</span>, <span class="red">&#9829;</span>, or &#9824;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>paradox responses</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="red">&#9830;</span> = decline <span class="red">&#9830;</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="red">&#9829;</span> = accept <span class="red">&#9830;</span>, decline <span class="red">&#9829;</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>etc.</em></p></td>
+</tr>
+</tbody>
+</table>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -1175,15 +1312,39 @@ below).</p>
 <dt class="hdlist1">After 1<span class="red">&#9829;</span>-1&#9824;</dt>
 </dl>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>  1&#9825;  - 1&#9824;
-  1NT - 2&#9827;* sign-off in &#9826;, or some inv.
-  ?
-  2&#9826;    = normal relay-accept
-  2&#9825;    = paradox, 4 &times; &#9826;, hence minimum</pre>
-</div>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9824;</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sign-off in <span class="red">&#9830;</span>, or some inv.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top" colspan="2"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">normal relay-accept</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">paradox, 4 &times; <span class="red">&#9830;</span>, hence minimum</p></td>
+</tr>
+</tbody>
+</table>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Passed hand</dt>
@@ -1203,34 +1364,17 @@ below).</p>
 <div class="sect2">
 <h3 id="_reverses">Reverses</h3>
 <div class="paragraph">
-<p><em>A reverse after 1-level suit-response promises a rebid below-game</em>.
-The default rebid is the cheaper of 4th-suit and 2NT.</p>
+<p><em>A reverse after 1-level suit-response promises a rebid below-game</em>.</p>
 </div>
-<table class="tableblock frame-all grid-all">
-<colgroup>
-<col>
-<col>
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-center valign-top" colspan="2">Default bids</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1m   - 1&#9824;<br>
-  2<span class="red">&#9829;</span> - 2NT</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1&#9827; - 1M<br>
-  2<span class="red">&#9830;</span> - 2oM</p></td>
-</tr>
-</tbody>
-</table>
 <div class="paragraph">
-<p>Following a default bid, opener can force again by bidding above
-three of the original minor.</p>
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Default rebid = cheaper of 4th-suit &amp; 2NT </span>
+<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> to force, opener bids above 3 of 1<sup>st</sup>-suit </span></p>
 </div>
 <div class="paragraph">
 <p><strong>Reverse after 1NT response</strong></p>
+</div>
+<div class="paragraph">
+<p><em>Does not promise a rebid</em></p>
 </div>
 <div class="paragraph">
 <p><em>e.g.</em>&thinsp; 1<span class="red">&#9830;</span> &ndash; 1NT; 2<span class="red">&#9829;</span> = unbalanced raise to 2NT</p>
@@ -1242,19 +1386,164 @@ three of the original minor.</p>
 <div class="sect2">
 <h3 id="_after_opener_raises">After opener raises</h3>
 <div class="paragraph">
-<p>1m &ndash; 1M; 2M &ndash; ?</p>
-</div>
-<div class="paragraph">
 <p><span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <em>We do NOT play &#8220;Quality &amp; Quantity&#8221;</em></p>
 </div>
 <div class="paragraph">
-<p>Natural continuations, including NF 2NT<br>
-Return to opener&#8217;s minor = natural, inv,<mark> NF&#160;</mark><br>
-Other major = natural, inv+ (F1)<br>
-Other minor = GF, semi-natural.  Then by opener:<br>
-&#160;<span class="mildblue">&#8227;</span> 3M = 4-card raise<br>
-&#160;<span class="mildblue">&#8227;</span> 3NT = 3-card raise short in other minor<br>
-&#160;<span class="mildblue">&#8227;</span> 3oM = (4th suit) 3-card raise short in oM<br></p>
+<p>Responder uses natural NF invitations, and choice-of-game.</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1m</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2M</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, inv,<mark> NF </mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3m</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, inv,<mark> NF </mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">five-card suit, inv</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, COG</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><em>Three other-minor</em>&thinsp; is GF often a slam-try.</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1m</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2M</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3om*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>semi-natural, GF</mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3M</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4-card raise</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise short in other minor</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3oM*</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise short in other major</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The other major is natural and forcing one-round.  With a min, opener
+makes a natural bid.  With a max, opener bids <em>three
+other-minor</em>&thinsp; to show four hearts, or jumps to show four
+spades.</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9824;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, F1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">min, 3&times;<span class="red">&#9829;</span>, short &#9824;, NF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9827;</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3&times;<span class="red">&#9829;</span>, 5|6&times;&#9827;, short <span class="red">&#9830;</span>, NF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><mark>3<span class="red">&#9830;</span>*</mark></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>max, 4&times;<span class="red">&#9829;</span>, GF</mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">min, 4&times;<span class="red">&#9829;</span>, NF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9824;</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">min, 4&times;&#9824;, NF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">max, 3&times;<span class="red">&#9829;</span>, short &#9824;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4&#9827;*</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">max, <mark>4&times;&#9824;</mark>, good &#9827;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4<span class="red">&#9830;</span>*</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">max, <mark>4&times;&#9824;</mark>, splinter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>In comp.</strong></p>
 </div>
 <div class="paragraph">
 <p>When opener is known to have a 4-card raise (<em>e.g.</em>&thinsp; no support
@@ -1297,47 +1586,110 @@ double), then new suits are natural game-tries.</p>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3&#9827; = one-loser black-suit </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3<span class="red">&#9830;</span>,3<span class="red">&#9829;</span>,3&#9824;,4&#9827; = transfer to solid suit </span></p>
 </div>
-<table class="tableblock frame-all grid-all">
+<table class="tableblock frame-all grid-"none">
 <colgroup>
+<col>
+<col>
+<col>
 <col>
 <col>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-center valign-top" colspan="2">Second Negative</th>
+<th class="tableblock halign-center valign-top" colspan="5">Second Negatives</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2&#9827; - 2<span class="red">&#9830;</span><br>
-  2M   - 2NT*</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2&#9827; - 2<span class="red">&#9830;</span><br>
-  3m   - 3<span class="red">&#9829;</span>*</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&emsp;&ensp;|&emsp;&ensp;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2M</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&emsp;&ensp;|&emsp;&ensp;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3m</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="red">&#9829;</span>*</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
 <p>Following a 2nd neg, we can stop in 3M or 4m.</p>
 </div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1">Special sequences</dt>
-<dd>
-<p>2&#9827;-2<span class="red">&#9830;</span><br>
-2&#9824;-3<span class="red">&#9829;</span> = positive, no fit, no 5&#8209;card suit, usually 1&#8209;4&#8209;4&#8209;4</p>
 <div class="paragraph">
-<p>2&#9827; - 2<span class="red">&#9830;</span><br>
-3M &ensp; = 4 &times; M, 5<sup><strong>+</strong></sup> &times; <span class="red">&#9830;</span>, GF<br>
-&emsp;&ensp;&ensp; 3&#9824; (M=<span class="red">&#9829;</span>) = natural, 6<sup><strong>+</strong></sup> &times; &#9824;<br>
-&emsp;&ensp;&ensp; 3NT = to play, no help in opener&#8217;s suits<br>
-<mark>&emsp;&ensp;&ensp; 4&#9827; = agrees M (secondary suit)</mark><br>
-&emsp;&ensp;&ensp; 4<span class="red">&#9830;</span> = agrees <span class="red">&#9830;</span> (primary suit)<br>
-&emsp;&ensp;&ensp; 4<span class="red">&#9829;</span> (M=&#9824;) = agrees &#9824; with short <span class="red">&#9830;</span><br>
-&emsp;&ensp;&ensp; 4M,5<span class="red">&#9830;</span> = sign-off</p>
+<p><strong>Special sequences</strong></p>
 </div>
-</dd>
-</dl>
-</div>
+<table class="tableblock frame-all grid-"none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9824;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">positive, no fit, no 5&#8209;card suit, usually 1&#8209;4&#8209;4&#8209;4</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-"none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3M*</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <mark>4&times;M, 5<sup><strong>+</strong></sup>&times;<span class="red">&#9830;</span>, GF</mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9824;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(M=<span class="red">&#9829;</span>), natural, 6<sup><strong>+</strong></sup> &times; &#9824;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">to play, no help in opener&#8217;s suits</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4&#9827;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees M</mark> (secondary suit)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">agrees <span class="red">&#9830;</span> (primary suit)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">(M=&#9824;), agrees &#9824; with short <span class="red">&#9830;</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4M,5<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sign-off</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect1">
@@ -1416,14 +1768,45 @@ three level</em>.</p>
 <div class="paragraph">
 <p>Following a balancing 1M, the unbid minor shows a good raise (like Drury).</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>              (1&#9827;)   P
-  (P)   1&#9825;    (P)    ?
-                     2&#9827; = natural
-                     2&#9826; = good raise of hearts</pre>
-</div>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9827;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">pass</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">good raise of <span class="red">&#9829;</span></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -1445,7 +1828,7 @@ three level</em>.</p>
 <h2 id="_two_suited_overcalls_klinger">Two-suited overcalls (Klinger)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue &amp; lowest J.O. = next 2 suits </span>
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue-bid &amp; lowest J.O. = next 2 suits </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = suit-below + suit-above </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Only applies in direct seat </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> ON vs short club or diamond </span></p>
@@ -1457,16 +1840,59 @@ three level</em>.</p>
 <p>If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
 an Ogust-type enquiry.</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>          (1&#9827;)  2&#9826;   = majors
-(P)  2NT* (P)   ?    * range-ask
-                3&#9827;   = weak   (6-8)
-                3&#9826;   = medium (9-11)
-                3&#9825;   = strong (12-14)
-                3&#9824;   = huge   (16+)</pre>
-</div>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9827;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">majors</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* range-ask</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9827;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">weak   (6-8)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">medium (9-11)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">strong (12-14)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9824;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">huge (16+)</p></td>
+</tr>
+</tbody>
+</table>
 <div class="paragraph">
 <p>The HCP ranges do not count queens and jacks in the side suits and are
 a point or two higher when vulnerable.</p>
@@ -1485,15 +1911,56 @@ asks for strength.</p>
 <div class="paragraph">
 <p><em>A call is natural and non-forcing unless defined otherwise.</em></p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>       1&#9826;   (P)	  1&#9824;
-(2&#9825;)   P    (P)	  3&#9827;    = natural, NF
-
-       1NT  (P)   2&#9826;
-(2&#9824;)    P   (P)   3&#9827;    = natural, NF</pre>
-</div>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9824;</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2<span class="red">&#9829;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">pass</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9827;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, NF</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">pass</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3&#9827;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, NF</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="sect2">
 <h3 id="_after_a_support_double">After a support double</h3>
@@ -1511,16 +1978,41 @@ asks for strength.</p>
 though raising a one-level bid</em>.&thinsp; That is, opener bids
 immediately to the two-level or higher with 4-card support.</p>
 </div>
-<div class="literalblock">
-<div class="content">
-<pre>1&#9827;   (1&#9825;)  Dble  (P)
-?
-
-1&#9824; = 3&times;&#9824;, up to 17 without &#9825; stopper
-2&#9824; = 4&times;&#9824;, minimum range
-2&#9825; = GF, not 4&times;&#9824;</pre>
-</div>
-</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1<span class="red">&#9829;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(pass)</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top" colspan="3"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9824;</p></td>
+<td class="tableblock halign-left valign-top" colspan="4"><p class="tableblock">3&times;&#9824;, up to 17 with no <span class="red">&#9829;</span> stopper</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9824;</p></td>
+<td class="tableblock halign-left valign-top" colspan="4"><p class="tableblock">4&times;&#9824;, minimum range</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top" colspan="4"><p class="tableblock">GF, not 4&times;&#9824;</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="sect2">
 <h3 id="_when_opps_have_each_bid_a_suit">When opps have each bid a suit</h3>
