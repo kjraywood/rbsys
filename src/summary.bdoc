@@ -503,10 +503,10 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|        |      | (1{C}) | pass |
-| (pass) | 1{H} | (pass) | ?    |
-|        |      |        | 2{C} | natural
-|        |      |        | 2{D} | good raise of {H}
+|     |      | (1{C}) | P    |
+| (P) | 1{H} | (P)    | ?    |
+|     |      |        | 2{C} | natural
+|     |      |        | 2{D} | good raise of {H}
 |===
 
 == 2/1 Auctions
@@ -530,14 +530,14 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
 an Ogust-type enquiry.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-|        |      | (1{C}) | 2{D} | majors
-| (pass) | 2NT* | (pass) | ?    | * range-ask
-|        |      |        | 3{C} | weak   (6-8)
-|        |      |        | 3{D} | medium (9-11)
-|        |      |        | 3{H} | strong (12-14)
-|        |      |        | 3{S} | huge (16+)
+|     |      | (1{C}) | 2{D} | | majors
+| (P) | 2NT* | (P)    | ?    | | * range-ask
+|     |      |        | 3{C} | | weak   (6-8)
+|     |      |        | 3{D} | | medium (9-11)
+|     |      |        | 3{H} | | strong (12-14)
+|     |      |        | 3{S} | | huge (16+)
 |===
 
 The HCP ranges do not count queens and jacks in the side suits and are
@@ -554,14 +554,14 @@ _A call is natural and non-forcing unless defined otherwise._
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|        | 1{D} | (pass) | 1{S} |
-| (2{H}) | pass | (pass) | 3{C} | natural, NF
+|        | 1{D} | (P) | 1{S} |
+| (2{H}) | P    | (P) | 3{C} | natural, NF
 |===
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|        | 1NT  | (pass) | 2{D} |
-| (2{S}) | pass | (pass) | 3{C} | natural, NF
+|        | 1NT  | (P) | 2{D} |
+| (2{S}) | P    | (P) | 3{C} | natural, NF
 |===
 
 === After a support double
@@ -579,7 +579,7 @@ immediately to the two-level or higher with 4-card support.
  
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1{C} | (1{H}) | Dble | (pass) |
+| 1{C} | (1{H}) | Dble | (P) |
 |  ?   3+| | {tab}{tab}{tab}
 | 1{S} 4+<| 3{times}{spades}, up to 17 with no {H} stopper
 | 2{S} 4+<| 4{times}{spades}, minimum range
