@@ -590,15 +590,14 @@ immediately to the two-level or higher with 4-card support.
 
 Bidding a suit we are over is natural.  Bidding a suit we are under is
 a cue-bid.
- 
-[subs="normal,attributes,macros"]
-..................................................
-(1D)  P  (1H)  1S
-(P)   ?
 
-      2D = natural
-      2H = cue = good raise to 2S
-..................................................
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1{D} | P    | (1{H}) | 1{S}
+| (P)  | ?    |        |
+|      | 2{D} |        | natural
+|      | 2{H} |        | cue-bid, good raise to 2{S}
+|===
 
 === Strength redouble
 
@@ -620,10 +619,13 @@ Raising a one-level response just confirms a four-card suit and a good
 double.  A cue-bid might be an invitational raise so advancer can
 repeat a four-card suit with a minimum.
 
-*1NT response:* _The higher their suit, the wider the ranger_.
+*1NT response* => _The higher their suit, the wider the ranger_
 
-{tab}(1{C}) - Dble - (P) - 1NT = 8{ndash}11 +
-{tab}(1{S}) - Dble - (P) - 1NT = 4{ndash}10 +
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (1{C}) | Dble | (P) | 1NT | | 8{ndash}11
+| (1{S}) | Dble | (P) | 1NT | | 4{ndash}10
+|===
 
 Following a 1NT response, 2M shows a big hand but #2m is to play#.
 
