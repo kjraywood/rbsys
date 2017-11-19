@@ -307,9 +307,9 @@ After 1{H}-1{S}::
 | 2{H} |       | paradox, 4 {times} {D}, hence minimum
 |===
 
-Passed hand::
-2{C}{thinsp}{forces}{thinsp}2{D} sequences ON +
-2{D} = natural weak with 5{times}M
+*Passed hand*
+@ 2{C}{thinsp}{forces}{thinsp}2{D} sequences ON
+@ 2{D} = natural weak with 5{thinsp}{times}{thinsp}M
 
 === Wolff Sign-Off
 
@@ -319,7 +319,7 @@ Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
 
 _A reverse after 1-level suit-response promises a rebid below-game_.
 
-@ Default rebid = cheaper of 4th-suit & 2NT
+Default rebid = cheaper of 4th-suit & 2NT
 @@ to force, opener bids above 3 of 1^st^-suit
 
 *Reverse after 1NT response*
@@ -327,8 +327,7 @@ _A reverse after 1-level suit-response promises a rebid below-game_.
 _Does not promise a rebid_
 
 _e.g._{thinsp} 1{D} {ndash} 1NT; 2{H} = unbalanced raise to 2NT
-
-Responder can sign-off in 2NT, 3{C}, or 3{D}
+@@ responder can sign-off in 2NT, 3{C}, or 3{D}
 
 === After opener raises
 
@@ -414,8 +413,8 @@ double), then new suits are natural game-tries.
 [%autowidth,cols="5*^",options="header",grid="none]
 |===
 5+^| Second Negatives
-| 2{C} | 2{D} | {tab}\|{tab} | 2{C} | 2{D}
-| 2M   | 2NT* | {tab}\|{tab} | 3m   | 3{H}*
+| 2{C} | 2{D} | {ensp}**\|**{ensp} | 2{C} | 2{D}
+| 2M   | 2NT* | {ensp}**\|**{ensp} | 3m   | 3{H}*
 |===
 
 Following a 2nd neg, we can stop in 3M or 4m.
