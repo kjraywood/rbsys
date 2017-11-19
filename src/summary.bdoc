@@ -25,16 +25,17 @@ Opener usually bypasses four-card majors to rebid notrump
 @ Promises a 4-card major
 @ Includes 5{times}{S} + 5{times}__other__{thinsp} inv
 
-*Rebids:*{ensp}splinter
+*Rebids*
+@ splinter
 @ Smolen @ 2-level
-@ OMaR{ensp}[{ensp}5{times}{S} + 5{times}m inv
-[nobr]##{nbsp}|{nbsp} COG (3NT = 4333 with fit)##
-[nobr]##{nbsp}|{nbsp} void splinter##
-[nobr]##{nbsp}|{nbsp} set trump for RKC{ensp}]##
+@ OMaR
+
+*OMaR* => 5{times}{S} + 5{times}m, inv {or} COG {or} void splinter {or} set trump
 
 {warning} _We do NOT play delayed Texas or delayed Gerber_
 
-*vs double:*{ensp}pass promises a stopper
+*vs double*
+@ pass promises a stopper
 @ reverse transfers
 @ 2NT = 4-4 majors min
 @ 3{C} = 4-4 majors max
@@ -42,26 +43,21 @@ Opener usually bypasses four-card majors to rebid notrump
 
 === Jacoby transfers
 
-*Super accept* = 2T + 1
-@@ Responder can re-transfer or describe further +
-*Transfer then 3m* = GF
+@ Super accept = 2T + 1
+@@ Responder re-transfers or describe further +
+@ Transfer then 3m = GF
 @@ Opener assumes COG.  New suit agrees minor +
-*OMaR*{ensp}{startsb}{ensp}{H} + m, inv
-[nobr]##{nbsp}|{nbsp} COG (3NT vs.{sp}4M)##
-[nobr]##{nbsp}|{nbsp} void self-splinter{ensp}{endsb}##
+@ OMaR => {H} + m, inv {or} COG {or} void self-splinter
 
 === Minor-suit transfers
 
-*2{S} {nbsp}*= {C} weak|strong, or balanced inv
-@@ Opener bids 2NT (min) or 3{C} (max). +
-*2NT* = {D} weak|strong, or weak with both minors
-@@ Opener bids preferred minor
-
-Transfer to {C} then 3{D} = 5-5 minors GF.
+@ *2{S}* = {C} weak{or}strong, or balanced inv
+@@ opener bids 2NT (min) or 3{C} (max) +
+@ *2NT* = {D} weak{or}strong, or weak both minors
+@@ opener chooses minor +
+@ Transfer to {C} then 3{D} = 5-5 minors GF
 @@ then by opener: 3{H} => {C}, 3{S} => {D}
-
-Transfer to minor then 3M = shortness
-
+@ Transfer to minor then 3M = shortness
 
 === 3-level responses
 
