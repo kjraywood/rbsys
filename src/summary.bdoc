@@ -249,8 +249,8 @@ _ [* except see below ]
 @ vs double: system on 
 @  vs suit bid: limit bidding & cue=GF
 
-*Fourth suit at the 1-level*
-
+[caption=]
+.Fourth suit at the 1-level
 [%autowidth,cols="3*<",grid="none"]
 |===
 | 1C   | 1D     |
@@ -260,8 +260,8 @@ _ [* except see below ]
 |      | 2S,2NT | natural GF
 |===
 
-*Fourth suit at the 3-level*
-
+[caption=]
+.Fourth suit at the 3-level
 [%autowidth,cols="3*<",grid="none"]
 |===
 | 1H | 1S       |
@@ -292,8 +292,8 @@ below).
 @ OFF if either opp has shown a suit
 @@ cue = GF, jumps are inv
 
-
-.2WCB after both majors
+[caption=]
+.Both majors
 [%autowidth,cols="^,^,<",grid="none"]
 |===
 | 1H   | 1S  |
@@ -406,9 +406,10 @@ double), then new suits are natural game-tries.
 @ 3C = one-loser black-suit
 @ 3D,3H,3S,4C = transfer to solid suit
 
-[%autowidth,cols="2*<",grid="cols",options="header"]
+[caption=]
+.Second Negatives
+[%autowidth,cols="2*<",grid="cols"]
 |===
-2+^| Second Negatives
 | {nbsp} 2C {tab} 2D    | {nbsp} 2C {emsp}{thinsp} 2D
 | {nbsp} 2M {emsp} 2NT* | {nbsp} 3m {emsp}         3H*
 |===
