@@ -10,14 +10,17 @@ BIDS := -e '/^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g'
 
 SUIT_LENGTH := -e '/^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{xtimes}\2/g'
 
-# wrapping list : on lines beginning with "@ " or " @ "
+# wrapping list : on lines beginning with "_ ", "@ " or " @ "
 #               : replace leading @ "[nobr]##{isep}"
 #		: insert closing " ##" before final " +" or at EOL
 
-WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
+WRAPP_LEV0 = -e '/^[[:blank:]]*_[[:blank:]]/{ \
+                 s/_/\[nobr\]\#\#{nbsp}/; s/( \+)?$$/ \#\#\1/}'
+
+WRAPP_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
                  s/@/\[nobr\]\#\#{isep}/; s/( \+)?$$/ \#\#\1/}'
 
-WRAPPING_LEV2 = -e '/^[[:blank:]]*@@[[:blank:]]/{ \
+WRAPP_LEV2 = -e '/^[[:blank:]]*@@[[:blank:]]/{ \
                  s/@@/\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}'
 
 SED = /usr/bin/sed -E
@@ -30,7 +33,7 @@ $(HTML): $(MAIN) $(MACROS) $(ADOCS)
 	asciidoctor -a stylesheet=foundation.css $(MAIN) -o $@
 
 %.adoc : %.bdoc
-	$(SED) $(BIDS) $(SUIT_LENGTH) $(WRAPPING_LEV1) $(WRAPPING_LEV2) $< >$@
+	$(SED) $(BIDS) $(SUIT_LENGTH) $(WRAPP_LEV0) $(WRAPP_LEV1) $(WRAPP_LEV2) $< >$@
 
 install: $(HTML)
 	install -m 0664 -t $(THIS_DIR)../ $<
