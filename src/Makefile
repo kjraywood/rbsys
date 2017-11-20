@@ -8,7 +8,7 @@ HTML = index.html
 
 BIDS := -e '/^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g'
 
-SUIT_LENGTH := -e '/^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{times}\2/g'
+SUIT_LENGTH := -e '/^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{xtimes}\2/g'
 
 # wrapping list : on lines beginning with "@ " or " @ "
 #               : replace leading @ "[nobr]##{isep}"
