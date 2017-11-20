@@ -10,13 +10,13 @@
 @ aggressive preempts and pre-balancing
 @ low-level take-out doubles
 
-Responding to 1C::
-Responder bypasses 1D when: +
-@ can cope with a three-card raise
+*Responding to 1C:*
+_ Bypass 1D if
+@ can cope with a 3-card raise
 @ will rebid or raise NT
 
-Opener’s rebid with a balanced hand::
-Opener usually bypasses four-card majors to rebid notrump
+*Opener’s rebid with a balanced hand:* 
+_ Usually bypass 4-card majors to rebid NT
 
 == 1NT Opening
 
@@ -95,7 +95,7 @@ Double by either player is take-out _as though the interference was
 natural._
 +
 @ 2M = to play #{thinsp}(except Michaels vs 5-card suit){thinsp}#
-@ #3m = inv.{thinsp}#
+@ #3m = inv.#
 @ 3M = forcing
 @ 3{thinsp}__cue-bid__ = Stayman, no stopper
 @ 2NT = Lebensohl
@@ -167,13 +167,12 @@ We play our 2NT system
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ JS to 3m = weak
-@ #{thinsp}JS or DJS to 4m = suit {plus} fit{thinsp}#
-
+@ JS to 3m = weak by unPH, fit by PH
+@ #{thinsp}4-__lower-suit__{thinsp} = fit{thinsp}#
 
 [IMPORTANT]
 ====
-*Neg. free bids* apply in _other major_{thinsp} after 1M-(2m) +
+*Neg. free bid in other major* applies after 1M-(2m) by _unpassed hand_ +
 @ 2oM = 6-cd suit (or good 5), NF
 @ JS to 3oM = 6-cd suit, GF
 @ Dble = 4 or 5 {times} oM, _any strength_
@@ -197,31 +196,27 @@ We play our 2NT system
 @ 2S = mixed raise
 @ 2NT = 11-12
 @ 3NT = 13-15
-@ 2H = rev. Flannery
+@ 2H = rev. Flannery #(off in comp.)#
 
 *Passed hand*
 @ Single raise = normal
 
 *vs. double*
-@ 2NT = bal. 11-12 {plus} fit, NF
-@ 3NT = bal. 13-15 {plus} fit
+@ 2NT = bal. 11-12 + fit, NF
+@ 3NT = bal. 13-15 + fit
 @ JS to other minor = unbal {LRplus}
 @ JS to major = weak
 
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ 1D-(1M)-3C = weak
-@ 1D-(2C)-3M = weak
-@ #{thinsp}DJS to 4om = suit {plus} fit{thinsp}#
+@ JS = weak* by unPH, fit by PH
+_ [* except see below ]
 
-[IMPORTANT]
-====
-*Neg. free bid* in _hearts_{thinsp} after 1m-(1S) +
-@ 2H = 6-cd suit (or good 5), NF
+*vs. 1m-(1S) by unPH*
+@ #{thinsp}2H = neg. free-bid by unPH{thinsp}#
 @ 3H = 6-cd suit, GF
 @ Dble = 4 or 5 {times} {H}, _any strength_
-====
 
 *vs. 1NT*
 @ 2C = majors
@@ -245,17 +240,16 @@ We play our 2NT system
 
 === Second-round jumps and 4th-suit forcing
 
-Uncontested::
-Second-round jumps are natural and GF +
-#A second-round raise of a minor is GF# +
-Fourth suit or new third-suit is forcing one round
+*Uncontested*
+@ 2nd-round jumps = natural & GF
+@ #2nd-round raise of minor = GF#
+@ 4th suit or new 3rd-suit = F1
 
-Contested::
-*vs double:* system on +
-*vs suit bid:* jumps are invitational and cue-bid is GF +
-{tab} {tab} {tab} AKA _Limit bidding in competition_
+*Contested*
+@ vs double: system on 
+@  vs suit bid: limit bidding & cue=GF
 
-Fourth suit at the 1-level::
+*Fourth suit at the 1-level*
 
 [%autowidth,cols="3*<",grid="none"]
 |===
@@ -266,7 +260,7 @@ Fourth suit at the 1-level::
 |      | 2S,2NT | natural GF
 |===
 
-Fourth suit at the 3-level::
+*Fourth suit at the 3-level*
 
 [%autowidth,cols="3*<",grid="none"]
 |===
@@ -298,8 +292,8 @@ below).
 @ OFF if either opp has shown a suit
 @@ cue = GF, jumps are inv
 
-After 1H-1S::
 
+.2WCB after both majors
 [%autowidth,cols="^,^,<",grid="none"]
 |===
 | 1H   | 1S  |
@@ -621,9 +615,9 @@ Raising a one-level response just confirms a four-card suit and a good
 double.  A cue-bid might be an invitational raise so advancer can
 repeat a four-card suit with a minimum.
 
-*1NT response* => _The higher their suit, the wider the ranger_
+*1NT response* => _The higher their suit, the wider the range_
 
-[%autowidth,cols="5*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="rows"]
 |===
 | (1C) | Dble | (P) | 1NT | | 8{ndash}11
 | (1S) | Dble | (P) | 1NT | | 4{ndash}10
@@ -631,19 +625,19 @@ repeat a four-card suit with a minimum.
 
 Following a 1NT response, 2M shows a big hand but #2m is to play#.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-|     |     | (1H) | Dble | ( {S}A82 {H}7 {D}QJ94 {C}AQT74 )
-| (P) | 1NT | (P)  | 2C   | to play
+|     |     | (1H) | Dble | | {S}A82 {H}7 {D}QJ94 {C}AQT74
+| (P) | 1NT | (P)  | 2C   | | to play
 |===
 
 When they bid 1NT over our take-out double, a cue-bid of their minor
 shows both majors but does not promise a good hand.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-| (1D) | Dble | (1NT)  | ?  | ( {S}JT93 {H}K982 {D}8763 {C}4 )
-|      |      |        | 2D | both majors, could be weak
+| (1D) | Dble | (1NT)  | ?  | | {S}JT93 {H}K982 {D}8763 {C}4
+|      |      |        | 2D | | both majors, could be weak
 |===
 
 === Passing a redouble
