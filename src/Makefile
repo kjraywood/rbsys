@@ -6,24 +6,18 @@ MACROS = macros.adoc
 ADOCS = $(SOURCES:.bdoc=.adoc)
 HTML = index.html
 
-SPADES = {spades}
-HEARTS = {hearts}
-DIAMS  = {diams}
-CLUBS  = {clubs}
+SPADES = {S}
+HEARTS = {H}
+DIAMS  = {D}
+CLUBS  = {C}
 
-BIDS := $(foreach n, 1 2 3 4 5 6 7, \
-           $(foreach suit, \
-	      S:$(n)$(SPADES) H:$(n)$(HEARTS) D:$(n)$(DIAMS) C:$(n)$(CLUBS), \
-	      -e 's:$(n)$(suit):g' \
-	   ) \
-	)
+BIDS := -e '/^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g'
+
+SUIT_LENGTH := -e '/^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{times}\2/g'
+
 # wrapping list : on lines beginning with "@ " or " @ "
 #               : replace leading @ "[nobr]##{isep}"
 #		: insert closing " ##" before final " +" or at EOL
-
-# WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
-#                  s/@/pass:\[<span class="nobr">\]{nbsp}{bull}{nbsp}/; \
-#                  s=( \+)?$$= pass:\[</span>\]\1=}'
 
 WRAPPING_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
                  s/@/\[nobr\]\#\#{isep}/; s/( \+)?$$/ \#\#\1/}'
@@ -41,7 +35,7 @@ $(HTML): $(MAIN) $(MACROS) $(ADOCS)
 	asciidoctor -a stylesheet=foundation.css $(MAIN) -o $@
 
 %.adoc : %.bdoc
-	$(SED) $(BIDS) $(WRAPPING_LEV1) $(WRAPPING_LEV2) $< >$@
+	$(SED) $(BIDS) $(SUIT_LENGTH) $(WRAPPING_LEV1) $(WRAPPING_LEV2) $< >$@
 
 install: $(HTML)
 	install -m 0664 -t $(THIS_DIR)../ $<
