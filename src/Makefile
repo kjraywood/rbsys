@@ -6,11 +6,6 @@ MACROS = macros.adoc
 ADOCS = $(SOURCES:.bdoc=.adoc)
 HTML = index.html
 
-SPADES = {S}
-HEARTS = {H}
-DIAMS  = {D}
-CLUBS  = {C}
-
 BIDS := -e '/^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g'
 
 SUIT_LENGTH := -e '/^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{times}\2/g'
