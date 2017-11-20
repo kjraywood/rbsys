@@ -10,8 +10,8 @@
 @ aggressive preempts and pre-balancing
 @ low-level take-out doubles
 
-Responding to 1{C}::
-Responder bypasses 1{D} when: +
+Responding to 1C::
+Responder bypasses 1D when: +
 @ can cope with a three-card raise
 @ will rebid or raise NT
 
@@ -23,14 +23,14 @@ Opener usually bypasses four-card majors to rebid notrump
 === Stayman
 
 @ Promises a 4-card major
-@ Includes 5{times}{S} + 5{times}__other__{thinsp} inv
+@ Includes 5*{S} + 5*__other__{thinsp} inv
 
 *Rebids*
 @ splinter
 @ Smolen @ 2-level
 @ OMaR
 
-*OMaR* => 5{times}{S} + 5{times}m, inv {or} COG {or} void splinter {or} set trump
+*OMaR* => 5*{S} + 5*m, inv {or} COG {or} void splinter {or} set trump
 
 {warning} _We do NOT play delayed Texas or delayed Gerber_
 
@@ -38,7 +38,7 @@ Opener usually bypasses four-card majors to rebid notrump
 @ pass promises a stopper
 @ reverse transfers
 @ 2NT = 4-4 majors min
-@ 3{C} = 4-4 majors max
+@ 3C = 4-4 majors max
 @ Redouble = double neg. (no stop, no M)
 
 === Jacoby transfers
@@ -51,47 +51,55 @@ Opener usually bypasses four-card majors to rebid notrump
 
 === Minor-suit transfers
 
-@ *2{S}* = {C} weak{or}strong, or balanced inv
-@@ opener bids 2NT (min) or 3{C} (max) +
+@ *2S* = {C} weak{or}strong, or balanced inv
+@@ opener bids 2NT (min) or 3C (max) +
 @ *2NT* = {D} weak{or}strong, or weak both minors
 @@ opener chooses minor +
-@ Transfer to {C} then 3{D} = 5-5 minors GF
-@@ then by opener: 3{H} => {C}, 3{S} => {D}
+@ Transfer to {C} then 3D = 5-5 minors GF
+@@ then by opener: 3H => {C}, 3S => {D}
 @ Transfer to minor then 3M = shortness
 
 === 3-level responses
 
-3{C} = five-card Stayman + 
-3{D} = at least 5-5 majors, GF +
-3{H},3{S} = stiff with three in other major
+@ 3C = five-card Stayman
+@ 3D = at least 5-5 majors, GF
+@ 3H,3S = stiff with three in other major
 
 === Interference over 1NT
 
 vs. penalty double::
 @ pass = to play
 @@ Redble by opener = 5-card suit +
-@ Redble = {C} or {D}
-@ 2{C} = {H} + {S}{ensp}{tribull}{ensp}2{D} or Redble = no pref +
-@ 2{D}, 2{H} = transfers
-@ 2{S} = 4{thinsp}{times}{thinsp}{S} + 6{thinsp}{times}{thinsp}m
+@ Redble = {C} or {D} +
+@ 2C = {H} + {S}
+@@ #{thinsp}2D or Redble = no pref{thinsp}# +
+@ 2D, 2H = transfers
+@ 2S = 4*{S} + 6*m
 @ 2NT =  {C} + {D}
-@ 3m = 6{thinsp}{times}{thinsp}m + 4{thinsp}{times}{thinsp}{H}
+@ 3m = 6*m + 4*{H}
 
-vs. natural (single-suit) 2{C}::
+vs. natural (single-suit) 2C::
  @ dble = take-out
- @@ cue (3{C}) on next-round requests stopper +
+ @@ cue (3C) on next-round requests stopper +
  @ other system ON
 
-vs. artificial double or 2{C}::
+vs. artificial double or 2C::
 @ System ON
-@ double of 2{C} = Stayman
+@ double of 2C = Stayman
 +
 We can pass to discover an unspecified suit, then use a take-out
 double or Lebensohl.
 
-vs. 2{D}, 2{H} or 2{S} (any)::
+vs. 2D, 2H or 2S (any)::
 Double by either player is take-out _as though the interference was
 natural._
++
+@ 2M = to play #{thinsp}(except Michaels vs 5-card suit){thinsp}#
+@ #3m = inv.{thinsp}#
+@ 3M = forcing
+@ 3{thinsp}__cue-bid__ = Stayman, no stopper
+@ 2NT = Lebensohl
+
 // +
 // A negative double by responder creates a competitive force and
 // subsequent doubles are penalty.
@@ -99,12 +107,6 @@ natural._
 // After a balancing double by opener further doubles by either player
 // are takeout until responder shows values by passing or making his
 // own take-out double.
-+
-{nbsp}{bull} 2M = to play (except when they show 5, then Michaels) +
-@ #3m = inv.#
-@ 3M = forcing
-@ 3{thinsp}__cue-bid__ = Stayman, no stopper
-@ 2NT = Lebensohl
 
 vs. 2NT (minors)::
 We play our 2NT system
@@ -118,7 +120,7 @@ We play our 2NT system
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
-| 2NT | 3{S} | forces 3NT
+| 2NT | 3S | forces 3NT
 | 3NT | ?    |
 |     | pass | to play
 |     | 4m   | natural slam inv.
@@ -152,8 +154,8 @@ We play our 2NT system
 
 *Passed hand responses*
 @ 3-way Drury
-@@ ON vs Dble & 1{S},{thinsp} OFF vs 2{C} +
-@ JS = mini-splinter
+@@ ON vs Dble & 1S,{thinsp} OFF vs 2C +
+@ #{thinsp}JS = fit{thinsp}#
 @ 2NT = both minors inv. 
 
 *vs. double*
@@ -166,7 +168,7 @@ We play our 2NT system
 @ cue = {LRplus}
 @ jump raise = weak
 @ JS to 3m = weak
-@ #JS or DJS to 4m = suit {plus} fit#
+@ #{thinsp}JS or DJS to 4m = suit {plus} fit{thinsp}#
 
 
 [IMPORTANT]
@@ -179,10 +181,10 @@ We play our 2NT system
 
 *vs. 1NT*
 @ 2m = m + oM
-@ Dble = penalty & _creates a force below_{thinsp} 2{S}
+@ Dble = penalty & _creates a force below_{thinsp} 2S
 
 *vs. Unusual 2NT*
-@ Dble = neg. (4 {times} oM)
+@ Dble = neg. (4*oM)
 @ lo cue = oM inv.
 @ hi cue = {LRplus}
 @ 3oM = forcing
@@ -192,10 +194,10 @@ We play our 2NT system
 @ Single raise = GF
 @ Jump raise = weak
 @ JS to other minor = LR
-@ 2{S} = mixed raise
+@ 2S = mixed raise
 @ 2NT = 11-12
 @ 3NT = 13-15
-@ 2{H} = rev. Flannery
+@ 2H = rev. Flannery
 
 *Passed hand*
 @ Single raise = normal
@@ -209,35 +211,35 @@ We play our 2NT system
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ 1{D}-(1M)-3{C} = weak
-@ 1{D}-(2{C})-3M = weak
-@ #DJS to 4om = suit {plus} fit#
+@ 1D-(1M)-3C = weak
+@ 1D-(2C)-3M = weak
+@ #{thinsp}DJS to 4om = suit {plus} fit{thinsp}#
 
 [IMPORTANT]
 ====
-*Neg. free bid* in _hearts_{thinsp} after 1m-(1{S}) +
-@ 2{H} = 6-cd suit (or good 5), NF
-@ 3{H} = 6-cd suit, GF
+*Neg. free bid* in _hearts_{thinsp} after 1m-(1S) +
+@ 2H = 6-cd suit (or good 5), NF
+@ 3H = 6-cd suit, GF
 @ Dble = 4 or 5 {times} {H}, _any strength_
 ====
 
 *vs. 1NT*
-@ 2{C} = majors
-@ 2{D},2{H} = transfer
-@ 2{S} = other minor
-@ Dble = penalty & _creates a force below_{thinsp} 2{S}
+@ 2C = majors
+@ 2D,2H = transfer
+@ 2S = other minor
+@ Dble = penalty & _creates a force below_{thinsp} 2S
 
 *vs. Unusual 2NT ({H} + other minor)*
-@ Dble = neg. (4 {times} {S})
+@ Dble = neg. (4*{S})
 @ lo cue = {S} inv.
-@ hi cue (3{H}) = {LRplus}
-@ 3{S} = forcing
+@ hi cue (3H) = {LRplus}
+@ 3S = forcing
 
 *vs. Michaels (majors)*
-@ lo cue (2{H}) = other minor
-@ hi cue (2{S}) = {LRplus}
-@ 1{C}-(2{C})-2{D} = NF
-@ 1{C}-(2{C})-2{H} = {D} GF
+@ lo cue (2H) = other minor
+@ hi cue (2S) = {LRplus}
+@ 1C-(2C)-2D = NF
+@ 1C-(2C)-2H = {D} GF
 
 == Responder's Rebid
 
@@ -257,10 +259,10 @@ Fourth suit at the 1-level::
 
 [%autowidth,cols="3*<",grid="none"]
 |===
-| 1{C} | 1{D} |
-| 1{H} | ?    |
-|      | 1S   | natural 6-10 or 11+ artificial
-|      |      | {tribull} opener assumes natural
+| 1C   | 1D     |
+| 1H   | ?      |
+|      | 1S     | natural 6-10 or 11+ artificial
+|      |        | {tribull} opener assumes natural
 |      | 2S,2NT | natural GF
 |===
 
@@ -268,24 +270,24 @@ Fourth suit at the 3-level::
 
 [%autowidth,cols="3*<",grid="none"]
 |===
-| 1{H} | 1{S} |
-| 2{D} | ?    |
-|      | 2NT            | #11-14, F1#
-|      | 3{D},3{H},3{S} | natural, GF
-|      | 3NT            | 15-17
-|      | 3{C}           | invitation in {D}, {H}, or {S}
-|      |                | *paradox responses*
-|      |                | 3{D} = decline {D}
-|      |                | 3{H} = accept {D}, decline {H}
-|      |                | _etc._
+| 1H | 1S       |
+| 2D | ?        |
+|    | 2NT      | #11-14, F1#
+|    | 3D,3H,3S | natural, GF
+|    | 3NT      | 15-17
+|    | 3C       | invitation in {D}, {H}, or {S}
+|    |          | *paradox responses*
+|    |          | 3D = decline {D}
+|    |          | 3H = accept {D}, decline {H}
+|    |          | _etc._
 |===
 
 [NOTE]
 ====
-*Rebidding after 1{H}-1{S}:* Responder's forcing 2NT rebid => 2{D}
+*Rebidding after 1H-1S:* Responder's forcing 2NT rebid => 2D
 rebid by opener must show extra strength or extra length => opener
-must rebid 1NT with a minimum 2-5-4-2 or 1-5-4-3 => with 4{times}{D}
-opener may break responder's 2wCB 2{C}-relay with a paradox 2{H} (see
+must rebid 1NT with a minimum 2-5-4-2 or 1-5-4-3 => with 4*{D}
+opener may break responder's 2wCB 2C-relay with a paradox 2H (see
 below).
 ====
 
@@ -296,20 +298,20 @@ below).
 @ OFF if either opp has shown a suit
 @@ cue = GF, jumps are inv
 
-After 1{H}-1{S}::
+After 1H-1S::
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
-| 1{H} | 1{S}  |
-| 1NT  | 2{C}* | sign-off in {D}, or some inv.
-|  ?   2+|
-| 2{D} |       | normal relay-accept
-| 2{H} |       | paradox, 4 {times} {D}, hence minimum
+| 1H   | 1S  |
+| 1NT  | 2C* | sign-off in {D}, or some inv.
+|  ?   |     |
+| 2D   |     | normal relay-accept
+| 2H   |     | paradox, 4*{D}, hence minimum
 |===
 
 *Passed hand*
-@ 2{C}{thinsp}{forces}{thinsp}2{D} sequences ON
-@ 2{D} = natural weak with 5{thinsp}{times}{thinsp}M
+@ 2C{thinsp}{forces}{thinsp}2D sequences ON
+@ 2D = natural weak with 5*M
 
 === Wolff Sign-Off
 
@@ -326,8 +328,8 @@ Default rebid = cheaper of 4th-suit & 2NT
 
 _Does not promise a rebid_
 
-_e.g._{thinsp} 1{D} {ndash} 1NT; 2{H} = unbalanced raise to 2NT
-@@ responder can sign-off in 2NT, 3{C}, or 3{D}
+_e.g._{thinsp} 1D {ndash} 1NT; 2H = unbalanced raise to 2NT
+@@ responder can sign-off in 2NT, 3C, or 3D
 
 === After opener raises
 
@@ -349,12 +351,12 @@ _Three other-minor_{thinsp} is GF often a slam-try.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
-| 1m  | 1M |
-| 2M  | 3om* | #semi-natural, GF#
-| ?   |    |
-| 3M  |    | 4-card raise
-| 3NT |    | 3-card raise short in other minor
-| 3oM* |   | 3-card raise short in other major
+| 1m   | 1M   |
+| 2M   | 3om* | #semi-natural, GF#
+| ?    |      |
+| 3M   |      | 4-card raise
+| 3NT  |      | 3-card raise short in other minor
+| 3oM* |      | 3-card raise short in other major
 |===
 
 The other major is natural and forcing one-round.  With a min, opener
@@ -364,17 +366,17 @@ spades.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
-| 1{C} | 1{H} |
-| 2{H} | 2{S} | natural, F1
-| ?    |      |
-| 2NT  |      | min, 3{times}{H}, short {S}, NF
-| 3{C} |      | 3{times}{H}, 5\|6{times}{C}, short {D}, NF
-| #3{D}*# |   | #max, 4{times}{H}, GF#
-| 3{H} |      | min, 4{times}{H}, NF
-| 3{S} |      | min, 4{times}{S}, NF
-| 3NT  |      | max, 3{times}{H}, short {S}
-| 4{C}* |     | max, #4{times}{S}#, good {C}
-| 4{D}* |     | max, #4{times}{S}#, splinter
+| 1C    | 1H |
+| 2H    | 2S | natural, F1
+| ?     |    |
+| 2NT   |    | min, 3*{H}, short {S}, NF
+| 3C    |    | 3*{H}, 5\|6*{C}, short {D}, NF
+| #3D*# |    | #max, 4*{H}, GF#
+| 3H    |    | min, 4*{H}, NF
+| 3S    |    | min, 4*{S}, NF
+| 3NT   |    | max, 3*{H}, short {S}
+| 4C*   |    | max, #4*{S}#, good {C}
+| 4D*   |    | max, #4*{S}#, splinter
 |===
 
 
@@ -393,28 +395,28 @@ double), then new suits are natural game-tries.
 @ forcing after overcall
 @ non-forcing vs double.
 
-== 2{clubsuit} Opening
+== 2C Opening
 
 {warning} We do NOT play Kokish
 
 *Default response*
-@ 2{D} = weak or waiting
+@ 2D = weak or waiting
  +
 *Natural responses*
-@ 2{H} = natural positive, any suit-quality
+@ 2H = natural positive, any suit-quality
 @ 2NT = bal 8-10 (or 13{OrMore})
 @ 3NT = bal 11-12
  +
 *Transfer responses*
-@ 2{S} = one-loser red-suit
-@ 3{C} = one-loser black-suit
-@ 3{D},3{H},3{S},4{C} = transfer to solid suit
+@ 2S = one-loser red-suit
+@ 3C = one-loser black-suit
+@ 3D,3H,3S,4C = transfer to solid suit
 
-[%autowidth,cols="5*^",options="header",grid="none]
+[%autowidth,cols="2*<",grid="cols",options="header"]
 |===
-5+^| Second Negatives
-| 2{C} | 2{D} | {ensp}**\|**{ensp} | 2{C} | 2{D}
-| 2M   | 2NT* | {ensp}**\|**{ensp} | 3m   | 3{H}*
+2+^| Second Negatives
+| {nbsp} 2C {tab} 2D    | {nbsp} 2C {emsp}{thinsp} 2D
+| {nbsp} 2M {emsp} 2NT* | {nbsp} 3m {emsp}         3H*
 |===
 
 Following a 2nd neg, we can stop in 3M or 4m.
@@ -423,20 +425,20 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
-| 2{C} | 2{D} |
-| 2{S} | 3{H} | positive, no fit, no 5{hyph}card suit, usually 1{hyph}4{hyph}4{hyph}4
+| 2C | 2D |
+| 2S | 3H | positive, no fit, no 5-card suit, usually 1-4-4-4
 |===
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
-| 2{C} | 2{D} |
-| 3M*  |  ?   | * #4{times}M, 5{OrMore}{times}{D}, GF#
-|      | 3{S} | (M={H}), natural, 6{OrMore} {times} {S}
-|      | 3NT  | to play, no help in opener's suits
-|      | 4{C} | #agrees M# (secondary suit)
-|      | 4{D} | agrees {D} (primary suit)
-|      | 4{H} | (M={S}), agrees {S} with short {D}
-|      | 4M,5{D} | sign-off
+| 2C  | 2D    |
+| 3M* |  ?    | #* 4*M, 5{OrMore}{xtimes}{D}, GF#
+|     | 3S    | (M={H}), natural, 6{OrMore}{xtimes}{S}
+|     | 3NT   | to play, no help in opener's suits
+|     | 4C    | #agrees M# (secondary suit)
+|     | 4D    | agrees {D} (primary suit)
+|     | 4H    | (M={S}), agrees {S} with short {D}
+|     | 4M,5D | sign-off
 |===
 
 == NoTrump Overcalls
@@ -456,7 +458,7 @@ Following a 2nd neg, we can stop in 3M or 4m.
  +
 *vs weak two*
 @ 2NT = 16-19
-@ Our 2NT system ON #including 3{S} {forces} 3NT#
+@ #Our 2NT system ON, including 3S {forces} 3NT#
 @ Transfer to their major = inv in other major
 
 == Suit Overcalls
@@ -476,17 +478,17 @@ Following a 2nd neg, we can stop in 3M or 4m.
 === Two-level overcalls
 
 *Responder passes:*
-{nbsp} _e.g._ {thinsp}(1{S}) - 2{C} - (P) - ? +
+{nbsp} _e.g._ {thinsp}(1S) - 2C - (P) - ? +
 @ cue = good constructive-raise or better
 @ 2NT = natural
  +
 *Responder raises:*
-{nbsp} _e.g._ {thinsp}(1{S}) - 2{C} - (2{S}) - ? +
+{nbsp} _e.g._ {thinsp}(1S) - 2C - (2S) - ? +
 @ double = responsive
 @ 2NT = good constructive-raise or better
  +
 *Responder doubles (negative):*
-{nbsp} _e.g._ {thinsp}(1{S}) - 2{C} - (Dble) - ? +
+{nbsp} _e.g._ {thinsp}(1S) - 2C - (Dble) - ? +
 @ ReDble = defensive strength, no fit
 @ cue = good 3-card raise or better
 @ 2NT = good 4-card raise or better
@@ -503,18 +505,18 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-|     |      | (1{C}) | P    | |
-| (P) | 1{H} | (P)    | ?    | |
-|     |      |        | 2{C} | | natural
-|     |      |        | 2{D} | | good raise of {H}
+|     |      | (1C) | P  | |
+| (P) | 1H   | (P)  | ?  | |
+|     |      |      | 2C | | natural
+|     |      |      | 2D | | good raise of {H}
 |===
 
 == 2/1 Auctions
 
 @ Forcing to game or 4m
-@ 1M-2{C} = could be short
-@@ 2{D} rebid = default +
-@ 1M-2{C};{thinsp}2M = 6{OrMore} {times} M
+@ 1M-2C = could be short
+@@ 2D rebid = default +
+@ 1M-2C;{thinsp}2M = 6{OrMore}{xtimes}M
 
 {warning} _Need more_
 
@@ -532,18 +534,18 @@ an Ogust-type enquiry.
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-|     |      | (1{C}) | 2{D} | | majors
-| (P) | 2NT* | (P)    | ?    | | * range-ask
-|     |      |        | 3{C} | | weak   (6-8)
-|     |      |        | 3{D} | | medium (9-11)
-|     |      |        | 3{H} | | strong (12-14)
-|     |      |        | 3{S} | | huge (16+)
+|     |      | (1C) | 2D | | majors
+| (P) | 2NT* | (P)  | ?  | | * range-ask
+|     |      |      | 3C | | weak   (6-8)
+|     |      |      | 3D | | medium (9-11)
+|     |      |      | 3H | | strong (12-14)
+|     |      |      | 3S | | huge (16+)
 |===
 
 The HCP ranges do not count queens and jacks in the side suits and are
 a point or two higher when vulnerable.
 
-When the Klinger bid is 2NT or 3{C}, then the cue-bid of opener’s suit
+When the Klinger bid is 2NT or 3C, then the cue-bid of opener’s suit
 asks for strength.
 
 == Competitive Bidding
@@ -554,14 +556,14 @@ _A call is natural and non-forcing unless defined otherwise._
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|        | 1{D} | (P) | 1{S} |
-| (2{H}) | P    | (P) | 3{C} | natural, NF
+|      | 1D | (P) | 1S |
+| (2H) | P  | (P) | 3C | natural, NF
 |===
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|        | 1NT  | (P) | 2{D} |
-| (2{S}) | P    | (P) | 3{C} | natural, NF
+|      | 1NT  | (P) | 2D |
+| (2S) | P    | (P) | 3C | natural, NF
 |===
 
 === After a support double
@@ -571,19 +573,19 @@ Responder bids:
 @ above two of 1^st^ suit = inv
 @ cue = GF
 
-=== After a negative double of 1{D} or 1{H}
+=== After a negative double of 1D or 1H
 
 With four-card support for a major shown by responder, opener bids _as
 though raising a one-level bid_.{thinsp} That is, opener bids
 immediately to the two-level or higher with 4-card support.
  
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1{C} | (1{H}) | Dble | (P) |
-|  ?   3+| | {tab}{tab}{tab}
-| 1{S} | 3+<| 3{times}{spades}, up to 17 with no {H} stopper
-| 2{S} | 3+<| 4{times}{spades}, minimum range
-| 2{H} | 3+<| GF, not 4{times}{spades}
+| 1C | (1H) | Dble {ensp} (P)
+|  ? |      |
+| 1S |      | 3*{spades}, up to 17 with no {H} stopper
+| 2S |      | 4*{spades}, minimum range
+| 2H |      | GF, not 4*{spades}
 |===
 
 === When opps have each bid a suit
@@ -593,10 +595,10 @@ a cue-bid.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1{D} | P    | (1{H}) | 1{S}
-| (P)  | ?    |        |
-|      | 2{D} |        | natural
-|      | 2{H} |        | cue-bid, good raise to 2{S}
+| 1D  | P  | (1H) | 1S
+| (P) | ?  |      |
+|     | 2D |      | natural
+|     | 2H |      | cue-bid, good raise to 2S
 |===
 
 === Strength redouble
@@ -623,30 +625,26 @@ repeat a four-card suit with a minimum.
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-| (1{C}) | Dble | (P) | 1NT | | 8{ndash}11
-| (1{S}) | Dble | (P) | 1NT | | 4{ndash}10
+| (1C) | Dble | (P) | 1NT | | 8{ndash}11
+| (1S) | Dble | (P) | 1NT | | 4{ndash}10
 |===
 
 Following a 1NT response, 2M shows a big hand but #2m is to play#.
 
-[subs="normal,attributes,macros"]
-..................................................
-          (1H)  Dble
-(P)  1NT  (P)    ?
-
-                Bid 2C with: {spades}A82 {hearts}7 {diams}QJ94 {clubs}AQT74
-..................................................
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|     |     | (1H) | Dble | ( {S}A82 {H}7 {D}QJ94 {C}AQT74 )
+| (P) | 1NT | (P)  | 2C   | to play
+|===
 
 When they bid 1NT over our take-out double, a cue-bid of their minor
 shows both majors but does not promise a good hand.
 
-
-[subs="normal,attributes,macros"]
-..................................................
-(1D)  Dble  (1NT)  ?
-
-                  Bid 2D with: {spades}JT93 {hearts}K982 {diams}8763 {clubs}4
-..................................................
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1D) | Dble | (1NT)  | ?  | ( {S}JT93 {H}K982 {D}8763 {C}4 )
+|      |      |        | 2D | both majors, could be weak
+|===
 
 === Passing a redouble
 
@@ -654,11 +652,11 @@ At the two-level or higher, passing a redouble is for penalty.
 
 At the one-level, passing a redouble is for penalty only when OVER their suit.
 
-[subs="normal,attributes,macros"]
-..................................................
-(1S)  Dble  (Rdbl)  P   = NOT for penalty, doubler must bid
 
-             (1S)   P
-(P)   Dble  (Rdbl)  P   =  PENALTY
-..................................................
-
+[%autowidth,cols="4*^,2*<",grid="none"]
+|===
+| (1S)   | Dble | (Rdbl)  | Pass  | | NOT for penalty, doubler must bid
+|        |      |         |       | {nbsp} |
+|        |      | (1S)    | Pass  | |
+| (Pass) | Dble | (Rdbl)  | Pass  | | #{thinsp}PENALTY{thinsp}#
+|===
