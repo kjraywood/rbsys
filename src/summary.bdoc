@@ -43,11 +43,12 @@ _ Usually bypass 4-card majors to rebid NT
 
 === Jacoby transfers
 
-@ Super accept = 2T + 1
-@@ Responder re-transfers or describe further +
-@ Transfer then 3m = GF
-@@ Opener assumes COG.  New suit agrees minor +
 @ OMaR => {H} + m, inv {or} COG {or} void self-splinter
+@ Super accept = 2T + 1
+@@ Responder re-transfers or describes further +
+@ Transfer then 3m = GF, COG or slam inv.
+@@ By opener, new suit agrees minor
+@@ Raise of minor = double fit
 
 === Minor-suit transfers
 
@@ -56,7 +57,7 @@ _ Usually bypass 4-card majors to rebid NT
 @ *2NT* = {D} weak{or}strong, or weak both minors
 @@ opener chooses minor +
 @ Transfer to {C} then 3D = 5-5 minors GF
-@@ then by opener: 3H => {C}, 3S => {D}
+@@ then by opener: 3H => {C}, 3S => {D} +
 @ Transfer to minor then 3M = shortness
 
 === 3-level responses
@@ -67,7 +68,7 @@ _ Usually bypass 4-card majors to rebid NT
 
 === Interference over 1NT
 
-vs. penalty double::
+*vs. penalty double* +
 @ pass = to play
 @@ Redble by opener = 5-card suit +
 @ Redble = {C} or {D} +
@@ -78,27 +79,27 @@ vs. penalty double::
 @ 2NT =  {C} + {D}
 @ 3m = 6*m + 4*{H}
 
-vs. natural (single-suit) 2C::
- @ dble = take-out
- @@ cue (3C) on next-round requests stopper +
- @ other system ON
+*vs. natural (single-suit) 2C* +
+@ dble = take-out
+@@ cue (3C) on next-round requests stopper +
+@ other system ON
 
-vs. artificial double or 2C::
+*vs. artificial double or 2C* +
 @ System ON
 @ double of 2C = Stayman
-+
+
 We can pass to discover an unspecified suit, then use a take-out
 double or Lebensohl.
 
-vs. 2D, 2H or 2S (any)::
-Double by either player is take-out _as though the interference was
-natural._
-+
-@ 2M = to play #{thinsp}(except Michaels vs 5-card suit){thinsp}#
+*vs. 2D, 2H or 2S (any)* +
+@ 2M = to play #(except Michaels vs 5-cd suit)#
 @ #3m = inv.#
 @ 3M = forcing
 @ 3{thinsp}__cue-bid__ = Stayman, no stopper
 @ 2NT = Lebensohl
+
+Double by either player is take-out _as though the interference was
+natural._
 
 // +
 // A negative double by responder creates a competitive force and
@@ -108,8 +109,8 @@ natural._
 // are takeout until responder shows values by passing or making his
 // own take-out double.
 
-vs. 2NT (minors)::
-We play our 2NT system
+*vs. 2NT (minors)* +
+@ We play our 2NT system
 
 == 2NT Opening
 
@@ -316,7 +317,7 @@ Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
 _A reverse after 1-level suit-response promises a rebid below-game_.
 
 Default rebid = cheaper of 4th-suit & 2NT
-@@ to force, opener bids above 3 of 1^st^-suit
+@@ to force, opener bids above 3 of 1st-suit
 
 *Reverse after 1NT response*
 
@@ -564,8 +565,8 @@ _A call is natural and non-forcing unless defined otherwise._
 === After a support double
 
 Responder bids:
-@ at or below two of 1^st^ suit = weak
-@ above two of 1^st^ suit = inv
+@ at or below two of 1st suit = weak
+@ above two of 1st suit = inv
 @ cue = GF
 
 === After a negative double of 1D or 1H
