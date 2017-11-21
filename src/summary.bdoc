@@ -649,10 +649,14 @@ At the two-level or higher, passing a redouble is for penalty.
 At the one-level, passing a redouble is for penalty only when OVER their suit.
 
 
-[%autowidth,cols="4*^,2*<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| (1S)   | Dble | (Rdbl)  | Pass  | | NOT for penalty, doubler must bid
-|        |      |         |       | {nbsp} |
-|        |      | (1S)    | Pass  | |
-| (Pass) | Dble | (Rdbl)  | Pass  | | #{thinsp}PENALTY{thinsp}#
+| (1S) | Dbl | (Rdbl) | Pass* |
+5+<| NOT for penalty, doubler must bid
+|===
+
+[%autowidth,cols="3*^,3*<",grid="none"]
+|===
+|        |     | (1S)    | Pass  | |
+| (Pass) | Dbl | (Rdbl)  | Pass* | | #PENALTY#
 |===
