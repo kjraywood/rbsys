@@ -285,7 +285,7 @@ opener may break responder's 2wCB 2C-relay with a paradox 2H (see
 below).
 ====
 
-*Responder's notrump ladder*
+==== Responder's notrump ladder
 
 [caption=]
 .After three suits at the 1-level
@@ -441,7 +441,7 @@ double), then new suits are natural game-tries.
 
 Following a 2nd neg, we can stop in 3M or 4m.
 
-*Special sequences*
+==== Special sequences
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
@@ -529,7 +529,7 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 |     |      | (1C) | P  | |
 | (P) | 1H   | (P)  | ?  | |
 |     |      |      | 2C | | natural
-|     |      |      | 2D | | good raise of {H}
+|     |      |      | 2D | | good {H} raise
 |===
 
 == 2/1 Auctions
@@ -557,8 +557,8 @@ an Ogust-type enquiry.
 |===
 |     |      | (1C) | 2D | | majors
 | (P) | 2NT* | (P)  | ?  | | * range-ask
-|     |      |      | 3C | | weak   (6-8)
-|     |      |      | 3D | | medium (9-11)
+|     |      |      | 3C | | weak (6-8)
+|     |      |      | 3D | | int. (9-11)
 |     |      |      | 3H | | strong (12-14)
 |     |      |      | 3S | | huge (16+)
 |===
