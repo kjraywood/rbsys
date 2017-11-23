@@ -45,7 +45,7 @@ _ Usually bypass 4-card majors to rebid NT
 
 @ OMaR => {H} + m, inv {or} COG {or} void self-splinter
 @ Super accept = 2T + 1
-@@ Responder re-transfers or describes further +
+@@ Responder re-transfers or describes +
 @ Transfer then 3m = GF, COG or slam inv.
 @@ By opener, new suit agrees minor
 @@ Raise of minor = double fit
@@ -145,15 +145,16 @@ natural._
 @ Jump shift = natural inv.
 @ *3M + 1* = weak splinter, any suit
 
+*Single-raise*
+@ next-step game-try
+@ new-suit slam-try
+@ re-raise = inv with long trumps
+
 *Jacoby 2NT*
 @ jump new-suit = length
 @ 3NT by either = minimum
 
-*Game and slam tries*
-@ next-step game-try
-@ new-suit slam-try
-
-*Passed hand responses*
+*Passed hand*
 @ 3-way Drury
 @@ ON vs Dble & 1S,{thinsp} OFF vs 2C +
 @ #{thinsp}JS = fit{thinsp}#
@@ -171,13 +172,11 @@ natural._
 @ JS to 3m = weak by unPH, fit by PH
 @ #{thinsp}4-__lower-suit__{thinsp} = fit{thinsp}#
 
-[IMPORTANT]
-====
-*Neg. free bid in other major* applies after 1M-(2m) by _unpassed hand_ +
-@ 2oM = 6-cd suit (or good 5), NF
-@ JS to 3oM = 6-cd suit, GF
+
+*vs. 1M-(2m) by unPH*
+@ #{thinsp}2oM = neg. free-bid by unPH{thinsp}# (6{orMore}, NF)
+@ JS to 3oM = 6{orMore}, GF
 @ Dble = 4 or 5 {times} oM, _any strength_
-====
 
 *vs. 1NT*
 @ 2m = m + oM
@@ -285,6 +284,31 @@ must rebid 1NT with a minimum 2-5-4-2 or 1-5-4-3 => with 4*{D}
 opener may break responder's 2wCB 2C-relay with a paradox 2H (see
 below).
 ====
+
+*Responder's notrump ladder*
+
+[caption=]
+.After three suits at the 1-level
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1C | 1H   |  |
+| 1S | ?    |  |
+|    | 2NT  |  | 13-15 or 18+
+|    | 3NT  |  | 16-17
+|    | 2D*  |  | 4th suit (F1) includes bal. 11-12
+|===
+
+[caption=]
+.After opener's 2-level rebid
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D | 1S   |  |
+| 2C | ?    |  |
+|    | 2NT  |  | 11-12
+|    | 3NT  |  | 16-17
+|    | 4NT  |  | 18-19
+|    | 2H*  |  | 4th suit (F1) includes bal. 13-15
+|===
 
 === 2-Way Checkback
 
@@ -439,19 +463,20 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 == NoTrump Overcalls
 
-*Direct* = 15-18 : Systems ON
+*Direct* = 15-18
+@ Systems ON
 
 *Balancing*
 @ vs. minor = 11-14
 @ vs. major = 13-16
 @ Systems ON
- +
+
 *Sandwich position 1NT*
-@ unpassed hand = 16-19 natural
+@ 16-19 natural
 @ Sys OFF
-@ under-suit cue = Stayman
-@ passed hand = unusual
- +
+@@ under-suit cue = Stayman
+@ unusual by PH
+
 *vs weak two*
 @ 2NT = 16-19
 @ #Our 2NT system ON, including 3S {forces} 3NT#
@@ -461,7 +486,7 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 @ New suit = constructive, NF +
 @ JS = natural, good hand, but NF
-@@ any continuation by overcaller is forcing.
+@@ below-game continuation by overcaller = F
 
 === One-major overcalls
 
@@ -473,21 +498,21 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 === Two-level overcalls
 
-*Responder passes:*
-{nbsp} _e.g._ {thinsp}(1S) - 2C - (P) - ? +
-@ cue = good constructive-raise or better
+*Responder passes*
+_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
+@ cue = good constr.-raise{orMore}
 @ 2NT = natural
- +
-*Responder raises:*
-{nbsp} _e.g._ {thinsp}(1S) - 2C - (2S) - ? +
+
+*Responder raises*
+_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
 @ double = responsive
-@ 2NT = good constructive-raise or better
- +
-*Responder doubles (negative):*
-{nbsp} _e.g._ {thinsp}(1S) - 2C - (Dble) - ? +
+@ 2NT = good constr.-raise{orMore}
+
+*Responder doubles (negative)*
+_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
 @ ReDble = defensive strength, no fit
-@ cue = good 3-card raise or better
-@ 2NT = good 4-card raise or better
+@ cue = good 3-card raise{orMore}
+@ 2NT = good 4-card raise{orMore}
 
 === vs Further Interference
 
@@ -562,10 +587,16 @@ _A call is natural and non-forcing unless defined otherwise._
 | (2S) | P    | (P) | 3C | natural, NF
 |===
 
-=== After a support double
+=== Support double
 
-Responder bids:
-@ at or below two of 1st suit = weak
+Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
+
+*vs sandwich NT*
+@ On vs unusual
+@ OFF vs natural
+
+*Responder bids*
+@ two of 1st suit or lower = weak
 @ above two of 1st suit = inv
 @ cue = GF
 
@@ -663,8 +694,8 @@ At the one-level, passing a redouble is for penalty only when OVER their suit.
 
 == Defence to Preempts
 
-@ Double = takeout thru 4S
-@ Lebensohl after take-out double of 2M (not 2m)
+@ Double = take-out thru 4S
+@ Lebensohl after double of 2M #(not 2m)#
 @ Leaping Michaels
 
 == Slam Conventions I
@@ -697,10 +728,9 @@ Responses:  0, 1, 2-, 2+, 3-, 3+
 
 == Slam Conventions II - Kickback
 
-@ Responses: 1430 / major, #3014 / minor# (why?)
-@ asker keeps asking and the teller keeps telling
-@ 4NT replaces the meaning the kickback suit
-@@ cue-bid or exclusion +
+@ 1430 / major, #3014 / minor# (why?)
+@ asker keeps asking, teller keeps telling
+@ 4NT replaces the kickback suit
 
 === Hearts and Spades
 
