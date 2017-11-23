@@ -21,8 +21,6 @@ include::opening-and-responding.adoc[]
 
 include::2-way-checkback.adoc[]
 
-// include::rebid-by-opener.adoc[]
-
 // include::rebid-by-responder.adoc[]
 
 // include::notrump.adoc[]
