@@ -1,11 +1,8 @@
-// -*-adoc-*-
-
-[appendix]
-[[rebid-by-responder,Appendix B]]
-== Responder’s rebid
+== Rebid by responder
 
 The following principles govern responder's second bid in an
-uncontested auction.
+uncontested auction that starts with three suit-bids without a raise,
+reverse or jump.
 
 * All below-game second-round jumps in uncontested auctions are natural and GF
 
@@ -51,34 +48,10 @@ The fourth bid in all of the following auctions is natural and game-forcing
 
 === Fourth-suit forcing
 
-* One-round force
-* Does not promise a rebid below 2NT
-* Opener can bid at the three-level to force
+@ One-round force
+@ Does not promise a rebid below 2NT
+@ A three-level bid by opener is forcing
 
-==== Fourth suit at 1-level
-
-[cols="2*^,<",grid="none"]
-[%autowidth]
-|====
-|1{C}    |1{D}    |{blank}
-|1{H}    |?       |{blank}
-|{blank} |1{S}    | natural 6-10 or 11+ artificial. Opener assumes
-                           natural but may not bid above 3{S}
-|{blank} |2{S}    | natural GF. There are no exceptions to the first rule
-|====
-
-==== Fourth suit at 3-level
-
-[cols="2*^,<",grid="none"]
-[%autowidth]
-|====
-|{blank} |1{H}    |{blank}
-|1{S}    |2{D}    |{blank}
-|3{C}    |?       |{blank}
-|{blank} |3{S}    | three spades, forcing
-|{blank} |3{D}    | nondescript, minimum without three spades, non-forcing
-|{blank} |other   | 15+ (good 14), GF
-|====
 
 === Contested auctions
 
@@ -92,15 +65,15 @@ competition__
 
 === Responder's notrump ladder
 
-Applies after three suit-bids without a raise, reverse of jump-shift.
+Applies after three suit-bids without a raise, reverse or jump-shift.
 
-* Jump to 2NT = 13-15 or 18+
-* Double jump to 3NT = 16-17
+@ Jump to 2NT = 13-15 or 18+
+@ Double jump to 3NT = 16-17
 
-When opener’s rebid was at the two-level: (__e.g.__ after 1{D}-1{S}; 2{C})
+When opener’s rebid was at the two-level: (__e.g.__ after 1D-1S; 2C)
 
-* Non-jump 2NT = 11-12 (NF)
-* Jump to 3NT = 16-17
-* Double-jump to 4NT  = 18-19
+@ Non-jump 2NT = 11-12 (NF)
+@ Jump to 3NT = 16-17
+@ Double-jump to 4NT  = 18-19
 
 With 13-15, responder temporises with a new suit (3rd or 4th-suit forcing).
