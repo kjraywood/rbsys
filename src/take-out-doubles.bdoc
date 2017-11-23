@@ -1,0 +1,103 @@
+== Take-out doubles
+
+=== Raising the response
+
+Raising a one-level response just confirms a four-card suit and a good
+double.  A cue-bid might be an invitational raise so advancer can
+repeat a four-card suit with a minimum.
+
+=== 1NT response
+
+_The higher their suit, the wider the range_
+
+[%autowidth,cols="5*^,<",grid="rows"]
+|===
+| (1C) | Dble | (P) | 1NT | | 8{ndash}11
+| (1S) | Dble | (P) | 1NT | | 4{ndash}10
+|===
+
+Following a 1NT response, 2M shows a big hand but #2m is to play#.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |     | (1H) | Dble | | {S}A82 {H}7 {D}QJ94 {C}AQT74
+| (P) | 1NT | (P)  | 2C   | | to play
+|===
+
+=== They bid 1NT
+
+When they bid 1NT over our take-out double, a cue-bid of their minor
+shows both majors but does not promise a good hand.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (1D) | Dble | (1NT)  | ?  | | {S}JT93 {H}K982 {D}8763 {C}4
+|      |      |        | 2D | | both majors, could be weak
+|===
+
+=== Scrambling 2NT
+
+@ Opps have bid to 2H or 2S
+@ Partner makes a take-out double
+@ RHO passes
+
+2NT is scrambling in three situations.
+
+==== Strictly protective auctions
+
+Partner reopons after the opps have attempted to pass-out an uncontested auction.
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1H) | P   | (2H) | P
+| (P)  | Dbl | (P)  | 2NT*
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     | (1NT) | P
+| (2C) | P   | (2S)  | P
+| (P)  | Dbl |  (P)  | 2NT*
+|===
+
+But not when doubler might have a good hand
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1C) | P   | (1S) | P
+| (2S) | Dbl | (P)  | ?
+|===
+
+The second-round double shows a good hand with length in clubs and
+spade shortness, so 2NT would be Lebensohl, and a direct bid would
+invite game.
+
+==== When you or partner has bid 1NT
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     |     | 1NT
+| (2S) | Dbl | (P) | 2NT*
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|     | 1NT | (2S) | P
+| (P) | Dbl | (P)  | 2NT*
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      | 1D  | (1H) | 1NT
+| (2H) | Dbl | (P)  | 2NT*
+|===
+
+==== When you have already had one chance to bid a Lebensohl 2NT
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1S) | Dbl | (2S) | P
+| (P)  | Dbl | (P)  | 2NT*
+|===
+
+You do not need two chances to show a weak single-suited hand.
