@@ -196,7 +196,7 @@ a:hover, a:focus { color: #333; }
 a img { border: none; }
 
 /* Default paragraph styles */
-p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.4; margin-bottom: 1.25em; text-rendering: optimizeLegibility; }
+p { font-family: inherit; font-weight: normal; font-size: 1em; line-height: 1.4; margin-bottom: 0.625em; text-rendering: optimizeLegibility; }
 p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
 
 /* Default header styles */
@@ -387,7 +387,7 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
 
 .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { text-rendering: optimizeLegibility; text-align: left; }
 
-table.tableblock > caption.title { white-space: nowrap; overflow: visible; max-width: 0; color: #7b2d00; font-style: italic; font-weight: bold; }
+table.tableblock > caption.title { white-space: nowrap; overflow: visible; max-width: 0; color: #7b2d00; font-style: italic; }
 
 .paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of-type p { color: #000; }
 
@@ -397,7 +397,7 @@ table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-si
 .admonitionblock > table td.icon { text-align: center; width: 80px; }
 .admonitionblock > table td.icon img { max-width: initial; }
 .admonitionblock > table td.icon .title { font-weight: bold; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; text-transform: uppercase; }
-.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #004176; }
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #7b2d00; }
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
 
 .exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: #fff; -webkit-border-radius: 0; border-radius: 0; }
@@ -756,7 +756,7 @@ b.conum * { color: inherit !important; }
 <li><a href="#_competitive_bidding">Competitive Bidding</a>
 <ul class="sectlevel2">
 <li><a href="#_rule_1">Rule #1</a></li>
-<li><a href="#_after_a_support_double">After a support double</a></li>
+<li><a href="#_support_double">Support double</a></li>
 <li><a href="#_after_a_negative_double_of_1_span_class_red_span_or_1_span_class_red_span">After a negative double of 1<span class="red">&#9830;</span> or 1<span class="red">&#9829;</span></a></li>
 <li><a href="#_when_opps_have_each_bid_a_suit">When opps have each bid a suit</a></li>
 <li><a href="#_strength_redouble">Strength redouble</a></li>
@@ -861,7 +861,7 @@ b.conum * { color: inherit !important; }
 <div class="paragraph">
 <p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> OMaR &#8658; <span class="red">&#9829;</span> + m, inv <strong>|</strong> COG <strong>|</strong> void self-splinter </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Super accept = 2T + 1 </span>
-<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> Responder re-transfers or describes further </span><br>
+<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> Responder re-transfers or describes </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Transfer then 3m = GF, COG or slam inv. </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> By opener, new suit agrees minor </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> Raise of minor = double fit </span></p>
@@ -1033,17 +1033,18 @@ natural.</em></p>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <strong>3M + 1</strong> = weak splinter, any suit </span></p>
 </div>
 <div class="paragraph">
+<p><strong>Single-raise</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> next-step game-try </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> new-suit slam-try </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> re-raise = inv with long trumps </span></p>
+</div>
+<div class="paragraph">
 <p><strong>Jacoby 2NT</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> jump new-suit = length </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3NT by either = minimum </span></p>
 </div>
 <div class="paragraph">
-<p><strong>Game and slam tries</strong>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> next-step game-try </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> new-suit slam-try </span></p>
-</div>
-<div class="paragraph">
-<p><strong>Passed hand responses</strong>
+<p><strong>Passed hand</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3-way Drury </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> ON vs Dble &amp; 1&#9824;,&thinsp; OFF vs 2&#9827; </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>&thinsp;JS = fit&thinsp;</mark> </span>
@@ -1063,22 +1064,11 @@ natural.</em></p>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> JS to 3m = weak by unPH, fit by PH </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>&thinsp;4-<em>lower-suit</em>&thinsp; = fit&thinsp;</mark> </span></p>
 </div>
-<div class="admonitionblock important">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-important" title="Important"></i>
-</td>
-<td class="content">
 <div class="paragraph">
-<p><strong>Neg. free bid in other major</strong> applies after 1M-(2m) by <em>unpassed hand</em><br>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2oM = 6-cd suit (or good 5), NF </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> JS to 3oM = 6-cd suit, GF </span>
+<p><strong>vs. 1M-(2m) by unPH</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>&thinsp;2oM = neg. free-bid by unPH&thinsp;</mark> (6<sup><strong>+</strong></sup>, NF) </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> JS to 3oM = 6<sup><strong>+</strong></sup>, GF </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Dble = 4 or 5 &times; oM, <em>any strength</em> </span></p>
-</div>
-</td>
-</tr>
-</table>
 </div>
 <div class="paragraph">
 <p><strong>vs. 1NT</strong>
@@ -1282,6 +1272,97 @@ below).</p>
 </tr>
 </table>
 </div>
+<div class="paragraph">
+<p><strong>Responder&#8217;s notrump ladder</strong></p>
+</div>
+<table class="tableblock frame-all grid-none">
+<caption class="title">After three suits at the 1-level</caption>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9824;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13-15 or 18+</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16-17</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span>*</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4th suit (F1) includes bal. 11-12</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<caption class="title">After opener&#8217;s 2-level rebid</caption>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1&#9824;</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11-12</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16-17</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">18-19</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9829;</span>*</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4th suit (F1) includes bal. 13-15</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="sect2">
 <h3 id="_2_way_checkback">2-Way Checkback</h3>
@@ -1658,21 +1739,24 @@ double), then new suits are natural game-tries.</p>
 <h2 id="_notrump_overcalls">NoTrump Overcalls</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>Direct</strong> = 15-18 : Systems ON</p>
+<p><strong>Direct</strong> = 15-18
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Systems ON </span></p>
 </div>
 <div class="paragraph">
 <p><strong>Balancing</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> vs. minor = 11-14 </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> vs. major = 13-16 </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Systems ON </span>
-<br>
-<strong>Sandwich position 1NT</strong>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> unpassed hand = 16-19 natural </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Systems ON </span></p>
+</div>
+<div class="paragraph">
+<p><strong>Sandwich position 1NT</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 16-19 natural </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Sys OFF </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> under-suit cue = Stayman </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> passed hand = unusual </span>
-<br>
-<strong>vs weak two</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> under-suit cue = Stayman </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> unusual by PH </span></p>
+</div>
+<div class="paragraph">
+<p><strong>vs weak two</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = 16-19 </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>Our 2NT system ON, including 3&#9824; &#10140; 3NT</mark> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Transfer to their major = inv in other major </span></p>
@@ -1685,7 +1769,7 @@ double), then new suits are natural game-tries.</p>
 <div class="paragraph">
 <p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> New suit = constructive, NF </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> JS = natural, good hand, but NF </span>
-<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> any continuation by overcaller is forcing. </span></p>
+<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> below-game continuation by overcaller = F </span></p>
 </div>
 <div class="sect2">
 <h3 id="_one_major_overcalls">One-major overcalls</h3>
@@ -1700,21 +1784,23 @@ double), then new suits are natural game-tries.</p>
 <div class="sect2">
 <h3 id="_two_level_overcalls">Two-level overcalls</h3>
 <div class="paragraph">
-<p><strong>Responder passes:</strong>
-&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (P) - ?<br>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue = good constructive-raise or better </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = natural </span>
-<br>
-<strong>Responder raises:</strong>
-&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (2&#9824;) - ?<br>
+<p><strong>Responder passes</strong>
+<span class="nobr">&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (P) - ? </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue = good constr.-raise<sup><strong>+</strong></sup> </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = natural </span></p>
+</div>
+<div class="paragraph">
+<p><strong>Responder raises</strong>
+<span class="nobr">&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (2&#9824;) - ? </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> double = responsive </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = good constructive-raise or better </span>
-<br>
-<strong>Responder doubles (negative):</strong>
-&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (Dble) - ?<br>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = good constr.-raise<sup><strong>+</strong></sup> </span></p>
+</div>
+<div class="paragraph">
+<p><strong>Responder doubles (negative)</strong>
+<span class="nobr">&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (Dble) - ? </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> ReDble = defensive strength, no fit </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue = good 3-card raise or better </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = good 4-card raise or better </span></p>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue = good 3-card raise<sup><strong>+</strong></sup> </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = good 4-card raise<sup><strong>+</strong></sup> </span></p>
 </div>
 </div>
 <div class="sect2">
@@ -1937,10 +2023,18 @@ asks for strength.</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="_after_a_support_double">After a support double</h3>
+<h3 id="_support_double">Support double</h3>
 <div class="paragraph">
-<p>Responder bids:
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> at or below two of 1st suit = weak </span>
+<p>Not mandatory. <em>i.e.</em>&thinsp; opener may pass with min bal. hand</p>
+</div>
+<div class="paragraph">
+<p><strong>vs sandwich NT</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> On vs unusual </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> OFF vs natural </span></p>
+</div>
+<div class="paragraph">
+<p><strong>Responder bids</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> two of 1st suit or lower = weak </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> above two of 1st suit = inv </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue = GF </span></p>
 </div>
@@ -2212,8 +2306,8 @@ shows both majors but does not promise a good hand.</p>
 <h2 id="_defence_to_preempts">Defence to Preempts</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Double = takeout thru 4&#9824; </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Lebensohl after take-out double of 2M (not 2m) </span>
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Double = take-out thru 4&#9824; </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Lebensohl after double of 2M <mark>(not 2m)</mark> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Leaping Michaels </span></p>
 </div>
 </div>
@@ -2272,10 +2366,9 @@ hand that has not made a cue-bid between three and four of our suit</p>
 <h2 id="_slam_conventions_ii_kickback">Slam Conventions II - Kickback</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Responses: 1430 / major, <mark>3014 / minor</mark> (why?) </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> asker keeps asking and the teller keeps telling </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 4NT replaces the meaning the kickback suit </span>
-<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> cue-bid or exclusion </span><br></p>
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 1430 / major, <mark>3014 / minor</mark> (why?) </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> asker keeps asking, teller keeps telling </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 4NT replaces the kickback suit </span></p>
 </div>
 <div class="sect2">
 <h3 id="_hearts_and_spades">Hearts and Spades</h3>
@@ -2496,7 +2589,7 @@ without intention to introduce diamonds as a possible strain.</p>
 <div id="footer">
 <div id="footer-text">
 Version 0.8<br>
-Last updated 2017-11-19 00:49:02 PST
+Last updated 2017-11-23 06:56:48 PST
 </div>
 </div>
 </body>
