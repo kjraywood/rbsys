@@ -203,15 +203,18 @@ p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
 h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; font-style: normal; color: #222; text-rendering: optimizeLegibility; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.2125em; }
 h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
-h1 { font-size: 2.125em; }
+/* h1 { font-size: 2.125em; } */
+h1 { font-size: 2em; }
 
-h2 { font-size: 1.6875em; color: #7b2d00; margin-top: 0.75em; }
+/* h2 { font-size: 1.6875em; color: #7b2d00; margin-top: 0.75em; } */
+h2 { font-size: 1.5em; color: #7b2d00; margin-top: 0.75em; }
 
-h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; margin-top: 0.5em; }
+/* h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; margin-top: 0.5em; } */
+h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.25em; margin-top: 0.5em; }
 
-h4 { font-size: 1.125em; }
+h4 { font-size: 1em; color: #7b2d00; }
 
-h5 { font-size: 1.125em; }
+h5 { font-size: 1em; }
 
 h6 { font-size: 1em; }
 
@@ -389,7 +392,7 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
 
 .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { text-rendering: optimizeLegibility; text-align: left; }
 
-table.tableblock > caption.title { white-space: nowrap; overflow: visible; max-width: 0; color: #7b2d00; font-style: italic; }
+table.tableblock > caption.title { white-space: nowrap; overflow: visible; max-width: 0; color: #7b2d00; }
 
 .paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of-type p { color: #000; }
 
@@ -754,7 +757,11 @@ b.conum * { color: inherit !important; }
 </ul>
 </li>
 <li><a href="#_2_1_auctions">2/1 Auctions</a></li>
-<li><a href="#_two_suited_overcalls_klinger">Two-suited overcalls (Klinger)</a></li>
+<li><a href="#_two_suited_overcalls_klinger">Two-suited overcalls (Klinger)</a>
+<ul class="sectlevel2">
+<li><a href="#_advancing">Advancing</a></li>
+</ul>
+</li>
 <li><a href="#_competitive_bidding">Competitive Bidding</a>
 <ul class="sectlevel2">
 <li><a href="#_rule_1">Rule #1</a></li>
@@ -762,8 +769,6 @@ b.conum * { color: inherit !important; }
 <li><a href="#_after_a_negative_double_of_1_span_class_red_span_or_1_span_class_red_span">After a negative double of 1<span class="red">&#9830;</span> or 1<span class="red">&#9829;</span></a></li>
 <li><a href="#_when_opps_have_each_bid_a_suit">When opps have each bid a suit</a></li>
 <li><a href="#_strength_redouble">Strength redouble</a></li>
-<li><a href="#_following_our_take_out_double">Following our take-out double</a></li>
-<li><a href="#_passing_a_redouble">Passing a redouble</a></li>
 </ul>
 </li>
 <li><a href="#_defence_to_preempts">Defence to Preempts</a></li>
@@ -792,6 +797,14 @@ b.conum * { color: inherit !important; }
 </ul>
 </li>
 <li><a href="#_2_way_checkback_2">2-Way Checkback</a></li>
+<li><a href="#_take_out_doubles">Take-out doubles</a>
+<ul class="sectlevel2">
+<li><a href="#_raising_the_response">Raising the response</a></li>
+<li><a href="#_1nt_response">1NT response</a></li>
+<li><a href="#_they_bid_1nt">They bid 1NT</a></li>
+<li><a href="#_scrambling_2nt">Scrambling 2NT</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -1888,9 +1901,8 @@ three level</em>.</p>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Only applies in direct seat </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> ON vs short club or diamond </span></p>
 </div>
-<div class="paragraph">
-<p><strong>Advancing</strong></p>
-</div>
+<div class="sect2">
+<h3 id="_advancing">Advancing</h3>
 <div class="paragraph">
 <p>If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
 an Ogust-type enquiry.</p>
@@ -1962,6 +1974,7 @@ a point or two higher when vulnerable.</p>
 <div class="paragraph">
 <p>When the Klinger bid is 2NT or 3&#9827;, then the cue-bid of opener’s suit
 asks for strength.</p>
+</div>
 </div>
 </div>
 </div>
@@ -2141,166 +2154,6 @@ on the first round.  A subsequent double shows high cards and three
 cards in their suit.  Opener should pull with a singleton in their
 suit, or with a doubleton and a five cards in his first suit.</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_following_our_take_out_double">Following our take-out double</h3>
-<div class="paragraph">
-<p>Raising a one-level response just confirms a four-card suit and a good
-double.  A cue-bid might be an invitational raise so advancer can
-repeat a four-card suit with a minimum.</p>
-</div>
-<div class="paragraph">
-<p><strong>1NT response</strong> &#8658; <em>The higher their suit, the wider the range</em></p>
-</div>
-<table class="tableblock frame-all grid-rows">
-<colgroup>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9827;)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">8&ndash;11</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9824;)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4&ndash;10</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>Following a 1NT response, 2M shows a big hand but <mark>2m is to play</mark>.</p>
-</div>
-<table class="tableblock frame-all grid-none">
-<colgroup>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(1<span class="red">&#9829;</span>)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&#9824;A82 <span class="red">&#9829;</span>7 <span class="red">&#9830;</span>QJ94 &#9827;AQT74</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">to play</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>When they bid 1NT over our take-out double, a cue-bid of their minor
-shows both majors but does not promise a good hand.</p>
-</div>
-<table class="tableblock frame-all grid-none">
-<colgroup>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(1<span class="red">&#9830;</span>)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(1NT)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&#9824;JT93 <span class="red">&#9829;</span>K982 <span class="red">&#9830;</span>8763 &#9827;4</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">both majors, could be weak</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sect2">
-<h3 id="_passing_a_redouble">Passing a redouble</h3>
-<div class="paragraph">
-<p>At the two-level or higher, passing a redouble is for penalty.</p>
-</div>
-<div class="paragraph">
-<p>At the one-level, passing a redouble is for penalty only when OVER their suit.</p>
-</div>
-<table class="tableblock frame-all grid-none">
-<colgroup>
-<col>
-<col>
-<col>
-<col>
-<col>
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9824;)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(Rdbl)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">Pass*</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top" colspan="5"><p class="tableblock">NOT for penalty, doubler must bid</p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-none">
-<colgroup>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9824;)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Pass</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(Pass)</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">(Rdbl)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Pass*</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>PENALTY</mark></p></td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 </div>
@@ -2587,11 +2440,318 @@ without intention to introduce diamonds as a possible strain.</p>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_take_out_doubles">Take-out doubles</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_raising_the_response">Raising the response</h3>
+<div class="paragraph">
+<p>Raising a one-level response just confirms a four-card suit and a good
+double.  A cue-bid might be an invitational raise so advancer can
+repeat a four-card suit with a minimum.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_1nt_response">1NT response</h3>
+<div class="paragraph">
+<p><em>The higher their suit, the wider the range</em></p>
+</div>
+<table class="tableblock frame-all grid-rows">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9827;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8&ndash;11</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&ndash;10</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Following a 1NT response, 2M shows a big hand but <mark>2m is to play</mark>.</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1<span class="red">&#9829;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#9824;A82 <span class="red">&#9829;</span>7 <span class="red">&#9830;</span>QJ94 &#9827;AQT74</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9827;</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">to play</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_they_bid_1nt">They bid 1NT</h3>
+<div class="paragraph">
+<p>When they bid 1NT over our take-out double, a cue-bid of their minor
+shows both majors but does not promise a good hand.</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1<span class="red">&#9830;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dble</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1NT)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#9824;JT93 <span class="red">&#9829;</span>K982 <span class="red">&#9830;</span>8763 &#9827;4</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">both majors, could be weak</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_scrambling_2nt">Scrambling 2NT</h3>
+<div class="paragraph">
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Opps have bid to 2<span class="red">&#9829;</span> or 2&#9824; </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Partner makes a take-out double </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> RHO passes </span></p>
+</div>
+<div class="paragraph">
+<p>2NT is scrambling in three situations.</p>
+</div>
+<div class="sect3">
+<h4 id="_strictly_protective_auctions">Strictly protective auctions</h4>
+<div class="paragraph">
+<p>Partner reopons after the opps have attempted to pass-out an uncontested auction.</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1<span class="red">&#9829;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2<span class="red">&#9829;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1NT)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2&#9827;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>But not when doubler might have a good hand</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9827;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The second-round double shows a good hand with length in clubs and
+spade shortness, so 2NT would be Lebensohl, and a direct bid would
+invite game.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_when_you_or_partner_has_bid_1nt">When you or partner has bid 1NT</h4>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1<span class="red">&#9829;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2<span class="red">&#9829;</span>)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_when_you_have_already_had_one_chance_to_bid_a_lebensohl_2nt">When you have already had one chance to bid a Lebensohl 2NT</h4>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(1&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(2&#9824;)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">Dbl</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">(P)</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT*</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>You do not need two chances to show a weak single-suited hand.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
 Version 0.8<br>
-Last updated 2017-11-23 11:22:38 PST
+Last updated 2017-11-23 13:53:56 PST
 </div>
 </div>
 </body>
