@@ -3,12 +3,20 @@ THIS_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 SOURCES = $(wildcard *.bdoc)
 MAIN = system.adoc
 MACROS = macros.adoc
+STYLE_SHEET = foundation.css
 ADOCS = $(SOURCES:.bdoc=.adoc)
 HTML = index.html
 
 BIDS := -e '/^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g'
 
 SUIT_LENGTH := -e '/^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{xtimes}\2/g'
+
+# lines begin with &, followed by one or more non-&, end with & or "& +"
+# replace leading & with [boldbrickred]##
+# replace trailing & with ##
+BOLD_BRICK = -e '/^&[^&]+&( \+)?$$/{ \
+                 s/^&/\[bold-brickred\]\#\#/; \
+                 s/&( \+)?$$/ \#\#\1/}'
 
 # wrapping list : on lines beginning with "_ ", "@ " or " @ "
 #               : replace leading @ "[nobr]##{isep}"
@@ -29,11 +37,12 @@ SED = /usr/bin/sed -E
 
 all: $(HTML)
 
-$(HTML): $(MAIN) $(MACROS) $(ADOCS)
-	asciidoctor -a stylesheet=foundation.css $(MAIN) -o $@
+$(HTML): $(MAIN) $(MACROS) $(ADOCS) $(STYLE_SHEET)
+	asciidoctor -a stylesheet=$(STYLE_SHEET) $(MAIN) -o $@
 
 %.adoc : %.bdoc
-	$(SED) $(BIDS) $(SUIT_LENGTH) $(WRAPP_LEV0) $(WRAPP_LEV1) $(WRAPP_LEV2) $< >$@
+	$(SED) $(BIDS) $(SUIT_LENGTH) $(BOLD_BRICK) \
+	       $(WRAPP_LEV0) $(WRAPP_LEV1) $(WRAPP_LEV2) $< >$@
 
 install: $(HTML)
 	install -m 0664 -t $(THIS_DIR)../ $<
