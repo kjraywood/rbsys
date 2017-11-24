@@ -25,16 +25,6 @@ _ Usually bypass 4-card majors to rebid NT
 @ Promises a 4-card major
 @ Includes 5*{S} + 5*__other__{thinsp} inv
 
-&Rebids&
-@ splinter
-@ Smolen @ 2-level
-@ OMaR
-
-&OMaR&
-=> 5*{S} + 5*m, inv {or} COG {or} void splinter {or} set trump
-
-{warning} _We do NOT play delayed Texas or delayed Gerber_
-
 &vs double&
 @ pass promises a stopper
 @ reverse transfers
@@ -42,14 +32,46 @@ _ Usually bypass 4-card majors to rebid NT
 @ 3C = 4-4 majors max
 @ Redouble = double neg. (no stop, no M)
 
+&Rebids&
+@ splinter
+@ Smolen @ 2-level
+
+[caption=]
+.OMaR
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1NT | 2C    | |
+| 2H  | 2S*   | | forces next-step
+| 2NT | {ensp}? | |
+|     | 3m    | | 5*{S} + 5*m, _shape inv_
+|     | 3H    | | balanced slam try
+|     | 3NT   | | COG (3-4-3-3)
+|     | 3S,4m | | void slam-try
+|     | 4S    | | RKC
+|===
+
+{warning} _We do NOT play delayed Texas or delayed Gerber_
+
 === Jacoby transfers
 
-@ OMaR => {H} + m, inv {or} COG {or} void self-splinter
 @ Super accept = 2T + 1
 @@ Responder re-transfers or describes +
 @ Transfer then 3m = GF, COG or slam inv.
 @@ By opener, new suit agrees minor
 @@ Raise of minor = double fit
+
+[caption=]
+.OMaR
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1NT | 2D    | |
+| 2H  | 2S*   | | forces next-step
+| 2NT | {ensp}? | |
+|     | 3m    | | 5*{H} + 5*m, _shape inv_
+|     | 3H    | | #balanced slam try#
+|     | 3NT   | | good 6-cd {H}-suit, COG
+|     | 3S,4m | | void slam-try
+|===
 
 === Minor-suit transfers
 
@@ -120,31 +142,32 @@ natural._
 @ OMaR to set trump after Stayman
 @ Smolen can include 5-5 majors COG
 
-[%autowidth,cols="^,^,<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-| 2NT | 3S | forces 3NT
-| 3NT | ?    |
-|     | pass | to play
-|     | 4m   | natural slam inv.
-|     |      | {tribull} next step = RKC
-|     |      | {tribull} 4NT = to play
-|     | 4M   | stiff with three in other major
-|     | 4NT  | both minors weak
+| 2NT | 3S   | | forces 3NT
+| 3NT | ?    | |
+|     | pass | | to play
+|     | 4m   | | natural slam inv.
+|     |      | | {tribull} next step = RKC
+|     |      | | {tribull} 4NT = to play
+|     | 4M   | | stiff with three in other major
+|     | 4NT  | | both minors weak
 |===
 
-[%autowidth,cols="^,^,<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-| 2NT | 3NT | at least 5-5 minors slam inv.
-| ?   |     |
-| 4m  |     | RKC
-| 4NT |     | decline
+| 2NT | 3NT | | at least 5-5 minors slam inv.
+| ?   |     | |
+| 4m  |     | | RKC
+| 4NT |     | | decline
 |===
 
 == Major Opening
 
 @ Jump raise = limit
-@ Jump shift = natural inv.
 @ *3M + 1* = weak splinter, any suit
+@ Jump shift = natural inv.
+@@ _no inv./inv._{thinsp} applies
 
 *Single-raise*
 @ next-step game-try
@@ -173,7 +196,6 @@ natural._
 @ JS to 3m = weak by unPH, fit by PH
 @ #{thinsp}4-__lower-suit__{thinsp} = fit{thinsp}#
 
-
 *vs. 1M-(2m) by unPH*
 @ #{thinsp}2oM = neg. free-bid by unPH{thinsp}# (6{orMore}, NF)
 @ JS to 3oM = 6{orMore}, GF
@@ -188,6 +210,23 @@ natural._
 @ lo cue = oM inv.
 @ hi cue = {LRplus}
 @ 3oM = forcing
+
+=== Rebidding after 1H-1S
+
+@ #2D rebid shows non-minimum#
+_ (extra strength or extra length)
+@ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
+
+[caption=]
+.2wCB after both majors
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H   | 1S  | |
+| 1NT  | 2C* | | sign-off in {D}, or some inv.
+|  ?   |     | |
+| 2D   |     | | normal relay-accept
+| 2H   |     | | paradox, 4*{D}, hence minimum
+|===
 
 == Minor Opening
 
@@ -277,15 +316,6 @@ _ [* except see below ]
 |    |          | _etc._
 |===
 
-[NOTE]
-====
-&Rebidding after 1H-1S:&
-Responder's forcing 2NT rebid => 2D rebid by opener must show extra
-strength or extra length => opener must rebid 1NT with a minimum
-2-5-4-2 or 1-5-4-3 => with 4*{D} opener may break responder's 2wCB
-2C-relay with a paradox 2H
-====
-
 === Responder's notrump ladder
 
 [caption=]
@@ -317,17 +347,6 @@ strength or extra length => opener must rebid 1NT with a minimum
 @ ON vs take-out double by either opp +
 @ OFF if either opp has shown a suit
 @@ cue = GF, jumps are inv
-
-[caption=]
-.Both majors
-[%autowidth,cols="^,^,<",grid="none"]
-|===
-| 1H   | 1S  |
-| 1NT  | 2C* | sign-off in {D}, or some inv.
-|  ?   |     |
-| 2D   |     | normal relay-accept
-| 2H   |     | paradox, 4*{D}, hence minimum
-|===
 
 &Passed hand&
 @ 2C{thinsp}{forces}{thinsp}2D sequences ON
@@ -412,7 +431,7 @@ spades.
 When opener is known to have a 4-card raise (_e.g._{thinsp} no support
 double), then new suits are natural game-tries.
 
-== Weak 2 Opening
+== Weak Two Opening
 
 *Ogust*
 @ ON vs double
@@ -422,7 +441,7 @@ double), then new suits are natural game-tries.
 @ forcing after overcall
 @ non-forcing vs double.
 
-== 2C Opening
+== Two Club Opening
 
 {warning} We do NOT play Kokish
 
@@ -496,7 +515,7 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 @ New suit = constructive, NF +
 @ JS = natural, good hand, but NF
-@@ below-game continuation by overcaller = F
+@@ _no inv./inv._{thinsp} applies
 
 === One-major overcalls
 
@@ -610,7 +629,9 @@ Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
 @ above two of 1st suit = inv
 @ cue = GF
 
-=== After a negative double of 1D or 1H
+=== Negative double
+
+==== vs one diamond or one heart
 
 With four-card support for a major shown by responder, opener bids _as
 though raising a one-level bid_.{thinsp} That is, opener bids
