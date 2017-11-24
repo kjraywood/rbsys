@@ -203,16 +203,13 @@ p aside { font-size: 0.875em; line-height: 1.35; font-style: italic; }
 h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; font-style: normal; color: #222; text-rendering: optimizeLegibility; margin-top: 1em; margin-bottom: 0.5em; line-height: 1.2125em; }
 h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
-/* h1 { font-size: 2.125em; } */
-h1 { font-size: 2em; }
+h1 { font-size: 2.125em; }
 
-/* h2 { font-size: 1.6875em; color: #7b2d00; margin-top: 0.75em; } */
-h2 { font-size: 1.5em; color: #7b2d00; margin-top: 0.75em; }
+h2 { font-size: 1.6875em; color: #7b2d00; margin-top: 0.75em; }
 
-/* h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; margin-top: 0.5em; } */
-h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.25em; margin-top: 0.5em; }
+h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.375em; margin-top: 0.5em; }
 
-h4 { font-size: 1em; color: #7b2d00; }
+h4 { font-size: 1em; color: #7b2d00; font-style: italic; }
 
 h5 { font-size: 1em; }
 
@@ -390,9 +387,11 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
 
 .audioblock, .imageblock, .literalblock, .listingblock, .stemblock, .videoblock { margin-bottom: 1.25em; }
 
-.admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { text-rendering: optimizeLegibility; text-align: left; }
+/* .admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { text-rendering: optimizeLegibility; text-align: left; } */
 
-table.tableblock > caption.title { white-space: nowrap; overflow: visible; max-width: 0; color: #7b2d00; }
+.admonitionblock td.content > .title, .audioblock > .title, .exampleblock > .title, .imageblock > .title, .listingblock > .title, .literalblock > .title, .stemblock > .title, .openblock > .title, .paragraph > .title, .quoteblock > .title, table.tableblock > .title, .verseblock > .title, .videoblock > .title, .dlist > .title, .olist > .title, .ulist > .title, .qlist > .title, .hdlist > .title { text-rendering: optimizeLegibility; text-align: left; color: #7b2d00; font-weight: bold; font-style: italic; }
+
+table.tableblock > caption.title { white-space: nowrap; overflow: visible; max-width: 0; }
 
 .paragraph.lead > p, #preamble > .sectionbody > .paragraph:first-of-type p { color: #000; }
 
@@ -402,7 +401,7 @@ table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-si
 .admonitionblock > table td.icon { text-align: center; width: 80px; }
 .admonitionblock > table td.icon img { max-width: initial; }
 .admonitionblock > table td.icon .title { font-weight: bold; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; text-transform: uppercase; }
-.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #7b2d00; }
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #000; }
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
 
 .exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: #fff; -webkit-border-radius: 0; border-radius: 0; }
@@ -606,7 +605,11 @@ sup.footnote a:active, sup.footnoteref a:active { text-decoration: underline; }
 
 div.unbreakable { page-break-inside: avoid; }
 
+/* Kel - a non-breaking span */
 .nobr { white-space: nowrap; }
+
+/* Kel - a span for bold and color brickred */
+.bold-brickred { color: #7b2d00; font-weight: bold; font-style: italic; }
 
 .big { font-size: larger; }
 
@@ -739,10 +742,11 @@ b.conum * { color: inherit !important; }
 <li><a href="#_responder_s_rebid">Responder&#8217;s Rebid</a>
 <ul class="sectlevel2">
 <li><a href="#_second_round_jumps_and_4th_suit_forcing">Second-round jumps and 4th-suit forcing</a></li>
+<li><a href="#_responder_s_notrump_ladder">Responder&#8217;s notrump ladder</a></li>
 <li><a href="#_2_way_checkback">2-Way Checkback</a></li>
 <li><a href="#_wolff_sign_off">Wolff Sign-Off</a></li>
 <li><a href="#_reverses">Reverses</a></li>
-<li><a href="#_after_opener_raises">After opener raises</a></li>
+<li><a href="#_opener_raises">Opener raises</a></li>
 </ul>
 </li>
 <li><a href="#_weak_2_opening">Weak 2 Opening</a></li>
@@ -851,19 +855,20 @@ b.conum * { color: inherit !important; }
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Includes 5&thinsp;&times;&thinsp;&#9824; + 5&thinsp;&times;&thinsp;<em>other</em>&thinsp; inv </span></p>
 </div>
 <div class="paragraph">
-<p><strong>Rebids</strong>
+<p><span class="bold-brickred">Rebids </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> splinter </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Smolen @ 2-level </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> OMaR </span></p>
 </div>
 <div class="paragraph">
-<p><strong>OMaR</strong> &#8658; 5&thinsp;&times;&thinsp;&#9824; + 5&thinsp;&times;&thinsp;m, inv <strong>|</strong> COG <strong>|</strong> void splinter <strong>|</strong> set trump</p>
+<p><span class="bold-brickred">OMaR </span>
+&#8658; 5&thinsp;&times;&thinsp;&#9824; + 5&thinsp;&times;&thinsp;m, inv <strong>|</strong> COG <strong>|</strong> void splinter <strong>|</strong> set trump</p>
 </div>
 <div class="paragraph">
 <p><span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <em>We do NOT play delayed Texas or delayed Gerber</em></p>
 </div>
 <div class="paragraph">
-<p><strong>vs double</strong>
+<p><span class="bold-brickred">vs double </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> pass promises a stopper </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> reverse transfers </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = 4-4 majors min </span>
@@ -905,7 +910,7 @@ b.conum * { color: inherit !important; }
 <div class="sect2">
 <h3 id="_interference_over_1nt">Interference over 1NT</h3>
 <div class="paragraph">
-<p><strong>vs. penalty double</strong><br>
+<p><span class="bold-brickred">vs. penalty double  </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> pass = to play </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> Redble by opener = 5-card suit </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Redble = &#9827; or <span class="red">&#9830;</span> </span><br>
@@ -917,13 +922,13 @@ b.conum * { color: inherit !important; }
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3m = 6&thinsp;&times;&thinsp;m + 4&thinsp;&times;&thinsp;<span class="red">&#9829;</span> </span></p>
 </div>
 <div class="paragraph">
-<p><strong>vs. natural (single-suit) 2&#9827;</strong><br>
+<p><span class="bold-brickred">vs. natural (single-suit) 2&#9827; </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> dble = take-out </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> cue (3&#9827;) on next-round requests stopper </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> other system ON </span></p>
 </div>
 <div class="paragraph">
-<p><strong>vs. artificial double or 2&#9827;</strong><br>
+<p><span class="bold-brickred">vs. artificial double or 2&#9827; </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> System ON </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> double of 2&#9827; = Stayman </span></p>
 </div>
@@ -932,7 +937,7 @@ b.conum * { color: inherit !important; }
 double or Lebensohl.</p>
 </div>
 <div class="paragraph">
-<p><strong>vs. 2<span class="red">&#9830;</span>, 2<span class="red">&#9829;</span> or 2&#9824; (any)</strong><br>
+<p><span class="bold-brickred">vs. 2<span class="red">&#9830;</span>, 2<span class="red">&#9829;</span> or 2&#9824; (any) </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2M = to play <mark>(except Michaels vs 5-cd suit)</mark> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>3m = inv.</mark> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3M = forcing </span>
@@ -944,7 +949,7 @@ double or Lebensohl.</p>
 natural.</em></p>
 </div>
 <div class="paragraph">
-<p><strong>vs. 2NT (minors)</strong><br>
+<p><span class="bold-brickred">vs. 2NT (minors) </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> We play our 2NT system </span></p>
 </div>
 </div>
@@ -1164,13 +1169,13 @@ natural.</em></p>
 <div class="sect2">
 <h3 id="_second_round_jumps_and_4th_suit_forcing">Second-round jumps and 4th-suit forcing</h3>
 <div class="paragraph">
-<p><strong>Uncontested</strong>
+<p><span class="bold-brickred">Uncontested </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2nd-round jumps = natural &amp; GF </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>2nd-round raise of minor = GF</mark> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 4th suit or new 3rd-suit = F1 </span></p>
 </div>
 <div class="paragraph">
-<p><strong>Contested</strong>
+<p><span class="bold-brickred">Contested </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> vs double: system on  </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span>  vs suit bid: limit bidding &amp; cue=GF </span></p>
 </div>
@@ -1277,19 +1282,19 @@ natural.</em></p>
 </td>
 <td class="content">
 <div class="paragraph">
-<p><strong>Rebidding after 1<span class="red">&#9829;</span>-1&#9824;:</strong> Responder&#8217;s forcing 2NT rebid &#8658; 2<span class="red">&#9830;</span>
-rebid by opener must show extra strength or extra length &#8658; opener
-must rebid 1NT with a minimum 2-5-4-2 or 1-5-4-3 &#8658; with 4&thinsp;&times;&thinsp;<span class="red">&#9830;</span>
-opener may break responder&#8217;s 2wCB 2&#9827;-relay with a paradox 2<span class="red">&#9829;</span> (see
-below).</p>
+<p><span class="bold-brickred">Rebidding after 1<span class="red">&#9829;</span>-1&#9824;: </span>
+Responder&#8217;s forcing 2NT rebid &#8658; 2<span class="red">&#9830;</span> rebid by opener must show extra
+strength or extra length &#8658; opener must rebid 1NT with a minimum
+2-5-4-2 or 1-5-4-3 &#8658; with 4&thinsp;&times;&thinsp;<span class="red">&#9830;</span> opener may break responder&#8217;s 2wCB
+2&#9827;-relay with a paradox 2<span class="red">&#9829;</span></p>
 </div>
 </td>
 </tr>
 </table>
 </div>
-<div class="paragraph">
-<p><strong>Responder&#8217;s notrump ladder</strong></p>
 </div>
+<div class="sect2">
+<h3 id="_responder_s_notrump_ladder">Responder&#8217;s notrump ladder</h3>
 <table class="tableblock frame-all grid-none">
 <caption class="title">After three suits at the 1-level</caption>
 <colgroup>
@@ -1423,7 +1428,7 @@ below).</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><strong>Passed hand</strong>
+<p><span class="bold-brickred">Passed hand </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2&#9827;&thinsp;&#10140;&thinsp;2<span class="red">&#9830;</span> sequences ON </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2<span class="red">&#9830;</span> = natural weak with 5&thinsp;&times;&thinsp;M </span></p>
 </div>
@@ -1436,26 +1441,53 @@ below).</p>
 </div>
 <div class="sect2">
 <h3 id="_reverses">Reverses</h3>
+<div class="sect3">
+<h4 id="_after_1_level_suit_response">After 1-level suit-response</h4>
 <div class="paragraph">
-<p><em>A reverse after 1-level suit-response promises a rebid below-game</em>.</p>
-</div>
-<div class="paragraph">
-<p>Default rebid = cheaper of 4th-suit &amp; 2NT
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> promises a rebid below-game </span><br>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> Default rebid by responder </span>
+<span class="nobr">&#160; = cheaper of 4th-suit &amp; 2NT </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> to force, opener bids above 3 of 1st-suit </span></p>
 </div>
-<div class="paragraph">
-<p><strong>Reverse after 1NT response</strong></p>
 </div>
+<div class="sect3">
+<h4 id="_after_1nt_response">After 1NT response</h4>
 <div class="paragraph">
-<p><em>Does not promise a rebid</em></p>
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> shows unbalanced raise to 2NT </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> does not promise a rebid </span></p>
 </div>
-<div class="paragraph">
-<p><em>e.g.</em>&thinsp; 1<span class="red">&#9830;</span> &ndash; 1NT; 2<span class="red">&#9829;</span> = unbalanced raise to 2NT
-<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> responder can sign-off in 2NT, 3&#9827;, or 3<span class="red">&#9830;</span> </span></p>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2&#9824;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&ensp;?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2NT,3&#9827;,3<span class="red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sign off</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_after_opener_raises">After opener raises</h3>
+<h3 id="_opener_raises">Opener raises</h3>
 <div class="paragraph">
 <p><span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <em>We do NOT play &#8220;Quality &amp; Quantity&#8221;</em></p>
 </div>
@@ -1532,14 +1564,14 @@ below).</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">4-card raise</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise short in other minor</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3oM*</p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise short in other major</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise short in other minor</p></td>
 </tr>
 </tbody>
 </table>
@@ -1613,12 +1645,12 @@ spades.</p>
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p><strong>In comp.</strong></p>
-</div>
+<div class="sect3">
+<h4 id="_in_comp">In comp.</h4>
 <div class="paragraph">
 <p>When opener is known to have a 4-card raise (<em>e.g.</em>&thinsp; no support
 double), then new suits are natural game-tries.</p>
+</div>
 </div>
 </div>
 </div>
@@ -1629,9 +1661,10 @@ double), then new suits are natural game-tries.</p>
 <div class="paragraph">
 <p><strong>Ogust</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> ON vs double </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> OFF vs overcall </span>
-<br>
-<strong>New suits</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> OFF vs overcall </span></p>
+</div>
+<div class="paragraph">
+<p><strong>New suits</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> forcing after overcall </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> non-forcing vs double. </span></p>
 </div>
@@ -1645,20 +1678,24 @@ double), then new suits are natural game-tries.</p>
 </div>
 <div class="paragraph">
 <p><strong>Default response</strong>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2<span class="red">&#9830;</span> = weak or waiting </span>
-<br>
-<strong>Natural responses</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2<span class="red">&#9830;</span> = weak or waiting </span></p>
+</div>
+<div class="paragraph">
+<p><strong>Natural responses</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2<span class="red">&#9829;</span> = natural positive, any suit-quality </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = bal 8-10 (or 13<sup><strong>+</strong></sup>) </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3NT = bal 11-12 </span>
-<br>
-<strong>Transfer responses</strong>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3NT = bal 11-12 </span></p>
+</div>
+<div class="paragraph">
+<p><strong>Transfer responses</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2&#9824; = one-loser red-suit </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3&#9827; = one-loser black-suit </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3<span class="red">&#9830;</span>,3<span class="red">&#9829;</span>,3&#9824;,4&#9827; = transfer to solid suit </span></p>
 </div>
+<div class="paragraph">
+<p><strong>Second negatives</strong></p>
+</div>
 <table class="tableblock frame-all grid-cols">
-<caption class="title">Second Negatives</caption>
 <colgroup>
 <col>
 <col>
@@ -1678,7 +1715,7 @@ double), then new suits are natural game-tries.</p>
 <p>Following a 2nd neg, we can stop in 3M or 4m.</p>
 </div>
 <div class="paragraph">
-<p><strong>Special sequences</strong></p>
+<p><strong>Special positive</strong></p>
 </div>
 <table class="tableblock frame-all grid-"none">
 <colgroup>
@@ -1699,6 +1736,9 @@ double), then new suits are natural game-tries.</p>
 </tr>
 </tbody>
 </table>
+<div class="paragraph">
+<p><strong>Four-card major &amp; long diamonds</strong></p>
+</div>
 <table class="tableblock frame-all grid-"none">
 <colgroup>
 <col>
@@ -1799,21 +1839,21 @@ double), then new suits are natural game-tries.</p>
 <div class="sect2">
 <h3 id="_two_level_overcalls">Two-level overcalls</h3>
 <div class="paragraph">
-<p><strong>Responder passes</strong>
+<p><span class="bold-brickred">responder passes </span>
 <span class="nobr">&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (P) - ? </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue = good constr.-raise<sup><strong>+</strong></sup> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = natural </span></p>
 </div>
 <div class="paragraph">
-<p><strong>Responder raises</strong>
+<p><span class="bold-brickred">responder raises </span>
 <span class="nobr">&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (2&#9824;) - ? </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> double = responsive </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = good constr.-raise<sup><strong>+</strong></sup> </span></p>
 </div>
 <div class="paragraph">
-<p><strong>Responder doubles (negative)</strong>
+<p><span class="bold-brickred">responder doubles (negative) </span>
 <span class="nobr">&#160; <em>e.g.</em> &thinsp;(1&#9824;) - 2&#9827; - (Dble) - ? </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> ReDble = defensive strength, no fit </span>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> redouble = defensive strength, no fit </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> cue = good 3-card raise<sup><strong>+</strong></sup> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2NT = good 4-card raise<sup><strong>+</strong></sup> </span></p>
 </div>
@@ -1871,7 +1911,7 @@ three level</em>.</p>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="red">&#9830;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">good raise of <span class="red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">good <span class="red">&#9829;</span> raise</p></td>
 </tr>
 </tbody>
 </table>
@@ -1939,7 +1979,7 @@ an Ogust-type enquiry.</p>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3&#9827;</p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">weak   (6-8)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">weak (6-8)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
@@ -1947,7 +1987,7 @@ an Ogust-type enquiry.</p>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="red">&#9830;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">medium (9-11)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">int. (9-11)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
