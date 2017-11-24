@@ -4,7 +4,7 @@
 :xrefstyle: short
 :doctype: book
 Kelvin Raywood, Shelley Burns
-v0.9.1, November 23, 2017
+v0.9.2, November 24, 2017
 
 include::macros.adoc[]
 
