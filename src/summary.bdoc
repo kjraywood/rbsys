@@ -69,7 +69,7 @@ _ Usually bypass 4-card majors to rebid NT
 
 === Interference over 1NT
 
-&vs. penalty double &
+*vs. penalty double*
 @ pass = to play
 @@ Redble by opener = 5-card suit +
 @ Redble = {C} or {D} +
@@ -80,19 +80,19 @@ _ Usually bypass 4-card majors to rebid NT
 @ 2NT =  {C} + {D}
 @ 3m = 6*m + 4*{H}
 
-&vs. natural (single-suit) 2C& +
+*vs. natural (single-suit) 2C* +
 @ dble = take-out
 @@ cue (3C) on next-round requests stopper +
 @ other system ON
 
-&vs. artificial double or 2C& +
+*vs. artificial double or 2C* +
 @ System ON
 @ double of 2C = Stayman
 
 We can pass to discover an unspecified suit, then use a take-out
 double or Lebensohl.
 
-&vs. 2D, 2H or 2S (any)& +
+*vs. 2D, 2H or 2S (any)* +
 @ 2M = to play #(except Michaels vs 5-cd suit)#
 @ #3m = inv.#
 @ 3M = forcing
@@ -110,7 +110,7 @@ natural._
 // are takeout until responder shows values by passing or making his
 // own take-out double.
 
-&vs. 2NT (minors)& +
+*vs. 2NT (minors)* +
 @ We play our 2NT system
 
 == 2NT Opening
@@ -508,18 +508,18 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 === Two-level overcalls
 
-&responder passes&
-_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
+&vs pass&
+//_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
 @ cue = good constr.-raise{orMore}
 @ 2NT = natural
 
-&responder raises&
-_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
+&vs raise&
+//_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
 @ double = responsive
 @ 2NT = good constr.-raise{orMore}
 
-&responder doubles (negative)&
-_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
+&vs negative-double&
+//_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
 @ redouble = defensive strength, no fit
 @ cue = good 3-card raise{orMore}
 @ 2NT = good 4-card raise{orMore}
