@@ -35,7 +35,7 @@ _ Usually bypass 4-card majors to rebid NT
 
 {warning} _We do NOT play delayed Texas or delayed Gerber_
 
-*vs double*
+&vs double&
 @ pass promises a stopper
 @ reverse transfers
 @ 2NT = 4-4 majors min
@@ -69,7 +69,7 @@ _ Usually bypass 4-card majors to rebid NT
 
 === Interference over 1NT
 
-*vs. penalty double* +
+&vs. penalty double &
 @ pass = to play
 @@ Redble by opener = 5-card suit +
 @ Redble = {C} or {D} +
@@ -80,19 +80,19 @@ _ Usually bypass 4-card majors to rebid NT
 @ 2NT =  {C} + {D}
 @ 3m = 6*m + 4*{H}
 
-*vs. natural (single-suit) 2C* +
+&vs. natural (single-suit) 2C& +
 @ dble = take-out
 @@ cue (3C) on next-round requests stopper +
 @ other system ON
 
-*vs. artificial double or 2C* +
+&vs. artificial double or 2C& +
 @ System ON
 @ double of 2C = Stayman
 
 We can pass to discover an unspecified suit, then use a take-out
 double or Lebensohl.
 
-*vs. 2D, 2H or 2S (any)* +
+&vs. 2D, 2H or 2S (any)& +
 @ 2M = to play #(except Michaels vs 5-cd suit)#
 @ #3m = inv.#
 @ 3M = forcing
@@ -110,7 +110,7 @@ natural._
 // are takeout until responder shows values by passing or making his
 // own take-out double.
 
-*vs. 2NT (minors)* +
+&vs. 2NT (minors)& +
 @ We play our 2NT system
 
 == 2NT Opening
@@ -241,12 +241,12 @@ _ [* except see below ]
 
 === Second-round jumps and 4th-suit forcing
 
-*Uncontested*
+&Uncontested&
 @ 2nd-round jumps = natural & GF
 @ #2nd-round raise of minor = GF#
 @ 4th suit or new 3rd-suit = F1
 
-*Contested*
+&Contested&
 @ vs double: system on 
 @  vs suit bid: limit bidding & cue=GF
 
@@ -279,11 +279,11 @@ _ [* except see below ]
 
 [NOTE]
 ====
-*Rebidding after 1H-1S:* Responder's forcing 2NT rebid => 2D
-rebid by opener must show extra strength or extra length => opener
-must rebid 1NT with a minimum 2-5-4-2 or 1-5-4-3 => with 4*{D}
-opener may break responder's 2wCB 2C-relay with a paradox 2H (see
-below).
+&Rebidding after 1H-1S:&
+Responder's forcing 2NT rebid => 2D rebid by opener must show extra
+strength or extra length => opener must rebid 1NT with a minimum
+2-5-4-2 or 1-5-4-3 => with 4*{D} opener may break responder's 2wCB
+2C-relay with a paradox 2H
 ====
 
 === Responder's notrump ladder
@@ -358,7 +358,7 @@ _ = cheaper of 4th-suit & 2NT
 |    | 2NT,3C,3D | | sign off
 |===
 
-=== After opener raises
+=== Opener raises
 
 {warning} _We do NOT play {ldquo}Quality & Quantity{rdquo}_
 
@@ -382,8 +382,8 @@ _Three other-minor_{thinsp} is GF often a slam-try.
 | 2M   | 3om* | #semi-natural, GF#
 | ?    |      |
 | 3M   |      | 4-card raise
-| 3NT  |      | 3-card raise short in other minor
 | 3oM* |      | 3-card raise short in other major
+| 3NT  |      | 3-card raise short in other minor
 |===
 
 The other major is natural and forcing one-round.  With a min, opener
@@ -508,19 +508,19 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 === Two-level overcalls
 
-&Responder passes&
+&responder passes&
 _ _e.g._ {thinsp}(1S) - 2C - (P) - ?
 @ cue = good constr.-raise{orMore}
 @ 2NT = natural
 
-&Responder raises&
+&responder raises&
 _ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
 @ double = responsive
 @ 2NT = good constr.-raise{orMore}
 
-&Responder doubles (negative)&
+&responder doubles (negative)&
 _ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
-@ ReDble = defensive strength, no fit
+@ redouble = defensive strength, no fit
 @ cue = good 3-card raise{orMore}
 @ 2NT = good 4-card raise{orMore}
 
