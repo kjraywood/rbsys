@@ -25,12 +25,13 @@ _ Usually bypass 4-card majors to rebid NT
 @ Promises a 4-card major
 @ Includes 5*{S} + 5*__other__{thinsp} inv
 
-*Rebids*
+&Rebids&
 @ splinter
 @ Smolen @ 2-level
 @ OMaR
 
-*OMaR* => 5*{S} + 5*m, inv {or} COG {or} void splinter {or} set trump
+&OMaR&
+=> 5*{S} + 5*m, inv {or} COG {or} void splinter {or} set trump
 
 {warning} _We do NOT play delayed Texas or delayed Gerber_
 
@@ -328,7 +329,7 @@ below).
 | 2H   |     | paradox, 4*{D}, hence minimum
 |===
 
-*Passed hand*
+&Passed hand&
 @ 2C{thinsp}{forces}{thinsp}2D sequences ON
 @ 2D = natural weak with 5*M
 
@@ -338,17 +339,24 @@ Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
 
 === Reverses
 
-_A reverse after 1-level suit-response promises a rebid below-game_.
+==== After 1-level suit-response
 
-Default rebid = cheaper of 4th-suit & 2NT
+@ promises a rebid below-game +
+@ Default rebid by responder
+_ = cheaper of 4th-suit & 2NT
 @@ to force, opener bids above 3 of 1st-suit
 
-*Reverse after 1NT response*
+==== After 1NT response
 
-_Does not promise a rebid_
+@ shows unbalanced raise to 2NT
+@ does not promise a rebid
 
-_e.g._{thinsp} 1D {ndash} 1NT; 2H = unbalanced raise to 2NT
-@@ responder can sign-off in 2NT, 3C, or 3D
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1D | 1NT       | |
+| 2S | {ensp}?   | |
+|    | 2NT,3C,3D | | sign off
+|===
 
 === After opener raises
 
@@ -399,7 +407,7 @@ spades.
 |===
 
 
-*In comp.*
+==== In comp.
 
 When opener is known to have a 4-card raise (_e.g._{thinsp} no support
 double), then new suits are natural game-tries.
@@ -409,7 +417,7 @@ double), then new suits are natural game-tries.
 *Ogust*
 @ ON vs double
 @ OFF vs overcall
- +
+
 *New suits*
 @ forcing after overcall
 @ non-forcing vs double.
@@ -420,19 +428,19 @@ double), then new suits are natural game-tries.
 
 *Default response*
 @ 2D = weak or waiting
- +
+
 *Natural responses*
 @ 2H = natural positive, any suit-quality
 @ 2NT = bal 8-10 (or 13{OrMore})
 @ 3NT = bal 11-12
- +
+
 *Transfer responses*
 @ 2S = one-loser red-suit
 @ 3C = one-loser black-suit
 @ 3D,3H,3S,4C = transfer to solid suit
 
-[caption=]
-.Second Negatives
+*Second negatives*
+
 [%autowidth,cols="2*<",grid="cols"]
 |===
 | {nbsp} 2C {tab} 2D    | {nbsp} 2C {emsp}{thinsp} 2D
@@ -441,13 +449,15 @@ double), then new suits are natural game-tries.
 
 Following a 2nd neg, we can stop in 3M or 4m.
 
-==== Special sequences
+*Special positive*
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
 | 2C | 2D |
 | 2S | 3H | positive, no fit, no 5-card suit, usually 1-4-4-4
 |===
+
+*Four-card major & long diamonds*
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
@@ -498,17 +508,17 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 === Two-level overcalls
 
-*Responder passes*
+&Responder passes&
 _ _e.g._ {thinsp}(1S) - 2C - (P) - ?
 @ cue = good constr.-raise{orMore}
 @ 2NT = natural
 
-*Responder raises*
+&Responder raises&
 _ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
 @ double = responsive
 @ 2NT = good constr.-raise{orMore}
 
-*Responder doubles (negative)*
+&Responder doubles (negative)&
 _ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
 @ ReDble = defensive strength, no fit
 @ cue = good 3-card raise{orMore}
