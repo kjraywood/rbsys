@@ -1,6 +1,6 @@
 # sysnotes
 
-System notes written in asciidoctor using foundation theme  
+System notes written in asciidoctor using customised foundation theme  
 Sources (bridgeDoc files) have extension .bdoc
 Asciidoc files have extension .adoc  
 Processing is controlled via a Makefile  

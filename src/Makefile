@@ -3,7 +3,7 @@ THIS_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 SOURCES = $(wildcard *.bdoc)
 MAIN = system.adoc
 MACROS = macros.adoc
-STYLE_SHEET = foundation.css
+STYLE_SHEET = bridgedoc.css
 ADOCS = $(SOURCES:.bdoc=.adoc)
 HTML = index.html
 
