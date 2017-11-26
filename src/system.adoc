@@ -1,10 +1,10 @@
 = System Notes
+Kelvin Raywood; Shelley Burns
 :toc: left
 :icons: font
 :xrefstyle: short
-:doctype: book
-Kelvin Raywood, Shelley Burns
-v0.9.3, November 25, 2017
+:revnumber: 0.9.3
+:revdate: November 25, 2017
 
 include::macros.adoc[]
 
