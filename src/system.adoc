@@ -14,9 +14,9 @@ include::two-clubs.adoc[]
 
 include::weak-two.adoc[]
 
-include::suit-opening.adoc[]
-
 include::notrump.adoc[]
+
+include::suit-opening.adoc[]
 
 include::rebid-by-responder.adoc[]
 
