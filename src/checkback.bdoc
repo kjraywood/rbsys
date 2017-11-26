@@ -66,6 +66,13 @@ _Longer route = longer {H}-suit_
 _Memory aid:_{thinsp} We also show singletons at the 3-level after
 1NT-2NT
 
+[TIP]
+====
+@ 3M = other-minor singleton +
+@ 3{diams} requests control-bidding
+@@ 4{clubs} = control in other minor
+====
+
 == Wolff Sign-Off
 
 Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
