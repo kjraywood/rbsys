@@ -1,0 +1,48 @@
+== Two Club Opening
+
+{warning} We do NOT play Kokish
+
+*Default response*
+@ 2D = weak or waiting
+
+*Natural responses*
+@ 2H = natural positive, any suit-quality
+@ 2NT = bal 8-10 (or 13{OrMore})
+@ 3NT = bal 11-12
+
+*Transfer responses*
+@ 2S = one-loser red-suit
+@ 3C = one-loser black-suit
+@ 3D,3H,3S,4C = transfer to solid suit
+
+*Second negatives*
+
+[%autowidth,cols="2*<",grid="cols"]
+|===
+| {nbsp} 2C {tab} 2D    | {nbsp} 2C {emsp}{thinsp} 2D
+| {nbsp} 2M {emsp} 2NT* | {nbsp} 3m {emsp}         3H*
+|===
+
+Following a 2nd neg, we can stop in 3M or 4m.
+
+*Special positive*
+
+[%autowidth,cols="2*^,<",grid="none]
+|===
+| 2C | 2D |
+| 2S | 3H | positive, no fit, no 5-card suit, usually 1-4-4-4
+|===
+
+*Four-card major & long diamonds*
+
+[%autowidth,cols="2*^,<",grid="none]
+|===
+| 2C  | 2D    |
+| 3M* |  ?    | #* 4*M, 5{OrMore}{xtimes}{D}, GF#
+|     | 3S    | (M={H}), natural, 6{OrMore}{xtimes}{S}
+|     | 3NT   | to play, no help in opener's suits
+|     | 4C    | #agrees M# (secondary suit)
+|     | 4D    | agrees {D} (primary suit)
+|     | 4H    | (M={S}), agrees {S} with short {D}
+|     | 4M,5D | sign-off
+|===

@@ -1,0 +1,74 @@
+== Competitive Bidding
+
+=== Rule #1
+
+_A call is natural and non-forcing unless defined otherwise._
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      | 1D | (P) | 1S |
+| (2H) | P  | (P) | 3C | natural, NF
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      | 1NT  | (P) | 2D |
+| (2S) | P    | (P) | 3C | natural, NF
+|===
+
+=== Support double
+
+Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
+
+*vs sandwich NT*
+@ On vs unusual
+@ OFF vs natural
+
+*Responder bids*
+@ two of 1st suit or lower = weak
+@ above two of 1st suit = inv
+@ cue = GF
+
+=== Negative double
+
+==== vs one diamond or one heart
+
+With four-card support for a major shown by responder, opener bids _as
+though raising a one-level bid_.{thinsp} That is, opener bids
+immediately to the two-level or higher with 4-card support.
+ 
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1C | (1H) | Dble {ensp} (P)
+|  ? |      |
+| 1S |      | 3*{spades}, up to 17 with no {H} stopper
+| 2S |      | 4*{spades}, minimum range
+| 2H |      | GF, not 4*{spades}
+|===
+
+=== When opps have each bid a suit
+
+Bidding a suit we are over is natural.  Bidding a suit we are under is
+a cue-bid.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D  | P  | (1H) | 1S
+| (P) | ?  |      |
+|     | 2D |      | natural
+|     | 2H |      | cue-bid, good raise to 2S
+|===
+
+=== Strength redouble
+
+1__suit__ - (Dble) - Redble
+
+The strength redouble shows a good ten count (preferably 11) or more
+and at least four-cards in at least two of the unbid suits. Subsequent
+doubles by either player promise four cards in their suit.  A pass
+below two of opener’s suit is forcing.
+
+With a 4333 hand and a decent ten or more HCP, responder should pass
+on the first round.  A subsequent double shows high cards and three
+cards in their suit.  Opener should pull with a singleton in their
+suit, or with a doubleton and a five cards in his first suit.

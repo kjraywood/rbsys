@@ -4,25 +4,28 @@
 :xrefstyle: short
 :doctype: book
 Kelvin Raywood, Shelley Burns
-v0.9.2, November 24, 2017
+v0.9.3, November 25, 2017
 
 include::macros.adoc[]
 
-= Part 1: Summary
-'''
+include::general-approach.adoc[]
 
-include::summary.adoc[]
+include::two-clubs.adoc[]
 
-'''
-= Part 2: Details
-'''
+include::weak-two.adoc[]
 
-include::opening-and-responding.adoc[]
+include::suit-opening.adoc[]
 
-include::2-way-checkback.adoc[]
+include::notrump.adoc[]
+
+include::rebid-by-responder.adoc[]
+
+include::slam-conventions.adoc[]
+
+include::competitive-bidding.adoc[]
+
+include::overcalls.adoc[]
 
 include::take-out-doubles.adoc[]
 
-// include::rebid-by-responder.adoc[]
-
-// include::notrump.adoc[]
+include::defensive-bidding.adoc[]

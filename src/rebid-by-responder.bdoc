@@ -1,79 +1,184 @@
-== Rebid by responder
+== Responder's Rebid
 
-The following principles govern responder's second bid in an
-uncontested auction that starts with three suit-bids without a raise,
-reverse or jump.
+=== Second-round jumps and 4th-suit forcing
 
-* All below-game second-round jumps in uncontested auctions are natural and GF
+&Uncontested&
+@ 2nd-round jumps = natural & GF
+@ #2nd-round raise of minor = GF#
+@ 4th suit or new 3rd-suit = F1
 
-* A second-round raise of a minor is game-forcing
+&Contested&
+@ vs double: system on 
+@  vs suit bid: limit bidding & cue=GF
 
-* To invite, responder temporises with the cheapest new-suit
-  _(artificial)_, then follows with a natural non-jump bid.
-
-=== Example GF auctions
-
-The fourth bid in all of the following auctions is natural and game-forcing
-
-[%autowidth,cols="3*l",subs="normal,attributes"]
+[caption=]
+.Fourth suit at the 1-level
+[%autowidth,cols="3*<",grid="none"]
 |===
-|
-1C - 1H
-1S - 3C
-|
-1C - 1H
-1S - 3H
-|
-1C - 1H
-1S - 3S
-|
-1D - 1H
-1S - 2NT
-|
-1C - 1H
-1S - 3D
-|
-1C - 1D
-1H - 2S
-|
-1D - 1S
-2C - 3C
-|
-1D - 1S
-2D - 3D
-|
-1C - 1S
-2C - 3H
+| 1C   | 1D     |
+| 1H   | ?      |
+|      | 1S     | natural 6-10 or 11+ artificial
+|      |        | {tribull} opener assumes natural
+|      | 2S,2NT | natural GF
 |===
 
-=== Fourth-suit forcing
-
-@ One-round force
-@ Does not promise a rebid below 2NT
-@ A three-level bid by opener is forcing
-
-
-=== Contested auctions
-
-Second-round jumps and second-round raise of a minor are still forcing
-if either opponent enters with a take-out double, __i.e. system on vs
-double__
-
-If either opponent has shown a suit, then the cue-bid is game-forcing
-and second-round jumps are invitational, __i.e. limit bidding in
-competition__
+[caption=]
+.Fourth suit at the 3-level
+[%autowidth,cols="3*<",grid="none"]
+|===
+| 1H | 1S       |
+| 2D | ?        |
+|    | 2NT      | #11-14, F1#
+|    | 3D,3H,3S | natural, GF
+|    | 3NT      | 15-17
+|    | 3C       | invitation in {D}, {H}, or {S}
+|    |          | *paradox responses*
+|    |          | 3D = decline {D}
+|    |          | 3H = accept {D}, decline {H}
+|    |          | _etc._
+|===
 
 === Responder's notrump ladder
 
-Applies after three suit-bids without a raise, reverse or jump-shift.
+[caption=]
+.After three suits at the 1-level
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1C | 1H   |  |
+| 1S | ?    |  |
+|    | 2NT  |  | 13-15 or 18+
+|    | 3NT  |  | 16-17
+|    | 2D*  |  | 4th suit (F1) includes bal. 11-12
+|===
 
-@ Jump to 2NT = 13-15 or 18+
-@ Double jump to 3NT = 16-17
+[caption=]
+.After opener's 2-level rebid
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D | 1S   |  |
+| 2C | ?    |  |
+|    | 2NT  |  | 11-12
+|    | 3NT  |  | 16-17
+|    | 4NT  |  | 18-19
+|    | 2H*  |  | 4th suit (F1) includes bal. 13-15
+|===
 
-When opener’s rebid was at the two-level: (__e.g.__ after 1D-1S; 2C)
+=== 2-Way Checkback
 
-@ Non-jump 2NT = 11-12 (NF)
-@ Jump to 3NT = 16-17
-@ Double-jump to 4NT  = 18-19
+@ ON after both minors or both majors
+@ ON vs take-out double by either opp +
+@ OFF if either opp has shown a suit
+@@ cue = GF, jumps are inv +
+@ Jump on 2nd-round = slammish +
+@@ new suit => 5--5
+@@ #opener's minor => 4*M + ?{times}m#
 
-With 13-15, responder temporises with a new suit (3rd or 4th-suit forcing).
+&Passed hand&
+@ 2C{thinsp}{forces}{thinsp}2D sequences ON
+@ 2D = natural weak with 5*M
+
+==== Longer route = longer {hearts}-suit
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  | 1H   |  |
+| 1NT | 2S   |  | 4*{H} + 4*{S}, inv
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  | 1H   |  |
+| 1NT | 2C   |  |
+| 2D  | 2S   |  | 5*{H} + 4*{S}, inv
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  | 1S   |  |
+| 1NT | 2H   |  | 5*{S} + 4*{H}, inv
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  | 1S   |  |
+| 1NT | 2C   |  |
+| 2D  | 2H   |  | 5*{S} + 4*{H}, inv
+|===
+
+=== Wolff Sign-Off
+
+Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
+
+=== Reverses
+
+==== After 1-level suit-response
+
+@ promises a rebid below-game +
+@ Default rebid by responder
+_ = cheaper of 4th-suit & 2NT
+@@ to force, opener bids above 3 of 1st-suit
+
+==== After 1NT response
+
+@ shows unbalanced raise to 2NT
+@ does not promise a rebid
+
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1D | 1NT       | |
+| 2S | {ensp}?   | |
+|    | 2NT,3C,3D | | sign off
+|===
+
+=== Opener raises
+
+{warning} _We do NOT play {ldquo}Quality & Quantity{rdquo}_
+
+Responder uses natural NF invitations, and choice-of-game.
+
+[%autowidth,cols="^,^,<",grid="none"]
+|===
+| 1m | 1M  |
+| 2M | ?   |
+|    | 2NT | natural, inv,##{sp}NF{sp}##
+|    | 3m  | natural, inv,##{sp}NF{sp}##
+|    | 3M  | five-card suit, inv
+|    | 3NT | natural, COG
+|===
+
+_Three other-minor_{thinsp} is GF often a slam-try.
+
+[%autowidth,cols="^,^,<",grid="none"]
+|===
+| 1m   | 1M   |
+| 2M   | 3om* | #semi-natural, GF#
+| ?    |      |
+| 3M   |      | 4-card raise
+| 3oM* |      | 3-card raise short in other major
+| 3NT  |      | 3-card raise short in other minor
+|===
+
+The other major is natural and forcing one-round.  With a min, opener
+makes a natural bid.  With a max, opener bids _three
+other-minor_{thinsp} to show four hearts, or jumps to show four
+spades.
+
+[%autowidth,cols="^,^,<",grid="none"]
+|===
+| 1C    | 1H |
+| 2H    | 2S | natural, F1
+| ?     |    |
+| 2NT   |    | min, 3*{H}, short {S}, NF
+| 3C    |    | 3*{H}, 5\|6*{C}, short {D}, NF
+| #3D*# |    | #max, 4*{H}, GF#
+| 3H    |    | min, 4*{H}, NF
+| 3S    |    | min, 4*{S}, NF
+| 3NT   |    | max, 3*{H}, short {S}
+| 4C*   |    | max, #4*{S}#, good {C}
+| 4D*   |    | max, #4*{S}#, splinter
+|===
+
+==== In comp.
+
+When opener is known to have a 4-card raise (_e.g._{thinsp} no support
+double), then new suits are natural game-tries.

@@ -1,0 +1,98 @@
+== NoTrump Overcalls
+
+*Direct* = 15-18
+@ Systems ON
+
+*Balancing*
+@ vs. minor = 11-14
+@ vs. major = 13-16
+@ Systems ON
+
+*Sandwich position 1NT*
+@ 16-19 natural
+@ Sys OFF
+@@ under-suit cue = Stayman
+@ unusual by PH
+
+*vs weak two*
+@ 2NT = 16-19
+@ #Our 2NT system ON, including 3S {forces} 3NT#
+@ Transfer to their major = inv in other major
+
+== Suit Overcalls
+
+@ New suit = constructive, NF +
+@ JS = natural, good hand, but NF
+@@ _no inv./inv._{thinsp} applies
+
+=== One-major overcalls
+
+@ 2NT = good 4-card raise
+@ cue = good 3-card raise, or any force
+@ Jump cue = mixed raise
+@ double of raise = responsive
+@ double of new suit = snapdragon
+
+=== Two-level overcalls
+
+&vs pass&
+//_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
+@ cue = good constr.-raise{orMore}
+@ 2NT = natural
+
+&vs raise&
+//_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
+@ double = responsive
+@ 2NT = good constr.-raise{orMore}
+
+&vs negative-double&
+//_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
+@ redouble = defensive strength, no fit
+@ cue = good 3-card raise{orMore}
+@ 2NT = good 4-card raise{orMore}
+
+=== vs Further Interference
+
+Bidding shows extra length or strength in the suit bid, _except when
+partner guarantees four-card support and forces the bidding to the
+three level_.
+
+=== Balancing
+
+Following a balancing 1M, the unbid minor shows a good raise (like Drury).
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |      | (1C) | P  | |
+| (P) | 1H   | (P)  | ?  | |
+|     |      |      | 2C | | natural
+|     |      |      | 2D | | good {H} raise
+|===
+
+== Two-suited overcalls (Klinger)
+
+@ cue-bid & lowest J.O. = next 2 suits
+@ 2NT = suit-below + suit-above
+@ Only applies in direct seat
+@ ON vs short club or diamond
+
+=== Advancing
+
+If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
+an Ogust-type enquiry.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |      | (1C) | 2D | | majors
+| (P) | 2NT* | (P)  | ?  | | * range-ask
+|     |      |      | 3C | | weak (6-8)
+|     |      |      | 3D | | int. (9-11)
+|     |      |      | 3H | | strong (12-14)
+|     |      |      | 3S | | huge (16+)
+|===
+
+The HCP ranges do not count queens and jacks in the side suits and are
+a point or two higher when vulnerable.
+
+When the Klinger bid is 2NT or 3C, then the cue-bid of opener’s suit
+asks for strength.

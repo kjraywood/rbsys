@@ -1,0 +1,123 @@
+
+== Minor Opening
+
+@ Single raise = GF
+@ Jump raise = weak
+@ JS to other minor = LR
+@ 2S = mixed raise
+@ 2NT = 11-12
+@ 3NT = 13-15
+@ 2H = rev. Flannery #(off in comp.)#
+
+*Passed hand*
+@ Single raise = normal
+
+*vs. double*
+@ 2NT = bal. 11-12 + fit, NF
+@ 3NT = bal. 13-15 + fit
+@ JS to other minor = unbal {LRplus}
+@ JS to major = weak
+
+*vs. overcall*
+@ cue = {LRplus}
+@ jump raise = weak
+@ JS = weak* by unPH, fit by PH
+_ [* except see below ]
+
+*vs. 1m-(1S) by unPH*
+@ #{thinsp}2H = neg. free-bid by unPH{thinsp}#
+@ 3H = 6-cd suit, GF
+@ Dble = 4 or 5 {times} {H}, _any strength_
+
+*vs. 1NT*
+@ 2C = majors
+@ 2D,2H = transfer
+@ 2S = other minor
+@ Dble = penalty & _creates a force below_{thinsp} 2S
+
+*vs. Unusual 2NT ({H} + other minor)*
+@ Dble = neg. (4*{S})
+@ lo cue = {S} inv.
+@ hi cue (3H) = {LRplus}
+@ 3S = forcing
+
+*vs. Michaels (majors)*
+@ lo cue (2H) = other minor
+@ hi cue (2S) = {LRplus}
+@ 1C-(2C)-2D = NF
+@ 1C-(2C)-2H = {D} GF
+
+== Major Opening
+
+@ Jump raise = limit
+@ *3M + 1* = weak splinter, any suit
+@ Jump shift = natural inv.
+@@ _no inv./inv._{thinsp} applies
+
+*Single-raise*
+@ next-step game-try
+@ new-suit slam-try
+@ re-raise = inv with long trumps
+
+*Jacoby 2NT*
+@ jump new-suit = length
+@ 3NT by either = minimum
+
+*Passed hand*
+@ 3-way Drury
+@@ ON vs Dble & 1S,{thinsp} OFF vs 2C +
+@ #{thinsp}JS = fit{thinsp}#
+@ 2NT = both minors inv. 
+
+*vs. double*
+@ 2NT = LR
+@ 3NT = GF bal.-raise
+@ JS = weak (not fit)
+@ double JS = splinter
+
+*vs. overcall*
+@ cue = {LRplus}
+@ jump raise = weak
+@ JS to 3m = weak by unPH, fit by PH
+@ #{thinsp}4-__lower-suit__{thinsp} = fit{thinsp}#
+
+*vs. 1M-(2m) by unPH*
+@ #{thinsp}2oM = neg. free-bid by unPH{thinsp}# (6{orMore}, NF)
+@ JS to 3oM = 6{orMore}, GF
+@ Dble = 4 or 5 {times} oM, _any strength_
+
+*vs. 1NT*
+@ 2m = m + oM
+@ Dble = penalty & _creates a force below_{thinsp} 2S
+
+*vs. Unusual 2NT*
+@ Dble = neg. (4*oM)
+@ lo cue = oM inv.
+@ hi cue = {LRplus}
+@ 3oM = forcing
+
+=== Rebidding after 1H-1S
+
+@ #2D rebid shows non-minimum#
+_ (extra strength or extra length)
+@ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
+
+[caption=]
+.2wCB after both majors
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H   | 1S  | |
+| 1NT  | 2C* | | sign-off in {D}, or some inv.
+|  ?   |     | |
+| 2D   |     | | normal relay-accept
+| 2H   |     | | paradox, 4*{D}, hence minimum
+|===
+
+== 2/1 Auctions
+
+@ Forcing to game or 4m
+@ 1M-2C = could be short
+@@ 2D rebid = default +
+@ 1M-2C;{thinsp}2M = 6{OrMore}{xtimes}M
+
+{warning} _Need more_

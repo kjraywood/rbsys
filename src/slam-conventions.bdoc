@@ -1,0 +1,96 @@
+== Slam Conventions I
+
+=== Gerber
+
+@ Only applies after 1NT and 2NT openings
+@ Responses: 14, 30, 2 & min, 2 & max
+
+{warning} Self splinters (not Gerber) after NT rebids
+
+=== Cheap Key-Card after preempts
+
+@ we open a preempt
+@ next hand passes or doubles for take-out
+@ 4D / 3C {or} 4C / _other_{thinsp} = key-card ask
+@ Responses: 0, 1-, 1+, 2-, 2+
+
+=== Exclusion
+
+.Required
+* we have agreed trump
+
+.Cases
+* jump to a new suit between 4T and 5T
+* a non-jump bid in a new-suit between four and five of our suit by a
+  hand that has not made a cue-bid between three and four of our suit
+
+Responses:  0, 1, 2-, 2+, 3-, 3+
+
+== Slam Conventions II - Kickback
+
+@ 1430 / major, #3014 / minor# (why?)
+@ asker keeps asking, teller keeps telling
+@ 4NT replaces the kickback suit
+
+=== Hearts and Spades
+
+If it’s possible to set spades as trump with an unambiguous forcing 3S
+bid, but not possible to set hearts as trump unambiguously, then a
+jump to 4S by the heart bidder is kickback for hearts and 4NT is
+exclusion requesting KC in hearts excluding the ace of spades.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S | 2H  | |
+| 2S | ?   | |
+|    | 3S  | | sets trump to {S}
+|    | 4S  | | kickback for {H}
+|    | 4NT | | exclusion - KC for {H} excluding the {S}A
+|===
+
+// Minorwood
+// Four of our minor requests key-cards.  ** Need more clarification and examples here **
+// Jump agreement from two to four
+// Re-raise from three to four
+// After suit agreement and one cue-bid below 3NT
+// Pulling 3NT to four of our previously agreed minor
+
+=== Specific Kings
+
+The bid that asks for kings is ALWAYS one step above five of the
+trump-suit.  This applies even if there is a spare step below five of
+trump suit that is not needed for the the queen ask. ie. ALWAYS means
+ALWAYS.
+
+When the king-ask is a suit-bid (i.e. trumps are not spades), then 5NT shows the king of that suit.
+
+Asking for kings promises that we have all the key-cards and the trump
+queen.  This enables teller to jump straight to grand with 13 known tricks.
+
+// ** Need example auctions **
+
+=== Responding to the Queen Ask
+
+Without the queen, teller returns to the trump suit
+
+With the queen but no side kings, teller makes the cheapest bid other than the trump-suit
+
+With the queen and one or more side kings, teller shows specific kings
+up-the-line
+
+If the cheapest non-trump-suit bid (denying any side kings) is a suit,
+then 5NT is used to show the king in that suit
+
+// ** Need example auctions **
+// Interference - they double, we ignore it
+// When any asking or telling bid is doubled, we ignore it.  ie. We bid as though the double did not occur.  We do not pass and we do not redouble.  We just continue our auction.
+// Interference - they bid below five of our trump suit, we play D1P0
+// If, following our key-card asking bid, an opponent bids something below five of our trump suit, then
+// double = one or four (14)
+// pass = zero or three (30)
+// next step = 2 without the queen etc.
+// Interference - they bid five of our trump suit or higher, we play DEPO
+// Double shows Even, Pass shows Odd
+// Specific Suit Asking Bids
+// ** danger **
+
