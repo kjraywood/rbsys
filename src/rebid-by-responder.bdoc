@@ -91,14 +91,14 @@ _ = cheaper of 4th-suit & 2NT
 
 Responder uses natural NF invitations, and choice-of-game.
 
-[%autowidth,cols="^,^,<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m | 1M  |
-| 2M | ?   |
-|    | 2NT | natural, inv,##{sp}NF{sp}##
-|    | 3m  | natural, inv,##{sp}NF{sp}##
-|    | 3M  | five-card suit, inv
-|    | 3NT | natural, COG
+| 1m | 1M  | |
+| 2M | ?   | |
+|    | 2NT | | natural, inv,##{sp}NF{sp}##
+|    | 3m  | | natural, inv,##{sp}NF{sp}##
+|    | 3M  | | five-card suit, inv
+|    | 3NT | | natural, COG
 |===
 
 _Three other-minor_{thinsp} is GF often a slam-try.
