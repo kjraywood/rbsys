@@ -325,7 +325,7 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
 #header > h1:first-child { color: #000; margin-top: 2.25rem; margin-bottom: 0; }
 #header > h1:first-child + #toc { margin-top: 8px; border-top: 1px solid #000; }
 #header > h1:only-child, body.toc2 #header > h1:nth-last-child(2) { border-bottom: 1px solid #000; padding-bottom: 8px; }
-#header .details { border-bottom: 1px solid #000; line-height: 1.45; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.25em; color: #555555; display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-flow: row wrap; -webkit-flex-flow: row wrap; flex-flow: row wrap; }
+#header .details { border-bottom: 1px solid #000; line-height: 1.45; padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 0.25em; color: #0366d6; display: -ms-flexbox; display: -webkit-flex; display: flex; -ms-flex-flow: row wrap; -webkit-flex-flow: row wrap; flex-flow: row wrap; font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: normal; font-style: italic; }
 #header .details span:first-child { margin-left: -0.125em; }
 #header .details span.email a { color: #6f6f6f; }
 #header .details br { display: none; }
@@ -397,7 +397,7 @@ table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-si
 .admonitionblock > table td.icon { text-align: center; width: 80px; }
 .admonitionblock > table td.icon img { max-width: initial; }
 .admonitionblock > table td.icon .title { font-weight: bold; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; text-transform: uppercase; }
-.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #000; }
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #0366d6; }
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
 
 .exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: #fff; -webkit-border-radius: 0; border-radius: 0; }
@@ -608,6 +608,7 @@ div.unbreakable { page-break-inside: avoid; }
 .bold-brickred { color: #7a2518; font-weight: bold; }
 
 .brickred { color: #7a2518; }
+.githubblue { color: #0366d6; }
 
 /* Kel - prefer suit symbols with courier */
 .courier { font-family: Courier; }
@@ -714,13 +715,14 @@ b.conum * { color: inherit !important; }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body class="book toc2 toc-left">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>System Notes</h1>
 <div class="details">
-<span id="author" class="author">Kelvin Raywood, Shelley Burns</span><br>
-<span id="revnumber">version 0.9.3,</span>
-<span id="revdate">November 25, 2017</span>
+<span id="author" class="author">Kelvin Raywood</span><br>
+<span id="author2" class="author">Shelley Burns</span><br>
+<span id="revnumber">version 0.9.4,</span>
+<span id="revdate">November 26, 2017</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -838,7 +840,7 @@ b.conum * { color: inherit !important; }
 <h2 id="_two_club_opening">Two Club Opening</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> We do NOT play Kokish</p>
+<p><span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <em>We do NOT play Kokish</em></p>
 </div>
 <div class="paragraph">
 <p><strong>Default response</strong>
@@ -1158,13 +1160,13 @@ b.conum * { color: inherit !important; }
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3m = 6&thinsp;&times;&thinsp;m + 4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span> </span></p>
 </div>
 <div class="paragraph">
-<p><strong>vs. natural 2<span class="courier black">&#9827;</span> (single-suit)</strong><br>
+<p><strong>vs. natural 2<span class="courier black">&#9827;</span> (single-suit)</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> dble = take-out </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> cue (3<span class="courier black">&#9827;</span>) on next-round requests stopper </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> other system ON </span></p>
 </div>
 <div class="paragraph">
-<p><strong>vs. artificial double or 2<span class="courier black">&#9827;</span></strong><br>
+<p><strong>vs. artificial double or 2<span class="courier black">&#9827;</span></strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> System ON </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> double of 2<span class="courier black">&#9827;</span> = Stayman </span></p>
 </div>
@@ -1173,11 +1175,11 @@ b.conum * { color: inherit !important; }
 double or Lebensohl.</p>
 </div>
 <div class="paragraph">
-<p><strong>vs. 2NT (minors)</strong><br>
+<p><strong>vs. 2NT (minors)</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> We play our 2NT system </span></p>
 </div>
 <div class="paragraph">
-<p><strong>vs. 2<span class="courier red">&#9830;</span>, 2<span class="courier red">&#9829;</span> or 2<span class="courier black">&#9824;</span> (any)</strong><br>
+<p><strong>vs. 2<span class="courier red">&#9830;</span>, 2<span class="courier red">&#9829;</span> or 2<span class="courier black">&#9824;</span> (any)</strong>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2M = to play <mark>(except Michaels vs 5-cd suit)</mark> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> <mark>3m = inv.</mark> </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3M = forcing </span>
@@ -1914,7 +1916,7 @@ double), then new suits are natural game-tries.</p>
 <div class="sect2">
 <h3 id="_inv_with_both_majors">Inv with both majors</h3>
 <div class="paragraph">
-<p><em>Longer route = longer <span class="courier">&#9829;</span>-suit</em></p>
+<p><em>Longer route = longer <span class="courier red">&#9829;</span>-suit</em></p>
 </div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
@@ -1934,7 +1936,7 @@ double), then new suits are natural game-tries.</p>
 <td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier black">&#9824;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span> + 4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, inv</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span> + 4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, inv</p></td>
 </tr>
 </tbody>
 </table>
@@ -1962,7 +1964,7 @@ double), then new suits are natural game-tries.</p>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9830;</span></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier black">&#9824;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">5&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span> + 4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, inv</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span> + 5&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, inv</p></td>
 </tr>
 </tbody>
 </table>
@@ -2012,7 +2014,7 @@ double), then new suits are natural game-tries.</p>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9830;</span></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9829;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">5&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span> + 4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, inv</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span> + 5&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, inv</p></td>
 </tr>
 </tbody>
 </table>
@@ -2120,6 +2122,22 @@ double), then new suits are natural game-tries.</p>
 <div class="paragraph">
 <p><em>Memory aid:</em>&thinsp; We also show singletons at the 3-level after
 1NT-2NT</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3M = other-minor singleton </span><br>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3<span class="courier">&#9830;</span> requests control-bidding </span>
+<span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> 4<span class="courier">&#9827;</span> = control in other minor </span></p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -3000,8 +3018,8 @@ invite game.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.9.3<br>
-Last updated 2017-11-25 20:02:06 PST
+Version 0.9.4<br>
+Last updated 2017-11-26 00:33:14 PST
 </div>
 </div>
 </body>
