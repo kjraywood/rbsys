@@ -20,6 +20,8 @@ include::suit-opening.adoc[]
 
 include::rebid-by-responder.adoc[]
 
+include::checkback.adoc[]
+
 include::slam-conventions.adoc[]
 
 include::competitive-bidding.adoc[]
