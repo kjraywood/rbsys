@@ -45,24 +45,26 @@ _Longer route = longer {hearts}-suit_
 |===
 | 1m  | 1S       |
 | 1NT | {ensp}?  |
-|     | 2D       | GF checkback
-|     | 2NT      | sign-off in {C} #or GF-raise of m with exactly 4x{S}#
-|     | 3C,3D,3H | 5-5, good suits, slammish
+|     | 3C,3D,3H | 5-5, good suits
 |     | 3S       | 1-loser suit
 |     | 4C,4D,4H | self-splinter
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  | 1S   | |
-| 1NT | 2NT  | |
+| 1m  | 1M   | |
+| 1NT | 2NT  | | forces 3C
 | 3C  | ?    | |
 |     | pass | | to play
-|     | 3D   | | 5*m + #other-minor singleton#
-|     | 3H   | | {H} singleton
-|     | 3S   | | #?? good {S} and m ??#
+|     | bid  | | GF-raise of m,  #exactly 4x{M}#
+|     | 3D   | | #other-minor singleton#
+|     | 3oM  | | {oM} singleton
+|     | 3M   | | #?? good {M} and m ??#
 |     | 3NT  | | slam inv., no singleton
 |===
+
+_Memory aid:_{thinsp} We also show singletons at the 3-level after
+1NT-2NT
 
 == Wolff Sign-Off
 
