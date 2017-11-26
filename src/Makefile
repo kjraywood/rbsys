@@ -33,7 +33,7 @@ WRAPP_LEV2 = -e '/^[[:blank:]]*@@[[:blank:]]/{ \
 
 SED = /usr/bin/sed -E
 
-.PHONY: all install tidy clean status update commit force
+.PHONY: all install tidy clean status update pull commit
 
 all: $(HTML)
 
@@ -41,8 +41,9 @@ $(HTML): $(MAIN) $(MACROS) $(ADOCS) $(STYLE_SHEET)
 	asciidoctor -a stylesheet=$(STYLE_SHEET) $(MAIN) -o $@
 
 %.adoc : %.bdoc
-	$(SED) $(BIDS) $(SUIT_LENGTH) $(BOLD_BRICK) \
+	@$(SED) $(BIDS) $(SUIT_LENGTH) $(BOLD_BRICK) \
 	       $(WRAPP_LEV0) $(WRAPP_LEV1) $(WRAPP_LEV2) $< >$@
+	@echo $@
 
 install: $(HTML)
 	install -m 0664 -t $(THIS_DIR)../ $<
@@ -56,8 +57,8 @@ clean: tidy
 status:
 	git status
 
-update:
-	@svn update
+update pull:
+	git pull
 
 commit:
 	git commit -a
