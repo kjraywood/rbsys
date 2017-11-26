@@ -16,14 +16,14 @@ _Longer route = longer {H}-suit_
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1m  | 1H | |
-| 1NT | 2S | | 4*{H} + 4*{S}, inv
+| 1NT | 2S | | 4*{S} + 4*{H}, inv
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1m  | 1H |  |
 | 1NT | 2C |  |
-| 2D  | 2S |  | 5*{H} + 4*{S}, inv
+| 2D  | 2S |  | 4*{S} + 5*{H}, inv
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -36,7 +36,7 @@ _Longer route = longer {H}-suit_
 |===
 | 1m  | 1S   |  |
 | 1NT | 2C   |  |
-| 2D  | 2H   |  | 5*{S} + 4*{H}, inv
+| 2D  | 2H   |  | 5*{S} + 5*{H}, inv
 |===
 
 === GF Sequences
