@@ -52,15 +52,15 @@ _Longer route = longer {hearts}-suit_
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  | 1M   | |
-| 1NT | 2NT  | | forces 3C
-| 3C  | ?    | |
-|     | pass | | to play
-|     | bid  | | GF-raise of m,  #exactly 4x{M}#
-|     | 3D   | | #other-minor singleton#
-|     | 3oM  | | {oM} singleton
-|     | 3M   | | #?? good {M} and m ??#
-|     | 3NT  | | slam inv., no singleton
+| 1m  | 1M    | |
+| 1NT | 2NT   | | forces 3C
+| 3C  | ?     | |
+|     | pass  | | to play
+|   | __bid__ | | GF-raise of m,  #exactly 4xM#
+|     | 3D    | | #other-minor singleton#
+|     | 3oM   | | oM singleton
+|     | 3M    | | #?? good M and m ??#
+|     | 3NT   | | slam inv., no singleton
 |===
 
 _Memory aid:_{thinsp} We also show singletons at the 3-level after
