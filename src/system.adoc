@@ -22,6 +22,8 @@ include::rebid-by-responder.adoc[]
 
 include::checkback.adoc[]
 
+include::two-over-one.adoc[]
+
 include::slam-conventions.adoc[]
 
 include::competitive-bidding.adoc[]
