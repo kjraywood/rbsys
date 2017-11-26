@@ -77,3 +77,38 @@ _Memory aid:_{thinsp} We also show singletons at the 3-level after
 
 Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
 
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1m  | 1M       | |
+| 2NT | ?        | |
+|     | 3C       | | forces 3D
+|     | 3D       | | checkback
+|     | 3H       | | (M={S}) 5-5 F
+|     | 3S       | | (M={H}), #?? 6-4?, self-splinter?#
+|     | 3NT      | | slam try in opener's minor
+|     | 4C,4D    | | #minorwood?, self-splinter?, natural 5-5?#
+|===
+
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1m  | 1M	| |
+| 2NT | 3C	| |
+| 3D  | ?	| |
+|     | pass,3M	| | to play
+|     | 3oM	| | #slam try, 5{orMore}{times}m#
+|     | 3NT	| | slam try, 4*m
+|     | 4m	| | #??minorwood??#
+|     |	4M	| | #self-wood??#, why?, can set trump first
+|===
+
+{warning} need agreements for 1C-1D;2NT and 1M-1NT;2NT
+
+[TIP]
+====
+Some alternatives
+@ transfers after 18-19 2NT rebid.
+@@ _esp._{thinsp} 1M-1NT;2NT +
+@ 2D opening = Mexican, (bal. 18-19)
+@@ 1m-1M;2NT = strong m, 3*M
+@@ 1M-1NT;2NT = GF
+====
