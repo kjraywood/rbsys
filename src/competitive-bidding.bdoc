@@ -31,7 +31,7 @@ Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
 
 === Negative double
 
-==== vs one diamond or one heart
+==== vs 1{diams} or 1{hearts}
 
 With four-card support for a major shown by responder, opener bids _as
 though raising a one-level bid_.{thinsp} That is, opener bids
@@ -61,14 +61,14 @@ a cue-bid.
 
 === Strength redouble
 
-1__suit__ - (Dble) - Redble
+*1__suit__  - (Dbl) - Redbl*
+@ good 10{orMore} HCP
+@ no fit
+@ 4{orMore} cards in 2{orMore} unbid suits
+@ Subsequent doubles = 4{orMore} of their suit
+@ Forcing to two of opener’s suit
 
-The strength redouble shows a good ten count (preferably 11) or more
-and at least four-cards in at least two of the unbid suits. Subsequent
-doubles by either player promise four cards in their suit.  A pass
-below two of opener’s suit is forcing.
-
-With a 4333 hand and a decent ten or more HCP, responder should pass
-on the first round.  A subsequent double shows high cards and three
-cards in their suit.  Opener should pull with a singleton in their
-suit, or with a doubleton and a five cards in his first suit.
+With a 4333 hand and a decent ten or more HCP, responder passes on the
+first round, then doubles on the second round.  Opener will pull with
+a singleton in their suit, or with a doubleton and five cards in the
+opening suit.
