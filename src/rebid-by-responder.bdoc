@@ -182,3 +182,12 @@ spades.
 
 When opener is known to have a 4-card raise (_e.g._{thinsp} no support
 double), then new suits are natural game-tries.
+
+== 2/1 Auctions
+
+@ Forcing to game or 4m
+@ 1M-2C = could be short
+@@ 2D rebid = default +
+@ 1M-2C;{thinsp}2M = 6{OrMore}{xtimes}M
+
+{warning} _Need more_
