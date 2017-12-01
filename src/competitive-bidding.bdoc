@@ -53,10 +53,10 @@ a cue-bid.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1D  | P  | (1H) | 1S
-| (P) | ?  |      |
-|     | 2D |      | natural
-|     | 2H |      | cue-bid, good raise to 2S
+| (1D) | P  | (1H) | 1S
+| (P)  | ?  |      |
+|      | 2D |      | natural
+|      | 2H |      | cue-bid, good raise to 2S
 |===
 
 === Strength redouble
