@@ -2,7 +2,7 @@
 
 @ ON after both minors or both majors
 @ ON vs take-out double by either opp +
-@ OFF if either opp has shown a suit
+@ #OFF if either opp has shown a suit#
 @@ cue = GF, jumps are inv +
 
 *Passed hand*
@@ -66,6 +66,7 @@ _Longer route = longer {H}-suit_
 _Memory aid:_{thinsp} We also show singletons at the 3-level after
 1NT-2NT
 
+.Idea for 3M
 [TIP]
 ====
 @ 3M = other-minor singleton +
@@ -103,9 +104,9 @@ Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
 
 {warning} need agreements for 1C-1D;2NT and 1M-1NT;2NT
 
+.Alternatives to Wolff
 [TIP]
 ====
-Some alternatives
 @ transfers after 18-19 2NT rebid.
 @@ _esp._{thinsp} 1M-1NT;2NT +
 @ 2D opening = Mexican, (bal. 18-19)
