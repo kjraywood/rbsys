@@ -3,8 +3,8 @@ Kelvin Raywood; Shelley Burns
 :toc: left
 :icons: font
 :xrefstyle: short
-:revnumber: 0.9.4
-:revdate: November 26, 2017
+:revnumber: 0.9.5
+:revdate: December 1, 2017
 
 include::macros.adoc[]
 
