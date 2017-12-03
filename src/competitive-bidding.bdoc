@@ -58,17 +58,3 @@ a cue-bid.
 |      | 2D |      | natural
 |      | 2H |      | cue-bid, good raise to 2S
 |===
-
-=== Strength redouble
-
-*1__suit__  - (Dbl) - Redbl*
-@ good 10{orMore} HCP
-@ no fit
-@ 4{orMore} cards in 2{orMore} unbid suits
-@ Subsequent doubles = 4{orMore} of their suit
-@ Forcing to two of opener’s suit
-
-With a 4333 hand and a decent ten or more HCP, responder passes on the
-first round, then doubles on the second round.  Opener will pull with
-a singleton in their suit, or with a doubleton and five cards in the
-opening suit.

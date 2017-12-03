@@ -35,6 +35,21 @@ shows both majors but does not promise a good hand.
 |      |      |        | 2D | | both majors, could be weak
 |===
 
+
+=== Strength redouble
+
+*1__suit__  - (Dbl) - Redbl*
+@ good 10{orMore} HCP
+@ no fit
+@ 4{orMore} cards in 2{orMore} unbid suits
+@ Subsequent doubles = 4{orMore} of their suit
+@ Forcing to two of opener’s suit
+
+With 4333 and a decent ten or more HCP, responder passes on the first
+round, then doubles on the second round.  Opener pulls with a
+singleton in their suit, or with a doubleton and five cards in the
+opening suit.
+
 === Scrambling 2NT
 
 @ Opps have bid to 2H or 2S
