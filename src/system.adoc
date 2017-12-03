@@ -3,8 +3,8 @@ Kelvin Raywood; Shelley Burns
 :toc: left
 :icons: font
 :xrefstyle: short
-:revnumber: 0.9.5
-:revdate: December 1, 2017
+:revnumber: 0.9.6
+:revdate: December 2, 2017
 
 include::macros.adoc[]
 
@@ -33,3 +33,5 @@ include::overcalls.adoc[]
 include::take-out-doubles.adoc[]
 
 include::defensive-bidding.adoc[]
+
+include::2nt-in-comp.adoc[]
