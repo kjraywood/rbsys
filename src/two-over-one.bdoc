@@ -9,7 +9,8 @@
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-| 2D | | _required_{thinsp} with 5{orMore}, calls other than 3D deny 5{OrMore}{xtimes}{D}
+| 2D | | _required_{thinsp} with 5{orMore}
+         except if rebidding {D} or raising {C}.
 | 2M | | 4*M, no stopper in other M
 | 2N | | stoppers in both Ms, may hold 4-cd M
 | 3C | | 4*{C}, no 4-cd M
@@ -18,12 +19,11 @@
 | 3N | | 4-4-4-1, 16-17
 |===
 
-Either partner can bid a 4-card major at any time allowed by this
-basic outline.
-
 .Alternate scheme
 [TIP]
 ====
+
+Used when 1D-2NT=GF so that 1D-2C may contain balanced 11-12.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
