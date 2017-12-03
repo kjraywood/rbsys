@@ -35,7 +35,6 @@ shows both majors but does not promise a good hand.
 |      |      |        | 2D | | both majors, could be weak
 |===
 
-
 === Strength redouble
 
 *1__suit__  - (Dbl) - Redbl*
@@ -49,70 +48,3 @@ With 4333 and a decent ten or more HCP, responder passes on the first
 round, then doubles on the second round.  Opener pulls with a
 singleton in their suit, or with a doubleton and five cards in the
 opening suit.
-
-=== Scrambling 2NT
-
-@ Opps have bid to 2H or 2S
-@ Partner makes a take-out double
-@ RHO passes
-
-2NT is scrambling in three situations.
-
-==== Strictly protective auctions
-
-Partner reopons after the opps have attempted to pass-out an uncontested auction.
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-| (1H) | P   | (2H) | P
-| (P)  | Dbl | (P)  | 2NT*
-|===
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-|      |     | (1NT) | P
-| (2C) | P   | (2S)  | P
-| (P)  | Dbl |  (P)  | 2NT*
-|===
-
-But not when doubler might have a good hand
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-| (1C) | P   | (1S) | P
-| (2S) | Dbl | (P)  | ?
-|===
-
-The second-round double shows a good hand with length in clubs and
-spade shortness, so 2NT would be Lebensohl, and a direct bid would
-invite game.
-
-==== When you or partner has bid 1NT
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-|      |     |     | 1NT
-| (2S) | Dbl | (P) | 2NT*
-|===
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-|     | 1NT | (2S) | P
-| (P) | Dbl | (P)  | 2NT*
-|===
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-|      | 1D  | (1H) | 1NT
-| (2H) | Dbl | (P)  | 2NT*
-|===
-
-==== When you have already had one chance to bid a Lebensohl 2NT
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-| (1S) | Dbl | (2S) | P
-| (P)  | Dbl | (P)  | 2NT*
-|===
-
-You do not need two chances to show a weak single-suited hand.

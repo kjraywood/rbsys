@@ -1,0 +1,166 @@
+== 2NT in competitive auctions
+
+=== Lebensohl after take-out and negative doubles
+
+Used when the auction is at the 2-level and there is a need to
+distinguish invitational from weak or competitive hands when bidding
+at the three level.
+
+Applies after double of
+@ weak two opening
+@ 2-level weak jump-overcall +
+@ 1-level opening or overcall raised to the 2-level
+_ _after the double_
+
+Lebensohl applies in the following auctions.
+
+[caption=]
+.By advancer
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (2S) | Dbl | (P)  | ?
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1S) | Dbl | (2S) | ?
+|===
+
+[caption=]
+.By opener
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     |      | 1D
+| (2S) | Dbl | (P)  | ?
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     |      | 1D
+| (1S) | Dbl | (2S) | ?
+|===
+
+
+.Consider also
+[TIP]
+====
+
+[%autowidth,cols="3*^,3*<",grid="none"]
+|===
+|      |    |      | 1D    | |
+| (1H) | 1S | (2H) | ?     | |
+|      |    |      | 2S    | | min raise
+|      |    |      | 2NT   | | Leb., competitive in {C} or {D}
+|      |    |      | 3C,3D | | extras
+|===
+
+====
+
+=== Scrambling 2NT
+
+Used to find the best fit when partner forces you to bid at the
+three-level and the partnership is unlikely to have game on power.
+
+Applies when
+@ opps have bid to 2H or 2S
+@ partner makes a take-out double
+@ RHO passes
+@ the auction is not defined as Lebensohl
+
+2NT is scrambling in the following situations.
+
+==== You have already had one chance to bid a Lebensohl 2NT
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1S) | Dbl | (2S) | P
+| (P)  | Dbl | (P)  | 2NT*
+|===
+
+You do not need two chances to show a weak single-suited hand.
+
+==== When you or partner has bid 1NT
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     |     | 1NT
+| (2S) | Dbl | (P) | 2NT*
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|     | 1NT | (2S) | P
+| (P) | Dbl | (P)  | 2NT*
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      | 1D  | (1H) | 1NT
+| (2H) | Dbl | (P)  | 2NT*
+|===
+
+In all the above cases, the NT bidder has a tight range, so we give up
+on invitational auctions to ensure we find the best place to play in
+the more common situation where it's a part-score deal.
+
+==== Protective auctions
+
+Partner reopons after the opps have attempted to pass-out an
+uncontested auction.
+Since neither of us acted on the first round, we are unlikely
+to have game on power.
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1H) | P   | (2H) | P
+| (P)  | Dbl | (P)  | 2NT*
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     | (1NT) | P
+| (2C) | P   | (2S)  | P
+| (P)  | Dbl |  (P)  | 2NT*
+|===
+
+#But not when doubler might have a good hand#
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1C) | P   | (1S) | P
+| (2S) | Dbl | (P)  | ?
+|===
+
+The second-round double shows a good hand with length in clubs and
+spade shortness, so #2NT would be Lebensohl#, and a direct bid would
+invite game.
+
+==== Pre-balancing auctions
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     | (1S) | P
+| (2S) | Dbl | (P)  | 2NT*
+|===
+
+Scrambling-2NT allows the partnership to find a playable spot
+following an agressive pre-balancing action.
+This is much more useful than Lebensohl in this auction because
+game on power is unlikely.
+
+However, a direct 3H can still be defined as invitational, because a
+weak hand with hearts, can use scrambling-NT and follow with 3H.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|      |     | (1S) | P   | |
+| (2S) | Dbl | (P)  | ?   | |
+|      |     |      | 2NT | | scrambling, or to play 3H
+|      |     |      | 3m  | | to play
+|      |     |      | 3H  | | inv
+|===
+
+In the similar auction (1S)-Dble-(2S)-2NT, scrambling-2NT is not
+needed because advancer is not forced to bid, and can show moderate
+values and more than one place to play with a responsive double.
+So 2NT is Lebensohl.
