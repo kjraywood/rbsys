@@ -76,7 +76,8 @@ _Memory aid:_{thinsp} We also show singletons at the 3-level after
 
 == Wolff Sign-Off
 
-Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
+Always ON when opener bids 2NT{eq}18-19,
+_ #even if an opp has shown a suit#
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
@@ -96,20 +97,20 @@ Always ON when opener bids 2NT=18-19; #even if an opp has shown a suit#
 | 2NT | 3C	| |
 | 3D  | ?	| |
 |     | pass,3M	| | to play
-|     | 3oM	| | #slam try, 5{orMore}{times}m#
+|     | 3oM	| | #slam try, 5{orMore}{xtimes}m#
 |     | 3NT	| | slam try, 4*m
 |     | 4m	| | #??minorwood??#
 |     |	4M	| | #self-wood??#, why?, can set trump first
 |===
 
-{warning} need agreements for 1C-1D;2NT and 1M-1NT;2NT
+{warning} need agreements for 1C{ndash}1D{semicolon}2NT, and 1M{ndash}1NT{semicolon}2NT
 
 .Alternatives to Wolff
 [TIP]
 ====
 @ transfers after 18-19 2NT rebid.
-@@ _esp._{thinsp} 1M-1NT;2NT +
+@@ _esp._{thinsp} 1M{ndash}1NT{semicolon}2NT +
 @ 2D opening = bal. 18-19
-@@ 1m-1M;2NT = strong m, 3*M
-@@ 1M-1NT;2NT = GF
+@@ 1m{ndash}1M{semicolon}2NT = strong m, 3*M
+@@ 1M{ndash}1NT{semicolon}2NT = GF
 ====
