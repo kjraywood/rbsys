@@ -11,8 +11,8 @@
 |===
 | 2D | | _required_{thinsp} with 5{orMore}
          except if rebidding {D} or raising {C}.
-| 2M | | 4*M, no stopper in other M, 4*{D}
-| 2N | | stoppers in both majors, may hold 4*M, 4{OrLess}{xtimes}{D} 
+| 2M | | 4*M, , 4*{D}, no stopper in other M
+| 2N | | 4{OrLess}{xtimes}{D}, stoppers in both majors, may hold 4-cd M
 | 3C | | 4*{C}, no 4-cd M
 | 3D | | extras
 | 3M | | splinter for {C}
