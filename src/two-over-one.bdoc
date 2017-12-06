@@ -9,9 +9,9 @@
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-| 2D | | _required_{thinsp} with 5{orMore}
-         except if rebidding {D} or raising {C}.
-| 2M | | 4*M, , 4*{D}, no stopper in other M
+| 2D | | #__required__{thinsp} with 5{orMore}#
+         unless rebidding 3D or raising {C}
+| 2M | | 4*M, 4*{D}, no stopper in other M
 | 2N | | 4{OrLess}{xtimes}{D}, stoppers in both majors, may hold 4-cd M
 | 3C | | 4*{C}, no 4-cd M
 | 3D | | extras
@@ -28,7 +28,7 @@ Used when 1D{ndash}2NT{eq}GF so that 1D{ndash}2C may contain balanced 11-12.
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 2D  | | neutral, does not promise extra {D}-length
-| 2M  | | 4*M + 5*{D}, extras, GF
+| 2M  | | 4*M, 5*{D}, extras, GF
 | 2N  | | 18-19 bal
 | 3C  | | hand improved by {C}-fit
 | 3NT | | 18-19 bal. {C}-raise (then minorwood?)
