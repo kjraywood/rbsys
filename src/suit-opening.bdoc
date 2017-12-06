@@ -51,6 +51,7 @@ _ [* except see below ]
 
 @ Jump raise = limit
 @ *3M + 1* = weak splinter, any suit
+@ 1H-3NT = spade splinter +
 @ Jump shift = natural inv.
 @@ _no inv./inv._{thinsp} applies
 
@@ -59,15 +60,11 @@ _ [* except see below ]
 @ new-suit slam-try
 @ re-raise = inv with long trumps
 
-*Jacoby 2NT*
-@ jump new-suit = length
-@ 3NT by either = minimum
-
 *Passed hand*
-@ 3-way Drury
-@@ ON vs Dble & 1S,{thinsp} OFF vs 2C +
-@ #{thinsp}JS = fit{thinsp}#
 @ 2NT = both minors inv. 
+@ #{thinsp}JS = fit{thinsp}# +
+@ 3-way Drury
+@@ ON vs Dble & 1S,{thinsp} OFF vs 2C
 
 *vs. double*
 @ 2NT = LR
@@ -95,6 +92,19 @@ _ [* except see below ]
 @ lo cue = oM inv.
 @ hi cue = {LRplus}
 @ 3oM = forcing
+
+
+=== Jacoby 2NT
+
+@ jump new-suit = length
+@ 3NT by either = minimum
+
+&vs interference&
+{warning} #undiscussed#
+@ double = singleton
+@ bid = COV, often length, usually no control +
+@ pass = control or length
+@@ follow-up 3NT or 4M => slow stopper
 
 === Rebidding after 1H-1S
 
