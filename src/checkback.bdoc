@@ -85,9 +85,10 @@ _ #even if an opp has shown a suit#
 | 2NT | ?        | |
 |     | 3C       | | forces 3D
 |     | 3D       | | checkback
-|     | 3H       | | (M={S}) 5-5 F
-|     | 3S       | | (M={H}), #?? 6-4?, self-splinter?#
-|     | 3NT      | | slam try in opener's minor
+|     | 3M       | | good suit
+|     | 3H (M={S}) | | 5-5 F
+|     | 3S (M={H}) | | #?? 6-4?, self-splinter?#
+|     | 3NT      | | to play
 |     | 4C,4D    | | #minorwood?, self-splinter?, natural 5-5?#
 |===
 
@@ -96,7 +97,7 @@ _ #even if an opp has shown a suit#
 | 1m  | 1M	| |
 | 2NT | 3C	| |
 | 3D  | ?	| |
-|     | pass,3M	| | to play
+|     | pass, 3M | | to play
 |     | 3oM	| | #slam try, 5{orMore}{xtimes}m#
 |     | 3NT	| | slam try, 4*m
 |     | 4m	| | #??minorwood??#
