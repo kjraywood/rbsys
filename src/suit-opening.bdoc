@@ -49,8 +49,10 @@ _ [* except see below ]
 
 == Major Opening
 
-@ Jump raise = limit
-@ *3M + 1* = weak splinter, any suit
+{warning} No Bergen
+
+@ Jump raise = limit, incl. 3*M + stiff
+@ 3M + 1 = weak splinter, any suit
 @ 1H-3NT = spade splinter +
 @ Jump shift = natural inv.
 @@ _no inv./inv._{thinsp} applies
