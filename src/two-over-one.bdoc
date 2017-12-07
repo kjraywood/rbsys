@@ -2,8 +2,9 @@
 
 @ Forcing to game or 4m +
 @ 1M-2C {eq} could be short
-@@ 2D rebid {eq} default +
-@ 1M-2C{semicolon}2M {eq} 6{OrMore}{xtimes}M
+@@ 2D rebid {eq} default
+@@ 1M-2C{semicolon}2D-2oM {eq} real clubs
+@@ 1M-2C{semicolon}2M {eq} 6{OrMore}{xtimes}M
 
 === 1D{ndash}2C
 
