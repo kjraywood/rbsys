@@ -3,6 +3,7 @@ Kelvin Raywood; Shelley Burns
 :toc: left
 :icons: font
 :xrefstyle: short
+:table-caption!:
 :revnumber: 0.9.7
 :revdate: December 6, 2017
 

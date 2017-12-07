@@ -16,14 +16,13 @@
 @ splinter
 @ Smolen @ 2-level
 
-[caption=]
 .OMaR
 [%autowidth,cols="^,3*<",grid="none"]
 |===
 | 1NT | 2C    | |
 | 2H  | 2S*   | | forces next-step
 | 2NT | {ensp}? | |
-|     | 3m    | | 5*{S} + 5*m, _shape inv_
+|     | 3m    | | 5*{S}, 5*m, _shape inv_
 |     | 3H    | | balanced slam try
 |     | 3NT   | | COG (3-4-3-3)
 |     | 3S,4m | | void slam-try
@@ -40,15 +39,14 @@
 @@ By opener, new suit agrees minor
 @@ Raise of minor = double fit
 
-[caption=]
 .OMaR
 [%autowidth,cols="^,3*<",grid="none"]
 |===
 | 1NT | 2D    | |
 | 2H  | 2S*   | | forces next-step
 | 2NT | {ensp}? | |
-|     | 3m    | | 5*{H} + 5*m, _shape inv_
-|     | 3H    | | #6*{H} + 4*{S} slam try#
+|     | 3m    | | 5*{H}, 5*m, _shape inv_
+|     | 3H    | | #6*{H}, 4*{S}, slam try#
 |     | 3NT   | | good 6-cd {H}-suit, COG
 |     | 3S,4m | | void slam-try
 |     | 4H    | | #balanced slam inv#
@@ -112,9 +110,9 @@ _ #as though the interference was natural# +
 @ By responder => creates force to 2{S}
 @@ subsequent doubles are penalty +
 
-// After a balancing double by opener further doubles by either player
-// are takeout until responder shows values by passing or making his
-// own take-out double.
+After a balancing double by opener further doubles by either player
+are takeout until responder shows values by passing or making his
+own take-out double.
 
 == 2NT Opening
 
