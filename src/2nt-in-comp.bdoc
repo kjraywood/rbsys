@@ -129,19 +129,13 @@ to have game on power.
 | (P)  | Dbl |  (P)  | 2NT*
 |===
 
-#But not when doubler might have a good hand#
+==== Pre-balancing auctions
 
 [%autowidth,cols="4*^",grid="none"]
 |===
 | (1C) | P   | (1S) | P
-| (2S) | Dbl | (P)  | ?
+| (2S) | Dbl | (P)  | 2NT*
 |===
-
-The second-round double shows a good hand with length in clubs and
-spade shortness, so #2NT would be Lebensohl#, and a direct bid would
-invite game.
-
-==== Pre-balancing auctions
 
 [%autowidth,cols="4*^",grid="none"]
 |===
@@ -149,13 +143,12 @@ invite game.
 | (P)  | 2NT* |      |
 |===
 
-Scrambling-2NT allows the partnership to find a playable spot
-following an agressive pre-balancing action.
-This is much more useful than Lebensohl in this auction because
+Even though doubler may have a good hand on these auctions,
+scrambling-2NT is much more useful than Lebensohl because
 game on power is unlikely.
 
 However, a direct 3H can still be defined as invitational, because a
-weak hand with hearts, can use scrambling-NT and follow with 3H.
+weak hand with hearts, can use scrambling-2NT and follow with 3H.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -169,4 +162,5 @@ weak hand with hearts, can use scrambling-NT and follow with 3H.
 In the similar auction (1S)-Dble-(2S)-2NT, scrambling-2NT is not
 needed because advancer is not forced to bid, and can show moderate
 values and more than one place to play with a responsive double.
-So 2NT is Lebensohl.
+So 2NT is Lebensohl => can distinguish competive from invitational
+single-suited hands.
