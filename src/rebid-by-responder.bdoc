@@ -44,22 +44,22 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 .After three suits at the 1-level
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C | 1H   |  |
-| 1S | ?    |  |
-|    | 2NT  |  | 13-15 or 18{OrMore}
-|    | 3NT  |  | 16-17
-|    | 2D*  |  | 4th suit includes bal. 11-12
+| 1C | 1H  | |
+| 1S | ?   | |
+|    | 2NT | | 13-15 or 18{OrMore}
+|    | 3NT | | 16-17
+|    | 2D* | | 4th suit includes bal. 11-12
 |===
 
 .After opener's 2-level rebid
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1D | 1S   |  |
-| 2C | ?    |  |
-|    | 2NT  |  | 11-12
-|    | 3NT  |  | 16-17
-|    | 4NT  |  | 18-19
-|    | 2H*  |  | 4th suit includes bal. 13-15
+| 1D | 1S  | |
+| 2C | ?   | |
+|    | 2NT | | 11-12
+|    | 3NT | | 16-17
+|    | 4NT | | 18-19
+|    | 2H* | | 4th suit includes bal. 13-15
 |===
 
 === Reverses
