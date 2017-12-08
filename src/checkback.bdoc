@@ -11,13 +11,24 @@
 
 === Inv with both majors
 
-_Longer route = longer {H}-suit_
+Rev. Flannery on the 1st-round takes care of weak hands with 5*{S} and
+4{or}5*{H}.  So we have an extra sequence to show inv both majors.
+
+A direct bid of the 2nd major shows equal length.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1m  | 1H | |
 | 1NT | 2S | | 4*{S}, 4*{H}, inv
 |===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  | 1S   | |
+| 1NT | 2H   | | 5*{S}, 5*{H}, inv
+|===
+
+Going though the minor-suit relay shows unequal length.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -28,27 +39,31 @@ _Longer route = longer {H}-suit_
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  | 1S   | |
-| 1NT | 2H   | | 5*{S}, 4*{H}, inv
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
 | 1m  | 1S   |  |
 | 1NT | 2C   |  |
-| 2D  | 2H   |  | 5*{S}, 5*{H}, inv
+| 2D  | 2H   |  | 5*{S}, 4*{H}, inv
 |===
 
-=== GF Sequences
+=== Slam Inv. Sequences
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
 | 1m  | 1S       |
 | 1NT | {ensp}?  |
 |     | 3C,3D,3H | 5-5, good suits
-|     | 3S       | 1-loser suit
+|     | 3S       | 1-loser suit, or set trump for kickback
 |     | 4C,4D,4H | self-splinter
 |===
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1m  | 1S       |
+| 1NT | 2C       |
+| 2D  | 4S       | 2-loser suit
+|===
+
+Going through the 2NT relay and then bidding shows four of responder's
+suit and a fit for opener's suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -62,9 +77,6 @@ _Longer route = longer {H}-suit_
 |     | 3M    | | #?? good M and m ??#
 |     | 3NT   | | slam inv., no singleton
 |===
-
-_Memory aid:_{thinsp} We also show singletons at the 3-level after
-1NT-2NT
 
 .Idea for 3M
 [TIP]
@@ -85,7 +97,7 @@ _ #even if an opp has shown a suit#
 | 2NT | ?        | |
 |     | 3C       | | forces 3D
 |     | 3D       | | checkback
-|     | 3M       | | good suit
+|     | 3M       | | good suit, or set trump for kickback
 |     | 3H (M={S}) | | 5-5 F
 |     | 3S (M={H}) | | #?? 6-4?, self-splinter?#
 |     | 3NT      | | to play
@@ -101,7 +113,7 @@ _ #even if an opp has shown a suit#
 |     | 3oM	| | #slam try, 5{orMore}{xtimes}m#
 |     | 3NT	| | slam try, 4*m
 |     | 4m	| | #??minorwood??#
-|     |	4M	| | #self-wood??#, why?, can set trump first
+|     |	4M	| | 2-loser suit, slam inv.
 |===
 
 {warning} need agreements for 1C{ndash}1D{semicolon}2NT, and 1M{ndash}1NT{semicolon}2NT
