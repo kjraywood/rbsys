@@ -6,15 +6,10 @@ Used when the auction is at the 2-level and there is a need to
 distinguish invitational from weak or competitive hands when bidding
 at the three level.
 
-Applies after double of
-@ weak two opening
-@ 2-level weak jump-overcall +
-@ 1-level opening or overcall raised to the 2-level
-_ _after the double_
+Applies in following auctions
 
-Lebensohl applies in the following auctions.
+==== After a double (direct or balancing) of a weak two
 
-.By advancer
 [%autowidth,cols="4*^",grid="none"]
 |===
 | (2S) | Dbl | (P)  | ?
@@ -26,24 +21,28 @@ Lebensohl applies in the following auctions.
 | (P) | Dbl | (P)  | ?
 |===
 
-[%autowidth,cols="4*^",grid="none"]
-|===
-| (1S) | Dbl | (2S) | ?
-|===
+==== After a negative double of a 2-level weak jump-overcall
 
-.By opener
 [%autowidth,cols="4*^",grid="none"]
 |===
 | 1D | (2S) | Dbl | (P)
 | ?  3+|
 |===
 
+==== After a double of 1-level opening that is raised to the 2-level
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1S) | Dbl | (2S) | ?
+|===
+
+==== After a negative double of 1-level overcall that is raised to the 2-level
+
 [%autowidth,cols="4*^",grid="none"]
 |===
 | 1D | (1S) | Dbl | (2S)
 | ?  3+|
 |===
-
 
 .Consider also
 [TIP]
