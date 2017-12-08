@@ -31,7 +31,7 @@ Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
 
 === Negative double
 
-==== vs 1{diams} or 1{hearts}
+*vs 1{D} or 1{H}*
 
 With four-card support for a major shown by responder, opener bids _as
 though raising a one-level bid_.{thinsp} That is, opener bids
@@ -44,6 +44,21 @@ immediately to the two-level or higher with 4-card support.
 | 1S |      | 3*{spades}, up to 17 with no {H} stopper
 | 2S |      | 4*{spades}, minimum range
 | 2H |      | GF, not 4*{spades}
+|===
+
+=== Impossible 2{S} after negative double
+
+Applies when a negative double shows _exactly_{thinsp} four spades, so
+that 2{S} to show extra length is impossible.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1C | (1H) | Dbl | (2H)
+| P  | (P)  | ?   |
+|      |    | 2S  | Support for opener's minor, LR{nbsp}strength,
+                   _e.g._ {S}Q984{nbsp}{H}43{nbsp}{D}KJ4{nbsp}{C}AJ63
+|      |    | 3C  | competitive,
+                   _e.g._ {S}Q983{nbsp}{H}432{nbsp}{D}87{nbsp}{C}AQ74
 |===
 
 === When opps have each bid a suit
