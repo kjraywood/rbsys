@@ -36,14 +36,14 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 *Four-card major & long diamonds*
 
-[%autowidth,cols="2*^,<",grid="none]
+[%autowidth,cols="^,2*<",grid="none]
 |===
 | 2C  | 2D    |
-| 3M* |  ?    | #* 4*M, 5{OrMore}{xtimes}{D}, GF#
-|     | 3S    | (M={H}), natural, 6{OrMore}{xtimes}{S}
-|     | 3NT   | to play, no help in opener's suits
-|     | 4C    | #agrees M# (secondary suit)
-|     | 4D    | agrees {D} (primary suit)
-|     | 4H    | (M={S}), agrees {S} with short {D}
+| 3M* | {ensp}?    | #* 4*M, 5{OrMore}{xtimes}{D}, GF#
+|     | 3S (M={H}) | natural, 6{OrMore}{xtimes}{S}
+|     | 3NT        | to play, no help in opener's suits
+|     | 4C         | #agrees M# (secondary suit)
+|     | 4D         | agrees {D} (primary suit)
+// |     | 4H (M={S}) | agrees {S} with short {D}
 |     | 4M,5D | sign-off
 |===
