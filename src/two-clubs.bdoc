@@ -48,11 +48,8 @@ Following a 2nd neg, we can stop in 3M or 4m.
 |     | 4M,5D | sign-off
 |===
 
-.Problems with agreement-by-rank-of-suits scheme
-[CAUTION]
-====
-
-*Technical problem* +
+****
+&Technical problem& +
 Responder does not have a second-negative negative.
 Therefore, when M{eq}{H} and responder agrees {H}, then the auction
 will be at 4{D} leaving opener no room to make a general try below
@@ -60,7 +57,7 @@ game.
 This problem does not exist when responder agrees {D} because game is
 a level higher.
 
-*Consistency problem* +
+&Consistency problem& +
 2{C}{ndash}2{D}{semicolon}3M{ndash}4{D} seems natural because opener
 has shown primary {D}.  So it should _be_{thinsp} natural to avoid
 inadvertent forgets in the heat of battle.  Exceptions
@@ -70,4 +67,4 @@ It's just much better to be consistent throughout the system.
 
 We use new-suit agrees secondary-suit in other situations so even
 the 4{C} bid could be misused or misunderstood.
-====
+****
