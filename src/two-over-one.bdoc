@@ -20,24 +20,24 @@
 | 3N | | 4-4-4-1, 16-17
 |===
 
-.Alternate scheme
-[TIP]
-====
+// .Alternate scheme
+// [TIP]
+// ====
 
-Used when 1D{ndash}2NT{eq}GF so that 1D{ndash}2C may contain balanced 11-12.
+// Used when 1D{ndash}2NT{eq}GF so that 1D{ndash}2C may contain balanced 11-12.
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 2D  | | neutral, does not promise extra {D}-length
-| 2M  | | 4*M, 5*{D}, extras, GF
-| 2N  | | 18-19 bal
-| 3C  | | hand improved by {C}-fit
-| 3NT | | 18-19 bal. {C}-raise (then minorwood?)
-| 4m  | | minorwood?
-| 4M  | | void
-|===
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// | 2D  | | neutral, does not promise extra {D}-length
+// | 2M  | | 4*M, 5*{D}, extras, GF
+// | 2N  | | 18-19 bal
+// | 3C  | | hand improved by {C}-fit
+// | 3NT | | 18-19 bal. {C}-raise (then minorwood?)
+// | 4m  | | minorwood?
+// | 4M  | | void
+// |===
 
-Following the neutral 2D, a 2NT rebid by responder shows a balanced
-11-12, and permits the auction to end in 2NT, 3C or 3D
+// Following the neutral 2D, a 2NT rebid by responder shows a balanced
+// 11-12, and permits the auction to end in 2NT, 3C or 3D
 
-====
+// ====
