@@ -48,19 +48,26 @@ Following a 2nd neg, we can stop in 3M or 4m.
 |     | 4M,5D | sign-off
 |===
 
-.Problems with lower-for-lower scheme
+.Problems with agreement-by-rank-of-suits scheme
 [CAUTION]
 ====
 
-* 2{C}{ndash}2{D}{semicolon}3M{ndash}4{D} seems natural because opener
-  has shown primary {D}.  So it should be natural.
-* We don't use lower-for-lower anywhere else => inconsistent with our system
-* We do use new-suit agrees secondary-suit in other situations
-  => hard to remember that this one-off rare instance is different
-* Responder has not yet had a chance to make a second-negative or
-  show positive values.
-  If M{eq}{H}, and responder fits {H}, then the auction will be at 4{D}
-  leaving opener no room to make a general try below game.
-  This problem does not exist when responder fits {D} because game is
-  a level higher
+*Technical problem* +
+Responder does not have a second-negative negative.
+Therefore, when M{eq}{H} and responder agrees {H}, then the auction
+will be at 4{D} leaving opener no room to make a general try below
+game.
+This problem does not exist when responder agrees {D} because game is
+a level higher.
+
+*Consistency problem* +
+2{C}{ndash}2{D}{semicolon}3M{ndash}4{D} seems natural because opener
+has shown primary {D}.  So it should _be_{thinsp} natural to avoid
+inadvertent forgets in the heat of battle.  Exceptions
+in rare instances can lead to accidentally confusing another situation
+with this, and causing a problem there.
+It's just much better to be consistent throughout the system.
+
+We use new-suit agrees secondary-suit in other situations so even
+the 4{C} bid could be misused or misunderstood.
 ====
