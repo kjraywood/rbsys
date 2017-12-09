@@ -397,7 +397,8 @@ table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-si
 .admonitionblock > table td.icon { text-align: center; width: 80px; }
 .admonitionblock > table td.icon img { max-width: initial; }
 .admonitionblock > table td.icon .title { font-weight: bold; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; text-transform: uppercase; }
-.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #0366d6; }
+.admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; }
+/* color: #0366d6; */
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
 
 .exampleblock > .content { border-style: solid; border-width: 1px; border-color: #e6e6e6; margin-bottom: 1.25em; padding: 1.25em; background: #fff; -webkit-border-radius: 0; border-radius: 0; }
@@ -721,7 +722,7 @@ b.conum * { color: inherit !important; }
 <div class="details">
 <span id="author" class="author">Kelvin Raywood</span><br>
 <span id="author2" class="author">Shelley Burns</span><br>
-<span id="revnumber">version 0.9.8,</span>
+<span id="revnumber">version 0.9.9,</span>
 <span id="revdate">December 8, 2017</span>
 </div>
 <div id="toc" class="toc2">
@@ -744,6 +745,7 @@ b.conum * { color: inherit !important; }
 <li><a href="#_major_opening">Major Opening</a>
 <ul class="sectlevel2">
 <li><a href="#_jacoby_2nt">Jacoby 2NT</a></li>
+<li><a href="#_3_way_drury">3-way Drury</a></li>
 <li><a href="#_rebidding_after_1_span_class_courier_red_span_1_span_class_courier_black_span">Rebidding after 1<span class="courier red">&#9829;</span>&ndash;1<span class="courier black">&#9824;</span></a></li>
 </ul>
 </li>
@@ -865,7 +867,7 @@ b.conum * { color: inherit !important; }
 </div>
 <div class="paragraph">
 <p><strong>Transfer responses</strong>
-<span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <mark>undiscussed</mark>
+<span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <mark>DO NOT USE</mark>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 2<span class="courier black">&#9824;</span> = one-loser red-suit </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3<span class="courier black">&#9827;</span> = one-loser black-suit </span>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> 3<span class="courier red">&#9830;</span>,3<span class="courier red">&#9829;</span>,3<span class="courier black">&#9824;</span>,4<span class="courier black">&#9827;</span> = transfer to solid suit </span></p>
@@ -947,12 +949,12 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">4<span class="courier black">&#9827;</span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees M</mark> (secondary suit)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees <span class="courier red">&#9830;</span></mark> (lower-ranking suit)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">4<span class="courier red">&#9830;</span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">agrees <span class="courier red">&#9830;</span> (primary suit)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees M</mark> (higher-ranking suit)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
@@ -961,6 +963,41 @@ b.conum * { color: inherit !important; }
 </tr>
 </tbody>
 </table>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<div class="title">Problems with lower-for-lower scheme</div>
+<div class="ulist">
+<ul>
+<li>
+<p>2<span class="courier black">&#9827;</span>&ndash;2<span class="courier red">&#9830;</span><span class="courier">&#59;</span>3M&ndash;4<span class="courier red">&#9830;</span> seems natural because opener
+has shown primary <span class="courier red">&#9830;</span>.  So it should be natural.</p>
+</li>
+<li>
+<p>We don&#8217;t use lower-for-lower anywhere else &#8658; inconsistent with our system</p>
+</li>
+<li>
+<p>We do use new-suit agrees secondary-suit in other situations
+&#8658; hard to remember that this one-off rare instance is different</p>
+</li>
+<li>
+<p>Responder has not yet had a chance to make a second-negative or
+show positive values.
+If M&#65309;<span class="courier red">&#9829;</span>, and responder fits <span class="courier red">&#9829;</span>, then the auction will be at 4<span class="courier red">&#9830;</span>
+leaving opener no room to make a general try below game.
+This problem does not exist when responder fits <span class="courier red">&#9830;</span> because game is
+a level higher</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1109,7 +1146,8 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="courier red">&#9829;</span></p></td>
 <td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>6&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, 4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, slam try</mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <mark>DO NOT USE</mark>
+<span class="nobr">&#160; (6&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, 4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, slam try) </span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
@@ -1289,7 +1327,7 @@ own take-out double.</p>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">at least 5-5 minors slam inv.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">at least 5-5 minors, slam inv.<sup><strong>+</strong></sup>, F</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
@@ -1438,11 +1476,90 @@ own take-out double.</p>
 </div>
 <div class="paragraph">
 <p><span class="bold-brickred">vs interference </span>
-<span class="icon orange"><i class="fa fa-warning fa-fw"></i></span> <mark>undiscussed</mark>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> double = singleton </span>
-<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> bid = COV, often length, usually no control </span><br>
+<span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> bid = <mark>COV, often length, usually no control</mark> </span><br>
 <span class="nobr"><span class="mildblue">&nbsp;&bull;&nbsp;</span> pass = control or length </span>
 <span class="nobr"><span class="mildblue">&nbsp;&ensp;&#8227;&nbsp;</span> follow-up 3NT or 4M &#8658; slow stopper </span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_3_way_drury">3-way Drury</h3>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier black">&#9827;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;M, 7<sup><strong>+</strong></sup>&ndash;11</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3&thinsp;&times;&thinsp;M &amp; 8<sup><strong>+</strong></sup>&ndash;11, or 5&thinsp;&times;&thinsp;M &amp; 6&ndash;11</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">P</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier black">&#9827;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2<span class="courier red">&#9830;</span>*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* asks</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">min</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2oM</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">max, some singleton</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="mildblue">&#8227;</span> next step asks where</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">max, no singleton</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Folowing either Drury-raise, bidding above 2M is a new-suit slam try
+(with 2NT&#65309;<span class="courier black">&#9824;</span> when M&#65309;<span class="courier red">&#9829;</span>), as in after a normal single-raise.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1489,7 +1606,13 @@ own take-out double.</p>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9829;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">paradox, 4&thinsp;&times;&thinsp;<span class="courier red">&#9830;</span>, hence minimum</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>4&thinsp;&times;&thinsp;<span class="courier red">&#9830;</span> minumum (Opener could not rebid 2<span class="courier red">&#9830;</span> with min)</mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="mildblue">&#8227;</span> an example of a <mark>paradox</mark> response</p></td>
 </tr>
 </tbody>
 </table>
@@ -1855,7 +1978,12 @@ round.</mark> <em>i.e.</em>&thinsp; <mark>It does not promise a rebid.</mark></p
 </tbody>
 </table>
 <div class="paragraph">
-<p><em>Three other-minor</em>&thinsp; is GF often a slam-try.</p>
+<p><em>Three other-minor</em>&thinsp; is GF often a slam-try.
+With a three-card raise, opener identifies the location of the
+short-weak suit.
+Since 3om is semi-natural, shortness there is shown semi-naturally by
+opener with 3NT.
+This leaves 3oM to show shortness there.</p>
 </div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
@@ -1885,22 +2013,22 @@ round.</mark> <em>i.e.</em>&thinsp; <mark>It does not promise a rebid.</mark></p
 <td class="tableblock halign-left valign-top"><p class="tableblock">4-card raise</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3oM*</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise short in other major</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise short in other minor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise, short in <mark><em>other minor</em></mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3oM*</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3-card raise, short in <mark><em>other major</em></mark></p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>The other major is natural and forcing one-round.  With a min, opener
-makes a natural bid.  With a max, opener bids <em>three
-other-minor</em>&thinsp; to show four hearts, or jumps to show four
-spades.</p>
+<p>The other major is natural and forcing one-round.
+With a min, opener makes a natural bid.
+With a max, opener bids <em>three other-minor</em>&thinsp; to show four
+hearts, or jumps to show four spades.</p>
 </div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
@@ -3680,8 +3808,8 @@ single-suited hands.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.9.8<br>
-Last updated 2017-12-08 11:05:29 PST
+Version 0.9.9<br>
+Last updated 2017-12-08 21:41:39 PST
 </div>
 </div>
 </body>
