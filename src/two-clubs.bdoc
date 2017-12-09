@@ -42,8 +42,25 @@ Following a 2nd neg, we can stop in 3M or 4m.
 | 3M* | {ensp}?    | #* 4*M, 5{OrMore}{xtimes}{D}, GF#
 |     | 3S (M={H}) | natural, 6{OrMore}{xtimes}{S}
 |     | 3NT        | to play, no help in opener's suits
-|     | 4C         | #agrees M# (secondary suit)
-|     | 4D         | agrees {D} (primary suit)
+|     | 4C         | #agrees {D}# (lower-ranking suit)
+|     | 4D         | #agrees M# (higher-ranking suit)
 // |     | 4H (M={S}) | agrees {S} with short {D}
 |     | 4M,5D | sign-off
 |===
+
+.Problems with lower-for-lower scheme
+[CAUTION]
+====
+
+* 2{C}{ndash}2{D}{semicolon}3M{ndash}4{D} seems natural because opener
+  has shown primary {D}.  So it should be natural.
+* We don't use lower-for-lower anywhere else => inconsistent with our system
+* We do use new-suit agrees secondary-suit in other situations
+  => hard to remember that this one-off rare instance is different
+* Responder has not yet had a chance to make a second-negative or
+  show positive values.
+  If M{eq}{H}, and responder fits {H}, then the auction will be at 4{D}
+  leaving opener no room to make a general try below game.
+  This problem does not exist when responder fits {D} because game is
+  a level higher
+====
