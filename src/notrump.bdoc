@@ -46,7 +46,8 @@
 | 2H  | 2S*   | | forces next-step
 | 2NT | {ensp}? | |
 |     | 3m    | | 5*{H}, 5*m, _shape inv_
-|     | 3H    | | #6*{H}, 4*{S}, slam try#
+|     | 3H    | | {warning} #DO NOT USE#
+_ (6*{H}, 4*{S}, slam try)
 |     | 3NT   | | good 6-cd {H}-suit, COG
 |     | 3S,4m | | void slam-try
 |     | 4H    | | #balanced slam inv#
