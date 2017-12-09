@@ -108,13 +108,18 @@ Responder uses natural NF invitations, and choice-of-game.
 |===
 | 1m | 1M  | |
 | 2M | ?   | |
-|    | 2NT | | natural, inv,##{sp}NF{sp}##
-|    | 3m  | | natural, inv,##{sp}NF{sp}##
+|    | 2NT | | natural, inv,#{sp}NF{sp}#
+|    | 3m  | | natural, inv,#{sp}NF{sp}#
 |    | 3M  | | five-card suit, inv
 |    | 3NT | | natural, COG
 |===
 
 _Three other-minor_{thinsp} is GF often a slam-try.
+With a three-card raise, opener identifies the location of the
+short-weak suit.
+Since 3om is semi-natural, shortness there is shown semi-naturally by
+opener with 3NT.
+This leaves 3oM to show shortness there.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
@@ -122,14 +127,14 @@ _Three other-minor_{thinsp} is GF often a slam-try.
 | 2M   | 3om* | #semi-natural, GF#
 | ?    |      |
 | 3M   |      | 4-card raise
-| 3oM* |      | 3-card raise short in other major
-| 3NT  |      | 3-card raise short in other minor
+| 3NT  |      | 3-card raise, short in #__other minor__#
+| 3oM* |      | 3-card raise, short in #__other major__#
 |===
 
-The other major is natural and forcing one-round.  With a min, opener
-makes a natural bid.  With a max, opener bids _three
-other-minor_{thinsp} to show four hearts, or jumps to show four
-spades.
+The other major is natural and forcing one-round.
+With a min, opener makes a natural bid.
+With a max, opener bids _three other-minor_{thinsp} to show four
+hearts, or jumps to show four spades.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
