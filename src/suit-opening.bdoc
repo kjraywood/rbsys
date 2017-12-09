@@ -104,7 +104,7 @@ _ [* except see below ]
 &vs interference&
 {warning} #undiscussed#
 @ double = singleton
-@ bid = COV, often length, usually no control +
+@ bid = #COV, often length, usually no control# +
 @ pass = control or length
 @@ follow-up 3NT or 4M => slow stopper
 
