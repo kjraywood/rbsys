@@ -34,6 +34,14 @@ Responses:  0, 1, 2-, 2+, 3-, 3+
 
 === Hearts and Spades
 
+_When both majors are in focus, the first agreed pass:q[<u>fit</u>] is trumps_
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S | 2H | |
+| 2H | 3S | | {H} are trump, 3S is a middle-auction bid
+|===
+
 If it’s possible to set spades as trump with an unambiguous forcing 3S
 bid, but not possible to set hearts as trump unambiguously, then a
 jump to 4S by the heart bidder is kickback for hearts and 4NT is
@@ -46,6 +54,16 @@ exclusion requesting KC in hearts excluding the ace of spades.
 |    | 3S  | | sets trump to {S}
 |    | 4S  | | kickback for {H}
 |    | 4NT | | exclusion - KC for {H} excluding the {S}A
+|===
+
+=== Major and minor
+
+_Majors have priority over minors_
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H | 2D | |
+| 3D | 3H | | {H} are trump
 |===
 
 // Minorwood
