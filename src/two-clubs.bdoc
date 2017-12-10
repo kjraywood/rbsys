@@ -42,29 +42,16 @@ Following a 2nd neg, we can stop in 3M or 4m.
 | 3M* | {ensp}?    | #* 4*M, 5{OrMore}{xtimes}{D}, GF#
 |     | 3S (M={H}) | natural, 6{OrMore}{xtimes}{S}
 |     | 3NT        | to play, no help in opener's suits
-|     | 4C         | #agrees {D}# (lower-ranking suit)
-|     | 4D         | #agrees M# (higher-ranking suit)
+|     | 4C         | #agrees M# (secondary suit)
+|     | 4D         | #agrees {D}# (primary suit)
 // |     | 4H (M={S}) | agrees {S} with short {D}
 |     | 4M,5D | sign-off
 |===
 
 ****
-&Technical problem& +
-Responder does not have a second-negative negative.
-Therefore, when M{eq}{H} and responder agrees {H}, then the auction
-will be at 4{D} leaving opener no room to make a general try below
-game.
-This problem does not exist when responder agrees {D} because game is
-a level higher.
-
-&Consistency problem& +
-2{C}{ndash}2{D}{semicolon}3M{ndash}4{D} seems natural because opener
-has shown primary {D}.  So it should _be_{thinsp} natural to avoid
-inadvertent forgets in the heat of battle.  Exceptions
-in rare instances can lead to accidentally confusing another situation
-with this, and causing a problem there.
-It's just much better to be consistent throughout the system.
-
-We use new-suit agrees secondary-suit in other situations so even
-the 4{C} bid could be misused or misunderstood.
+The method of setting trump is similar to that after a transfer then a
+new suit.
+The primary suit can be bid more cheaply than the secondary suit, so
+it is set as trump by a natural bid.
+Bidding a new suit sets the secondary suit as trump.
 ****
