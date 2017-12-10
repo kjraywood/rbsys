@@ -74,15 +74,14 @@ _ = cheaper of 4th-suit & 2NT
 ==== In comp.
 
 If responder has shown a non-bust, _e.g._{thinsp} a 1-level response
-or negative double, then a reverse is still #forcing but only for one
-round.#
-_i.e._{thinsp} #It does not promise a rebid.#
-Memory aid: same principle as "`2/1 in comp = F1`"
+or negative double, then the reverse in comp. is #forcing for one
+round.# It does not promise a rebid as it does in an uncontested
+auction.  This is similar to "`2/1 in comp = F1`".
 
 [%autowidth,cols="<,3*^,<",grid="none"]
 |===
 | 1C  | (1S) | Dbl | (P) |
-| 2D* | (P)  | ?   |     | * extras, F1
+| 2D* | (P)  | ?   |     | * extras, #F1#
 |     |      | 2H  |     | 5-card suit, NF
 |     |      | 2S  |     | cue-bid, GF
 |     |   2+<| 2NT,3C,3D <| min, NF
