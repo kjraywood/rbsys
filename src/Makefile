@@ -7,9 +7,9 @@ STYLE_SHEET = bridgedoc.css
 ADOCS = $(SOURCES:.bdoc=.adoc)
 HTML = index.html
 
-E_BIDS := /^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g
+E_BIDS = /^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g
 
-E_SUIT_LENGTH := /^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{xtimes}\2/g
+E_SUIT_LENGTH = /^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{xtimes}\2/g
 
 # lines begin with &, followed by one or more non-&, end with & or "& +"
 # replace leading & with [boldbrickred]##
@@ -31,6 +31,14 @@ E_WL1 = /^[[:blank:]]*@[[:blank:]]/{ \
 E_WL2 = /^[[:blank:]]*@@[[:blank:]]/{ \
         s/@@/\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}
 
+# Alerts
+ALERT_PRE  = ^|[[:blank:]]
+ALERT_BODY = [^![:blank:]][^!]*[^![:blank:]]
+ALERT_POST = [[:blank:]]|$$
+ALERT_SUB  = \1\[alert\]\#\2\#\3
+
+E_ALERT = s/($(ALERT_PRE))\!($(ALERT_BODY))\!($(ALERT_POST))/$(ALERT_SUB)/g
+
 SED = /usr/bin/sed -E
 
 .PHONY: all install tidy clean status update pull commit
@@ -42,7 +50,8 @@ $(HTML): $(MAIN) $(MACROS) $(ADOCS) $(STYLE_SHEET)
 
 %.adoc : %.bdoc
 	@$(SED) -e '$(E_BIDS)' -e '$(E_SUIT_LENGTH)' -e '$(E_BOLD_BRICK)' \
-	        -e '$(E_WL0)' -e '$(E_WL1)' -e '$(E_WL2)' $< >$@
+	        -e '$(E_WL0)' -e '$(E_WL1)' -e '$(E_WL2)' -e '$(E_ALERT)' \
+	        $< >$@
 	@echo $@
 
 install: $(HTML)
