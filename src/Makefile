@@ -7,29 +7,29 @@ STYLE_SHEET = bridgedoc.css
 ADOCS = $(SOURCES:.bdoc=.adoc)
 HTML = index.html
 
-BIDS := -e '/^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g'
+E_BIDS := /^[^\[]/s/([[:digit:]])([SHDC])/\1{\2}/g
 
-SUIT_LENGTH := -e '/^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{xtimes}\2/g'
+E_SUIT_LENGTH := /^[^\[]/s/([[:digit:]])\*([^\*[:blank:]])/\1{xtimes}\2/g
 
 # lines begin with &, followed by one or more non-&, end with & or "& +"
 # replace leading & with [boldbrickred]##
 # replace trailing & with ##
-BOLD_BRICK = -e '/^&[^&]+&( \+)?$$/{ \
-                 s/^&/\[bold-brickred\]\#\#/; \
-                 s/&( \+)?$$/ \#\#\1/}'
+E_BOLD_BRICK = /^&[^&]+&( \+)?$$/{ \
+               s/^&/\[bold-brickred\]\#\#/; \
+               s/&( \+)?$$/ \#\#\1/}
 
 # wrapping list : on lines beginning with "_ ", "@ " or " @ "
 #               : replace leading @ "[nobr]##{isep}"
 #		: insert closing " ##" before final " +" or at EOL
 
-WRAPP_LEV0 = -e '/^[[:blank:]]*_[[:blank:]]/{ \
-                 s/_/\[nobr\]\#\#{nbsp}/; s/( \+)?$$/ \#\#\1/}'
+E_WL0 = /^[[:blank:]]*_[[:blank:]]/{ \
+        s/_/\[nobr\]\#\#{nbsp}/; s/( \+)?$$/ \#\#\1/}
 
-WRAPP_LEV1 = -e '/^[[:blank:]]*@[[:blank:]]/{ \
-                 s/@/\[nobr\]\#\#{isep}/; s/( \+)?$$/ \#\#\1/}'
+E_WL1 = /^[[:blank:]]*@[[:blank:]]/{ \
+        s/@/\[nobr\]\#\#{isep}/; s/( \+)?$$/ \#\#\1/}
 
-WRAPP_LEV2 = -e '/^[[:blank:]]*@@[[:blank:]]/{ \
-                 s/@@/\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}'
+E_WL2 = /^[[:blank:]]*@@[[:blank:]]/{ \
+        s/@@/\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}
 
 SED = /usr/bin/sed -E
 
@@ -41,8 +41,8 @@ $(HTML): $(MAIN) $(MACROS) $(ADOCS) $(STYLE_SHEET)
 	asciidoctor -a stylesheet=$(STYLE_SHEET) $(MAIN) -o $@
 
 %.adoc : %.bdoc
-	@$(SED) $(BIDS) $(SUIT_LENGTH) $(BOLD_BRICK) \
-	       $(WRAPP_LEV0) $(WRAPP_LEV1) $(WRAPP_LEV2) $< >$@
+	@$(SED) -e '$(E_BIDS)' -e '$(E_SUIT_LENGTH)' -e '$(E_BOLD_BRICK)' \
+	        -e '$(E_WL0)' -e '$(E_WL1)' -e '$(E_WL2)' $< >$@
 	@echo $@
 
 install: $(HTML)
