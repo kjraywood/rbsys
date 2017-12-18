@@ -32,12 +32,7 @@ E_WL2 = /^[[:blank:]]*@@[[:blank:]]/{ \
         s/@@/\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}
 
 # Alerts
-ALERT_PRE  = ^|[[:blank:]]
-ALERT_BODY = [^![:blank:]][^!]*[^![:blank:]]
-ALERT_POST = [[:blank:]]|$$
-ALERT_SUB  = \1\[alert\]\#\2\#\3
-
-E_ALERT = s/($(ALERT_PRE))\!($(ALERT_BODY))\!($(ALERT_POST))/$(ALERT_SUB)/g
+E_ALERT = s/\!([[:alnum:]\{\}]+)\!/\[alert\]\#\1\#/g
 
 SED = /usr/bin/sed -E
 
