@@ -18,7 +18,7 @@
 |===
 | 1C   | 1D     |
 | 1H   | ?      |
-|      | 1S     | natural 6-10 or 11+ artificial
+|      | !1S!   | natural 6-10 or 11+ artificial
 |      | 2S,2NT | natural GF
 |===
 
@@ -29,10 +29,10 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 |===
 | 1H | 1S       |
 | 2D | ?        |
-|    | '`2NT`'  | #11-14, F1#
+|    | !2NT!    | #F1# (11-14 if bal.)
 |    | 3D,3H,3S | natural, GF
 |    | 3NT      | 15-17
-|    | '`3C`'   | invitation in {D}, {H}, or {S}
+|    | !3C!     | invitation in {D}, {H}, or {S}
 |    |          | *paradox responses*
 |    |          | 3D = decline {D}
 |    |          | 3H = accept {D}, decline {H}
@@ -44,22 +44,22 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 .After three suits at the 1-level
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C | 1H  | |
-| 1S | ?   | |
-|    | 2NT | | 13-15 or 18{OrMore}
-|    | 3NT | | 16-17
-|    | '`2D`' | | 4th suit includes bal. 11-12
+| 1C | 1H   | |
+| 1S | ?    | |
+|    | 2NT  | | 13-15 or 18{OrMore}
+|    | 3NT  | | 16-17
+|    | !2D! | | 4th suit includes bal. 11-12
 |===
 
 .After opener's 2-level rebid
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1D | 1S  | |
-| 2C | ?   | |
-|    | 2NT | | 11-12
-|    | 3NT | | 16-17
-|    | 4NT | | 18-19
-|    | '`2H`' | | 4th suit includes bal. 13-15
+| 1D | 1S   | |
+| 2C | ?    | |
+|    | 2NT  | | 11-12
+|    | 3NT  | | 16-17
+|    | 4NT  | | 18-19
+|    | !2H! | | 4th suit includes bal. 13-15
 |===
 
 === Reverses
@@ -124,12 +124,12 @@ This leaves 3oM to show shortness there.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
-| 1m   | 1M   |
-| 2M   | 3om* | #semi-natural, GF#
-| ?    |      |
-| 3M   |      | 4-card raise
-| 3NT  |      | 3-card raise, short in #__other minor__#
-| 3oM* |      | 3-card raise, short in #__other major__#
+| 1m    | 1M    |
+| 2M    | !3om! | #semi-natural, GF#
+| ?     |       |
+| 3M    |       | 4-card raise
+| !3NT! |       | 3-card raise, short in #__other minor__#
+| !3oM! |       | 3-card raise, short in #__other major__#
 |===
 
 The other major is natural and forcing one-round.
@@ -144,12 +144,12 @@ hearts, or jumps to show four spades.
 | ?     |    |
 | 2NT   |    | min, 3*{H}, short {S}, NF
 | 3C    |    | 3*{H}, 5\|6*{C}, short {D}, NF
-| #3D*# |    | #max, 4*{H}, GF#
+| !3D!  |    | #max, 4*{H}, GF#
 | 3H    |    | min, 4*{H}, NF
 | 3S    |    | min, 4*{S}, NF
-| 3NT   |    | max, 3*{H}, short {S}
-| 4C*   |    | max, #4*{S}#, good {C}
-| 4D*   |    | max, #4*{S}#, splinter
+| !3NT! |    | max, 3*{H}, short {S}
+| !4C!  |    | max, #4*{S}#, good {C}
+| !4D!  |    | max, #4*{S}#, splinter
 |===
 
 ==== In comp.

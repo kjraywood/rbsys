@@ -24,42 +24,42 @@ A direct bid of the 2nd major shows equal length.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  | 1S   | |
-| 1NT | 2H   | | 5*{S}, 5*{H}, inv
+| 1m  | 1S | |
+| 1NT | 2H | | 5*{S}, 5*{H}, inv
 |===
 
 Going though the minor-suit relay shows unequal length.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  | 1H |  |
-| 1NT | 2C |  |
-| 2D  | 2S |  | 4*{S}, 5*{H}, inv
+| 1m   | 1H   | |
+| 1NT  | !2C! | |
+| !2D! | 2S   | | 4*{S}, 5*{H}, inv
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  | 1S   |  |
-| 1NT | 2C   |  |
-| 2D  | 2H   |  | 5*{S}, 4*{H}, inv
+| 1m   | 1S   | |
+| 1NT  | !2C! | |
+| !2D! | 2H   | | 5*{S}, 4*{H}, inv
 |===
 
 === Slam Inv. Sequences
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-| 1m  | 1S       |
-| 1NT | {ensp}?  |
-|     | 3C,3D,3H | 5-5, good suits
-|     | 3S       | 1-loser suit, or set trump for kickback
-|     | 4C,4D,4H | self-splinter
+| 1m  | 1S         |
+| 1NT | {ensp}?    |
+|     | 3C,3D,3H   | 5-5, good suits
+|     | 3S         | 1-loser suit, or set trump for kickback
+|     | !4C,4D,4H! | self-splinter
 |===
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-| 1m  | 1S       |
-| 1NT | 2C       |
-| 2D  | 4S       | 2-loser suit
+| 1m   | 1S   |
+| 1NT  | !2C! |
+| !2D! | 4S   | 2-loser suit
 |===
 
 Bidding on after the 2NT relay shows a fit for opener's suit, and four
@@ -67,15 +67,15 @@ in responder's first-bid suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  | 1M    | |
-| 1NT | 2NT   | | forces 3C
-| 3C  | ?     | |
-|     | pass  | | to play
-|   | __bid__ | | GF-raise of m,  #exactly 4xM#
-|     | 3D    | | #other-minor singleton#
-|     | 3oM   | | oM singleton
-|     | 3M    | | #?? good M and m ??#
-|     | 3NT   | | slam inv., no singleton
+| 1m   | 1M    | |
+| 1NT  | !2NT! | | forces 3C
+| !3C! | ?     | |
+|      | pass  | | to play
+|    | __bid__ | | GF-raise of m,  #exactly 4xM#
+|      | !3D!  | | #other-minor singleton#
+|      | !3oM! | | oM singleton
+|      | 3M    | | ?
+|      | 3NT   | | slam inv., no singleton
 |===
 
 ****
