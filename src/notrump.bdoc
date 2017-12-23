@@ -71,18 +71,18 @@ _ (6*{H}, 4*{S}, slam try)
 
 === Interference over 1NT
 
-*vs. penalty double*
+*vs. penalty double* +
 @ pass = to play
-@@ Redble by opener = 5-card suit +
-@ Redble = {C} or {D} +
-@ 2C = majors
+@@ Redbl by opener = 5-card suit +
+@ !Redbl! = {C} or {D} +
+@ !2C! = majors
 @@ #{thinsp}2D or Redbl = no pref{thinsp}# +
-@ 2D, 2H = transfers
-@ 2S = 4*{S} + 6*m
-@ 2NT =  {C} + {D}
-@ 3m = 6*m + 4*{H}
+@ !2D!, !2H! = transfers
+@ !2S! = 4*{S} + 6*m
+@ !2NT! =  {C} + {D}
+@ !3m! = 6*m + 4*{H}
 
-*vs. natural 2C (single-suit)*
+*vs. natural 2C (single-suit)* +
 @ dble = take-out
 @@ cue (3C) on next-round requests stopper +
 @ other system ON
