@@ -61,6 +61,7 @@ _ [* except see below ]
 @ next-step game-try
 @ new-suit slam-try
 @ re-raise = inv with long trumps
+@ jump new-suit = void slam-try
 
 *Passed hand*
 @ 2NT = both minors inv. 
@@ -76,8 +77,8 @@ _ [* except see below ]
 *vs. overcall*
 @ cue = {LRplus}
 @ jump raise = weak
-@ JS to 3m = weak by unPH, fit by PH
-@ #{thinsp}4-__lower-suit__{thinsp} = fit{thinsp}#
+@ JS to 3m = weak by unPH, fit by PH +
+@ #{thinsp}4-__lower-suit__{thinsp} = fit, not a splinter{thinsp}#
 
 *vs. 1M-(2m) by unPH*
 @ #{thinsp}2oM = neg. free-bid by unPH{thinsp}# (6{orMore}, NF)
