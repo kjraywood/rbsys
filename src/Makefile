@@ -29,7 +29,7 @@ E_WL1 = /^[[:blank:]]*@[[:blank:]]/{ \
         s/@/\[nobr\]\#\#{isep}/; s/( \+)?$$/ \#\#\1/}
 
 E_WL2 = /^[[:blank:]]*@@[[:blank:]]/{ \
-        s/@@/\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}
+        s/@@/\{backspace\}\[nobr\]\#\#{trisep}/; s/( \+)?$$/ \#\#\1/}
 
 # Alerts
 E_ALERT = s/\!([[:alnum:]\{\}]+)\!/\[alert\]\#\1\#/g
