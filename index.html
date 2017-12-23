@@ -690,6 +690,8 @@ div.unbreakable { page-break-inside: avoid; }
 
 .yellow-background { background-color: #fafa00; }
 
+.orange-background { background-color: #f7d358; }
+
 .alert { text-decoration: underline; }
 /* orange background for alerts
 .alert { background-color: #f7d358; } */
@@ -703,6 +705,8 @@ div.unbreakable { page-break-inside: avoid; }
 .vraise {vertical-align: 8%; }
 .vvraise {vertical-align: 12.5%; }
 .ssmall { font-size: 75%; }
+
+.backspace { margin-left: -1em; }
 
 span.icon > .fa { cursor: default; }
 
@@ -733,8 +737,8 @@ b.conum * { color: inherit !important; }
 <div class="details">
 <span id="author" class="author">Kelvin Raywood</span><br>
 <span id="author2" class="author">Shelley Burns</span><br>
-<span id="revnumber">version 0.9.11,</span>
-<span id="revdate">December 17, 2017</span>
+<span id="revnumber">version 0.9.12,</span>
+<span id="revdate">December 23, 2017</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -751,7 +755,11 @@ b.conum * { color: inherit !important; }
 <li><a href="#_interference_over_1nt">Interference over 1NT</a></li>
 </ul>
 </li>
-<li><a href="#_2nt_opening">2NT Opening</a></li>
+<li><a href="#_2nt_opening">2NT Opening</a>
+<ul class="sectlevel2">
+<li><a href="#_romex_stayman">Romex Stayman</a></li>
+</ul>
+</li>
 <li><a href="#_minor_opening">Minor Opening</a></li>
 <li><a href="#_major_opening">Major Opening</a>
 <ul class="sectlevel2">
@@ -865,7 +873,7 @@ b.conum * { color: inherit !important; }
 <h2 id="_two_club_opening">Two Club Opening</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span> <em>We do NOT play Kokish</em></p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> <em>We do NOT play Kokish</em></p>
 </div>
 <div class="paragraph">
 <p><strong>Default response</strong>
@@ -898,8 +906,8 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-top"><p class="tableblock">&#160; 2<span class="courier black">&#9827;</span> &emsp; 2<span class="courier red">&#9830;</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&#160; 2M &emsp; 2NT*</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">&#160; 3m &emsp; 3<span class="courier red">&#9829;</span>*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#160; 2M &emsp; <span class="alert">2NT</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#160; 3m &emsp; <span class="alert">3<span class="courier red">&#9829;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -923,7 +931,7 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier black">&#9824;</span></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier red">&#9829;</span></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">positive, no fit, no 5-card suit, usually 1-4-4-4</p></td>
 </tr>
 </tbody>
@@ -944,9 +952,9 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3M*</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3M</span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">&ensp;?</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>* 4&thinsp;&times;&thinsp;M, 5<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;<span class="courier red">&#9830;</span>, GF</mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>4&thinsp;&times;&thinsp;M, 5<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;<span class="courier red">&#9830;</span>, GF</mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
@@ -960,13 +968,13 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4<span class="courier black">&#9827;</span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees M</mark> (secondary suit)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">4<span class="courier black">&#9827;</span></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees <span class="courier red">&#9830;</span></mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4<span class="courier red">&#9830;</span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees <span class="courier red">&#9830;</span></mark> (primary suit)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">4<span class="courier red">&#9830;</span></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>agrees M</mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
@@ -978,11 +986,10 @@ b.conum * { color: inherit !important; }
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p>The method of setting trump is similar to that after a transfer then a
-new suit.
-The primary suit can be bid more cheaply than the secondary suit, so
-it is set as trump by a natural bid.
-Bidding a new suit sets the secondary suit as trump.</p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> The method of setting trump is opposite to what we do
+in other situations where we have a primary and a secondary suit;
+<em>e.g.</em>&thinsp; transfer then new-suit, or second-suit slam-try after
+a major-suit raise.</p>
 </div>
 </div>
 </div>
@@ -1042,7 +1049,7 @@ Bidding a new suit sets the secondary suit as trump.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9829;</span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2<span class="courier black">&#9824;</span>*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">2<span class="courier black">&#9824;</span></span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">forces next-step</p></td>
 </tr>
@@ -1060,7 +1067,7 @@ Bidding a new suit sets the secondary suit as trump.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">3<span class="courier red">&#9829;</span></span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">balanced slam try</p></td>
 </tr>
@@ -1072,30 +1079,30 @@ Bidding a new suit sets the secondary suit as trump.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="courier black">&#9824;</span>,4m</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">3<span class="courier black">&#9824;</span></span>,<span class="alert">4m</span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">void slam-try</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4<span class="courier black">&#9824;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">4<span class="courier black">&#9824;</span></span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">RKC</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span> <em>No delayed Texas or delayed Gerber</em></p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> <em>No delayed Texas or delayed Gerber</em></p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_jacoby_transfers">Jacoby transfers</h3>
 <div class="paragraph">
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Super accept = 2T + 1 </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; Responder re-transfers or describes </span><br>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; Responder re-transfers or describes </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Transfer then 3m = GF, COG or slam inv. </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; By opener, new suit agrees minor </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; Raise of minor = double fit </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; By opener, new suit agrees minor </span>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; Raise of minor = double fit </span></p>
 </div>
 <table class="tableblock frame-all grid-none">
 <caption class="title">OMaR</caption>
@@ -1108,13 +1115,13 @@ Bidding a new suit sets the secondary suit as trump.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2<span class="courier red">&#9830;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">2<span class="courier red">&#9830;</span></span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9829;</span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2<span class="courier black">&#9824;</span>*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">2<span class="courier black">&#9824;</span></span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">forces next-step</p></td>
 </tr>
@@ -1145,13 +1152,13 @@ Bidding a new suit sets the secondary suit as trump.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="courier black">&#9824;</span>,4m</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">3<span class="courier black">&#9824;</span></span>,<span class="alert">4m</span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">void slam-try</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="alert">4<span class="courier red">&#9829;</span></span></p></td>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><mark>balanced slam inv</mark></p></td>
 </tr>
@@ -1162,11 +1169,11 @@ Bidding a new suit sets the secondary suit as trump.</p>
 <h3 id="_minor_suit_transfers">Minor-suit transfers</h3>
 <div class="paragraph">
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <strong>2<span class="courier black">&#9824;</span></strong> = <span class="courier black">&#9827;</span> weak<strong>|</strong>strong, or balanced inv </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; opener bids 2NT (min) or 3<span class="courier black">&#9827;</span> (max) </span><br>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; opener bids 2NT (min) or 3<span class="courier black">&#9827;</span> (max) </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <strong>2NT</strong> = <span class="courier red">&#9830;</span> weak<strong>|</strong>strong, or weak both minors </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; opener chooses minor </span><br>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; opener chooses minor </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Transfer to <span class="courier black">&#9827;</span> then 3<span class="courier red">&#9830;</span> = 5-5 minors GF </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; then by opener: 3<span class="courier red">&#9829;</span> &#8658; <span class="courier black">&#9827;</span>, 3<span class="courier black">&#9824;</span> &#8658; <span class="courier red">&#9830;</span> </span><br>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; then by opener: 3<span class="courier red">&#9829;</span> &#8658; <span class="courier black">&#9827;</span>, 3<span class="courier black">&#9824;</span> &#8658; <span class="courier red">&#9830;</span> </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Transfer to minor then 3M = shortness </span></p>
 </div>
 </div>
@@ -1181,21 +1188,21 @@ Bidding a new suit sets the secondary suit as trump.</p>
 <div class="sect2">
 <h3 id="_interference_over_1nt">Interference over 1NT</h3>
 <div class="paragraph">
-<p><strong>vs. penalty double</strong>
+<p><strong>vs. penalty double</strong><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> pass = to play </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; Redble by opener = 5-card suit </span><br>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Redble = <span class="courier black">&#9827;</span> or <span class="courier red">&#9830;</span> </span><br>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 2<span class="courier black">&#9827;</span> = majors </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <mark>&thinsp;2<span class="courier red">&#9830;</span> or Redbl = no pref&thinsp;</mark> </span><br>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 2<span class="courier red">&#9830;</span>, 2<span class="courier red">&#9829;</span> = transfers </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 2<span class="courier black">&#9824;</span> = 4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span> + 6&thinsp;&times;&thinsp;m </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 2NT =  <span class="courier black">&#9827;</span> + <span class="courier red">&#9830;</span> </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 3m = 6&thinsp;&times;&thinsp;m + 4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span> </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; Redbl by opener = 5-card suit </span><br>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <span class="alert">Redbl</span> = <span class="courier black">&#9827;</span> or <span class="courier red">&#9830;</span> </span><br>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <span class="alert">2<span class="courier black">&#9827;</span></span> = majors </span>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <mark>&thinsp;2<span class="courier red">&#9830;</span> or Redbl = no pref&thinsp;</mark> </span><br>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <span class="alert">2<span class="courier red">&#9830;</span></span>, <span class="alert">2<span class="courier red">&#9829;</span></span> = transfers </span>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <span class="alert">2<span class="courier black">&#9824;</span></span> = 4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span> + 6&thinsp;&times;&thinsp;m </span>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <span class="alert">2NT</span> =  <span class="courier black">&#9827;</span> + <span class="courier red">&#9830;</span> </span>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <span class="alert">3m</span> = 6&thinsp;&times;&thinsp;m + 4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span> </span></p>
 </div>
 <div class="paragraph">
-<p><strong>vs. natural 2<span class="courier black">&#9827;</span> (single-suit)</strong>
+<p><strong>vs. natural 2<span class="courier black">&#9827;</span> (single-suit)</strong><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> dble = take-out </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; cue (3<span class="courier black">&#9827;</span>) on next-round requests stopper </span><br>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; cue (3<span class="courier black">&#9827;</span>) on next-round requests stopper </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> other system ON </span></p>
 </div>
 <div class="paragraph">
@@ -1225,7 +1232,7 @@ double or Lebensohl.</p>
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> take-out of bid suit </span>
 <span class="nobr">&#160; <mark>as though the interference was natural</mark> </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> creates force to 2<span class="courier black">&#9824;</span> </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; subsequent doubles are penalty </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; subsequent doubles are penalty </span></p>
 </div>
 <div class="paragraph">
 <p>After a balancing double by opener further doubles by either player
@@ -1239,12 +1246,6 @@ own take-out double.</p>
 <div class="sect1">
 <h2 id="_2nt_opening">2NT Opening</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Regular Stayman and Smolen </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> NO delayed Texas or Gerber </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> OMaR to set trump after Stayman </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Smolen can include 5-5 majors COG </span></p>
-</div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
 <col>
@@ -1255,7 +1256,7 @@ own take-out double.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier black">&#9824;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier black">&#9824;</span></span></p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">forces 3NT</p></td>
 </tr>
@@ -1291,7 +1292,7 @@ own take-out double.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">4M</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4M</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">stiff with three in other major</p></td>
 </tr>
@@ -1313,7 +1314,7 @@ own take-out double.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3NT</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">at least 5-5 minors, slam inv.<sup><strong>+</strong></sup>, F</p></td>
 </tr>
@@ -1324,7 +1325,7 @@ own take-out double.</p>
 <td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">4m</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4m</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">RKC</p></td>
@@ -1337,6 +1338,97 @@ own take-out double.</p>
 </tr>
 </tbody>
 </table>
+<div class="sect2">
+<h3 id="_romex_stayman">Romex Stayman</h3>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier black">&#9827;</span></p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3NT</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4-4 Majors&#160;
+<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&ensp;4<span class="courier black">&#9827;</span> &#8658; <span class="courier red">&#9829;</span>, 4<span class="courier red">&#9830;</span> &#8658; <span class="courier black">&#9824;</span></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier black">&#9824;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4<strong>|</strong>5&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>&#160;
+<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&ensp;3<span class="courier black">&#9824;</span> asks</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier red">&#9830;</span></span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#65308;5&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, &#65308;4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier black">&#9827;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier red">&#9830;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier red">&#9829;</span></span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">req. <span class="courier black">&#9824;</span>-length, <span class="nobr">(4<strong>|</strong>5&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, &#65308;5&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>)</span>&#160;
+<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&ensp;3<span class="courier black">&#9824;</span>=3, 3NT=2, <em>higher</em> =&thinsp;4</span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier black">&#9824;</span></span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>forces 3NT</mark>, (&#65308;4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3NT</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, 5&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, NF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4NT</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, 5&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, Slam-inv</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1402,20 +1494,21 @@ own take-out double.</p>
 <h2 id="_major_opening">Major Opening</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span> <em>No Bergen</em></p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> <em>No Bergen</em></p>
 </div>
 <div class="paragraph">
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Jump raise = limit, incl. 3&thinsp;&times;&thinsp;M + stiff </span>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 3M + 1 = weak splinter, any suit </span>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 1<span class="courier red">&#9829;</span>&ndash;3NT = spade splinter </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Jump shift = natural inv. </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <em>no inv./inv.</em>&thinsp; applies </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <em>no inv./inv.</em>&thinsp; applies </span></p>
 </div>
 <div class="paragraph">
 <p><strong>Single-raise</strong>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> next-step game-try </span>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> new-suit slam-try </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> re-raise = inv with long trumps </span></p>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> re-raise = inv with long trumps </span>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> jump new-suit = void slam-try </span></p>
 </div>
 <div class="paragraph">
 <p><strong>Passed hand</strong>
@@ -1434,8 +1527,8 @@ own take-out double.</p>
 <p><strong>vs. overcall</strong>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> cue = LR<sup><strong>+</strong></sup> </span>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> jump raise = weak </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> JS to 3m = weak by unPH, fit by PH </span>
-<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <mark>&thinsp;4-<em>lower-suit</em>&thinsp; = fit&thinsp;</mark> </span></p>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> JS to 3m = weak by unPH, fit by PH </span><br>
+<span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <mark>&thinsp;4-<em>lower-suit</em>&thinsp; = fit, not a splinter&thinsp;</mark> </span></p>
 </div>
 <div class="paragraph">
 <p><strong>vs. 1M-(2m) by unPH</strong>
@@ -1695,7 +1788,7 @@ second-suit with values in that suit</p>
 <h2 id="_responder_s_rebid">Responder&#8217;s Rebid</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span> <em>We do NOT play XYZ</em></p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> <em>We do NOT play XYZ</em></p>
 </div>
 <div class="sect2">
 <h3 id="_second_round_jumps_and_4th_suit_forcing">Second-round jumps and 4th-suit forcing</h3>
@@ -1903,7 +1996,7 @@ second-suit with values in that suit</p>
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> promises a rebid below-game </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Default rebid by responder </span>
 <span class="nobr">&#160; = cheaper of 4th-suit &amp; 2NT </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; to force, opener bids above 3 of 1st-suit </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; to force, opener bids above 3 of 1st-suit </span></p>
 </div>
 </div>
 <div class="sect3">
@@ -1999,7 +2092,7 @@ auction.  This is similar to &#8220;2/1 in comp = F1&#8221;.</p>
 <div class="sect2">
 <h3 id="_opener_raises">Opener raises</h3>
 <div class="paragraph">
-<p><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span> <em>We do NOT play &#8220;Quality &amp; Quantity&#8221;</em></p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> <em>We do NOT play &#8220;Quality &amp; Quantity&#8221;</em></p>
 </div>
 <div class="paragraph">
 <p>Responder uses natural NF invitations, and choice-of-game.</p>
@@ -2184,7 +2277,7 @@ double), then new suits are natural game-tries.</p>
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> ON after both minors or both majors </span>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> ON vs take-out double by either opp </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> <mark>OFF if either opp has shown a suit</mark> </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; cue = GF, jumps are inv </span><br></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; cue = GF, jumps are inv </span><br></p>
 </div>
 <div class="paragraph">
 <p><strong>Passed hand</strong>
@@ -2438,7 +2531,7 @@ in responder&#8217;s first-bid suit.</p>
 <p><span class="bold-brickred">Idea for 3M </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 3M = other-minor singleton </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 3<span class="courier red">&#9830;</span> requests control-bidding </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 4<span class="courier black">&#9827;</span> = control in other minor </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 4<span class="courier black">&#9827;</span> = control in other minor </span></p>
 </div>
 </div>
 </div>
@@ -2575,17 +2668,17 @@ in responder&#8217;s first-bid suit.</p>
 </tbody>
 </table>
 <div class="paragraph">
-<p><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span> need agreements for 1<span class="courier black">&#9827;</span>&ndash;1<span class="courier red">&#9830;</span><span class="courier">&#59;</span>2NT, and 1M&ndash;1NT<span class="courier">&#59;</span>2NT</p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> need agreements for 1<span class="courier black">&#9827;</span>&ndash;1<span class="courier red">&#9830;</span><span class="courier">&#59;</span>2NT, and 1M&ndash;1NT<span class="courier">&#59;</span>2NT</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
 <p><span class="bold-brickred">Alternatives to Wolff </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> transfers after 18-19 2NT rebid. </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <em>esp.</em>&thinsp; 1M&ndash;1NT<span class="courier">&#59;</span>2NT </span><br>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <em>esp.</em>&thinsp; 1M&ndash;1NT<span class="courier">&#59;</span>2NT </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 2<span class="courier red">&#9830;</span> opening = bal. 18-19 </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1m&ndash;1M<span class="courier">&#59;</span>2NT = strong m, 3&thinsp;&times;&thinsp;M </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1M&ndash;1NT<span class="courier">&#59;</span>2NT = GF </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1m&ndash;1M<span class="courier">&#59;</span>2NT = strong m, 3&thinsp;&times;&thinsp;M </span>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1M&ndash;1NT<span class="courier">&#59;</span>2NT = GF </span></p>
 </div>
 </div>
 </div>
@@ -2597,9 +2690,9 @@ in responder&#8217;s first-bid suit.</p>
 <div class="paragraph">
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Forcing to game or 4m </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 1M-2<span class="courier black">&#9827;</span> &#65309; could be short </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 2<span class="courier red">&#9830;</span> rebid &#65309; default </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1M-2<span class="courier black">&#9827;</span><span class="courier">&#59;</span>2<span class="courier red">&#9830;</span>-2oM &#65309; real clubs </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1M-2<span class="courier black">&#9827;</span><span class="courier">&#59;</span>2M &#65309; 6<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;M </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 2<span class="courier red">&#9830;</span> rebid &#65309; default </span>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1M-2<span class="courier black">&#9827;</span><span class="courier">&#59;</span>2<span class="courier red">&#9830;</span>-2oM &#65309; real clubs </span>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; 1M-2<span class="courier black">&#9827;</span><span class="courier">&#59;</span>2M &#65309; 6<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;M </span></p>
 </div>
 <div class="sect2">
 <h3 id="_1_span_class_courier_red_span_2_span_class_courier_black_span">1<span class="courier red">&#9830;</span>&ndash;2<span class="courier black">&#9827;</span></h3>
@@ -2661,7 +2754,7 @@ in responder&#8217;s first-bid suit.</p>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Responses: 14, 30, 2 &amp; min, 2 &amp; max </span></p>
 </div>
 <div class="paragraph">
-<p><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span> Self splinters (not Gerber) after NT rebids</p>
+<p><span class="vvraise"><span class="icon"><img src="icons/warning.png" alt="warning" width="20"></span></span> Self splinters (not Gerber) after NT rebids</p>
 </div>
 </div>
 <div class="sect2">
@@ -3070,7 +3163,7 @@ a cue-bid.</p>
 <p><strong>Sandwich position 1NT</strong>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> 16-19 natural </span>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> Sys OFF </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; under-suit cue = Stayman </span>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; under-suit cue = Stayman </span>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> unusual by PH </span></p>
 </div>
 <div class="paragraph">
@@ -3087,7 +3180,7 @@ a cue-bid.</p>
 <div class="paragraph">
 <p><span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> New suit = constructive, NF </span><br>
 <span class="nobr"><span class="vvraise mildblue ssmall">&nbsp;&#x25cf;&nbsp;</span> JS = natural, good hand, but NF </span>
-<span class="nobr">&nbsp;&ensp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <em>no inv./inv.</em>&thinsp; applies </span></p>
+<span class="backspace"> </span><span class="nobr">&nbsp;&emsp;<span class="vraise mildblue small">&#x27a4;</span>&nbsp; <em>no inv./inv.</em>&thinsp; applies </span></p>
 </div>
 <div class="sect2">
 <h3 id="_one_major_overcalls">One-major overcalls</h3>
@@ -3853,8 +3946,8 @@ single-suited hands.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.9.11<br>
-Last updated 2017-12-17 22:28:24 PST
+Version 0.9.12<br>
+Last updated 2017-12-23 15:29:52 PST
 </div>
 </div>
 </body>
