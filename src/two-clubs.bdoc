@@ -42,16 +42,15 @@ Following a 2nd neg, we can stop in 3M or 4m.
 | 3M* | {ensp}?    | #* 4*M, 5{OrMore}{xtimes}{D}, GF#
 |     | 3S (M={H}) | natural, 6{OrMore}{xtimes}{S}
 |     | 3NT        | to play, no help in opener's suits
-|     | 4C         | #agrees M# (secondary suit)
-|     | 4D         | #agrees {D}# (primary suit)
+|     | 4C         | #agrees {D}#
+|     | 4D         | #agrees M#
 // |     | 4H (M={S}) | agrees {S} with short {D}
 |     | 4M,5D | sign-off
 |===
 
 ****
-The method of setting trump is similar to that after a transfer then a
-new suit.
-The primary suit can be bid more cheaply than the secondary suit, so
-it is set as trump by a natural bid.
-Bidding a new suit sets the secondary suit as trump.
+{warning} The method of setting trump is opposite to what we do
+in other situations where we have a primary and a secondary suit
+such as transfter then new-suit, or second-suit slam-try after
+a major-suit raise.
 ****
