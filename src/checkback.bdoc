@@ -67,15 +67,16 @@ in responder's first-bid suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m   | 1M    | |
-| 1NT  | !2NT! | | forces 3C
-| !3C! | ?     | |
-|      | pass  | | to play
-|    | __bid__ | | GF-raise of m,  #exactly 4xM#
-|      | !3D!  | | #other-minor singleton#
-|      | !3oM! | | oM singleton
-|      | 3M    | | ?
-|      | 3NT   | | slam inv., no singleton
+| 1m  |  1M   | |
+| 1NT | !2NT! | | forces 3C
+| 3C  | ?     | |
+|     | pass  | | to play
+| | _any bid_ | | All bids below show #GF-raise of _m_#{thinsp}
+                   with #exactly 4xM#
+|     | !3D!  | | #other-minor singleton#
+|     | !3oM! | | oM singleton
+|     |  3M   | | ?
+|     | !3NT! | | slam inv., no singleton
 |===
 
 ****
