@@ -46,8 +46,8 @@
 | 2H  | !2S!      | | forces next-step
 | 2NT | {ensp}?   | |
 |     |  3m       | | 5*{H}, 5*m, _shape inv_
-|     |  3H       | | #NOT IN USE#
-_ (6*{H}, 4*{S}, slam try)
+|     |  3H       | | #*not in use*#
+                      [nobr]##(6*{H}, 4*{S}, slam try)##
 |     |  3NT      | | good 6-cd {H}-suit, COG
 |     | !3S!,!4m! | | void slam-try
 |     | !4H!      | | #balanced slam inv#
@@ -107,7 +107,7 @@ double or Lebensohl.
 ==== Negative double
 
 @ take-out of bid suit
-_ #as though the interference was natural# +
+__ #as though the interference was natural# +
 @ creates force to 2{S}
 @@ subsequent doubles are penalty
 
@@ -155,8 +155,9 @@ own take-out double.
 |===
 | 2NT | 3C    | |
 | 3D  |  ?    | |
-|     | !3H!  | | req. {S}-length, [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
-[nobr]##{tribull}{ensp}3{S}=3, 3NT=2, _higher_ ={thinsp}4##
+|     | !3H!  | | req. {S}-length,
+          [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
+|     |       | | {tribull}{nbsp} 3{S}=3, 3NT=2, _higher_ ={thinsp}4
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
 |     | !3NT! | | 4*{S}, 5*{H}, NF
 |     | !4NT! | | 4*{S}, 5*{H}, Slam-inv
