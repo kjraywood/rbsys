@@ -73,7 +73,7 @@ in responder's first-bid suit.
 |     | pass  | | to play
 | | _any bid_ | | All bids below show #GF-raise of _m_#{thinsp}
                    with #exactly 4xM#
-|     | !3D!  | | #other-minor singleton#
+|     | !3D!  | | #om singleton#
 |     | !3oM! | | oM singleton
 |     |  3M   | | ?
 |     | !3NT! | | slam inv., no singleton
@@ -88,35 +88,69 @@ in responder's first-bid suit.
 
 == Wolff Sign-Off
 
-Always ON when opener bids 2NT{eq}18-19,
-_ #even if an opp has shown a suit#
+@ Always ON when opener bids 2NT{eq}18-19,
+__ #even if an opp has shown a suit# +
+@ There are no self-splinters
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
-| 1m  | 1M       | |
-| 2NT | ?        | |
-|     | 3C       | | forces 3D
-|     | 3D       | | checkback
-|     | 3M       | | good suit, or set trump for kickback
+| 1m  |  1M        | |
+| 2NT |  ?         | |
+|     | !3C!       | | {forces} 3D
+|     | !3D!       | | checkback
+|     |  3M        | | good suit, or set trump for kickback
 |     | 3H (M={S}) | | 5-5 F
-|     | 3S (M={H}) | | #?? 6-4?, self-splinter?#
-|     | 3NT      | | to play
-|     | 4C,4D    | | #minorwood?, self-splinter?, natural 5-5?#
+|     | 3S (M={H}) | | #*unused*#
+|     |  3NT       | | to play
+|     |  4C,4D     | | #natural 5-5#
+|===
+
+Following checkback and a response, we confirm a fit with 3oM.
+
+=== Slam try in opener's minor or responder's major
+
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1m  |  1M	 | |
+| 2NT |  3C	 | |
+| 3D  |  ?	 | |
+|     | pass, 3M | | to play
+|     | !3oM!	 | | #slam try, 5{orMore}{xtimes}m#
+|     | !3NT!	 | | slam try, 4*m
+|     | !4m!	 | | #minorwood#
+|     |	 4M	 | | 2-loser suit, slam inv.
+|===
+
+=== Both minors
+
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1C  |  1D  | |
+| 2NT |  ?   | |
+|     | !3C! | | {forces} 3D,
+                _ sign-off or set trump = {C}
+|     | !3D! | | checkback
+|     | 3M   | | slam interest in {D}
 |===
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
-| 1m  | 1M	| |
-| 2NT | 3C	| |
-| 3D  | ?	| |
-|     | pass, 3M | | to play
-|     | 3oM	| | #slam try, 5{orMore}{xtimes}m#
-|     | 3NT	| | slam try, 4*m
-|     | 4m	| | #??minorwood??#
-|     |	4M	| | 2-loser suit, slam inv.
+| 1C  |  1D  | |
+| 2NT |  3C  | |
+| 3D  |  ?   | |
+|     | !3M! | | slam interest in {C}
+|     |  4m  | | #minorwood#
 |===
 
-{warning} need agreements for 1C{ndash}1D{semicolon}2NT, and 1M{ndash}1NT{semicolon}2NT
+=== After a forcing NT
+
+[%autowidth,cols="^,3*<",grid="none"]
+|===
+| 1S  |  1NT | |
+| 2NT |  ?   | |
+|     | !3C! | | {forces} 3D
+|     | !3D! | | checkback for 3*{H}
+|===
 
 ****
 &Alternatives to Wolff& +
