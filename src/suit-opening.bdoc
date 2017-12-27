@@ -20,9 +20,9 @@
 
 *vs. overcall*
 @ cue = {LRplus}
-@ jump raise = weak
+@ jump raise = weak +
 @ JS = weak* by unPH, fit by PH
-_ [* except see below ]
+__ [* except when neg. free-bid applies ]
 
 *vs. 1m-(1S) by unPH*
 @ #{thinsp}2H = neg. free-bid by unPH{thinsp}#
@@ -156,7 +156,7 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 === Rebidding after 1H{ndash}1S
 
 @ #2D rebid shows non-minimum#
-_ (extra strength or extra length)
+__ (extra strength or extra length)
 @ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
 
 .2wCB after both majors
