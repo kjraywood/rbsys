@@ -157,6 +157,8 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 
 ==== Impossible two spades
 
+[special]##*{nbsp}New, Dec 31, 2017{nbsp}*##
+
 The impossible 2S shows a max in high-cards and at least the minimum
 number of cards for a fit; assuming that opener has not bid a short
 minor.
@@ -184,19 +186,16 @@ minor.
 
 ==== After an invitational 2NT
 
-{warning} #*Undiscussed*#
+[special]##*{nbsp}New, Dec 31, 2017{nbsp}*##
 
-@ bidding an old suit is minimum, NF +
-@ with a non-minimum, opener bids the
-__ cheapest unbid-minor
-__ which forces
-__ the next step.
-__ Then
-@@ bidding an old suit shows extra length
-@@ if 2nd-suit is a minor, 3NT => 5-5
+@ old suit = minimum, extra length in suit, NF +
+@ new suit = non-minimum with extra shape, GF +
+@@ unbid major = 3-card fragment
+@@ #cheapest unbid minor = relay (forces next step)#
 
-The most important situation is both majors where opener will always
-show four hearts; even with a minimum 6-4.
+The most important situation is both majors.  Note that with 6-4 in
+spades and hearts, opener always show four hearts at the second bid;
+even with a minimum.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -205,19 +204,33 @@ show four hearts; even with a minimum 6-4.
 |  ?   |      | 
 |  3H  |      | 5-5 min
 |  3S  |      | 6-4 min
-2+<| !3C! {forces} 3D |
-| {blueLDarrow} | |
-|  3H  |      | 5-5 F
-|  3S  |      | 6-4 F
 |===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1S  | 1NT  |
+| 2H  | 2NT  |
+2+<| !3C! {forces} 3D |
+| ?   |      |
+| 3H  |      | 5-5 GF
+| 3S  |      | 6-4 GF
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 1NT |
+|  2C  | 2NT |
+|  3H  |     | 3*{H}, GF (responder might have 5*{H})
+|===
+
+#To show 5*M + 5*m with extras, opener goes through the new-minor relay
+and rebids 3NT.#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1H  | 1NT |
 |  2C  | 2NT |
-| !3C! | 3D  |
-|  ?   |     | 
-|  3H  |     | good 6-4
+2+<| !3D! {forces} 3H |
 |  3NT |     | good 5-5
 |===
 
