@@ -62,7 +62,7 @@ Going though the minor-suit relay shows unequal length.
 | !2D! | 4S   | 2-loser suit
 |===
 
-Bidding on after the 2NT relay shows a fit for opener's suit, and four
+After the 2NT relay, any bid shows a fit for opener's suit, and four
 in responder's first-bid suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -71,8 +71,8 @@ in responder's first-bid suit.
 | 1NT | !2NT! | | forces 3C
 | 3C  | ?     | |
 |     | pass  | | to play
-| | _any bid_ | | All bids below show #GF-raise of _m_#{thinsp}
-                   with #exactly 4xM#
+|     |       | | All bids below show #GF-raise of _m_#{thinsp}
+                  with #exactly 4xM#
 |     | !3D!  | | #om singleton#
 |     | !3oM! | | oM singleton
 |     |  3M   | | ?
@@ -105,7 +105,8 @@ __ #even if an opp has shown a suit# +
 |     |  4C,4D     | | #natural 5-5#
 |===
 
-Following checkback and a response, we confirm a fit with 3oM.
+Following checkback and a response, we confirm a fit by bidding the
+_other major._
 
 === Slam try in opener's minor or responder's major
 
