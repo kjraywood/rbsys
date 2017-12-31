@@ -48,8 +48,12 @@ immediately to the two-level or higher with 4-card support.
 
 === Impossible 2{S} after negative double
 
+[special]##*{nbsp}Special sequence{nbsp}*##
+
 Applies when a negative double shows _exactly_{thinsp} four spades, so
 that 2{S} to show extra length is impossible.
+Follows the same principle of the impossible 2{S} after a semi-forcing
+NT, where 2{S} shows the stronger raise.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
