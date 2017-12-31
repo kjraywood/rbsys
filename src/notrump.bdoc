@@ -139,6 +139,8 @@ own take-out double.
 
 === Romex Stayman
 
+[special]##*{nbsp}New -- Dec. 2017{nbsp}*##
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 2NT   | 3C |
@@ -162,4 +164,32 @@ own take-out double.
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
 |     | !3NT! | | 4*{S}, 5*{H}, NF
 |     | !4NT! | | 4*{S}, 5*{H}, Slam-inv
+|===
+
+==== vs interference
+
+When Romex Stayman is doubled, we follow a similar scheme to when
+regular Stayman is doubled. The difference is that the reverse
+transfers have the _Romex-Stayman_{thinsp} meanings.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 2NT   | (P) | 3C {ensp} (Dbl)
+|  ?    |     |
+| !pass!  |   | promises a stopper
+|       |     | {tribull} Redbl = re-ask => normal auction
+| !3NT! |     | no stopper, 4-4 Majors
+| !3H!  |     | no stopper, 5*{S}
+|       |     | {tribull} 3{S} = #sign-off#
+| !3D!  |     |  4{or}5*{H}{nbsp}
+|       |     | {tribull} 3{H} = #sign-off#
+|       |     | {tribull} 3{S} asks => normal auction,
+             __ except opener re-transfers with 5*{H}
+| !Redbl! |   | {lt}5*{S}, {lt}4*{H}
+|       |     | {tribull} 3{D} = #sign-off#
+|       |     | {tribull} 3{H} req. {S} length,
+             __ then opener shows 2, 3 or 4 in steps
+|       |     | {tribull} 3{S} = 4*{S} + 5*{H},
+             __ then opener re-transfers with 3*{H}
+|       |     | {tribull} 3NT = to play !
 |===
