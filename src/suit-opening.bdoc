@@ -141,17 +141,81 @@ second-suit with values in that suit
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-| P     | 1M  |
-| 2C    | 2D  |
-| ?     |     |
-| 2M    |     | min
-| !2oM! |     | max, some singleton
-|       |     | {tribull} next step asks where
-| 2NT   |     | max, no singleton
+| P     | 1M    |
+| !2C!  | !2D!* |
+| ?     |       |
+| 2M    |       | min
+| !2oM! |       | max, some singleton{nbsp}
+                _ {tribull} 2M+1 asks where
+| 2NT   |       | max, no singleton
 |===
 
 Following either Drury-raise, bidding above 2M is a new-suit slam try
 (with 2NT{eq}{S} when M{eq}{H}), as after a normal single-raise.
+
+=== Semi-Forcing 1NT
+
+==== Impossible two spades
+
+The impossible 2S shows a max in high-cards and the minimum number of
+cards for a fit; assuming that opener has not bid a short minor.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H | 1NT  | |
+| 2m |  ?   | |
+|    | 3m   | | 5{OrMore}{times}m,  9{ndash}10
+|    | 2NT  | | 3{OrLess}{times}m, 11{ndash}12
+|    | !2S! | | 4{OrMore}{times}m, 11{ndash}12
+| {blueLDarrow} | | |
+2+<| 2NT,3m,3NT | <| sign-off
+| 3H |          | | good 6-4, F
+2+<| 3om,3S     | <| exploratory 
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H | 1NT  | |
+| 2H |  ?   | |
+|    | 3H   | | 3-card limit-raise
+|    | !2S! | | 2*{H}, 11{ndash}12
+|===
+
+==== After an invitational 2NT
+
+{warning} #*Undiscussed*#
+
+@ bidding an old suit is minimum, NF +
+@ with a non-minimum, opener bids the cheapest
+__ unbid minor which forces the next step.  Then
+@@ bidding an old suit shows extra length
+@@ if 2nd-suit is a minor, 3NT => 5-5
+
+The most important situation is both majors where opener will always
+show four hearts; even with a minimum 6-4.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 1NT  |
+|  2H  | 2NT  |
+|  ?   |      | 
+|  3H  |      | 5-5 min
+|  3S  |      | 6-4 min
+2+<| !3C! {forces} 3D |
+| {blueLDarrow} | |
+|  3H  |      | 5-5 F
+|  3S  |      | 6-4 F
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1H  | 1NT |
+|  2C  | 2NT |
+| !3C! | 3D  |
+|  ?   |     | 
+|  3H  |     | good 6-4
+|  3NT |     | good 5-5
+|===
 
 === Rebidding after 1H{ndash}1S
 
