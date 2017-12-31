@@ -144,10 +144,10 @@ own take-out double.
 | 2NT   | 3C |
 | ?     |    | 
 | !3NT! |    | 4-4 Majors{nbsp}
-[nobr]##{tribull}{ensp}4{C} => {H}, 4{D} => {S}##
+             _ {tribull} 4{C} => {H}, 4{D} => {S}
 |  3S   |    | 5*{S}
 |  3H   |    | 4{or}5*{H}{nbsp}
-[nobr]##{tribull}{ensp}3{S} asks##
+             _ {tribull} 3{S} asks
 | !3D!  |    | {lt}5*{S}, {lt}4*{H}
 |===
 
@@ -157,7 +157,8 @@ own take-out double.
 | 3D  |  ?    | |
 |     | !3H!  | | req. {S}-length,
           [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
-|     |       | | {tribull}{nbsp} 3{S}=3, 3NT=2, _higher_ ={thinsp}4
+|     |       | | {tribull} 3{S} => 3, 3NT => 2,
+                _ _higher_  => 4
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
 |     | !3NT! | | 4*{S}, 5*{H}, NF
 |     | !4NT! | | 4*{S}, 5*{H}, Slam-inv
