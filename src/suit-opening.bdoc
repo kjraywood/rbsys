@@ -187,8 +187,11 @@ minor.
 {warning} #*Undiscussed*#
 
 @ bidding an old suit is minimum, NF +
-@ with a non-minimum, opener bids the cheapest
-__ unbid minor which forces the next step.  Then
+@ with a non-minimum, opener bids the
+__ cheapest unbid-minor
+__ which forces
+__ the next step.
+__ Then
 @@ bidding an old suit shows extra length
 @@ if 2nd-suit is a minor, 3NT => 5-5
 
