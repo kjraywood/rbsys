@@ -75,15 +75,9 @@ _Majors have priority over minors_
 
 === Specific Kings
 
-The bid that asks for kings is ALWAYS one step above five of the
-trump-suit.  This applies even if there is a spare step below five of
-trump suit that is not needed for the the queen ask. ie. ALWAYS means
-ALWAYS.
-
-When the king-ask is a suit-bid (i.e. trumps are not spades), then 5NT shows the king of that suit.
-
-Asking for kings promises that we have all the key-cards and the trump
-queen.  This enables teller to jump straight to grand with 13 known tricks.
+@ #King-ask = 5T + 1# (no exceptions)
+@@ Promises that we have all the key-cards
+@@ if trumps {ne} {S}, then 5NT => K of asking-suit
 
 // ** Need example auctions **
 
