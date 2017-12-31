@@ -9,15 +9,16 @@
 @ Systems ON
 
 *Sandwich position 1NT*
-@ 16-19 natural
+@ [special]#{nbsp}16-19 natural{nbsp}#
 @ Sys OFF
 @@ under-suit cue = Stayman
 @ unusual by PH
 
-*vs weak two*
-@ 2NT = 16-19
-@ #Our 2NT system ON, including 3S {forces} 3NT#
-@ Transfer to their major = inv in other major
+*vs weak two* +
+@ 2NT = 16-19, with our 2NT system +
+@@ including #3S {forces} 3NT# +
+@@ simple 5-card Stayman (not Romex) +
+@@ transfer to their major = #inv in other major#
 
 == Suit Overcalls
 
@@ -37,13 +38,13 @@
 
 &vs pass&
 //_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
-@ cue = good constr.-raise{orMore}
+@ cue = good raise (3{OrMore} cards, 8{OrMore} HCP)
 @ 2NT = natural
 
 &vs raise&
 //_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
 @ double = responsive
-@ 2NT = good constr.-raise{orMore}
+@ 2NT = good raise
 
 &vs negative-double&
 //_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
