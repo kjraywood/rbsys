@@ -28,8 +28,8 @@
 
 === One-major overcalls
 
-@ 2NT = good 4-card raise
-@ cue = good 3-card raise, or any force
+@ !2NT! = good 4-card raise
+@  cue  = good 3-card raise, or any force
 @ Jump cue = mixed raise
 @ double of raise = responsive
 @ double of new suit = snapdragon
@@ -44,13 +44,13 @@
 &vs raise&
 //_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
 @ double = responsive
-@ 2NT = good raise
+@ !2NT!  = good raise
 
 &vs negative-double&
 //_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
 @ redouble = defensive strength, no fit
-@ cue = good 3-card raise{orMore}
-@ 2NT = good 4-card raise{orMore}
+@  cue  = good 3-card raise{orMore}
+@ !2NT! = good 4-card raise{orMore}
 
 === vs Further Interference
 
@@ -64,10 +64,10 @@ Following a balancing 1M, the unbid minor shows a good raise (like Drury).
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-|     |      | (1C) | P  | |
-| (P) | 1H   | (P)  | ?  | |
-|     |      |      | 2C | | natural
-|     |      |      | 2D | | good {H} raise
+|     |      | (1C) |  P   | |
+| (P) | 1H   | (P)  |  ?   | |
+|     |      |      |  2C  | | natural
+|     |      |      | !2D! | | good {H} raise
 |===
 
 == Two-suited overcalls (Klinger)
@@ -84,12 +84,12 @@ an Ogust-type enquiry.
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-|     |      | (1C) | 2D | | majors
-| (P) | 2NT* | (P)  | ?  | | * range-ask
-|     |      |      | 3C | | weak (6-8)
-|     |      |      | 3D | | int. (9-11)
-|     |      |      | 3H | | strong (12-14)
-|     |      |      | 3S | | huge (16+)
+|     |       | (1C) | !2D! | | majors
+| (P) | !2NT! | (P)  |  ?   | | _range-ask_
+|     |       |      |  3C  | | weak (6-8)
+|     |       |      |  3D  | | int. (9-11)
+|     |       |      |  3H  | | strong (12-14)
+|     |       |      |  3S  | | huge (16+)
 |===
 
 The HCP ranges do not count queens and jacks in the side suits and are

@@ -20,11 +20,11 @@ _A call is natural and non-forcing unless defined otherwise._
 
 Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
 
-*vs sandwich NT*
+&vs sandwich NT&
 @ On vs unusual
 @ OFF vs natural
 
-*Responder bids*
+&Responder bids&
 @ two of 1st suit or lower = weak
 @ above two of 1st suit = inv
 @ cue = GF
@@ -57,12 +57,12 @@ NT, where 2{S} shows the stronger raise.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C | (1H) | Dbl | (2H)
-| P  | (P)  | ?   |
-|    |      | 2S  | Support for opener's minor, LR{nbsp}strength,
-                   _e.g._ {S}Q984{nbsp}{H}43 {D}KJ4{nbsp}{C}AJ63
-|    |      | 3C  | competitive,
-                   _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
+| 1C | (1H) |  Dbl  | (2H)
+| P  | (P)  |  ?    |
+|    |      | !2S!  | Support for opener's minor, LR{nbsp}strength,
+                      _e.g._ {S}Q984{nbsp}{H}43 {D}KJ4{nbsp}{C}AJ63
+|    |      |  3C   | competitive,
+                      _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
 |===
 
 === When opps have each bid a suit
