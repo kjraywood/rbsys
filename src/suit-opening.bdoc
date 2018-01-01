@@ -141,13 +141,13 @@ second-suit with values in that suit
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-| P     | 1M    |
-| !2C!  | !2D!* |
-| ?     |       |
-| 2M    |       | min
-| !2oM! |       | max, some singleton{nbsp}
-                _ {tribull} 2M+1 asks where
-| 2NT   |       | max, no singleton
+|  P    |  1M  |
+| !2C!  | !2D! |
+|  ?    |      |
+|  2M   |      | min
+| !2oM! |      | max, some singleton{nbsp}
+               _ {tribull} 2M+1 asks where
+|  2NT  |      | max, no singleton
 |===
 
 Following either Drury-raise, bidding above 2M is a new-suit slam try

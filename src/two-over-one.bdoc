@@ -1,23 +1,23 @@
 == 2/1 Auctions
 
 @ Forcing to game or 4m +
-@ 1M-2C {eq} could be short
+@ 1M {ndash} !2C! {eq} could be short
 @@ 2D rebid {eq} default
-@@ 1M-2C{semicolon}2D-2oM {eq} real clubs
-@@ 1M-2C{semicolon}2M {eq} 6{OrMore}{xtimes}M
+@@ 1M {ndash} 2C{semicolon}2D {ndash} !2oM! {eq} real clubs
+@@ 1M {ndash} 2C{semicolon}2M {eq} 6{OrMore}{xtimes}M
 
 === 1D{ndash}2C
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-| 2D | | #__required__{thinsp} with 5{orMore}#
-         unless rebidding 3D or raising {C}
-| 2M | | 4*M, 4*{D}, no stopper in other M
-| 2N | | 4{OrLess}{xtimes}{D}, stoppers in both majors, may hold 4-cd M
-| 3C | | 4*{C}, no 4-cd M
-| 3D | | extras
-| 3M | | splinter for {C}
-| 3N | | 4-4-4-1, 16-17
+|  2D   | | #__required__{thinsp} with 5{orMore}#
+           unless rebidding 3D or raising {C}
+|  2M   | | 4*M, 4*{D}, no stopper in other M
+|  2NT  | | 4{OrLess}{xtimes}{D}, stoppers in both majors, may hold 4-cd M
+|  3C   | | 4*{C}, no 4-cd M
+|  3D   | | extras
+| !3M!  | | splinter for {C}
+| !3NT! | | #4-4-4-1, 16-17#
 |===
 
 // .Alternate scheme

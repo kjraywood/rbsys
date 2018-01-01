@@ -76,7 +76,7 @@ Applies when
 [%autowidth,cols="4*^",grid="none"]
 |===
 | (1S) | Dbl | (2S) | P
-| (P)  | Dbl | (P)  | 2NT*
+| (P)  | Dbl | (P)  | !2NT!
 |===
 
 You do not need two chances to show a weak single-suited hand.
@@ -86,19 +86,19 @@ You do not need two chances to show a weak single-suited hand.
 [%autowidth,cols="4*^",grid="none"]
 |===
 |      |     |     | 1NT
-| (2S) | Dbl | (P) | 2NT*
+| (2S) | Dbl | (P) | !2NT!
 |===
 
 [%autowidth,cols="4*^",grid="none"]
 |===
 |     | 1NT | (2S) | P
-| (P) | Dbl | (P)  | 2NT*
+| (P) | Dbl | (P)  | !2NT!
 |===
 
 [%autowidth,cols="4*^",grid="none"]
 |===
 |      | 1D  | (1H) | 1NT
-| (2H) | Dbl | (P)  | 2NT*
+| (2H) | Dbl | (P)  | !2NT!
 |===
 
 In all the above cases, the NT bidder has a tight range, so we give up
@@ -115,14 +115,14 @@ to have game on power.
 [%autowidth,cols="4*^",grid="none"]
 |===
 | (1H) | P   | (2H) | P
-| (P)  | Dbl | (P)  | 2NT*
+| (P)  | Dbl | (P)  | !2NT!
 |===
 
 [%autowidth,cols="4*^",grid="none"]
 |===
 |      |     | (1NT) | P
 | (2C) | P   | (2S)  | P
-| (P)  | Dbl |  (P)  | 2NT*
+| (P)  | Dbl |  (P)  | !2NT!
 |===
 
 ==== Pre-balancing auctions
@@ -130,13 +130,13 @@ to have game on power.
 [%autowidth,cols="4*^",grid="none"]
 |===
 | (1C) | P   | (1S) | P
-| (2S) | Dbl | (P)  | 2NT*
+| (2S) | Dbl | (P)  | !2NT!
 |===
 
 [%autowidth,cols="4*^",grid="none"]
 |===
-| (1S) | P    | (2S) | Dbl
-| (P)  | 2NT* |      |
+| (1S) |  P    | (2S) | Dbl
+| (P)  | !2NT! |      |
 |===
 
 Even though doubler may have a good hand on these auctions,
@@ -148,14 +148,14 @@ weak hand with hearts, can use scrambling-2NT and follow with 3H.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| (1S) | P   | (2S) | Dbl
-| (P)  | ?   |      |
-|      | 2NT |      | scrambling, or to play 3H
-|      | 3m  |      | to play
-|      | 3H  |      | inv
+| (1S) |  P    | (2S) | Dbl
+| (P)  |  ?    |      |
+|      | !2NT! |      | scrambling, or to play 3H
+|      |  3m   |      | to play
+|      |  3H   |      | inv
 |===
 
-In the similar auction (1S)-Dble-(2S)-2NT, scrambling-2NT is not
+In the similar auction (1S)-Dble-(2S)-!2NT!, scrambling-2NT is not
 needed because advancer is not forced to bid, and can show moderate
 values and more than one place to play with a responsive double.
 So 2NT is Lebensohl => can distinguish competive from invitational
