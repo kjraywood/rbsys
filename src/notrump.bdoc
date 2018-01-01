@@ -162,9 +162,14 @@ own take-out double.
 |     |       | | {tribull} 3{S} => 3, 3NT => 2,
                 _ _higher_  => 4
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
-|     | !3NT! | | 4*{S}, 5*{H}, NF
+|     | !3NT! | | 4*{S}, 5*{H}, COG
 |     | !4NT! | | 4*{S}, 5*{H}, Slam-inv
 |===
+
+*Memory aid for 3NT / 3{D}:*{thinsp}
+Opener's 3{D} may contain 4*{S} and/or 3*{H}, so when responder has
+4*{S} and 5*{H}, then both majors are a possible trump suit.
+Therefore responder should not bid either major with that shape.
 
 ==== vs interference
 
@@ -178,8 +183,9 @@ transfers have the _Romex-Stayman_{thinsp} meanings.
 |  ?    |     |
 | !pass!  |   | promises a stopper
 |       |     | {tribull} Redbl = re-ask => normal auction
-| !3NT! |     | no stopper, 4-4 Majors
-| !3H!  |     | no stopper, 5*{S}
+|       |     | _All other calls !deny! a stopper_
+| !3NT! |     | 4-4 Majors
+| !3H!  |     | 5*{S}
 |       |     | {tribull} 3{S} = #sign-off#
 | !3D!  |     |  4{or}5*{H}{nbsp}
 |       |     | {tribull} 3{H} = #sign-off#
