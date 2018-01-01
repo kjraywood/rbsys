@@ -123,7 +123,7 @@ second-suit with values in that suit
 | ?    |     | |
 | pass |     | | penalty
 | 3NT  |     | | suggestion to play to avoid ruff
-2+<| _other_ | | COV with 1st or 2nd control in their suit
+2+<| _other_ | <| COV with 1st or 2nd control in their suit
 |===
 
 === 3-way Drury
