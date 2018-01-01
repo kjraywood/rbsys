@@ -38,7 +38,7 @@
 
 &vs pass&
 //_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
-@ cue = good raise (3{OrMore} cards, 8{OrMore} HCP)
+@ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
 @ 2NT = natural
 
 &vs raise&
