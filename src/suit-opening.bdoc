@@ -189,7 +189,7 @@ minor.
 [special]##*{nbsp}New -- Dec. 2017{nbsp}*##
 
 @ old suit = minimum, extra length in suit, NF +
-@ new suit = non-minimum with extra shape, GF +
+@ new suit = non-minimum, extra shape, GF +
 @@ unbid major = 3-card fragment
 @@ #cheapest unbid minor = forces next step#
 

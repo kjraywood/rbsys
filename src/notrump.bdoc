@@ -187,8 +187,9 @@ transfers have the _Romex-Stayman_{thinsp} meanings.
              __ opener re-transfers with 5*{H}
 | !Redbl! |   | {lt}5*{S}, {lt}4*{H}
 |       |     | {tribull} 3{D} = #sign-off#
-|       |     | {tribull} 3{H} req. {S} length,
-             __ opener shows 2, 3 or 4 in steps
+|       |     | {tribull} 3{H} req. {S}-length,
+             __ opener shows
+	     __ 2, 3 or 4 in steps
 |       |     | {tribull} 3{S} = 4*{S} + 5*{H},
              __ opener re-transfers with 3*{H}
 |       |     | {tribull} 3NT = to play !

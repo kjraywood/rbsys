@@ -71,8 +71,8 @@ in responder's first-bid suit.
 | 1NT | !2NT! | | forces 3C
 | 3C  | ?     | |
 |     | pass  | | to play
-|     |       | | All bids below show #GF-raise of _m_#{thinsp}
-                  with #exactly 4xM#
+|     2+<| __any bid__ | #GF-raise of _m_{thinsp},
+                  exactly 4xM#
 |     | !3D!  | | #om singleton#
 |     | !3oM! | | oM singleton
 |     |  3M   | | ?
