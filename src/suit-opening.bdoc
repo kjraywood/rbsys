@@ -191,7 +191,7 @@ minor.
 @ old suit = minimum, extra length in suit, NF +
 @ new suit = non-minimum with extra shape, GF +
 @@ unbid major = 3-card fragment
-@@ #cheapest unbid minor = relay (forces next step)#
+@@ #cheapest unbid minor = forces next step#
 
 The most important situation is both majors.  Note that with 6-4 in
 spades and hearts, opener always show four hearts at the second bid;
@@ -220,7 +220,8 @@ even with a minimum.
 |===
 |  1S  | 1NT |
 |  2C  | 2NT |
-|  3H  |     | 3*{H}, GF (responder might have 5*{H})
+|  3H  |     | 3*{H}, GF
+             _ (responder might have 5*{H})
 |===
 
 #To show 5*M + 5*m with extras, opener goes through the new-minor relay
