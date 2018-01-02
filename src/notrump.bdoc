@@ -3,7 +3,7 @@
 === Stayman
 
 @ Promises a 4-card major
-@ Includes 5*{S} + 5*__other__{thinsp}, inv
+@ Includes 5*{S} + 5{xtimes}__other__{thinsp}, inv
 
 &vs double&
 @ pass promises a stopper
@@ -139,7 +139,7 @@ own take-out double.
 
 === Romex Stayman
 
-[special]##*{nbsp}New -- Dec. 2017{nbsp}*##
+[special]##*{nbsp}Updated -- Jan 2, 2018{nbsp}*##
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -157,9 +157,9 @@ own take-out double.
 |===
 | 2NT | 3C    | |
 | 3D  |  ?    | |
-|     | !3H!  | | req. {S}-length,
+|     | !3H!  | | asks {S}-length
           [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
-|     |       | | {tribull} 3{S} => 3, 3NT => 2,
+|     |       | | {tribull} 3{S} => 2, 3NT => 3,
                 _ _higher_  => 4
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
 |     | !3NT! | | 4*{S}, 5*{H}, COG
@@ -174,8 +174,15 @@ Therefore responder should not bid either major with that shape.
 ==== vs interference
 
 When Romex Stayman is doubled, we follow a similar scheme to when
-regular Stayman is doubled. The difference is that the reverse
-transfers have the _Romex-Stayman_{thinsp} meanings.
+regular Stayman is doubled, except that the reverse transfers have the
+_Romex-Stayman_{thinsp} meanings.
+
+Accepting the reverse-transfer is a _sign off_{thinsp}, indicating
+that reponder has a garbage hand.
+
+Responder's other follow-ups are the same is in an uncontested
+auction, but then opener re-transfers again at the 4-level to ensure
+that responder declares.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -184,19 +191,20 @@ transfers have the _Romex-Stayman_{thinsp} meanings.
 | !pass!  |   | promises a stopper
 |       |     | {tribull} Redbl = re-ask => normal auction
 |       |     | _All other calls !deny! a stopper_
-| !3NT! |     | 4-4 Majors
+| !3NT! |     | 4-4 Majors,
+              _ {tribull} 4M = to play
 | !3H!  |     | 5*{S}
-|       |     | {tribull} 3{S} = #sign-off#
+|       |     | {tribull} 3S = #sign-off#
 | !3D!  |     |  4{or}5*{H}{nbsp}
-|       |     | {tribull} 3{H} = #sign-off#
-|       |     | {tribull} 3{S} asks,
-             __ opener re-transfers with 5*{H}
+|       |     | {tribull} 3H = #sign-off#
+|       |     | {tribull} 3S asks, then
+             __  with 5*{H} opener re-transfers
 | !Redbl! |   | {lt}5*{S}, {lt}4*{H}
-|       |     | {tribull} 3{D} = #sign-off#
-|       |     | {tribull} 3{H} req. {S}-length,
-             __ opener shows
-	     __ 2, 3 or 4 in steps
-|       |     | {tribull} 3{S} = 4*{S} + 5*{H},
-             __ opener re-transfers with 3*{H}
-|       |     | {tribull} 3NT = to play !
+|       |     | {tribull} 3D = #sign-off#
+|       |     | {tribull} 3H asks, then
+             __ opener shows {S}-length
+	     __ in steps; 2, 3, 4
+|       |     | {tribull} 3S {forces} 3NT
+|       |     | {tribull} 3NT = 4*{S} + 5*{H},
+             __ with fit, opener re-transfers
 |===
