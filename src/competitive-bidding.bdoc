@@ -64,16 +64,3 @@ NT, where 2{S} shows the stronger raise.
 |    |      |  3C   | competitive,
                       _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
 |===
-
-=== When opps have each bid a suit
-
-Bidding a suit we are over is natural.  Bidding a suit we are under is
-a cue-bid.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| (1D) | P  | (1H) | 1S
-| (P)  | ?  |      |
-|      | 2D |      | natural
-|      | 2H |      | cue-bid, good raise to 2S
-|===

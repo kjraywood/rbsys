@@ -52,6 +52,48 @@
 @  cue  = good 3-card raise{orMore}
 @ !2NT! = good 4-card raise{orMore}
 
+=== Sandwich position
+
+[special]##*{nbsp}New -- Jan 2, 2018{nbsp}*##
+
+==== Unpassed hand
+
+@ cue-bid of suit on left
+__ = #other two suits# +
+@ suit on right = natural
+@ 2NT = #minors#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |     | (1D) | P |
+| (1S) | ?   |      |   |
+|      | 1NT |      |   | natural (see responses above)
+|      | 2D  |      |   | {H} + {C}
+|      | 2S  |      |   | natural
+|      | 2NT |      |   | #minors#
+|===
+
+==== Passed hand
+
+@ 1NT = unusual
+__ (5-5{OrMore} other two suits) +
+@ cue-bid of suit on left
+__ = McCartney, [special]#"When I'm 64"#
+__ (4*oM, 6*om)
+
+==== Raising a sandwich overcall
+
+@ Bid in suit we are over = natural
+@ Bid in suit we are under = cue-bid
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| (1D) | P  | (1H) | 1S
+| (P)  | ?  |      |
+|      | 2D |      | natural
+|      | 2H |      | cue-bid, good raise to 2S
+|===
+
 === vs Further Interference
 
 Bidding shows extra length or strength in the suit bid, _except when
