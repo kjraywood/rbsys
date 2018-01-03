@@ -146,7 +146,7 @@ second-suit with values in that suit
 |  ?    |      |
 |  2M   |      | min
 | !2oM! |      | max, some singleton{nbsp}
-               _ {tribull} 2M+1 asks where
+               _ {tribull} 2NT asks where
 |  2NT  |      | max, no singleton
 |===
 
@@ -163,17 +163,17 @@ The impossible 2S shows a max in high-cards and at least the minimum
 number of cards for a fit; assuming that opener has not bid a short
 minor.
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1H | 1NT  | |
-| 2m |  ?   | |
-|    | 3m   | | 5{OrMore}{times}m,  9{ndash}10
-|    | 2NT  | | 3{OrLess}{times}m, 11{ndash}12
-|    | !2S! | | 4{OrMore}{times}m, 11{ndash}12
-| {blueLDarrow} | | |
-2+<| 2NT,3m,3NT | <| sign-off
-| 3H |          | | good 6-4, F
-2+<| 3om,3S     | <| exploratory 
+| 1H | | 1NT  | |
+| 2m | |  ?   | |
+|    | | 3m   | | 5{OrMore}{times}m,  9{ndash}10
+|    | | 2NT  | | 3{OrLess}{times}m, 11{ndash}12
+|    | | !2S! | | 4{OrMore}{times}m, 11{ndash}12
+3+^| {blueSWarrow} | |
+4+<| 2NT,3m    <| sign-off
+| 3H |      | | | good 6-4, F
+4+<| 3om,3S    <| exploratory 
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
