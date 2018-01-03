@@ -9,15 +9,15 @@
 @ Systems ON
 
 *Sandwich position 1NT*
-@ [special]#{nbsp}16-19 natural{nbsp}#
-@ Sys OFF
-@@ under-suit cue = Stayman
+@ #natural, 16-19#
+@ #Sys OFF#
+@@ #under-suit cue = Stayman#
 @ unusual by PH
 
-*vs weak two* [special]#{nbsp}Modified Jan 3, 2017{nbsp}# +
+*vs weak two or precision 2C* [.nobr.special]#{nbsp}Modified Jan 3, 2017{nbsp}# +
 @ 2NT = 16-19, with our 2NT system +
 @@ including #3S {forces} 3NT# +
-@@ Romex Stayman vs 2D
+@@ Romex Stayman vs 2m
 @@ simple 5-card Stayman vs 2M +
 @@ transfer to their major = #inv in other major#
 
