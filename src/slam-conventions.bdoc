@@ -77,7 +77,7 @@ _Majors have priority over minors_
 
 @ #King-ask = 5T + 1# (no exceptions)
 @@ Promises that we have all the key-cards
-@@ if trumps {ne} {S}, then 5NT => K of asking-suit
+@@ if trumps {ne} {S}, then 5NT => K of 5T{thinsp}+{thinsp}1
 
 // ** Need example auctions **
 
