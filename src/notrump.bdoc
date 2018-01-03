@@ -160,7 +160,7 @@ own take-out double.
 |     | !3H!  | | asks {S}-length
           [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
 |     |       | | {tribull} 3{S} => 2, 3NT => 3,
-                _ _higher_  => 4
+               __ _higher_  => 4
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
 |     | !3NT! | | 4*{S}, 5*{H}, COG
 |     | !4NT! | | 4*{S}, 5*{H}, Slam-inv
@@ -203,9 +203,9 @@ that responder declares.
              __  with 5*{H} opener re-transfers
 | !Redbl! |   | {lt}5*{S}, {lt}4*{H}
 |       |     | {tribull} 3D = #sign-off#
-|       |     | {tribull} 3H asks, then
-             __ opener shows {S}-length
-	     __ in steps; 2, 3, 4
+|       |     | {tribull} 3H asks {S}-length,
+             __ then opener shows
+	     __ 2, 3, or 4 in steps
 |       |     | {tribull} 3S {forces} 3NT
 |       |     | {tribull} 3NT = 4*{S} + 5*{H},
              __ with fit, opener re-transfers
