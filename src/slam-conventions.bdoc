@@ -11,7 +11,7 @@
 
 @ we open a preempt
 @ next hand passes or doubles for take-out
-@ 4D / 3C {or} 4C / _other_{thinsp} = key-card ask
+@ (!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
 @ Responses: 0, 1-, 1+, 2-, 2+
 
 === Exclusion

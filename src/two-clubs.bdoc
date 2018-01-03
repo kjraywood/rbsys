@@ -10,12 +10,13 @@
 @ 2NT = bal 8-10 (or 13{OrMore})
 @ 3NT = bal 11-12
 
-*Transfer responses*{ensp}
-_ #*[ not in use ]*#
+****
+#*[ NOT IN USE ]*# +
+*Transfer responses*
 @ 2S = one-loser red-suit
 @ 3C = one-loser black-suit
 @ 3D,3H,3S,4C = transfer to solid suit
-
+****
 *Second negatives*
 
 [%autowidth,cols="2*<",grid="cols"]
@@ -50,7 +51,7 @@ Following a 2nd neg, we can stop in 3M or 4m.
 // |     | 4H (M={S}) | agrees {S} with short {D}
 
 ****
-{warning} The method of setting trump inconsistent with our method in
+{warning} The method of setting trump is inconsistent with our method in
 other situations where one of the two bids for setting trump is one of
 the possible trump suits;{thinsp}
 _ _i.e._{thinsp} transfer

@@ -191,7 +191,7 @@ minor.
 @ old suit = minimum, extra length in suit, NF +
 @ new suit = non-minimum, extra shape, GF +
 @@ unbid major = 3-card fragment
-@@ #cheapest unbid minor = forces next step#
+@@ #cheapest unbid minor forces next step#
 
 The most important situation is both majors.  Note that with 6-4 in
 spades and hearts, opener always show four hearts at the second bid;
