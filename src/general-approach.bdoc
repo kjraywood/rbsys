@@ -26,8 +26,8 @@ _A call is natural and non-forcing unless defined otherwise._
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|      | 1NT  | (P) | 2D |
-| (2S) | P    | (P) | 3C | natural, NF
+|      | 1NT  | (P) | !2D! | transfer
+| (2S) | P    | (P) |  3C  | natural, NF
 |===
 
 ==== Splinters in comp
