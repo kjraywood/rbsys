@@ -1,4 +1,3 @@
-
 == Minor Opening
 
 @ Single raise = GF
@@ -155,9 +154,21 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 
 === Semi-Forcing 1NT
 
-==== Impossible two spades
+[special]##*{nbsp}New -- Jan 4, 2018{nbsp}*##
 
-[special]##*{nbsp}New -- Dec. 2017{nbsp}*##
+Opener's 2D rebid is almost always at least four.  Three is possible only
+with 4-5-3-1 that has poor hearts (no 2H rebid) and about 14-16, (no
+pass or 2S).
+
+Opener's 2C rebid is usually four but occasionally three or even two.  To
+reduce the frequency of a short-club rebid:
+
+@ with (53)-(32), 14{thinsp}HCP and decent spot-cards,
+__ we open 1NT +
+@ with 4-5-2-2, 14-16 and decent hearts,
+__ we rebid 2H +
+
+==== Impossible two spades
 
 The impossible 2S shows a max in high-cards and at least the minimum
 number of cards for a fit; assuming that opener has not bid a short
@@ -172,9 +183,16 @@ minor.
 |    | | !2S! | | 4{OrMore}{times}m, 11{ndash}12
 3+^| {blueSWarrow} | |
 4+<| 2NT, 3m   <| sign-off
-| 3H |      | | | good 6-4, F
+| 3H |      | | | #good 6-4, F#
 4+<| 3om, 3S   <| exploratory 
 |===
+
+****
+{info}{ensp} 3H is forcing because with 6-4 in M-m, opener bids
+@ M-M-m => minimum
+@ M-m-M => extras +
+#Does not apply to {S}-{H}#
+****
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -185,8 +203,6 @@ minor.
 |===
 
 ==== After an invitational 2NT
-
-[special]##*{nbsp}New -- Dec. 2017{nbsp}*##
 
 @ old suit = minimum, extra length in suit, NF +
 @ new suit = non-minimum, extra shape, GF +
@@ -224,6 +240,7 @@ even with a minimum.
              _ (responder might have 5*{H})
 |===
 
+{exclamation}{ensp}
 #To show 5*M + 5*m with extras, opener goes through the new-minor relay
 and rebids 3NT.#
 
