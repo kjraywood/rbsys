@@ -139,7 +139,7 @@ own take-out double.
 
 === Romex Stayman
 
-[special]##*{nbsp}New -- Dec, 2017{nbsp}*##
+[special]##*{nbsp}Updated -- Jan 4, 2018{nbsp}*##
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -157,23 +157,36 @@ own take-out double.
 |===
 | 2NT | 3C    | |
 | 3D  |  ?    | |
-|     | !3H!  | | asks {S}-length
-          [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
-|     |       | | {tribull} 3{S} => 2, 3NT => 3,
-               __ _higher_  => 4
+|     | !3H!  | | asks {S}-length [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
-|     | !3NT! | | 4*{S}, 5*{H}, COG
-|     | !4NT! | | 4*{S}, 5*{H}, Slam-inv
+|     | !3NT! | | 4*{S}, 5*{H}, COG, (NF)
+|     | !4NT! | | _same shape_, Slam-inv, (NF)
+|     | !5NT! | | _same shape_, Pick a slam, (F)
 |===
 
+****
 *Memory aid for 3NT / 3{D}:*{thinsp}
 Opener's 3{D} may contain 4*{S} and/or 3*{H}, so when responder has
-4*{S} and 5*{H}, then both majors are a possible trump suit.
+[nobr]##4{xtimes}{S} + 5{xtimes}{H},## then both majors are a possible
+trump suit.
 Therefore responder should not bid either major with that shape.
+****
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  2NT  | 3C   |
+|  3D   | !3H! | asks {S}-length
+|  ?    |      |
+| !3S!  |      | 2*{S}
+| !3NT! |      | 3*{S}
+| !4m!  |      | 4*{S}, slam-suitable with good 4*m
+|  4S   |      | 4*{S}, poor for slam
+|===
+
+With a spade fit, responder transfers with 4H to ensure that opener
+declares.
 
 ==== vs interference
-
-[special]##*{nbsp}Updated -- Jan 2, 2018{nbsp}*##
 
 When Romex Stayman is doubled, we follow a similar scheme to when
 regular Stayman is doubled, except that the reverse transfers have the
