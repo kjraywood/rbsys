@@ -79,8 +79,8 @@ __ = #other two suits# +
 @ !1NT! = unusual
 __ (5-5{OrMore} other two suits) +
 @ cue-bid of suit on left
-__ = McCartney, [special]#"When I'm sixty-four"#
-__ (4*oM, 6*om)
+__ = #McCartney#, _"When I'm sixty-four"_
+__ (6*om + 4*oM)
 
 ==== Raising a sandwich overcall
 
