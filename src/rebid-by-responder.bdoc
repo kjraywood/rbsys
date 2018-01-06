@@ -122,12 +122,7 @@ Responder uses natural NF invitations, and choice-of-game.
 |    | 3NT | | natural, COG
 |===
 
-_Three other-minor_{thinsp} is GF often a slam-try.
-With a three-card raise, opener identifies the location of the
-short-weak suit.
-Since 3om is semi-natural, shortness there is shown semi-naturally by
-opener with 3NT.
-This leaves 3oM to show shortness there.
+Responder uses _three other-minor_{thinsp} for more info.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
@@ -135,29 +130,39 @@ This leaves 3oM to show shortness there.
 |  2M   | !3om! | #semi-natural, GF#
 |  ?    |       |
 |  3M   |       | 4-card raise
-|  3NT  |       | 3-card raise, short in #__other minor__#
-| !3oM! |       | 3-card raise, short in #__other major__#
+| !3oM! |       | 3-card raise, short oM
+|  3NT  |       | 3-card raise, #short om#
 |===
 
-The other major is natural and forcing one-round.
-With a min, opener makes a natural bid.
-With a max, opener bids _three other-minor_{thinsp} to show four
-hearts, or jumps to show four spades.
+[special]##*{nbsp}Improved presentation -- Jan 6, 2018{nbsp}*##
+
+With a minimum, opener might bypass 4*{S} to raise {H} on three. So 2S
+by responder is natural and forcing one-round.  Opener continues +
+@ with min, natural bid +
+@ with max
+@@ !3om! = 4*{H}
+@@ jump = 4*{S}
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
 |  1C   | 1H |
 |  2H   | 2S | natural, F1
 |  ?    |    |
-|  2NT  |    | min, 3*{H}, short {S}, NF
-|  3C   |    | 3*{H}, 5\|6*{C}, short {D}, NF
-| !3D!  |    | #max, 4*{H}, GF#
-|  3H   |    | min, 4*{H}, NF
-|  3S   |    | min, 4*{S}, NF
-|  3NT  |    | max, 3*{H}, short {S}
-| !4C!  |    | max, #4*{S}#, good {C}
-| !4D!  |    | max, #4*{S}#, splinter
+|  2NT  |    | 3*{H}, #short {S}#, min, NF
+|  3C   |    | 5\|6*{C}, 3*{H}, #short {D}#, NF
+| !3D!  |    | #4*{H}, max, GF#
+|  3H   |    | 4*{H}, min, NF
+|  3S   |    | 4*{S}, min, NF
+|  3NT  |    | #short {S}#, 3*{H}, max
+| !4C!  |    | good {C}, #4*{S}#, max
+| !4D!  |    | splinter, #4*{S}#, max
 |===
+
+[TIP]
+====
+In the previous two tables, the notrump bids show shortness in the
+suit responder just bid; even if it was only semi-natural.
+====
 
 ==== In comp.
 
