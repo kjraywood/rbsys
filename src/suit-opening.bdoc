@@ -261,6 +261,8 @@ then #rebids 3NT#.
 
 === Rebidding after 1H{ndash}1S
 
+[special]##*{nbsp}Updated -- Jan 5, 2018{nbsp}*##
+
 @ #2D rebid shows non-minimum#
 __ (extra strength or extra length)
 @ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
@@ -272,6 +274,16 @@ __ (extra strength or extra length)
 | 1NT  | !2C! | | sign-off in {D}, or some inv.
 |  ?   |      | |
 | 2D   |      | | normal relay-accept
-| 2H   |      | | #4*{D} minumum# (opener could not rebid 2D with min)
-|      |      | | {tribull} this is a _paradox_{thinsp} response
+| 2H   |      | | _paradox response,_{thinsp}
+                _ #4*{D} minumum#
 |===
+
+[NOTE]
+====
+Opener could not rebid 2D with a minimum so shows it with the paradox
+response.
+It is safe because if responder had intended to drop the auction in
+2D, then the partnership has at least a nine-card fit there.
+It denies three spades because opener would  have raised to 2S with a 3-5-4-1 minimum.
+Therefore, with a doubleton heart, responder can drop the auction in 2H.
+====
