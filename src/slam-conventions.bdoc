@@ -34,12 +34,13 @@ Responses:  0, 1, 2-, 2+, 3-, 3+
 
 === Hearts and Spades
 
-_When both majors are in focus, the first agreed pass:q[<u>fit</u>] is trumps_
+_When both majors are in focus, the first agreed !fit! is trumps_
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S | 2H | |
-| 2H | 3S | | {H} are trump, 3S is a middle-auction bid
+| 1S |  2H  | |
+| 3H | !3S! | | {H} are trump,{thinsp}
+              _ 3S = middle-auction
 |===
 
 If it’s possible to set spades as trump with an unambiguous forcing 3S
@@ -49,11 +50,12 @@ exclusion requesting KC in hearts excluding the ace of spades.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S | 2H  | |
-| 2S | ?   | |
-|    | 3S  | | sets trump to {S}
-|    | 4S  | | kickback for {H}
-|    | 4NT | | exclusion - KC for {H} excluding the {S}A
+| 1S |  2H   | |
+| 2S |  ?    | |
+|    |  3S   | | sets trump to {S}
+|    | !4S!  | | kickback for {H}
+|    | !4NT! | | exclusion =
+               _ asks for {H} KC excl. {S}A
 |===
 
 === Major and minor
@@ -85,7 +87,8 @@ _Majors have priority over minors_
 
 Without the queen, teller returns to the trump suit
 
-With the queen but no side kings, teller makes the cheapest bid other than the trump-suit
+With the queen but no side kings, teller makes the cheapest bid other
+than the trump-suit
 
 With the queen and one or more side kings, teller shows specific kings
 up-the-line
