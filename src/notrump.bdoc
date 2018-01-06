@@ -196,8 +196,10 @@ declares.
 | 2NT   | (P) | 3C {ensp} (Dbl)
 |  ?    |     |
 | !pass!  |   | promises a stopper +
-              _ {tribull} #2D = garbage# (pass or correct) +
-              _ {tribull} Redbl = re-ask => normal auction
+              _ {tribull} #2D = garbage#
+	      __ (pass or correct) +
+              _ {tribull} Redbl = re-ask
+	      __ => normal auction
 |    2+<| _Other calls by opener !deny! a stopper_
 | !3NT! |     | 4-4 Majors +
               _ {tribull} 4M = to play
