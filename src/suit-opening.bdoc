@@ -174,8 +174,8 @@ __ and 14-16{thinsp}HCP
 
 ==== Impossible two spades
 
-@ max in high-cards
-@ 8{OrMore}-card fit for last-bid suit (assumed 4{OrMore})
+@ values for 2NT (11-12{thinsp}HCP)
+@ #8{OrMore}-card fit for last-bid suit (assumed 4{OrMore})#
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
