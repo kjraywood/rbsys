@@ -75,13 +75,16 @@ __ = cheaper of 4th-suit & 2NT
 ==== In comp.
 
 When responder has shown a non-bust, _e.g._{thinsp} a 1-level response
-or negative double, then [special]#a reverse in comp. is forcing for
-one round.#
-It does not promise a rebid as it does
-in an uncontested auction.
-This is follows the normal principle of _limit bidding in
+or negative double, then #a reverse in comp. is forcing for one
+round.#
+It does not promise a rebid as it does in an uncontested auction.
+
+[TIP]
+====
+This is follows the usual style of _limit bidding in
 competition_{thinsp} when there's a cue-bid available to establish a
 GF.
+====
 
 [%autowidth,cols="<,3*^,<",grid="none"]
 |===
