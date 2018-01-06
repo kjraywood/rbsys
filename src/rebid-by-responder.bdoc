@@ -30,7 +30,7 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 | 1H | 1S       |
 | 2D | ?        |
 |    | !2NT!    | #F1#, 11-14 if bal,
-                _ [special]#~ 4th-suit forcing#
+                _ #~ 4th-suit forcing#
 |    | 3D,3H,3S | natural, GF
 |    | 3NT      | 15-17
 |    | !3C!     | invitation in {D}, {H}, or {S}
