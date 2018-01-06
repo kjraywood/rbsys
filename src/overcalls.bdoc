@@ -59,10 +59,9 @@
 
 ==== Unpassed hand
 
-@ cue-bid of suit on left
-__ = #other two suits# +
+@ #cue-bid of suit on left = other two suits#
 @ suit on right = natural
-@ 2NT = #minors#
+@ #2NT = minors#
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -71,16 +70,16 @@ __ = #other two suits# +
 |      |  1NT  |      |   | natural (see responses above)
 |      | !2D!  |      |   | {H} + {C}
 |      |  2S   |      |   | natural
-|      | !2NT! |      |   | #minors#
+|      | !2NT! |      |   | minors
 |===
 
 ==== Passed hand
 
 @ !1NT! = unusual
 __ (5-5{OrMore} other two suits) +
-@ cue-bid of suit on left
-__ = #McCartney#, "`__When I'm sixty-four__{thinsp}`"
-__ (6*om + 4*oM)
+@ #cue-bid of suit on left = McCartney#,
+__ ("`__When I'm sixty-four__{thinsp}`")
+__ 6*om + 4*oM
 
 ==== Raising a sandwich overcall
 
