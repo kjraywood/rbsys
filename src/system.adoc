@@ -5,8 +5,8 @@ Kelvin Raywood; Shelley Burns
 :iconsdir: icons
 :xrefstyle: short
 :table-caption!:
-:revnumber: 0.9.18
-:revdate: January 4, 2018
+:revnumber: 0.9.19
+:revdate: January 5, 2018
 
 include::macros.adoc[]
 
