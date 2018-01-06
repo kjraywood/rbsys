@@ -158,13 +158,15 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 
 ==== Opener's rebid
 
-2D is almost always at least four.  Three is possible only with
-4-5-3-1 that has poor hearts (no 2H rebid) and about 14-16{thinsp}HCP,
-(no pass or 2S).
+@ 2D almost always at least four +
+@ 3*{D} only possible with 4-5-3-1 and
+@@ poor hearts (no 2H rebid)
+@@ {fwsimto} 14-16{thinsp}HCP (no pass or 2S)
 
-2C is usually four but occasionally three or even two.  To reduce the
-frequency of a short-club rebid:
+@ 2C usually four
+@ occasionally three or even two
 
+To reduce the frequency of a short-club rebid: +
 @ with (53)-(32), 14{thinsp}HCP and decent spot-cards,
 __ we open 1NT +
 @ with 4-5-2-2, 14-16 and decent hearts,
@@ -172,9 +174,9 @@ __ we rebid 2H +
 
 ==== Impossible two spades
 
-The impossible 2S shows a max in high-cards and at least the minimum
-number of cards for a fit; assuming that opener has not bid a short
-minor.
+@ max in high-cards
+@ 8{OrMore}-card fit for last-bid suit
+__ if opener did not bid a short suit
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -201,8 +203,9 @@ minor.
 
 [IMPORTANT]
 ====
-After 1H{ndash}1NT{semicolon}2H, the impossible 2S differentiates
-between two-card and three-card support when raising.
+After [lightgrey-background]##1H {ndash} 1NT{semicolon} 2H##, the
+impossible 2S shows exactly two-card support; _i.e._{thinsp} an 8-card
+fit unless opener rebid a 5-card suit.
 ====
 
 [%autowidth,cols="3*^,<",grid="none"]
