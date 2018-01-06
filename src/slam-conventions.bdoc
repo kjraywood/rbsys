@@ -54,8 +54,8 @@ exclusion requesting KC in hearts excluding the ace of spades.
 | 2S |  ?    | |
 |    |  3S   | | sets trump to {S}
 |    | !4S!  | | kickback for {H}
-|    | !4NT! | | exclusion =
-               _ asks for {H} KC excl. {S}A
+|    | !4NT! | | exclusion
+               _ = asks for {H} KC excl. {S}A
 |===
 
 === Major and minor
