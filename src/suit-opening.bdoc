@@ -154,12 +154,13 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 
 === Semi-Forcing 1NT
 
-[special]##*{nbsp}Updated -- Jan 6, 2018{nbsp}*##
+[special]#Updated {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}#
 
 ==== Opener's rebid
 
 @ 2D almost always at least four +
-@ 3*{D} only possible with 4-5-3-1 and
+@ 3*{D} only with
+@@ 4-5-3-1
 @@ poor hearts (no 2H rebid)
 @@ {simto} 14-16{thinsp}HCP (no pass or 2S)
 
@@ -168,14 +169,15 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 
 To reduce the frequency of a short-club rebid: +
 @ open 1NT with (53)(32), 14{thinsp}HCP,
-__ and decent spot-cards
+__ and decent spot-cards +
 @ rebid 2H with 4-5-2-2, decent hearts,
 __ and 14-16{thinsp}HCP
 
 ==== Impossible two spades
 
 @ values for 2NT (11-12{thinsp}HCP)
-@ #8{OrMore}-card fit for last-bid suit (assumed 4{OrMore})#
+@ #8{OrMore}-card fit for last-bid suit#
+__ (assuming it's not short)
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -202,7 +204,7 @@ __ and 14-16{thinsp}HCP
 
 [IMPORTANT]
 ====
-After [lightgrey-background]##1H {ndash} 1NT{semicolon} 2H##, the
+After [lightgrey-bg]#1H {ndash} 1NT{semicolon} 2H#, the
 impossible 2S shows exactly two-card support; _i.e._{thinsp} an 8-card
 fit unless opener rebid a 5-card suit.
 ====
@@ -269,7 +271,7 @@ rebids 3NT.#
 
 === Rebidding after 1H{ndash}1S
 
-[special]##*{nbsp}Updated -- Jan 6, 2018{nbsp}*##
+[special]#*Updated {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}*#
 
 @ #2D rebid shows non-minimum#
 __ (extra strength or extra length)
