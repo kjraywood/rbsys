@@ -37,14 +37,12 @@ shows both majors but does not promise a good hand.
 
 === Strength redouble
 
-[special]##*{nbsp}Updated -- Jan 5, 2018{nbsp}*##
-
-*1__suit__  - (Dbl) - Redbl* +
+[lightgrey-bg]#1__suit__  {ndash} (Dbl) {ndash} Redbl# +
 @ good 10{orMore} HCP
 @ no fit
 @ 4{orMore} cards in 2{orMore} unbid suits
-@ Subsequent doubles = 4{orMore} of their suit
 @ Forcing to two of opener’s suit
+@ Subsequent doubles = 4{orMore} of their suit
 
 [IMPORTANT]
 ====

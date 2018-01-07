@@ -14,8 +14,9 @@
 @@ #under-suit cue = Stayman#
 @ unusual by PH
 
+[special]#Modified {thinsp}{ndash}{thinsp} Jan 3, 2017# +
+
 *vs weak two or precision 2C*
-[.nobr.special]#{nbsp}Modified Jan 3, 2017{nbsp}# +
 @ 2NT = 16-19, with our 2NT system +
 @@ including #3S {forces} 3NT# +
 @@ Romex Stayman vs 2m
@@ -56,7 +57,7 @@
 
 === Sandwich position
 
-[special]##*{nbsp}New -- Jan 2, 2018{nbsp}*##
+[special]#New {thinsp}{ndash}{thinsp} Jan 2, 2018{nbsp}#
 
 ==== Unpassed hand
 
