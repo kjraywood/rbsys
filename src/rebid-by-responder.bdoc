@@ -138,10 +138,11 @@ Responder uses _three other-minor_{thinsp} for more info.
 
 With a minimum, opener might bypass 4*{S} to raise {H} on three. So 2S
 by responder is natural and forcing one-round.  Opener continues +
-@ with min, natural bid +
-@ with max
-@@ !3om! = 4*{H}
-@@ jump = 4*{S}
+@ with min
+@@ natural bid +
+@ with max{thinsp}
+{tribull} ##!3om! = 4*{H}##{thinsp}
+{tribull} ##!4__any__!{thinsp} = 4*{S}##
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
@@ -156,6 +157,7 @@ by responder is natural and forcing one-round.  Opener continues +
 |  3NT  |    | #short {S}#, 3*{H}, max
 | !4C!  |    | good {C}, #4*{S}#, max
 | !4D!  |    | splinter, #4*{S}#, max
+| !4H!  |    | 4*{H}, #4*{S}#, max
 |===
 
 [TIP]
