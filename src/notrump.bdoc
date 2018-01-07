@@ -155,9 +155,9 @@ __ #as though the interference was natural# +
 | 3D  |  ?    | |
 |     | !3H!  | | asks {S}-length [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
 |     | !3S!  | | #forces 3NT#, ({lt}4*{S})
-|     | !3NT! | | 4*{S}, 5*{H}, COG, (NF)
-|     | !4NT! | | _same shape_, Slam-inv, (NF)
-|     | !5NT! | | _same shape_, Pick a slam, (F)
+|     | !3NT! | | 4*{S}, 5*{H}, COG
+|     | !4NT! | | _same shape_, slam-inv
+|     | !5NT! | | _same shape_, pick-a-slam
 |===
 
 [TIP]
@@ -174,10 +174,10 @@ Therefore responder should not bid either major with that shape.
 |  2NT  | 3C   |
 |  3D   | !3H! | asks {S}-length
 |  ?    |      |
-| !3S!  |      | 2*{S}
-| !3NT! |      | 3*{S}
-| !4m!  |      | 4*{S}, slam-pos., good 4*m
-|  4S   |      | 4*{S}, poor for slam
+| !3S!  |      | 2
+| !3NT! |      | 3
+| !4m!  |      | 4, slam-pos., good 4*m
+|  4S   |      | 4, poor for slam
 |===
 
 With a spade fit, responder transfers with 4H to ensure that opener
