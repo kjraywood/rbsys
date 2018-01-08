@@ -32,16 +32,20 @@ immediately to the two-level or higher with 4-card support.
 
 === Impossible 2{S} after negative double
 
-[special]#Updated {thinsp}{ndash}{thinsp} Jan 5, 2018{nbsp}#
-
 Applies when a negative double shows _exactly_{thinsp} [nobr]#4*{S}#, so
 that extra length is impossible.
+
+****
+[special]#Updated {thinsp}{ndash}{thinsp} Jan 7, 2018{nbsp}#
 
 [TIP]
 ====
 Follows the same principle as the impossible 2{S} after a semi-forcing
-NT, where 2{S} shows the stronger raise.
+NT. It shows the values for 2NT and an 8{OrMore}-card fit for
+partner's [alert]#last-bid suit#.
 ====
+
+****
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
