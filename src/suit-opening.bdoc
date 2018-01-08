@@ -279,8 +279,6 @@ rebids 3NT.#
 
 === Rebidding after 1H{ndash}1S
 
-[special]#Updated {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}#
-
 @ #2D rebid shows non-minimum#
 __ (extra strength or extra length)
 @ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
@@ -298,10 +296,12 @@ __ (extra strength or extra length)
 
 [NOTE]
 ====
-Opener could not rebid 2D with a minimum.
-The paradox response is safe because if responder had intended to drop
-the auction in 2D, then we have at least a nine-card fit.
-It denies three spades because opener would have raised to 2S with a
-3-5-4-1 minimum.
-Therefore, with a doubleton heart, responder can pass 2H.
+
+Opener cannot rebid 2D with a minimum, but can show [nobr]#4*{D}# with
+the paradox response after 2C.
+If responder had intended to drop the auction in 2D, then we have at
+least a nine-card fit so 3D will usually be safe.
+The paradox response denies three spades because opener would have
+raised to 2S with a 3{hyph}5{hyph}4{hyph}1 minimum.
+Therefore, responder is well place to pass 2H with a doubleton honour.
 ====
