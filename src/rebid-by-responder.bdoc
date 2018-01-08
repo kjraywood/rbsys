@@ -134,36 +134,43 @@ Responder uses _three other-minor_{thinsp} for more info.
 |  3NT  |       | 3-card raise, #short om#
 |===
 
-[special]#Improved presentation {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}#
+[NOTE]
+====
+With a minimum, opener might bypass [nobr]#4*{S}# to raise {H} on
+three. So 2S by responder is natural and forcing one-round.
+====
 
-With a minimum, opener might bypass 4*{S} to raise {H} on three. So 2S
-by responder is natural and forcing one-round.  Opener continues +
-@ with min
-@@ natural bid +
-@ with max{thinsp}
-{tribull} ##!3om! = 4*{H}##{thinsp}
-{tribull} ##!4__any__!{thinsp} = 4*{S}##
+****
+[special]#Updated {thinsp}{ndash}{thinsp} Jan 7, 2018{nbsp}#
+
+After 2{S} opener continues with
+@ old suit (non-jump), 2NT, 3NT
+__ = natural, NF
+@ #jump to 4{thinsp}__any__{thinsp} = 4*{S}, max#
+@ #4th-suit (3om) = 4*{H}, max#
+****
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
-|  1C   | 1H |
+|  1m   | 1H |
 |  2H   | 2S | natural, F1
 |  ?    |    |
 |  2NT  |    | 3*{H}, #short {S}#, min, NF
-|  3C   |    | 5\|6*{C}, 3*{H}, #short {D}#, NF
-| !3D!  |    | #4*{H}, max, GF#
+|  3m   |    | 5\|6*m, 3*{H}, #short om#, NF
+| !3om! |    | #4*{H}, max, GF#
 |  3H   |    | 4*{H}, min, NF
 |  3S   |    | 4*{S}, min, NF
 |  3NT  |    | #short {S}#, 3*{H}, max
-| !4C!  |    | good {C}, #4*{S}#, max
-| !4D!  |    | splinter, #4*{S}#, max
-| !4H!  |    | 4*{H}, #4*{S}#, max
+| !4m!  |    | #4*m, 2*om, 3*{H}, 4*{S}#, max
+| !4om! |    | splinter, 4*{S}, max
+| !4H!  |    | 4*{H}, 4*{S}, max
 |===
 
 [TIP]
 ====
-In the previous two tables, the notrump bids show shortness in the
-suit responder just bid; even if it was only semi-natural.
+In the previous two bidding tables, the notrump bids show shortness
+(2{OrLess}) in the new suit that responder just bid; even if it was
+only semi-natural.
 ====
 
 ==== In comp.
