@@ -28,6 +28,15 @@ __ [* except when neg. free-bid applies ]
 @ 3H = 6-cd suit, GF
 @ Dble = 4{vbar}5*{H}, _any strength_
 
+****
+[special]#New {thinsp}{ndash}{thinsp} Jan 7, 2018{nbsp}#
+
+*vs. 1m-(2H) by unPH* {nbsp}
+@ #{thinsp}2S = neg. free-bid by unPH{thinsp}#
+@ 3S = 6-cd suit, GF
+@ Dble = 4{vbar}5*{S}, _any strength_
+****
+
 *vs. 1NT*
 @ !2C! = majors
 @ !2D!,!2H! = transfer
