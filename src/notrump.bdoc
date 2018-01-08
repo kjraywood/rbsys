@@ -176,7 +176,8 @@ Therefore responder should not bid either major with that shape.
 |  ?    |      |
 | !3S!  |      | 2
 | !3NT! |      | 3
-| !4m!  |      | 4, slam-pos., good 4*m
+| !4m!  |      | 4, slam positive,
+               _ good 4*m
 |  4S   |      | 4, poor for slam
 |===
 
