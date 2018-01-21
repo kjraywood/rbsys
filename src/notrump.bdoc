@@ -46,7 +46,7 @@ WARNING: _No delayed Texas or delayed Gerber_
 | 2H  | !2S!      | | forces next-step
 | 2NT | {ensp}?   | |
 |     |  3m       | | 5*{H}, 5*m, _shape inv_
-|     |  3H       | | #*[ NOT IN USE ]*#
+|     |  3H       | | [orange-bg]#*[ NOT IN USE ]*#
                     _ (6*{H}, 4*{S}, slam try)
 |     |  3NT      | | good 6-cd {H}-suit, COG
 |     | !3S!,!4m! | | void slam-try
@@ -135,8 +135,6 @@ __ #as though the interference was natural# +
 
 === Romex Stayman
 
-[special]#Updated {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}#
-
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 2NT   | 3C |
@@ -177,11 +175,14 @@ Therefore responder should not bid either major with that shape.
 | !3NT! |      | 3
 | !4m!  |      | 4, slam positive,
                _ good 4*m
-|  4S   |      | 4, poor for slam
+|  4S   |      | 4*{S} _without_{thinsp} good 4-cd side suit
 |===
 
-With a spade fit, responder transfers with 4H to ensure that opener
-declares.
+[IMPORTANT]
+====
+Following 4m or 3NT (when responder has 5*{S}), responder transfers to
+4S with 4H to ensure that opener declares.
+====
 
 ==== vs double
 
