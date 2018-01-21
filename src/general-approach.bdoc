@@ -18,8 +18,6 @@ _ Bypass 1D if
 
 === Default rules
 
-[special]#New {thinsp}{ndash}{thinsp} Jan 2018#
-
 ==== Rule #1
 
 _A call is natural and non-forcing unless defined otherwise._
@@ -43,15 +41,28 @@ Jumps to the 4-level in a different suit are fit-showing._
 |    |      | 4C, 4H | | fit showing
 |===
 
-==== Penalty Doubles
+****
+[special]#Updated {thinsp}{ndash}{thinsp} Jan 20, 2018{nbsp}#
 
-[CAUTION]
-====
-_Partner has made a take-out double, then RHO bids one of the unbid
-suits._
+&Penalty Doubles&
 
-_We have agreed a suit, hence have no further need for take-out
-tables._
+Partner has made a take-out double, then RHO bids one of the unbid
+suits.
 
-_Most same-suit delayed doubles._
-====
+We have agreed a suit, hence have no further need for take-out
+tables.
+
+Most same-suit delayed doubles.
+
+Partner has accurately described strength and distribution.
+_Includes_: preempts, two-suited bids, splinters, fit-showing jumps,
+#NT rebids#, #NT responses in comp.#
+_Excludes_: NT openings and overcalls, uncontested 1NT response
+
+When we have established the balance-of-power with a strength-showing
+redouble, a two-over-one, or a penalty pass of a take-out double.
+
+We have both bid {ndash} they balance.
+
+They bid {ndash} we balance {ndash} they compete.
+****
