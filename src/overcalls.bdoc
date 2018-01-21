@@ -8,21 +8,23 @@
 @ vs. major = 13-16
 @ System ON
 
-*Sandwich position 1NT*
+*Sandwich position*
 @ #natural, 16-19#
 @ #Sys OFF#
 @@ #under-suit cue = Stayman#
 @ unusual by PH
 
 ****
-[special]#Modified {thinsp}{ndash}{thinsp} Jan 3, 2017# +
-
-*vs weak two or precision 2C*
+[CAUTION]
+====
+*vs weak two or precision 2C* +
 @ 2NT = 16-19, with our 2NT system +
-@@ including #3S {forces} 3NT# +
-@@ Romex Stayman vs 2m
+@@ Romex Stayman vs 2m +
 @@ simple 5-card Stayman vs 2M +
-@@ #transfer to their major = inv oM#
+@@ transfer to their major = inv oM +
+@@ 3S {forces} 3NT# +
+@@ vs 2m, 3NT = mild slam-try in om#
+====
 ****
 
 == Suit Overcalls
@@ -59,8 +61,6 @@
 
 === Sandwich position
 
-[special]#New {thinsp}{ndash}{thinsp} Jan 2, 2018{nbsp}#
-
 ==== Unpassed hand
 
 @ #cue-bid of suit on left = other two suits#
@@ -77,13 +77,17 @@
 |      | !2NT! |      |   | minors
 |===
 
-==== Passed hand
+****
+[special]#New {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}#
+
+&Passed hand&
 
 @ !1NT! = unusual
 __ (5-5{OrMore} other two suits) +
 @ #cue-bid of suit on left = McCartney#,
 __ (__{ldquo}When I'm sixty-four{rdquo}__{thinsp})
 __ 6*om + 4*oM
+****
 
 ==== Raising a sandwich overcall
 
