@@ -56,3 +56,46 @@ partner's [alert]#last-bid suit#.
 |    |      |  3C   | competitive,
                       _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
 |===
+
+=== Double of their cue-bid
+
+[special]#New {thinsp}{ndash}{thinsp} Jan 20, 2018{nbsp}#
+
+==== We overcall, they cue-bid, advancer doubles
+
+[lightgrey-bg]#(1C) {ndash} 1S {ndash} (2S) {ndash} Dbl#
+= normal raise to 2S
+
+==== We overcall, they jump-cue (splinter), advancer doubles
+
+[lightgrey-bg]#(1H) {ndash} 1S {ndash} (3S) {ndash} Dbl#
+= willing to sacrifice in 4S
+
+==== Overcaller doubles opener's cue-bid
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |    | (1C) | 1S
+| (2C) | P  | (2S) | !Dble!
+|===
+
+Double shows a good hand that wants to compete higher,
+_e.g._ [lightgrey-bg]#{S}AQJ874 {H}43 {D}KJT8 {C}3#
+
+==== We open, they overcall, advancer cues, opener doubles
+
+[%autowidth,cols="^,<",grid="none"]
+|===
+| 1D     | (1S) {ensp} P {ensp} (2D)
+| !Dble! | take-out of their suit +
+           _e.g._ {S}2{nbsp}{H}KJ84 {D}AKJ87{nbsp}{C}KT44
+
+|===
+
+==== We overcall, advancer doubles a delayed cue-bid
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (1H) | 1S  | (2D) |  P     | |
+| (3D) | P   | 3S   | !Dble! | | Hx or Hxx in {S}
+|===
