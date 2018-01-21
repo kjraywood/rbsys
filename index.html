@@ -689,11 +689,18 @@ div.unbreakable { page-break-inside: avoid; }
 
 .yellow-background { background-color: #fafa00; }
 
-.orange-background { background-color: #f7d358; }
+.orange-bg { background-color: #ffb732; }
 
 .special { color: #000;
 	   background-color: #5fff5f;
 	   border: 3px outset #5fff5f;
+	   padding: 0.125em 0.625em;
+	   white-space: nowrap;
+	 }
+
+.orange-box { color: #000;
+	   background-color: #ffa500;
+	   border: 3px outset #ffa500;
 	   padding: 0.125em 0.625em;
 	   white-space: nowrap;
 	 }
@@ -741,8 +748,8 @@ b.conum * { color: inherit !important; }
 <div class="details">
 <span id="author" class="author">Kelvin Raywood</span><br>
 <span id="author2" class="author">Shelley Burns</span><br>
-<span id="revnumber">version 0.9.21,</span>
-<span id="revdate">January 7, 2018</span>
+<span id="revnumber">version 0.9.22,</span>
+<span id="revdate">January 20, 2018</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -884,9 +891,6 @@ b.conum * { color: inherit !important; }
 </div>
 <div class="sect2">
 <h3 id="_default_rules">Default rules</h3>
-<div class="paragraph">
-<p><span class="special">New &thinsp;&ndash;&thinsp; Jan 2018</span></p>
-</div>
 <div class="sect3">
 <h4 id="_rule_1">Rule #1</h4>
 <div class="paragraph">
@@ -957,30 +961,42 @@ Jumps to the 4-level in a different suit are fit-showing.</em></p>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="sect3">
-<h4 id="_penalty_doubles">Penalty Doubles</h4>
-<div class="admonitionblock caution">
-<table>
-<tr>
-<td class="icon">
-<img src="icons/caution.png" alt="Caution">
-</td>
-<td class="content">
+<div class="sidebarblock">
+<div class="content">
 <div class="paragraph">
-<p><em>Partner has made a take-out double, then RHO bids one of the unbid
-suits.</em></p>
+<p><span class="special">Updated &thinsp;&ndash;&thinsp; Jan 20, 2018&#160;</span></p>
 </div>
 <div class="paragraph">
-<p><em>We have agreed a suit, hence have no further need for take-out
-tables.</em></p>
+<p><span class="bold-brickred">Penalty Doubles</span></p>
 </div>
 <div class="paragraph">
-<p><em>Most same-suit delayed doubles.</em></p>
+<p>Partner has made a take-out double, then RHO bids one of the unbid
+suits.</p>
 </div>
-</td>
-</tr>
-</table>
+<div class="paragraph">
+<p>We have agreed a suit, hence have no further need for take-out
+tables.</p>
+</div>
+<div class="paragraph">
+<p>Most same-suit delayed doubles.</p>
+</div>
+<div class="paragraph">
+<p>Partner has accurately described strength and distribution.
+<em>Includes</em>: preempts, two-suited bids, splinters, fit-showing jumps,
+<mark>NT rebids</mark>, <mark>NT responses in comp.</mark>
+<em>Excludes</em>: NT openings and overcalls, uncontested 1NT response</p>
+</div>
+<div class="paragraph">
+<p>When we have established the balance-of-power with a strength-showing
+redouble, a two-over-one, or a penalty pass of a take-out double.</p>
+</div>
+<div class="paragraph">
+<p>We have both bid &ndash; they balance.</p>
+</div>
+<div class="paragraph">
+<p>They bid &ndash; we balance &ndash; they compete.</p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -1014,11 +1030,24 @@ tables.</em></p>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p><mark><strong>[ NOT IN USE ]</strong></mark><br>
-<strong>Transfer responses</strong>
+<p><span class="orange-box"><strong>Not in use yet</strong></span><br></p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<img src="icons/caution.png" alt="Caution">
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>Transfer responses</strong>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 2<span class="courier black">&#9824;</span> = one-loser red-suit</span>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 3<span class="courier black">&#9827;</span> = one-loser black-suit</span>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 3<span class="courier red">&#9830;</span>,3<span class="courier red">&#9829;</span>,3<span class="courier black">&#9824;</span>,4<span class="courier black">&#9827;</span> = transfer to solid suit</span></p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -1290,7 +1319,7 @@ Romex-Stayman.</p>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="courier red">&#9829;</span></p></td>
 <td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>[ NOT IN USE ]</strong></mark>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="orange-bg"><strong>[ NOT IN USE ]</strong></span>
 <span class="nobr"> (6&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, 4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>, slam try)</span></p></td>
 </tr>
 <tr>
@@ -1484,9 +1513,6 @@ double or Lebensohl.</p>
 </table>
 <div class="sect2">
 <h3 id="_romex_stayman">Romex Stayman</h3>
-<div class="paragraph">
-<p><span class="special">Updated &thinsp;&ndash;&thinsp; Jan 6, 2018&#160;</span></p>
-</div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
 <col>
@@ -1638,13 +1664,24 @@ Therefore responder should not bid either major with that shape.</p>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">4<span class="courier black">&#9824;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4, poor for slam</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span> <em>without</em>&thinsp; good 4-cd side suit</p></td>
 </tr>
 </tbody>
 </table>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<img src="icons/important.png" alt="Important">
+</td>
+<td class="content">
 <div class="paragraph">
-<p>With a spade fit, responder transfers with 4<span class="courier red">&#9829;</span> to ensure that opener
-declares.</p>
+<p>Following 4m or 3NT (when responder has 5&thinsp;&times;&thinsp;<span class="courier black">&#9824;</span>), responder transfers to
+4<span class="courier black">&#9824;</span> with 4<span class="courier red">&#9829;</span> to ensure that opener declares.</p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 <div class="sect3">
 <h4 id="_vs_double">vs double</h4>
@@ -4044,7 +4081,7 @@ partner&#8217;s <span class="alert">last-bid suit</span>.</p>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; System ON</span></p>
 </div>
 <div class="paragraph">
-<p><strong>Sandwich position 1NT</strong>
+<p><strong>Sandwich position</strong>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; <mark>natural, 16-19</span></mark>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; <mark>Sys OFF</span></mark><span class="backspace"> </span>
 <span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; <mark>under-suit cue = Stayman</span></mark>
@@ -4052,16 +4089,25 @@ partner&#8217;s <span class="alert">last-bid suit</span>.</p>
 </div>
 <div class="sidebarblock">
 <div class="content">
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<img src="icons/caution.png" alt="Caution">
+</td>
+<td class="content">
 <div class="paragraph">
-<p><span class="special">Modified &thinsp;&ndash;&thinsp; Jan 3, 2017</span><br></p>
-</div>
-<div class="paragraph">
-<p><strong>vs weak two or precision 2<span class="courier black">&#9827;</span></strong>
+<p><strong>vs weak two or precision 2<span class="courier black">&#9827;</span></strong><br>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 2NT = 16-19, with our 2NT system</span><span class="backspace"> </span><br>
-<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; including <mark>3<span class="courier black">&#9824;</span> &#x279c; 3NT</span></mark><span class="backspace"> </span><br>
-<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; Romex Stayman vs 2m</span><span class="backspace"> </span>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; Romex Stayman vs 2m</span><span class="backspace"> </span><br>
 <span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; simple 5-card Stayman vs 2M</span><span class="backspace"> </span><br>
-<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; <mark>transfer to their major = inv oM</span></mark></p>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; transfer to their major = inv oM</span><span class="backspace"> </span><br>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; 3<span class="courier black">&#9824;</span> &#x279c; 3NT</span><mark><span class="backspace"> </span><br>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; vs 2m, 3NT = mild slam-try in om</span></mark></p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -4106,9 +4152,6 @@ partner&#8217;s <span class="alert">last-bid suit</span>.</p>
 </div>
 <div class="sect2">
 <h3 id="_sandwich_position">Sandwich position</h3>
-<div class="paragraph">
-<p><span class="special">New &thinsp;&ndash;&thinsp; Jan 2, 2018&#160;</span></p>
-</div>
 <div class="sect3">
 <h4 id="_unpassed_hand">Unpassed hand</h4>
 <div class="paragraph">
@@ -4169,15 +4212,22 @@ partner&#8217;s <span class="alert">last-bid suit</span>.</p>
 </tr>
 </tbody>
 </table>
+<div class="sidebarblock">
+<div class="content">
+<div class="paragraph">
+<p><span class="special">New &thinsp;&ndash;&thinsp; Jan 6, 2018&#160;</span></p>
 </div>
-<div class="sect3">
-<h4 id="_passed_hand">Passed hand</h4>
+<div class="paragraph">
+<p><span class="bold-brickred">Passed hand</span></p>
+</div>
 <div class="paragraph">
 <p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; <span class="alert">1NT</span> = unusual</span><span class="backspace"> </span>
 <span class="nobr">&emsp; (5-5<sup><strong>+</strong></sup> other two suits)</span><br>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; <mark>cue-bid of suit on left = McCartney</mark>,</span><span class="backspace"> </span>
 <span class="nobr">&emsp; (<em>&#8220;When I&#8217;m sixty-four&#8221;</em>&thinsp;)</span><span class="backspace"> </span>
 <span class="nobr">&emsp; 6&thinsp;&times;&thinsp;om + 4&thinsp;&times;&thinsp;oM</span></p>
+</div>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -4991,8 +5041,8 @@ from invitational single-suited hands.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 0.9.21<br>
-Last updated 2018-01-07 20:15:43 PST
+Version 0.9.22<br>
+Last updated 2018-01-20 22:49:14 PST
 </div>
 </div>
 </body>
