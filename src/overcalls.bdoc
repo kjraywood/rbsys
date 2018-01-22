@@ -4,8 +4,10 @@
 @ System ON
 
 *Balancing*
-@ vs. minor = 11-14
-@ vs. major = 13-16
+@ 1NT
+@@ vs. minor = 11-14
+@@ vs. major = 13-16 +
+@ #2NT = 19-20#
 @ System ON
 
 *Sandwich position*
@@ -111,15 +113,31 @@ three level_.
 
 === Balancing
 
-Following a balancing 1M, the unbid minor shows a good raise (like Drury).
+[IMPORTANT]
+====
+&One major&
 
-[%autowidth,cols="5*^,<",grid="none"]
+The unbid minor shows a good raise (like Drury).
+
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-|     |      | (1C) |  P   | |
-| (P) | 1H   | (P)  |  ?   | |
-|     |      |      |  2C  | | natural
-|     |      |      | !2D! | | good {H} raise
+| (1C) |  P   | (P) | 1H
+| (P)  |  ?   |     |
+|      |  2C  |     | natural
+|      | !2D! |     | good {H} raise
 |===
+====
+
+****
+[special]#New {thinsp}{ndash}{thinsp} Jan 21, 2018{nbsp}#
+
+&Cue-bid&
+
+A balancing cue-bid shows a strong two-suiter in #any two suits# other
+than opener's.
+
+[orange-box]#Discussion of follow-up bidding needed#
+****
 
 == Two-suited overcalls (Klinger)
 
