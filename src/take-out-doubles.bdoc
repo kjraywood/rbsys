@@ -33,11 +33,9 @@ Following a 1NT response, 2M shows a big hand but #2m is to play#.
 When they bid 1NT over our take-out double, a cue-bid of their minor
 shows both majors but does not promise a good hand.
 
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-| (1D) | Dble | (1NT)  | ?  | | {S}JT93 {H}K982 {D}8763 {C}4
-|      |      |        | 2D | | both majors, could be weak
-|===
+[lightgrey-bg]#(1{D})-Dbl-(1NT)-2{D}# = both majors, could be weak,
+_e.g._{thinsp}
+[lightgrey-bg]#{S}JT93 {H}K982 {D}8763 {C}4#
 
 === Strength redouble
 
