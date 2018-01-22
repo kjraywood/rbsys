@@ -5,6 +5,8 @@ Kelvin Raywood; Shelley Burns
 :iconsdir: icons
 :xrefstyle: short
 :table-caption!:
+:hide-uri-scheme:
+:linkattrs:
 :revnumber: 0.9.23
 :revdate: January 21, 2018
 
