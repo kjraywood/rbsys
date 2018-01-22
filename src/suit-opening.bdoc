@@ -171,10 +171,9 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 @ 3*{D} only with
 @@ 4-5-3-1
 @@ poor hearts (no 2H rebid)
-@@ {simto} 14-16{thinsp}HCP (no pass or 2S)
-
-@ 2C usually four
-@ occasionally three or even two
+@@ {simto} 14-16{thinsp}HCP (no pass or 2S) +
+@ 2C usually four,
+__ occasionally three or even two
 
 To reduce the frequency of a short-club rebid: +
 @ open 1NT with (53)(32), 14{thinsp}HCP,
