@@ -57,21 +57,24 @@ partner's [alert]#last-bid suit#.
                       _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
 |===
 
-=== Double of their cue-bid
+=== They cue-bid, we double
 
 [special]#New {thinsp}{ndash}{thinsp} Jan 20, 2018{nbsp}#
 
 ==== We overcall, they cue-bid, advancer doubles
 
-[lightgrey-bg]#(1C) {ndash} 1S {ndash} (2S) {ndash} Dbl#
+When their cue-bid shows a fit, then our double also show a fit.
+
+[lightgrey-bg]#(1{C})-1{S}-(2{S})-Dbl#
 = normal raise to 2S
 
-==== We overcall, they jump-cue (splinter), advancer doubles
-
-[lightgrey-bg]#(1H) {ndash} 1S {ndash} (3S) {ndash} Dbl#
+[lightgrey-bg]#(1{H})-1{S}-(3{S})- Dbl#
 = willing to sacrifice in 4S
 
 ==== Overcaller doubles opener's cue-bid
+
+When their cue-bid is just some good hand, then our double
+is also some good hand.
 
 [%autowidth,cols="4*^",grid="none"]
 |===
@@ -84,6 +87,10 @@ _e.g._ [lightgrey-bg]#{S}AQJ874 {H}43 {D}KJT8 {C}3#
 
 ==== We open, they overcall, advancer cues, opener doubles
 
+When opener doubles their (typically) fit-showing cue-bid,
+it shows a good hand with support for unbid suits.  It is
+like a take-out double of their bid-and-raised suit.
+
 [%autowidth,cols="^,<",grid="none"]
 |===
 | 1D     | (1S) {ensp} P {ensp} (2D)
@@ -93,6 +100,10 @@ _e.g._ [lightgrey-bg]#{S}AQJ874 {H}43 {D}KJT8 {C}3#
 |===
 
 ==== We overcall, advancer doubles a delayed cue-bid
+
+When advancer has already had a chance to show a fit, and
+later makes a double of a delayed cue-bid, it shows a high honour
+in overcaller's suit; mostly for help the defence.
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
