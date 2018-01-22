@@ -20,10 +20,11 @@ _The higher their suit, the wider the range_
 ====
 Following a 1NT response, 2M shows a big hand but #2m is to play#.
 
-[%autowidth,cols="5*^,<",grid="none"]
+[%autowidth,cols="^,<",grid="none"]
 |===
-|     |     | (1H) | Dble | | {S}A82 {H}7 {D}QJ94 {C}AQT74
-| (P) | 1NT | (P)  | 2C   | | to play
+| (1H) | Dbl {ensp} (P) {ensp} 1NT
+| (P)  | 2C  {ensp} to play,
+                    _e.g._ {S}A82{nbsp}{H}7 {D}QJ94{nbsp}{C}AQT74
 |===
 ====
 
