@@ -20,12 +20,15 @@ _The higher their suit, the wider the range_
 ====
 Following a 1NT response, 2M shows a big hand but #2m is to play#.
 
-[%autowidth,cols="^,<",grid="none"]
+[%autowidth,cols="4*^",grid="none"]
 |===
-| (1H) | Dbl {ensp} (P) {ensp} 1NT
-| (P)  | 2C  {ensp} to play,
-                    _e.g._ {S}A82{nbsp}{H}7 {D}QJ94{nbsp}{C}AQT74
+| (1H) | Dbl | (P) | 1NT
+| (P)  | 2C  |     |
 |===
+
+2C = to play,
+_ _e.g._{thinsp} [lightgrey-bg]#{S}A82 {H}7 {D}QJ94{nbsp}{C}AQT74#
+
 ====
 
 === They bid 1NT
@@ -33,9 +36,13 @@ Following a 1NT response, 2M shows a big hand but #2m is to play#.
 When they bid 1NT over our take-out double, a cue-bid of their minor
 shows both majors but does not promise a good hand.
 
-[lightgrey-bg]#(1{D})-Dbl-(1NT)-2{D}# = both majors, could be weak,
-_e.g._{thinsp}
-[lightgrey-bg]#{S}JT93 {H}K982 {D}8763 {C}4#
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1D) | Dbl | (1NT) | 2{D}
+|===
+
+2D = both majors, could be weak,
+_ _e.g._{thinsp} [lightgrey-bg]#{S}JT93 {H}K982 {D}8763 {C}4#
 
 === Strength redouble
 
