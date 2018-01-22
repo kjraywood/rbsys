@@ -21,21 +21,17 @@
 @ cue = {LRplus}
 @ jump raise = weak +
 @ JS = weak* by unPH, fit by PH
-__ [* except when neg. free-bid applies ]
+__ [#* except when neg. free-bid applies#]
 
-*vs. 1m-(1S) by unPH*
+[lime-bg]##*vs. 1m-(2{S}) by unPH*##
 @ #{thinsp}2H = neg. free-bid by unPH{thinsp}#
 @ 3H = 6-cd suit, GF
 @ Dble = 4{vbar}5*{H}, _any strength_
 
-****
-[special]#New {thinsp}{ndash}{thinsp} Jan 7, 2018{nbsp}#
-
-*vs. 1m-(2H) by unPH* {nbsp}
+[lime-bg]##*vs. 1m-(2{H}) by unPH*##
 @ #{thinsp}2S = neg. free-bid by unPH{thinsp}#
 @ 3S = 6-cd suit, GF
 @ Dble = 4{vbar}5*{S}, _any strength_
-****
 
 *vs. 1NT*
 @ !2C! = majors
@@ -88,7 +84,7 @@ WARNING: _No Bergen_
 @ JS to 3m = weak by unPH, fit by PH +
 @ #{thinsp}4-__lower-suit__{thinsp} = fit, not a splinter{thinsp}#
 
-*vs. 1M-(2m) by unPH*
+[lime-bg]##*vs. 1M-(2m) by unPH*##
 @ #{thinsp}2oM = neg. free-bid by unPH{thinsp}# (6{orMore}, NF)
 @ JS to 3oM = 6{orMore}, GF
 @ Dble = 4{or}5*oM, _any strength_
@@ -162,8 +158,6 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 (with 2NT{eq}{S} when M{eq}{H}), as after a normal single-raise.
 
 === Semi-Forcing 1NT
-
-[special]#Updated {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}#
 
 ==== Opener's rebid
 
