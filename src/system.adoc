@@ -7,8 +7,8 @@ Kelvin Raywood; Shelley Burns
 :table-caption!:
 :hide-uri-scheme:
 :linkattrs:
-:revnumber: 0.9.23
-:revdate: January 21, 2018
+:revnumber: 0.9.24
+:revdate: January 27, 2018
 
 include::macros.adoc[]
 
