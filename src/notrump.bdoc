@@ -55,10 +55,14 @@ WARNING: _No delayed Texas or delayed Gerber_
 
 === Minor-suit transfers
 
+[special]#Updated {thinsp}{ndash}{thinsp} Jan 26, 2018{nbsp}#
+
 @ *2S* = {C} weak{or}strong, or balanced inv
-@@ opener bids 2NT (min) or 3C (max) +
-@ *2NT* = {D} weak{or}strong, or weak both minors
-@@ opener chooses minor +
+@@ 2NT = min
+@@ 3C = max +
+@ *2NT* = {D} weak{or}strong
+@@ 3C = decline {D} inv
+@@ 3D = accept {D} inv +
 @ Transfer to {C} then 3D = 5-5 minors GF
 @@ then by opener: 3H => {C}, 3S => {D} +
 @ Transfer to minor then 3M = shortness
