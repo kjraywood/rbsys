@@ -3,69 +3,101 @@
 === Stayman
 
 @ Promises a 4-card major
-@ Includes 5*{S} + 5{xtimes}__other__{thinsp}, inv
+@ Includes 5*{S}, inv. (bal. or 5-5)
 
-&vs double&
+==== vs double
+
 @ pass promises a stopper
 @ reverse transfers
 @ 2NT = 4-4 majors min
 @ 3C = 4-4 majors max
 @ Redouble = double neg. (no stop, no M)
 
-&Rebids&
-@ splinter
-@ Smolen @ 2-level
+==== Rebids
 
-.OMaR
-[%autowidth,cols="^,3*<",grid="none"]
-|===
-| 1NT |  2C       | |
-| 2H  | !2S!      | | forces next-step
-| 2NT | {ensp}?   | |
-|     |  3m       | | 5*{S}, 5*m, _shape inv_
-|     | !3H!      | | balanced slam try
-|     |  3NT      | | COG (3-4-3-3)
-|     | !3S!,!4m! | | void slam-try
-|     | !4S!      | | RKC
-|===
+[special]#New system {thinsp}{ndash}{thinsp} Feb 3, 2018{nbsp}#
 
-WARNING: _No delayed Texas or delayed Gerber_
+@ crawling Stayman
+@ Smolen
+@ delayed Gerber & Texas
+
+Following Stayman, 2S by responder is invitational; possibly based on
+5-5 shape.  Opener can pass, but otherwise uses #paradox acceptances#.
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1NT   | 2C |
+| 2D,2H | 2S | {emsp}natural, 5-card suit, inv
+| ?     |    |
+| pass  |    | min., 3*{S}
+| 2NT   |    | min., 2*{S}, decline NT
+| 3C    |    | accept NT, decline {C}
+| 3D    |    | accept NT or {C}, decline {D}
+2+<| 3H (/2D only) <| accept NT, {C} or {D}, decline {H}
+| 3S    |    | accept all, #=> FORCING#
+|===
 
 === Jacoby transfers
 
-@ Super accept = 2T + 1
-@@ Responder re-transfers or describes +
-@ Transfer then 3m = GF, COG or slam inv.
-@@ By opener, new suit agrees minor
-@@ Raise of minor = double fit
+@ super accept = 2T + 1
+@@ responder re-transfers or describes +
+@ jump rebid = self splinter
+@ non-jump rebid = 2nd-round transfer
 
-.OMaR
-[%autowidth,cols="^,3*<",grid="none"]
+[IMPORTANT]
+====
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1NT | !2D!      | |
-| 2H  | !2S!      | | forces next-step
-| 2NT | {ensp}?   | |
-|     |  3m       | | 5*{H}, 5*m, _shape inv_
-|     |  3H       | | [orange-bg]#*[ Not in use ]*#
-                    _ (6*{H}, 4*{S}, slam try)
-|     |  3NT      | | good 6-cd {H}-suit, COG
-|     | !3S!,!4m! | | void slam-try
-|     | !4H!      | | #balanced slam inv#
+| 1NT  | !2H! |
+| 2S   | !4S! | {emsp} #balanced (5332), quant. slam inv#
+|  ?   |      |
+| pass |      | decline
+| 4NT  |      | sign-off
+| 5C   |      | RKC (1430) for {S}
 |===
+====
+
+==== 2nd-round transfers
+
+[special]#New {thinsp}{ndash}{thinsp} Feb 3, 2018{nbsp}#
+
+@ apply after Jacoby transfer to major
+@ are descriptive, not demanding
+@ to 2NT => inv (possibly not bal.)
+@ to 3m => 4-card suit
+@ to 3{H} (after {S}) => 5-5
+@ to same major => game or slam inv.
+@ _raising_ major => COG
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1NT | !2D!  | |
+| 2H  |  ?    | |
+|     | !2S!  | | inv. (not {S}), possibly 5*{H} + 5*m +
+                  {tribull} #paradox acceptances#
+|     | !2NT! | | 4*{C}, GF
+|     | !3C!  | | 4*{D}, GF
+|     | !3D!  | | 6*{H}, game or slam inv. +
+                  {tribull} 3H = decline +
+		  {tribull} _other_ = accept & descriptive
+|     | !3H!  | | GF, good suit, COG
+|===
+
+Following a 2nd-round transfer showing a new-suit, opener chooses from +
+@ set either suit as trump
+@ new-suit = own 5-card suit
+@ 3NT = no fit, offer to play
 
 === Minor-suit transfers
 
-[special]#Updated {thinsp}{ndash}{thinsp} Jan 26, 2018{nbsp}#
-
-@ *2S* = {C} weak{or}strong, or balanced inv
+@ *2S* = {C}, or balanced inv
 @@ 2NT = min
 @@ 3C = max +
-@ *2NT* = {D} weak{or}strong
-@@ 3C = decline {D} inv
-@@ 3D = accept {D} inv +
+@ *2NT* = {D}, any strength
+@@ 3C = decline inv
+@@ 3D = accept inv +
 @ Transfer to {C} then 3D = 5-5 minors GF
 @@ then by opener: 3H => {C}, 3S => {D} +
-@ Transfer to minor then 3M = shortness
+@ #Transfer to minor then 3M = shortness#
 
 === 3-level responses
 
