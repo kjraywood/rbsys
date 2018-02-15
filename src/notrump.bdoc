@@ -15,11 +15,10 @@
 
 ==== Rebids
 
-[special]#New system {thinsp}{ndash}{thinsp} Feb 3, 2018{nbsp}#
-
 @ crawling Stayman
 @ Smolen
 @ delayed Gerber & Texas
+@ Baze
 
 Following Stayman, 2S by responder is invitational; possibly based on
 5-5 shape.  Opener can pass, but otherwise uses #paradox acceptances#.
@@ -46,8 +45,9 @@ Following Stayman, 2S by responder is invitational; possibly based on
 @ jump rebid = self splinter
 @ non-jump rebid = 2nd-round transfer
 
-#A double-raise (to 4M) shows a quantitative slam invitation with a balanced hand.#
-It allows us to play 4M instead of 5M when opener has a minimum with a fit.
+A double-raise (to 4M) shows a quantitative balanced (5332)
+slam-invitation.  It allows us to play 4M instead of 5M when opener
+has a minimum with a fit.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -59,11 +59,10 @@ It allows us to play 4M instead of 5M when opener has a minimum with a fit.
 | 5C   |      | RKC (1430) for {S}
 |===
 
-Similarly, 5M is a quantative 5332 which forces 6 and invites 7 (like 1NT-5NT).
+Similarly, 5M is a quantative 5332 which forces 6 and invites 7 (like
+1NT-5NT).
 
 ==== 2nd-round transfers
-
-[special]#New {thinsp}{ndash}{thinsp} Feb 3, 2018{nbsp}#
 
 @ apply after Jacoby transfer to major
 @ are descriptive, not demanding
@@ -95,23 +94,25 @@ Following a 2nd-round transfer that shows a new-suit, opener chooses from +
 
 === Minor-suit transfers
 
+[special]#Updated {thinsp}{ndash}{thinsp} Feb 15, 2018{nbsp}#
+
 @ *2S* = {C}, or balanced inv
 @@ 2NT = min
 @@ 3C = max +
 @ *2NT* = {D}, any strength
-@@ 3C = decline inv
-@@ 3D = accept inv +
-@ Transfer to {C} then 3D = 5-5 minors GF
-@@ then by opener: 3H => {C}, 3S => {D} +
-@ #Transfer to minor then 3M = shortness#
+@@ 3C = decline
+@@ 3D = super accept ({D}Qxx or better) +
+@ Transfer to minor then new-suit
+__ = shortness
 
 === 3-level responses
 
 @ 3C = five-card Stayman +
-@ [lime-bg]#3{D} = undiscussed#
-@@ flat Stayman or 5-5 minors GF +
+@ 3{D} = 5-5 minors GF, then opener bids +
+@@ 3H => {C}
+@@ 3S => {D}
+@@ 3NT = poor hand for minors +
 @ 3H,3S = stiff with three in other major
-
 
 === Interference over 1NT
 
