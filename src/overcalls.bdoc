@@ -7,16 +7,16 @@
 @ 1NT
 @@ vs. minor = 11-14
 @@ vs. major = 13-16 +
-@ #2NT = 19-21{OrLess}#
+@ 2NT = 19-21{OrLess}
 @ System ON
 
 *Sandwich position*
-@ #natural, 16-19#
-@ #Sys OFF#
-@@ #under-suit cue = Stayman#
+@ #natural#, 16-19
+@ Sys OFF
+@@ under-suit cue = Stayman
 @ unusual by PH
 
-[lime-bg]##*vs weak two or precision 2C*## +
+*vs weak two or precision 2C* +
 2NT = 16-19, with our 2NT system +
 @ Romex Stayman vs 2m +
 @ simple 5-card Stayman vs 2M +
@@ -77,11 +77,9 @@ __ = mild slam-try in om
 
 ==== Passed hand
 
-[special]#New {thinsp}{ndash}{thinsp} Jan 6, 2018{nbsp}#
-
-@ !1NT! = unusual
+@ 1NT = unusual
 __ (5-5{OrMore} other two suits) +
-@ #cue-bid of suit on left = McCartney#,
+@ cue-bid of suit on left = #McCartney#,
 __ (__{ldquo}When I'm sixty-four{rdquo}__{thinsp})
 __ 6*om + 4*oM
 
@@ -123,15 +121,16 @@ The unbid minor shows a good raise (like Drury).
 
 === Cue-bid
 
-****
-[special]#New {thinsp}{ndash}{thinsp} Jan 21, 2018{nbsp}#
-
 @ shows strong 2-suiter
-@ both majors vs minor +
+@ both majors vs minor
 @ both minors vs major
-@@ [orange-bg]#or oM+m if discussed and agreed#
 
-https://bridgewinners.com/article/view/balancing-michaels[^]
+****
+[orange-box]##*Not in use*##
+
+Balance cue of major could show any two unbid suits, but need special
+continuations.
+See https://bridgewinners.com/article/view/balancing-michaels[^]
 ****
 
 == Two-suited overcalls (Klinger)
