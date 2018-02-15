@@ -8,13 +8,13 @@
 @ aggressive preempts and pre-balancing
 @ low-level take-out doubles
 
-*Responding to 1C:*{ensp}
-_ Bypass 1D if
+*Responding to 1C* +
+Bypass 1D if
 @ can cope with a 3-card raise
 @ will rebid or raise NT
 
-*Opener’s rebid with a balanced hand* 
-@ Usually bypass 4-card majors to rebid NT
+*Opener’s rebid with a balanced hand* +
+Usually bypass 4-card majors to rebid NT
 
 === Default rules
 
@@ -41,10 +41,7 @@ Jumps to the 4-level in a different suit are fit-showing._
 |    |      | 4C, 4H | | fit showing
 |===
 
-
 ==== Penalty Doubles
-
-[special]#Updated {thinsp}{ndash}{thinsp} Jan 20, 2018{nbsp}#
 
 Partner has made a take-out double, then RHO bids one of the unbid
 suits.
@@ -54,10 +51,17 @@ tables.
 
 Most same-suit delayed doubles.
 
-Partner has accurately described strength and distribution.
-_Includes_: preempts, two-suited bids, splinters, fit-showing jumps,
-#NT rebids#, #NT responses in comp.#
-_Excludes_: NT openings and overcalls, uncontested 1NT response
+Partner has accurately described strength and distribution. +
+_Includes_
+@ preempts
+@ two-suited bids
+@ splinters
+@ fit-showing jumps
+@ NT rebids
+@ NT responses in comp. +
+_Excludes_
+@ NT openings and overcalls
+@ uncontested 1NT response
 
 When we have established the balance-of-power with a strength-showing
 redouble, a two-over-one, or a penalty pass of a take-out double.

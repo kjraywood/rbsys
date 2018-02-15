@@ -134,21 +134,16 @@ Responder uses _three other-minor_{thinsp} for more info.
 |  3NT  |       | 3-card raise, #short om#
 |===
 
-[NOTE]
-====
-With a minimum, opener might bypass [nobr]#4*{S}# to raise {H} on
-three. So 2S by responder is natural and forcing one-round.
-====
+==== Responder has both majors
 
-****
-[special]#Updated {thinsp}{ndash}{thinsp} Jan 7, 2018{nbsp}#
+[special]#Updated {thinsp}{ndash}{thinsp} Feb 15, 2018{nbsp}#
 
-After 2{S} opener continues with +
+After 1m{ndash}1{H} opener might bypass [nobr]#4*{S}# to raise {H} on
+three. So 2S by responder is natural and forcing one-round.  Then +
 @ old suit (non-jump), 2NT, 3NT
 __ = natural, NF +
 @ #jump to 4{thinsp}__any__{thinsp} = 4*{S}, max# +
 @ #4th-suit (3om) = 4*{H}, max#
-****
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
