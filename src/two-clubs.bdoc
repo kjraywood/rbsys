@@ -56,13 +56,13 @@ Following a 2nd neg, we can stop in 3M or 4m.
 // |     | 4H (M={S}) | agrees {S} with short {D}
 
 ****
-The method of setting trump is inconsistent with our method in
+The scheme for setting trump is inconsistent with
 _second-suit slam-try after a major-suit raise,_{thinsp}
-where a bid in a possible trump suit is a natural and a new
+where bidding a possible trump suit is natural, and a new
 suit sets the other as trump.
 
-In situations where there are two bids for setting trump but neither
-is a possible trump suit, then we use _lower for lower;_{thinsp}
-[nobr]##__e.g.__{thinsp} 1NT{ndash}3{D} (minors, GF)##
-or when opener shows both majors with 3NT after Romex-Stayman.
+We use _lower-for-lower;_{thinsp} when neither of the two available
+bids is a possible trump suit.
+[nobr]##__e.g.__{thinsp} 1NT{ndash}3{D} (minors, GF)## or when opener
+shows both majors with 3NT after Romex-Stayman.
 ****
