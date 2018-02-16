@@ -1,7 +1,5 @@
 == Slam Conventions I
 
-[special]#Updated {thinsp}{ndash}{thinsp} Feb 15, 2018{nbsp}#
-
 @ 03,14 / Gerber & Kickback
 @ 0,1,2{OrLess},2{OrMore} / Exclusion
 @ 0,1{OrLess},1{OrMore},2{OrLess},2{OrMore} / Preempt-KC
@@ -34,7 +32,7 @@ Responses:  0, 1, 2-, 2+, 3-, 3+
 
 == Slam Conventions II - Kickback
 
-@ 03-14 responses
+@ [lime-bg]#03-14 responses#
 @ asker keeps asking, teller keeps telling
 @ 4NT replaces the kickback suit
 
@@ -105,6 +103,8 @@ then 5NT is used to show the king in that suit
 // ** Need example auctions **
 
 === Interference
+
+[special]#Updated {thinsp}{ndash}{thinsp} Feb 15, 2018{nbsp}#
 
 We ignore doubles of any asking or telling bids.
 _i.e._{thinsp} we bid as though the double did not occur.
