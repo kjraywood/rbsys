@@ -100,10 +100,20 @@ Following a 2nd-round transfer that shows a new-suit, opener chooses from +
 @@ 2NT = min
 @@ 3C = max +
 @ *2NT* = {D}, any strength
-@@ 3C = decline
-@@ 3D = super accept ({D}Qxx or better) +
-@ Transfer to minor then new-suit
-__ = shortness
+@@ 3C = pre-decline
+@@ 3D =  pre-accept ({D}Qxx or better) +
+
+==== Rebids with strong hands
+
+@ new-suit = shortness
+@@ opener assumes COG +
+@ 4m = natural slam inv.
+@ 4m + 1 = kickback
+@ other jump-shift = exclusion
+@ 4NT = exclusion in kickback suit
+
+3NT is generally to play, but opener may continue with undisclosed
+extras following a previous-round min or pre-decline.
 
 === 3-level responses
 
