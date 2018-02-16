@@ -7,7 +7,7 @@ Kelvin Raywood; Shelley Burns
 :table-caption!:
 :hide-uri-scheme:
 :linkattrs:
-:revnumber: 0.9.26
+:revnumber: 0.9.27
 :revdate: February 15, 2018
 
 include::macros.adoc[]
@@ -39,3 +39,5 @@ include::take-out-doubles.adoc[]
 include::defensive-bidding.adoc[]
 
 include::2nt-in-comp.adoc[]
+
+include::staging.adoc[]
