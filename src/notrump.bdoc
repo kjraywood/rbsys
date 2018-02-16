@@ -168,6 +168,9 @@ __ #as though the interference was natural# +
 
 == 2NT Opening
 
+@ simple Stayman
+@ Smolen
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 2NT | !3S! | | forces 3NT
@@ -188,98 +191,12 @@ __ #as though the interference was natural# +
 |  4NT |       | | decline
 |===
 
-=== Romex Stayman
+=== Both majors
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 2NT   | 3C |
-| ?     |    | 
-| !3NT! |    | 4-4 Majors{nbsp}
-             _ {tribull} 4{C} => {H}, 4{D} => {S}
-|  3S   |    | 5*{S}
-|  3H   |    | 4{or}5*{H}{nbsp}
-             _ {tribull} 3{S} asks
-| !3D!  |    | {lt}5*{S}, {lt}4*{H}
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 2NT | 3C    | |
-| 3D  |  ?    | |
-|     | !3H!  | | asks {S}-length [nobr]##(4{or}5*{S}, {lt}5*{H})##{nbsp}
-|     | !3S!  | | #forces 3NT#, ({lt}4*{S})
-|     | !3NT! | | 4*{S}, 5*{H}, COG
-|     | !4NT! | | _same shape_, slam-inv
-|     | !5NT! | | _same shape_, pick-a-slam
-|===
-
-[TIP]
-====
-*Memory aid for 3NT* +
-Opener's 3{D} may contain 4{times}{S} and/or 3{times}{H}.
-So both majors are a possible trump suit when responder has 4{ndash}5.
-Therefore responder should not bid either major with that shape.
-====
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  2NT  | 3C   |
-|  3D   | !3H! | asks {S}-length
-|  ?    |      |
-| !3S!  |      | 2
-| !3NT! |      | 3
-| !4m!  |      | 4, slam positive,
-               _ good 4*m
-|  4S   |      | 4*{S} _without_{thinsp} good 4-cd side suit
-|===
-
-[IMPORTANT]
-====
-Following 4m or 3NT (when responder has 5*{S}), responder transfers to
-4S with 4H to ensure that opener declares.
-====
-
-==== vs double
-
-@ {simto} vs double of regular Stayman +
-@ reverse transfers have Romex meanings
-@@ accepting = sign off => garbage +
-@ other follow-ups = same as uncontested
-@@ opener rev.-transfers @ 4-level
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 2NT   | (P) | 3C {ensp} (Dbl)
-|  ?    |     |
-| !pass!  |   | promises a stopper +
-              _ {tribull} #2D = garbage#
-	      __ (pass or correct) +
-              _ {tribull} Redbl = re-ask
-	      __ => normal auction
-|    2+<| _Other calls by opener !deny! a stopper_
-| !3NT! |     | 4-4 Majors +
-              _ {tribull} 4M = to play
-| !3H!  |     | 5*{S} +
-              _ {tribull} 3S = sign-off
-| !3D!  |     |  4{or}5*{H}{nbsp} +
-              _ {tribull} 3H = sign-off +
-              _ {tribull} 3S asks 4 or 5
-| !Redbl! |   | {lt}5*{S}, {lt}4*{H} +
-              _ {tribull} 3D = sign-off +
-              _ {tribull} 3H asks {S}-length +
-              _ {tribull} 3S {forces} 3NT +
-              _ {tribull} 3NT = 4*{S} + 5*{H}, COG +
-              _ _etc._
-|===
-
-When opener has denied a stopper, #reverse-transfers apply at the
-4-level# to ensure that responder declares.
-
-[%autowidth,cols="7*^,<",grid="none"]
-|===
-| 2NT   | | (P) | | 3C   | | (Dbl) |
-| !3D!  | | (P) | | !3S! | | (P)   |
-|  ?    | |     | |      | |       | {ensp}
-| 3NT   | 6+<| 4*{H}
-| !4D!  | 6+<| 5*{H},{thinsp} reverse transfer
-|===
+@ transfer to {S} then 4H
+__ = 5-5 Majors, game only +
+@ transfer to {H} then 3S
+__ = 5-5 Majors, slam inv. +
+@@ 3NT = poor for majors
+@@ 4C => {H}
+@@ 4D => {S}
