@@ -1,19 +1,15 @@
 == NoTrump Overcalls
 
-*Direct* = 15-18
-@ System ON
+*Direct* = 15-18, System ON
 
-*Balancing*
-@ 1NT
-@@ vs. minor = 11-14
-@@ vs. major = 13-16 +
-@ 2NT = 19-21{OrLess}
-@ System ON
+*Balancing* +
+@ 1NT vs. minor = 11-14
+@ 1NT vs. major = 13-16
+@ 2NT = 19-21{OrLess}, System ON
 
-*Sandwich position*
-@ #natural#, 16-19
-@ Sys OFF
-@@ under-suit cue = Stayman
+*Sandwich position* +
+@ #natural#, 16-19, System OFF
+@@ under-suit cue = Stayman +
 @ unusual by PH
 
 *vs weak two or precision 2C* +
@@ -41,17 +37,17 @@ __ in _other minor_
 
 === Two-level overcalls
 
-&vs pass&
+&vs pass& +
 //_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
 @ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
 @ 2NT = natural
 
-&vs raise&
+&vs raise& +
 //_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
 @ double = responsive
 @ !2NT!  = good raise
 
-&vs negative-double&
+&vs negative-double& +
 //_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
 @ redouble = defensive strength, no fit
 @  cue  = good 3-card raise{orMore}
