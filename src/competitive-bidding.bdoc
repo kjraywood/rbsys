@@ -30,6 +30,33 @@ immediately to the two-level or higher with 4-card support.
 | 2H |      | GF, not 4*{spades}
 |===
 
+=== Strength redouble
+
+[special]#Relocated {thinsp}{ndash}{thinsp} Feb 22, 2018{nbsp}# +
+{nbsp}
+[%autowidth,cols="3*^",grid="none"]
+|===
+| 1__suit__ | (Dbl) | Rdbl
+|===
+
+@ good 10{orMore} HCP
+@ no fit
+@ 4{orMore} cards in 2{orMore} unbid suits
+@ Forcing to two of opener’s suit
+@ Subsequent doubles = 4{orMore} of their suit
+
+==== Pass then double
+
+[%autowidth,cols="3*^",grid="none"]
+|===
+| 1__suit__ | (Dbl) | Pass
+|===
+
+With 4333 and 10{OrMore} HCP, responder passes on the first
+round, then doubles on the second round.
+Opener pulls with a singleton in their suit, or with a doubleton and
+five cards in the opening suit.
+
 === Impossible 2{S} after negative double
 
 Applies when a negative double shows _exactly_{thinsp} [nobr]#4*{S}#, so

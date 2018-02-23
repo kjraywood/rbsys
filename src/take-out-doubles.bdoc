@@ -8,7 +8,7 @@ repeat a four-card suit with a minimum.
 
 === 1NT response
 
-_The higher their suit, the wider the range_
+The higher their suit, the wider the range
 
 [%autowidth,cols="5*^,<",grid="rows"]
 |===
@@ -16,9 +16,7 @@ _The higher their suit, the wider the range_
 | (1S) | Dble | (P) | 1NT | | 4{ndash}10
 |===
 
-[IMPORTANT]
-====
-Following a 1NT response, 2M shows a big hand but #2m is to play#.
+Following a 1NT response, #2M shows a big hand but 2m is to play#
 
 [%autowidth,cols="4*^",grid="none"]
 |===
@@ -29,7 +27,6 @@ Following a 1NT response, 2M shows a big hand but #2m is to play#.
 2C = to play,
 _ _e.g._{thinsp} [lightgrey-bg]#{S}A82 {H}7 {D}QJ94{nbsp}{C}AQT74#
 
-====
 
 === They bid 1NT
 
@@ -43,20 +40,3 @@ shows both majors but does not promise a good hand.
 
 2D = both majors, could be weak,
 _ _e.g._{thinsp} [lightgrey-bg]#{S}JT93 {H}K982 {D}8763 {C}4#
-
-=== Strength redouble
-
-[lightgrey-bg]#1__suit__  {ndash} (Dbl) {ndash} Redbl# +
-@ good 10{orMore} HCP
-@ no fit
-@ 4{orMore} cards in 2{orMore} unbid suits
-@ Forcing to two of opener’s suit
-@ Subsequent doubles = 4{orMore} of their suit
-
-[IMPORTANT]
-====
-With 4333 and 10{OrMore} HCP, responder passes on the first
-round, then doubles on the second round.
-Opener pulls with a singleton in their suit, or with a doubleton and
-five cards in the opening suit.
-====
