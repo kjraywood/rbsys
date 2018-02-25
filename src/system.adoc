@@ -10,7 +10,7 @@ Kelvin Raywood; Shelley Burns
 :revnumber: 0.9.27
 :revdate: February 15, 2018
 
-include::macros.adoc[]
+include::{bridgedoc}/macros.adoc[]
 
 include::general-approach.adoc[]
 

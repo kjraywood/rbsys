@@ -1,19 +1,23 @@
 THIS_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 
-SOURCES = $(wildcard *.bdoc)
+BRIDGEDOC = $(THIS_DIR)../../../bridgedoc
+
 MAIN = system.adoc
-MACROS = macros.adoc
-STYLE_SHEET = bridgedoc.css
-PREPROC = python bridgedoc.py
+SOURCES = $(wildcard *.bdoc)
 ADOCS = $(SOURCES:.bdoc=.adoc)
 HTML = index.html
+
+MACROS = $(BRIDGEDOC)/macros.adoc
+STYLE_SHEET = $(BRIDGEDOC)/bridgedoc.css
+PREPROC = python $(BRIDGEDOC)/bridgedoc.py
 
 .PHONY: all install tidy clean status update pull commit
 
 all: $(HTML)
 
 $(HTML): $(MAIN) $(MACROS) $(ADOCS) $(STYLE_SHEET)
-	asciidoctor -a stylesheet=$(STYLE_SHEET) $(MAIN) -o $@
+	asciidoctor -a stylesheet=$(STYLE_SHEET) \
+		    -a bridgedoc=$(BRIDGEDOC) $(MAIN) -o $@
 
 %.adoc : %.bdoc
 	$(PREPROC) $< $@
