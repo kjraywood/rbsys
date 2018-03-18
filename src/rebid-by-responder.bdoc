@@ -69,7 +69,7 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 
 @ promises a rebid below-game +
 @ Default rebid by responder
-__ = cheaper of 4th-suit & 2NT
+_ = cheaper of 4th-suit & 2NT
 @@ to force, opener bids above 3 of 1st-suit
 
 ==== In comp.
@@ -141,7 +141,7 @@ Responder uses _three other-minor_{thinsp} for more info.
 After 1m{ndash}1{H} opener might bypass [nobr]#4*{S}# to raise {H} on
 three. So 2S by responder is natural and forcing one-round.  Then +
 @ old suit (non-jump), 2NT, 3NT
-__ = natural, NF +
+_ = natural, NF +
 @ #jump to 4{thinsp}__any__{thinsp} = 4*{S}, max# +
 @ #4th-suit (3om) = 4*{H}, max#
 

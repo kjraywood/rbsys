@@ -21,7 +21,7 @@
 @ cue = {LRplus}
 @ jump raise = weak +
 @ JS = weak* by unPH, fit by PH
-__ [* except when neg. free-bid applies]
+_ [* except when neg. free-bid applies]
 
 #*vs. 1m-(1{S}) by unPH*#
 @ 2H = neg. free-bid by unPH
@@ -167,19 +167,19 @@ Following either Drury-raise, bidding above 2M is a new-suit slam try
 @@ poor hearts (no 2H rebid)
 @@ {simto} 14-16{thinsp}HCP (no pass or 2S) +
 @ 2C usually four,
-__ occasionally three or even two
+_ occasionally three or even two
 
 To reduce the frequency of a short-club rebid: +
 @ open 1NT with (53)(32), 14{thinsp}HCP,
-__ and decent spot-cards +
+_ and decent spot-cards +
 @ rebid 2H with 4-5-2-2, decent hearts,
-__ and 14-16{thinsp}HCP
+_ and 14-16{thinsp}HCP
 
 ==== Impossible two spades
 
 @ values for 2NT (11-12{thinsp}HCP)
 @ #8{OrMore}-card fit for last-bid suit#
-__ (assuming it's not short)
+_ (assuming it's not short)
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -273,7 +273,7 @@ rebids 3NT.#
 === Rebidding after 1H{ndash}1S
 
 @ #2D rebid shows non-minimum#
-__ (extra strength or extra length)
+_ (extra strength or extra length)
 @ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
 
 .2wCB after both majors
