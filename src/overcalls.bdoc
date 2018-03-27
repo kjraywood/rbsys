@@ -30,24 +30,32 @@ _ in _other minor_
 === One-major overcalls
 
 @ !2NT! = good 4-card raise
-@  cue  = good 3-card raise, or any force
+@ cue  = good 3-card raise, or any force
 @ Jump cue = mixed raise
 @ double of raise = responsive
 @ double of new suit = snapdragon
 
+==== honour redouble vs neg. double
+
+[special]#New {thinsp}{ndash}{thinsp} Mar 27, 2018{nbsp}#
+
+@ Only applies at one-level
+@ Usually Ax or Kx in partner's suit +
+@ Advancer may redouble with Qx when it
+_ seems likely that opener will play NT
+
 === Two-level overcalls
 
-&vs pass& +
-//_ _e.g._ {thinsp}(1S) - 2C - (P) - ?
+&vs pass& (_e.g._ {thinsp}(1S) - 2C - (P) - ?) +
 @ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
 @ 2NT = natural
 
-&vs raise& +
-//_ _e.g._ {thinsp}(1S) - 2C - (2S) - ?
+&vs raise& (_e.g._ {thinsp}(1S) - 2C - (2S) - ?) +
 @ double = responsive
 @ !2NT!  = good raise
 
 &vs negative-double& +
+
 //_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
 @ redouble = defensive strength, no fit
 @  cue  = good 3-card raise{orMore}
