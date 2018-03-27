@@ -199,3 +199,21 @@ _ = 5-5 Majors, slam inv. +
 @@ 3NT = poor for majors
 @@ 4C => {H}
 @@ 4D => {S}
+
+=== Major-minor
+
+
+[orange-box]##Incomplete##
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  2NT      | 3R | {nbsp} transfer
+|  3M       | 4m | {nbsp} 2nd suit
+|  ?        |    |
+|  4M       |    | fit in M
+|  4NT      |    | no fit
+| cheap new-suit |   | fit in m, slam suitable
+|===
+
+Following "fit in m", responder may bid next step as 6KC or steps
+above to answer 6KC (0/3, 1/4, 2noQ, 2loQ, 2hiQ, 2bothQ )
