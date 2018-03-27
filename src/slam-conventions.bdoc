@@ -20,13 +20,18 @@ WARNING: Self splinters (not Gerber) after NT rebids
 
 === Exclusion
 
-.Required
-* we have agreed trump
+[special]#Updated {thinsp}{ndash}{thinsp} Mar 27, 2018{nbsp}#
 
-.Cases
-* jump to a new suit between 4T and 5T
-* a non-jump bid in a new-suit between four and five of our suit by a
-  hand that has not made a cue-bid between three and four of our suit
+Exclusion is always a suit bid or 4NT as a kickback substitute
+#between four and five of our trump suit#.
+
+Applies when:
+
+@ direct triple-jump response to 1M opening
+@ suit agreed, then jump +
+@ a non-jump following
+@@ a control-bid by partner
+@@ suit agreement at 4-level
 
 Responses:  0, 1, 2-, 2+, 3-, 3+
 
