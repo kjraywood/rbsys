@@ -103,7 +103,7 @@ is also some good hand.
 Double shows a good hand that wants to compete higher,
 _e.g._ [lightgrey-bg]#{S}AQJ874 {H}43 {D}KJT8 {C}3#
 
-==== We open, they overcall, advancer cues, opener doubles
+==== Opener doubles their cue-bid raise
 
 When opener doubles their (typically) fit-showing cue-bid,
 it shows a good hand with support for unbid suits.  It is
@@ -116,6 +116,12 @@ like a take-out double of their bid-and-raised suit.
            _e.g._ {S}2{nbsp}{H}KJ84 {D}AKJ87{nbsp}{C}KT4
 
 |===
+
+[TIP]
+====
+Double of a low-level artificial raise means the same thing
+as the double of a natural raise
+====
 
 ==== We overcall, advancer doubles a delayed cue-bid
 
