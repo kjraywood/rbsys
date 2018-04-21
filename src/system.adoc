@@ -2,7 +2,7 @@
 Kelvin Raywood; Shelley Burns
 :toc: left
 :icons: image
-:iconsdir: icons
+:iconsdir: ../icons
 :xrefstyle: short
 :table-caption!:
 :hide-uri-scheme:
