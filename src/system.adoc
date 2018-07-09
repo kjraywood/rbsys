@@ -12,7 +12,6 @@ include::checkback.adoc[]
 
 include::two-over-one.adoc[]
 
-
 include::two-clubs.adoc[]
 
 include::weak-two.adoc[]
