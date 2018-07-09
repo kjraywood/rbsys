@@ -1,3 +1,5 @@
+= NoTrump Openings
+
 == 1NT Opening
 
 === Stayman
@@ -116,16 +118,17 @@ undisclosed extras following a previous-round min or pre-decline.
 
 === 3-level responses
 
-@ 3C = five-card Stayman +
-@ 3{D} = 5-5 minors GF, then opener bids +
-@@ 3H => {C}
-@@ 3S => {D}
-@@ 3NT = poor hand for minors +
-@ 3H,3S = stiff with three in other major
+3C = five-card Stayman +
+3{D} = 5-5 minors GF
+@ 3H => {C}
+@ 3S => {D}
+@ 3NT = poor hand for minors +
+3H,3S = stiff with three in other major
 
 === Interference over 1NT
 
-*vs. penalty double* +
+==== vs. penalty double
+
 @ pass = to play
 @@ Redbl by opener = 5-card suit +
 @ !Redbl! = {C} or {D} +
@@ -136,22 +139,26 @@ undisclosed extras following a previous-round min or pre-decline.
 @ !2NT! =  {C} + {D}
 @ !3m! = 6*m + 4*{H}
 
-*vs. natural 2C (single-suit)* +
+==== vs. natural 2C (single-suit)
+
 @ dble = take-out
 @@ cue (3C) on next-round requests stopper +
 @ other system ON
 
-*vs. artificial double or 2C*
+==== vs. artificial double or 2C
+
 @ System ON
 @ double of 2C = Stayman
 
 We can pass to discover an unspecified suit, then use a take-out
 double or Lebensohl.
 
-*vs. 2NT (minors)*
-@ We play our 2NT system
+==== vs. 2NT (minors)
 
-*vs. 2D, 2H or 2S (any)*
+We play our 2NT system
+
+==== vs. 2D, 2H or 2S (any)
+
 @ 2M = to play #(except Michaels vs 5-cd suit)#
 @ #3m = inv.#
 @ 3M = forcing
