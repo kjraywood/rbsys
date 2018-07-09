@@ -1,22 +1,6 @@
 = System Notes
-Kelvin Raywood; Shelley Burns
-:toc: left
-:icons: image
-:iconsdir: ../icons
-:xrefstyle: short
-:table-caption!:
-:hide-uri-scheme:
-:linkattrs:
-:revnumber: 0.9.28
-:revdate: March 27, 2018
-
-include::{bridgedoc}/macros.adoc[]
 
 include::general-approach.adoc[]
-
-include::two-clubs.adoc[]
-
-include::weak-two.adoc[]
 
 include::notrump.adoc[]
 
@@ -27,6 +11,11 @@ include::rebid-by-responder.adoc[]
 include::checkback.adoc[]
 
 include::two-over-one.adoc[]
+
+
+include::two-clubs.adoc[]
+
+include::weak-two.adoc[]
 
 include::slam-conventions.adoc[]
 
