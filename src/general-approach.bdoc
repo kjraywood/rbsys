@@ -16,9 +16,9 @@ Bypass 1D if
 *Opener’s rebid with a balanced hand* +
 Usually bypass 4-card majors to rebid NT
 
-=== Default rules
+== Default rules
 
-==== Rule #1
+=== Rule #1
 
 _A call is natural and non-forcing unless defined otherwise._
 
@@ -28,7 +28,7 @@ _A call is natural and non-forcing unless defined otherwise._
 | (2S) | P    | (P) |  3C  | natural, NF
 |===
 
-==== Splinters in comp
+=== Splinters in comp
 
 _In competetive auctions where an opponent has shown a suit of 5-cards
 or longer, then the only splinter is in the opponent's suit.
@@ -41,7 +41,7 @@ Jumps to the 4-level in a different suit are fit-showing._
 |    |      | 4C, 4H | | fit showing
 |===
 
-==== Penalty Doubles
+=== Penalty Doubles
 
 Partner has made a take-out double, then RHO bids one of the unbid
 suits.
