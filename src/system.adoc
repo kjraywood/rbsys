@@ -4,7 +4,7 @@ include::general-approach.adoc[]
 
 include::notrump.adoc[]
 
-include::suit-opening.adoc[]
+include::suit-openings.adoc[]
 
 include::rebid-by-responder.adoc[]
 
