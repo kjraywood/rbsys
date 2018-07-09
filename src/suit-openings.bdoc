@@ -1,58 +1,5 @@
 = Suit Openings
 
-== Minor Opening
-
-@ Single raise = GF
-@ Jump raise = weak
-@ JS to other minor = LR
-@ 2S = mixed raise
-@ 2NT = 11-12
-@ 3NT = 13-15
-@ 2H = rev. Flannery #(off in comp.)#
-
-*Passed hand*
-@ Single raise = normal
-
-*vs. double*
-@ 2NT = bal. LR, NF
-@ 3NT = bal. game-raise
-@ JS to other minor = unbal. {LRplus}
-@ JS to major = weak
-
-*vs. overcall*
-@ cue = {LRplus}
-@ jump raise = weak +
-@ JS = weak* by unPH, fit by PH
-_ [* except when neg. free-bid applies]
-
-#*vs. 1m-(1{S}) by unPH*#
-@ 2H = neg. free-bid by unPH
-@ 3H = 6-cd suit, GF
-@ Dble = 4{vbar}5*{H}, _any strength_
-
-#*vs. 1m-(2{H}) by unPH*#
-@ 2S = neg. free-bid by unPH
-@ 3S = 6-cd suit, GF
-@ Dble = 4{vbar}5*{S}, _any strength_
-
-*vs. 1NT*
-@ !2C! = majors
-@ !2D!,!2H! = transfer
-@ !2S! = other minor
-@ Dble = penalty & _creates a force below_{thinsp} 2S
-
-*vs. Unusual 2NT ({H} + other minor)*
-@ Dble = neg. (4*{S})
-@ lo cue = {S} inv.
-@ hi cue (3H) = {LRplus}
-@ 3S = forcing
-
-*vs. Michaels (majors)*
-@ lo cue (2H) = other minor
-@ hi cue (2S) = {LRplus}
-@ 1C-(2C)-2D = NF
-@ 1C-(2C)-2H = {D} GF
-
 == Major Opening
 
 WARNING: _No Bergen_
@@ -298,3 +245,56 @@ It denies three spades because opener would have raised to 2S with a
 minimum 3{hyph}5{hyph}4{hyph}1.
 With a doubleton honour, responder can pass 2H.
 ====
+
+== Minor Opening
+
+@ Single raise = GF
+@ Jump raise = weak
+@ JS to other minor = LR
+@ 2S = mixed raise
+@ 2NT = 11-12
+@ 3NT = 13-15
+@ 2H = rev. Flannery #(off in comp.)#
+
+*Passed hand*
+@ Single raise = normal
+
+*vs. double*
+@ 2NT = bal. LR, NF
+@ 3NT = bal. game-raise
+@ JS to other minor = unbal. {LRplus}
+@ JS to major = weak
+
+*vs. overcall*
+@ cue = {LRplus}
+@ jump raise = weak +
+@ JS = weak* by unPH, fit by PH
+_ [* except when neg. free-bid applies]
+
+#*vs. 1m-(1{S}) by unPH*#
+@ 2H = neg. free-bid by unPH
+@ 3H = 6-cd suit, GF
+@ Dble = 4{vbar}5*{H}, _any strength_
+
+#*vs. 1m-(2{H}) by unPH*#
+@ 2S = neg. free-bid by unPH
+@ 3S = 6-cd suit, GF
+@ Dble = 4{vbar}5*{S}, _any strength_
+
+*vs. 1NT*
+@ !2C! = majors
+@ !2D!,!2H! = transfer
+@ !2S! = other minor
+@ Dble = penalty & _creates a force below_{thinsp} 2S
+
+*vs. Unusual 2NT ({H} + other minor)*
+@ Dble = neg. (4*{S})
+@ lo cue = {S} inv.
+@ hi cue (3H) = {LRplus}
+@ 3S = forcing
+
+*vs. Michaels (majors)*
+@ lo cue (2H) = other minor
+@ hi cue (2S) = {LRplus}
+@ 1C-(2C)-2D = NF
+@ 1C-(2C)-2H = {D} GF
