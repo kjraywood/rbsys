@@ -1,19 +1,20 @@
-== Responder's Rebid
+= Rebids by Responder
 
-WARNING: _We do NOT play XYZ_
+== Second-round jumps and 4th-suit forcing
 
-=== Second-round jumps and 4th-suit forcing
+=== Rules
 
-&Uncontested&
 @ 2nd-round jumps = natural & GF
 @ #2nd-round raise of minor = GF#
 @ 4th suit or new 3rd-suit = F1
 
-&Contested&
+=== vs interference
+
 @ vs double, system on 
 @  #vs suit bid, limit bidding & cue=GF#
 
-.Fourth suit at the 1-level
+=== Fourth suit at the 1-level
+
 [%autowidth,cols="3*<",grid="none"]
 |===
 | 1C   | 1D     |
@@ -24,7 +25,8 @@ WARNING: _We do NOT play XYZ_
 
 After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 
-.Fourth suit at the 3-level
+=== Fourth suit at the 3-level
+
 [%autowidth,cols="3*<",grid="none"]
 |===
 | 1H | 1S       |
@@ -63,16 +65,16 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 |    | !2H! | | 13-15 included in 4th suit
 |===
 
-=== Reverses
+== Reverses
 
-==== After 1-level suit-response
+=== After 1-level suit-response
 
 @ promises a rebid below-game +
 @ Default rebid by responder
 _ = cheaper of 4th-suit & 2NT
 @@ to force, opener bids above 3 of 1st-suit
 
-==== In comp.
+=== In comp.
 
 When responder has shown a non-bust, _e.g._{thinsp} a 1-level response
 or negative double, then #a reverse in comp. is forcing for one
@@ -94,7 +96,7 @@ when there's a cue-bid available to establish a GF.
 |     |   2+<| 2NT,3C,3D <| min, NF
 |===
 
-==== After 1NT response
+=== After 1NT response
 
 @ shows unbalanced raise to 2NT
 @ does not promise a rebid
@@ -106,11 +108,13 @@ when there's a cue-bid available to establish a GF.
 |    | 2NT,3C,3D | | sign off
 |===
 
-=== Opener raises
+== Opener raises
 
 WARNING: _We do NOT play {ldquo}Quality & Quantity{rdquo}_
 
-Responder uses natural NF invitations, and choice-of-game.
+=== Natural invitations and choice-of-game
+
+Notrump bids and old suits are non-forcing.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -121,6 +125,8 @@ Responder uses natural NF invitations, and choice-of-game.
 |    | 3M  | | five-card suit, inv
 |    | 3NT | | natural, COG
 |===
+
+=== Investigating best game or slam
 
 Responder uses _three other-minor_{thinsp} for more info.
 
@@ -134,7 +140,7 @@ Responder uses _three other-minor_{thinsp} for more info.
 |  3NT  |       | 3-card raise, #short om#
 |===
 
-==== Responder has both majors
+=== Responder has both majors
 
 After 1m{ndash}1{H} opener might bypass [nobr]#4*{S}# to raise {H} on
 three. So 2S by responder is natural and forcing one-round.  Then +
@@ -166,7 +172,7 @@ In the previous two bidding tables, the notrump bids show shortness
 only semi-natural.
 ====
 
-==== In comp.
+=== vs interference
 
 When opener is known to have a 4-card raise (_e.g._{thinsp} no support
 double), then new suits are natural game-tries.
