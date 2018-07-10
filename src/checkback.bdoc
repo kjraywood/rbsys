@@ -1,3 +1,5 @@
+= 2-Way Checkback and Wolff Sign-off
+
 == 2-Way Checkback
 
 @ ON after both minors or both majors
@@ -88,6 +90,10 @@ in responder's first-bid suit.
 
 == Wolff Sign-Off
 
+<<staging.adoc#alt-wolff,Possible alternatives>>
+
+=== Basic structure
+
 @ ON when opener bids 2NT{eq}18-19,
 _ #even if an opp has shown a suit# +
 @ There are no self-splinters
@@ -153,11 +159,3 @@ _other major._
 |     | !3D! | | checkback for 3*{H}
 |===
 
-****
-&Alternatives to Wolff& +
-@ transfers after 18-19 2NT rebid
-@@ _esp._{thinsp} [lightgrey-bg]#1M {ndash} 1NT{semicolon} 2NT# +
-@ 2D opening = bal. 18-19
-@@ [lightgrey-bg]#1m {ndash} 1M{semicolon} 2NT# = strong m, 3*M
-@@ [lightgrey-bg]#1M {ndash} 1NT{semicolon} 2NT# = GF
-****
