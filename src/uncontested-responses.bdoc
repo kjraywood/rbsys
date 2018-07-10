@@ -1,0 +1,246 @@
+= Uncontested Responses to Suit Openings
+
+== Major Opening
+
+[%autowidth,cols="3*<.^",grid="cols"]
+|===
+| Response       ^| Unpassed   ^| Passed
+
+| 2NT             | Jacoby      | both{nbsp}minors, inv.
+| jump{nbsp}shift | natural inv. {tribull} opener can [nobr]#pass or force#
+	                        | fit-showing
+| jump{nbsp}raise | limit, [nobr]#incl. 3*M + stiff# | weak{nbsp}splinter
+| 3M + 1       |  weak splinter, unspecified{nbsp}suit |
+| 1H{ndash}3NT | spade splinter |
+|===
+
+=== Single-raise
+
+@ next-step game-try
+@ new-suit slam-try
+@ re-raise = inv with long trumps
+@ jump new-suit = void slam-try
+
+=== Jacoby 2NT
+
+@ jump new-suit = length
+@ 3NT by either = minimum
+
+==== vs interference
+
+Highest priority = prepare for further competition by showing a
+second-suit with values in that suit
+
+[%autowidth,cols="^,>,2*<",grid="none"]
+|===
+| 1S    | (P) | | !2NT! {emsp} (3D)
+| ?     |     | |
+2+<| 3H,4C    | | #natural, COV#, control not specified
+| !Dbl! |     | | singleton
+| pass  |     | | control (1st or 2nd), or length + stopper
+| 3S    |     | | extras, no control
+| 3NT   |     | | min, no 1st or 2nd-round control
+|===
+
+[%autowidth,cols="^,>,^,<",grid="none"]
+|===
+| 1S   | (P) | | !2NT! {emsp}      (3D)
+| P    | (P) | | Dbl*  {emsp} {thinsp} (P) {emsp} {thinsp} * take-out
+| ?    |     | |
+| pass |     | | penalty
+| 3NT  |     | | suggestion to play to avoid ruff
+2+<| _other_ | <| COV with 1st or 2nd control in their suit
+|===
+
+=== 3-way Drury
+
+@ ON vs Dble & 1S
+@ OFF vs 2C
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| P    | 1M |
+| ?    |    |
+| !2C! |    | 4*M, 8{ndash}11
+| !2D! |    | 3*M, 9{ndash}11 {or} 5*M, 7{ndash}11
+|===
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|  P    |  1M  |
+| !2C!  | !2D! |
+|  ?    |      |
+|  2M   |      | min
+| !2oM! |      | max, some singleton{nbsp}
+               _ {tribull} 2NT asks where
+|  2NT  |      | max, no singleton
+|===
+
+Following either Drury-raise, bidding above 2M is a new-suit slam try
+(with 2NT{eq}{S} when M{eq}{H}), as after a normal single-raise.
+
+=== Semi-Forcing 1NT
+
+==== Opener's rebid
+
+@ 2D almost always at least four +
+@ 3*{D} only with
+@@ 4-5-3-1
+@@ poor hearts (no 2H rebid)
+@@ {simto} 14-16{thinsp}HCP (no pass or 2S) +
+@ 2C usually four,
+_ occasionally three or even two
+
+To reduce the frequency of a short-club rebid: +
+@ open 1NT with (53)(32), 14{thinsp}HCP,
+_ and decent spot-cards +
+@ rebid 2H with 4-5-2-2, decent hearts,
+_ and 14-16{thinsp}HCP
+
+==== Impossible two spades
+
+@ values for 2NT (11-12{thinsp}HCP)
+@ #8{OrMore}-card fit for last-bid suit#
+_ (assuming it's not short)
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1H | | 1NT  | |
+| 2m | |  ?   | |
+|    | | 3m   | | 5{OrMore}{times}m,  9{ndash}10
+|    | | 2NT  | | 3{OrLess}{times}m, 11{ndash}12
+|    | | !2S! | | 4{OrMore}{times}m, 11{ndash}12
+3+^| {blueSWarrow} | |
+4+<| 2NT, 3m   <| sign-off
+| 3H |      | | | #good 6-4, F#
+4+<| 3om, 3S   <| exploratory 
+|===
+
+[NOTE]
+====
+3H is forcing because with 6-4 in M-m, opener bids as follows +
+@ M-M-m => minimum
+@ M-m-M => extras +
+#Does not apply to {S}-{H}#
+====
+
+==== Invitational raise of a 2H rebid
+
+When opener has shown a six-card suit, the impossible 2S shows exactly
+two-card support; _i.e._{thinsp} an 8-card fit unless opener rebid a
+5-card suit.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H | 1NT  | |
+| 2H |  ?   | |
+|    | 3H   | | 3-card limit-raise
+|    | !2S! | | 2*{H}, 11{ndash}12
+|===
+
+==== After an invitational 2NT
+
+@ old suit = minimum, extra length in suit, NF +
+@ new suit = non-minimum, extra shape, GF +
+@@ unbid major = 3-card fragment
+@@ #cheapest unbid minor forces next step#
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 1NT |
+|  2C  | 2NT |
+|  3H  |     | 3*{H}, GF
+             _ (responder might have 5*{H})
+|===
+
+The most important situation is both majors.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 1NT  |
+|  2H  | 2NT  |
+|  ?   |      | 
+|  3H  |      | 5-5 min
+|  3S  |      | 6-4 min{thinsp}
+              _ ({S}-{H}-{S} does not show extras)
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1S  | 1NT  |
+| 2H  | 2NT  |
+2+<| !3C! {forces} 3D |
+| ?   |      |
+| 3H  |      | 5*{S}, 5*{H}, GF
+| 3S  |      | 6*{S}, 4*{H}, GF
+|===
+
+To show 5*M + 5*m with extras, opener uses the new-minor relay then
+rebids 3NT.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1H  | 1NT |
+|  2C  | 2NT |
+2+<| !3D! {forces} 3H |
+|  3NT |     | 5*{H},  5*{C}, extras
+|===
+
+== Minor Opening
+
+[%autowidth,cols="3*<.^",grid="cols"]
+|===
+| Response       ^| Unpassed   ^| Passed
+
+| single{nbsp}raise | GF          | 6{ndash}10
+| jump{nbsp}raise   | weak        | unbal. LR
+| JS to other{nbsp}minor | LR     | fit showing
+| 2S                | mixed raise | fit showing
+| 2H             2+^| rev. Flannery
+| 2NT               | 11{ndash}12 | bal. LR (NF)
+| 3NT               | 13{ndash}15 |
+|===
+
+=== Reverse Flannery
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1m    | !2H! | | {emsp}5*{S}, 4{OrMore}{xtimes}{H}, {lt}{thinsp}inv.
+|  !2NT! |  ?   | |
+|        | !3C! | | 5-4 min
+|        | !3D! | | 5-4 max
+|        | !3H! | | 5-5 min
+|        | !3S! | | 5-5 max
+|===
+
+== 2/1 Auctions
+
+100% game-forcing
+
+=== One Major {ndash} Two Clubs
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1M  | !2C! | | could be short
+|  ?   |      | |
+| !2D! |      | | default +
+                _ {tribull} !2oM! = real clubs
+|  2M  |      | | 6{OrMore}{xtimes}M
+|===
+
+
+=== One Diamond {ndash} Two Clubs
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  2D   | | #__required__{thinsp} with 5{orMore}#
+           unless rebidding 3D or raising {C}
+|  2M   | | 4*M, 4*{D}, no stopper in other M
+|  2NT  | | 4{OrLess}{xtimes}{D},
+          _ stoppers in both majors,
+          _ may hold 4*M
+|  3C   | | 4*{C}, no 4-cd M
+|  3D   | | extras
+| !3M!  | | splinter for {C}
+| !3NT! | | #4-4-4-1, 16-17#
+|===
