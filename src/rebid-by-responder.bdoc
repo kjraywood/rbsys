@@ -25,7 +25,34 @@
 
 After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 
-=== Fourth suit at the 3-level
+=== Rebidding after 1H{ndash}1S
+
+@ #2D rebid shows non-minimum#
+_ (extra strength or extra length)
+@ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
+
+==== 2wCB after both majors
+
+With 4{times}{D} and a minimum, opener rebids 1NT; not 2{D}.
+If responder then bids 2C, opener can show this hand by bidding 2H
+instead of accepting the relay.
+It is safe because if responder had intended to drop the auction in
+2D, then we have at least a nine-card {D}-fit.
+It denies three spades because opener would have raised to 2S with a
+minimum 3{hyph}5{hyph}4{hyph}1.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H   | 1S   | |
+| 1NT  | !2C! | | sign-off in {D}, or some inv.
+|  ?   |      | |
+| 2D   |      | | normal relay-accept
+| 2H   |      | | #4*{D} minumum#
+|===
+
+Responder will often pass 2H.
+
+==== Fourth suit at the 3-level
 
 [%autowidth,cols="3*<",grid="none"]
 |===
