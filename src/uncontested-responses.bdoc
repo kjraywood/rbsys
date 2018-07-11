@@ -14,7 +14,7 @@
 | 1H{ndash}3NT | spade splinter |
 |===
 
-=== Single-raise
+=== Game tries after a single raise
 
 @ next-step game-try
 @ new-suit slam-try
@@ -77,7 +77,7 @@ second-suit with values in that suit
 |===
 
 Following either Drury-raise, bidding above 2M is a new-suit slam try
-(with 2NT{eq}{S} when M{eq}{H}), as after a normal single-raise.
+(with 2NT{eq}{S} when M{eq}{H}), as after a single-raise.
 
 === Semi-Forcing 1NT
 
