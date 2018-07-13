@@ -1,3 +1,214 @@
+= Defensive Bidding
+
+== Take-out doubles
+
+=== Raising the response
+
+Raising a one-level response just confirms a four-card suit and a good
+double.  A cue-bid might be an invitational raise so advancer can
+repeat a four-card suit with a minimum.
+
+=== 1NT response
+
+The higher their suit, the wider the range
+
+[%autowidth,cols="5*^,<",grid="rows"]
+|===
+| (1C) | Dble | (P) | 1NT | | 8{ndash}11
+| (1S) | Dble | (P) | 1NT | | 4{ndash}10
+|===
+
+Following a 1NT response, #2M shows a big hand but 2m is to play#
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1H) | Dbl | (P) | 1NT
+| (P)  | 2C  |     |
+|===
+
+2C = to play,
+[nobr]##_e.g._{thinsp} [lightgrey-bg]#{S}A82 {H}7 {D}QJ94{nbsp}{C}AQT74# ##
+
+=== They bid 1NT
+
+When they bid 1NT over our take-out double, a cue-bid of their minor
+shows both majors but does not promise a good hand.
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1D) | Dbl | (1NT) | 2{D}
+|===
+
+2D = both majors, could be weak,
+[nobr]##_e.g._{thinsp} [lightgrey-bg]#{S}JT93 {H}K982 {D}8763 {C}4# ##
+
+== NoTrump Overcalls
+
+=== Direct
+
+15-18, System ON
+
+=== Balancing
+
+@ 1NT vs. minor = 11-14
+@ 1NT vs. major = 13-16
+@ 2NT = 19-21{OrLess}, System ON
+
+=== Sandwich position
+
+@ #natural#, 16-19, System OFF
+@@ under-suit cue = Stayman +
+@ unusual by PH
+
+=== vs weak two or precision 2C
+
+2NT = 16-19, with our 2NT system +
+@ simple Stayman & Smolen vs 2m +
+@ #5-card Stayman vs 2M# +
+@ transfer to their major = inv oM +
+@ 3S {forces} 3NT +
+@ vs 2m, 3NT = mild slam-try
+_ in _other minor_
+
+== Suit Overcalls
+
+@ New suit = constructive, NF +
+@ JS = natural, good hand, but NF
+@@ _no inv./inv._{thinsp} applies
+
+=== One-major overcalls
+
+@ !2NT! = good 4-card raise
+@ cue  = good 3-card raise, or any force
+@ Jump cue = mixed raise
+@ double of raise = responsive
+@ double of new suit = snapdragon
+
+==== honour redouble vs neg. double
+
+@ Only applies at one-level
+@ Usually Ax or Kx in partner's suit +
+@ Advancer may redouble with Qx when it
+_ seems likely that opener will play NT
+
+=== Two-level overcalls
+
+&vs pass& (_e.g._ {thinsp}(1S) - 2C - (P) - ?) +
+@ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
+@ 2NT = natural
+
+&vs raise& (_e.g._ {thinsp}(1S) - 2C - (2S) - ?) +
+@ double = responsive
+@ !2NT!  = good raise
+
+&vs negative-double& +
+
+//_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
+@ redouble = defensive strength, no fit
+@  cue  = good 3-card raise{orMore}
+@ !2NT! = good 4-card raise{orMore}
+
+=== Sandwich position
+
+==== Unpassed hand
+
+@ #cue-bid of suit on left = other two suits#
+@ bid of suit on right = natural
+@ #2NT = minors#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |       | (1D) | P |
+| (1S) |  ?    |      |   |
+|      |  1NT  |      |   | natural (see responses above)
+|      | !2D!  |      |   | {H} + {C}
+|      |  2S   |      |   | natural
+|      | !2NT! |      |   | minors
+|===
+
+==== Passed hand
+
+@ 1NT = unusual
+_ (5-5{OrMore} other two suits) +
+@ cue-bid of suit on left = #McCartney#,
+_ (__{ldquo}When I'm sixty-four{rdquo}__{thinsp})
+_ 6*om + 4*oM
+
+==== Raising a sandwich overcall
+
+@ Bid in suit we are over = natural
+@ Bid in suit we are under = cue-bid
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| (1D) | P  | (1H) | 1S
+| (P)  | ?  |      |
+|      | 2D |      | natural
+|      | 2H |      | cue-bid, good raise to 2S
+|===
+
+=== vs Further Interference
+
+Bidding shows extra length or strength in the suit bid, _except when
+partner guarantees four-card support and forces the bidding to the
+three level_.
+
+== Balancing
+
+=== One Major
+
+#The unbid minor shows a good raise# (like Drury)
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| (1C) |  P   | (P) | 1H
+| (P)  |  ?   |     |
+|      |  2C  |     | natural
+|      | !2D! |     | good {H} raise
+|===
+
+=== Cue-bid
+
+@ shows strong 2-suiter
+@ both majors vs minor
+@ both minors vs major
+
+****
+[orange-box]##*Not in use*##
+
+Balance cue of major could show any two unbid suits, but need special
+continuations.
+See https://bridgewinners.com/article/view/balancing-michaels[^]
+****
+
+== Two-suited overcalls (Klinger)
+
+@ cue-bid & lowest J.O. = next 2 suits
+@ 2NT = suit-below + suit-above
+@ Only applies in direct seat
+@ ON vs short club or diamond
+
+=== Advancing
+
+If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
+an Ogust-type enquiry.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |       | (1C) | !2D! | | majors
+| (P) | !2NT! | (P)  |  ?   | | _range-ask_
+|     |       |      |  3C  | | weak (6-8)
+|     |       |      |  3D  | | int. (9-11)
+|     |       |      |  3H  | | strong (12-14)
+|     |       |      |  3S  | | huge (16+)
+|===
+
+The HCP ranges do not count queens and jacks in the side suits and are
+a point or two higher when vulnerable.
+
+When the Klinger bid is 2NT or 3C, then the cue-bid of opener’s suit
+asks for strength.
+
 == Defence to Preempts
 
 @ Double = take-out thru 4S
