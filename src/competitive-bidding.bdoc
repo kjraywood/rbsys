@@ -1,81 +1,6 @@
-== Competitive Bidding
+= Competitive Bidding
 
-=== Support double
-
-Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
-
-&vs sandwich NT& +
-@ On vs unusual
-@ OFF vs natural
-
-&Responder bids& +
-@ two of 1st suit or lower = weak
-@ above two of 1st suit = inv
-@ cue = GF
-
-=== Negative double
-
-*vs 1{D} or 1{H}*
-
-With four-card support for a major shown by responder, opener bids _as
-though raising a one-level bid_.{thinsp} That is, opener bids
-immediately to the two-level or higher with 4-card support.
- 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 1C | (1H) | Dble {ensp} (P)
-|  ? |      |
-| 1S |      | 3*{spades}, up to 17 with no {H} stopper
-| 2S |      | 4*{spades}, minimum range
-| 2H |      | GF, not 4*{spades}
-|===
-
-=== Strength redouble
-
-[%autowidth,cols="3*^",grid="none"]
-|===
-| 1__suit__ | (Dbl) | Rdbl
-|===
-
-@ good 10{orMore} HCP
-@ no fit
-@ 4{orMore} cards in 2{orMore} unbid suits
-@ Forcing to two of opener’s suit
-@ Subsequent doubles = 4{orMore} of their suit
-
-==== Pass then double
-
-[%autowidth,cols="3*^",grid="none"]
-|===
-| 1__suit__ | (Dbl) | Pass
-|===
-
-With 4333 and 10{OrMore} HCP, responder passes on the first
-round, then doubles on the second round.
-Opener pulls with a singleton in their suit, or with a doubleton and
-five cards in the opening suit.
-
-=== Impossible 2{S} after negative double
-
-Applies when a negative double shows _exactly_{thinsp} [nobr]#4*{S}#, so
-that extra length is impossible.
-
-[TIP]
-====
-Follows the same principle as the impossible 2{S} after a semi-forcing
-NT. It shows the values for 2NT and an 8{OrMore}-card fit for
-partner's last-bid suit.
-====
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1C | (1H) |  Dbl  | (2H)
-| P  | (P)  |  ?    |
-|    |      | !2S!  | Support for opener's minor, LR{nbsp}strength,
-                      _e.g._ {S}Q984{nbsp}{H}43 {D}KJ4{nbsp}{C}AJ63
-|    |      |  3C   | competitive,
-                      _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
-|===
+== Doubling cue-bids
 
 === They cue-bid, we double
 
@@ -83,8 +8,7 @@ partner's last-bid suit.
 
 When their cue-bid shows a fit, then our double also show a fit.
 
-[lightgrey-bg]#(1{C})-1{S}-(2{S})-Dbl#
-= normal raise to 2S
+[lightgrey-bg]#(1{C})-1{S}-(2{S})-Dbl# = normal raise to 2S
 
 [lightgrey-bg]#(1{H})-1{S}-(3{S})- Dbl#
 = willing to sacrifice in 4S
@@ -135,3 +59,173 @@ The purpose is to help the defence.
 | (1H) | 1S  | (2D) |  P     | |
 | (3D) | P   | 3S   | !Dble! | | Hx or Hxx in {S}
 |===
+
+== 2NT in competitive auctions
+
+=== Lebensohl after take-out and negative doubles
+
+Used when the auction is at the 2-level and there is a need to
+distinguish invitational from weak or competitive hands when bidding
+at the three level.
+
+Applies in following auctions
+
+==== After a double (direct or balancing) of a weak two
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (2S) | Dbl | (P)  | ?
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|     |     | (2S) | P
+| (P) | Dbl | (P)  | ?
+|===
+
+==== After a negative double of a 2-level weak jump-overcall
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| 1D | (2S) | Dbl | (P)
+| ?  3+|
+|===
+
+==== After a double of 1-level opening that is raised to the 2-level
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1S) | Dbl | (2S) | ?
+|===
+
+==== After a negative double of 1-level overcall that is raised to the 2-level
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| 1D | (1S) | Dbl | (2S)
+| ?  3+|
+|===
+
+****
+.Consider also
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1D  | (1H) | 1S {ensp} (2H)
+| ?   |      |
+| 2S  |      | min raise
+| 2NT |      | Leb., competitive in {C} or {D}
+| 3m  |      | extras
+|===
+
+This is a form of Good-Bad 2NT by opener
+****
+
+=== Scrambling 2NT
+
+[IMPORTANT]
+====
+Used to find the best fit when #partner forces you to bid at the
+three-level# and the partnership is unlikely to have game on power.
+====
+
+Applies when
+@ opps have bid to 2H or 2S
+@ partner makes a take-out double
+@ RHO passes
+@ the auction is not defined as Lebensohl
+
+2NT is scrambling in the following situations.
+
+==== You have already had one chance to bid a Lebensohl 2NT
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1S) | Dbl | (2S) | P
+| (P)  | Dbl | (P)  | !2NT!
+|===
+
+You do not need two chances to show a weak single-suited hand.
+
+==== When you or partner has bid 1NT
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     |     | 1NT
+| (2S) | Dbl | (P) | !2NT!
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|     | 1NT | (2S) | P
+| (P) | Dbl | (P)  | !2NT!
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      | 1D  | (1H) | 1NT
+| (2H) | Dbl | (P)  | !2NT!
+|===
+
+In all the above cases, the NT bidder has a tight range, so we give up
+on invitational auctions to ensure we find the best place to play in
+the more common situation where it's a part-score deal.
+
+==== Protective auctions
+
+Partner reopons after the opps have attempted to pass-out an
+uncontested auction.
+Since neither of us acted on the first round, we are unlikely
+to have game on power.
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1H) | P   | (2H) | P
+| (P)  | Dbl | (P)  | !2NT!
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+|      |     | (1NT) | P
+| (2C) | P   | (2S)  | P
+| (P)  | Dbl |  (P)  | !2NT!
+|===
+
+==== Pre-balancing auctions
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1C) | P   | (1S) | P
+| (2S) | Dbl | (P)  | !2NT!
+|===
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| (1S) |  P    | (2S) | Dbl
+| (P)  | !2NT! |      |
+|===
+
+Even though doubler may have a good hand on these auctions,
+scrambling-2NT is much more useful than Lebensohl because
+game on power is unlikely.
+
+However, a direct 3H can still be defined as invitational, because a
+weak hand with hearts, can use scrambling-2NT and follow with 3H.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| (1S) |  P    | (2S) | Dbl
+| (P)  |  ?    |      |
+|      | !2NT! |      | scrambling, or to play 3H
+|      |  3m   |      | to play
+|      |  3H   |      | inv
+|===
+
+[NOTE]
+====
+In the similar auction [lightgrey-bg]#(1S){hyph}Dbl{hyph}(2S){hyph}?#,
+scrambling-2NT is not needed because advancer is not forced to bid,
+and can use a responsive double to show moderate values with more than
+one place to play.
+So 2NT is Lebensohl, enabling advancer to distinguish competive
+from invitational single-suited hands.
+====
