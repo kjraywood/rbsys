@@ -2,7 +2,7 @@
 
 == Two Club Opening
 
-{warning} _We do NOT play Kokish_
+{warning}{ensp}__We do NOT play Kokish__
 
 === Responses
 
@@ -52,33 +52,18 @@ Following a 2nd neg, we can stop in 3M or 4m.
 [%autowidth,cols="^,2*<",grid="none]
 |===
 | 2C   | 2D          |
-| !3M! | {ensp}?     | #4*M, 5{OrMore}{xtimes}{D}, GF#
+| !3M! | {ensp}?     | 3M = 4*M, 5{OrMore}{xtimes}{D}, GF
 |      | 3S (M={H})  | natural, 6{OrMore}{xtimes}{S}
 |      | 3NT         | to play, no help in opener's suits
-|      | !4C!        | #agrees {D}#
-|      | !4D!        | #agrees M#
-|      | 4M,5D       | sign-off
+|      | !4C!        | #agrees {D}#, pos.
+|      | !4D!        | #agrees M#, pos.
+|      | 4M,5D       | sign-off, neg.
 |===
 
 // |     | 4H (M={S}) | agrees {S} with short {D}
 
-****
-[orange-box]##*Why Kel thinks the response scheme is misguided*##
+<<staging.adoc#fix-trump-agreement-problem,Why Kel thinks the scheme to set trump is misguided>>
 
-The scheme for setting trump is inconsistent with:
-
-* _second-suit slam-try after a major-suit raise,_{thinsp}
-where bidding a possible trump suit is natural, and a new
-suit sets the other as trump.
-
-* other use of lower-for-lower which applies  when neither of the two available
-bids is a possible trump suit.
-[nobr]##__e.g.__{thinsp} 1NT{ndash}3{D} (minors, GF)##
-
-Also, an extra step is useful when hearts are agreed, to request that
-responder bid on with a postive response.  This allows opener to sign-off
-when a minimum positive is not sufficient.
-****
 
 == Weak Two Opening
 

@@ -1,7 +1,6 @@
 = Potential agreements
 
-WARNING: Stuff that we don't do but may consider in future
-
+Stuff that we don't do yet
 
 [#alt-wolff]
 == Alternatives to Wolff Sign-off
@@ -12,6 +11,55 @@ _esp._{thinsp} [lightgrey-bg]#1M {ndash} 1NT{semicolon} 2NT# +
 Mexican 2D opening = bal. 18-19 +
 @ [lightgrey-bg]#1m {ndash} 1M{semicolon} 2NT# = strong m, 3*M
 @ [lightgrey-bg]#1M {ndash} 1NT{semicolon} 2NT# = GF
+
+[#fix-trump-agreement-problem]
+== Setting trump after 2C-2D{semicolon}3M
+
+Our current (lower-for-lower) scheme is
+
+[%autowidth,cols="^,2*<",grid="none]
+|===
+| 2C   | 2D          |
+| !3M! | {ensp}?     | 3M = 4*M, 5{OrMore}{xtimes}{D}, GF
+|      | !4C!        | #agrees {D}#, pos.
+|      | !4D!        | #agrees M#, pos.
+|      | 4M,5D       | sign-off, neg.
+|===
+
+In other situations when there are two possible trump suits, and two
+bids available to set the trump suit, we use the following:
+
+* If one of the available bids is one of the possible trump suits,
+  then returning to opener's primary suit is natural, and a new
+  suit sets opener's second suit as trump.
+  _e.g._{thinsp} Second-suit slam-try after a major-suit raise.
+
+* If neither of the two available bids is a possible trump suit, then
+  we use lower-for-lower.
+  _e.g._{thinsp} [nobr]##1NT-3{D} = both minors, GF##
+
+Our scheme after 2C-2D{semicolon}3M is inconsistent with the above
+beause it meets the conditions of the first point, but we use the
+encoding (lower-for-lower) of the second point. Hence it is a memory strain.
+
+Our scheme is also has a problem when opener's major is hearts.  If
+responder shows a fit and a postive, then it is useful for opener to
+have a bid that shows slam interest if responder has something more
+than already shown.  This is commonly known as _last train_{thinsp}.
+It allows a return to 4H to indicate that responder should only bid on
+with significant extras.
+
+Using 4C to agree the major, and 4D (returning to opener's primary
+suit) to agreed diamonds, would fix both problems.
+
+[%autowidth,cols="3*^,<",grid="none]
+|===
+| 2C   | 2D   | |
+| !3H! | 4C   | | agrees {H}, pos.
+|  ?   |      | |
+|      | !4D! | | last train slam-try requesting non-minimum
+|      | 4H   | | minimum
+|===
 
 == Romex Stayman
 
