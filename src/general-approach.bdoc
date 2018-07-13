@@ -1,19 +1,26 @@
+= System Overview
+
 == General Approach
+
+=== Basics
 
 @ 1NT = 15 to 17
 @ 2NT = 20 to bad 22
+@ Strong 2C
 @ Five-card majors
-@ 2/1 GF
 @ semi-forcing 1NT
+@ 2/1 GF
 @ aggressive preempts and pre-balancing
 @ low-level take-out doubles
 
-*Responding to 1C* +
-Bypass 1D if
+=== Responding to 1C
+
+Bypass 1D if +
 @ can cope with a 3-card raise
 @ will rebid or raise NT
 
-*Opener’s rebid with a balanced hand* +
+=== Opener’s rebid with a balanced hand
+
 Usually bypass 4-card majors to rebid NT
 
 == Default rules
