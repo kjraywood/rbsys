@@ -1,6 +1,6 @@
 = Contested Auctions
 
-== vs Take-Out double
+== vs Take-Out Double
 
 === Raises and preempts
 
@@ -23,26 +23,29 @@
 | 1__suit__ | (Dbl) | Rdbl
 |===
 
-Either good three-card raise of major, or good 10{orMore} HCP and no fit.
-
-If no fit: +
-@ 4{orMore} cards in 2{orMore} unbid suits
-@ Forcing to two of opener’s suit
-@ Subsequent doubles = 4{orMore} of their suit
+One of: +
+@ good three-card raise of major +
+@ no fit +
+@@ good 10{orMore} HCP +
+@@ 4{orMore} cards in 2{orMore} unbid suits +
+@@ Forcing to two of opener’s suit +
+@@ Subsequent doubles = 4{orMore} of their suit
 
 === Pass then double
 
-[%autowidth,cols="3*^",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1__suit__ | (Dbl) | Pass
+| 1__suit__ | (Dbl) | P    | (__bid__{thinsp}) |
+| P         | (P)   | Dble |           | cooperative
 |===
+
 
 With 4333 and 10{OrMore} HCP, responder passes on the first
 round, then doubles on the second round.
 Opener pulls with a singleton in their suit, or with a doubleton and
 five cards in the opening suit.
 
-== vs Overcall
+== vs Suit Overcall
  
 === Raises
 
@@ -124,47 +127,71 @@ A jump to 3oM would be GF with 6{orMore}, and a negative double would show 4 or 
 | 1S | (2m) | 2H
 |===
 
-// needs work below
+== vs 1NT Overcall
 
-== vs 1NT
+@ Dble = penalty, creates a force below 2S
 
-=== major
+When our opening was a major, then either minor = that minor
+and the other major.
 
-@ !2m! = m + oM
-@ Dble = penalty & _creates a force below_{thinsp} 2S
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1M | (1NT) |   ?   | |
+|    |       | !2m!  | | m + oM
+|    |       |  2M   | | weak raise
+|    |       |  2oM  | | to play
+|    |       | !2NT! | | good 4{OrMore}-card raise
+|===
 
-=== minor
+When our opening was a minor, we play Stayman and transfers ... sort of.
 
-@ !2C! = majors
-@ !2D!,!2H! = transfer
-@ !2S! = other minor
-@ Dble = penalty & _creates a force below_{thinsp} 2S
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1m | (1NT) |   ?   | |
+|    |       | !2C!  | | [nobr]#majors, at least 5-4# +
+                        {tribull} 2D = you pick
+|    |       | !2D!  | | transfer
+|    |       | !2H!  | | transfer
+|    |       | !2S!  | | other minor
+|    |       | !2NT! | | good 5{OrMore}-card raise
+|===
 
-== vs. Unusual 2NT
+== Unusual vs Unusual
 
-=== major
+The lower of their two suits shows the other suit. This usually allows
+a next step by opener as a default bid; nothing more to say.
 
-@ Dble = neg. (4*oM)
-@ lo cue = oM inv.
-@ hi cue = {LRplus}
-@ 3oM = natural, forcing
+The lower cue-bid is usually _below_{thinsp} a natural bid in the
+other suit, in which case it shows invitatational values and the
+natural bid, which is higher, is GF.
 
-===  minor
+_e.g._
 
-@ Dble = neg. (4*{S})
-@ lo cue = {S} inv.
-@ hi cue (3H) = {LRplus}
-@ 3S = forcing
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1H | (!2NT!) | ?    | | 2NT = {C} + {D}
+|    |         | !3C! | | {S} __(other suit),__ inv. +
+                          {tribull} 3{D} = default
+|    |         | !3D! | | {H}, {LRplus}
+|    |         |  3H  | | {H}-raise, 7{OrMore}{ndash}10
+|    |         |  3S  | | {S}, GF
+|===
 
-== vs. Michaels
+When then lower cue-bid is _above_{thinsp} the natural bid in the
+other suit, then it shows GF values and the natural bid is
+invitational.
 
-=== minor
+_i.e._{thinsp} the lower of the two bids that show the other suit is
+invitational, and the higher is GF.
 
-@ lo cue (2H) = other minor
-@ hi cue (2S) = {LRplus}
-@ 1C-(2C)-2D = NF
-@ 1C-(2C)-2H = {D} GF
-
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1C | (!2C!) |   ?  | | 2C = {H} + {S}
+|    |        |  2D  | | {D}, inv.
+|    |        | !2H! | | {D}  __(other suit),__ GF
+|    |        | !2S! | | {C}, {LRplus}
+|    |        |  3C  | | {C}-raise, 7{OrMore}{ndash}10
+|===
 
 == Support double
 
