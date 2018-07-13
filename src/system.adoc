@@ -1,31 +1,23 @@
 = System Notes
 
-include::general-approach.adoc[]
+include::overview.adoc[]
 
 include::notrump.adoc[]
 
-include::suit-openings.adoc[]
+include::uncontested-responses.adoc[]
 
 include::rebid-by-responder.adoc[]
 
 include::checkback.adoc[]
 
-include::two-over-one.adoc[]
+include::contested-responses.adoc[]
 
-include::two-clubs.adoc[]
-
-include::weak-two.adoc[]
+include::higher-openings.adoc[]
 
 include::slam-conventions.adoc[]
 
-include::competitive-bidding.adoc[]
-
-include::overcalls.adoc[]
-
-include::take-out-doubles.adoc[]
-
 include::defensive-bidding.adoc[]
 
-include::2nt-in-comp.adoc[]
+include::competitive-bidding.adoc[]
 
 include::staging.adoc[]
