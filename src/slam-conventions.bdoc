@@ -1,4 +1,8 @@
-== Slam Conventions I
+= Slam Conventions
+
+== Key-Card Asking
+
+=== Responses
 
 @ 03,14 / Gerber & Kickback
 @ 0,1,2{OrLess},2{OrMore} / Exclusion
@@ -9,7 +13,7 @@
 @ Only applies after 1NT and 2NT openings
 @ Responses: 03, 14, 2 & min, 2 & max
 
-WARNING: Self splinters (not Gerber) after NT rebids
+{warning}{ensp}__Self splinters (not Gerber) after NT rebids__
 
 === Cheap Key-Card after preempts
 
@@ -35,7 +39,7 @@ Applies when:
 
 Responses:  0, 1, 2-, 2+, 3-, 3+
 
-== Slam Conventions II - Kickback
+== Kickback
 
 @ 03-14 responses
 @ 4NT replaces the kickback suit
