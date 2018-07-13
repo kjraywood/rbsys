@@ -1,0 +1,25 @@
+= System Notes
+
+<<overview.adoc#, System Overview>>
+
+<<notrump.adoc#, NoTrump Openings>>
+
+<<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
+
+<<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>>
+
+<<checkback.adoc#, 2-Way Checkback and Wolff Sign-off>>
+
+<<contested-responses.adoc#, Contested Auctions>>
+
+<<higher-openings.adoc#, Higher Opening Bids>>
+
+<<slam-conventions.adoc#, Slam Conventions>>
+
+<<defensive-bidding.adoc#, Defensive Bidding>>
+
+<<competitive-bidding.adoc#, Competitive Bidding>>
+
+<<staging.adoc#, Potential agreements>>
+
+<<system.adoc#, __Everything__>>
