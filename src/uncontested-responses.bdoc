@@ -37,7 +37,7 @@ second-suit with values in that suit
 | ?     |     | |
 2+<| 3H,4C    | | #natural, COV#, control not specified
 | !Dbl! |     | | singleton
-| pass  |     | | control (1st or 2nd), or length + stopper
+| pass  |     | | control (1st or 2nd) or length
 | 3S    |     | | extras, no control
 | 3NT   |     | | min, no 1st or 2nd-round control
 |===
@@ -150,7 +150,7 @@ two-card support; _i.e._{thinsp} an 8-card fit unless opener rebid a
 |  1S  | 1NT |
 |  2C  | 2NT |
 |  3H  |     | 3*{H}, GF
-             _ (responder might have 5*{H})
+        [nobr]#(responder might have 5*{H})#
 |===
 
 The most important situation is both majors.
