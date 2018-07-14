@@ -7,18 +7,22 @@
 | Response       ^| Unpassed   ^| Passed
 
 | 2NT             | Jacoby      | both{nbsp}minors, inv.
-| jump{nbsp}shift | natural inv. {tribull} opener can [nobr]#pass or force#
+| jump{nbsp}shift | natural inv.
+                    [nobr]#{tribull} opener can#
+		    _ pass or force
 	                        | fit-showing
 | jump{nbsp}raise | limit, [nobr]#incl. 3*M + stiff# | weak{nbsp}splinter
 | 3M + 1       |  weak splinter, unspecified{nbsp}suit |
 | 1H{ndash}3NT | spade splinter |
 |===
 
-=== Game tries after a single raise
+=== Game and slam tries after a single raise
 
-@ next-step game-try
-@ new-suit slam-try
 @ re-raise = inv with long trumps
+@ next-step game-try +
+@ second-suit slam-try
+@@ new-suit by responder => ace
+__ and agrees second-suit
 @ jump new-suit = void slam-try
 
 === Jacoby 2NT
