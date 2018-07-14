@@ -1,4 +1,4 @@
-= Contested Auctions
+= Responding in Contested Auctions
 
 == vs Take-Out Double
 
@@ -89,15 +89,23 @@ partner's last-bid suit.
                       _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
 |===
 
-=== Neg. Free Bids -- 2 other-Major
+=== Two other-Major Negative Free-Bids
 
-Two other-major is non-forcing when: +
+Applies when:
 @ exactly one unbid major
 @ non-jump
 
-It shows: +
+Shows:
 @ 6{orMore}-card suit
 @ 7{ndash}11{orLess}
+
+The 3rd bid in each of the following is a 2oM NFB.
+
+[%autowidth,cols="2*^"]
+|===
+| 1m {ensp} (1S) {ensp} 2H {ensp} | {ensp} 1S {ensp} (2m) {ensp} 2H
+| 1m {ensp} (2H) {ensp} 2S {ensp} | {ensp} 1H {ensp} (2m) {ensp} 2S
+|===
 
 ==== Other options
 
@@ -105,27 +113,21 @@ Jump to 3oM  = GF, 6{orMore}-card suit.
 
 Neg. double = 4{or}5{xtimes}oM, no strength upper-limit.
 
-Jump to four _lower suit_{thinsp} = fit-showing
+#Jump to _four lower suit_{thinsp} = fit-showing#
+
+__e.g.__
+
+[%autowidth,cols="4*^,<",grid="rows"]
+|===
+| 1S | (2D) |   4H   | | fit showing, {H} _lower than_{thinsp} {S}
+| 1D | (1S) |   4H   | | to play, {H} _higher than_{thinsp} {D}
+|===
 
 ==== Passed hand
 
 No weak-two opening => Two  _other major_{thinsp} is usually a five-card suit.
 
 Jump to 3oM = fit showing bid; usually 5*oM + 5*suit-of-opening bid
-
-==== Auctions
-
-The final bid in each line is a 2oM NFB.
-
-A jump to 3oM would be GF with 6{orMore}, and a negative double would show 4 or 5.
-
-[%autowidth,cols="3*^",grid="none"]
-|===
-| 1m | (1S) | 2H
-| 1m | (2H) | 2S
-| 1H | (2m) | 2S
-| 1S | (2m) | 2H
-|===
 
 == vs 1NT Overcall
 
