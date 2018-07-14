@@ -195,8 +195,8 @@ rebids 3NT.
 | single{nbsp}raise | GF          | 6{ndash}10
 | jump{nbsp}raise   | weak        | unbal. LR
 | JS to other{nbsp}minor | LR     | fit showing
-| 2S                | mixed raise | fit showing
-| 2H             2+^| rev. Flannery
+| !2S!              | mixed raise | fit showing
+| !2H!           2+^| rev. Flannery
 | 2NT               | 11{ndash}12 | bal. LR (NF)
 | 3NT               | 13{ndash}15 |
 |===
