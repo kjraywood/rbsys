@@ -6,11 +6,11 @@ include::notrump.adoc[]
 
 include::uncontested-responses.adoc[]
 
+include::contested-responses.adoc[]
+
 include::rebid-by-responder.adoc[]
 
 include::checkback.adoc[]
-
-include::contested-responses.adoc[]
 
 include::higher-openings.adoc[]
 

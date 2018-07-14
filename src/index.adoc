@@ -6,11 +6,11 @@
 
 <<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
 
+<<contested-responses.adoc#, Responding in Contested Auctions>>
+
 <<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>>
 
 <<checkback.adoc#, 2-Way Checkback and Wolff Sign-off>>
-
-<<contested-responses.adoc#, Contested Auctions>>
 
 <<higher-openings.adoc#, Higher Opening Bids>>
 
