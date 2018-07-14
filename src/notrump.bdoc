@@ -22,8 +22,10 @@
 @ delayed Gerber & Texas
 @ Baze
 
-Following Stayman, 2S by responder is invitational; possibly based on
-5-5 shape.
+Stayman then 2S by responder is invitational; possibly based on 5-5
+shape.
+This is our only way to invite with 5*{S} because we play 2nd-round
+transfers.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -39,27 +41,24 @@ Following Stayman, 2S by responder is invitational; possibly based on
 
 === Jacoby transfers
 
-@ super accept = 2M + 1
-@@ responder re-transfers or describes +
-@ jump rebid = self splinter
-@ non-jump rebid = 2nd-round transfer
+==== Anti-splinter super-accepts
 
-A double-raise (to 4M) shows a quantitative balanced (5332)
-slam-invitation.  It allows us to play 4M instead of 5M when opener
-has a minimum with a fit.
+Jump accept = clear max that would accept any short-suit try
 
-[%autowidth,cols="2*^,<",grid="none"]
+New suit = anti-splinter (suit in which opener would decline a short-suit try)
+
+2NT = anti-splinter in suit of transfer (ensures that responder can re-transfer)
+
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1NT  | !2H! |
-| 2S   | !4S! | {emsp} #quant. slam inv (5332)#
-|  ?   |      |
-| pass |      | decline
-| 4NT  |      | sign-off
-| 5C   |      | RKC (1430) for {S}
+|      |  1NT  | |
+| !2D! | !2NT! | | 2NT = {D} anti-splinter
+| !3D! |  3H   | | 3D = re-transfer
 |===
 
-Similarly, 5M is a quantative 5332 which forces 6 and invites 7 (like
-1NT-5NT).
+==== Self splinter
+
+Following a normal accept, a jump-shift rebid by responder = self-splinter slam-try
 
 ==== 2nd-round transfers
 
@@ -75,9 +74,11 @@ Similarly, 5M is a quantative 5332 which forces 6 and invites 7 (like
 |===
 | 1NT | !2D!  | |
 | 2H  |  ?    | |
-|     | !2S!  | | inv. (not {S}),
-                  possibly 5{times}{H}{thinsp}+{thinsp}5{times}m +
-                  {tribull} #pass-or-correct acceptances#
+|     | !2S!  | | inv. in NT or 5{times}{H}{thinsp}+{thinsp}5{times}m +
+                  {tribull} 2NT = 2*{H}, min +
+                  {tribull} 3H = 3*{H}, min +
+                  {tribull} 3NT = 2*{H}, max +
+                  {tribull} 4H = 3*{H}, max +
 |     | !2NT! | | 4*{C}, GF
 |     | !3C!  | | 4*{D}, GF
 |     | !3D!  | | 6*{H}, game or slam inv. +
@@ -91,17 +92,53 @@ Following a 2nd-round transfer that shows a new-suit, opener chooses from +
 @ new-suit = own 5-card suit
 @ 3NT = no fit, offer to play
 
+==== Balanced slam-try
+
+A double-raise (to 4M) shows a quantitative balanced (5332)
+slam-invitation.  It allows us to play 4M instead of 5M when opener
+has a minimum with a fit.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1NT  | !2H! |
+| 2S   | !4S! | {emsp} #quant. slam inv (5332)#
+|  ?   |      |
+| pass |      | decline
+| 4NT  |      | sign-off
+| 5C   |      | RKC for {S}
+|===
+
+Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
+1NT-5NT).
 
 ==== vs double
 
-@ pass promises a stopper
-@ redouble shows no stopper
-@ accepting transfer = ctrl, 3-cd fit
-@ 3-level reverse transfer
-_ = no ctrl, 4-cd fit, min
-@ jump accept = ctrl, 4-cd fit, min
-@ next step = no ctrl, 4-cd fit, max
-@ new suit = ctrl, 4-cd fit ,max
+Anti-splinter super-accepts in new suits still apply, except that 2NT
+just indicates 1st-or-2nd-round control of the transfer suit.
+Following an anti-splinter, either player my indicate lack of control
+by bidding the transfer suit, thus allowing the contract to be played
+from the other side.
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|  1NT  | (P) | !2D! {ensp} (X)
+|   ?   |     |
+2+<| !2S!,!3C! <|  anti-splinter
+| !2NT! |     | {D}-ctrl, 4*{H}
+| !3D!  |     | no {H}-ctrl,  4*{H}, clear max
+|  3S   |     | jump accept = {D} ctrl, clear max
+|===
+
+Without four-card support, the focus is on a stopper and the scheme
+is similar to when Stayman is doubled.
+
+@ accepting transfer = 1st-or-2nd-round control,
+_ 3-card support +
+@ pass promises a stopper but unable to accept
+@@ responder redoubles for retransfer +
+@ redouble = no stopper
+@@ responder shows full value
+@@ #2nd-round transfers are OFF#
 
 === Minor-suit transfers
 
