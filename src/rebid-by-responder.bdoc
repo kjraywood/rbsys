@@ -27,14 +27,14 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 
 === Rebidding after 1H{ndash}1S
 
-@ #2D rebid shows non-minimum#
-_ (extra strength or extra length)
+@ #2D rebid = extra strength or extra length#
+_ __i.e.__{thinsp} it is not a minimum 5-4
 @ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
 
 ==== 2wCB after both majors
 
 With 4{times}{D} and a minimum, opener rebids 1NT; not 2{D}.
-If responder then bids 2C, opener can show this hand by bidding 2H
+Following 2C by responder, opener shows this hand by bidding 2H (paradox)
 instead of accepting the relay.
 It is safe because if responder had intended to drop the auction in
 2D, then we have at least a nine-card {D}-fit.
@@ -47,26 +47,37 @@ minimum 3{hyph}5{hyph}4{hyph}1.
 | 1NT  | !2C! | | sign-off in {D}, or some inv.
 |  ?   |      | |
 | 2D   |      | | normal relay-accept
-| 2H   |      | | #4*{D} minumum#
+| 2H   |      | | #4*{D}, 2{orLess}{xtimes}{S}, minumum#
 |===
 
 Responder will often pass 2H.
 
 ==== Fourth suit at the 3-level
 
-[%autowidth,cols="3*<",grid="none"]
+3-level suit-bids follow the normal 2nd-round rule
+[nobr]#(jump or raise-of-minor = GF)#
+
+Invitations in {D} or {H} bid 4th-suit
+[nobr]#{thinsp}{tribull} _pass-or-correct_{thinsp} (paradox) responses#
+
+There is no invitation in {S} because that hand invites on 1st-round (1{H}-2{S})
+
+2NT can be forcing (one round) because opener's 2D showed non-minimum or at least 5-5
+
+[%autowidth,cols="2*^,2*<",grid="none"]
 |===
-| 1H | 1S       |
-| 2D | ?        |
-|    | !2NT!    | #F1#, 11-14 if bal,
-                _ #{simto} 4th-suit forcing#
-|    | 3D,3H,3S | natural, GF
-|    | 3NT      | 15-17
-|    | !3C!     | invitation in {D}, {H}, or {S}
-|    |          | *pass-or-correct responses*
-|    |          | 3D = decline {D}
-|    |          | 3H = accept {D}, decline {H}
-|    |          | _etc._
+| 1H |  1S    | |
+| 2D |  ?     | |
+|    | !2NT!  | | #F1#, 11-14 if bal +
+                  {thinsp}{tribull} 3D = NF +
+                  {thinsp}{tribull} _other_ = GF +
+|    | !3C!   | | invitation in {D} or {H} +
+                  *pass-or-correct responses* +
+                  {thinsp}{tribull} 3D = decline {D} +
+                  {thinsp}{tribull} 3H = accept {D}, decline {H} +
+                  {thinsp}{tribull} _other_ = accept either
+| 2+<| 3D,3H,3S | natural, GF
+|    | 3NT    | {emsp} | 15-17 bal
 |===
 
 === Responder's notrump ladder
@@ -155,7 +166,7 @@ Notrump bids and old suits are non-forcing.
 
 === Investigating best game or slam
 
-Responder uses _three other-minor_{thinsp} for more info.
+Responder uses #three other-minor# for more info.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
@@ -170,10 +181,11 @@ Responder uses _three other-minor_{thinsp} for more info.
 === Responder has both majors
 
 After 1m{ndash}1{H} opener might bypass [nobr]#4*{S}# to raise {H} on
-three. So 2S by responder is natural and forcing one-round.  Then +
-@ old suit (non-jump), 2NT, 3NT
+three. So 2S by responder is natural and forcing one-round.
+
+Then +
+@ old-suit, 2NT or 3NT
 _ = natural, NF +
-@ #jump to 4{thinsp}__any__{thinsp} = 4*{S}, max# +
 @ #4th-suit (3om) = 4*{H}, max#
 
 [%autowidth,cols="^,^,<",grid="none"]
@@ -187,9 +199,9 @@ _ = natural, NF +
 |  3H   |    | 4*{H}, min, NF
 |  3S   |    | 4*{S}, min, NF
 |  3NT  |    | #short {S}#, 3*{H}, max
-| !4m!  |    | #4*m, 2*om, 3*{H}, 4*{S}#, max
 | !4om! |    | splinter, 4*{S}, max
-| !4H!  |    | 4*{H}, 4*{S}, max
+| !4H!  |    | 4*{H}, max, _{ldquo}I forgot special 3om{rdquo}_
+| !4S!  |    | no splinter, 4*{S}, max
 |===
 
 [TIP]
@@ -197,6 +209,9 @@ _ = natural, NF +
 In the previous two bidding tables, the notrump bids show shortness
 (2{OrLess}) in the new suit that responder just bid; even if it was
 only semi-natural.
+
+Also, as in the previous section, #three other-minor# is a special
+bid indicating extras; this time, non-minumum and 4-card support.
 ====
 
 === vs interference
