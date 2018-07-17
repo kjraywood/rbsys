@@ -7,20 +7,15 @@
 @ Promises a 4-card major
 @ Includes 5*{S}, inv. (bal. or 5-5)
 
-==== vs double
-
-@ pass promises a stopper
-@ reverse transfers
-@ 2NT = 4-4 majors min
-@ 3C = 4-4 majors max
-@ Redble = double neg. (no stop, no M)
-
 ==== Rebids
 
 @ crawling Stayman
+@ 2S = inv
 @ Smolen
 @ delayed Gerber & Texas
 @ Baze
+
+==== Continuations after invitational 2S
 
 Stayman then 2S by responder is invitational; possibly based on 5-5
 shape.
@@ -34,9 +29,36 @@ transfers.
 | ?     |    |
 | pass  |    | min, 3*{S}
 | 2NT   |    | min, 2*{S}
-| 3S    |    | max, 2*{S}, F
-| 3NT   |    |  ??  possibly 33(34)
+| 3S    |    | max, 2*{S} incl. A, K or Q
+| 3NT   |    | max, 2*{S} without high honour
 | 4S    |    | max, 3*{S}
+|===
+
+==== vs double of Stayman
+
+@ pass promises a stopper (may have a stack)
+@ reverse transfers, no stopper
+@ 2NT = 4-4 majors min
+@ 3C = 4-4 majors max
+@ Redble = double neg. (no stop, no M) +
+
+Following opener's pass promising a stopper, redouble by responder is
+re-Stayman with tolerance for a club-stack pass by opener.
+Otherwise, responder continues _as though opener's reply to Stayman
+was 2D._{thinsp}
+In addition, responder can show both majors and short clubs using
+the same scheme as opener.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1NT  | (P) | !2C!    | (Dbl) |
+| !P!  | (P) |  ?      |       | opener's pass promises a stopper
+|      |     | !Redbl! |       | re-Stayman, 2{OrMore}{xtimes}{C}
+|      |     | !2D!    |       | garbage-Stayman hand
+|      |     | !2H!    |       | both majors, weak, {H}-length {ge} {S}-length
+|      |     | !2S!    |       | 5*{S}, inv. (with short {C})
+|      |     | !2NT!   |       | 4-4 majors, short {C}, inv.
+|      |     | !3C!    |       | 4-4 majors, short {C}, GF
 |===
 
 === Jacoby transfers
@@ -94,10 +116,6 @@ Following a 2nd-round transfer that shows a new-suit, opener chooses from +
 
 ==== Balanced slam-try
 
-A double-raise (to 4M) shows a quantitative balanced (5332)
-slam-invitation.  It allows us to play 4M instead of 5M when opener
-has a minimum with a fit.
-
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 1NT  | !2H! |
@@ -108,10 +126,20 @@ has a minimum with a fit.
 | 5C   |      | RKC for {S}
 |===
 
+This is superior to using 4NT, because it allows us to play 4M instead
+of 5M when opener has a minimum and prefers the major.
+
 Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
 1NT-5NT).
 
-==== vs double
+[NOTE]
+====
+Transfer then then double-raise to 4M is not needed to show a
+6-card-suit slam-try without shortness because that hand-type uses a
+2nd-round re-transfer to the major.
+====
+
+==== vs double of transfer
 
 Anti-splinter super-accepts in new suits still apply, except that 2NT
 just indicates 1st-or-2nd-round control of the transfer suit.
@@ -121,7 +149,7 @@ from the other side.
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-|  1NT  | (P) | !2D! {ensp} (X)
+|  1NT  | (P) | !2D! {ensp} (Dbl)
 |   ?   |     |
 2+<| !2S!,!3C! <|  anti-splinter
 | !2NT! |     | {D}-ctrl, 4*{H}
