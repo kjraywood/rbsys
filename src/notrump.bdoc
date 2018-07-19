@@ -17,10 +17,9 @@
 
 ==== Continuations after invitational 2S
 
-Stayman then 2S by responder is invitational; possibly based on 5-5
-shape.
-This is our only way to invite with 5*{S} because we play 2nd-round
-transfers.
+A consequence of 2nd-round transfers is that Stayman followed by 2S is
+our only way to invite with [nobr]#5*{S}# .
+Thus it can be balanced or unbalanced; possibly 5-5 shape.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -126,8 +125,7 @@ Following a 2nd-round transfer that shows a new-suit, opener chooses from +
 | 5C   |      | RKC for {S}
 |===
 
-This is superior to using 4NT, because it allows us to play 4M instead
-of 5M when opener has a minimum and prefers the major.
+This is superior to using 4NT, because it allows us to play 4M.
 
 Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
 1NT-5NT).
