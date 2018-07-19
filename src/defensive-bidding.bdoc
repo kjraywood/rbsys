@@ -52,7 +52,9 @@ shows both majors but does not promise a good hand.
 
 @ 1NT vs. minor = 11-14
 @ 1NT vs. major = 13-16
-@ 2NT = 19-21{OrLess}, System ON
+@ 2NT = 19-21{OrLess}
+
+System ON in all cases
 
 === Sandwich position
 
@@ -62,7 +64,7 @@ shows both majors but does not promise a good hand.
 
 === vs weak two or precision 2C
 
-2NT = 16-19, with our 2NT system +
+2NT = 16-19, our 2NT-system ON +
 @ simple Stayman & Smolen vs 2m +
 @ #5-card Stayman vs 2M# +
 @ transfer to their major = inv oM +
@@ -93,11 +95,11 @@ _ seems likely that opener will play NT
 
 === Two-level overcalls
 
-&vs pass& (_e.g._ {thinsp}(1S) - 2C - (P) - ?) +
+&vs pass& [ _e.g._ {thinsp}(1S) - 2C - (P) - ? ] +
 @ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
 @ 2NT = natural
 
-&vs raise& (_e.g._ {thinsp}(1S) - 2C - (2S) - ?) +
+&vs raise& [ _e.g._ {thinsp}(1S) - 2C - (2S) - ? ] +
 @ double = responsive
 @ !2NT!  = good raise
 
@@ -107,6 +109,43 @@ _ seems likely that opener will play NT
 @ redouble = defensive strength, no fit
 @  cue  = good 3-card raise{orMore}
 @ !2NT! = good 4-card raise{orMore}
+
+=== vs Further Interference
+
+If there is further bidding by opener following our cue-bid raise,
+then overcaller is not forced to bid.
+We take advantage of the extra space by allowing opener to pass with
+nothing particular to say.
+It neither shows nor denies extra values.
+Bidding when not forced shows extra length or strength in the suit
+bid.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |      | (1D)  | 1S | |
+| (P) | !2D! | (Dbl) | ?  | |
+|     |      |       | 2S | | extra length or strength in {S}
+|     |      |       | P  | | nothing to say
+|===
+
+==== Exception
+
+When advancer guarantees _four-card support_{thinsp} and forces the
+bidding to the three level, then advancer's hand is more well defined,
+there is almost no doubt about strain, and further competition will
+rarely depend on the quality of the trump suit.
+So the issue whether or not to bid game; hence an immediate return to
+the trump suit shows a minimum and passing shows doubt.
+If also in doubt, advancer may make a descriptive bid or _send it
+back_{thinsp} with redouble.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |      | (1D)  | 1S | |
+| (P) | !3D! | (Dbl) | ?  | | 3D = mixed raise
+|     |      |       | 3S | | minimum
+|     |      |       | P  | | game try 
+|===
 
 === Sandwich position
 
@@ -139,35 +178,32 @@ _ 6*om + 4*oM
 @ Bid in suit we are over = natural
 @ Bid in suit we are under = cue-bid
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-| (1D) | P  | (1H) | 1S
-| (P)  | ?  |      |
-|      | 2D |      | natural
-|      | 2H |      | cue-bid, good raise to 2S
+|      |    | (1D) |  P   | |
+| (1H) | 1S | (P)  |  ?   | |
+|      |    |      |  2D  | | natural
+|      |    |      | !2H! | | cue-bid, good raise to 2S
 |===
-
-=== vs Further Interference
-
-Bidding shows extra length or strength in the suit bid, _except when
-partner guarantees four-card support and forces the bidding to the
-three level_.
 
 == Balancing
 
-=== One Major
+=== New-minor Drury after Balancing One-Major
 
-#The unbid minor shows a good raise# (like Drury)
+After we balance with 1M, we use the unbid minor to show a good raise
+(like Drury), and an advance in the opponent's opening-suit is natural.
+This is useful because that suit was the only one that could not be
+overcalled naturally on the first round.
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| (1C) |  P   | (P) | 1H
-| (P)  |  ?   |     |
-|      |  2C  |     | natural
-|      | !2D! |     | good {H} raise
+| (1C) |  P   | (P) | 1H |
+| (P)  |  ?   |     |    |
+|      |  2C  |     |    | natural
+|      | !2D! |     |    | good {H} raise
 |===
 
-=== Cue-bid
+=== Balancing Michaels
 
 @ shows strong 2-suiter
 @ both majors vs minor
@@ -176,7 +212,7 @@ three level_.
 ****
 [orange-box]##*Not in use*##
 
-Balance cue of major could show any two unbid suits, but need special
+Balancing cue of major could show any two unbid suits, but need special
 continuations.
 See https://bridgewinners.com/article/view/balancing-michaels[^]
 ****
@@ -196,7 +232,7 @@ an Ogust-type enquiry.
 [%autowidth,cols="5*^,<",grid="none"]
 |===
 |     |       | (1C) | !2D! | | majors
-| (P) | !2NT! | (P)  |  ?   | | _range-ask_
+| (P) | !2NT! | (P)  |  ?   | | 2NT = range-ask
 |     |       |      |  3C  | | weak (6-8)
 |     |       |      |  3D  | | int. (9-11)
 |     |       |      |  3H  | | strong (12-14)
