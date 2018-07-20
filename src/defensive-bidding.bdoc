@@ -131,19 +131,22 @@ bid.
 ==== Exception
 
 When advancer guarantees _four-card support_{thinsp} and forces the
-bidding to the three level, then advancer's hand is more well defined,
-there is almost no doubt about strain, and further competition will
-rarely depend on the quality of the trump suit.
-So the issue whether or not to bid game; hence an immediate return to
-the trump suit shows a minimum and passing shows doubt.
-If also in doubt, advancer may make a descriptive bid or _send it
-back_{thinsp} with redouble.
+bidding to the three level, then further strain-investigation is
+rarely needed and advancer's hand is more well defined than with a
+simple cue-bid.
+Thus overcaller is better placed to make decisions for the partnership
+so the following applies.
+
+* An immediate return to the trump suit shows no game interest
+
+* A pass shows doubt, after which advancer may make a descriptive bid or
+_send it back_{thinsp} with redouble
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
 |     |      | (1D)  | 1S | |
 | (P) | !3D! | (Dbl) | ?  | | 3D = mixed raise
-|     |      |       | 3S | | minimum
+|     |      |       | 3S | | no game interest
 |     |      |       | P  | | game try 
 |===
 
