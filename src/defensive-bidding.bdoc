@@ -247,6 +247,32 @@ Balancing cue of major could show any two unbid suits, but need special
 continuations.
 See https://bridgewinners.com/article/view/balancing-michaels[^]
 ****
+=== Reopening when opps pass 1m-1NT
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1C) |  P   | (1NT) | P |
+| (P)  |  ?   |       |   |
+|      |  2C  |       |   | natural
+|      |  2D  |       |   | majors
+|===
+
+In the above auction, reopener is unlikely to have diamonds (no
+overcall), and the money is in the majors.
+Reopener is also limited by the failure to show both majors on the
+first round.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1D) |  P   | (1NT) | P |
+| (P)  |  ?   |       |   |
+|      |  2C  |       |   | majors
+|      |  2D  |       |   | natural
+|===
+
+The 1NT responder usually has clubs here, so 2C is like a 2-suited cue-bid.
+Showing both majors is the most valuable meaning.
+As before, reopener is limited by the failure to act on the previous round.
 
 == Defence to Preempts
 
