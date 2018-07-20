@@ -189,6 +189,34 @@ _ 6*om + 4*oM
 |      |    |      | !2H! | | cue-bid, good raise to 2S
 |===
 
+== Two-suited overcalls (Klinger)
+
+@ cue-bid & lowest J.O. = next 2 suits
+@ 2NT = suit-below + suit-above
+@ Only applies in direct seat
+@ ON vs short club or diamond
+
+=== Advancing
+
+If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
+an Ogust-type enquiry.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |       | (1C) | !2D! | | majors
+| (P) | !2NT! | (P)  |  ?   | | 2NT = range-ask
+|     |       |      |  3C  | | weak (6-8)
+|     |       |      |  3D  | | int. (9-11)
+|     |       |      |  3H  | | strong (12-14)
+|     |       |      |  3S  | | huge (16+)
+|===
+
+The HCP ranges do not count queens and jacks in the side suits and are
+a point or two higher when vulnerable.
+
+When the Klinger bid is 2NT or 3C, then the cue-bid of opener’s suit
+asks for strength.
+
 == Balancing
 
 === New-minor Drury after Balancing One-Major
@@ -219,34 +247,6 @@ Balancing cue of major could show any two unbid suits, but need special
 continuations.
 See https://bridgewinners.com/article/view/balancing-michaels[^]
 ****
-
-== Two-suited overcalls (Klinger)
-
-@ cue-bid & lowest J.O. = next 2 suits
-@ 2NT = suit-below + suit-above
-@ Only applies in direct seat
-@ ON vs short club or diamond
-
-=== Advancing
-
-If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
-an Ogust-type enquiry.
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|     |       | (1C) | !2D! | | majors
-| (P) | !2NT! | (P)  |  ?   | | 2NT = range-ask
-|     |       |      |  3C  | | weak (6-8)
-|     |       |      |  3D  | | int. (9-11)
-|     |       |      |  3H  | | strong (12-14)
-|     |       |      |  3S  | | huge (16+)
-|===
-
-The HCP ranges do not count queens and jacks in the side suits and are
-a point or two higher when vulnerable.
-
-When the Klinger bid is 2NT or 3C, then the cue-bid of opener’s suit
-asks for strength.
 
 == Defence to Preempts
 
