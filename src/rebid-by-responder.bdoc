@@ -148,7 +148,10 @@ when there's a cue-bid available to establish a GF.
 
 == Opener raises
 
-{warning}{ensp}__We do NOT play {ldquo}Quality & Quantity{rdquo}__
+{warning}{ensp} No _Quality & Quantity_
+
+We achieve the same goal with mostly natural bidding, and use _three
+other-minor_{thinsp} for further investigation.
 
 === Natural invitations and choice-of-game
 
@@ -166,17 +169,22 @@ Notrump bids and old suits are non-forcing.
 
 === Investigating best game or slam
 
-Responder uses #three other-minor# for more info.
+For more info, responder uses #three other-minor#.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
 |  1m   |  1M   |
-|  2M   | !3om! | #semi-natural, GF#
+|  2M   | !3om! | #GF enquiry# (often semi-natural)
 |  ?    |       |
 |  3M   |       | 4-card raise
 | !3oM! |       | 3-card raise, short oM
 |  3NT  |       | 3-card raise, #short om#
 |===
+
+When opener has shown a three-card raise, responder may suggest an
+alternate trump suit in one of the minors.  Following that, opener's
+weakest bid is returning to 4M.  Anything else is encouraging, usually
+indicating that the short-suit is a singleton.
 
 === Responder has both majors
 
@@ -200,7 +208,7 @@ _ = natural, NF +
 |  3S   |    | 4*{S}, min, NF
 |  3NT  |    | #short {S}#, 3*{H}, max
 | !4om! |    | splinter, 4*{S}, max
-| !4H!  |    | 4*{H}, max, _{ldquo}I forgot special 3om{rdquo}_
+| !4H!  |    | 4*{H}, max, "`__I forgot about 3om__{thinsp}`"
 | !4S!  |    | no splinter, 4*{S}, max
 |===
 
