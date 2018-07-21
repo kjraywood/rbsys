@@ -48,6 +48,9 @@ Going though the minor-suit relay shows unequal length.
 
 === Second-round jumps
 
+These are usually descriptive picture-bids, providing opener with
+an accurate description of responder's hand.
+
 *Second suit:*{thinsp} 5-5 with most values in the long suits. Slam is
 possible if the hands fit well.
 
@@ -68,12 +71,29 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 |     | !4C!,!4D!,!4H! | self-splinter slam-try
 |===
 
+=== Game-forcing Checkback
+
+Responder uses 2D to request for info about opener's hand.  Priorities
+for opener are: +
+@ 2M = 3-card support +
+@ 2oM = 4 cards in the other major +
+@ 3m = good 5 or 6 card suit +
+2N = none of the above
+
 === Game-forcing with a fit for opener's minor
 
 [special]#Updated {thinsp}{ndash}{thinsp} Jul 21, 2018{nbsp}#
 
-After the 2NT relay, any bid shows a fit for opener's suit, and usually four
-in responder's first-bid suit.
+Responder relays with 2NT then bids again, to show four-cards in
+opener's minor and GF strength; possibly slammish.
+Responder's suits are usually 4-4 (M-m) because: +
+@ 4-5 => inverted minor on first round +
+@ 5-5 (pure) => jumps to 3m +
+@ 5-4 or non-pure 5-5 => 2D (GF checkback)
+
+*Exception:* There is a special sequence for 5-4 with two weak
+doubletons, allowing opener to choose 3NT to protect tenaces in those
+suits.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -81,10 +101,10 @@ in responder's first-bid suit.
 | 1NT | !2NT! | | forces 3C
 | 3C  | ?     | |
 |     | pass  | | to play
-|     | !3D!  | | 4{orMore}{xtimes}m, _other-minor_{thinsp} singleton
-|     | !3oM! | | 4{orMore}{xtimes}m, _other-Major_{thinsp} singleton
-|     |  3M   | | #5*M, 4*m, xx in others#, COG
-|     | !3NT! | | #4*M, 5*m, xx in others#, COG
+|     | !3D!  | | 4*m, _other-minor_{thinsp} singleton
+|     | !3oM! | | 4*m, _other-Major_{thinsp} singleton
+|     | !3M!  | | #5*M + 4*m, xx in others#, COG
+|     | !3NT! | | 4*M + 4*m, no singleton, slam try
 |===
 
 == Wolff Sign-Off
