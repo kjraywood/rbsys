@@ -27,7 +27,10 @@ __ and agrees second-suit
 
 === Jacoby 2NT
 
-@ jump new-suit = length
+[special]#Updated {thinsp}{ndash}{thinsp} Jul 21, 2018{nbsp}#
+
+@ jump new-suit = length (at least 5-5)
+_ #without two quick-losers elsewhere# +
 @ 3NT by either = minimum
 
 ==== vs interference
