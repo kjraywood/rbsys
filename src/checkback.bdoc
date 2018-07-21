@@ -46,25 +46,33 @@ Going though the minor-suit relay shows unequal length.
 | !2D! | 2H   | | 5*{S}, 4*{H}, inv
 |===
 
-=== Slam Inv. Sequences
+=== Second-round jumps
+
+*Second suit:*{thinsp} 5-5 with most values in the long suits. Slam is
+possible if the hands fit well.
+
+*Rebid of own suit:*{thinsp} A one-loser suit or just setting trump
+for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
+4M).
+
+*Double jump to second-suit:* self-splinter slam-try
+
+==== Summary
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
 | 1m  | 1S         |
 | 1NT | {ensp}?    |
 |     | 3C,3D,3H   | 5-5, good suits
-|     | 3S         | 1-loser suit, or set trump for kickback
-|     | !4C!,!4D!,!4H! | self-splinter
+|     | 3S         | 1-loser suit, or set trump for KC ask
+|     | !4C!,!4D!,!4H! | self-splinter slam-try
 |===
 
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-| 1m   | 1S   |
-| 1NT  | !2C! |
-| !2D! | 4S   | 2-loser suit
-|===
+=== Game-forcing with a fit for opener's minor
 
-After the 2NT relay, any bid shows a fit for opener's suit, and four
+[special]#Updated {thinsp}{ndash}{thinsp} Jul 21, 2018{nbsp}#
+
+After the 2NT relay, any bid shows a fit for opener's suit, and usually four
 in responder's first-bid suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -73,20 +81,11 @@ in responder's first-bid suit.
 | 1NT | !2NT! | | forces 3C
 | 3C  | ?     | |
 |     | pass  | | to play
-|     2+<| __any bid__ | #GF-raise of _m_{thinsp},
-                  exactly 4xM#
-|     | !3D!  | | #om singleton#
-|     | !3oM! | | oM singleton
-|     |  3M   | | ?
-|     | !3NT! | | slam inv., no singleton
+|     | !3D!  | | 4{orMore}{xtimes}m, _other-minor_{thinsp} singleton
+|     | !3oM! | | 4{orMore}{xtimes}m, _other-Major_{thinsp} singleton
+|     |  3M   | | #5*M, 4*m, xx in others#, COG
+|     | !3NT! | | #4*M, 5*m, xx in others#, COG
 |===
-
-****
-&Idea for 3M& +
-@ 3M = other-minor singleton +
-@ 3D requests control-bidding
-@@ 4C = control in other minor
-****
 
 == Wolff Sign-Off
 
