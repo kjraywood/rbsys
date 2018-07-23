@@ -2,6 +2,9 @@
 
 == 2-Way Checkback
 
+https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html[
+_Two Way Checkback Stayman_{thinsp}, Andrew Gumperz, 2011]
+
 @ ON after both minors or both majors
 @ ON vs take-out double by either opp +
 @ #OFF if either opp has shown a suit#
@@ -48,8 +51,8 @@ Going though the minor-suit relay shows unequal length.
 
 === Second-round jumps
 
-These are usually descriptive picture-bids, providing opener with
-an accurate description of responder's hand.
+These are picture-bids, providing opener with an accurate description
+of responder's hand.
 
 *Second suit:*{thinsp} 5-5 with most values in the long suits. Slam is
 possible if the hands fit well.
@@ -73,12 +76,42 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 
 === Game-forcing Checkback
 
-Responder uses 2D to request for info about opener's hand.  Priorities
-for opener are: +
+Used to request for info about opener's hand.
+
+Priorities: +
 @ 2M = 3-card support +
 @ 2oM = 4 cards in the other major +
 @ 3m = good 5 or 6 card suit +
-2N = none of the above
+@ 2NT = none of the above
+
+==== Choice-of-game
+
+Jump to 3NT by responder following 3-card support = choice-of-game
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1C  |  1H   | |
+| 1NT | !2D!  | |
+| 2H  | !3NT! | | Choice of game: _e.g._ +
+                  {S}Kxx {H}KQxxx {D}KQx {C}Jx
+|===
+
+In the above, after 2H responder could have:
+@ bid 2S to seek a {S}-fit
+@ bid 2NT requesting further info
+
+So the jump to 3NT indicates that the only reason for 2D, was to offer
+a choice-of-game.
+Compare with:
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1C  |  1H   | |
+| 1NT | !2D!  | |
+| 2S  | !3NT! | | Sign off
+|===
+
+Responder used checkback to seek a 5-3 {H}-fit.
 
 === Game-forcing with a fit for opener's minor
 
