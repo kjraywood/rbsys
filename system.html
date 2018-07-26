@@ -12,7 +12,7 @@
 <div id="header">
 <h1>System Notes</h1>
 <div class="details">
-<span id="revdate">Last updated July 21, 2018</span>
+<span id="revdate">Last updated July 25, 2018</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -136,6 +136,7 @@
 <ul class="sectlevel2">
 <li><a href="#_inv_with_both_majors">Inv with both majors</a></li>
 <li><a href="#_second_round_jumps">Second-round jumps</a></li>
+<li><a href="#_game_forcing_checkback">Game-forcing Checkback</a></li>
 <li><a href="#_game_forcing_with_a_fit_for_opener_s_minor">Game-forcing with a fit for opener&#8217;s minor</a></li>
 </ul>
 </li>
@@ -580,16 +581,21 @@ the same scheme as opener.</p>
 <div class="sect3">
 <h4 id="_anti_splinter_super_accepts">Anti-splinter super-accepts</h4>
 <div class="paragraph">
-<p><span class="special">New &thinsp;&ndash;&thinsp; Jul 14, 2018&#160;</span></p>
+<p><span class="special">Updated &thinsp;&ndash;&thinsp; Jul 25, 2018&#160;</span></p>
 </div>
 <div class="paragraph">
-<p>Jump accept = clear max that would accept any short-suit try</p>
+<p>With four-card support and a max (a classic super-accept) we jump
+accept immediately.</p>
 </div>
 <div class="paragraph">
-<p>New suit = anti-splinter (suit in which opener would decline a short-suit try)</p>
+<p>With four-card support and less than a max, we show the location of
+outside values.
+This less-than-max hand is wider ranging, hence more frequent, so we
+attempt to increase accuracy with opener&#8217;s game try.</p>
 </div>
 <div class="paragraph">
-<p>2NT = anti-splinter in suit of transfer (ensures that responder can re-transfer)</p>
+<p>To ensure that a re-transfer is always possible, opener uses 2NT to show
+values in suit of transfer.</p>
 </div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
@@ -609,7 +615,7 @@ the same scheme as opener.</p>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">2<span class="courier red">&#9830;</span></span></p></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">2NT</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2NT = <span class="courier red">&#9830;</span> anti-splinter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2NT = <span class="courier red">&#9830;</span> values</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier red">&#9830;</span></span></p></td>
@@ -770,14 +776,39 @@ the same scheme as opener.</p>
 <div class="sect3">
 <h4 id="_vs_double_of_transfer">vs double of transfer</h4>
 <div class="paragraph">
-<p><span class="special">Modified &thinsp;&ndash;&thinsp; Jul 14, 2018&#160;</span></p>
+<p>Without four-card support, the focus is on a stopper and the scheme
+is similar to when Stayman is doubled.</p>
 </div>
 <div class="paragraph">
-<p>Anti-splinter super-accepts in new suits still apply, except that 2NT
-just indicates 1st-or-2nd-round control of the transfer suit.
-Following an anti-splinter, either player my indicate lack of control
-by bidding the transfer suit, thus allowing the contract to be played
-from the other side.</p>
+<p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; accepting transfer = 1st-or-2nd-round control,</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; 3-card support</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; pass promises a stopper but unable to accept</span><span class="backspace"> </span>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; responder redoubles for retransfer</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; redouble = no stopper</span><span class="backspace"> </span>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; responder shows full value</span><span class="backspace"> </span>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; <mark>2nd-round transfers are OFF</span></mark></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_vs_double_of_transfer_with_a_super_accept">vs double of transfer with a super-accept</h4>
+<div class="paragraph">
+<p><span class="special">Modified &thinsp;&ndash;&thinsp; Jul 25, 2018&#160;</span></p>
+</div>
+<div class="paragraph">
+<p>With four-card support, the scheme is almost the same as in the
+uncontested auction, except that opener declines to bid the trump suit
+without a stopper in the doubled transfer-suit; thus allowing responder
+to declare.</p>
+</div>
+<div class="paragraph">
+<p>With a clear max opener jump accepts with control in the
+transfer-suit, or makes a <em>reverse transfer</em>&thinsp; without control.</p>
+</div>
+<div class="paragraph">
+<p>A new suit showing values but less than a max still applies.</p>
+</div>
+<div class="paragraph">
+<p>With values in the transfer-suit and 4-card support, opener bids 2NT.</p>
 </div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
@@ -798,37 +829,29 @@ from the other side.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock"><span class="alert">2<span class="courier black">&#9824;</span></span>,<span class="alert">3<span class="courier black">&#9827;</span></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">anti-splinter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">COV, not max</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">2NT</span></p></td>
 <td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="courier red">&#9830;</span>-ctrl, 4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="courier red">&#9830;</span>-ctrl, not max</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier red">&#9830;</span></span></p></td>
 <td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">no <span class="courier red">&#9829;</span>-ctrl,  4&thinsp;&times;&thinsp;<span class="courier red">&#9829;</span>, clear max</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clear max, no <span class="courier red">&#9830;</span>-ctrl</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier black">&#9824;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="courier red">&#9829;</span></p></td>
 <td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">jump accept = <span class="courier red">&#9830;</span> ctrl, clear max</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">clear max, <span class="courier red">&#9830;</span> ctrl</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Without four-card support, the focus is on a stopper and the scheme
-is similar to when Stayman is doubled.</p>
-</div>
-<div class="paragraph">
-<p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; accepting transfer = 1st-or-2nd-round control,</span><span class="backspacex"> </span>
-<span class="nobr">&emsp; 3-card support</span><br>
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; pass promises a stopper but unable to accept</span><span class="backspace"> </span>
-<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; responder redoubles for retransfer</span><br>
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; redouble = no stopper</span><span class="backspace"> </span>
-<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; responder shows full value</span><span class="backspace"> </span>
-<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; <mark>2nd-round transfers are OFF</span></mark></p>
+<p>Following a COV super-accept, either player my indicate lack of control
+by bidding the transfer suit, thus allowing the contract to be played
+from the other side.</p>
 </div>
 </div>
 </div>
@@ -1154,14 +1177,17 @@ above to answer 6KC (0/3, 1/4, 2noQ, 2loQ, 2hiQ, 2bothQ )</p>
 <div class="sect2">
 <h3 id="_jacoby_2nt">Jacoby 2NT</h3>
 <div class="paragraph">
-<p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; jump new-suit = length</span>
+<p><span class="special">Updated &thinsp;&ndash;&thinsp; Jul 21, 2018&#160;</span></p>
+</div>
+<div class="paragraph">
+<p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; jump new-suit = length (at least 5-5)</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; <mark>without two quick-losers elsewhere</span></mark><br>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 3NT by either = minimum</span></p>
 </div>
 <div class="sect3">
 <h4 id="_vs_interference">vs interference</h4>
 <div class="paragraph">
-<p>Highest priority = prepare for further competition by showing a
-second-suit with values in that suit</p>
+<p>Highest priority = good second-suit with values in that suit</p>
 </div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
@@ -1186,7 +1212,7 @@ second-suit with values in that suit</p>
 <tr>
 <td class="tableblock halign-left valign-top" colspan="2"><p class="tableblock">3<span class="courier red">&#9829;</span>,4<span class="courier black">&#9827;</span></p></td>
 <td class="tableblock halign-right valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>natural, COV</mark>, control not specified</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2nd-suit</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">Dbl</span></p></td>
@@ -1292,7 +1318,7 @@ second-suit with values in that suit</p>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">2<span class="courier red">&#9830;</span></span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3&thinsp;&times;&thinsp;M, 9&ndash;11 <strong>|</strong> 5&thinsp;&times;&thinsp;M, 7&ndash;11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3&thinsp;&times;&thinsp;M, <mark>9&ndash;11</mark> <strong>|</strong> 5&thinsp;&times;&thinsp;M, 7&ndash;11</p></td>
 </tr>
 </tbody>
 </table>
@@ -1326,8 +1352,8 @@ second-suit with values in that suit</p>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">2oM</span></p></td>
 <td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">max, some singleton&#160;<span class="backspacex"> </span>
-<span class="nobr">&emsp; <span class="vraise mildblue small">&#x27a4;</span>&thinsp; 2NT asks where</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">max, some singleton
+                 <span class="nobr">&thinsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; 2NT asks where</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock">2NT</p></td>
@@ -3005,6 +3031,10 @@ double), then new suits are natural game-tries.</p>
 <h2 id="_2_way_checkback">2-Way Checkback</h2>
 <div class="sectionbody">
 <div class="paragraph">
+<p><a href="https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html">
+<em>Two Way Checkback Stayman</em>&thinsp;, Andrew Gumperz, 2011</a></p>
+</div>
+<div class="paragraph">
 <p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; ON after both minors or both majors</span>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; ON vs take-out double by either opp</span><br>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; <mark>OFF if either opp has shown a suit</span></mark><span class="backspace"> </span>
@@ -3131,6 +3161,10 @@ double), then new suits are natural game-tries.</p>
 <div class="sect2">
 <h3 id="_second_round_jumps">Second-round jumps</h3>
 <div class="paragraph">
+<p>These are picture-bids, providing opener with an accurate description
+of responder&#8217;s hand.</p>
+</div>
+<div class="paragraph">
 <p><strong>Second suit:</strong>&thinsp; 5-5 with most values in the long suits. Slam is
 possible if the hands fit well.</p>
 </div>
@@ -3181,13 +3215,111 @@ for KC.  Opener&#8217;s first priority is to assume a choice-of-game (3NT vs
 </div>
 </div>
 <div class="sect2">
+<h3 id="_game_forcing_checkback">Game-forcing Checkback</h3>
+<div class="paragraph">
+<p>Used to request for info about opener&#8217;s hand.</p>
+</div>
+<div class="paragraph">
+<p>Priorities:<br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 2M = 3-card support</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 2oM = 4 cards in the other major</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 3m = good 5 or 6 card suit</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 2NT = none of the above</span></p>
+</div>
+<div class="sect3">
+<h4 id="_choice_of_game">Choice-of-game</h4>
+<div class="paragraph">
+<p>Jump to 3NT by responder following 3-card support = choice-of-game</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="courier black">&#9827;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">2<span class="courier red">&#9830;</span></span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3NT</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Choice of game: <em>e.g.</em><br>
+                  <span class="courier black">&#9824;</span>Kxx <span class="courier red">&#9829;</span>KQxxx <span class="courier red">&#9830;</span>KQx <span class="courier black">&#9827;</span>Jx</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>In the above, after 2<span class="courier red">&#9829;</span> responder could have:
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; bid 2<span class="courier black">&#9824;</span> to seek a <span class="courier black">&#9824;</span>-fit</span>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; bid 2NT requesting further info</span></p>
+</div>
+<div class="paragraph">
+<p>So the jump to 3NT indicates that the only reason for 2<span class="courier red">&#9830;</span>, was to offer
+a choice-of-game.
+Compare with:</p>
+</div>
+<table class="tableblock frame-all grid-none">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="courier black">&#9827;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="courier red">&#9829;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1NT</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">2<span class="courier red">&#9830;</span></span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="courier black">&#9824;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3NT</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sign off</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Responder used checkback to seek a 5-3 <span class="courier red">&#9829;</span>-fit.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="_game_forcing_with_a_fit_for_opener_s_minor">Game-forcing with a fit for opener&#8217;s minor</h3>
 <div class="paragraph">
 <p><span class="special">Updated &thinsp;&ndash;&thinsp; Jul 21, 2018&#160;</span></p>
 </div>
 <div class="paragraph">
-<p>After the 2NT relay, any bid shows a fit for opener&#8217;s suit, and usually four
-in responder&#8217;s first-bid suit.</p>
+<p>Responder relays with 2NT then bids again, to show four-cards in
+opener&#8217;s minor and GF strength; possibly slammish.
+Responder&#8217;s suits are usually 4-4 (M-m) because:<br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 4-5 &#8658; inverted minor on first round</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 5-5 (pure) &#8658; jumps to 3m</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; 5-4 or non-pure 5-5 &#8658; 2<span class="courier red">&#9830;</span> (GF checkback)</span></p>
+</div>
+<div class="paragraph">
+<p><strong>Exception:</strong> There is a special sequence for 5-4 with two weak
+doubletons, allowing opener to choose 3NT to protect tenaces in those
+suits.</p>
 </div>
 <table class="tableblock frame-all grid-none">
 <colgroup>
@@ -3225,25 +3357,25 @@ in responder&#8217;s first-bid suit.</p>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="courier red">&#9830;</span></span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;m, <em>other-minor</em>&thinsp; singleton</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;m, <em>other-minor</em>&thinsp; singleton</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3oM</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;m, <em>other-Major</em>&thinsp; singleton</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;m, <em>other-Major</em>&thinsp; singleton</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3M</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3M</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>5&thinsp;&times;&thinsp;M, 4&thinsp;&times;&thinsp;m, xx in others</mark>, COG</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>5&thinsp;&times;&thinsp;M + 4&thinsp;&times;&thinsp;m, xx in others</mark>, COG</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3NT</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>4&thinsp;&times;&thinsp;M, 5&thinsp;&times;&thinsp;m, xx in others</mark>, COG</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4&thinsp;&times;&thinsp;M + 4&thinsp;&times;&thinsp;m, no singleton, slam try</p></td>
 </tr>
 </tbody>
 </table>
