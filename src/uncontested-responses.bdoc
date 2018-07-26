@@ -35,14 +35,13 @@ _ #without two quick-losers elsewhere# +
 
 ==== vs interference
 
-Highest priority = prepare for further competition by showing a
-second-suit with values in that suit
+Highest priority = good second-suit with values in that suit
 
 [%autowidth,cols="^,>,2*<",grid="none"]
 |===
 | 1S    | (P) | | !2NT! {emsp} (3D)
 | ?     |     | |
-2+<| 3H,4C    | | #natural, COV#, control not specified
+2+<| 3H,4C    | | 2nd-suit
 | !Dbl! |     | | singleton
 | pass  |     | | control (1st or 2nd) or length
 | 3S    |     | | extras, no control
@@ -69,7 +68,7 @@ second-suit with values in that suit
 | P    | 1M |
 | ?    |    |
 | !2C! |    | 4*M, 8{ndash}11
-| !2D! |    | 3*M, 9{ndash}11 {or} 5*M, 7{ndash}11
+| !2D! |    | 3*M, #9{ndash}11# {or} 5*M, 7{ndash}11
 |===
 
 [%autowidth,cols="^,2*<",grid="none"]
@@ -78,8 +77,8 @@ second-suit with values in that suit
 | !2C!  | !2D! |
 |  ?    |      |
 |  2M   |      | min
-| !2oM! |      | max, some singleton{nbsp}
-               _ {tribull} 2NT asks where
+| !2oM! |      | max, some singleton
+                 [nobr]#{thinsp}{tribull} 2NT asks where#
 |  2NT  |      | max, no singleton
 |===
 
