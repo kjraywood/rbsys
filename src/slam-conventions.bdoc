@@ -1,19 +1,31 @@
 = Slam Conventions
 
-== Key-Card Asking
+{warning} Incomplete. More revisions will be made soon -- _July 28, 2018_
 
-=== Responses
+// == Slam Tries and Control Bids
 
-@ 03,14 / Gerber & Kickback
-@ 0,1,2{OrLess},2{OrMore} / Exclusion
-@ 0,1{OrLess},1{OrMore},2{OrLess},2{OrMore} / Preempt-KC
+// == Key-Card Asking
+
+// === Responses
+
+// @ 03,14 / Gerber, Minorwood, Kickback
+// @ 0,1,2{OrLess},2{OrMore} / Exclusion
+// @ 0,1{OrLess},1{OrMore},2{OrLess},2{OrMore} / Preempt-KC ( 4C or 4D{thinsp}/{thinsp}3C-opening )
+
+== First-round ace-asking
+
+=== Plain Blackwood
+
+1__suit__ {ndash} 4NT = plain Blackwood
+
+Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
 
 === Gerber
 
 @ Only applies after 1NT and 2NT openings
 @ Responses: 03, 14, 2 & min, 2 & max
 
-{warning}{ensp}__Self splinters (not Gerber) after NT rebids__
+#Self splinters (not Gerber) after NT rebids#
 
 === Cheap Key-Card after preempts
 
@@ -22,54 +34,81 @@
 @ (!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
 @ Responses: 0, 1-, 1+, 2-, 2+
 
-=== Exclusion
+=== First-round Exclusion
 
-[special]#Updated {thinsp}{ndash}{thinsp} Mar 27, 2018{nbsp}#
+First-round jumps to 4M are to play.
 
-Exclusion is always a suit bid or 4NT as a kickback substitute
-#between four and five of our trump suit#.
+Other first-round jumps that are one-level higher than a splinter are exclusion.
 
-Applies when:
+== Kickback for Hearts
 
-@ direct triple-jump response to 1M opening
-@ suit agreed, then jump +
-@ a non-jump following
-@@ a control-bid by partner
-@@ suit agreement at 4-level
+=== Both majors 
 
-Responses:  0, 1, 2-, 2+, 3-, 3+
+==== Heart agreement in GF auctions
 
-== Kickback
+#Picture bids have priority#
 
-@ 03-14 responses
-@ 4NT replaces the kickback suit
-@ asker keeps asking, teller keeps telling
-
-=== Hearts and Spades
-
-_When both majors are in focus, the first agreed !fit! is trumps_
+On any other continuation, hearts are trump and 4S is kickback.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S |  2H  | |
-| 3H | !3S! | | {H} are trump,{thinsp}
-              _ 3S = middle-auction
+| 1S |  2H   | |
+| 3H |  ?    | |
+|    | !3S!  | | {S} A, K or Q, [nobr]#trump = {H}#
+|    |  3NT  | | natural, COG, (neither has shown 5-4{orMore})
+|    | 4C,4D | | slam try, [nobr]#trump = {H}#
+|    |  4S   | | picture bid,  [nobr]#trump = {S}#
+|    |  4NT  | | trump = {H}, #?? RKC or {S}-exclusion ??#
 |===
 
-If it’s possible to set spades as trump with an unambiguous forcing 3S
-bid, but not possible to set hearts as trump unambiguously, then a
-jump to 4S by the heart bidder is kickback for hearts and 4NT is
-exclusion requesting KC in hearts excluding the ace of spades.
+To use 4S kickback for {H} in the above auction, responder must bid
+something else first.
+It should be honest in case opener takes control;
+_e.g._{thinsp} a fake 3S might induce opener to think that {S} are
+solid, and hence convert to 6NT or 7NT.
+
+==== Auctions without suit agreement
+
+If it’s possible to set a suit as trump with an unambiguous below-game
+forcing-bid, then that route must be taken to ask for key-cards in
+that suit.
+
+This may free-up 4NT to be used as either natural or self-wood (KC in
+own suit).  #We need to choose our agreement#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1S |  2H   | |
 | 2S |  ?    | |
-|    |  3S   | | sets trump to {S}
-|    | !4S!  | | kickback for {H}
-|    | !4NT! | | exclusion
-               _ = asks for {H} KC excl. {S}A
+|    |  3S   | | trump = {S}
+|    |  4S   | | picture bid
+|    | !4NT! | | #KC for {H} or DNE# ???
 |===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 2H |  ?    | |
+|    |  3S   | | forcing, [nobr]#trumps not agreed#
+|    | !4C!  | | splinter (could be fake to set trump)
+|    |  4S   | | to play
+|    | !4NT! | | #KC for {S} or natural# ???
+|===
+
+When opener jump rebids hearts, then it's not possible to agree hearts
+below 4H, so 4NT is KC.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 3H |  ?    | |
+|    |  3S   | | forcing, [nobr]#trumps not agreed#
+|    | 4C,4D | | natural
+|    |  4S   | | to play
+|    | !4NT! | | #KC for {H}#
+|===
+
+== Minors
 
 === Major and minor
 
@@ -81,9 +120,16 @@ _Majors have priority over minors_
 | 3D | 3H | | {H} are trump
 |===
 
-// Minorwood
-// Four of our minor requests key-cards.  ** Need more clarification and examples here **
-// Jump agreement from two to four
+=== Minorwood
+
+Applies when
+
+@ agreed minor as trump below 3NT
+_(splinters count) +
+@ preceeding round uncontensted
+@ 4m bid by unlimited hand
+@ bid by stronger hand
+
 // Re-raise from three to four
 // After suit agreement and one cue-bid below 3NT
 // Pulling 3NT to four of our previously agreed minor
@@ -143,3 +189,22 @@ Following Pass (odd) it is still possible to ask for the trump Q with double.
 
 // Specific Suit Asking Bids
 // ** danger **
+
+
+
+=== Exclusion
+
+// [special]#Updated {thinsp}{ndash}{thinsp} Mar 27, 2018{nbsp}#
+
+==== Majors
+
+Applies when:
+
+@ direct triple-jump response to 1M opening
+@ suit agreed, then jump +
+@ a non-jump following
+@@ a control-bid by partner
+@@ suit agreement at 4-level
+
+Responses:  0, 1, 2-, 2+, 3-, 3+
+
