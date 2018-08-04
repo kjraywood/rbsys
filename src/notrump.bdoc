@@ -192,7 +192,8 @@ which must be {H} + {C}.
 |         |     |  2H  |       | sign off
 |         |     | !2S! |       | inv., 5{times}{H} + 4{orMore}{times}{C} +
                        {tribull} #reverse-transfers:#
-		               _ 2NT{forces}{C} or 3D{forces}{H}
+		               _ 2NT{forces}{C},
+			       _ 3D{forces}{H}
 |         |     | 2NT  |       | natural, inv
 |         |     | 3C   |       | natural, GF
 |         |     | 3H   |       | natural, inv
