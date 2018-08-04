@@ -49,16 +49,17 @@ was 2D._{thinsp}
 In addition, responder can show both majors and short clubs using
 the same scheme as opener.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-| 1NT  | (P) | !2C!    | (Dbl) |
-| !P!  | (P) |  ?      |       | opener's pass promises a stopper
-|      |     | !Redbl! |       | re-Stayman, 2{OrMore}{xtimes}{C}
-|      |     | !2D!    |       | garbage-Stayman hand
-|      |     | !2H!    |       | both majors, weak, {H}-length {ge} {S}-length
-|      |     | !2S!    |       | 5*{S}, inv. (with short {C})
-|      |     | !2NT!   |       | 4-4 majors, short {C}, inv.
-|      |     | !3C!    |       | 4-4 majors, short {C}, GF
+|      |         |       | 1NT | |
+| (P)  | !2C!    | (Dbl) | !P! | | {C} stopper
+| (P)  |  ?      |       |     | |
+|      | !Redbl! |    3+<| re-Stayman, 2{OrMore}{xtimes}{C}
+|      | !2D!    |    3+<| garbage-Stayman hand
+|      | !2H!    |    3+<| both majors, weak, {H}-length {ge} {S}-length
+|      | !2S!    |    3+<| 5*{S}, inv. (with short {C})
+|      | !2NT!   |    3+<| 4-4 majors, short {C}, inv.
+|      | !3C!    |    3+<| 4-4 majors, short {C}, GF
 |===
 
 === Jacoby transfers
@@ -185,20 +186,20 @@ _ = as though opener accepted the transfer
 doubled and redoubled, 2S is still used to show an unbalanced invitation
 which must be {H} + {C}.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-| 1NT     | (P) | !2D! | (Dbl) |
-| !Redbl! | (P) |  ?   |       | Redble denies {D} stopper
-|         |     |  2H  |       | sign off
-|         |     | !2S! |       | inv., 5{times}{H} + 4{orMore}{times}{C} +
-                       {tribull} #reverse-transfers:#
-		               _ 2NT{forces}{C},
-			       _ 3D{forces}{H}
-|         |     | 2NT  |       | natural, inv
-|         |     | 3C   |       | natural, GF
-|         |     | 3H   |       | natural, inv
-|         |     | 3NT  |       | to play
-|         |     | 4H   |       | to play
+|      |       |       | 1NT     | |
+| (P)  | !2D!  | (Dbl) | !Redbl! | | no {D} stopper
+| (P)  |  ?    |       |         | |
+|      |  2H   |    3+<| sign off
+|      | !2S!  |    3+<| inv., 5{times}{H} + 4{orMore}{times}{C} +
+                         {tribull} #reverse-transfers:#
+	                 _ !2NT! {forces} {C}, !3D! {forces} {H}
+|      | 2NT   |    3+<| natural, inv
+|      | 3C    |    3+<| natural, GF
+|      | 3H    |    3+<| natural, inv
+|      | 3NT   |    3+<| to play
+|      | 4H    |    3+<| to play
 |===
 
 ==== With four-card support
