@@ -79,9 +79,9 @@ show values in suit of transfer.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|      |  1NT  | |
-| !2D! | !2NT! | | 2NT = {D} values
-| !3D! |  3H   | | 3D = re-transfer
+|       |  1NT   | |
+| !2D!  | !2NT!* | | * {D} values
+| !3D!{superdag} | 3H | | {superdag} re-transfer
 |===
 
 [NOTE]
