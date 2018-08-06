@@ -1,0 +1,137 @@
+= Asking for Key Cards
+
+== Kickback for Hearts
+
+Hearts agreed => 4S by unlimited hand is kickback #unless it is a picture jump#
+
+=== Picture jumps in 2/1 Auctions
+
+_Fast Arrival vs. Picture Bidding__{thinsp}, Andrew Gumperz, 2012:{ensp}
+[nobr]#https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/[Part 1],
+{ensp}https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/[Part 2],
+{ensp}https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/[Part 3]#
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2H   | |
+| 3H |  ?    | |
+|    | !3S!  | | {S} A, K or Q, trump = {H}
+|    |  3NT  | | natural, NF, COG, (neither has shown 5-4{orMore})
+|    | 4C,4D | | slam try, trump = {H}
+|    |  4S   | | #picture bid#, trump = {S}
+|    | !4NT! | | #exclusion#, {S}-void, trump = {H}
+|===
+
+To use 4S as kickback for {H} in the above auction, responder must bid
+something else first.
+It should be honest in case opener takes control;
+_e.g._{thinsp} a fake 3S might induce opener to think that {S} are
+solid, and hence convert to 6NT or 7NT.
+
+=== Reverse auctions
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C   | 1S |
+|  2H   | 3H |
+|  ?    |    |
+| !3S!  |    | {S} A, K or Q, trump = {H}
+| !3NT! |    | mild slam-try, (opener has shown at least 5-4)
+|  4C   |    | serious slam try
+|  4D   |    | serious slam try ({S} shortness)
+|  4H   |    | min reverse, no help in {S}
+|  4S   |    | #picture jump#, trump = {S}
+| !4NT! |    | #exclusion#, {S}-void, trump = {H}
+|===
+
+As in the 2/1 auction, responder must bid something else before
+bidding 4S as kickback for {H}.
+
+For the picture jump, opener might hold
+[lightgrey-bg]#{S}AQ2 {H}KQ3 {D}74 {C}AQJT5#.
+The reverse into the three-card heart-suit was safe because a heart
+raise by responder indicates five spades and extras (no reverse
+Flannery).
+
+==== Auctions without suit agreement
+
+If it’s possible to set a suit as trump with an unambiguous below-game
+forcing-bid, then that route must be taken to ask for key-cards in
+that suit.
+
+This may free-up 4NT to be used as either natural or self-wood (KC in
+own suit).  #We need to choose our agreement#
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2H   | |
+| 2S |  ?    | |
+|    |  3S   | | trump = {S}
+|    |  4S   | | picture bid
+|    | !4NT! | | #KC for {H} or DNE# ???
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 2H |  ?    | |
+|    |  3S   | | forcing, [nobr]#trumps not agreed#
+|    | !4C!  | | splinter (could be fake to set trump)
+|    |  4S   | | to play
+|    | !4NT! | | #KC for {S} or natural# ???
+|===
+
+When opener jump rebids hearts, then
+@ it's not possible to agree hearts below game
+@
+
+, so 4NT is KC.
+Also, 3H
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 3H |  ?    | |
+|    |  3S   | | forcing, [nobr]#trumps not agreed#
+|    | 4C,4D | | natural
+|    |  4S   | | to play
+|    | !4NT! | | #KC for {H}#
+|===
+
+== Minors
+
+=== Major and minor
+
+_Majors have priority over minors_
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H | 2D | |
+| 3D | 3H | | {H} are trump
+|===
+
+=== Minorwood
+
+Applies when
+
+@ agreed minor as trump below 3NT
+_(splinters count) +
+@ preceeding round uncontensted
+@ 4m bid by unlimited hand
+
+=== Exclusion
+
+// [special]#Updated {thinsp}{ndash}{thinsp} Mar 27, 2018{nbsp}#
+
+==== Majors
+
+Applies when:
+
+@ direct triple-jump response to 1M opening
+@ suit agreed, then jump +
+@ a non-jump above 4M following
+@@ a control-bid by partner
+@@ suit agreement at 4-level  ???
+
+Responses:  0, 1, 2-, 2+, 3-, 3+
+

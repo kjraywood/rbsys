@@ -42,7 +42,7 @@ Other first-round jumps that are one-level higher than a splinter are exclusion.
 
 == Kickback for Hearts
 
-=== Both majors 
+=== Both majors
 
 ==== Heart agreement in GF auctions
 
@@ -66,47 +66,6 @@ something else first.
 It should be honest in case opener takes control;
 _e.g._{thinsp} a fake 3S might induce opener to think that {S} are
 solid, and hence convert to 6NT or 7NT.
-
-==== Auctions without suit agreement
-
-If it’s possible to set a suit as trump with an unambiguous below-game
-forcing-bid, then that route must be taken to ask for key-cards in
-that suit.
-
-This may free-up 4NT to be used as either natural or self-wood (KC in
-own suit).  #We need to choose our agreement#
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S |  2H   | |
-| 2S |  ?    | |
-|    |  3S   | | trump = {S}
-|    |  4S   | | picture bid
-|    | !4NT! | | #KC for {H} or DNE# ???
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 2H |  ?    | |
-|    |  3S   | | forcing, [nobr]#trumps not agreed#
-|    | !4C!  | | splinter (could be fake to set trump)
-|    |  4S   | | to play
-|    | !4NT! | | #KC for {S} or natural# ???
-|===
-
-When opener jump rebids hearts, then it's not possible to agree hearts
-below 4H, so 4NT is KC.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 3H |  ?    | |
-|    |  3S   | | forcing, [nobr]#trumps not agreed#
-|    | 4C,4D | | natural
-|    |  4S   | | to play
-|    | !4NT! | | #KC for {H}#
-|===
 
 == Minors
 
