@@ -52,7 +52,7 @@ Hearts agreed => 4S by unlimited hand is kickback #unless it is a picture jump#
 |===
 | 1S |  2H   | |
 | 3H |  ?    | |
-|    | !3S!  | | {S} A, K or Q, trump = {H}
+|    | !3S!  | | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}), trump = {H}
 |    |  3NT  | | natural, NF, COG, (neither has shown 5-4{orMore})
 |    | 4C,4D | | slam try, trump = {H}
 |    |  4S   | | #picture bid#, trump = {S}
@@ -72,7 +72,7 @@ solid, and hence convert to 6NT or 7NT.
 |  1C   | 1S |
 |  2H   | 3H |
 |  ?    |    |
-| !3S!  |    | {S} A, K or Q, trump = {H}
+| !3S!  |    | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}), trump = {H}
 | !3NT! |    | mild slam-try, (opener has shown at least 5-4)
 |  4C   |    | serious slam try
 |  4D   |    | serious slam try ({S} shortness)
