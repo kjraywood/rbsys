@@ -118,7 +118,7 @@ If a forcing 2NT is available, then 4NT is self-wood (KC in own suit).
 |    |  2NT  | | forcing (2/1 auction)
 |    |  3S   | | trump = {S}
 |    |  4S   | | picture bid
-|    | !4NT! | | #KC for {H}#
+|    | !4NT! | | #KC for {H}# (self-wood)
 |===
 
 When opener jump rebids hearts, then: +
@@ -126,7 +126,6 @@ When opener jump rebids hearts, then: +
 @ hand strength fairly tightly defined
 
 So 4NT is KC.
-Also, 3H
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
