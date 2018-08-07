@@ -6,6 +6,8 @@
 
 These have priority over key-card asking.
 
+'''
+
 == 2/1 Auctions
 
 _Fast Arrival vs. Picture Bidding_{thinsp}, Andrew Gumperz, 2012:{ensp}
@@ -17,10 +19,14 @@ _Fast Arrival vs. Picture Bidding_{thinsp}, Andrew Gumperz, 2012:{ensp}
 
 A single-jump in opener's first suit is a picture jump; _not a splinter_.
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*<",grid="cols"]
 |===
-|  1D   | 1S | |
-|  2H   | 4D | | {S}AQT64 {H}53 {D}KQ87 {C}J2
+.>| 1D {ensp} 1S
+.2+| {S} AQT64 +
+     {H} 53 +
+     {D} KQ87 +
+     {C} J2
+.<| 2H {ensp} 4D
 |===
 
 [NOTE]
@@ -32,13 +38,21 @@ _e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
 The picture bid can also be in opener's second suit, and five-card
 support is needed in case opener reversed into a three-card suit.
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*<",grid="cols"]
 |===
-|  1C   | 1S | |
-|  2D   | 4D | | {S}AK974 {H}62 {D}KJ983 {C}5
+.>| 1C {ensp} 1S
+.2+| {S} AK974 +
+     {H} 62 +
+     {D} KJ983 +
+     {C} 5
+.<| 2D {ensp} 4D
 |===
 
+'''
+
 = Asking for Key Cards
+
+'''
 
 == Kickback for Hearts
 
@@ -54,7 +68,8 @@ Hearts agreed => 4S by unlimited hand is kickback #unless it is a picture jump#
 | 3H |  ?    |
 |    | !3S!  | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}),
                [nobr]#trump = {H}#
-|    |  3NT  | natural, NF, COG, (neither has shown 5-4{orMore})
+|    |  3NT  | natural, NF, COG, 
+        [nobr]#(neither has shown 5-4{orMore})#
  2+>| 4C,4D <| slam try, trump = {H}
 |    |  4S   | #picture bid#, trump = {S}
 |    | !4NT! | #exclusion#, {S}-void, trump = {H}
@@ -73,8 +88,10 @@ solid, and hence convert to 6NT or 7NT.
 |  1C   | 1S |
 |  2H   | 3H |
 |  ?    |    |
-| !3S!  |    | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}), trump = {H}
-| !3NT! |    | mild slam-try, (opener has shown at least 5-4)
+| !3S!  |    | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}),
+        [nobr]#trump = {H}#
+| !3NT! |    | mild slam-try,
+        [nobr]#(opener has shown at least 5-4)#
 |  4C   |    | serious slam try
 |  4D   |    | serious slam try ({S} shortness)
 |  4H   |    | min reverse, no help in {S}
@@ -109,7 +126,7 @@ If 2NT is not available or not forcing, then 4NT is natural.
 |    |  2NT  | | natural inv.
 |    |  3H   | | inv.
 |    |  3S   | | forcing, [nobr]#trumps not agreed#
-|    | !4C!  | | splinter (could be fake to set trump)
+|    | !4C!  | | splinter [nobr]#(could be fake to set trump)#
 |    |  4S   | | to play
 |    | !4NT! | | #natural inv.#
            [nobr]#(forcing-2NT unavailable)#
@@ -164,17 +181,17 @@ _ _(incl. via splinter)_ +
 @ neither opponent bid on preceeding round +
 @ 4m bidder is unlimited
 
-[%autowidth,cols="4*<",grid="cols"]
+[%autowidth,cols="3*<",grid="cols"]
 |===
-| 1D {ensp} 2D | 1C {ensp} 2C | 1S {ensp} 2D | 1D {ensp} !3C!
-| 4D           | 2H {ensp} 4C | 3D {ensp} 4D | 4D
+| 1D {ensp} 2D | 1C {ensp} 2C | 1D {ensp} !3C!
+| 4D           | 2H {ensp} 4C | 4D
 |===
 
-[%autowidth,cols="2*<",grid="cols"]
+[%autowidth,cols="3*<",grid="cols"]
 |===
-| 1D {ensp} 1S | {ensp}1D {ensp} 1S
-| 2C {ensp} 3D | {ensp}2C {ensp} 3C
-| ?            |    3NT {thinsp} 4C
+| 1S {ensp} 2D | 1D {ensp} 1S | {ensp}1D {ensp} 1S
+| 3D {ensp} 4D | 2C {ensp} 3D | {ensp}2C {ensp} 3C
+|              | ?            |    3NT {thinsp} 4C
 |===
 
 [%autowidth,cols="3*<",grid="cols"]
@@ -293,4 +310,3 @@ except if clubs +
 
 If diamonds are agreed and clubs is the fourth or unbid suit,
 then the cheaper of each player's !2nd-suit! is KC asking.
-
