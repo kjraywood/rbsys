@@ -1,15 +1,52 @@
+:doctype: book
+
+= For Discussion
+
+= Picture Jumps
+
+These have priority over key-card asking.
+
+== 2/1 Auctions
+
+_Fast Arrival vs. Picture Bidding_{thinsp}, Andrew Gumperz, 2012:{ensp}
+[nobr]#https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/[Part 1],
+{ensp}https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/[Part 2],
+{ensp}https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/[Part 3]#
+
+== Reverse Auctions
+
+A single-jump in opener's first suit is a picture jump; _not a splinter_.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D   | 1S | |
+|  2H   | 4D | | {S}AQT64 {H}53 {D}KQ87 {C}J2
+|===
+
+[NOTE]
+====
+A double-jump after a non-reverse is a splinter.
+_e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
+====
+
+The picture bid can also be in opener's second suit, and five-card
+support is needed to cover a three-card reverse.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1C   | 1S | |
+|  2D   | 4D | | {S}AK974 {H}62 {D}KJ983 {C}5
+|===
+
 = Asking for Key Cards
 
 == Kickback for Hearts
 
 Hearts agreed => 4S by unlimited hand is kickback #unless it is a picture jump#
 
-=== Picture jumps in 2/1 Auctions
+=== Both Majors
 
-_Fast Arrival vs. Picture Bidding__{thinsp}, Andrew Gumperz, 2012:{ensp}
-[nobr]#https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/[Part 1],
-{ensp}https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/[Part 2],
-{ensp}https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/[Part 3]#
+==== 2/1 Auctions
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -28,7 +65,7 @@ It should be honest in case opener takes control;
 _e.g._{thinsp} a fake 3S might induce opener to think that {S} are
 solid, and hence convert to 6NT or 7NT.
 
-=== Reverse auctions
+==== Reverse auctions
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -58,34 +95,37 @@ Flannery).
 If it’s possible to set a suit as trump with an unambiguous below-game
 forcing-bid, then that route must be taken to ask for key-cards in
 that suit.
-
-This may free-up 4NT to be used as either natural or self-wood (KC in
-own suit).  #We need to choose our agreement#
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S |  2H   | |
-| 2S |  ?    | |
-|    |  3S   | | trump = {S}
-|    |  4S   | | picture bid
-|    | !4NT! | | #KC for {H} or DNE# ???
-|===
+If 2NT is not available or not forcing, then 4NT is natural.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1H |  1S   | |
 | 2H |  ?    | |
+|    |  2NT  | | natural inv.
+|    |  3H   | | inv.
 |    |  3S   | | forcing, [nobr]#trumps not agreed#
 |    | !4C!  | | splinter (could be fake to set trump)
 |    |  4S   | | to play
-|    | !4NT! | | #KC for {S} or natural# ???
+|    | !4NT! | | #natural# (forcing 2NT not available)
 |===
 
-When opener jump rebids hearts, then
-@ it's not possible to agree hearts below game
-@
+If a forcing 2NT is available, then 4NT is self-wood (KC in own suit).
 
-, so 4NT is KC.
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2H   | |
+| 2S |  ?    | |
+|    |  2NT  | | forcing (2/1 auction)
+|    |  3S   | | trump = {S}
+|    |  4S   | | picture bid
+|    | !4NT! | | #KC for {H}#
+|===
+
+When opener jump rebids hearts, then: +
+@ it's not possible to agree hearts below game
+@ hand strength fairly tightly defined
+
+So 4NT is KC.
 Also, 3H
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -110,28 +150,134 @@ _Majors have priority over minors_
 | 3D | 3H | | {H} are trump
 |===
 
-=== Minorwood
+We probably should use 4m as double-KC.
 
-Applies when
+=== Minorwood after below-game agreement
 
 @ agreed minor as trump below 3NT
-_(splinters count) +
-@ preceeding round uncontensted
-@ 4m bid by unlimited hand
+_ _(incl. via splinter)_ +
+@ neither opponent bid on preceeding round +
+@ 4m bidder is unlimited
 
-=== Exclusion
+[%autowidth,cols="4*<",grid="cols"]
+|===
+| 1D {ensp} 2D | 1C {ensp} 2C | 1S {ensp} 2D | 1D {ensp} !3C!
+| 4D           | 2H {ensp} 4C | 3D {ensp} 4D | 4D
+|===
 
-// [special]#Updated {thinsp}{ndash}{thinsp} Mar 27, 2018{nbsp}#
+[%autowidth,cols="2*<",grid="cols"]
+|===
+| 1D {ensp} 1S | {ensp}1D {ensp} 1S
+| 2C {ensp} 3D | {ensp}2C {ensp} 3C
+| ?            |    3NT {thinsp} 4C
+|===
 
-==== Majors
+[%autowidth,cols="3*<",grid="cols"]
+|===
+| 1D {ensp} 1S | {ensp}1C {ensp} 1S |  1S  {ensp} 2D
+| 2H {ensp} 3D | {ensp}2H {ensp} 3C | !3H! {ensp} 3NT
+| 4D           |    3NT {thinsp} 4C | 4D
+|===
 
-Applies when:
+==== Optional key-card?
 
-@ direct triple-jump response to 1M opening
-@ suit agreed, then jump +
-@ a non-jump above 4M following
-@@ a control-bid by partner
-@@ suit agreement at 4-level  ???
+Kantar treats opener's raise of a 2/1 as limited, even though it is forcing.
 
-Responses:  0, 1, 2-, 2+, 3-, 3+
+[%autowidth,cols="2*^",grid="none"]
+|===
+| 1H | 2D
+| 3D | 3S
+| ?  |
+|===
+
+Opener may not be able to bid 3NT or 4C, hence 4D is the default bid.
+Optional key-card might make sense here.
+
+==== Minorwood to accept slam invitation
+
+A limited hand can use minorwood when invited to slam; usually via a
+splinter.
+
+[%autowidth,cols="4*<",grid="cols"]
+|===
+.4+| {S} Axx +
+     {H} Kx +
+     {D} xx +
+     {C} AQTxxx
+.4+| {S} x +
+     {H} xxx +
+     {D} AKxxxx +
+     {C} KJx
+|  1C  {ensp}  1D  |
+|  2C  {ensp} !3S! | {ensp}splinter
+| !4C! {ensp} !4S! | {ensp}2 w/o
+|  6C              |
+|===
+
+==== After a GF cue-bid
+
+This occurs when the cue-bid is above three of opener's suit.
+We treat this the same as the 3-level GF-agreement sequences; hence
+minorwood is on.
+
+[%autowidth,cols="4*^",grid="rows"]
+|===
+| 1D | (2S) |  3S | (P)
+| 4D |      |     |
+|===
+
+However, opener is forced and does not have an obvious default bid.
+So perhaps optional keycard makes sense here.
+
+=== In competition
+
+In contested auction after a raise from one to two, or after a
+limit-raise, a JUMP to the cheapest unbid suit above 4m is KC asking.
+If that's not possible, then 4NT is KC-asking.
+
+[%autowidth,cols="4*^,<",grid="rows"]
+|===
+|      |      | 1D | (P) |
+| !2D! | (3C) |  ? |     |
+|      |      | 4D |     | extra length (preemptive)
+|      |      | 4H |     | KC asking
+|===
+
+In the above, if the interference was 3S, then 4NT would ask for KCs.
+
+=== Non-agreement auctions
+
+==== After 3-level rebid
+
+[%autowidth,cols="3*<",grid="cols"]
+|===
+| 1D {ensp} 1H | 1S {ensp} 2C | 1C {ensp} 1D
+| 3D {ensp} ?  | 2D {ensp} 3C | 1S {ensp} 3D
+|              | ?            | ?
+|===
+
+In the first auction, the rebid is non-forcing so it's reasonable to
+use the raise as minorwood.
+
+In the second and third auctions, opener is forced.
+The fourth-suit (3H) is probably the default bid but opener might
+want to raise without taking control.
+However, opener may also want to request key-cards.
+Optional key-card might make sense here.
+
+In all three of these auctions Kantar says that the jump to the
+cheapest unbid suit above 4m is KC.
+
+=== 4-level agreement
+
+The KC-asking bid depends on the number of unbid suits.
+
+@ two => lower unbid is KC +
+@ one => unbid suit is KC,
+_ except if clubs +
+@ zero => fourth suit is KC,
+except if clubs +
+
+If diamonds are agreed and clubs is the fourth or unbid suit,
+then the cheaper of each player's !2nd-suit! is KC asking.
 
