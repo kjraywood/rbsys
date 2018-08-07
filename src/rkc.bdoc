@@ -106,10 +106,11 @@ If 2NT is not available or not forcing, then 4NT is natural.
 |    |  3S   | | forcing, [nobr]#trumps not agreed#
 |    | !4C!  | | splinter (could be fake to set trump)
 |    |  4S   | | to play
-|    | !4NT! | | #natural# (forcing 2NT not available)
+|    | !4NT! | | #natural inv.#
+           [nobr]#(forcing-2NT unavailable)#
 |===
 
-If a forcing 2NT is available, then 4NT is self-wood (KC in own suit).
+If forcing-2NT is available, then 4NT is self-wood (KC in own suit).
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
