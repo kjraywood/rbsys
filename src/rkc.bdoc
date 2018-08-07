@@ -48,15 +48,16 @@ Hearts agreed => 4S by unlimited hand is kickback #unless it is a picture jump#
 
 ==== 2/1 Auctions
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1S |  2H   | |
-| 3H |  ?    | |
-|    | !3S!  | | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}), trump = {H}
-|    |  3NT  | | natural, NF, COG, (neither has shown 5-4{orMore})
-|    | 4C,4D | | slam try, trump = {H}
-|    |  4S   | | #picture bid#, trump = {S}
-|    | !4NT! | | #exclusion#, {S}-void, trump = {H}
+| 1S |  2H   |
+| 3H |  ?    |
+|    | !3S!  | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}),
+               [nobr]#trump = {H}#
+|    |  3NT  | natural, NF, COG, (neither has shown 5-4{orMore})
+|    | 4C,4D | slam try, trump = {H}
+|    |  4S   | #picture bid#, trump = {S}
+|    | !4NT! | #exclusion#, {S}-void, trump = {H}
 |===
 
 To use 4S as kickback for {H} in the above auction, responder must bid
@@ -183,7 +184,7 @@ _ _(incl. via splinter)_ +
 | 4D           |    3NT {thinsp} 4C | 4D
 |===
 
-==== Optional key-card?
+==== Optional minorwood?
 
 Kantar treats opener's raise of a 2/1 as limited, even though it is forcing.
 
@@ -195,14 +196,21 @@ Kantar treats opener's raise of a 2/1 as limited, even though it is forcing.
 |===
 
 Opener may not be able to bid 3NT or 4C, hence 4D is the default bid.
-Optional key-card might make sense here.
+Optional minorwood might make sense here.
+
+[NOTE]
+====
+*Optional minorwood:*{ensp} 4m shows slam interest.
+To accept, partner bids 4m+1 to ask for KC.
+To decline, partner shows KCs beginning at 4m+2.
+====
 
 ==== Minorwood to accept slam invitation
 
-A limited hand can use minorwood when invited to slam; usually via a
+A limited hand can use minorwood when it has been invited to slam; usually via a
 splinter.
 
-[%autowidth,cols="4*<",grid="cols"]
+[%autowidth,cols="3*<",grid="cols"]
 |===
 .4+| {S} Axx +
      {H} Kx +
@@ -212,10 +220,11 @@ splinter.
      {H} xxx +
      {D} AKxxxx +
      {C} KJx
-|  1C  {ensp}  1D  |
-|  2C  {ensp} !3S! | {ensp}splinter
-| !4C! {ensp} !4S! | {ensp}2 w/o
-|  6C              |
+|  1C  {ensp} 1D
+|  2C  {ensp} !3S!
+| !4C! {ensp} !4S!
+|  6C
+3+>| 3S = splinter, 4S = 2 w/o
 |===
 
 ==== After a GF cue-bid
@@ -231,7 +240,7 @@ minorwood is on.
 |===
 
 However, opener is forced and does not have an obvious default bid.
-So perhaps optional keycard makes sense here.
+So perhaps optional minorwood makes sense here.
 
 === In competition
 
@@ -267,7 +276,7 @@ In the second and third auctions, opener is forced.
 The fourth-suit (3H) is probably the default bid but opener might
 want to raise without taking control.
 However, opener may also want to request key-cards.
-Optional key-card might make sense here.
+Optional minorwood might make sense here.
 
 In all three of these auctions Kantar says that the jump to the
 cheapest unbid suit above 4m is KC.
