@@ -217,32 +217,34 @@ Optional minorwood might make sense here.
 
 [NOTE]
 ====
-*Optional minorwood:*{ensp} 4m shows slam interest.
+*Optional minorwood:* +
+4m shows slam interest.
 To accept, partner bids 4m+1 to ask for KC.
 To decline, partner shows KCs beginning at 4m+2.
 ====
 
-==== Minorwood to accept slam invitation
+==== Minorwood by limited hand when accepting slam invitation
 
 A limited hand can use minorwood when it has been invited to slam; usually via a
 splinter.
 
 [%autowidth,cols="3*<",grid="cols"]
 |===
-.4+| {S} Axx +
-     {H} Kx +
-     {D} xx +
-     {C} AQTxxx
-.4+| {S} x +
-     {H} xxx +
-     {D} AKxxxx +
-     {C} KJx
+.4+.^| {S} Axx +
+       {H} Kx +
+       {D} xx +
+       {C} AQTxxx
+.4+.^| {S} x +
+       {H} xxx +
+       {D} AKxxxx +
+       {C} KJx
 |  1C  {ensp} 1D
 |  2C  {ensp} !3S!
 | !4C! {ensp} !4S!
 |  6C
-3+>| 3S = splinter, 4S = 2 w/o
 |===
+
+3S = splinter, 4S = 2 w/o
 
 ==== After a GF cue-bid
 
