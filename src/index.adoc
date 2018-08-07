@@ -26,6 +26,4 @@
 
 <<system.adoc#, __Everything__>>
 
-'''
-
 <<rkc.adoc#, __For Discussion__>>
