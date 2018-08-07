@@ -92,9 +92,13 @@ Flannery).
 
 ==== Auctions without suit agreement
 
+[IMPORTANT]
+====
 If it’s possible to set a suit as trump with an unambiguous below-game
 forcing-bid, then that route must be taken to ask for key-cards in
 that suit.
+====
+
 If 2NT is not available or not forcing, then 4NT is natural.
 
 [%autowidth,cols="3*^,<",grid="none"]
