@@ -126,7 +126,7 @@ If 2NT is not available or not forcing, then 4NT is natural.
 |    |  2NT  | | natural inv.
 |    |  3H   | | inv.
 |    |  3S   | | forcing, [nobr]#trumps not agreed#
-|    | !4C!  | | splinter [nobr]#(could be fake to set trump)#
+|    | !4C!  | | splinter [nobr]##(#could be fake to set trump#)##
 |    |  4S   | | to play
 |    | !4NT! | | #natural inv.#
            [nobr]#(forcing-2NT unavailable)#
