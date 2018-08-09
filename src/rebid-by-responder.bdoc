@@ -6,7 +6,7 @@
 
 @ 2nd-round jump = natural & GF
 @ #2nd-round raise of minor = GF#
-@ 4th suit or new 3rd-suit = F1
+@ 4th-suit or new 3rd-suit = F1
 
 === vs interference
 
@@ -38,8 +38,8 @@ Following 2C by responder, opener shows this hand by bidding 2H (paradox)
 instead of accepting the relay.
 It is safe because if responder had intended to drop the auction in
 2D, then we have at least a nine-card {D}-fit.
-It denies three spades because opener would have raised to 2S with a
-minimum 3{hyph}5{hyph}4{hyph}1.
+Opener will have at most three weak spades, because opener would
+usually have raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -47,7 +47,7 @@ minimum 3{hyph}5{hyph}4{hyph}1.
 | 1NT  | !2C! | | sign-off in {D}, or some inv.
 |  ?   |      | |
 | 2D   |      | | normal relay-accept
-| 2H   |      | | #4*{D}, 2{orLess}{xtimes}{S}, minumum#
+| 2H   |      | | #4*{D}, minumum#
 |===
 
 Responder will often pass 2H.
@@ -89,7 +89,7 @@ There is no invitation in {S} because that hand invites on 1st-round (1{H}-2{S})
 | 1S | ?    | |
 |    | 2NT  | | 13-15 or 18{OrMore}
 |    | 3NT  | | 16-17
-|    | !2D! | | 11-12 included in 4th suit
+|    | !2D! | | 4th-Suit-F1, [nobr]#includes bal. 11-12#
 |===
 
 .After opener's 2-level rebid
@@ -100,7 +100,7 @@ There is no invitation in {S} because that hand invites on 1st-round (1{H}-2{S})
 |    | 2NT  | | 11-12
 |    | 3NT  | | 16-17
 |    | 4NT  | | 18-19
-|    | !2H! | | 13-15 included in 4th suit
+|    | !2H! | | 4th-suit-F1, [nobr]#includes bal. 13-15#
 |===
 
 == Reverses
