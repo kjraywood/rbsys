@@ -162,8 +162,15 @@ When our opening was a minor, we play Stayman and transfers ... sort of.
 
 === Lower for Other
 
-The lower of their two suits shows the other suit. This usually allows
-a next step by opener as a default bid; nothing more to say.
+@ Lower of their two suits = other suit +
+@@ next step by opener
+__ = default (nothing more to say)
+
+Thus there are two non-jump bids to show the other suit; a cue-bid of
+the lower of their two suits, and a natural bid.
+
+@ lower way to show other suit = invitational
+@ higher way to show other suit = GF
 
 The lower cue-bid is usually _below_{thinsp} a natural bid in the
 other suit, in which case it shows invitatational values and the
@@ -174,7 +181,7 @@ _e.g._
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1H | (!2NT!) | ?    | | 2NT = {C} + {D}
-|    |         | !3C! | | {S} __(other suit),__ inv. +
+|    |         | !3C! | | {S} (other suit), inv. +
                           {tribull} 3{D} = default
 |    |         | !3D! | | {H}, {LRplus}
 |    |         |  3H  | | {H}-raise, 7{OrMore}{ndash}10
@@ -185,14 +192,13 @@ When the lower cue-bid is _above_{thinsp} the natural bid in the
 other suit, then it shows GF values and the natural bid is
 invitational.
 
-_i.e._{thinsp} the lower of the two bids that show the other suit is
-invitational, and the higher is GF.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1C | (!2C!) |   ?  | | 2C = {H} + {S}
-|    |        |  2D  | | {D}, inv.
-|    |        | !2H! | | {D}  __(other suit),__ GF
+|    |        |  2D  | | {D}, inv. (NF)
+|    |        | !2H! | | {D} (other suit), GF +
+                         {tribull} 2{S} = default
 |    |        | !2S! | | {C}, {LRplus}
 |    |        |  3C  | | {C}-raise, 7{OrMore}{ndash}10
 |===
