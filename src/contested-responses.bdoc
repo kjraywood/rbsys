@@ -109,9 +109,10 @@ The 3rd bid in each of the following is a 2oM NFB.
 
 ==== Other options
 
-Jump to 3oM  = GF, 6{orMore}-card suit. 
+Jump to 3oM = GF, 6{orMore}-card suit
 
-Neg. double = 4{or}5{xtimes}oM, no strength upper-limit.
+Neg. double
+_ = 4{or}5{xtimes}oM, no strength upper-limit
 
 #Jump to _four lower suit_{thinsp} = fit showing#
 
@@ -119,15 +120,17 @@ __e.g.__
 
 [%autowidth,cols="4*^,<",grid="rows"]
 |===
-| 1S | (2D) |   4H   | | fit showing, {H} _lower than_{thinsp} {S}
-| 1D | (1S) |   4H   | | to play, {H} _higher than_{thinsp} {D}
+| 1S | (2D) |   4H   | | fit showing,
+                         [nobr]#{H}{thinsp}{lt}{thinsp}{S}#
+| 1D | (1S) |   4H   | | to play,
+                         [nobr]#{H}{thinsp}{gt}{thinsp}{D}#
 |===
 
 ==== Passed hand
 
-No weak-two opening => Two  _other major_{thinsp} is usually a five-card suit.
-
-Jump to 3oM = fit-showing; usually 5*oM + 5{xtimes}suit-of-opening bid
+No weak-two opening => +
+@ Two  _other major_{thinsp} is usually a five-card suit.
+@ Jump to 3oM = fit-showing, usually 5-5
 
 == vs 1NT Overcall
 
