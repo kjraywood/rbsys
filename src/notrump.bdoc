@@ -2,6 +2,10 @@
 
 == 1NT Opening
 
+After a Jacoby transfer, we use 2nd-round transfers.
+This requires that Stayman promise a 4-card major to allow
+for the invitational 2S rebid.
+
 === Stayman
 
 @ Promises a 4-card major
@@ -67,10 +71,10 @@ the same scheme as opener.
 
 ==== Anti-splinter super-accepts
 
-[special]#Updated {thinsp}{ndash}{thinsp} Jul 25, 2018{nbsp}#
+ALERT: Updated August 4, 2018
 
-With four-card support and a max (a classic super-accept) we jump
-accept immediately.
+With #four-card support and a max# (a classic super-accept) we #jump
+accept immediately#.
 
 With four-card support and less than a max, we show the location of
 outside values.
@@ -80,7 +84,7 @@ show values in suit of transfer.
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |       |  1NT   | |
-| !2D!  | !2NT!* | | * {D} values
+| !2D!  | !2NT!* | | * {D} values, non-max
 | !3D!{superdag} | 3H | | {superdag} re-transfer
 |===
 
@@ -95,9 +99,81 @@ We attempt to increase accuracy in the more frequent case.
 
 Following a normal accept, a jump-shift rebid by responder = self-splinter slam-try
 
-==== 2nd-round transfers
+=== vs double of Jacoby transfer
 
-[special]#Updated {thinsp}{ndash}{thinsp} Aug 4, 2018{nbsp}#
+==== Without four-card support
+
+ALERT: Updated August 4, 2018
+
+The scheme is similar to when Stayman is doubled.
+The focus is on a stopper in the doubled suit.
+
+@ accepting transfer
+_ = A or K of doubled suit & 3-card support +
+@ pass promises a stopper but unable to accept +
+@ redouble = no stopper
+
+*Following opener's stopper-showing pass:* +
+@ Redouble
+_ = re-transfer with tolerance for pass +
+@ other
+_ = system ON (incl. 2nd-round transfers)
+__  __as though opener accepted the transfer__
+
+*Following opener's stopper-denying redouble:* +
+#2nd-round transfers are OFF# except that when 2D (transfer to {H}) is
+doubled and redoubled, 2S is still used to show an unbalanced invitation
+which must be {H} + {C}.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|       |       | 1NT      | (P)  | |
+| !2D!  | (Dbl) | !Redbl!* | (P)  | | * no {D} stopper
+|  ?    |       |          |      | |
+|  2H   |    4+<| sign off
+| !2S!  |    4+<| inv., 5{times}{H} + 4{orMore}{times}{C} +
+                  {tribull} #reverse-transfers:#
+	          _ !2NT! {forces} {C}, !3D! {forces} {H}
+| 2NT   |    4+<| natural, inv
+| 3C    |    4+<| natural, GF
+| 3H    |    4+<| natural, inv
+| 3NT   |    4+<| to play
+| 4H    |    4+<| to play
+|===
+
+==== With four-card support
+
+ALERT: Updated August 11, 2018
+
+Our super-accept scheme is ON, except that opener may bid the transfer
+suit to make responder declare.
+
+Anti-splinter super-accepts (COV, non-max) neither confirm nor deny
+control
+
+With slow values in the transfer suit, and 4333 shape, opener may
+choose to pass (showing a stopper), and later show a preference to
+play NT to avoid a ruff.
+
+2NT by opener also indicates slow values in the transfer suit but not
+4333.
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|  1NT  | (P) | !2D! {ensp} (Dbl)
+|   ?   |     |
+2+<| !2S!,!3C! <|  COV, not max
+| !2NT! |     | Slow {D}-values, not 4333
+| !3D!  |     | clear max, prefer to be dummy
+|  3H   |     | clear max, prefer to delcare
+|===
+
+Following a super-accept, 3NT by responder shows control of the
+transfer-suit and is a slam try with preference to declare.
+
+=== 2nd-round transfers
+
+ALERT: Updated August 4, 2018
 
 @ apply after Jacoby transfer to major
 @ are descriptive, not demanding +
@@ -161,78 +237,6 @@ This is superior to using 4NT, because it allows us to play 4M.
 
 Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
 1NT-5NT).
-
-=== vs Double of Jacoby Transfer
-
-==== Without four-card support
-
-[special]#Updated {thinsp}{ndash}{thinsp} Aug 4, 2018{nbsp}#
-
-The scheme is similar to when Stayman is doubled.
-The focus is on a stopper in the doubled suit.
-
-@ accepting transfer
-_ = A or K of doubled suit & 3-card support +
-@ pass promises a stopper but unable to accept +
-@ redouble = no stopper
-
-*Following opener's stopper-showing pass:* +
-@ Redouble
-_ = re-transfer with tolerance for pass +
-@ other
-_ = as though opener accepted the transfer
-
-*Following opener's stopper-denying redouble:* +
-#2nd-round transfers are OFF# except that when 2D (transfer to {H}) is
-doubled and redoubled, 2S is still used to show an unbalanced invitation
-which must be {H} + {C}.
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|       |       | 1NT      | (P)  | |
-| !2D!  | (Dbl) | !Redbl!* | (P)  | | * no {D} stopper
-|  ?    |       |          |      | |
-|  2H   |    4+<| sign off
-| !2S!  |    4+<| inv., 5{times}{H} + 4{orMore}{times}{C} +
-                  {tribull} #reverse-transfers:#
-	          _ !2NT! {forces} {C}, !3D! {forces} {H}
-| 2NT   |    4+<| natural, inv
-| 3C    |    4+<| natural, GF
-| 3H    |    4+<| natural, inv
-| 3NT   |    4+<| to play
-| 4H    |    4+<| to play
-|===
-
-==== With four-card support
-
-[special]#Modified {thinsp}{ndash}{thinsp} Jul 25, 2018{nbsp}#
-
-The super-accept system is almost the same as in the uncontested
-auction.
-
-*Exception:* Opener does not bid the trump suit without the ace or
-king of the doubled suit; thus allowing responder to declare.
-
-With a clear max opener jump accepts with control in the
-transfer-suit, or makes a _reverse transfer_{thinsp} without control.
-
-A new suit showing values but less than a max still applies.
-
-With values in the transfer-suit and 4-card support, opener bids 2NT.
-
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-|  1NT  | (P) | !2D! {ensp} (Dbl)
-|   ?   |     |
-2+<| !2S!,!3C! <|  COV, not max
-| !2NT! |     | {D}-ctrl, not max
-| !3D!  |     | clear max, no {D}-ctrl
-|  3H   |     | clear max, {D} ctrl
-|===
-
-Following an anti-splinter (COV), either player may indicate lack of
-control by bidding the transfer suit, thus allowing the contract to be
-played from the other side.
 
 === Minor-suit transfers
 
