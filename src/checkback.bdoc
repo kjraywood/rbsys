@@ -2,8 +2,8 @@
 
 == 2-Way Checkback
 
-https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html[
-_Two Way Checkback Stayman_{thinsp}, Andrew Gumperz, 2011]
+{reference} https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html[
+Andrew Gumperz, 2011]
 
 @ ON after both minors or both majors
 @ ON vs take-out double by either opp +
@@ -74,48 +74,87 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 |     | !4C!,!4D!,!4H! | self-splinter slam-try
 |===
 
-=== Game-forcing Checkback
+=== Choice-of-game
 
-Used to request for info about opener's hand.
-
-Priorities: +
-@ 2M = 3-card support +
-@ 2oM = 4 cards in the other major +
-@ 3m = good 5 or 6 card suit +
-@ 2NT = none of the above
-
-==== Choice-of-game
-
-Jump to 3NT by responder following 3-card support = choice-of-game
+ALERT: Modified {ndash} Aug 11, 2018
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C  |  1H   | |
-| 1NT | !2D!  | |
-| 2H  | !3NT! | | Choice of game: _e.g._ +
+| 1C   |  1H   | |
+| 1NT  | !2C!  | |
+| !2D! | !3NT! | | Choice of game: _e.g._ +
                   {S}Kxx {H}KQxxx {D}KQx {C}Jx
 |===
 
-In the above, after 2H responder could have:
-@ bid 2S to seek a {S}-fit
-@ bid 2NT requesting further info
+[TIP]
+====
+Using the 2C relay always invites something.
+Here it invites opener to bid 4M with a good hand for suit play.
+====
 
-So the jump to 3NT indicates that the only reason for 2D, was to offer
-a choice-of-game.
-Compare with:
+=== Game-forcing Checkback
+
+[IMPORTANT]
+====
+[blue]#_Modified {ndash} Aug 11, 2018_#{thinsp} +
+Opener bids majors up-the-line.
+====
+
+Priorities: +
+@ Majors up the line +
+@ 3m = good 5 or 6 card suit +
+@ 2NT = none of the above
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C  |  1H   | |
-| 1NT | !2D!  | |
-| 2S  | !3NT! | | Sign off
+| 1m  |  1S  | |
+| 1NT | !2D! | |
+| 2H  |  ?   | |
+|     | 2S   | | 5{orMore}{xtimes}{S}
+|     | 2NT  | | no fit, requests further description
+|     | 3H   | | slam try in {H}
+|     | 4H   | | sign off
 |===
 
-Responder used checkback to seek a 5-3 {H}-fit.
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D  |  1S  | |
+| 1NT | !2D! | |
+| 2NT |  ?   | |
+|     | 3C   | | 4*{C}
+|     | 3H   | | 5-5 Majors, non-pure
+|===
+
+==== Slam trys and non-serious 3NT
+
+ALERT: New {ndash} Aug 11, 2018
+
+If we have agreed a major at the three level, and responder has
+indicated preference for suit-play over notrump by not using a COG
+sequence, then non-serious 3NT applies.
+By opener it indicates non-max, but not terrible for slam.
+By responder it is a mild slam-try, indicating that opener needs a
+fitting max for slam to be good.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D   |  1S  |
+|  1NT  | !2D! |
+|  2S   |  3S  |
+| !3NT! |      | cooperative (non-serious)
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D   |  1H   | |
+|  1NT  | !2D!  | |
+|  2H   |  2S   | |
+|  3S   | !3NT! | | mild slam try
+|===
 
 === Game-forcing with a fit for opener's minor
 
-[special]#Updated {thinsp}{ndash}{thinsp} Jul 21, 2018{nbsp}#
+ALERT: Updated July 21, 2018
 
 Responder relays with 2NT then bids again, to show four-cards in
 opener's minor and GF strength; possibly slammish.
