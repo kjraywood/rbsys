@@ -82,9 +82,10 @@ ALERT: Modified {ndash} Aug 11, 2018
 |===
 | 1C   |  1H   | |
 | 1NT  | !2C!  | |
-| !2D! | !3NT! | | Choice of game: _e.g._ +
-                  {S}Kxx {H}KQxxx {D}KQx {C}Jx
+| !2D! | !3NT! | | Choice of game
 |===
+
+_e.g._{thinsp} {S}{thinsp}Kxx {H}{thinsp}KQxxx {D}{thinsp}KQx {C}{thinsp}Jx
 
 [TIP]
 ====
