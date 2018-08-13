@@ -2,52 +2,6 @@
 
 = For Discussion
 
-= Picture Jumps
-
-These have priority over key-card asking.
-
-'''
-
-== 2/1 Auctions
-
-_Fast Arrival vs. Picture Bidding_{thinsp}, Andrew Gumperz, 2012:{ensp}
-[nobr]#https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/[Part 1],
-{ensp}https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/[Part 2],
-{ensp}https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/[Part 3]#
-
-== Reverse Auctions
-
-A single-jump in opener's first suit is a picture jump; _not a splinter_.
-
-[%autowidth,cols="2*<",grid="cols"]
-|===
-.>| 1D {ensp} 1S
-.2+| {S} AQT64 +
-     {H} 53 +
-     {D} KQ87 +
-     {C} J2
-.<| 2H {ensp} 4D
-|===
-
-[NOTE]
-====
-A double-jump after a non-reverse is a splinter.
-_e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
-====
-
-The picture bid can also be in opener's second suit, and five-card
-support is needed in case opener reversed into a three-card suit.
-
-[%autowidth,cols="2*<",grid="cols"]
-|===
-.>| 1C {ensp} 1S
-.2+| {S} AK974 +
-     {H} 62 +
-     {D} KJ983 +
-     {C} 5
-.<| 2D {ensp} 4D
-|===
-
 '''
 
 = Asking for Key Cards

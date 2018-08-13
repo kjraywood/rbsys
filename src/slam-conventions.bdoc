@@ -1,6 +1,72 @@
-= Slam Conventions
+= Slam Bidding
 
-{warning} Incomplete. More revisions will be made soon -- _July 28, 2018_
+== Picture Jumps
+
+// uncontested auctions has a link to here by filename
+
+=== 2/1 Auctions
+
+:picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
+:picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
+:picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
+
+{reference} _Fast Arrival vs. Picture Bidding,_
+__ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
+__ {nbsp}{ndash}{nbsp} Andrew Gumperz
+
+Responder may initially conceal 4-card support for opener's major when
+intending to make a picture jump to game on the second round.
+It is highly unlikely that the auction will be too high for responder
+to jump on the second round.
+
+We do not conceal 4-card support in other cases because a jump to 3M
+may not be available on the 2nd-round (_e.g._{thinsp} 2M or 2NT rebid
+by opener).
+This is contrary to the recommendation of Gumperz (part 1, page 2,
+hand 2).
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1S | 2D  |
+| 2H | ?   |
+|    | 3S  | strong slam-interest, 3*{S}
+|    | 4S  | picture jump
+|===
+
+With both majors in focus, picture jumps have prioriry over kickback.
+
+=== Reverse auctions
+
+A single-jump in opener's first suit is a picture jump; _not a splinter_.
+
+[%autowidth,cols="2*<",grid="cols"]
+|===
+.>| 1D {ensp} 1S
+.2+| {S} AQT64 +
+     {H} 53 +
+     {D} KQ87 +
+     {C} J2
+.<| 2H {ensp} 4D
+|===
+
+[NOTE]
+====
+A double-jump after a non-reverse is a splinter.
+_e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
+====
+
+The picture bid can also be in opener's second suit, and five-card
+support is needed in case opener reversed into a three-card suit.
+
+[%autowidth,cols="2*<",grid="cols"]
+|===
+.>| 1C {ensp} 1S
+.2+| {S} AK974 +
+     {H} 62 +
+     {D} KJ983 +
+     {C} 5
+.<| 2D {ensp} 4D
+|===
 
 // == Slam Tries and Control Bids
 
