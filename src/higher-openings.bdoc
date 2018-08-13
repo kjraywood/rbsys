@@ -2,6 +2,11 @@
 
 == Two Club Opening
 
+{reference}
+https://drive.google.com/file/d/1Ps2yWPQ5piCtCB4OgLXDsGBNC-Ln0C-O/view?usp=sharing[
+_Responding to an Omnibus 2\C Opening_ ]
+__ {ndash} Danny Kleinman 
+
 {warning} _We do NOT play Kokish_
 
 === Responses
@@ -18,16 +23,10 @@
 
 ==== Transfer responses
 
-****
-[orange-box]##*Not in use yet*##
-
-@ 2S = one-loser red-suit
-@@ opener bids next step
-@@ responder transfers +
-@ 3C = one-loser black-suit
-@@ _as above_ +
-@ 3D,3H,3S,4C = transfer to solid suit
-****
+#Not in use yet#
+[nobr]##{ndash}
+<<staging.adoc#2\C-xfer-responses,Transfer responses to a 2\C opening>>
+##
 
 === Second-round negatives
 
@@ -64,6 +63,46 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 <<staging.adoc#fix-trump-agreement-problem,Why Kel thinks the scheme to set trump is misguided>>
 
+=== Interference
+
+ALERT: New {ndash} Aug 12, 2018
+
+We treat direct interference similarly to when they interfere over our
+strong notrump opening.
+
+==== vs double
+
+@ redouble
+_ = values but not {C}-length +
+@ pass = bust or {C}-length
+
+==== vs overcall
+
+@ double
+_ = values but not length in bid suit +
+@ pass = bust or length in bid suit
+
+==== Subsequent bidding
+
+Just in interference over our strong NT, opener's double or redouble
+is take-out unless responder has shown positive values with a double
+or penalty pass.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| !2C! | (!X!*) | P | (2H) | {emsp} * Majors
+|  ?   |          |   |      |
+|  X   |       3+<| Take-out
+|  P   |       3+<| {H}-values, possibly length
+|===
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| !2C! | (P) | !2D! {ensp} (X) |
+|  ?   |  2+<|
+|  XX  |  2+<| Take-out
+|  P   |  2+<| {D}-values, possibly length
+|===
 
 == Weak Two Opening
 
