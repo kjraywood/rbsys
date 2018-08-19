@@ -6,6 +6,18 @@ After a Jacoby transfer, we use 2nd-round transfers.
 This requires that Stayman promise a 4-card major to allow
 for the invitational 2S rebid.
 
+=== Responding when weak with both majors
+
+ALERT: New {ndash} August 17, 2018
+
+4*{S}, 5*{H} {ndash} transfer to {H} and pass.
+
+5*{S}, 4{orMore}{xtimes}{H} {ndash} use Stayman
+then 2H (Crawling Stayman) after opener's 2D.
+Following 2H, opener bids 2S with 3-3 majors.
+
+This scheme maximises the chances that opener declares.
+
 === Stayman
 
 @ Promises a 4-card major
@@ -13,7 +25,8 @@ for the invitational 2S rebid.
 
 ==== Rebids
 
-@ crawling Stayman
+@ crawling Stayman,
+_ #{S}-length {ge} {H}-length#
 @ 2S = inv
 @ Smolen
 @ delayed Gerber & Texas
@@ -62,7 +75,7 @@ the same scheme as opener.
 | !XX!  |     | re-Stayman, 2{OrMore}{xtimes}{C}
 | !2D!  |     | garbage-Stayman hand
 | !2H!  |     | both majors, weak,
-                [nobr]#{H}-length {ge} {S}-length#
+                [nobr]#{S}-length {ge} {H}-length#
 | !2S!  |     | 5*{S}, short {C}, inv.
 | !2NT! |     | 4-4 majors, short {C}, inv.
 | !3C!  |     | 4-4 majors, short {C}, GF
@@ -98,7 +111,8 @@ We attempt to increase accuracy in the more frequent case.
 
 ==== Self splinter
 
-Following a normal accept, a jump-shift rebid by responder = self-splinter slam-try
+Following a normal accept, a jump-shift rebid by responder =
+self-splinter slam-try
 
 === vs double of Jacoby transfer
 
