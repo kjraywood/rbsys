@@ -1,8 +1,10 @@
 = Slam Bidding
 
+// == Slam Tries and Control Bids
+
 == Picture Jumps
 
-// uncontested auctions has a link to here by filename
+// uncontested-auctions has a link to <<slam-conventions.adoc#picture-jumps>>
 
 === 2/1 Auctions
 
@@ -22,8 +24,9 @@ to jump on the second round.
 We do not conceal 4-card support in other cases because a jump to 3M
 may not be available on the 2nd-round (_e.g._{thinsp} 2M or 2NT rebid
 by opener).
-This is contrary to the recommendation of Gumperz (part 1, page 2,
-hand 2).
+So, contrary to the recommendation of Gumperz (part 1, page 2, hand
+2), the 2nd-round jump to 3M shows strong slam-interest but !denies!
+4-card support.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -33,7 +36,8 @@ hand 2).
 |    | 4S  | picture jump
 |===
 
-With both majors in focus, picture jumps have prioriry over kickback.
+NOTE: Picture jumps have prioriry over kickback and minorwood to
+ensure that responder's initial plan doesn't get scuttled.
 
 === Reverse auctions
 
@@ -82,13 +86,39 @@ support is needed in case opener reversed into a three-card suit.
 !===
 |===
 
-// == Slam Tries and Control Bids
+== General Principles for RKC
 
-== Kickback for Hearts
+=== Set trumps first
 
-Hearts agreed => 4S by unlimited hand is kickback #unless it is a picture jump#
+[%autowidth]
+|===
+| If it’s possible to set a suit as trump with an unambiguous below-game
+forcing-bid, then that route must be taken to ask for key-cards in
+that suit.
+|===
 
-=== Both Majors
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 2H |  ?    | |
+|    |  2NT  | | natural inv.
+|    |  3H   | | inv.
+|    |  3S   | | forcing, at most a one-loser suit
+|    | !4C!  | | splinter [nobr]##(#could be fake#)##
+|    |  4H   | | to play
+|    |  4S   | | to play
+|    | !4NT! | | #natural inv.#
+           [nobr]#(forcing-2NT unavailable)#
+|===
+
+In the above auction, responder can set hearts as trump with a
+splinter, so cannot ask for KC on this round.
+The splinter could faked just to set trump for kickback.
+
+=== Picture Jumps have priority over KC asking
+
+Even after suit agreement, it may be necessary to delay asking for
+key-cards.
 
 ==== 2/1 Auctions
 
@@ -108,10 +138,10 @@ Hearts agreed => 4S by unlimited hand is kickback #unless it is a picture jump#
 To use 4S as kickback for {H} in the above auction, responder must bid
 something else first.
 It should be honest in case opener takes control;
-_e.g._{thinsp} a fake 3S might induce opener to think that {S} are
+_e.g._{thinsp} a fake 3S might induce opener to think that spades are
 solid, and hence convert to 6NT or 7NT.
 
-==== Reverse auctions
+==== Reverse Auctions
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -130,7 +160,7 @@ solid, and hence convert to 6NT or 7NT.
 |===
 
 As in the 2/1 auction, responder must bid something else before
-bidding 4S as kickback for {H}.
+bidding 4S as kickback for hearts.
 
 For the picture jump, opener might hold
 [lightgrey-bg]#{S}AQ2 {H}KQ3 {D}74 {C}AQJT5#.
@@ -138,34 +168,32 @@ The reverse into the three-card heart-suit was safe because a heart
 raise by responder indicates five spades and extras (no reverse
 Flannery).
 
-==== Auctions without suit agreement
-
-If it’s possible to set a suit as trump with an unambiguous below-game
-forcing-bid, then that route must be taken to ask for key-cards in
-that suit.
-
-If 2NT is not available or not forcing, then 4NT is natural.
+=== Majors have priority over minors
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1H |  1S   | |
-| 2H |  ?    | |
-|    |  2NT  | | natural inv.
-|    |  3H   | | inv.
-|    |  3S   | | forcing, [nobr]#trumps not agreed#
-|    | !4C!  | | splinter [nobr]##(#could be fake to set trump#)##
-|    |  4S   | | to play
-|    | !4NT! | | #natural inv.#
-           [nobr]#(forcing-2NT unavailable)#
+| 1H  | 2D | |
+| 3D  | 3H | | {H} are trump
 |===
 
-To use 4S kickback for {H} in the above auction, responder must bid
-something else first.
-It should be honest in case opener takes control;
-_e.g._{thinsp} a fake 3S might induce opener to think that {S} are
-solid, and hence convert to 6NT or 7NT.
+A subsequent 4S (kickback) would be two-suit KC.
 
-If forcing-2NT is available, then 4NT is self-wood (KC in own suit).
+=== When 4NT is Selfwood
+
+In suit-only auctions, asking for key-cards in your own suit
+(selfwood) is often not possible.
+
+4NT can be used as selfwood when: +
+@ you have bid only one suit +
+@ a forcing-2NT is available
+_ (so a natural 4NT is not needed) +
+@ you can agree partner's suit(s) with a below-game
+_ forcing-bid
+
+In the auction below, 4NT is not KC for spades because they can be set
+as trump with a GF 3S.
+4NT is not needed as natural because a 2NT would be forcing.
+Responder has bid only one suit hence 4NT is selfwood in that suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -174,14 +202,48 @@ If forcing-2NT is available, then 4NT is self-wood (KC in own suit).
 |    |  2NT  | | forcing (2/1 auction)
 |    |  3S   | | trump = {S}
 |    |  4S   | | picture bid
-|    | !4NT! | | #KC for {H}# (self-wood)
+|    | !4NT! | | #KC for {H}# (selfwood)
 |===
 
-When opener jump rebids hearts, then: +
-@ it's not possible to agree hearts below game
-@ hand strength fairly tightly defined
+==== Other selfwood examples
 
-So 4NT is KC.
+[%autowidth,cols="4*a",grid="none",frame="none"]
+|===
+|
+[grid="none"]
+!===
+! 1C ! 1S
+! 2H ! !4NT!
+!===
+|
+[grid="none"]
+!===
+! 1C !  1H
+! 1S ! !4NT!
+!===
+|
+[grid="none"]
+!===
+! 1D  ! 1H
+! 2S  ! !4NT!
+!===
+|
+[grid="none"]
+!===
+!  2C   ! 2D
+!  2H   ! 2S
+! !4NT! !
+!===
+|===
+
+=== Auctions without suit agreement
+
+==== After a jump rebid of hearts
+
+When opener jump rebids hearts, then it's not possible to agree hearts
+below game and opener's hand strength fairly tightly defined.
+
+So 4NT is KC asking is partner's suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -192,18 +254,6 @@ So 4NT is KC.
 |    |  4S   | | to play
 |    | !4NT! | | #KC for {H}#
 |===
-
-== Major and minor
-
-_Majors have priority over minors_
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H | 2D | |
-| 3D | 3H | | {H} are trump
-|===
-
-We probably should use 4m as 2-suit KC.
 
 == Minorwood
 
