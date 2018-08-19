@@ -39,14 +39,21 @@ With both majors in focus, picture jumps have prioriry over kickback.
 
 A single-jump in opener's first suit is a picture jump; _not a splinter_.
 
-[%autowidth,cols="2*<",grid="cols"]
+[%autowidth,cols="2*a",grid="none",frame="none"]
 |===
-.>| 1D {ensp} 1S
-.2+| {S} AQT64 +
-     {H} 53 +
-     {D} KQ87 +
-     {C} J2
-.<| 2H {ensp} 4D
+|
+[grid="none"]
+!===
+! 1D ! 1S
+! 2H ! 4D
+!===
+|
+!===
+! {S} AQT64 +
+  {H} 53 +
+  {D} KQ87 +
+  {C} J2
+!===
 |===
 
 [NOTE]
@@ -58,14 +65,21 @@ _e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
 The picture bid can also be in opener's second suit, and five-card
 support is needed in case opener reversed into a three-card suit.
 
-[%autowidth,cols="2*<",grid="cols"]
+[%autowidth,cols="2*a",grid="none",frame="none"]
 |===
-.>| 1C {ensp} 1S
-.2+| {S} AK974 +
-     {H} 62 +
-     {D} KJ983 +
-     {C} 5
-.<| 2D {ensp} 4D
+|
+[grid="none"]
+!===
+! 1C ! 1S
+! 2D ! 4D
+!===
+|
+!===
+! {S} AK974 +
+  {H} 63 +
+  {D} KJ983 +
+  {C} 5
+!===
 |===
 
 // == Slam Tries and Control Bids
@@ -193,40 +207,86 @@ We probably should use 4m as 2-suit KC.
 
 == Minorwood
 
-4m is minorwood if: +
-@ minor-suit agreed below 4m
-_ _(incl. via splinter)_ +
-@ neither opponent bid on preceeding round +
-@ 4m bidder is unlimited or has been
-_ invited back into the auction
+=== 2-level agreement
 
-With some specific exceptions, 4m is not minorwood when it is
-the first call that shows support for partner's minor.
+#Includes artificial limit-raises below 3m.#
 
-If a minor fit is first discovered at the 4-level, and it is not one
-of the specific exceptions, then 4 of the cheapest unbid-unbid suit
-is key-card asking.
+&Uncontested auction:&{nbsp} 4m by unlimited hand is minorwood
 
-=== Below-game agreement
-
-[%autowidth,cols="3*<",grid="cols"]
+&Contested auction:&{nbsp} !jump! to cheapest unbid suit above 4m is KC asking.
+ 
+[%autowidth,cols="3*a",grid="none",frame="none"]
 |===
-| 1D {ensp} 2D | 1C {ensp} 2C | 1D {ensp} !3C!
-| 4D           | 2H {ensp} 4C | 4D
+|
+[grid="none"]
+!===
+!  1C  ! 2C
+! !4C! !
+!===
+|
+[grid="none"]
+!===
+! 1C !  1D
+! 2D ! !4D!
+!===
+|
+[grid="none"]
+!===
+!  1D  ! (P) ! 2D ! (2S)
+! !4H! 3+!
+!===
 |===
 
-[%autowidth,cols="3*<",grid="cols"]
+[%autowidth,cols="3*a",grid="none",frame="none"]
 |===
-| 1S {ensp} 2D   | 1D {ensp} 1S | {ensp}1D {ensp} 1S
-| 3D {ensp} !4D! | 2C {ensp} 3D | {ensp}2C {ensp} 3C
-|                | !4D!         |    3NT {thinsp} !4C!
+|
+[grid="none"]
+!===
+! 1C !  2C
+! 2S ! !4C!
+!===
+|
+[grid="none"]
+!===
+!  1D  ! !3C!
+! !4D! !
+!===
+|
+[grid="none"]
+!===
+!  1D  ! (1H) ! !2H! ! (P)
+! !4S! 3+!
+!===
 |===
 
-[%autowidth,cols="3*<",grid="cols"]
+=== 3-level agreement
+
+==== 4m directly after suit agreement
+
+Minorwood by unlimited hand
+
+[%autowidth,cols="3*^a",grid="none",frame="none"]
 |===
-| 1D {ensp} 1S | {ensp}1C {ensp} 1S |  1S  {ensp} 2D
-| 2H {ensp} 3D | {ensp}2H {ensp} 3C | !3H! {ensp} 3NT
-| 4D           |    3NT {thinsp} 4C | 4D
+|
+[grid="none"]
+!===
+! 1S !  2D
+! 3D ! !4D!
+!===
+|
+[grid="none"]
+!===
+!  1C  ! 1S
+!  2H  ! 3C
+! !4C! !
+!===
+|
+[grid="none"]
+!===
+!  1D  ! 1S
+!  2C  ! 3D
+! !4D! !
+!===
 |===
 
 ==== By limited hand when accepting slam invitation
@@ -234,23 +294,72 @@ is key-card asking.
 A limited hand can use minorwood when it has been invited to slam; usually via a
 splinter.
 
-[%autowidth,cols="3*<",grid="cols"]
+[%autowidth,cols="3*a",grid="none",frame="none"]
 |===
-.4+.^| {S} Axx +
-       {H} Kx +
-       {D} xx +
-       {C} AQTxxx
-.4+.^| {S} x +
-       {H} xxx +
-       {D} AKxxxx +
-       {C} KJx
-|  1C  {ensp} 1D
-|  2C  {ensp} !3S!
-| !4C! {ensp} !4S!
-|  6C
+|
+!===
+! {S} Axx +
+  {H} Kx +
+  {D} xx +
+  {C} AQTxxx
+!===
+|
+[grid="none"]
+!===
+!  1C  ! ! 1D
+!  2C  ! ! !3S!
+! !4C! ! ! !4S!
+!  6C  ! !
+!===
+|
+!===
+! {S} x +
+  {H} xxx +
+  {D} AKxxxx +
+  {C} KJx
+!===
 |===
 
-3S = splinter, 4S = 2 w/o
+{tab}{tab}{tab} 3S = splinter, 4S = 2 w/o
+
+==== Unlimited hand pulls 3NT to agreed minor
+
+@ minor has already been agreed
+@ 4m by unlimited hand
+
+Usually the 4m bidder was unable to ask for KCs the previous round
+because the suit had not yet been agreed.
+
+[%autowidth,cols="3*^a",grid="none",frame="none"]
+|===
+|
+[grid="none"]
+!===
+!  1S  !  2D
+!  3D  !  3NT
+! !4D! !
+!===
+|
+[grid="none"]
+!===
+! 1C  !  1H
+! 2C  !  3C
+! 3NT ! !4C!
+!===
+|
+[grid="none"]
+!===
+!  1C  !  1S
+!  2H  !  3C
+!  3NT ! !4C! !
+!===
+|===
+
+// |===
+// |  1S  | 2D
+// | !3H! | 3NT
+// | 4D
+// |===
 
 ==== After a GF cue-bid
 
@@ -267,21 +376,21 @@ minorwood is on.
 However, opener is forced and does not have an obvious default bid.
 So perhaps optional minorwood makes sense here.
 
-=== In competition
+// === In competition
 
-In contested auction after a raise from one to two, or after a
-limit-raise, a JUMP to the cheapest unbid suit above 4m is KC asking.
-If that's not possible, then 4NT is KC-asking.
+// In contested auction after a raise from one to two, or after a
+// limit-raise, a JUMP to the cheapest unbid suit above 4m is KC asking.
+// If that's not possible, then 4NT is KC-asking.
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 1D | (P) | !2D! {ensp} (3C)
-|  ? |     |
-| 4D |     | extra length (preemptive)
-| 4H |     | KC asking
-|===
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// | 1D | (P) | !2D! {ensp} (3C)
+// |  ? |     |
+// | 4D |     | extra length (preemptive)
+// | 4H |     | KC asking
+// |===
 
-In the above, if the interference was 3S, then 4NT would ask for KCs.
+// In the above, if the interference was 3S, then 4NT would ask for KCs.
 
 === Optional minorwood?
 
@@ -350,6 +459,14 @@ In these auctions Kantar says that the jump to the
 cheapest unbid suit above 4m is KC.
 
 === 4-level agreement
+
+
+With some specific exceptions, 4m is not minorwood when it is
+the first call that shows support for partner's minor.
+
+If a minor fit is first discovered at the 4-level, and it is not one
+of the specific exceptions, then 4 of the cheapest unbid-unbid suit
+is key-card asking.
 
 The KC-asking bid depends on the number of unbid suits.
 
