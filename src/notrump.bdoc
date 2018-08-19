@@ -42,7 +42,8 @@ Thus it can be balanced or unbalanced; possibly 5-5 shape.
 In order of priority: +
 @ 2NT = 4-4 majors min
 @ 3C = 4-4 majors max
-@ pass promises a stopper (may have a stack)
+@ pass promises a stopper
+_ (may have a stack)
 @ reverse transfers, no stopper
 @ Redble = double neg. (no stop, no M)
 
@@ -110,7 +111,7 @@ The focus is on a stopper in the doubled suit.
 
 @ accepting transfer
 _ = A or K of doubled suit & 3-card support +
-@ pass promises a stopper but unable to accept +
+@ pass promises a stopper +
 @ redouble = no stopper
 
 *Following opener's stopper-showing pass:* +
