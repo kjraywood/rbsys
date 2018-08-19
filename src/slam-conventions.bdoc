@@ -187,8 +187,8 @@ In suit-only auctions, asking for key-cards in your own suit
 @ you have bid only one suit +
 @ a forcing-2NT is available
 _ (so a natural 4NT is not needed) +
-@ you can agree partner's suit(s) with a below-game
-_ forcing-bid
+@ you can agree partner's suit(s) with a
+_ below-game forcing-bid
 
 In the auction below, 4NT is not KC for spades because they can be set
 as trump with a GF 3S.
@@ -207,33 +207,37 @@ Responder has bid only one suit hence 4NT is selfwood in that suit.
 
 ==== Other selfwood examples
 
-[%autowidth,cols="4*a",grid="none",frame="none"]
+[%autowidth,cols="2*a",grid="none",frame="none"]
 |===
 |
 [grid="none"]
-!===
-! 1C ! 1S
-! 2H ! !4NT!
-!===
+:===
+ 1C : 1S
+ 2H : !4NT!
+:===
 |
 [grid="none"]
-!===
-! 1C !  1H
-! 1S ! !4NT!
-!===
+:===
+ 1C :  1H
+ 1S : !4NT!
+:===
+|===
+
+[%autowidth,cols="2*a",grid="none",frame="none"]
+|===
 |
 [grid="none"]
-!===
-! 1D  ! 1H
-! 2S  ! !4NT!
-!===
+:===
+ 1D :  1H
+ 2S : !4NT!
+:===
 |
 [grid="none"]
-!===
-!  2C   ! 2D
-!  2H   ! 2S
-! !4NT! !
-!===
+:===
+ 2C   : 2D
+ 2H   : 2S
+!4NT! :
+:===
 |===
 
 === Auctions without suit agreement
@@ -265,48 +269,52 @@ So 4NT is KC asking is partner's suit.
 
 &Contested auction:&{nbsp} !jump! to cheapest unbid suit above 4m is KC asking.
  
-[%autowidth,cols="3*a",grid="none",frame="none"]
+[%autowidth,cols="2*a",grid="none",frame="none"]
 |===
 |
 [grid="none"]
-!===
-!  1C  ! 2C
-! !4C! !
-!===
+:===
+  1C  : 2C
+ !4C! :
+:===
 |
 [grid="none"]
-!===
-! 1C !  1D
-! 2D ! !4D!
-!===
+:===
+ 1C :  1D
+ 2D : !4D!
+:===
+|===
+ 
+[%autowidth,cols="2*a",grid="none",frame="none"]
+|===
 |
 [grid="none"]
-!===
-!  1D  ! (P) ! 2D ! (2S)
-! !4H! 3+!
-!===
+:===
+ 1C :  2C
+ 2S : !4C!
+:===
+|
+[grid="none"]
+:===
+  1D  : (P) : 2D : (2S)
+ !4H! : : :
+:===
 |===
 
-[%autowidth,cols="3*a",grid="none",frame="none"]
+[%autowidth,cols="2*a",grid="none",frame="none"]
 |===
 |
 [grid="none"]
-!===
-! 1C !  2C
-! 2S ! !4C!
-!===
+:===
+  1D  : !3C!
+ !4D! :
+:===
 |
 [grid="none"]
-!===
-!  1D  ! !3C!
-! !4D! !
-!===
-|
-[grid="none"]
-!===
-!  1D  ! (1H) ! !2H! ! (P)
-! !4S! 3+!
-!===
+:===
+  1D  : (1H) : !2H! : (P)
+ !4S! : : :
+:===
 |===
 
 === 3-level agreement
@@ -319,24 +327,24 @@ Minorwood by unlimited hand
 |===
 |
 [grid="none"]
-!===
-! 1S !  2D
-! 3D ! !4D!
-!===
+:===
+ 1S :  2D
+ 3D : !4D!
+:===
 |
 [grid="none"]
-!===
-!  1C  ! 1S
-!  2H  ! 3C
-! !4C! !
-!===
+:===
+  1C  : 1S
+  2H  : 3C
+ !4C! :
+:===
 |
 [grid="none"]
-!===
-!  1D  ! 1S
-!  2C  ! 3D
-! !4D! !
-!===
+:===
+  1D  : 1S
+  2C  : 3D
+ !4D! :
+:===
 |===
 
 ==== By limited hand when accepting slam invitation
@@ -384,25 +392,25 @@ because the suit had not yet been agreed.
 |===
 |
 [grid="none"]
-!===
-!  1S  !  2D
-!  3D  !  3NT
-! !4D! !
-!===
+:===
+  1S  :  2D
+  3D  :  3NT
+ !4D! :
+:===
 |
 [grid="none"]
-!===
-! 1C  !  1H
-! 2C  !  3C
-! 3NT ! !4C!
-!===
+:===
+ 1C  :  1H
+ 2C  :  3C
+ 3NT : !4C!
+:===
 |
 [grid="none"]
-!===
-!  1C  !  1S
-!  2H  !  3C
-!  3NT ! !4C! !
-!===
+:===
+  1C  :  1S
+  2H  :  3C
+  3NT : !4C!
+:===
 |===
 
 // |===
