@@ -245,9 +245,8 @@ Responder has bid only one suit hence 4NT is selfwood in that suit.
 ==== After a jump rebid of hearts
 
 When opener jump rebids hearts, then it's not possible to agree hearts
-below game and opener's hand strength fairly tightly defined.
-
-So 4NT is KC asking is partner's suit.
+below game.
+So 4NT is KC asking in partner's suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -259,6 +258,9 @@ So 4NT is KC asking is partner's suit.
 |    | !4NT! | | #KC for {H}#
 |===
 
+Note that opener's hand strength is fairly tightly defined so a natural
+4NT is not needed.
+
 == Minorwood
 
 === 2-level agreement
@@ -267,7 +269,7 @@ So 4NT is KC asking is partner's suit.
 
 &Uncontested auction:&{nbsp} 4m by unlimited hand is minorwood
 
-&Contested auction:&{nbsp} !jump! to cheapest unbid suit above 4m is KC asking.
+&Contested auction:&{nbsp} !Jump! to cheapest unbid suit above 4m is KC asking
  
 [%autowidth,cols="2*a",grid="none",frame="none"]
 |===
