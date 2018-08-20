@@ -160,8 +160,8 @@ which must be {H} + {C}.
 
 ALERT: Updated August 11, 2018
 
-Our super-accept scheme is ON, except that opener may bid the transfer
-suit to make responder declare.
+Our super-accept scheme is ON, except that #opener may bid the transfer
+suit# to make responder declare.
 
 Anti-splinter super-accepts (COV, non-max) neither confirm nor deny
 control
