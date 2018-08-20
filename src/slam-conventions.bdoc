@@ -75,10 +75,10 @@ support is needed in case opener reversed into a three-card suit.
 |===
 |
 [grid="none"]
-!===
-! 1C ! 1S
-! 2D ! 4D
-!===
+:===
+ 1C : 1S
+ 2D : 4D
+:===
 |
 !===
 ! {S} AK974 +
@@ -369,25 +369,25 @@ splinter.
 |===
 |
 !===
-! {S} Axx +
-  {H} Kx +
-  {D} xx +
-  {C} AQTxxx
+! {S}{thinsp}Axx +
+  {H}{thinsp}Kx +
+  {D}{thinsp}xx +
+  {C}{thinsp}AQTxxx
 !===
 |
 [grid="none"]
-!===
-!  1C  ! ! 1D
-!  2C  ! ! !3S!
-! !4C! ! ! !4S!
-!  6C  ! !
+:===
+  1C  : 1D
+  2C  : !3S!
+ !4C! : !4S!
+  6C  :
 !===
 |
 !===
-! {S} x +
-  {H} xxx +
-  {D} AKxxxx +
-  {C} KJx
+! {S}{thinsp}x +
+  {H}{thinsp}xxx +
+  {D}{thinsp}AKxxxx +
+  {C}{thinsp}KJx
 !===
 |===
 
