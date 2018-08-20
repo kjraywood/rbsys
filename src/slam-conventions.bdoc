@@ -8,7 +8,7 @@
 
 // uncontested-auctions has a link to <<slam-conventions.adoc#picture-jumps>>
 
-=== 2/1 Auctions
+=== Two-over-one Auctions
 
 :picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
 :picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
@@ -96,12 +96,9 @@ and it when it is not a picture jump.
 
 === Set trumps first
 
-[%autowidth]
-|===
-| If it’s possible to set a suit as trump with an unambiguous below-game
-forcing-bid, then that route must be taken to ask for key-cards in
-that suit.
-|===
+CAUTION: If it’s possible to set a suit as trump with an unambiguous
+below-game forcing-bid, then that route must be taken to ask for
+key-cards in that suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -126,7 +123,7 @@ The splinter could faked just to set trump for kickback.
 Even after suit agreement, it may be necessary to delay asking for
 key-cards.
 
-==== 2/1 Auctions
+==== Two-over-one Auctions
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -273,7 +270,7 @@ Note that opener's hand strength is fairly tightly defined so a natural
 
 == Minorwood
 
-=== 2-level agreement
+=== Two-level agreement
 
 #Includes artificial limit-raises below 3m.#
 
@@ -329,9 +326,9 @@ Note that opener's hand strength is fairly tightly defined so a natural
 :===
 |===
 
-=== 3-level agreement
+=== Three-level agreement
 
-==== 4m directly after suit agreement
+==== Four-minor directly after suit agreement
 
 Minorwood by unlimited hand
 
@@ -439,7 +436,7 @@ because the suit had not yet been agreed.
 | 3C{thinsp}{or}{thinsp}3D | !4D! | |
 |===
 
-=== 4-level agreement
+=== Four-level agreement
 
 The general principle is that for 4m to be minorwood, we must first
 explicitely agree the minor-suit, or set it as trumps
