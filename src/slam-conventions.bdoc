@@ -454,7 +454,7 @@ is not defined as minorwood, then four of the cheapest unbid suit or
 the fourth-suit is key-card asking.
 
 If diamonds are agreed and clubs is the fourth or unbid suit,
-then the cheaper of each player's !2nd-suit! is KC asking.
+then the cheaper of each player's [alert]#2nd-suit# is KC asking.
 
 ==== Unlimited hand raises a non-forcing-3m to 4m
 
@@ -481,6 +481,8 @@ _ that agrees the minor +
  !4C! :
 :===
 |===
+
+
 
 == Optional minorwood
 
