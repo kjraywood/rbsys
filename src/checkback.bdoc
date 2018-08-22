@@ -163,9 +163,12 @@ ALERT: Updated July 21, 2018
 Responder relays with 2NT then bids again, to show four-cards in
 opener's minor and GF strength; possibly slammish.
 Responder's suits are usually 4-4 (M-m) because: +
-@ 4-5 => inverted minor on first round +
-@ 5-5 (pure) => jumps to 3m +
-@ 5-4 or non-pure 5-5 => 2D (GF checkback)
+@ 4-5
+@@ inverted minor on first round +
+@ 5-5 (pure)
+@@ jumps to 3m +
+@ 5-4 or non-pure 5-5
+@@ 2D (GF checkback)
 
 *Exception:* There is a special sequence for 5-4 with two weak
 doubletons, allowing opener to choose 3NT to protect tenaces in those
