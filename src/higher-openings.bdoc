@@ -9,9 +9,9 @@ https://drive.google.com/file/d/1Ps2yWPQ5piCtCB4OgLXDsGBNC-Ln0C-O/view?usp=shari
 _Responding to an Omnibus 2\C Opening_ ]
 __ {nbsp}{ndash}{nbsp} Danny Kleinman 
 
-{warning} _We do NOT play Kokish_
-
 === Responses
+
+ALERT: We do NOT play Kokish
 
 ==== Default response
 
@@ -30,7 +30,7 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 <<staging.adoc#2\C-xfer-responses,Transfer responses to a 2\C opening>>
 ##
 
-=== Second-round negatives
+==== Second-round negatives
 
 [%autowidth,cols="2*<",grid="cols"]
 |===
@@ -40,7 +40,7 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 
 Following a 2nd neg, we can stop in 3M or 4m.
 
-=== Special second-round positive
+==== Special second-round positive
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
@@ -67,10 +67,14 @@ Following a 2nd neg, we can stop in 3M or 4m.
 
 === Interference
 
-ALERT: New {ndash} Aug 12, 2018
+ALERT: Unusual scheme
 
-We treat direct interference similarly to when they interfere over our
-strong notrump opening.
+Many use double (or redouble) to show a bust, and pass as a generic
+positive.
+The lack of shape info leads to awkward auctions.
+We use double to show values without length in the bid suit.
+Thus pass is either a bust or a trap hand.
+This is similar to what strong one-clubbers do.
 
 ==== Vs double
 
@@ -84,11 +88,13 @@ _ = values but not {C}-length +
 _ = values but not length in bid suit +
 @ pass = bust or length in bid suit
 
+TIP: This is similar to how we counter overcalls of our strong
+1NT opening.
+
 ==== Subsequent bidding
 
-Just in interference over our strong NT, opener's double or redouble
-is take-out unless responder has shown positive values with a double
-or penalty pass.
+Opener's double or redouble is take-out unless responder has shown
+positive values with a double or penalty pass.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
