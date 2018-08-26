@@ -10,6 +10,8 @@ for the invitational 2S rebid.
 
 === Responding when weak with both majors
 
+ALERT: Unusual treatment
+
 4*{S}, 5*{H} {ndash} transfer to {H} and pass.
 
 5*{S}, 4{orMore}{xtimes}{H} {ndash} use Stayman
@@ -36,7 +38,7 @@ _ #{S}-length {ge} {H}-length#
 
 A consequence of 2nd-round transfers is that Stayman followed by 2S is
 our only way to invite with [nobr]#5*{S}# .
-Thus it can be balanced or unbalanced; possibly 5-5 shape.
+It can be balanced or unbalanced; possibly 5-5 shape.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -53,11 +55,12 @@ Thus it can be balanced or unbalanced; possibly 5-5 shape.
 ==== Vs double of Stayman
 
 In order of priority: +
-@ 2NT = 4-4 majors min
 @ 3C = 4-4 majors max
+@ 2NT = 4-4 majors min +
 @ pass promises a stopper
-_ (may have a stack)
-@ reverse transfers, no stopper
+_ (may have a stack) +
+@ reverse transfers deny stopper
+_ (2D{thinsp}={thinsp}4*{H}, 2H{thinsp}={thinsp}4*{S}) +
 @ Redble = double neg. (no stop, no M)
 
 Following opener's pass promising a stopper, redouble by responder is
@@ -84,6 +87,8 @@ the same scheme as opener.
 === Jacoby transfers
 
 ==== Anti-splinter super-accepts
+
+ALERT: Unusual treatment
 
 With #four-card support and a max# (a classic super-accept) we #jump
 accept immediately#.
@@ -120,26 +125,40 @@ The scheme is similar to when Stayman is doubled.
 The focus is on a stopper in the doubled suit.
 
 @ accepting transfer
-_ = A or K of doubled suit & 3-card support +
+_ = A or K of doubled suit
+__ & 3-card support +
 @ pass promises a stopper +
 @ redouble = no stopper
 
-*Following opener's stopper-showing pass:* +
-@ Redouble
-_ = re-transfer with tolerance for pass +
-@ other
-_ = system ON (incl. 2nd-round transfers)
-__  __as though opener accepted the transfer__
+When opener passes, showing a stopper, we get back to our normal
+auction.
+Responder can redouble to re-transfer but avoids this with a singleton
+in the transfer suit because opener might have a stack and be
+intending to pass.
 
-*Following opener's stopper-denying redouble:* +
-#2nd-round transfers are OFF# except that when 2D (transfer to {H}) is
-doubled and redoubled, 2S is still used to show an unbalanced invitation
-which must be {H} + {C}.
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|      |     | 1NT  | (P) | |
+| !2D! | (X) | !P!* | (P) 2+<| * {D} stopper
+|  ? 5+|
+| !XX! |  4+<| re-transfer with tolerance for pass
+|  2H  |     | sign-off
+| _other_ | 4+<| system ON (incl. 2nd-round transfers)
+                 _as though opener accepted the transfer_
+|===
+
+#When opener redoubles, 2nd-round transfers are OFF#.
+Opener has denied a stopper so it's preferable for responder to declare.
+However, when 2D (transfer to {H}) is doubled and redoubled, we still
+need to distinguish between invitational and game-forcing when responder
+has [nobr]#{H} + {C}#.
+So the invitational 2S is still on, but opener uses reverse-transfers to
+ensure that responder declares.
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
 |       |     | 1NT   | (P) | |
-| !2D!  | (X) | !XX!* | (P) | | * no {D} stopper
+| !2D!  | (X) | !XX!* | (P) 2+<| * no {D} stop
 |  ?    |  4+<|
 |  2H   |  4+<| sign off
 | !2S!  |  4+<| inv., 5{times}{H} + 4{orMore}{times}{C} +
@@ -188,19 +207,20 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 
 @ apply after Jacoby transfer to major
 @ are descriptive, not demanding +
-@ transfer to {H} then 2S (=> 2NT)
-_ = inv. (could be unbalanced) +
-@ 2nd-round transfer to 3m = 4{orMore}{xtimes}m, GF +
-@ transfer to {S} then 3D (=> 3H)
+@ transfer to {H} then 2S
+_ = inv., (incl. 5{times}{H}{thinsp}+{thinsp}5{times}m)
+@ 2nd-round transfer to 3m
+_ = 4{orMore}{xtimes}m, GF +
+@ transfer to {S} then 3D
 _ = 5-5 Majors, GF +
 @ 2nd-round transfer to same major
-_ = game or slam inv. +
+_ = inv. to game or slam +
 @ raising major = COG
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1NT | !2D! | |
-|  2H  | !2S! | | {ensp} inv., 5*{H} balanced or 5{times}{H}{thinsp}+{thinsp}5{times}m
+|  2H  | !2S! | | {ensp} inv.
 |  ?   |      | |
 |  2NT |      | | min, 2*{H}
 |  3H  |      | | min, 3*{H}
@@ -218,7 +238,7 @@ _ = game or slam inv. +
 |     | !3D!  | | 5{orMore}{xtimes}{H}, GF
 |     | !3H!  | | 6{orMore}{xtimes}{S}, game or slam inv. +
                   {tribull} 3S = decline +
-		  {tribull} _other_ = accept & descriptive
+		  {tribull} _other_ = accept
 |     |  3S   | | GF, good 6-card suit, COG
 |===
 
@@ -251,10 +271,10 @@ Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
 
 === Minor-suit transfers
 
-@ *2S* = {C}, or balanced inv
+@ *2S* = {C}, or balanced inv +
 @@ 2NT = min
 @@ 3C = max +
-@ *2NT* = {D}, any strength
+@ *2NT* = {D}, any strength +
 @@ 3C = pre-decline
 @@ 3D =  pre-accept ({D}Qxx or better) +
 
@@ -276,7 +296,7 @@ _Puppet Stayman after a 1N Opener_]
 __ {nbsp}{ndash}{nbsp} Justin Lall
 
 @ 3C = five-card Stayman +
-@ 3{D} = 5-5 minors GF
+@ 3{D} = 5-5 minors GF +
 @@ 3H => {C}
 @@ 3S => {D}
 @@ 3NT = poor hand for minors +
@@ -299,7 +319,7 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 ==== Vs natural 2C (single-suit)
 
 @ dble = take-out
-@@ cue (3C) on next-round requests stopper +
+@@ subsequent cue (3C) requests stopper +
 @ other system ON
 
 ==== Vs artificial double or 2C
@@ -316,7 +336,8 @@ We play our 2NT system
 
 ==== Vs 2D, 2H or 2S (any)
 
-@ 2M = to play #(except Michaels vs 5-cd suit)#
+@ 2M = to play
+_ #(except Michaels vs 5-cd suit)# +
 @ #3m = inv.#
 @ 3M = forcing
 @ 3{thinsp}__cue-bid__ = Stayman, no stopper
