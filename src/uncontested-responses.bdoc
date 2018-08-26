@@ -20,11 +20,11 @@
 
 === Game and slam tries after a single raise
 
-@ re-raise = inv with long trumps
+@ re-raise = inv with long trumps +
 @ next-step game-try +
-@ second-suit slam-try
-@@ new-suit by responder => ace
-__ and agrees second-suit
+@ second-suit slam-try +
+@@ new-suit by responder = ace
+__ and agrees second-suit +
 @ jump new-suit = void slam-try
 
 === Jacoby 2NT
