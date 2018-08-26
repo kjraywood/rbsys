@@ -136,24 +136,25 @@ Responder can redouble to re-transfer but avoids this with a singleton
 in the transfer suit because opener might have a stack and be
 intending to pass.
 
-[%autowidth,cols="5*^,<",grid="none"]
+[%autowidth,cols="6*^",grid="none"]
 |===
-|      |     | 1NT  | (P) | |
+|      |     | 1NT  | (P) 2+<|
 | !2D! | (X) | !P!* | (P) 2+<| * {D} stopper
 |  ? 5+|
 | !XX! |  4+<| re-transfer with tolerance for pass
-|  2H  |     | sign-off
+|  2H  |  4+<| sign-off
 | _other_ | 4+<| system ON (incl. 2nd-round transfers)
                  _as though opener accepted the transfer_
 |===
 
 #When opener redoubles, 2nd-round transfers are OFF#.
-Opener has denied a stopper so it's preferable for responder to declare.
+Opener has denied a stopper so it's preferable for responder to
+declare.
 However, when 2D (transfer to {H}) is doubled and redoubled, we still
-need to distinguish between invitational and game-forcing when responder
-has [nobr]#{H} + {C}#.
-So the invitational 2S is still on, but opener uses reverse-transfers to
-ensure that responder declares.
+need to distinguish between invitational and game-forcing when
+responder has [nobr]#{H} + {C}#.
+So the #invitational 2S is still on, but opener uses
+reverse-transfers# to ensure that responder declares.
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
