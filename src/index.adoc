@@ -3,6 +3,9 @@
 <<overview.adoc#, System Overview>>
 
 <<notrump.adoc#, NoTrump Openings>>
+{ndash}
+<<notrump.adoc#stayman-doubled,
+[brickred]#__mod. Aug 27, 2018__#>>
 
 <<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
 
