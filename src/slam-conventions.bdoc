@@ -6,9 +6,8 @@
 
 == Picture Jumps
 
-// uncontested-auctions has a link to <<slam-conventions.adoc#picture-jumps>>
-
-=== Two-over-one Auctions
+[#picjumps-2over1]
+=== Two-over-one auctions
 
 :picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
 :picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
@@ -41,6 +40,7 @@ So, contrary to the recommendation of Gumperz (part 1, page 2, hand
 NOTE: Picture jumps have priority over kickback and minorwood to
 ensure that responder's initial plan doesn't get scuttled.
 
+[#picjumps-reverse]
 === Reverse auctions
 
 A single-jump in opener's first suit is a picture jump; _not a splinter_.
@@ -500,8 +500,8 @@ Opener may not be able to bid 3NT or 4C, hence 4D is the default bid.
 This is a good candidate for optional minorwood.
 
 The characterestics: +
-@ both players are unlimited +
-_ (hence the auction is forcing)
+@ both players are unlimited
+_ (hence the auction is forcing) +
 @ the auction is already above 3m
 
 Optional minorwood might make sense here.
