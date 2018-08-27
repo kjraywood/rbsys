@@ -18,11 +18,11 @@ ALERT: Unusual treatment
 
 [%autowidth,cols="2*<.^",grid="cols"]
 |===
-| 5{hyph}4{orMore}
+| 5{ndash}4{orMore}
       | Stayman then 2H
         [nobr]#(inverted Crawling-Stayman)#
         [nobr]##{tribull} #Opener bids 2S with 3-3 majors# ##
-| 4-5 | Transfer {forces} 2H, then pass
+| 4{ndash}5 | Transfer {forces} {H}, then pass
         [nobr]#(can't show {S})#
 |===
 
@@ -31,19 +31,19 @@ iCS maximises the chances that opener declares.
 .Invitational
 [%autowidth,cols="2*<.^",grid="cols"]
 |===
-| 5{hyph}4{orMore}
+| 5{ndash}4{orMore}
       | Stayman then 2S
         [nobr]#(or raise major)#
-| 4-5 | Stayman then 2NT
+| 4{ndash}5 | Stayman then 2NT
         [nobr]#(can't show 5th {H})#
 |===
 
 .Game Forcing
 [%autowidth,cols="2*<.^",grid="cols"]
 |===
-| 5-5 | [nobr]#Transfer {forces} 2S#,
-        [nobr]#then transfer {forces} 3H#
-| 5{hyph}4 or 4{hyph}5
+| 5{ndash}5 | [nobr]#Transfer {forces} {S}#,
+        [nobr]#then transfer {forces} {H}#
+| 5{ndash}4 or 4{ndash}5
       | Stayman then Smolen
 |===
 
