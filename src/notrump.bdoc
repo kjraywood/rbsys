@@ -89,13 +89,25 @@ _ (may have a stack) +
 @ reverse transfers deny stopper
 _ (2D{thinsp}={thinsp}4*{H}, 2H{thinsp}={thinsp}4*{S}) +
 @ Redble = double neg. (no stop, no M)
+@@ scramble for a place to play,
+__ #Smolen is OFF#
 
-Following opener's pass promising a stopper, redouble by responder is
-re-Stayman with tolerance for a club-stack pass by opener.
-Otherwise, responder continues _as though opener's reply to Stayman
-was 2D._{thinsp}
-In addition, responder can show both majors and short clubs using
-the same scheme as opener.
+{new} [green]#__Modified Aug 27, 2018__#
+
+When opener passes, showing a stopper, we can often get back to our
+normal auction.
+Responder can redouble as re{hyph}Stayman, but avoids this with a
+singleton club because opener might have a stack and be intending to
+pass.
+
+#With short-clubs and a GF, responder bids 3C as re-Stayman.
+Smolen is ON.#
+
+With #short-clubs invitational strength# and less than five spades
+(otherwise 2S) #responder bids 2NT# which is usually #at least 4-3 in
+the majors.#
+This may miss a 4-4 major fit when opener passes, but otherwise,
+opener can jump to game in a 5-card major, or show a 4-card major.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -106,9 +118,10 @@ the same scheme as opener.
 | !2D!  |     | garbage-Stayman hand
 | !2H!  |     | both majors, weak,
                 [nobr]#{S}-length {ge} {H}-length#
-| !2S!  |     | 5*{S}, short {C}, inv.
-| !2NT! |     | 4-4 majors, short {C}, inv.
-| !3C!  |     | 4-4 majors, short {C}, GF
+| !2S!  |     | short {C}, 5*{S}, inv.
+| !2NT! |     | short {C}, #[4-3{orMore}] majors, inv.#
+| !3C!  |     | short {C}, #[4-3{orMore}] majors, GF#
+| !3D!  |     | short {C}, 5*{D}, 4*M
 |===
 
 === Jacoby transfers
