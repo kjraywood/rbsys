@@ -5,20 +5,44 @@
 == 1NT Opening
 
 After a Jacoby transfer, we use 2nd-round transfers.
-This requires that Stayman promise a 4-card major to allow
-for the invitational 2S rebid.
 
-=== Responding when weak with both majors
+* transfer to spades then 2NT shows clubs
+* #All invitational hands with five spades use Stayman#
+* Stayman promises a 4-card major
+
+=== Both majors
+
+&Weak&
 
 ALERT: Unusual treatment
 
-4*{S}, 5*{H} {ndash} transfer to {H} and pass.
+[%autowidth,cols="2*<.^",grid="cols"]
+|===
+| 5-4{orMore} | Stayman then 2H
+         [nobr]#(inverted Crawling-Stayman)#
+	 [nobr]##{tribull} #Opener bids 2S with 3-3 majors# ##
+| 4-5 | Transfer {forces} 2H, then pass
+        [nobr]#(can't show {S})#
+|===
 
-5*{S}, 4{orMore}{xtimes}{H} {ndash} use Stayman
-then 2H (Crawling Stayman) after opener's 2D.
-Following 2H, opener bids 2S with 3-3 majors.
+iCS maximises the chances that opener declares.
 
-This scheme maximises the chances that opener declares.
+.Invitational
+[%autowidth,cols="2*<.^",grid="cols"]
+|===
+| 5-4{orMore} | Stayman then 2S
+        [nobr]#(or raise major)#
+| 4-5 | Stayman then 2NT
+        [nobr]#(can't show 5th {H})#
+|===
+
+.Game Forcing
+[%autowidth,cols="2*<.^",grid="cols"]
+|===
+| 5-5 | [nobr]#Transfer {forces} 2S#,
+        [nobr]#then transfer {forces} 3H#
+| 5-4 or 4-5 | Stayman then Smolen
+|===
 
 === Stayman
 
@@ -27,8 +51,8 @@ This scheme maximises the chances that opener declares.
 
 ==== Rebids
 
-@ crawling Stayman,
-_ #{S}-length {ge} {H}-length#
+@ 2H = inverted Crawling-Stayman
+_ #( {S}-length {ge} {H}-length )# +
 @ 2S = inv
 @ Smolen
 @ delayed Gerber & Texas
@@ -36,14 +60,14 @@ _ #{S}-length {ge} {H}-length#
 
 ==== Invitational 2S rebid
 
-A consequence of 2nd-round transfers is that Stayman followed by 2S is
-our only way to invite with [nobr]#5*{S}# .
-It can be balanced or unbalanced; possibly 5-5 shape.
+@ only way to invite with 5*{S}
+@ can be balanced or unbalanced;
+_ possibly 5-5 shape
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 1NT   | 2C |
-| 2D,2H | 2S | {emsp}natural, 5-card suit, inv
+| 2D,2H | 2S | {emsp}5-card suit, inv
 | ?     |    |
 | pass  |    | min, 3*{S}
 | 2NT   |    | min, 2*{S}
@@ -125,8 +149,8 @@ The scheme is similar to when Stayman is doubled.
 The focus is on a stopper in the doubled suit.
 
 @ accepting transfer
-_ = A or K of doubled suit
-__ & 3-card support +
+_ =  3-card support & A or K of
+__ doubled suit +
 @ pass promises a stopper +
 @ redouble = no stopper
 
