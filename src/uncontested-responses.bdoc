@@ -8,13 +8,14 @@
 |===
 | Response       ^| Unpassed   ^| Passed
 
-| 2NT             | Jacoby      | both{nbsp}minors, inv.
+| 2NT             | Jacoby      | {C} + {D}, inv.
 | jump{nbsp}shift | natural inv.
                     [nobr]#{tribull} opener can#
-		    _ pass or force
+		    _ pass or
+		    _ force
 	                        | fit-showing
-| jump{nbsp}raise | limit, [nobr]#incl. 3*M + stiff# | weak{nbsp}splinter
-| 3M + 1       |  weak splinter, unspecified{nbsp}suit |
+| jump{nbsp}raise | limit, incl. [nobr]#3*M + stiff# | weak splinter
+| 3M + 1       |  weak splinter, unspecified suit |
 | 1H{ndash}3NT | spade splinter |
 |===
 
@@ -146,17 +147,16 @@ two-card support; _i.e._{thinsp} an 8-card fit unless opener rebid a
 
 ==== After an invitational 2NT
 
-@ old suit = minimum, extra length in suit, NF +
-@ new suit = non-minimum, extra shape, GF +
-@@ unbid major = 3-card fragment
-@@ #cheapest unbid minor forces next step#
+@ old suit = NF +
+@ unbid major = 3-card fragment, GF
+@ #cheapest-unbid-minor forces next-step#,
+_ #= GF#
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1S  | 1NT |
-|  2C  | 2NT |
-|  3H  |     | 3*{H}, GF
-        [nobr]#(responder might have 5*{H})#
+|  1S  | 1NT | |
+|  2C  | 2NT | | responder can have [nobr]#5*{H}#
+|  3H  |  2+<| 3*{H}, GF
 |===
 
 The most important situation is both majors.
@@ -223,7 +223,8 @@ rebids 3NT.
 
 100% game-forcing
 
-See also: <<slam-conventions.adoc#picture-jumps,Picture Jumps>>
+See also:
+<<slam-conventions.adoc#picjumps-2over1,Picture Jumps in 2/1 Auctions>>
 
 === One Major {ndash} Two Clubs
 
