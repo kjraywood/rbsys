@@ -147,8 +147,8 @@ two-card support; _i.e._{thinsp} an 8-card fit unless opener rebid a
 
 ==== After an invitational 2NT
 
-@ old suit = NF +
-@ unbid major = 3-card fragment, GF
+@ old suit = NF
+@ unbid major = 3-card fragment, GF +
 @ #cheapest-unbid-minor forces next-step#,
 _ #= GF#
 
