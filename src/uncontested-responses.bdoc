@@ -166,8 +166,9 @@ Both majors
 |  1S  | 1NT  | |
 |  2H  | 2NT  | |
 |  ?   |      | |
-|  3H  |      | 5-5{nbsp}min |
-|  3S  |      | 6-4{nbsp}min | ({S}-{H}-{S} does not show extras)
+|  3H  |      | 5{hyph}5{nbsp}min |
+|  3S  |      | 6{hyph}4{nbsp}min | ( {S}-{H}-{S} does not
+                                    _ show extras )
 |===
 
 [%autowidth,cols="2*^,<",grid="none"]
