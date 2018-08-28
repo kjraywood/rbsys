@@ -23,8 +23,8 @@ ALERT: Unusual treatment
         [nobr]#(inverted Crawling-Stayman)#
         [nobr]##{tribull} #Opener bids 2S with 3-3 majors# ##
 | [nobr]#4{ndash}5#
-      | Transfer {forces} {H}, then pass
-        [nobr]#(can't show {S})#
+      | Transfer {forces} {H} then pass,
+        [nobr]#can't show {S}#
 |===
 
 iCS maximises the chances that opener declares.
@@ -37,7 +37,8 @@ iCS maximises the chances that opener declares.
         [nobr]#(or raise major)#
 | [nobr]#4{ndash}5#
       | Stayman then 2NT
-        [nobr]#(can't show 5th {H})#
+        [nobr]#(or raise major)#,
+        [nobr]#can't show 5th {H}#
 |===
 
 .Game Forcing
