@@ -229,3 +229,76 @@ suit_{thinsp} is strong and _forcing if below game._
 
 // Following the neutral 2D, a 2NT rebid by responder shows a balanced
 // 11-12, and permits the auction to end in 2NT, 3C or 3D
+
+
+== Optional minorwood
+
+Kantar treats opener's raise of a 2/1 as limited, even though it is
+forcing.
+
+[%autowidth,cols="2*^",grid="none"]
+|===
+|  1H  | 2D
+|  3D  | 3S
+| !4D! |
+|===
+
+Opener may not be able to bid 3NT or 4C, hence 4D is the default bid.
+This is a good candidate for optional minorwood.
+
+The characterestics: +
+@ both players are unlimited
+_ (hence the auction is forcing) +
+@ the auction is already above 3m
+
+Optional minorwood might make sense here.
+
+[NOTE]
+====
+*Optional minorwood:* +
+4m shows slam interest.
+To accept, partner bids 4m+1 to ask for KC.
+To decline, partner shows KCs beginning at 4m+2.
+====
+
+=== After a GF cue-bid
+
+When the cue-bid is above three of opener's suit opener is forced and
+does not have an obvious default bid.
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| 1D   | (2S) |  3S | (P)
+| !4D! |      |     |
+|===
+
+Perhaps optional minorwood makes sense here.
+
+=== After 3-level rebid
+
+Kantar's rules take away an exclusion bid so it might be better to
+play optional minorwood here
+
+[%autowidth,cols="2*a",grid="none",frame="none"]
+|===
+|
+[grid="none"]
+:===
+  1S  : 2D
+  2H  : 3D
+ !4D! :
+:===
+|
+[grid="none"]
+:===
+  1C  : 1D
+  1S  : 3D
+ !4D! :
+:===
+|===
+
+In each of these  auctions, opener is forced.
+The fourth-suit (3H) is probably the default bid but opener might
+want to raise without taking control.
+However, opener may also want to request key-cards.
+Optional minorwood might make sense here.
