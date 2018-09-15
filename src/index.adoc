@@ -3,9 +3,6 @@
 <<overview.adoc#, System Overview>>
 
 <<notrump.adoc#, NoTrump Openings>>
-{ndash}
-<<notrump.adoc#stayman-doubled,
-[brickred]#__mod. Aug 27, 2018__#>>
 
 <<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
 
@@ -18,15 +15,18 @@
 <<higher-openings.adoc#, Higher Opening Bids>>
 
 <<slam-conventions.adoc#, Slam Conventions>>
+{ndash}
+<<slam-converions.adoc#blackwood-in-comp,
+[brickred]#__mod. Sep 15, 2018__#>>
 
 <<defensive-bidding.adoc#, Defensive Bidding>>
 
 <<competitive-bidding.adoc#, Competitive Bidding>>
 
-<<staging.adoc#, Potential agreements>>
-
 '''
 
 <<system.adoc#, __Everything__>>
 
-<<discuss.adoc#, __For Discussion__>>
+<<staging.adoc#, __Potential agreements__>>
+
+// <<discuss.adoc#, __For Discussion__>>
