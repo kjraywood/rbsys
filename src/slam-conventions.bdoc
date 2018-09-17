@@ -590,12 +590,6 @@ We act, they preempt {tribull} if partner has shown five or more, except for
 |===
 
 
-// === Responses
-
-// @ 03,14 / Gerber, Minorwood, Kickback
-// @ 0,1,2{OrLess},2{OrMore} / Exclusion
-// @ 0,1{OrLess},1{OrMore},2{OrLess},2{OrMore} / Preempt-KC ( 4C or 4D{thinsp}/{thinsp}3C-opening )
-
 == First-round ace-asking
 
 === Plain Blackwood
@@ -624,10 +618,16 @@ First-round jumps to 4M are to play.
 
 Other first-round jumps that are one-level higher than a splinter are exclusion.
 
+Responses:  0, 1, 2-, 2+, 3-, 3+
+
+== KC Responses
+
+03, 14, 2{OrLess}, 2{OrMore}
+
 === Specific Kings
 
-@ #King-ask = 5T + 1# (no exceptions)
-@@ Promises that we have all the key-cards
+@ #King-ask = 5T + 1# (no exceptions) +
+@@ Promises that we have all the key-cards +
 @@ if trumps {ne} {S}, then 5NT => K of 5T{thinsp}+{thinsp}1
 
 // ** Need example auctions **
@@ -652,9 +652,8 @@ then 5NT is used to show the king in that suit
 We ignore doubles of any asking or telling bids.
 _i.e._{thinsp} we bid as though the double did not occur.
 
-@ D0P1 below 5T-1 where
-@@ 0 => 0 or 3
-@@ 1 => 1 or 4
+@ D0P1 below 5T-1,
+_ Dbl = 0 or 3, P = 1 or 4 +
 @ DEPO otherwise
 
 .D0P1 example
@@ -681,10 +680,6 @@ Following Pass (odd) it is still possible to ask for the trump Q with double.
 // ** danger **
 
 == Exclusion
-
-// [special]#Updated {thinsp}{ndash}{thinsp} Mar 27, 2018{nbsp}#
-
-=== Majors
 
 Applies when:
 
