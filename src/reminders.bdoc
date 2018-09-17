@@ -8,13 +8,24 @@
 @ *vs overcall:*{nbsp} 3m = inv.
 _ {or} neg. dble = take-out of _bid_ suit
 
+&2\C Opening:&{nbsp}
+*vs interference:*{nbsp}
+@ pass = bust or trap
+@ bid = natural weak
+@ X, XX = values (not trap) +
+
+&Weak Two:&{nbsp}
+@ new-suit = NF vs o/call
+@ Ogust: ON vs X {or} OFF vs o/call
+@ Ogust responses OFF vs 4th-hand suit-bid
+
 &Major Opening:&
 @ 3M+1 = weak splinter
 @ 1H{ndash}3NT = {S}-splinter
 @ new-suit slam-try / single-raise & Drury
 @ LR = 4*M {or} 3 + side stiff
 @ 2NT by PH = 5-5 minors inv.
-@ *Drury:*{nbsp} ON vs X, 1S {or} OFF vs 2C +
+@ Drury:{nbsp} ON vs X & 1S {or} OFF vs 2C
 @ [lightgrey-bg]#1M-1NT{semicolon}2__lower__-2NT{semicolon}#
 @@ new-minor-relay = GF
 
@@ -23,12 +34,6 @@ _ {or} neg. dble = take-out of _bid_ suit
 @ rev. Flann OFF in comp. (incl. Dbl) +
 @ *vs. double:*{nbsp} 2NT = bal. LR, NF
 _ | other-minor = unbal. LR{orMore}
-
-&Responses in comp.:&
-@ Reverse in comp. = F1
-@ Only splinter is in opp's suit
-@ Two other-Maj. NFB = 6*M, 7{ndash}11{orLess}
-@ Lower for other vs 2-suiters
 
 &Uncontested rebids:&
 @ 2nd-round raise of minor = GF
@@ -40,3 +45,36 @@ _ | other-minor = unbal. LR{orMore}
 @ [lightgrey-bg]#1m-1M{semicolon} 2M-?#
 @@ 2NT, 3m = nat. NF
 @@ 3om asks quant. & short-suit
+
+&Competetive bidding:&
+@ Reverse in comp. = F1
+@ Only splinter is in opp's suit
+@ Two other-Maj. NFB = 6*M, 7{ndash}11{orLess}
+@ Supp X vs s/wich NT:{nbsp} ON vs unusual
+_ {or} OFF vs nat.
+@ Leb. by opener / neg. X at _or raised_ to 2-level +
+@ Lower for other vs 2-suiters
+@@ higher of lo-cue and nat. new-suit = F
+
+
+&Direct NT Overcalls:&
+@ 1NT =  15{ndash}18
+@ sys ON +
+*vs 2m (nat.):*
+@ 2NT = 15{ndash}18
+@ our 2NT-sys ON
+@ Stayman & Smolen
+@ 3S {forces} 3NT
+@ 3NT = mild slam-try in om +
+*vs 2M (nat.):*
+@ 2NT = 16{ndash}19
+@ our 2NT-sys ON
+@ 5-cd Stayman (for oM)
+@ 3S {forces} 3NT
+@ transfer to their M = inv. oM
+
+&Balancing:&
+@ 1NT =  11{ndash}14 / m, 12{orMore}{ndash}16 / M, sys ON
+@ cue of minor = majors
+@ cue of major = minors
+@ unbid-minor Drury / we bal. 1M
