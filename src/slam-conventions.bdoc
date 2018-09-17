@@ -272,16 +272,11 @@ Note that opener's hand strength is fairly tightly defined so a natural
 
 #Includes artificial limit-raises below 3m.#
 
-&Uncontested auction:&{nbsp} 4m by an unlimited hand is usually
-minorwood.
+==== Uncontested auction
 
-It would NOT be minorwood when: +
-@ the previous bid was above 3m
-@ notrump has not been bid
+4m by an unlimited hand is minorwood except when the previous bid was
+above 3m, and notrump has not been bid.
 
-&Contested auction:&{nbsp} ##!Jump! to cheapest unbid suit above 4m is
-KC asking##
- 
 [%autowidth,cols="2*a",grid="none",frame="none"]
 |===
 |
@@ -309,26 +304,26 @@ KC asking##
 |
 [grid="none"]
 :===
-  1D  : (P) : 2D : (2S)
- !4H! : : :
-:===
-|===
-
-[%autowidth,cols="2*a",grid="none",frame="none"]
-|===
-|
-[grid="none"]
-:===
   1D  : !3C!
  !4D! :
 :===
-|
-[grid="none"]
+|===
+
+==== Contested auction:
+
+##!Jump! to cheapest unbid suit above 4m is KC asking##
+
+[%autowidth,grid="none"]
+:===
+  1D  : (P) : 2D : (2S)
+ !4H! : : :
+:===
+
+[%autowidth,grid="none"]
 :===
   1D  : (1H) : !2H! : (P)
  !4S! : : :
 :===
-|===
 
 === Three-level agreement
 
