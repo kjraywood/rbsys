@@ -22,7 +22,7 @@
 
 [%autowidth,cols="3*^",grid="none"]
 |===
-| 1__suit__ | (Dbl) | Rdbl
+| 1__suit__ | (X) | XX
 |===
 
 One of: +
@@ -37,8 +37,8 @@ One of: +
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1__suit__ | (Dbl) | P    | (__bid__{thinsp}) |
-| P         | (P)   | Dble |           | cooperative
+| 1__suit__ | (X) | P    | (__bid__{thinsp}) |
+| P         | (P)   | X |           | cooperative
 |===
 
 
@@ -62,7 +62,7 @@ immediately to the two-level or higher with 4-card support.
  
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1C | (1H) | Dble {ensp} (P)
+| 1C | (1H) | X {ensp} (P)
 |  ? |      |
 | 1S |      | 3*{spades}, up to 17 with no {H} stopper
 | 2S |      | 4*{spades}, minimum range
@@ -83,7 +83,7 @@ partner's last-bid suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C | (1H) |  Dbl  | (2H)
+| 1C | (1H) |  X  | (2H)
 | P  | (P)  |  ?    |
 |    |      | !2S!  | Support for opener's minor, LR{nbsp}strength,
                       _e.g._ {S}Q984{nbsp}{H}43 {D}KJ4{nbsp}{C}AJ63
