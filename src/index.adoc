@@ -15,9 +15,6 @@
 <<higher-openings.adoc#, Higher Opening Bids>>
 
 <<slam-conventions.adoc#, Slam Conventions>>
-{ndash}
-<<slam-conventions.adoc#blackwood-in-comp,
-[brickred]#__mod. Sep 15, 2018__#>>
 
 <<defensive-bidding.adoc#, Defensive Bidding>>
 
