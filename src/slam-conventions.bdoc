@@ -536,8 +536,6 @@ the bid is not a jump.  But it must still be between 4m and 4NT. +
 [#blackwood-in-comp]
 == 4NT in high-level competition
 
-{new} [green]#__Added Sep 15, 2018__#
-
 {reference} http://www.districtsix.org/Articles/Article%202011-02.aspx[
 _ACBL district-6 panel {ndash} Feb/Mar 2011_ ]
 
@@ -547,7 +545,7 @@ We open one-major, they preempt
 [nobr]#{tribull} 4NT = KC asking#
 
 We open one-minor, they preempt +
-@ 4NT = take-out {simto} 4{xtimes}m + 6{xtimes}om#
+@ 4NT = take-out, {simto} 4{xtimes}m + 6{xtimes}om#
 
 We overcall @ 1-level, they preempt +
 @ 4NT = take-out
