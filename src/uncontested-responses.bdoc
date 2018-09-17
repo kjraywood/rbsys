@@ -150,7 +150,7 @@ two-card support; _i.e._{thinsp} an 8-card fit unless opener rebid a
 @ old suit = NF
 @ unbid major = 3-card fragment, GF +
 @ #cheapest-unbid-minor forces next-step#,
-_ #= GF#
+_ GF
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -159,7 +159,7 @@ _ #= GF#
 |  3H  |  2+<| 3*{H}, GF
 |===
 
-Both majors
+===== Both majors
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
@@ -180,6 +180,9 @@ Both majors
 | 3H  |      | 5*{S}, 5*{H}, GF
 | 3S  |      | 6*{S}, 4*{H}, GF
 |===
+
+
+===== Major + minor
 
 To show 5*M + 5*m with extras, opener uses the new-minor relay then
 rebids 3NT.
@@ -227,6 +230,10 @@ See also:
 <<slam-conventions.adoc#picjumps-2over1,Picture Jumps in 2/1 Auctions>>
 
 === One Major {ndash} Two Clubs
+
+{reference} https://bridgewinners.com/article/view/better-21-bidding-the-nebulous-2c-bid[
+_Better 2/1 Bidding: The Nebulous 2\C Bid_]
+__ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
