@@ -129,22 +129,27 @@ opener can jump to game in a 5-card major, or show a 4-card major.
 
 === Jacoby transfers
 
-==== Anti-splinter super-accepts
+==== Super Accepts
+
+With #four-card support and a max# (a classic super-accept) we #jump
+accept#.
+
+===== Anti-splinters (secondary values)
 
 ALERT: Unusual treatment
 
-With #four-card support and a max# (a classic super-accept) we #jump
-accept immediately#.
+With four-card support and #less than a max#, we show the location of
+secondary values.
+_i.e._{thinsp} if partner has a singleton in that suit, then the hands
+fit poorly.
 
-With four-card support and less than a max, we show the location of
-outside values.
-To ensure that a re-transfer is always possible, opener uses 2NT to
-show values in suit of transfer.
+With secondary values in the suit of the transfer, opener bids 2NT.
+This ensures that a re-transfer is always possible
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |       |  1NT   | |
-| !2D!  | !2NT!* | | * {D} values, non-max
+| !2D!  | !2NT!* | | * secondary values in {D}, non-max
 | !3D!{superdag} | 3H | | {superdag} re-transfer
 |===
 
