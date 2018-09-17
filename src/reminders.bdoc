@@ -32,7 +32,8 @@ _ | other-minor = unbal. LR{orMore}
 
 &Uncontested rebids:&
 @ 2nd-round raise of minor = GF
-@ after 3-suits NF, jump to 3NT = 16-17
+@ 3-suits, NF
+@@ jump to 3NT = 16-17
 @ [lightgrey-bg]#1m-1M{semicolon}1NT-2C{semicolon}2D-3NT# = COG
 @ Reverse / suit = promises rebid
 @ Reverse / 1NT = unbal. raise to 2NT +
