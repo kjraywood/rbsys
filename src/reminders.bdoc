@@ -1,0 +1,39 @@
+:sectnumlevels: 0
+
+= Reminders
+
+&1NT Opening:&
+@ inverted Crawling-Stayman
+@ *super-accept:*{nbsp} jump=max {or} anti-splinter=min +
+@ *vs overcall:*{nbsp} 3m = inv.
+_ {or} neg. dble = take-out of _bid_ suit
+
+&Major Opening:&
+@ 3M+1 = weak splinter
+@ 1H{ndash}3NT = {S}-splinter
+@ new-suit slam-try / single-raise & Drury
+@ LR = 4*M {or} 3 + side stiff
+@ 2NT by PH = 5-5 minors inv.
+@ *Drury:*{nbsp} ON vs X, 1S {or} OFF vs 2C +
+@ [lightgrey-bg]#1M-1NT{semicolon} 2__lower__-2NT{semicolon}#
+@@ new-minor-relay = GF
+
+&Minor Opening:&
+@ inverted-minors OFF by PH
+@ rev. Flann OFF in comp. (incl. Dbl) +
+@ *vs. double:*{nbsp} 2NT = bal. LR, NF
+_ | other-minor = unbal. LR{orMore}
+
+&Uncontested auctions&
+@ 2nd-round raise of minor = GF
+@ after 3-suits NF, jump to 3NT = 16-17
+@ [lightgrey-bg]#1m-1M{semicolon} 1NT-2C{semicolon} 2D-3NT# = COG
+@ Reverse / suit = promises rebid
+@ Reverse / 1NT = unbalanced raise to 2NT
+
+
+&Competetive bidding:&
+@ Reverse in comp. = F1
+@ Only splinter is in opp's suit
+@ Two other-Maj. NFB = 6*M, 7{ndash}11{orLess}
+@ Lower for other vs 2-suiters
