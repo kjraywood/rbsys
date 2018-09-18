@@ -115,8 +115,14 @@ _ known-length {ge} 6
 @ lead 2nd-high thru decl.
 _ to dummy weakness
 @ discard quickly from a suit we cannot guard
-@@ common-sense takes priority +
+_ (common-sense takes priority) +
 *vs NT when decl. runs a suit:*{nbsp}
 @ quick enc. discard = quick entry
 @ early discard in suit we led
 _ = not ready to run
+
+[bold-brickred]#Playing & Defending:#
+@ dummy hits: review {forces} plan
+_ {forces} "`__I'm ready to play__`"
+@ predict declarer's shape
+@ we think when they tank
