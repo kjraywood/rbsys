@@ -48,6 +48,10 @@ _ | other-minor = unbal. LR{orMore}
 @@ 2NT, 3m = nat. NF
 @@ 3om asks quant. & short-suit
 
+&2/1:&
+@ [lightgrey-bg]#1M-2C{semicolon}2D-2oM# = real clubs
+@ [lightgrey-bg]#1M-2C{semicolon}2M# = 6{orMore}{xtimes}M
+
 &Competetive bidding:&
 @ Reverse in comp. = F1
 @ Only splinter is in opp's suit
@@ -58,7 +62,6 @@ _ {or} OFF vs nat.
 @ JS adv of overcall = nat, inv. 
 @ Lower for other vs 2-suiters
 @@ higher of [ lo-cue, natural new-suit ] = F
-
 
 &Direct NT Overcalls:&
 @ 1NT =  15{ndash}18
