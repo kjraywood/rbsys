@@ -78,3 +78,21 @@ _ {or} OFF vs nat.
 @ cue of minor = majors
 @ cue of major = minors
 @ unbid-minor Drury / we bal. 1M
+
+&Kickback for hearts:&
+@ requires trump agreement
+@ fake splinter sometimes used to set trump
+@ picture jumps have priority over KC asking
+@ majors have priority over minors
+@ two-suit KC in double-fit auctions
+
+&Minorwood:&
+@ requires trump agreement
+@ 4NT = natural (to play / minorwood)
+@ in comp., !jump! to cheapest unbid-suit {gt} 4m +
+@ 3-level w/o agreement, jump to
+@@ cheapest unbid
+@@ 4th suit
+@@ opener's 2nd-suit +
+@ 4-level agreement
+@@ KC ask {simto} 3-level non-agreement, but not jump
