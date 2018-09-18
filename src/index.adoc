@@ -26,4 +26,4 @@
 
 <<staging.adoc#, __Potential agreements__>>
 
-// <<discuss.adoc#, __For Discussion__>>
+<<reminders.adoc#, __Reminders__>>
