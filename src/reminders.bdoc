@@ -7,6 +7,8 @@
 @ *super-accept:*{nbsp} jump=max {or} anti-splinter=min +
 @ *vs overcall:*{nbsp} 3m = inv.
 _ {or} neg. dble = take-out of _bid_ suit
+@ *vs double:*{nbsp} Redble by opener
+_  = some 5-cd suit
 
 &2\C Opening:&{nbsp}
 *vs interference:*{nbsp}
@@ -53,8 +55,9 @@ _ | other-minor = unbal. LR{orMore}
 @ Supp X vs s/wich NT:{nbsp} ON vs unusual
 _ {or} OFF vs nat.
 @ Leb. by opener / neg. X at _or raised_ to 2-level +
+@ JS adv of overcall = nat, inv. 
 @ Lower for other vs 2-suiters
-@@ higher of lo-cue and nat. new-suit = F
+@@ higher of [ lo-cue, natural new-suit ] = F
 
 
 &Direct NT Overcalls:&
@@ -105,3 +108,15 @@ _ unbid-suit above 4m +
 @ Landy & transfer overcalls
 @ 2S, 2NT (CC)
 @ also balancing
+
+&Carding:&
+@ suit-pref and middle-enc. when
+_ known-length {ge} 6
+@ lead 2nd-high thru decl.
+_ to dummy weakness
+@ discard quickly from a suit we cannot guard
+@@ common-sense takes priority +
+*vs NT when decl. runs a suit:*{nbsp}
+@ quick enc. discard = quick entry
+@ early discard in suit we led
+_ = not ready to run
