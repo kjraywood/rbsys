@@ -68,16 +68,16 @@ _ {or} OFF vs nat.
 @ 3NT = mild slam-try in om +
 *vs 2M (nat.):*
 @ 2NT = 16{ndash}19
-@ our 2NT-sys ON
 @ 5-cd Stayman (for oM)
 @ 3S {forces} 3NT
 @ transfer to their M = inv. oM
 
 &Balancing:&
-@ 1NT =  11{ndash}14 / m, 12{orMore}{ndash}16 / M, sys ON
+@ 1NT (CC)
 @ cue of minor = majors
 @ cue of major = minors
-@ unbid-minor Drury / we bal. 1M
+@ we bal. 1M
+@@ unbid-minor = Drury
 
 &Kickback for hearts:&
 @ requires trump agreement
@@ -88,11 +88,20 @@ _ {or} OFF vs nat.
 
 &Minorwood:&
 @ requires trump agreement
-@ 4NT = natural (to play / minorwood)
-@ in comp., !jump! to cheapest unbid-suit {gt} 4m +
+@ 4NT = natural (to play / minorwood) +
+@ in comp., !jump! to cheapest
+_ unbid-suit above 4m +
 @ 3-level w/o agreement, jump to
 @@ cheapest unbid
 @@ 4th suit
 @@ opener's 2nd-suit +
 @ 4-level agreement
 @@ KC ask {simto} 3-level non-agreement, but not jump
+
+&vs weak NT:&
+@ lower-limit {le} 13 {or} 3rd NV
+@ dble = penalty
+@@ Landy & transfers by advancer +
+@ Landy & transfer overcalls
+@ 2S, 2NT (CC)
+@ also balancing
