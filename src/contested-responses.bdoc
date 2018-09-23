@@ -4,16 +4,19 @@
 
 == Vs Take-Out Double
 
+Transfers from XX to one step below a single-raise.
+
 === Raises and preempts
 
 [%autowidth,cols="3*<.^",grid="cols"]
 |===
 | Response       ^| Major           ^| Minor
 
-| 2NT             | LR, 4{orMore}-cd | bal. LR, NF
+| single{nbsp}raise | weak           | weak
+| 2NT             | LR, 4{orMore}-cd |
 | 3NT             | bal.{nbsp}game-raise, 4{orMore}-cd
-                                     | bal.{nbsp}game-raise
-| jump{nbsp}shift | natural weak     | major = weak +
+                                     |
+| jump{nbsp}shift | inv.             | major = inv +
                                        other-minor [nobr]#= unbal. {LRplus}#
 | jump{nbsp}raise | weak             | weak
 |===
