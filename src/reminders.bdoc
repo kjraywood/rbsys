@@ -4,49 +4,41 @@
 
 &1NT Opening:&
 @ inverted Crawling-Stayman
-@ *super-accept:*{nbsp} jump=max {or} anti-splinter=min +
-@ *vs overcall:*{nbsp} 3m = inv.
-_ {or} neg. dble = take-out of _bid_ suit
-@ *vs double:*{nbsp} Redble by opener
-_  = some 5-cd suit
+@ *super-accepts[*{nbsp} jump=max {or} anti-splinter=min (2NT = Tfr suit) *]* +
+@ *vs double[*{nbsp} sys. ON
+_ {or} XX {forces} 2C, to play in {C} or {D} 
+_ {or} XX by opener = some 5-cd suit *]*
 
 &2\C Opening:&{nbsp}
-*vs interference:*{nbsp}
-@ pass = bust or trap
-@ bid = natural weak
-@ X, XX = values (not trap) +
+@ *vs interference[*{nbsp} Pass = bust or trap
+_ {or} bid = natural weak
+_ {or} X or XX = values (not trap) *]*
 
 &Weak Two:&{nbsp}
-@ new-suit = NF vs o/call
-@ Ogust: ON vs X {or} OFF vs o/call
-@ Ogust responses OFF vs 4th-hand suit-bid
+@ *vs o/call[*{nbsp} new-suit = NF
+_ {or} 2NT = nat. (Ogust OFF) *]*
 
 &Major Opening:&
-@ 3M+1 = weak splinter
 @ 1H{ndash}3NT = {S}-splinter
-@ new-suit slam-try / single-raise & Drury
-@ LR = 4*M {or} 3 + side stiff
-@ 2NT by PH = 5-5 minors inv.
-@ Drury:{nbsp} ON vs X & 1S {or} OFF vs 2C
-@ [lightgrey-bg]#1M-1NT{semicolon}2__lower__-2NT{semicolon}#
+@ by PH, 2NT = 5-5 m's inv. (ON vs X, 1S) +
+@ 1M {ndash} 1NT{semicolon} 2__lower__ {ndash} 2NT
+@@ old-suit = NF
 @@ new-minor-relay = GF
 
 &Minor Opening:&
-@ inverted-minors OFF by PH
-@ rev. Flann OFF in comp. (incl. Dbl) +
-@ *vs. double:*{nbsp} 2NT = bal. LR, NF
-_ | other-minor = unbal. LR{orMore}
+@ *vs double[*{nbsp} _transfers_
+_ {or} JS other-minor = unbal. LR{orMore} *]*
 
 &Uncontested rebids:&
-@ 2nd-round raise of minor = GF
-@ 3-suits, NF
-@@ jump to 3NT = 16-17
-@ [lightgrey-bg]#1m-1M{semicolon}1NT-2C{semicolon}2D-3NT# = COG
-@ Reverse / suit = promises rebid
-@ Reverse / 1NT = unbal. raise to 2NT +
-@ [lightgrey-bg]#1m-1M{semicolon} 2M-?#
-@@ 2NT, 3m = nat. NF
-@@ 3om asks quant. & short-suit
+@ Reverse after 1NT = unbal. raise to 2NT (not Leb.)
+@ 2nd-round raise of minor = GF +
+@ 1m {ndash} 1M{semicolon} 1NT {ndash} 2C{semicolon} 2D {ndash} 3NT = COG
+@ 3-suits NF
+@@ jump to 3NT = 16-17 always +
+@ 1m {ndash} 1M{semicolon} 2M {ndash} !3om! = GF enquiry
+@@ 3M = 4-cd suit
+@@ 3oM = shortness
+@@ 3NT = short _om_
 
 &2/1:&
 @ [lightgrey-bg]#1M-2C{semicolon}2D-2oM# = real clubs
