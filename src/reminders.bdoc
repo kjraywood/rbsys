@@ -4,30 +4,35 @@
 
 &1NT Opening:&
 @ inverted Crawling-Stayman
-@ *super-accepts[*{nbsp} jump=max {or} anti-splinter=min (2NT = Tfr suit) *]* +
-@ *vs double[*{nbsp} sys. ON
-_ {or} XX {forces} 2C, to play in {C} or {D} 
-_ {or} XX by opener = some 5-cd suit *]*
+@ *super-accepts [* jump=max {vsep} anti-splinter=min (2NT = Tfr suit) *]* +
+@ *vs double [* sys. ON
+_ {vsep} XX {forces} 2C, to play in {C} or {D} 
+_ {vsep} XX by opener = some 5-cd suit *]*
 
 &2\C Opening:&{nbsp}
-@ *vs interference[*{nbsp} Pass = bust or trap
-_ {or} bid = natural weak
-_ {or} X or XX = values (not trap) *]*
+@ *vs interference [* Pass = bust or trap
+_ {vsep} bid = natural weak
+_ {vsep} X or XX = values (not trap) *]*
 
 &Weak Two:&{nbsp}
-@ *vs o/call[*{nbsp} new-suit = NF
-_ {or} 2NT = nat. (Ogust OFF) *]*
+@ *vs o/call [* new-suit = NF
+_ {vsep} 2NT = nat. (Ogust OFF) *]*
 
 &Major Opening:&
 @ 1H{ndash}3NT = {S}-splinter
 @ by PH, 2NT = 5-5 m's inv. (ON vs X, 1S) +
 @ 1M {ndash} 1NT{semicolon} 2__lower__ {ndash} 2NT
-@@ old-suit = NF
-@@ new-minor-relay = GF
+_ *[* old-suit = NF
+_ {vsep} new-minor-relay = GF *]*
 
-&Minor Opening:&
-@ *vs double[*{nbsp} _transfers_
-_ {or} JS other-minor = unbal. LR{orMore} *]*
+&vs Opp's Take-Out Double:&
+@ _transfers_
+@ JS other-minor = unbal. LR{orMore}
+@ other JS = inv.
+
+&2/1:&
+@ 1M {ndash} 2C{semicolon} 2D {ndash} !2oM! = real clubs
+@ 1M {ndash} 2C{semicolon} 2M = 6{orMore}{xtimes}M
 
 &Uncontested rebids:&
 @ Reverse after 1NT = unbal. raise to 2NT (not Leb.)
@@ -36,46 +41,29 @@ _ {or} JS other-minor = unbal. LR{orMore} *]*
 @ 3-suits NF
 @@ jump to 3NT = 16-17 always +
 @ 1m {ndash} 1M{semicolon} 2M {ndash} !3om! = GF enquiry
-@@ 3M = 4-cd suit
-@@ 3oM = shortness
-@@ 3NT = short _om_
-
-&2/1:&
-@ [lightgrey-bg]#1M-2C{semicolon}2D-2oM# = real clubs
-@ [lightgrey-bg]#1M-2C{semicolon}2M# = 6{orMore}{xtimes}M
+@@ *[* 3M = 4-cd suit {vsep} 3oM = shortness {vsep} 3NT = short _om_ *]*
 
 &Competitive bidding:&
-@ Reverse in comp. = F1
-@ Only splinter is in opp's suit
-@ Two other-Maj. NFB = 6*M, 7{ndash}11{orLess}
-@ Supp X vs s/wich NT:{nbsp} ON vs unusual
-_ {or} OFF vs nat.
-@ Leb. by opener / neg. X at _or raised_ to 2-level +
+@ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
+@ &#x00a7;32 Leb. / Scrambling 2NT:{nbsp} they are at 2M, we have doubled +
 @ JS adv of overcall = nat, inv. 
-@ Lower for other vs 2-suiters
-@@ higher of [ lo-cue, natural new-suit ] = F
+@ U vs U: lower of lo-cue & new-suit = NF
 
-&Direct NT Overcalls:&
-@ 1NT =  15{ndash}18
-@ sys ON +
-*vs 2m (nat.):*
-@ 2NT = 15{ndash}18
-@ our 2NT-sys ON
-@ Stayman & Smolen
-@ 3S {forces} 3NT
-@ 3NT = mild slam-try in om +
-*vs 2M (nat.):*
-@ 2NT = 16{ndash}19
-@ 5-cd Stayman (for oM)
-@ 3S {forces} 3NT
-@ transfer to their M = inv. oM
+&Direct 2NT Overcalls:&
+@ *vs nat. .2m [* 2NT = 15 {ndash} 18
+{vsep} Reg. Stayman & Smolen
+{vsep} 3S = om
+*]* +
+@ *vs nat. 2M [* 2NT = 16 {ndash} 16
+{vsep} 5-cd Stayman (for oM)
+{vsep} 3S = MSS
+*]* +
 
 &Balancing:&
-@ 1NT (CC)
-@ cue of minor = majors
-@ cue of major = minors
+@ cue m = M's
+@ cue M = m's (not Michaels)
 @ we bal. 1M
-@@ unbid-minor = Drury
+@@ unbid-minor = LR{orMore}
 
 &Kickback for hearts:&
 @ requires trump agreement
@@ -86,38 +74,36 @@ _ {or} OFF vs nat.
 
 &Minorwood:&
 @ requires trump agreement
-@ 4NT = natural (to play / minorwood) +
-@ in comp., !jump! to cheapest
+@ in comp., KC ask = !jump! to cheapest
 _ unbid-suit above 4m +
-@ 3-level w/o agreement, jump to
-@@ cheapest unbid
-@@ 4th suit
-@@ opener's 2nd suit +
-@ 4-level agreement
-@@ KC ask {simto} 3-level non-agreement, but not jump
+@ *3-level w/o agreement:*{nbsp} KC ask = cheaper of
+*[* unbid
+{vsep} 4th suit
+{vsep} opener's 2nd suit
+*]* +
+@ *4-level w/o agreement:*{nbsp}
+KC ask = as above but not jump
 
 &vs weak NT:&
-@ lower-limit {le} 13 {or} 3rd NV
-@ dble = penalty
-@@ Landy & transfers by advancer +
+@ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
+@ direct and balancing +
 @ Landy & transfer overcalls
-@ 2S, 2NT (CC)
-@ also balancing
+@ 2S, 2NT (see CC)
+@ dble = penalty
+@@ Landy & transfers by advancer
 
 &Carding:&
-@ suit-pref and middle-enc. when
-_ known-length {ge} 6
-@ lead 2nd high thru decl.
-_ to dummy weakness
+@  known-length {ge} 6
+@@ suit-pref and middle-enc. +
+// @ lead 2nd high thru decl. to dummy weakness
 @ discard quickly from a suit we cannot guard
 _ (common-sense takes priority) +
-*vs NT when decl. runs a suit:*{nbsp}
-@ early discard in suit we led
-_ = not ready to run
-@ quick enc. discard = quick entry
+@ *vs NT when decl. runs a suit [*
+_ early discard in led suit = not ready to run
+_ {vsep} quick enc. discard = quick entry *]*
 
 [bold-brickred]#Playing & Defending:#
 @ dummy hits: review {forces} plan
-_ {forces} "`__I'm ready to play__`"
+_ {forces} "`__I'm ready to play__`" +
 @ predict declarer's shape
 @ we think when they tank
