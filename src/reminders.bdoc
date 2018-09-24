@@ -20,7 +20,7 @@ _ {vsep} 2NT = nat. (Ogust OFF) *]*
 
 &Major Opening:&
 @ 1H{ndash}3NT = {S}-splinter
-@ by PH, 2NT = 5-5 m's inv. (ON vs X, 1S) +
+@ 2NT by PH = 5-5 m's inv. (ON vs X, 1S) +
 @ 1M {ndash} 1NT{semicolon} 2__lower__ {ndash} 2NT
 _ *[* old-suit = NF
 _ {vsep} new-minor-relay = GF *]*
@@ -37,7 +37,7 @@ _ {vsep} new-minor-relay = GF *]*
 &Uncontested rebids:&
 @ Reverse after 1NT = unbal. raise to 2NT (not Leb.)
 @ 2nd-round raise of minor = GF +
-@ 1m {ndash} 1M{semicolon} 1NT {ndash} 2C{semicolon} 2D {ndash} 3NT = COG
+@ 1m {ndash} 1M{semicolon} 1NT {ndash} !2C!{semicolon} !2D! {ndash} 3NT = COG
 @ 3-suits NF
 @@ jump to 3NT = 16-17 always +
 @ 1m {ndash} 1M{semicolon} 2M {ndash} !3om! = GF enquiry
@@ -45,19 +45,17 @@ _ {vsep} new-minor-relay = GF *]*
 
 &Competitive bidding:&
 @ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
-@ &#x00a7;32 Leb. / Scrambling 2NT:{nbsp} they are at 2M, we have doubled +
+@ *&#x00a7;32* (Leb. & Scrambling 2NT):{nbsp} they are at 2M, we have doubled +
 @ JS adv of overcall = nat, inv. 
 @ U vs U: lower of lo-cue & new-suit = NF
 
 &Direct 2NT Overcalls:&
 @ *vs nat. .2m [* 2NT = 15 {ndash} 18
-{vsep} Reg. Stayman & Smolen
-{vsep} 3S = om
-*]* +
-@ *vs nat. 2M [* 2NT = 16 {ndash} 16
-{vsep} 5-cd Stayman (for oM)
-{vsep} 3S = MSS
-*]* +
+_ {vsep} Reg. Stayman & Smolen
+_ {vsep} 3S = om *]* +
+@ *vs nat. 2M
+_ [* 2NT = 16 {ndash} 19 {vsep} 5-cd Stayman (for oM)
+_ {vsep} tfr to their M = inv oM {vsep} 3S = MSS *]*
 
 &Balancing:&
 @ cue m = M's
@@ -77,18 +75,14 @@ _ {vsep} new-minor-relay = GF *]*
 @ in comp., KC ask = !jump! to cheapest
 _ unbid-suit above 4m +
 @ *3-level w/o agreement:*{nbsp} KC ask = cheaper of
-*[* unbid
-{vsep} 4th suit
-{vsep} opener's 2nd suit
-*]* +
-@ *4-level w/o agreement:*{nbsp}
-KC ask = as above but not jump
+_ *[* unbid {vsep} 4th suit {vsep} opener's 2nd suit *]* +
+@ *4-level agreement:*{nbsp} KC ask = as above but not jump
 
 &vs weak NT:&
 @ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
 @ direct and balancing +
-@ Landy & transfer overcalls
-@ 2S, 2NT (see CC)
+@ Landy & transfers
+@ 2S, 2NT, 3m (see CC)
 @ dble = penalty
 @@ Landy & transfers by advancer
 
