@@ -4,7 +4,8 @@
 
 &1NT Opening:&
 @ inverted Crawling-Stayman
-@ *super-accepts [* jump=max {vsep} anti-splinter=min (2NT = Tfr suit) *]* +
+@ *super-accepts [* jump=max
+_ {vsep} anti-splinter=min (2NT = Tfr suit) *]* +
 @ *vs double [* sys. ON
 _ {vsep} XX {forces} 2C, to play in {C} or {D} 
 _ {vsep} XX by opener = some 5-cd suit *]*
@@ -45,7 +46,8 @@ _ {vsep} new-minor-relay = GF *]*
 
 &Competitive bidding:&
 @ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
-@ *&#x00a7;32* (Leb. & Scrambling 2NT):{nbsp} they are at 2M, we have doubled +
+@ *&#x00a7;32* (Leb. & Scrambling 2NT):
+_ they are at 2M, we have doubled +
 @ JS adv of overcall = nat, inv. 
 @ U vs U: lower of lo-cue & new-suit = NF
 
@@ -76,7 +78,8 @@ _ {vsep} tfr to their M = inv oM {vsep} 3S = MSS *]*
 _ unbid-suit above 4m +
 @ *3-level w/o agreement:*{nbsp} KC ask = cheaper of
 _ *[* unbid {vsep} 4th suit {vsep} opener's 2nd suit *]* +
-@ *4-level agreement:*{nbsp} KC ask = as above but not jump
+@ *4-level agreement:*
+_ KC ask = as above but not jump
 
 &vs weak NT:&
 @ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
@@ -100,4 +103,4 @@ _ {vsep} quick enc. discard = quick entry *]*
 @ dummy hits: review {forces} plan
 _ {forces} "`__I'm ready to play__`" +
 @ predict declarer's shape
-@ we think when they tank
+@ when they tank, we think
