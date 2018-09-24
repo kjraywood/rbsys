@@ -36,9 +36,10 @@ _ {vsep} new-minor-relay = GF *]*
 @ 1M {ndash} 2C{semicolon} 2M = 6{orMore}{xtimes}M
 
 &Uncontested rebids:&
-@ Reverse after 1NT = unbal. raise to 2NT (not Leb.)
-@ 2nd-round raise of minor = GF +
-@ 1m {ndash} 1M{semicolon} 1NT {ndash} !2C!{semicolon} !2D! {ndash} 3NT = COG
+@ 2nd-round raise of minor = GF
+@ Reverse after 1NT = unbal. raise to 2NT
+@@ 2NT = NF (not Leb.) +
+@ 1m {ndash} 1M{semicolon} 1NT {ndash} !2C!{semicolon} !2D! {ndash} !3NT! = COG
 @ we bid 3 suits & auction is NF
 @@ jump to 3NT = 16-17 always +
 @ 1m {ndash} 1M{semicolon} 2M {ndash} !3om! = GF enquiry
@@ -56,9 +57,11 @@ _ they are at 2M, we have doubled +
 @ *vs nat. .2m [* 2NT = 15 {ndash} 18
 _ {vsep} Reg. Stayman & Smolen
 _ {vsep} 3S = om *]* +
-@ *vs nat. 2M
-_ [* 2NT = 16 {ndash} 19 {vsep} 5-cd Stayman (for oM)
-_ {vsep} tfr to their M = inv oM {vsep} 3S = MSS *]*
+@ *vs nat. 2M*
+_ *[* 2NT = 16 {ndash} 19
+_ {vsep} 5-cd Stayman (for oM)
+_ {vsep} tfr to their M = inv oM
+_ {vsep} 3S = MSS *]*
 
 &Balancing:&
 @ cue m = M's
