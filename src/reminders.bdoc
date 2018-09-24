@@ -23,8 +23,7 @@ _ {vsep} 2NT = nat. (Ogust OFF) *]*
 @ 1H{ndash}3NT = {S}-splinter
 @ 2NT by PH = 5-5 m's inv. (ON vs X, 1S) +
 @ 1M {ndash} 1NT{semicolon} 2__lower__ {ndash} 2NT
-_ *[* old-suit = NF
-_ {vsep} new-minor-relay = GF *]*
+@@ *[* old-suit NF {vsep} new-minor-relay GF *]*
 
 &vs Opp's Take-Out Double:&
 @ _transfers_
