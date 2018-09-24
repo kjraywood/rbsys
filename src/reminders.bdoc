@@ -66,8 +66,7 @@ _ {vsep} 3S = MSS *]*
 &Balancing:&
 @ cue m = M's
 @ cue M = m's (not Michaels)
-@ we bal. 1M
-@@ unbid-minor = LR{orMore}
+@ we bal. 1M {tribull} unbid-minor = LR{orMore}
 
 &Kickback for hearts:&
 @ requires trump agreement
@@ -100,8 +99,8 @@ _ KC ask = as above but not jump
 // @ lead 2nd high thru decl. to dummy weakness
 @ discard quickly from a suit we cannot guard
 _ (common-sense takes priority) +
-@ *vs NT when decl. runs a suit [*
-_ early discard in led suit = not ready to run
+@ *vs NT when decl. runs a suit*
+_ *[* early discard in led suit = not ready to run
 _ {vsep} quick enc. discard = quick entry *]*
 
 [bold-brickred]#Playing & Defending:#
