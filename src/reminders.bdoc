@@ -4,7 +4,9 @@
 
 &1NT Opening:&
 @ inverted Crawling-Stayman
-@ transfer to M then 4M
+@ transfer to 2M then 3M
+_ = COG (6*M) +
+@ transfer to 2M then 4M
 _ = bal. slam inv (5*M only) +
 @ *super-accepts [* jump=max
 _ {vsep} anti-splinter=min (2NT = Tfr suit) *]* +
