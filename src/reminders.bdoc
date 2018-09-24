@@ -42,11 +42,12 @@ _ {vsep} new-minor-relay = GF *]*
 @ we bid 3 suits & auction is NF
 @@ jump to 3NT = 16-17 always +
 @ 1m {ndash} 1M{semicolon} 2M {ndash} !3om! = GF enquiry
-@@ *[* 3M = 4-cd suit {vsep} 3oM = shortness {vsep} 3NT = short _om_ *]*
+@@ *[* 3M = 4-cd suit {vsep} 3oM = shortness
+__ {vsep} 3NT = short _om_ *]*
 
 &Competitive bidding:&
 @ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
-@ *&#x00a7;32* (Leb. & Scrambling 2NT):
+@ *&#x00a7;32* (Leb. & Scrambling 2NT):{nbsp}
 _ they are at 2M, we have doubled +
 @ JS adv of overcall = nat, inv. 
 @ U vs U: lower of lo-cue & new-suit = NF
@@ -76,9 +77,10 @@ _ {vsep} tfr to their M = inv oM {vsep} 3S = MSS *]*
 @ requires trump agreement
 @ in comp., KC ask = !jump! to cheapest
 _ unbid-suit above 4m +
-@ *3-level w/o agreement:*{nbsp} KC ask = cheaper of
+@ *3-level w/o agreement:*{nbsp}
+_ KC ask = cheaper of
 _ *[* unbid {vsep} 4th suit {vsep} opener's 2nd suit *]* +
-@ *4-level agreement:*
+@ *4-level agreement:*{nbsp}
 _ KC ask = as above but not jump
 
 &vs weak NT:&
