@@ -32,7 +32,7 @@ _ {vsep} 2NT = nat. (Ogust OFF) *]*
 @ JS other-minor = unbal. LR{orMore}
 @ other JS = inv.
 
-&2/1:&
+&Two over One:&
 @ 1M {ndash} 2C{semicolon} 2D {ndash} !2oM! = real clubs
 @ 1M {ndash} 2C{semicolon} 2M = 6{orMore}{xtimes}M
 
@@ -49,10 +49,10 @@ __ {vsep} 3NT = short _om_ *]*
 
 &Competitive bidding:&
 @ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
-@ *&#x00a7;32* (Leb. & Scrambling 2NT):{nbsp}
-_ they are at 2M, we have doubled +
 @ JS adv of overcall = nat, inv. 
 @ U vs U: lower of lo-cue & new-suit = NF
+@ *&#x00a7;32* (Leb. & Scrambling 2NT):{nbsp}
+_ they are at 2M, we have doubled +
 
 &Direct 2NT Overcalls:&
 @ *vs nat. .2m [* 2NT = 15 {ndash} 18
