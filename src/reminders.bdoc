@@ -3,16 +3,15 @@
 = Reminders
 
 &1NT Opening:&
-@ inverted Crawling-Stayman
-@ transfer to 2M then 3M
-_ = COG (6*M) +
-@ transfer to 2M then 4M
-_ = bal. slam inv (5*M only) +
+@ *vs double [* sys. ON {vsep} XX {forces} 2C, to play in {C} or {D} 
+_ {vsep} XX by opener = some 5-cd suit *]* +
 @ *super-accepts [* jump=max
 _ {vsep} anti-splinter=min (2NT = Tfr suit) *]* +
-@ *vs double [* sys. ON
-_ {vsep} XX {forces} 2C, to play in {C} or {D} 
-_ {vsep} XX by opener = some 5-cd suit *]*
+@ *Tfr {forces} 2M*
+@@ *[* 3M-1 (re-tfr) = game-inv or slam-inv, 6{orMore}{times}M
+__ {vsep} 3M = COG, 6{times}M
+__ {vsep} 4M = bal. slam-inv, 5{times}M *]* +
+@ inverted Crawling-Stayman
 
 &2\C Opening:&{nbsp}
 @ *vs interference [* Pass = bust or trap
@@ -56,9 +55,9 @@ __ {vsep} 3NT = short _om_ *]*
 @ *&#x00a7;32* (Leb. & Scrambling 2NT):{nbsp}
 _ they are at 2M, we have doubled +
 
-&Direct 2NT Overcalls:&
-@ *vs nat. .2m [* 2NT = 15 {ndash} 18
-_ {vsep} Reg. Stayman & Smolen
+&2NT Overcalls:&
+@ *vs nat. 2m [* 2NT = 15 {ndash} 18
+_ {vsep} reg. Stayman & Smolen
 _ {vsep} 3S = om *]* +
 @ *vs nat. 2M*
 _ *[* 2NT = 16 {ndash} 19
@@ -97,15 +96,15 @@ _ KC ask = as above but not jump
 @@ Landy & transfers by advancer
 
 &Carding:&
-@  known-length {ge} 6
-@@ suit-pref and middle-enc. +
+@  when known-length = 6{orMore}
+@@ middle-enc. & suit-pref  +
 // @ lead 2nd high thru decl. to dummy weakness
 @ *vs NT when decl. runs a suit*
 _ *[* early discard in led suit = not ready to run
 _ {vsep} quick enc. discard = quick entry *]*
 
 [bold-brickred]#Playing & Defending:#
-@ dummy hits: review {forces} plan
-_ {forces} "`__I'm ready to play__`" +
-@ predict declarer's shape
 @ when they tank, we think
+@ predict declarer's shape +
+@ dummy hits:
+_ review {forces} plan {forces} "`__I'm ready to play__`" +
