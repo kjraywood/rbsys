@@ -29,9 +29,11 @@ _ {vsep} 2NT = nat. (Ogust OFF) *]*
 @@ *[* old-suit NF {vsep} new-minor-relay GF *]*
 
 &vs Opp's Take-Out Double:&
-@ _transfers_
 @ JS other-minor = unbal. LR{orMore}
-@ other JS = inv.
+@ other JS = inv. +
+@ *Transfers [*
+_ from XX to Tfr-raise
+_ {vsep} vs double of Tfr: natural *]*
 
 &Two over One:&
 @ 1M {ndash} 2C{semicolon} 2D {ndash} !2oM! = real clubs
