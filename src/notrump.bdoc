@@ -45,8 +45,8 @@ iCS maximises the chances that opener declares.
 [%autowidth,cols="2*<.^",grid="cols"]
 |===
 | [nobr]#5{ndash}5#
-      | [nobr]#Transfer {forces} {S}#,
-        [nobr]#then transfer {forces} {H}#
+      | [nobr]#Transfer {forces} {S}#, then
+        [nobr]#transfer {forces} {H}#
 | [nobr]#5{ndash}4# or [nobr]#4{ndash}5#
       | Stayman then Smolen
 |===
@@ -149,14 +149,14 @@ This ensures that a re-transfer is always possible
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |       |  1NT   | |
-| !2D!  | !2NT!* | | * secondary values in {D}, non-max
+| !2D!  | !2NT!* | | * values in {D}, non-max
 | !3D!{superdag} | 3H | | {superdag} re-transfer
 |===
 
 [NOTE]
 ====
-We use descriptive game-tries when opener has a non-max because this occurs
-more frequently then a max.
+We use descriptive game-tries when opener has a non-max because this
+occurs more frequently then a max.
 We attempt to increase accuracy in the more frequent case.
 ====
 
