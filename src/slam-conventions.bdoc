@@ -390,7 +390,8 @@ usually via a splinter.
 
 ==== Unlimited hand pulls 3NT to agreed minor
 
-If the #minor has already been agreed# then 4m by unlimited hand is minorwood.
+If the #minor has already been agreed# then 4m by an unlimited hand is
+minorwood.
 
 Usually the 4m bidder was unable to ask for KCs the previous round
 because the suit had not yet been agreed.
@@ -540,22 +541,23 @@ We open one-major, they preempt
 [nobr]#{tribull} 4NT = KC asking#
 
 We open one-minor, they preempt +
-@ 4NT = take-out, {simto} 4{xtimes}m + 6{xtimes}om#
+[nobr]#{tribull} 4NT = take-out, {simto} 4{xtimes}m + 6{xtimes}om#
 
 We overcall @ 1-level, they preempt +
-@ 4NT = take-out
+[nobr]#{tribull} 4NT = take-out#
 
 === Other Suggestions
 
-==== Mike Lawrence
+&Mike Lawrence&
 
 We overcall two-minor, they preempt
 [nobr]#{tribull} 4NT = plain aces#
 
-==== Eric Greco 
+&Eric Greco &
 
-We act, they preempt {tribull} if partner has shown five or more, except for
-1-level overcalls, then 4NT is KC asking.
+We act, they preempt: +
+_If partner has shown five or more, except for 1-level overcalls, then
+4NT is KC asking._
 
 === Examples
 
