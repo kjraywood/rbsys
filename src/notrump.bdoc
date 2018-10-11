@@ -92,7 +92,7 @@ In order of priority: +
 @ pass promises a stopper
 _ (may have a stack) +
 @ reverse transfers deny stopper
-_ [nobr]#(2D{thinsp}={thinsp}4*{H}, 2H{thinsp}={thinsp}4*{S})# +
+_ (2D{thinsp}={thinsp}4*{H}, 2H{thinsp}={thinsp}4*{S}) +
 @ Redble = double neg. (no stop, no M) +
 @@ scramble for a place to play,
 __ #Smolen is OFF#
