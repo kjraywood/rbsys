@@ -4,64 +4,49 @@
 
 == Vs Take-Out Double
 
-=== Transfers
-
-@ start at XX
-@ end at transfer to opener's suit
-@ transfer to NT = 8{orMore} (unlimited)
-
-==== Opener's rebid
-
-Following a transfer to a major, opener accepts at the 1-level with
-3-card support and anything less than a GF.
-
-With 4-card support, opener raises to as though responder had bid 1M.
-
-Otherwise, opener makes normal rebid.
-
-==== When transfer is doubled
-
-Opener bids normally (ignoring the double) if possible.
-This includes jumping to 2NT with 18{ndash}19 (highly unlikley with
-all four players bidding).
-
-It is still advantageous to have opener declare, so pass and redouble
-are natural; usually a minimum balanced-hand.
-
-@ opener tries to make normal bid +
-@ XX = four-cards in transfer suit +
-@ pass = three-cards in transfer suit
-@@ responder can XX to play (no rescue)
-
 === Raises and preempts
 
 [%autowidth,cols="3*<.^",grid="cols"]
 |===
-| Response       ^| Major           ^| Minor
+| Response       ^| Major   ^| Minor
 
-| single{nbsp}raise | 3-cd, weak     | 4-cd, weak
-| Transfer to opener's suit
-                  | 3-cd constr.{orMore} | 4-cd constr.{orMore}
-| 2NT             | LR, 4{orMore}{xtimes}M |
-| 3NT             | bal.{nbsp}game-raise, 4{orMore}-cd
-                                     |
-| jump{nbsp}shift | inv.             | major = inv +
-                                       other-minor [nobr]#= unbal. {LRplus}#
-| jump{nbsp}raise | weak             | weak
+| 2NT             | LR (4{orMore}{xtimes}M)
+                             | bal. LR (4{orMore}{xtimes}m), NF
+| 3NT             | bal.{nbsp}game-raise (4{orMore}{xtimes}M)
+                             | bal.{nbsp}game-raise (4{orMore}{xtimes}m)
+| jump{nbsp}shift | inv.     | major = inv. +
+                               other-minor [nobr]#= unbal. {LRplus}#
+| jump{nbsp}raise | weak     | weak
 |===
 
-// === Pass then double
+=== Strength redouble
 
-// [%autowidth,cols="4*^,<",grid="none"]
-// |===
-// | 1__suit__ | (X) | P    | (__bid__{thinsp}) |
-// | P         | (P)   | X |           | cooperative
-// |===
+[%autowidth,cols="3*^",grid="none"]
+|===
+| 1__suit__ | (X) | XX
+|===
 
-// With 4333 and 10{OrMore} HCP, responder passes on the first
-// round, then doubles on the second round.
-// Opener pulls with a singleton in their suit, or with a doubleton and
-// five cards in the opening suit.
+One of: +
+@ good three-card raise of major +
+@ no fit +
+@@ good 10{orMore} HCP +
+@@ 4{orMore} cards in 2{orMore} unbid suits +
+@@ Forcing to two of opener’s suit +
+@@ Subsequent doubles = 4{orMore} of their suit
+
+=== Pass then double
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1__suit__ | (X) | P    | (__bid__{thinsp}) |
+| P         | (P)   | X |           | cooperative
+|===
+
+
+With 4333 and 10{OrMore} HCP, responder passes on the first
+round, then doubles on the second round.
+Opener pulls with a singleton in their suit, or with a doubleton and
+five cards in the opening suit.
 
 == Vs Suit Overcall
  
