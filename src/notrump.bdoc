@@ -100,16 +100,19 @@ __ #Smolen is OFF#
 ==== When opener passes
 
 Responder can redouble as re{hyph}Stayman, but must have at least two
-clubs because opener might have a stack and be intending to pass.
+clubs and at least invitational values because opener might have a
+stack and be intending to pass.
 
-With short-clubs and a GF, responder bids 3C as re-Stayman.
+With a garbage-Stayman hand (three-suiter short in clubs), responder
+bids 2D and opener corrects with a four-card major.
+
+With short-clubs and a GF, responder bids 3C as re{hyph}Stayman.
 Smolen is ON.
 
-With short-clubs invitational strength and less than five spades
-(otherwise 2S) responder bids 2NT, which is usually at least 4-3 in
-the majors.
-This may miss a 4-4 major fit when opener passes, but otherwise,
-opener can jump to game in a 5-card major, or show a 4-card major.
+Other bids are though opener had replied to Stayman with 2D, although
+in this case, opener may still have a four-card major.
+It's possible to miss a 4{hyph}-4 major-suit fit when responder rebids
+2NT and opener passes.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -120,31 +123,37 @@ opener can jump to game in a 5-card major, or show a 4-card major.
 | !2D!  |     | garbage-Stayman hand
 | !2H!  |     | both majors, weak,
                 [nobr]#{S}-length {ge} {H}-length#
-| !2S!  |     | short {C}, 5*{S}, inv.
-| !2NT! |     | short {C}, #[4-3{orMore}] majors, inv.#
-| !3C!  |     | short {C}, #[4-3{orMore}] majors, GF#
+| !2S!  |     | 5*{S}, inv. (short {C})
+| !2NT! |     | natural inv. but short {C}
+| !3C!  |     | re-Stayman, short {C}
          [nobr]##{thinsp}{tribull} #Smolen ON# ##
-| !3D!  |     | short {C}, 5*{D}, 4*M
+| !3D!  |     | 5*{D}, 4*M, short {C}, GF
 |===
 
 === Jacoby transfers
 
+==== Self splinter
+
+Following a normal accept, a jump-shift rebid by responder =
+self-splinter slam-try
+
 ==== Super Accepts
-
-With #four-card support and a max# (a classic super-accept) we #jump
-accept#.
-
-===== Anti-splinters (secondary values)
 
 ALERT: Unusual treatment
 
-With four-card support and #less than a max#, we show the location of
-secondary values.
-_i.e._{thinsp} if partner has a singleton in that suit, then the hands
-fit poorly.
+Super-accept = bidding _above_{thinsp} responder's suit
 
-With secondary values in the suit of the transfer, opener bids 2NT.
-This ensures that a re-transfer is always possible
+We only do this with four-card support and not 4333.
+
+*Maximum* {forces} jump accept
+
+*Minimum* {forces} show secondary values (anti-splinter)
+
+[TIP]
+====
+2NT = values in the suit of the transfer to ensure that a re-transfer
+is always possible
+====
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -160,11 +169,6 @@ occurs more frequently then a max.
 We attempt to increase accuracy in the more frequent case.
 ====
 
-==== Self splinter
-
-Following a normal accept, a jump-shift rebid by responder =
-self-splinter slam-try
-
 === Vs double of transfer
 
 The scheme is similar to when Stayman is doubled.
@@ -172,31 +176,24 @@ The focus is on a stopper in the doubled suit.
 
 ==== With four-card support
 
-Our super-accept scheme is ON, except that #opener may bid the transfer
-suit# to make responder declare.
+Our super-accept scheme is ON, except that opener may use a reverse
+transfer to make responder declare.
 
-Anti-splinter super-accepts neither confirm nor deny
-control.
-
-With slow values in the transfer suit, and 4333 shape, opener may
-choose to pass (showing a stopper), and later show a preference to
-play NT to avoid a ruff.
-
-2NT by opener also indicates slow values in the transfer suit but not
-4333.
+Anti-splinter super-accepts (showing values, four-card-support and
+minumum) neither confirm nor deny control.
+A subsequent 3NT by responder shows control of the transfer-suit and
+is a slam try with preference to declare.
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
 |  1NT  | (P) | !2D! {ensp} (X)
 |   ?   |     |
-2+<| !2S!,!3C! <|  COV, not max
-| !2NT! |     | Slow {D}-values, not 4333
+2+<| !2S!,!3C! <| COV, not max +
+                {tribull} 3NT = slam-try, {D}-control, prefer to declare
+| !2NT! |     | {D}-stopper, not max, 4333
 | !3D!  |     | clear max, prefer to be dummy
 |  3H   |     | clear max, prefer to delcare
 |===
-
-Following a super-accept, 3NT by responder shows control of the
-transfer-suit and is a slam try with preference to declare.
 
 ==== Without four-card support
 
