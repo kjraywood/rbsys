@@ -81,7 +81,7 @@ _ {vsep} 3S = MSS *]*
 
 &Minorwood:&
 @ requires trump agreement
-@ in comp., KC ask = !jump! to cheapest
+@ in comp., KC ask = [underline]#jump# to cheapest
 _ unbid-suit above 4m +
 @ *3-level w/o agreement:*{nbsp}
 _ KC ask = cheaper of
