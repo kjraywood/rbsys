@@ -141,17 +141,17 @@ self-splinter slam-try
 
 ALERT: Unusual treatment
 
-Super-accept = bidding _above_{thinsp} responder's suit
+Super-accept = bidding _above_{thinsp} responder's suit [nobr]#(min or max)#
 
-We only do this with four-card support and not 4333.
+We do this with four-card support and not 4333.
 
 *Maximum* {forces} jump accept
 
-*Minimum* {forces} show secondary values (anti-splinter)
+*Minimum* {forces} show secondary values [nobr]#(anti-splinter)#
 
 [TIP]
 ====
-2NT = values in the suit of the transfer to ensure that a re-transfer
+2NT = values in the suit of the transfer to ensure that a re{hyph}transfer
 is always possible
 ====
 
@@ -164,7 +164,7 @@ is always possible
 
 [NOTE]
 ====
-We use descriptive game-tries when opener has a non-max because this
+We use descriptive game-tries when opener has a minimum because this
 occurs more frequently then a max.
 We attempt to increase accuracy in the more frequent case.
 ====
@@ -188,9 +188,9 @@ is a slam try with preference to declare.
 |===
 |  1NT  | (P) | !2D! {ensp} (X)
 |   ?   |     |
-2+<| !2S!,!3C! <| COV, not max +
+2+<| !2S!,!3C! <| COV, minimum +
                 {tribull} 3NT = slam-try, {D}-control, prefer to declare
-| !2NT! |     | {D}-stopper, not max, 4333
+| !2NT! |     | {D}-stopper, minimum
 | !3D!  |     | clear max, prefer to be dummy
 |  3H   |     | clear max, prefer to delcare
 |===
