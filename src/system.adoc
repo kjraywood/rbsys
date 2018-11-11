@@ -20,4 +20,4 @@ include::defensive-bidding.adoc[]
 
 include::competitive-bidding.adoc[]
 
-include::staging.adoc[]
+include::defence.adoc[]

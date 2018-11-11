@@ -20,6 +20,8 @@
 
 <<competitive-bidding.adoc#, Competitive Bidding>>
 
+<<defence.adoc#, Leads and Carding>>
+
 '''
 
 <<system.adoc#, __Everything__>>
