@@ -13,7 +13,7 @@
 * King from AKx or KQx.  When unsure which, leader's partner assumes AKx.
 
 * Queen from AKQx. Leader's partner can always read this and gives count. +
-  {tribull} Then A or K show suit-pref.
+  {tribull} Then A or K shows suit-pref.
 
 ==== Spot-card leads
 
@@ -21,8 +21,27 @@
 
 * high from three small
 
-* 2nd highest from four or five small, except highest of touching cards
+* 2^nd^ highest from four or five small, except highest of touching
+  cards
 
 * low from honour third
 
-* fourth best
+* 4^th^ best
+
+=== NoTrump Contracts
+
+* 4^th^ best from length
+
+* Rusinow Q,J,T or 9 (promises next higher honour or shortness)
+
+* King = power (from AKQT, AKJT, KQT9, KQJ9, KQJT) +
+  It requests:
+@ overtake with the ace and return
+@ unblock of Q, J or T
+@ otherwise count +
+
+* Ace from AKx(x)
+
+Rusinow does not apply when leading partner's suit, dummy's suit, or
+when the opening leader has preempted and leads a side suit.
+These are situations where we might want to lead honour doubleton.
