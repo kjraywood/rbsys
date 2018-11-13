@@ -45,3 +45,82 @@
 Rusinow does not apply when leading partner's suit, dummy's suit, or
 when the opening leader has preempted and leads a side suit.
 These are situations where we might want to lead honour doubleton.
+
+== Carding
+
+=== Signalling
+
+@ upside-down attitude
+@ standard count
+@ suit-preference in trump-suit +
+@ Smith Echo in NT
+_ {ndash} USD by opening leader, Std by partner
+
+If partner leads our 6{OrMore}-card suit:
+@ middle spot-card = continue
+@ hi or lo spot-card = suit-pref
+
+We give attitude on opening lead, even in a suit-contract with
+shortness (s/v) in dummy, except: +
+@ Q from AKQ
+@@ count +
+@ K from AK vs slam
+@@ count +
+@ cannot beat dummy's J or lower
+@@ count
+
+TIP: If we cannot have a significant honour (J or higher) we give count
+
+==== The aggressive shift
+
+A discouraging signal implies that we can stand the aggressive shift.
+This is usually to dummy's weakest side-suit.
+
+===== Negatives
+
+* not trumps
+
+* not a suit headed by AKQ, KQJ, or AKJT
+
+* not a singleton or void in a suit-contract except it could be a
+  singleton vs a slam
+
+* not a suit that was shown by declarer
+
+===== Positives
+
+* opening-leader's suit (when a different suit was led)
+
+* suit shown by leader's partner (when a different suit was led)
+
+* vs suit: a 3-card suit headed by at most one honour
+
+* vs suit: if no weak-three-card suit, then shortest side-suit but
+  not a singleton or void (excluded by negative)
+
+* vs notrump: shortest side-suit not excluded by a negative
+
+=== Discards
+
+Natural discards have priority.  These are: +
+@ top of honour sequence +
+@ 2^nd^-last in partner's suit +
+@ from a five-card suit in a
+_ 4-card suit of dummy or declarer
+
+First spot-card discard is upside-down attitude unless it is in
+dummy's long-suit and partner needs count.
+Subsequent discards in the same suit are suit preference.
+
+In situations (usually NT) where we have set up a suit and then must
+make discards on some other suit, an immediate encouraging discard
+means a quick entry.
+A late encouraging discard, after discouraging another suit, shows a
+slow stopper.
+
+=== Third-hand play
+
+When partner leads low and we have an honour sequence, we usually play
+2^nd^-highest honour.
+However, if we know that lowest of the sequence will make our holding
+known to partner, then that's the card we play.
