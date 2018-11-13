@@ -78,7 +78,7 @@ _ possibly 5-5 shape
 | ?     |    |
 | pass  |    | min, 3*{S}
 | 2NT   |    | min, 2*{S}
-| 3S    |    | max, {S} Ax, Kx or Qx, #FORCING#
+| 3S    |    | #max, {S} Ax, Kx or Qx, FORCING#
 | 3NT   |    | max, {S}{thinsp}xx
 | 4S    |    | max, 3*{S}
 |===
@@ -119,7 +119,7 @@ It's possible to miss a 4{hyph}-4 major-suit fit when responder rebids
 |       |     |        1NT         {ensp} (P)
 | !2C!  | (X) | {ensp}!!P!!*{nbsp} {ensp} (P) {emsp} * {C} stopper
 |  ?    |     |
-| !XX!  |     | re-Stayman, 2{OrMore}{xtimes}{C}
+| !XX!  |     | re-Stayman, 2{OrMore}{xtimes}{C}, #System{nbsp}ON#
 | !2D!  |     | garbage-Stayman hand
 | !2H!  |     | both majors, weak,
                 [nobr]#{S}-length {ge} {H}-length#
@@ -173,9 +173,9 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 Second-round transfers apply after a Jacoby transfer to a major.
 They are descriptive, not demanding.
 
-A transfer to {H} then 2S (_transfer to 2NT_{thinsp}) does not
+Transfer to {H} then 2S (_transfer to 2NT_{thinsp}) does not
 show spades.
-It is an invitational hand with exactly five hearts and fewer than
+It is invitational with exactly five hearts and fewer than
 four spades.
 Opener assumes that it is one of: +
 @ balanced or semi-balanced inv. +
@@ -235,10 +235,9 @@ self-splinter slam-try
 
 ==== Balanced slam-try
 
-Transfer then double-raise to 4M is not needed to show a 6-card-suit
-slam-try without shortness because that hand-type uses a 2^nd^-round
-re-transfer to the major.
-So we use this sequence to show a balanced slam-try with a 5-card major.
+Transfer then double-raise to 4M show a balanced slam-try with a
+5-card major.
+It allows us to play 4M whereas transfer then 4NT would not.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -250,9 +249,14 @@ So we use this sequence to show a balanced slam-try with a 5-card major.
 | !5C! |      | #RKC for {S}#
 |===
 
-This is superior to using 4NT, because it allows us to play 4M.
+[NOTE]
+====
+This sequence is not needed to show a 6-card-suit slam-try without
+shortness because that hand-type uses a 2^nd^-round re-transfer to the
+major.
+====
 
-Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
+Similarly, transfer then 5M = quantative 5332, forces 6 and invites 7 (like
 1NT-5NT).
 
 === Vs double of transfer
