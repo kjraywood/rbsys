@@ -32,33 +32,43 @@ ALERT: We do NOT play Kokish
 
 ==== Second-round negatives
 
-[%autowidth,cols="2*<",grid="cols"]
+[%autowidth,cols="2*a",grid="none",frame="none"]
 |===
-| {nbsp} 2C {emsp} 2D    | {nbsp} 2C {emsp} 2D
-| {nbsp} 2M {emsp} !2NT! | {nbsp} 3m {emsp} !3H!
+|
+[grid="none",cols="2*^"]
+:===
+ !2C! : !2D!
+  2M  : !2NT!
+:===
+|
+[grid="none",cols="2*^"]
+:===
+ !2C! : !2D!
+  2m  : !3H!
+:===
 |===
 
-Following a 2nd neg, we can stop in 3M or 4m.
+Following a 2^nd^-round neg., we can stop in 3M or 4m.
 
 ==== Special second-round positive
 
-[%autowidth,cols="2*^,<",grid="none]
+[%autowidth,cols="3*^,<",grid="none]
 |===
-| 2C | 2D   |
-| 2S | !3H! | positive, no fit, no 5-card suit, usually 1-4-4-4
+| !2C! | !2D! | |
+|  2S  | !3H! | | positive, no fit, no 5-card suit, usually 1-4-4-4
 |===
 
 === Four-card major & long diamonds
 
-[%autowidth,cols="^,2*<",grid="none]
+[%autowidth,cols="3*^,<",grid="none]
 |===
-| 2C   | 2D          |
-| !3M! | {ensp}?     | 3M = 4*M, 5{OrMore}{xtimes}{D}, GF
-|      | 3S (M={H})  | natural, 6{OrMore}{xtimes}{S}
-|      | 3NT         | to play, no help in opener's suits
-|      | !4C!        | #agrees {D}#, pos.
-|      | !4D!        | #agrees M#, pos.
-|      | 4M,5D       | sign-off, neg.
+| !2C! | !2D!        | |
+| !3M! |  ?          | | 3M = 4*M, 5{OrMore}{xtimes}{D}, GF
+|      |  3S         | | (M={H}){ensp} natural, 6{OrMore}{xtimes}{S}
+|      |  3NT        | | to play, no help in opener's suits
+|      | !4C!        | | #agrees {D}#, pos.
+|      | !4D!        | | #agrees M#, pos.
+|      | 4M,5D       | | sign-off, neg.
 |===
 
 // |     | 4H (M={S}) | agrees {S} with short {D}

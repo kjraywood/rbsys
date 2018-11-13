@@ -29,12 +29,12 @@ So, contrary to the recommendation of Gumperz (part 1, page 2, hand
 2), the 2nd-round jump to 3M shows strong slam-interest but !denies!
 4-card support.
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S | 2D  |
-| 2H | ?   |
-|    | 3S  | strong slam-interest, 3*{S}
-|    | 4S  | picture jump
+| 1S | 2D  | |
+| 2H | ?   | |
+|    | 3S  | | strong slam-interest, 3*{S}
+|    | 4S  | | picture jump
 |===
 
 NOTE: Picture jumps have priority over kickback and minorwood to
@@ -150,10 +150,8 @@ solid, and hence convert to 6NT or 7NT.
 |  1C   | 1S |
 |  2H   | 3H |
 |  ?    |    |
-| !3S!  |    | {S}{thinsp}({thinsp}A{thinsp}{or}{thinsp}K{thinsp}{or}{thinsp}Q{thinsp}),
-        [nobr]#trump = {H}#
-| !3NT! |    | mild slam-try,
-        [nobr]#(opener has shown at least 5-4)#
+| !3S!  |    |  {S}-card (A, K or Q), [nobr]#trump = {H}#
+| !3NT! |    | mild slam-try, [nobr]#(opener has shown at least 5-4)#
 |  4C   |    | serious slam try
 |  4D   |    | serious slam try ({S} shortness)
 |  4H   |    | min reverse, no help in {S}
