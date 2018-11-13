@@ -4,7 +4,7 @@
 
 == 1NT Opening
 
-After a Jacoby transfer, we use 2nd-round transfers.
+After a Jacoby transfer, we use 2^nd^-round transfers.
 
 * transfer to spades then 2NT shows clubs
 * #All invitational hands with five spades use Stayman#
@@ -132,11 +132,6 @@ It's possible to miss a 4{hyph}-4 major-suit fit when responder rebids
 
 === Jacoby transfers
 
-==== Self splinter
-
-Following a normal accept, a jump-shift rebid by responder =
-self-splinter slam-try
-
 ==== Super Accepts
 
 ALERT: Unusual treatment
@@ -169,6 +164,97 @@ occurs more frequently then a max.
 We attempt to increase accuracy in the more frequent case.
 ====
 
+==== Second-round transfers
+
+{reference} https://justinlall.wordpress.com/2005/06/20/transfer-extensions/[
+_Transfer Extensions_]
+__ {nbsp}{ndash}{nbsp} Justin Lall
+
+Second-round transfers apply after a Jacoby transfer to a major.
+They are descriptive, not demanding.
+
+A transfer to {H} then 2S (_transfer to 2NT_{thinsp}) does not
+show spades.
+It is an invitational hand with exactly five hearts and fewer than
+four spades.
+Opener assumes that it is one of: +
+@ balanced or semi-balanced inv. +
+@ 5{times}{H}{thinsp}+{thinsp}5{times}m, inv.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT | !2D! | |
+|  2H  | !2S! | | {ensp} inv., 5*{H}, {lt}4*{S}
+|  ?   |      | |
+|  2NT |      | | min, 2*{H}
+|  3H  |      | | min, 3*{H}
+| !3S! |      | | #max, {H} Ax, Kx or Qx#
+|  3NT |      | | max, {H}{thinsp}xx
+|  4H  |      | | max, 3*{H}
+|===
+
+Other bids below three of the suit shown by the 1^st^-round transfer
+are 2^nd^-round transfers, showing length in the next suit.
+
+// A 2^nd^-round transfer to a new suit is GF.
+
+// A 2^nd^-round re-transfer is game-inv or slam-inv
+
+@ 2^nd^-round transfer to 3m
+_ = 4{orMore}{xtimes}m, GF +
+@ transfer to {S} then
+_  2^nd^-round transfer to {H}
+_ = 5-5 Majors, GF +
+@ 2^nd^-round transfer to same major
+_ = inv. to game or slam +
+@ raising major = COG
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1NT | !2H!  | |
+| 2S  |  ?    | |
+|     | !2NT! | | 4{orMore}{xtimes}{C}, GF
+|     | !3C!  | | 4{orMore}{xtimes}{D}, GF
+|     | !3D!  | | 5{orMore}{xtimes}{H}, GF
+|     | !3H!  | | 6{orMore}{xtimes}{S}, game or slam inv. +
+                  {tribull} 3S = decline +
+		  {tribull} _other_ = accept
+|     |  3S   | | GF, good 6-card suit, COG
+|===
+
+Following a 2^nd^-round transfer that shows a new-suit, opener chooses
+from: +
+@ set either suit as trump
+@ new-suit = own 5-card suit
+@ 3NT = no fit, offer to play
+
+==== Self splinter
+
+Following a normal accept, a jump-shift rebid by responder =
+self-splinter slam-try
+
+==== Balanced slam-try
+
+Transfer then double-raise to 4M is not needed to show a 6-card-suit
+slam-try without shortness because that hand-type uses a 2^nd^-round
+re-transfer to the major.
+So we use this sequence to show a balanced slam-try with a 5-card major.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1NT  | !2H! |
+| 2S   | !4S! | {emsp} #quant. slam inv (5332)#
+|  ?   |      |
+| pass |      | decline
+| 4NT  |      | sign-off
+| !5C! |      | #RKC for {S}#
+|===
+
+This is superior to using 4NT, because it allows us to play 4M.
+
+Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
+1NT-5NT).
+
 === Vs double of transfer
 
 The scheme is similar to when Stayman is doubled.
@@ -192,7 +278,7 @@ is a slam try with preference to declare.
                 {tribull} 3NT = slam-try, {D}-control, prefer to declare
 | !2NT! |     | {D}-stopper, minimum
 | !3D!  |     | clear max, prefer to be dummy
-|  3H   |     | clear max, prefer to delcare
+|  3H   |     | clear max, prefer to declare
 |===
 
 ==== Without four-card support
@@ -215,14 +301,14 @@ in the transfer suit in case opener has a stack and passes.
 | !XX! |  6+<| re-transfer with tolerance for pass
 |  2H  |  6+<| sign-off
 | _other_ | 6+<| system ON,
-                 [nobr]#__incl. 2nd-round transfers__#
+                 [nobr]#__incl. 2^nd^-round transfers__#
 |===
 
 ===== When opener redoubles
 
 Opener has denied a stopper so it's preferable for responder to
 declare.
-So #2nd-round transfers are OFF#.
+So #2^nd^-round transfers are OFF#.
 
 However, when 2D (transfer to {H}) is doubled and redoubled, we still
 need to distinguish between invitational and game-forcing when
@@ -245,76 +331,6 @@ reverse-transfers# to ensure that responder declares.
 | 3NT   |  4+<| to play
 | 4H    |  4+<| to play
 |===
-
-=== Second-round transfers
-
-{reference} https://justinlall.wordpress.com/2005/06/20/transfer-extensions/[
-_Transfer Extensions_]
-__ {nbsp}{ndash}{nbsp} Justin Lall
-
-@ apply after Jacoby transfer to major
-@ are descriptive, not demanding +
-@ transfer to {H} then 2S
-_ = inv., (incl. 5{times}{H}{thinsp}+{thinsp}5{times}m)
-@ 2nd-round transfer to 3m
-_ = 4{orMore}{xtimes}m, GF +
-@ transfer to {S} then 3D
-_ = 5-5 Majors, GF +
-@ 2nd-round transfer to same major
-_ = inv. to game or slam +
-@ raising major = COG
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1NT | !2D! | |
-|  2H  | !2S! | | {ensp} inv.
-|  ?   |      | |
-|  2NT |      | | min, 2*{H}
-|  3H  |      | | min, 3*{H}
-| !3S! |      | | #max, {H} Ax, Kx or Qx#
-|  3NT |      | | max, {H}{thinsp}xx
-|  4H  |      | | max, 3*{H}
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1NT | !2H!  | |
-| 2S  |  ?    | |
-|     | !2NT! | | 4{orMore}{xtimes}{C}, GF
-|     | !3C!  | | 4{orMore}{xtimes}{D}, GF
-|     | !3D!  | | 5{orMore}{xtimes}{H}, GF
-|     | !3H!  | | 6{orMore}{xtimes}{S}, game or slam inv. +
-                  {tribull} 3S = decline +
-		  {tribull} _other_ = accept
-|     |  3S   | | GF, good 6-card suit, COG
-|===
-
-Following a 2nd-round transfer that shows a new-suit, opener chooses from +
-@ set either suit as trump
-@ new-suit = own 5-card suit
-@ 3NT = no fit, offer to play
-
-==== Balanced slam-try
-
-Transfer then double-raise to 4M is not needed to show a 6-card-suit
-slam-try without shortness because that hand-type uses a 2nd-round
-re-transfer to the major.
-So we use this sequence to show a balance slam-try with a 5-card major.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 1NT  | !2H! |
-| 2S   | !4S! | {emsp} #quant. slam inv (5332)#
-|  ?   |      |
-| pass |      | decline
-| 4NT  |      | sign-off
-| !5C! |      | RKC for {S}
-|===
-
-This is superior to using 4NT, because it allows us to play 4M.
-
-Similarly, 5M = quantative 5332, forces 6 and invites 7 (like
-1NT-5NT).
 
 === Minor-suit transfers
 
@@ -444,7 +460,7 @@ ALERT:  Minimal agreements
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  2NT      | 3R | {nbsp} transfer
-|  3M       | 4m | {nbsp} 2nd suit
+|  3M       | 4m | {nbsp} 2^nd^ suit
 |  ?        |    |
 |  4M       |    | fit in M
 |  4NT      |    | no fit
