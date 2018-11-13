@@ -69,6 +69,12 @@ shortness (s/v) in dummy, except: +
 @ cannot beat dummy's J or lower
 @@ count
 
+A ten is usually treated as an honour card (it might win a trick), but
+when partner leads a king (from AKx) and dummy has the guarded queen,
+we treat the ten like any other spot card.
+We would play it from Txx to discourage a continuation because we
+can't ruff the third round.
+
 TIP: If we cannot have a significant honour (J or higher) we give count
 
 ==== The aggressive shift
@@ -112,6 +118,9 @@ First spot-card discard is upside-down attitude unless it is in
 dummy's long-suit and partner needs count.
 Subsequent discards in the same suit are suit preference.
 
+If declarer has shown out of a suit, discards of that suit are
+suit-preference.
+
 In situations (usually NT) where we have set up a suit and then must
 make discards on some other suit, an immediate encouraging discard
 means a quick entry.
@@ -124,3 +133,18 @@ When partner leads low and we have an honour sequence, we usually play
 2^nd^-highest honour.
 However, if we know that lowest of the sequence will make our holding
 known to partner, then that's the card we play.
+
+=== Suit-Preference Returns
+
+When playing a suit for partner to ruff and dummy holds no
+honour-card: +
+@ Q or T = high-suit pref.
+@ J = low-suit pref.
+
+=== Getting a Ruff
+
+When you intend to shift to a singleton and hold AKx in the led suit,
+win the first trick with the ace.
+
+TIP: By making it appear that declarer has the king, you discourage
+other lines of defence.
