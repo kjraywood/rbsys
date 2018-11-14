@@ -7,11 +7,12 @@
 _ {vsep} XX by opener = some 5-cd suit *]* +
 @ *super-accepts [* jump=max
 _ {vsep} anti-splinter=min (2NT = Tfr suit) *]* +
+@ inverted Crawling-Stayman
+@ 2nd-round Transfers +
 @ *Tfr {forces} 2M*
-@@ *[* 3M-1 (re-tfr) = game-inv or slam-inv, 6{orMore}{times}M
+@@ *[* 3M-1 (re-tfr) = game or slam inv, 6{orMore}{times}M
 __ {vsep} 3M = COG, 6{times}M
 __ {vsep} 4M = bal. slam-inv, 5{times}M *]* +
-@ inverted Crawling-Stayman
 
 &2\C Opening:&{nbsp}
 @ *vs interference [* Pass = bust or trap
