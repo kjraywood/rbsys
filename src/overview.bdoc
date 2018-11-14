@@ -55,7 +55,7 @@ suits.
 We have agreed a suit, hence have no further need for take-out
 doubles.
 
-Most same-suit delayed doubles.
+A second-round double of an opponent's same-suit rebid.
 
 Partner has accurately described strength and distribution. +
 _Includes_
@@ -63,15 +63,33 @@ _Includes_
 @ two-suited bids
 @ splinters
 @ fit-showing jumps
+@ inv jump-shifts
 @ NT rebids
 @ NT responses in comp. +
 _Excludes_
 @ NT openings and overcalls
 @ uncontested 1NT response
 
-When we have established the balance-of-power with a strength-showing
-redouble, a two-over-one, or a penalty pass of a take-out double.
+We have established the balance-of-power with a strength-showing call. +
+@ redouble
+@ a double of a 1NT overcall
+@ any GF call
 
-We have #both# bid then attempted to pass out the auction {ndash} they balance.
+We have tried to penalise them already; _e.g._{thinsp} with a penalty
+pass of a take-out double.
+
+We have #both# bid then attempted to pass out the auction {ndash} they
+balance.
 
 They bid {ndash} we balance {ndash} they compete.
+
+****
+[orange-box]##*Agreement needed*##
+
+*After a penalty double of a weak NT*
+
+If they run to a suit, do our 1NT-interference agreements apply?
+
+If so, then subsequent doubles by either are take-out _until_{thinsp}
+advancer has shown values via double or a penalty pass.
+****
