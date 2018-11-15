@@ -190,10 +190,16 @@ from invitational single-suited hands.
 
 When their cue-bid shows a fit, then our double also show a fit.
 
-[lightgrey-bg]#(1{C})-1{S}-(2{S})-Dbl# = normal raise to 2S
 
-[lightgrey-bg]#(1{H})-1{S}-(3{S})- Dbl#
-= willing to sacrifice in 4S
+[%autowidth,cols="5*^,<",grid="rows"]
+|===
+| (1C) | 1S | (2S) | Dbl | | normal raise to 2S
+|===
+
+[%autowidth,cols="5*^,<",grid="rows"]
+|===
+| (1H) | 1S | (3S) | Dbl | | willing to sacrifice in 4S
+|===
 
 === Overcaller doubles opener's cue-bid
 

@@ -32,16 +32,16 @@ ALERT: We do NOT play Kokish
 
 ==== Second-round negatives
 
-[%autowidth,cols="2*a",grid="none",frame="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
 |
-[grid="none",cols="2*^"]
+[grid="none",cols="2*^",stripes=odd]
 :===
  !2C! : !2D!
   2M  : !2NT!
 :===
 |
-[grid="none",cols="2*^"]
+[grid="none",cols="2*^",stripes=odd]
 :===
  !2C! : !2D!
   2m  : !3H!

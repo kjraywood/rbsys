@@ -104,10 +104,32 @@ Shows:
 
 The 3rd bid in each of the following is a 2oM NFB.
 
-[%autowidth,cols="2*^"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-| 1m {ensp} (1S) {ensp} 2H {ensp} | {ensp} 1S {ensp} (2m) {ensp} 2H
-| 1m {ensp} (2H) {ensp} 2S {ensp} | {ensp} 1H {ensp} (2m) {ensp} 2S
+|
+[grid="none",cols="3*^",stripes=odd]
+:===
+ 1m : (1S) : !2H!
+:===
+|
+[grid="none",cols="3*^",stripes=odd]
+:===
+ 1S : (2m) : !2H!
+:===
+|===
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",cols="3*^",stripes=odd]
+:===
+ 1m : (2H) : !2S!
+:===
+|
+[grid="none",cols="3*^",stripes=odd]
+:===
+ 1H : (2m) : !2S!
+:===
 |===
 
 ==== Other options
@@ -125,6 +147,11 @@ __e.g.__
 |===
 | 1S | (2D) |   4H   | | fit showing,
                          [nobr]#{H}{thinsp}{lt}{thinsp}{S}#
+|===
+
+
+[%autowidth,cols="4*^,<",grid="rows"]
+|===
 | 1D | (1S) |   4H   | | to play,
                          [nobr]#{H}{thinsp}{gt}{thinsp}{D}#
 |===
