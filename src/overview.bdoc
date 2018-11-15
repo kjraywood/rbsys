@@ -4,8 +4,8 @@
 
 === Basics
 
-@ 1NT = 15 to 17
-@ 2NT = 20 to bad 22
+@ 1NT = 15 {ndash} 17
+@ 2NT = 20 {ndash} bad 22
 @ Strong 2C
 @ Five-card majors
 @ semi-forcing 1NT
@@ -55,7 +55,7 @@ suits.
 We have agreed a suit, hence have no further need for take-out
 doubles.
 
-A second-round double of an opponent's same-suit rebid.
+A second-round double of an opponent's #same-major-suit# rebid.
 
 Partner has accurately described strength and distribution. +
 _Includes_
@@ -70,7 +70,8 @@ _Excludes_
 @ NT openings and overcalls
 @ uncontested 1NT response
 
-We have established the balance-of-power with a strength-showing call. +
+We have established the balance-of-power with a strength-showing
+call. +
 @ redouble
 @ a double of a 1NT overcall
 @ any GF call
