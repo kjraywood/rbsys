@@ -339,7 +339,7 @@ This is minorwood by a hand that may have enough extras for slam.
  3D : !4D!
 :===
 |
-[grid="none"]
+[grid="none",stripes=odd]
 :===
   1C  : 1S
   2H  : 3C
@@ -573,16 +573,16 @@ _If partner has shown five or more, except for 1-level overcalls, then
 | (3D) | 3S  | (4D) | !4NT! | | KC (Greco)
 |===
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-|  1D   | (1S) | 2H | (4S)
-| !4NT! |   2+<| KC for {H}
+|      |      |      |  1D   | |
+| (1S) |  2H  | (4S) | !4NT! | | KC for {H}
 |===
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-|  1D   | (P) | 1H | (4S)
-| !4NT! |  2+<| take-out
+|     |      |      |  1D   | |
+| (P) | 1H   | (4S) | !4NT! | | take-out
 |===
 
 
