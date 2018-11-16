@@ -135,11 +135,19 @@ Subsequent discards in the same suit are suit preference.
 If declarer has shown out of a suit, discards of that suit are
 suit-preference.
 
-In situations (usually NT) where we have set up a suit and then must
-make discards on some other suit, an immediate encouraging discard
-means a quick entry.
-A late encouraging discard, after discouraging another suit, shows a
-slow stopper.
+We discard immediately from a suit we cannot guard; unless it is
+declarer's guess suit.
+
+If we have a suit that is ready to run, then an immediate encouraging
+discard from a side suit, shows a quick entry in that suit.
+
+If we lead a suit against NT, declarer wins and runs a suit forcing
+discards from us, including discards from the suit we have led,
+then: +
+@ an early discard from our led suit
+_ = our suit is not ready to run
+@ a late discard from our led suit
+_ = our suit is ready to run
 
 === Suit-Preference Returns
 
