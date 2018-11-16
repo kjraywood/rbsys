@@ -181,7 +181,6 @@ _ GF
 | 3S  |      | 6*{S}, 4*{H}, GF
 |===
 
-
 ===== Major + minor
 
 To show 5*M + 5*m with extras, opener uses the new-minor relay then
@@ -209,6 +208,27 @@ rebids 3NT.
 | 2NT               | 11{ndash}12 | bal. LR (NF)
 | 3NT               | 13{ndash}15 |
 |===
+
+=== Inverted Minors
+
+Game-forcing.
+
+With 5-cards or more in the major, we raise the minor in preference to
+bidding the four-card major.
+In essence, a single raise is a 2/1 in partner's minor, and the
+auction proceeds just as after any other 2/1.
+
+[TIP]
+====
+We bid our longest suit first with a game force so that: +
+@ we bid shape more accurately,
+_ enabling more accurate
+_ hand evaluation +
+@ 1m-1M auctions are clearer +
+@ establishing a fit and GF
+_ prepares us better for
+_ third-hand intervention
+====
 
 === Reverse Flannery
 
