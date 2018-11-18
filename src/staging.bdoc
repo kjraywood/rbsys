@@ -13,6 +13,62 @@ Stuff that we don't do yet
 @@ _as above_ +
 @ 3D,3H,3S,4C = transfer to solid suit
 
+[#xfers-over-double]
+== Transfers over a take-out double
+
+ALERT: This section is incomplete
+
+@ start at XX
+@ apply for one-level
+@ transfer to NT = 8{orMore} (unlimited) +
+@ transfer to opener's suit
+_ = constr. raise{orMore} (unlimited)
+
+=== Opener's rebid
+
+Following a transfer to a major, opener accepts at the 1-level with
+3-card support and anything less than a GF.
+
+With 4-card support, opener raises to as though responder had bid 1M.
+
+Otherwise, opener makes normal rebid.
+
+==== When transfer is doubled
+
+@ opener tries to make normal bid +
+@ XX = four-cards in transfer suit +
+@ pass = three-cards in transfer suit
+@@ responder can XX to play (no rescue)
+
+=== Effect of transfers on other bids
+
+single-raise = weak
+
+If playing in notrump is a possibility, then it's best to have opener
+declare.
+So the NT-bids describe very-unbalanced raises.
+A minor-suit raise that might lead to a notrump contract starts with
+a transfer to opener's minor (constructive raise or better).
+
+[%autowidth,cols="4*^,<",grid="none]
+|===
+| 1m | (X) |  ?   | |
+|    |     | 2m{thinsp}{minus}1 | | constr. raise{OrMore}
+|    |     | 2m  | | weak raise
+|    |     | 2NT | | _very-unbalanced_{thinsp} mixed-raise
+|    |     | 3m  | | weak
+|    |     | 3NT | | _very unbalanced_{thinsp} LR
+|===
+
+ 
+-// === Pass then double
+-
+-// [%autowidth,cols="4*^,<",grid="none"]
+-// |===
+-// | 1__suit__ | (X) | P    | (__bid__{thinsp}) |
+-// | P         | (P)   | X |           | cooperative
+-// |===
+
 [#alt-wolff]
 == Alternatives to Wolff Sign-off
 
