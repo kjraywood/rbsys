@@ -24,6 +24,15 @@ ALERT: This section is incomplete
 @ transfer to opener's suit
 _ = constr. raise{orMore} (unlimited)
 
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1C | (X) |  !2D!  | | constr. raise{orMore} of {C}
+|===
+
+TIP: Above sequence avoids responder bidding NT first
+
+Other jump-shifts are natural and invitational.
+
 === Opener's rebid
 
 Following a transfer to a major, opener accepts at the 1-level with
@@ -50,24 +59,24 @@ So the NT-bids describe very-unbalanced raises.
 A minor-suit raise that might lead to a notrump contract starts with
 a transfer to opener's minor (constructive raise or better).
 
-[%autowidth,cols="4*^,<",grid="none]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1m | (X) |  ?   | |
-|    |     | 2m{thinsp}{minus}1 | | constr. raise{OrMore}
+|    |     | !2m{thinsp}{minus}1! | | constr. raise{OrMore}
 |    |     | 2m  | | weak raise
-|    |     | 2NT | | _very-unbalanced_{thinsp} mixed-raise
+|    |     | !2NT! | | _very-unbalanced_{thinsp} mixed-raise
 |    |     | 3m  | | weak
-|    |     | 3NT | | _very unbalanced_{thinsp} LR
+|    |     | !3NT! | | _very unbalanced_{thinsp} LR
 |===
 
  
--// === Pass then double
--
--// [%autowidth,cols="4*^,<",grid="none"]
--// |===
--// | 1__suit__ | (X) | P    | (__bid__{thinsp}) |
--// | P         | (P)   | X |           | cooperative
--// |===
+=== Pass then double
+
+****
+.Need Agreement
+Not sure if we should use cooperative (4333) or penalty (4-cards in
+their suit)
+****
 
 [#alt-wolff]
 == Alternatives to Wolff Sign-off
