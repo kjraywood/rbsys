@@ -23,7 +23,7 @@ ALERT: Unusual treatment
         [nobr]#(inverted Crawling-Stayman)#
         [nobr]##{tribull} #Opener bids 2S with 3-3 majors# ##
 | [nobr]#4{ndash}5#
-      | Transfer {forces} {H} then pass,
+      | Transfer to {H} then pass,
         [nobr]#can't show {S}#
 |===
 
@@ -45,8 +45,8 @@ iCS maximises the chances that opener declares.
 [%autowidth,cols="2*<.^",grid="cols"]
 |===
 | [nobr]#5{ndash}5#
-      | [nobr]#Transfer {forces} {S}#, then
-        [nobr]#transfer {forces} {H}#
+      | [nobr]#Transfer to {S}#, then
+        [nobr]#transfer to {H}#
 | [nobr]#5{ndash}4# or [nobr]#4{ndash}5#
       | Stayman then Smolen
 |===
@@ -140,9 +140,9 @@ Super-accept = bidding _above_{thinsp} responder's suit [nobr]#(min or max)#
 
 We do this with four-card support and not 4333.
 
-*Maximum* {forces} jump accept
+*Maximum:* jump accept
 
-*Minimum* {forces} show secondary values [nobr]#(anti-splinter)#
+*Minimum:* show secondary values [nobr]#(anti-splinter)#
 
 [TIP]
 ====
