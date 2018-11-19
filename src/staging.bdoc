@@ -345,14 +345,14 @@ play optional minorwood here
 [%autowidth,cols="2*a",grid="none",frame="none",stripes="none"]
 |===
 |
-[grid="none"]
+[grid="none",stripes="odd"]
 :===
   1S  : 2D
   2H  : 3D
  !4D! :
 :===
 |
-[grid="none"]
+[grid="none",stripes="odd"]
 :===
   1C  : 1D
   1S  : 3D
