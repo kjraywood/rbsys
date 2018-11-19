@@ -60,11 +60,11 @@ So the NT-bids describe very-unbalanced raises.
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1D | (X) |  ?    | |
-|    |     | !2C!  | | constr. raise{OrMore}
+|    |     | !2C!  | | constr. raise or better
 |    |     |  2D   | | weak raise
 |    |     | !2NT! | | _very-unbalanced_{thinsp} mixed-raise
 |    |     | 3D    | | weak
-|    |     | !3NT! | | _very unbalanced_{thinsp} LR
+|    |     | !3NT! | | _very-unbalanced_{thinsp} LR
 |===
 
 === Pass then double
