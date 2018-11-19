@@ -140,9 +140,12 @@ Super-accept = bidding _above_{thinsp} responder's suit [nobr]#(min or max)#
 
 We do this with four-card support and not 4333.
 
-*Maximum:* jump accept
 
-*Minimum:* show secondary values [nobr]#(anti-splinter)#
+[%autowidth,cols="2*<",grid=none,frame=none,stripes=none]
+|===
+| *Maximum:* | jump accept
+| *Minimum:* | show secondary values [nobr]#(anti-splinter)#
+|===
 
 [TIP]
 ====
