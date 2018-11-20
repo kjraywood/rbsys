@@ -163,7 +163,7 @@ when there's a cue-bid available to establish a GF.
 
 == Opener raises
 
-ALERT: No Quality & Quantity
+{warning} [xemph]#No Quality & Quantity#
 
 We achieve the same goal with mostly natural bidding, and use _three
 other-minor_{thinsp} for further investigation.

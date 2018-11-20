@@ -462,7 +462,7 @@ _ = 5-5 Majors, slam inv. +
 
 === Major-minor
 
-ALERT:  Minimal agreements
+{warning} [xemph]#Minimal agreements#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
