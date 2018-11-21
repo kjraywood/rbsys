@@ -56,11 +56,63 @@ shows both majors but does not promise a good hand.
 
 === Balancing
 
-@ 1NT vs. minor = 11-14
-@ 1NT vs. major = 13-16
-@ 2NT = 19-21{OrLess}
+@ 1NT vs. minor = 11 {ndash} 14 +
+@ 1NT vs. major = 11{OrMore} {ndash} 17{OrLess}
+@@ Range Stayman +
+@ 2NT = 20 {ndash} 21
 
 System ON in all cases
+
+==== Range Stayman
+
+Only applies vs major.
+
+The wide-range 1NT means that responder has two ranges of invitations. +
+@ a _strong invitation_ needs
+_ opener to have a non-min +
+@ a _weak invitation_ needs
+_ opener to have a max
+
+Unless seeking a 4-4 in the other major, we handle strong invitations
+in the same way as after a 1NT opener.
+
+[%autowidth,cols="5*^,<",grid=none]
+|===
+| (1M) |  P   | (P) |  1NT  | | good 11 {ndash} bad 17
+| (P)  | !2S! | (P) |  ?    | | 2S = range-ask or {C}
+|      |      |     |  2NT  | | min
+|      |      |     |  3C   | | med {or} max
+|===
+
+[%autowidth,cols="5*^,<",grid=none]
+|===
+| (1S) |  P   | (P) |  1NT  | | good 11 {ndash} bad 17
+| (P)  | !2D! | (P) |  2H   | | 2D = transfer to {H}
+| (P)  | 2NT  | (P) |  ?    | |
+|      |      |     |  P    | | min, no {H} fit
+|      |      |     |  3H   | | min, {H} fit
+|      |      |     |  3NT  | | med {or} max, no {H} fit
+|      |      |     |  4H   | | med {or} max, {H} fit
+|===
+
+There is no corresponding auction for {S} because we go through
+Stayman to invite with 5*{S} (consequence of 2^nd^-round transfers).
+
+Weak invitions and whenever we are seeking a fit in the other major
+go through _Range Stayman_.
+
+[%autowidth,cols="5*^,<",grid=none]
+|===
+| (1M) |  P   | (P) |  1NT  | | good 11 {ndash} bad 17
+| (P)  | !2C! | (P) |  ?    | |
+|      |      |     | !2D!  | | {lt}4*oM, min {or} med
+|      |      |     |  2oM  | | 4*oM, min
+|      |      |     | !2M!  | | 4*oM, med
+|      |      |     | !2NT! | | {lt}4*oM, max +
+                                {tribull} 3C = re-Stayman
+|      |      |     | !3M!  | | 5*oM, max
+|===
+
 
 === Sandwich position
 
