@@ -477,7 +477,7 @@ It is the cheapest of: +
 :===
   1C  : 1D
   1H  : 3D
- !4S! :
+ !4H! :
 :===
 |===
 
@@ -501,14 +501,12 @@ It is the cheapest of: +
 
 When 4m is the first call that shows support for partner's minor
 then, it is not minorwood.
+Here we use kickback except when the kickback suit is opener's or
+responder's first-bid major-suit in which case we would use the next
+step.
 
-The rules are the same as in three-level non-agreement except that
-the bid is not a jump.  But it must still be between 4m and 4NT. + 
-
-@ cheapest unbid-suit
-@ fourth suit
-@ opener's 2nd suit
-@ responder's 2nd-suit
+TIP: The KC-asking bid is essentially the same as in three-level
+non-agreement except that the bid is not a jump.
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
@@ -525,6 +523,24 @@ the bid is not a jump.  But it must still be between 4m and 4NT. +
   1C  : 1D
   1S  : 3D
   4D  : !4H!
+:===
+|===
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+  1H : 2D
+  2H : 3D
+  4D : !4S!
+:===
+|
+[grid="none",stripes=odd]
+:===
+  2C  : 2H
+  3C  : 3D
+  4D  : !4S!
 :===
 |===
 
