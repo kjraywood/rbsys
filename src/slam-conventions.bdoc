@@ -456,11 +456,9 @@ after a notrump opening.
 So when opener or responder bids a minor at the 3-level, a raise to 4m
 is just forward going (forcing).
 
-When the auction is at 3m without agreement, the KC-asking bid is
-#a jump to a suit-bid below 4NT#.
-In priority order the KC-asking suit is: +
-
-@ cheapest unbid-suit
+The KC-asking bid is #a jump to a suit-bid below 4NT#.
+It is the cheapest of: +
+@ unbid-suit
 @ fourth suit
 @ opener's 2nd-suit
 @ responder's 2nd-suit
