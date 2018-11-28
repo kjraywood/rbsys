@@ -125,7 +125,7 @@ ALERT: [black]#Range Stayman does not promise a four-card major.#
                               {tribull} opener passes or bids 2NT
 			      _         with medium and no fit
 |      | !2M! |     |       | asks min or med +
-			      {tribull} 2NT=min, 3NT=max
+			      {tribull} 2NT=min, 3NT=med
 |      | 2NT  |     |       | sign off
 |===
 
