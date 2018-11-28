@@ -536,41 +536,59 @@ the bid is not a jump.  But it must still be between 4m and 4NT. +
 {reference} http://www.districtsix.org/Articles/Article%202011-02.aspx[
 _ACBL district-6 panel {ndash} Feb/Mar 2011_ ]
 
-=== Standard
+If partner has shown opening values (includes with a 2{orMore}-level
+or higher overcall), and they preempt at the 4-level, then the meaning
+of 4NT depends on what partner has shown.
 
-We open one-major, they preempt
-[nobr]#{tribull} 4NT = KC asking#
+@ 5{orMore}{xtimes}Major
+@@ 4NT = KC asking +
 
-We open one-minor, they preempt +
-[nobr]#{tribull} 4NT = take-out, {simto} 4{xtimes}m + 6{xtimes}om#
+@ 5{orMore}{xtimes}minor
+@@ 4NT = plain aces +
 
-We overcall @ 1-level, they preempt +
-[nobr]#{tribull} 4NT = take-out#
-
-=== Other Suggestions
-
-&Mike Lawrence&
-
-We overcall two-minor, they preempt
-[nobr]#{tribull} 4NT = plain aces#
-
-&Eric Greco &
-
-We act, they preempt: +
-_If partner has shown five or more, except for 1-level overcalls, then
-4NT is KC asking._
+@ 1m opening, or 1-level overcall
+@@ 4NT = take-out
 
 === Examples
 
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[cols="6*^",grid="none",stripes=odd]
+:===
+: 1S  : (4H) : !4NT! : : KC
+:===
+|
+[cols="7*^",grid="none",stripes=odd]
+:===
+: (3D) : 3S  : (4D) : !4NT! : : KC
+:===
+|===
+
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[cols="6*^",grid="none",stripes=odd]
+:===
+: 1H  : (3S) : !4NT! : : KC
+:===
+|
+[cols="7*^",grid="none",stripes=odd]
+:===
+: (1S) : 2C : (4S) : !4NT! : : aces
+:===
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1C  | (4H) | !4NT! | | take-out,
+                         [nobr]#6{orMore}{xtimes}{D}, 4*{C}#
+|===
+
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-|      | 1S  | (4H) | !4NT! | | KC
-|      | 1H  | (3S) | !4NT! | | KC
-|      | 1C  | (4H) | !4NT! | | take-out, at{nbsp}least
-                                [nobr]#6*{D} + 4*{C}#
 | (1H) | 1S  | (4H) | !4NT! | | take-out, minors
-| (1S) | 2C  | (4S) | !4NT! | | plain aces (Lawrence)
-| (3D) | 3S  | (4D) | !4NT! | | KC (Greco)
 |===
 
 [%autowidth,cols="5*^,<",grid="none"]
@@ -584,7 +602,6 @@ _If partner has shown five or more, except for 1-level overcalls, then
 |     |      |      |  1D   | |
 | (P) | 1H   | (4S) | !4NT! | | take-out
 |===
-
 
 == First-round ace-asking
 
