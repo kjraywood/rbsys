@@ -69,9 +69,9 @@ System ON in all cases
 @ #ignore double#
 
 The wide-range 1NT means that responder has two ranges of invitations. +
-@ a [.brickred.xemph]#strong invitation# {thinsp}is
+@ a *strong invitation* {thinsp}is
 _ only declined with a min +
-@ a [.brickred.xemph]#weak invitation# {thinsp}is
+@ a *weak invitation* {thinsp}is
 _ only accepted with a max +
 
 Unless seeking a 4-4 in the other major, we handle strong invitations
@@ -89,7 +89,7 @@ in the same way as after an opening-bid of 1NT.
 |===
 | (1S) |  P   | (P) |  1NT  | |
 | (P)  | !2D! | (P) |  2H   | | 2D = transfer to {H}
-| (P)  | 2NT  | (P) |  ?    | | 2NT = strong inv.
+| (P)  | !2S! | (P) |  ?    | | 2S = strong inv.
 |      |      |     |  P    | | min, no {H} fit
 |      |      |     |  3H   | | min, {H} fit
 |      |      |     |  3NT  | | med {or} max, no {H} fit
@@ -99,9 +99,9 @@ in the same way as after an opening-bid of 1NT.
 There is no corresponding auction for 5*{S} because that hand would
 have made a 1S overcall.
 
-Weak invitions go through Range Stayman.
+Weak invitations go through Range Stayman.
 
-ALERT: [black]#Range Stayman does not promise a four-card major.#
+ALERT: Range Stayman does not promise a four-card major.
 
 [%autowidth,cols="5*^,<",grid=none]
 |===
