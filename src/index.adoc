@@ -7,6 +7,9 @@
 <<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
 
 <<contested-responses.adoc#, Responding in Contested Auctions>>
+{ndash}
+<<contested-responses.adoc#nfb,
+[green]#__mod. Dec 3, 2018__#>>
 
 <<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>>
 
