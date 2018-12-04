@@ -56,33 +56,24 @@ These are situations where we might want to lead honour doubleton.
 @ Smith Echo in NT
 _ {ndash} USD by opening leader, Std by partner
 
-If partner leads our 6{OrMore}-card suit:
+If partner leads our known 6{OrMore}-card suit:
 @ middle spot-card = continue
 @ hi or lo spot-card = suit-pref
 
+[#aggr-shift]
+=== The aggressive shift
+
+{new} [.xemph.green]#Updated Dec 4, 2018#
+
 We give attitude on opening lead, even in a suit-contract with
-shortness (s/v) in dummy, except: +
-@ Q from AKQ
-@@ count +
-@ K from AK vs slam
-@@ count +
-@ cannot beat dummy's J or lower
-@@ count
+shortness (s|v) in dummy.
+A discouraging signal implies that we can stand the aggressive shift;
+usually to dummy's weakest side-suit.
 
-TIP: If we cannot have a significant honour (J or higher) we give count
+We identify the aggressive shift with the following rules in order of
+priority.
 
-A ten is usually treated as an honour card (it might win a trick), but
-when partner leads a king (from AKx) and dummy has the guarded queen,
-we treat the ten like any other spot card.
-We would play it from Txx to discourage a continuation because we
-can't ruff the third round.
-
-==== The aggressive shift
-
-A discouraging signal implies that we can stand the aggressive shift.
-This is usually to dummy's weakest side-suit.
-
-===== Negatives
+==== Negatives
 
 * not trumps
 
@@ -93,7 +84,7 @@ This is usually to dummy's weakest side-suit.
 
 * not a suit that was shown by declarer
 
-===== Positives
+==== Positives
 
 * opening-leader's suit (when a different suit was led)
 
@@ -105,6 +96,40 @@ This is usually to dummy's weakest side-suit.
   not a singleton or void (excluded by negative)
 
 * vs notrump: shortest side-suit not excluded by a negative
+
+==== Exceptions
+
+* Q from AKQ vs suit {tribull}{nbsp}count
+
+* K from AK vs suit-slam {tribull}{nbsp}count
+
+* trump lead [nobr]#{tribull}{nbsp}suit preference#
+
+* vs suits on the lead of K (from AK) and dummy holds four or more
+  to the J or T [nobr]#{tribull} simple attitude#
+
+* vs suits: partner leads K (from AK), dummy has a stiff, long trumps, and
+equal-length short-suits [nobr]#{tribull} suit-preference#
+
+* vs NT on a spot-card lead, if dummy is winning the trick holding
+  Q-J-x or J-T-x, we give count, followed by suit-preference when
+  declarer plays to trick two.
+  This also applies if dummy has Q-T-x, provided declarer wins
+  the ten.
+
+TIP: If we cannot have a significant honour (J or higher) we give count
+
+A ten is usually treated as an honour card (it might win a trick), but
+when partner leads a king (from AKx) and dummy has the guarded queen,
+we treat the ten like any other spot card.
+We would play it from Txx to discourage a continuation because we
+can't ruff the third round.
+
+==== Problem hands
+
+In third seat when you don't want the suit led, and you don't want the
+aggressive shift, signal for the suit that you think is least likely
+to cost a trick.
 
 === Honour sequences
 
@@ -163,3 +188,5 @@ win the first trick with the ace.
 
 TIP: By making it appear that declarer has the king, you discourage
 other lines of defence.
+
+// === Returing the suit led by partner (see bridge/downloads/defence/returning-lead.txt
