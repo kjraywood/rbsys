@@ -117,14 +117,19 @@ There is no invitation in {S} because that hand invites on 1st-round (1{H}-2{S})
 [#fourth-suit-later]
 === Fourth suit on 3rd-round or later
 
-{new} [.xemph.green]#Dec 3, 2018#
+{new} [.xemph.green]#Dec 4, 2018#
 
-{reference} http://www.rpbridge.net/5m17.htm[
+{reference} http://www.rpbridge.net/7g01.htm#28[
 _Fourth-Suit Auctions_]
 __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 
-In a game-forcing auction, the fourth-suit by either player on the
-third-round or later shows the #ace or a singleton#.
+Shows #ace or a singleton# when: +
+@ 4th suit is bid for the 1st time
+_ on 3rd round or later +
+@ auction is GF
+@ NT has not been bid
+@ applies to either player
+
 If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 
 == Reverses

@@ -143,29 +143,24 @@ The 3rd bid in each of the following is a 2oM NFB.
 
 ==== Other options
 
-Jump to 3oM = GF, 6{orMore}-card suit
+* Jump to 3oM = GF, 6{orMore}-card suit
 
-{new} [.xemph.green]#Dec 3, 2018#
+* {new} [.xemph.green]#Dec 4, 2018# +
+Neg. double = 4{or}5{xtimes}oM, no upper-limit on strength +
+{tribull} subsequent bids by neg-doubler: #2oM = NF#, #3oM = GF#
 
-Neg. double
-_ = 4{or}5{xtimes}oM, no upper-limit on strength +
-{tribull} subsequent bids by neg-doubler:
-_ #2oM = NF#, #3oM = GF# +
-
-#Jump to _four lower suit_{thinsp} = fit showing#
-
+* #Jump to _four lower suit_{thinsp} = fit showing# +
+ +
 __e.g.__
 
 [%autowidth,cols="4*^,<",grid="rows"]
 |===
-| 1S | (2D) |   4H   | | fit showing,
-                         [nobr]#{H}{thinsp}{lt}{thinsp}{S}#
+| 1S | (2D) |   4H   | | fit showing
 |===
 
 [%autowidth,cols="4*^,<",grid="rows"]
 |===
-| 1D | (1S) |   4H   | | to play,
-                         [nobr]#{H}{thinsp}{gt}{thinsp}{D}#
+| 1D | (1S) |   4H   | | to play
 |===
 
 ==== Passed hand
