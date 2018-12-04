@@ -69,9 +69,9 @@ System ON in all cases
 @ #ignore double#
 
 The wide-range 1NT means that responder has two ranges of invitations. +
-@ a [xemph-red]#strong invitation# {thinsp}is
+@ a [.brickred.xemph]#strong invitation# {thinsp}is
 _ only declined with a min +
-@ a [xemph-red]#weak invitation# {thinsp}is
+@ a [.brickred.xemph]#weak invitation# {thinsp}is
 _ only accepted with a max +
 
 Unless seeking a 4-4 in the other major, we handle strong invitations
