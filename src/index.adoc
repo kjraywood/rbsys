@@ -9,9 +9,12 @@
 <<contested-responses.adoc#, Responding in Contested Auctions>>
 {ndash}
 <<contested-responses.adoc#nfb,
-[green]#__mod. Dec 3, 2018__#>>
+[.xemph.brickred]#__mod. Dec 3, 2018__#>>
 
 <<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>>
+{ndash}
+<<rebid-by-responder.adoc#fourth-suit-later,
+[.xemph.brickred]#__mod. Dec 3, 2018__#>>
 
 <<checkback.adoc#, 2-Way Checkback and Wolff Sign-off>>
 
