@@ -109,7 +109,7 @@ ALERT: Range Stayman does not promise a four-card major.
 | (P)  | !2C! | (P) |  ?    | |
 |      |      |     | !2D!  | | min {or} med, {lt}4*oM
 |      |      |     |  2oM  | | min, 4*oM
-|      |      |     | !2M!  | | med, 4*oM
+|      |      |     | !2M!  | | #med, 4*oM#
 |      |      |     | !2NT! | | max, {lt}5*oM
                                 {tribull} 3C = re-Stayman
 |      |      |     | 3oM   | | max, 5*oM
