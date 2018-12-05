@@ -7,29 +7,32 @@
 <<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
 
 <<contested-responses.adoc#, Responding in Contested Auctions>>
-{ndash}
+[nobr]##{ndash}
 <<contested-responses.adoc#nfb,
-[.xemph.brickred]#__mod. Dec 4, 2018__#>>
+[.xemph.brickred]#__mod. Dec 4, 2018__#>>##
 
 <<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>>
-{ndash}
+[nobr]##{ndash}
 <<rebid-by-responder.adoc#fourth-suit-later,
-[.xemph.brickred]#__mod. Dec 4, 2018__#>>
+[.xemph.brickred]#__mod. Dec 4, 2018__#>>##
 
 <<checkback.adoc#, 2-Way Checkback and Wolff Sign-off>>
 
 <<higher-openings.adoc#, Higher Opening Bids>>
 
 <<slam-conventions.adoc#, Slam Conventions>>
+[nobr]##{ndash}
+<<slam-conventions.adoc#minorwood_3-level_non-agreement,
+[.xemph.brickred]#__mod. Nov 28, 2018__#>>##
 
 <<defensive-bidding.adoc#, Defensive Bidding>>
 
 <<competitive-bidding.adoc#, Competitive Bidding>>
 
 <<defence.adoc#, Leads and Carding>>
-{ndash}
+[nobr]##{ndash}
 <<defence.adoc#aggr-shift,
-[.xemph.brickred]#__mod. Dec 4, 2018__#>>
+[.xemph.brickred]#__mod. Dec 4, 2018__#>>##
 
 '''
 
