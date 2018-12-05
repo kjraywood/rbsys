@@ -63,10 +63,9 @@ shows both majors but does not promise a good hand.
 
 System ON in all cases
 
-==== Range Stayman
+==== Inviting opposite wide-range 1NT
 
-@ Only applies vs major +
-@ #ignore double#
+@ Only applies vs major
 
 The wide-range 1NT means that responder has two ranges of invitations. +
 @ a *strong invitation* {thinsp}is
@@ -98,6 +97,11 @@ in the same way as after an opening-bid of 1NT.
 
 There is no corresponding auction for 5*{S} because that hand would
 have made a 1S overcall.
+
+==== Range Stayman
+
+@ Only applies vs major +
+@ #ignore double#
 
 Weak invitations go through Range Stayman.
 
