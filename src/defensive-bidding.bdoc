@@ -119,6 +119,10 @@ ALERT: Range Stayman does not promise a four-card major.
 |      |      |     | 3oM   | | max, 5*oM
 |===
 
+Range Stayman may be used with a strong invitation containing a
+four-card major.
+So following the negative 2D reply, the cue-bid asks minimum or
+medium.
 
 [%autowidth,cols="4*^,<",grid=none]
 |===
@@ -128,7 +132,7 @@ ALERT: Range Stayman does not promise a four-card major.
 |      | 2oM  |     |       | 5*oM, weak-inv. +
                               {tribull} opener passes or bids 2NT
 			      _         with medium and no fit
-|      | !2M! |     |       | asks min or med +
+|      | !2M! |     |       | #asks min or med# +
 			      {tribull} 2NT=min, 3NT=med
 |      | 2NT  |     |       | sign off
 |===
