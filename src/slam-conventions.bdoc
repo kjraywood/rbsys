@@ -555,18 +555,22 @@ non-agreement except that the bid is not a jump.
 {reference} http://www.districtsix.org/Articles/Article%202011-02.aspx[
 _ACBL district-6 panel {ndash} Feb/Mar 2011_ ]
 
-If partner has shown opening values (includes with a 2{orMore}-level
-or higher overcall), and they preempt at the 4-level, then the meaning
-of 4NT depends on what partner has shown.
+If #they preempt at the 4-level# after #partner has shown opening
+values# (includes 2{orMore}-level or higher overcall) and a
+#five-card or longer suit#, then 4NT is KC asking for majors
+but plain aces for minors.
 
-@ 5{orMore}{xtimes}Major
-@@ 4NT = KC asking +
+If their four-level preempt follows a minor-suit opening or any
+1-level overcall, then 4NT is general take-out.
 
-@ 5{orMore}{xtimes}minor
-@@ 4NT = plain aces +
+// @ 5{orMore}{xtimes}Major
+// @@ 4NT = KC asking +
 
-@ 1m opening, or 1-level overcall
-@@ 4NT = take-out
+// @ 5{orMore}{xtimes}minor
+// @@ 4NT = plain aces +
+
+// @ 1m opening, or 1-level overcall
+// @@ 4NT = take-out
 
 === Examples
 
