@@ -77,6 +77,23 @@ Applies in following auctions
 This is a form of Good-Bad 2NT by opener
 ****
 
+[#not_leb_vs_overcall
+==== Exception
+
+{new} [.xemph.green]#Dec 5, 2018#
+
+{warning} [xemph]#Leb. does NOT apply after neg. double of non-jump
+two-level overcall#
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H  | (2D) | X  | (P)
+| ?   |      | 2H | default bid
+| 2S  |      |    | {S}-fit, min
+| 2NT |      |    | nat., not min
+| 3C  |      |    | nat., not min
+|===
+
 === Scrambling 2NT
 
 Used to find the best fit when #partner forces you to bid at the
