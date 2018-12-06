@@ -51,7 +51,7 @@ shows both majors but does not promise a good hand.
 == NoTrump Overcalls
 
 [#nt_overcalls_direct]
-=== Direct
+=== Direct 1NT Overcall
 
 {new} [.xemph.green]#Updated Dec 5, 2018#
 
@@ -81,7 +81,7 @@ They open *one major*: system OFF +
                             _ 5*oM
 |===
 
-=== Balancing
+=== Balancing 1NT
 
 @ 1NT vs. minor = 11 {ndash} 14 +
 @ 1NT vs. major = 11{OrMore} {ndash} 17{OrLess}
@@ -95,10 +95,10 @@ System ON in all cases
 @ Only applies vs major
 
 The wide-range 1NT means that responder has two ranges of invitations. +
-@ a *strong invitation* {thinsp}is
-_ only declined with a min +
-@ a *weak invitation* {thinsp}is
-_ only accepted with a max +
+@ a *strong invitation* {thinsp}({simto}11 HCP)
+_ is only declined with a min +
+@ a *weak invitation* {thinsp}({simto}9 HCP)
+_ is only accepted with a max +
 
 Unless seeking a 4-4 in the other major, we handle strong invitations
 in the same way as after an opening-bid of 1NT.
@@ -142,7 +142,7 @@ ALERT: Range Stayman does not promise a four-card major.
 |      |      |     |  2oM  | | min, 4*oM
 |      |      |     | !2M!  | | #med, 4*oM#
 |      |      |     | !2NT! | | max, {lt}5*oM
-                                {tribull} 3C = re-Stayman
+                      [nobr]#{tribull} 3C = re-Stayman#
 |      |      |     | 3oM   | | max, 5*oM
 |===
 
@@ -151,17 +151,17 @@ four-card major.
 So following the negative 2D reply, the cue-bid asks minimum or
 medium.
 
-[%autowidth,cols="4*^,<",grid=none]
+[%autowidth,cols="3*^,<",grid=none]
 |===
-| (1M) |  P   | (P) |  1NT  |
-| (P)  | !2C! | (P) | !2D!  |
-| (P)  |  ?   |     |       |
-|      | 2oM  |     |       | 5*oM, weak-inv. +
-                              {tribull} opener passes or bids 2NT
-			      _         with medium and no fit
-|      | !2M! |     |       | #asks min or med# +
-			      {tribull} 2NT=min, 3NT=med
-|      | 2NT  |     |       | sign off
+| (1M) |  P   | (P) | 1NT
+| (P)  | !2C! | (P) | {nbsp}!!2D!!
+| (P)  |  ?   |     |
+|      | 2oM  |     | 5*oM, weak-inv. +
+               [nobr]#{tribull} opener passes or bids 2NT#
+		      _ with medium and no fit
+|      | !2M! |     | #asks min or med# +
+		      {tribull} 2NT=min, 3NT=med
+|      | 2NT  |     | sign off
 |===
 
 === Sandwich position
