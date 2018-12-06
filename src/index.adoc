@@ -8,6 +8,9 @@
 
 <<contested-responses.adoc#, Responding in Contested Auctions>>
 [nobr]##{ndash}
+<<contested-responses.adoc#we_open_1H_they_overcall_1S,
+[.xemph.brickred]#__new. Dec 5, 2018__#>>##
+[nobr]##{ndash}
 <<contested-responses.adoc#nfb,
 [.xemph.brickred]#__mod. Dec 4, 2018__#>>##
 

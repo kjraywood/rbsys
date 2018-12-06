@@ -55,11 +55,24 @@ Opener pulls with a singleton in their suit, or with a doubleton and
 five cards in the opening suit.
 
 == Vs Suit Overcall
- 
+
 === Raises
 
-@ cue = {LRplus}
+[#we_open_1H_they_overcall_1S]
+==== We open 1\H, they overcall 1\S
+
+{new} [.xemph.green]#Dec 5, 2018#
+
+@ jump raise = LR
+@ cue = GF raise
+
+TIP: Distinguishing GF from LR provides a forcing-pass in
+[lightgrey-box]#1{H}{emsp}(1{S}){emsp}!!2{S}!!{emsp}(4{S})# +
+
+==== Vs other overcalls
+
 @ jump raise = weak
+@ cue = {LRplus}
 
 === Negative double vs 1D or 1H
 
