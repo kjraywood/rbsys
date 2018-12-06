@@ -134,16 +134,17 @@ Weak invitations go through Range Stayman.
 
 ALERT: Range Stayman does not promise a four-card major.
 
-[%autowidth,cols="5*^,<",grid=none]
+[%autowidth,cols="4*^,<",grid=none]
 |===
-| (1M) |  P   | (P) |  1NT  | |
-| (P)  | !2C! | (P) |  ?    | |
-|      |      |     | !2D!  | | min {or} med, {lt}4*oM
-|      |      |     |  2oM  | | min, 4*oM
-|      |      |     | !2M!  | | #med, 4*oM#
-|      |      |     | !2NT! | | max, {lt}5*oM
+|      |     |     | (1M) |
+|  P   | (P) | 1NT | (P)  |
+| !2C! | (P) |  ?  |      |
+|      |     | !2D!  |    | min {or} med, {lt}4*oM
+|      |     |  2oM  |    | min, 4*oM
+|      |     | !2M!  |    | #med, 4*oM#
+|      |     | !2NT! |    | max, {lt}5*oM
                       [nobr]#{tribull} 3C = re-Stayman#
-|      |      |     | 3oM   | | max, 5*oM
+|      |     | 3oM   |    | max, 5*oM
 |===
 
 Range Stayman may be used with a strong invitation containing a
@@ -151,17 +152,18 @@ four-card major.
 So following the negative 2D reply, the cue-bid asks minimum or
 medium.
 
-[%autowidth,cols="3*^,<",grid=none]
+[%autowidth,cols="2*^,<",grid=none]
 |===
-| (1M) |  P   | (P) | 1NT
-| (P)  | !2C! | (P) | {nbsp}!!2D!!
-| (P)  |  ?   |     |
-|      | 2oM  |     | 5*oM, weak-inv. +
-               [nobr]#{tribull} opener passes or bids 2NT#
-		      _ with medium and no fit
-|      | !2M! |     | #asks min or med# +
-		      {tribull} 2NT=min, 3NT=med
-|      | 2NT  |     | sign off
+|      |      | {emsp}{emsp}{emsp}(1M)
+|  P   | (P)  | 1NT {ensp}{ensp}(P)
+| !2C! | (P)  | {nbsp}{thinsp}!!2D!! {emsp}{ensp}(P)
+|  ?   |      |
+| 2oM  |      | 5*oM, weak-inv. +
+         [nobr]#{tribull} opener passes or bids 2NT#
+	       _ with medium and no fit
+| !2M! |      | #asks min or med# +
+	        {tribull} 2NT=min, 3NT=med
+| 2NT  |      | sign off
 |===
 
 === Sandwich position
