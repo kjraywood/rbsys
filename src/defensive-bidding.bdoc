@@ -50,9 +50,36 @@ shows both majors but does not promise a good hand.
 
 == NoTrump Overcalls
 
+[#nt_overcalls_direct]
 === Direct
 
-15-18, System ON
+{new} [.xemph.green]#Updated Dec 5, 2018#
+
+They open *one minor*: system ON
+
+They open *one major*: system OFF +
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|      | (1M) | 1NT | (P)
+|  ?   |      |     |
+2+<| 2C,2D,2oM |   <| to play
+| !2M! |      |     | cue = Stayman, 4*oM inv.{orMore}
+                      __ or 5*oM inv.
+|  3m  |      |     | #inv.# (seeks fitting honour)
+|  3oM |      |     | GF, 5*oM, COG
+| !3M! |      |     | shortness (s/v), 3*oM
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      | (1M) | 1NT | (P) |
+| !2M! | (P)  | ?   |     |
+|      |      | 2NT |     | not 4*oM, min (NF)
+|      |      | 3C  |     | not 4*oM, max (GF) +
+                            {tribull} advancer may show
+                            _ 5*oM
+|===
 
 === Balancing
 

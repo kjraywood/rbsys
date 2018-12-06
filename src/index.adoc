@@ -21,11 +21,11 @@
 <<higher-openings.adoc#, Higher Opening Bids>>
 
 <<slam-conventions.adoc#, Slam Conventions>>
-[nobr]##{ndash}
-<<slam-conventions.adoc#minorwood_3-level_non-agreement,
-[.xemph.brickred]#__mod. Nov 28, 2018__#>>##
 
 <<defensive-bidding.adoc#, Defensive Bidding>>
+[nobr]##{ndash}
+<<defensive-bidding.adoc#nt_overcalls_direct,
+[.xemph.brickred]#__mod. Dec 5, 2018__#>>##
 
 <<competitive-bidding.adoc#, Competitive Bidding>>
 
