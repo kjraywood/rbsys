@@ -88,7 +88,8 @@ two-level overcall#
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1H  | (2D) | X  | (P)
-| ?   |      | 2H | default bid
+| ?   |      |    |
+| 2H  |      |    | default bid
 | 2S  |      |    | {S}-fit, min
 | 2NT |      |    | nat., not min
 | 3C  |      |    | nat., not min
