@@ -100,15 +100,15 @@ _ is only declined with a min +
 @ a *weak invitation* {thinsp}({simto}9 HCP)
 _ is only accepted with a max +
 
-Unless seeking a 4-4 in the other major, we handle strong invitations
-in the same way as after an opening-bid of 1NT.
+Strong invitations are bid the same way as invitations after an
+opening-bid of 1NT.
 
 [%autowidth,cols="5*^,<",grid=none]
 |===
 | (1M) |  P   | (P) |  1NT  | | good 11 {ndash} bad 17
-| (P)  | !2S! | (P) |  ?    | | 2S = range-ask or {C}
+| (P)  | !2S! | (P) |  ?    | | 2S = {C} or balanced strong-inv.
 |      |      |     |  2NT  | | min
-|      |      |     |  3C   | | med or max
+|      |      |     |  3C   | | not min
 |===
 
 [%autowidth,cols="5*^,<",grid=none]
@@ -118,8 +118,8 @@ in the same way as after an opening-bid of 1NT.
 | (P)  | !2S! | (P) |  ?    | | 2S = strong inv.
 |      |      |     |  2NT  | | min, no {H} fit
 |      |      |     |  3H   | | min, {H} fit
-|      |      |     |  3NT  | | med {or} max, no {H} fit
-|      |      |     |  4H   | | med {or} max, {H} fit
+|      |      |     |  3NT  | | not min, no {H} fit
+|      |      |     |  4H   | | not min, {H} fit
 |===
 
 There is no corresponding auction for 5*{S}{thinsp} because that hand would
@@ -127,10 +127,9 @@ have made a 1S overcall.
 
 ==== Range Stayman
 
-@ Only applies vs major +
-@ #ignore double#
-
-Weak invitations go through Range Stayman.
+@ Only applies vs major
+@ #ignore double# +
+@ all weak invitations use Range Stayman
 
 ALERT: Range Stayman does not promise a four-card major.
 
@@ -139,18 +138,19 @@ ALERT: Range Stayman does not promise a four-card major.
 |      |     |     | (1M) |
 |  P   | (P) | 1NT | (P)  |
 | !2C! | (P) |  ?  |      |
-|      |     | !2D!  |    | min {or} med, {lt}4*oM
+|      |     | !2D!  |    | not max, not 4*oM
 |      |     |  2oM  |    | min, 4*oM
 |      |     | !2M!  |    | #med, 4*oM#
-|      |     | !2NT! |    | max, {lt}5*oM
+                      [nobr]##{tribull} #3oM-1 = transfer# ##
+|      |     | !2NT! |    | max, not 5*oM
                       [nobr]#{tribull} 3C = re-Stayman#
 |      |     | 3oM   |    | max, 5*oM
 |===
 
-Range Stayman may be used with a strong invitation containing a
+Range Stayman is also used with a strong invitation containing a
 four-card major.
-So following the negative 2D reply, the cue-bid asks minimum or
-medium.
+Therefore if balancer replies 2D, advancer shows a strong invitation by cue-bidding.
+Essentially this asks if balancer is minimum or medium.
 
 [%autowidth,cols="2*^,<",grid=none]
 |===
@@ -159,9 +159,9 @@ medium.
 | !2C! | (P)  | {nbsp}{thinsp}!!2D!! {emsp}{ensp}(P)
 |  ?   |      |
 | 2oM  |      | 5*oM, weak-inv. +
-         [nobr]#{tribull} opener passes or bids 2NT#
+         [nobr]#{tribull} balancer passes or bids 2NT#
 	       _ with medium and no fit
-| !2M! |      | #asks min or med# +
+| !2M! |      | strong inv, #asks min or med# +
 	        {tribull} 2NT=min, 3NT=med
 | 2NT  |      | sign off
 |===
