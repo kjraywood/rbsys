@@ -2,7 +2,7 @@
 
 <<overview.adoc#, System Overview>>
 [nobr]##{ndash}
-<<contested-responses.adoc#nfb,
+<<overview.adoc#penalty_doubles,
 [.xemph.brickred]#__mod. Dec 9, 2018__#>>##
 
 <<notrump.adoc#, NoTrump Openings>>
