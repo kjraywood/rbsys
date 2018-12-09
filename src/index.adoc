@@ -1,6 +1,9 @@
 = System Notes
 
 <<overview.adoc#, System Overview>>
+[nobr]##{ndash}
+<<contested-responses.adoc#nfb,
+[.xemph.brickred]#__mod. Dec 9, 2018__#>>##
 
 <<notrump.adoc#, NoTrump Openings>>
 
@@ -10,9 +13,6 @@
 [nobr]##{ndash}
 <<contested-responses.adoc#we_open_1H_they_overcall_1S,
 [.xemph.brickred]#__new. Dec 5, 2018__#>>##
-[nobr]##{ndash}
-<<contested-responses.adoc#nfb,
-[.xemph.brickred]#__mod. Dec 4, 2018__#>>##
 
 <<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>>
 [nobr]##{ndash}
