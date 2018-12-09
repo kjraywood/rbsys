@@ -47,6 +47,7 @@ Jumps to the 4-level in a different suit are fit-showing._
 |    |      | 4C, 4H | | fit showing
 |===
 
+[#penalty_doubles]
 === Penalty Doubles
 
 Partner has made a take-out double, then RHO bids one of the unbid
@@ -55,7 +56,29 @@ suits.
 We have agreed a suit, hence have no further need for take-out
 doubles.
 
-A second-round double of an opponent's #same-major-suit# rebid.
+{new} [.xemph.green]#Updated Dec 9, 2018#
+
+A double of an opponent's #same-major-suit# rebid when: +
+@ no announced fit
+@ we previously passed
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1D) | P |  1NT  | P |
+| (2D) | X |       |   | light take-out, both opps are limited
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1H) | P |  (1S, 1NT) | P |
+| (2H) | X |              |   | penalty
+|===
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (1m)  | P | (1M)  | P | |
+| (1NT) | P | (2M)  | X | | penalty
+|===
 
 Partner has accurately described strength and distribution. +
 _Includes_
