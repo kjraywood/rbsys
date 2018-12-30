@@ -50,14 +50,11 @@ shows both majors but does not promise a good hand.
 
 == NoTrump Overcalls
 
-[#nt_overcalls_direct]
 === Direct 1NT Overcall
-
-{new} [.xemph.green]#Updated Dec 5, 2018#
 
 They open *one minor*: system ON
 
-They open *one major*: system OFF +
+#They open *one major*: system OFF# +
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===

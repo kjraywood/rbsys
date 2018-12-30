@@ -1,23 +1,14 @@
 = System Notes
 
 <<overview.adoc#, System Overview>>
-[nobr]##{ndash}
-<<overview.adoc#penalty_doubles,
-[.xemph.brickred]#__mod. Dec 9, 2018__#>>##
 
 <<notrump.adoc#, NoTrump Openings>>
 
 <<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
 
 <<contested-responses.adoc#, Responding in Contested Auctions>>
-[nobr]##{ndash}
-<<contested-responses.adoc#we_open_1H_they_overcall_1S,
-[.xemph.brickred]#__new. Dec 5, 2018__#>>##
 
 <<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>>
-[nobr]##{ndash}
-<<rebid-by-responder.adoc#fourth-suit-later,
-[.xemph.brickred]#__mod. Dec 4, 2018__#>>##
 
 <<checkback.adoc#, 2-Way Checkback and Wolff Sign-off>>
 
@@ -26,16 +17,10 @@
 <<slam-conventions.adoc#, Slam Conventions>>
 
 <<defensive-bidding.adoc#, Defensive Bidding>>
-[nobr]##{ndash}
-<<defensive-bidding.adoc#nt_overcalls_direct,
-[.xemph.brickred]#__mod. Dec 5, 2018__#>>##
 
 <<competitive-bidding.adoc#, Competitive Bidding>>
 
 <<defence.adoc#, Leads and Carding>>
-[nobr]##{ndash}
-<<defence.adoc#aggr-shift,
-[.xemph.brickred]#__mod. Dec 4, 2018__#>>##
 
 '''
 

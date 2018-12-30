@@ -60,10 +60,7 @@ If partner leads our known 6{OrMore}-card suit:
 @ middle spot-card = continue
 @ hi or lo spot-card = suit-pref
 
-[#aggr-shift]
 === The aggressive shift
-
-{new} [.xemph.green]#Updated Dec 4, 2018#
 
 We give attitude on opening lead, even in a suit-contract with
 shortness (s|v) in dummy.

@@ -58,10 +58,7 @@ five cards in the opening suit.
 
 === Raises
 
-[#we_open_1H_they_overcall_1S]
 ==== We open 1\H, they overcall 1\S
-
-{new} [.xemph.green]#Dec 5, 2018#
 
 @ jump raise = LR
 @ cue = GF raise
@@ -158,8 +155,7 @@ The 3rd bid in each of the following is a 2oM NFB.
 
 * Jump to 3oM = GF, 6{orMore}-card suit
 
-* {new} [.xemph.green]#Dec 4, 2018# +
-Neg. double = 4{or}5{xtimes}oM, no upper-limit on strength +
+* Neg. double = 4{or}5{xtimes}oM, no upper-limit on strength +
 {tribull} subsequent bid of oM by neg-doubler
 _ = 5-card suit, #2oM = NF#, #3oM = GF#
 
