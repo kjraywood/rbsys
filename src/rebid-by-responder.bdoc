@@ -206,9 +206,9 @@ For more info, responder uses #three other-minor#.
 
 [TIP]
 ====
-Think of this as [brickred]##_New-Minor Q & Q_##.{thinsp}
-However, instead of min vs max, it identifies the shortness
-in a 3-card-raise hand.
+Think of this as [brickred]##_New-Minor
+Q{thinsp}&{thinsp}Q_##.{thinsp} However, instead of min vs max, opener
+identifies the shortness in a 3-card-raise hand.
 ====
 
 [%autowidth,cols="^,^,<",grid="none"]
@@ -228,8 +228,9 @@ indicating that the short-suit is a singleton.
 
 === Responder has both majors
 
-After 1m{ndash}1{H} opener might bypass [nobr]#4*{S}# to raise {H} on
-three. So 2S by responder is natural and forcing one-round.
+After 1m{ndash}1{H} opener might bypass a four-card spade-suit to
+raise hearts on three. So 2S by responder is natural and forcing
+one-round.
 
 Then +
 @ old-suit, 2NT or 3NT
@@ -242,11 +243,11 @@ _ = natural, NF +
 |  2H   | 2S | natural, F1
 |  ?    |    |
 |  2NT  |    | 3*{H}, #short {S}#, min, NF
-|  3m   |    | 5\|6*m, 3*{H}, #short om#, NF
+|  3m   |    | 3*{H}, 5\|6*m, #short om#, NF
 | !3om! |    | #4*{H}, max, GF#
 |  3H   |    | 4*{H}, min, NF
 |  3S   |    | 4*{S}, min, NF
-|  3NT  |    | #short {S}#, 3*{H}, max
+|  3NT  |    | 3*{H}, #short {S}#, max
 | !4om! |    | splinter, 4*{S}, max
 | !4H!  |    | 4*{H}, max, "`__I forgot about 3om__{thinsp}`"
 | !4S!  |    | no splinter, 4*{S}, max
