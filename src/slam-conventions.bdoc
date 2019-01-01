@@ -569,45 +569,17 @@ If their four-level preempt follows a minor-suit opening or any
 
 === Examples
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[cols="6*^",grid="none",stripes=odd]
-:===
-: 1S  : (4H) : !4NT! : : KC
-:===
-|
-[cols="7*^",grid="none",stripes=odd]
-:===
-: (3D) : 3S  : (4D) : !4NT! : : KC
-:===
-|===
+[lightgrey-box]#1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}KC#
+[lightgrey-box]#(3{D}){emsp}3{S}{emsp}(4{D}){emsp}!!4NT!!{emsp}:{emsp}KC#
 
+[lightgrey-box]#1{H}{emsp}(3{S}){emsp}!!4NT!!{emsp}:{emsp}KC#
+[lightgrey-box]#(1{S}){emsp}2{C}{emsp}(4{S}){emsp}!!4NT!!{emsp}:{emsp}aces#
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[cols="6*^",grid="none",stripes=odd]
-:===
-: 1H  : (3S) : !4NT! : : KC
-:===
-|
-[cols="7*^",grid="none",stripes=odd]
-:===
-: (1S) : 2C : (4S) : !4NT! : : aces
-:===
-|===
+[lightgrey-box]#1{C}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
+                                               6{orMore}{xtimes}{D}, 4*{C}#
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| 1C  | (4H) | !4NT! | | take-out,
-                         [nobr]#6{orMore}{xtimes}{D}, 4*{C}#
-|===
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-| (1H) | 1S  | (4H) | !4NT! | | take-out, minors
-|===
+[lightgrey-box]#(1{H}){emsp}1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
+                                               minors#
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
