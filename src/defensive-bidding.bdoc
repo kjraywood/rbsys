@@ -397,3 +397,48 @@ As before, reopener is limited by the failure to act on the previous round.
 // 4m-4NT = natural (23-26 balanced or a stopper plus a long running suit and 10 tricks)
 // 4H-4NT = both minors
 // 4S-4NT = any two suits
+
+=== Leaping Michaels
+
+==== vs major
+
+Applies after weak two or Fantunes 2M opening.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| (2M) | ?     | |
+|      | !3M!  | | some solid suit, requests{nbsp}stopper
+|      | !4m!  | | m + oM, GF
+                   [nobr]#{tribull} 4NT = 2-suit KC#
+|      | !4M!  | | both minors, strong
+|      | !4NT! | | both minors, weak
+|===
+
+==== vs minor
+
+Applies after natural 2m openings including weak twos, Fantunues twos and Precision-style 2C opening.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| (2m) | ?        | |
+|      | !3m!     | | some solid suit, requests stopper
+|      | 3M       | | natural, strong
+|      | ##!4C!## | | om + unknown M, GF
+|      | ##!4D!## | | both majors
+                      [nobr]#{tribull} 4NT = 2-suit KC#
+|===
+
+[TIP]
+====
+When they open a natural 2C, we use 4C for diamonds and a major so
+that there is room to ask for the major.  Hence we use 4D for both
+majors.
+====
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (2m) | !4C! | (P) | !4D! | | requests major
+| (P)  | 4M   |     |  ?   | |
+|      |      |     | 4NT  | | 2-suit KC
+|      |      |     | 5om  | | to play
+|===

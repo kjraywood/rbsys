@@ -20,6 +20,9 @@
 <<slam-conventions.adoc#, Slam Conventions>>
 
 <<defensive-bidding.adoc#, Defensive Bidding>>
+[nobr]##{ndash}
+<<defensive-bidding.adoc#_leaping_michaels,
+[.xemph.green]#__Leaping Michaels: Jan 19, 2019__#>>##
 
 <<competitive-bidding.adoc#, Competitive Bidding>>
 
