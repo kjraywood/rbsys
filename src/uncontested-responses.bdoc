@@ -72,6 +72,12 @@ Highest priority = good second-suit with values in that suit
 | !2D! |    | 3*M, #9{ndash}11# {or} 5*M, 7{ndash}11
 |===
 
+****
+
+{warning} [.xemph.green]#Jan 19, 2019#
+
+The following has been in our notes for over a year.
+
 [%autowidth,cols="^,2*<",grid="none"]
 |===
 |  P    |  1M  |
@@ -82,6 +88,14 @@ Highest priority = good second-suit with values in that suit
                  [nobr]#{thinsp}{tribull} 2NT asks where#
 |  2NT  |      | max, no singleton
 |===
+
+This is inconsistent the contents of our original notes.
+
+{reference}
+https://drive.google.com/file/d/1POwc4_FTgXbVdpUzHNeEtZOCKIc5JqiQ/view?usp=sharing[
+_Game and slam tries after a major-suit raise_ ]
+****
+
 
 Following either Drury-raise, bidding above 2M is a new-suit slam try
 (with 2NT{eq}{S} when M{eq}{H}), as after a single-raise.
