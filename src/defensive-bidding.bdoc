@@ -52,21 +52,29 @@ shows both majors but does not promise a good hand.
 
 === Direct 1NT Overcall
 
-They open *one minor*: system ON
+==== They open one minor
 
-#They open *one major*: system OFF# +
+#System ON#, including run-out system if doubled
+
+==== They open one major
+
+#System OFF#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |      | (1M) | 1NT | (P)
 |  ?   |      |     |
-2+<| 2C,2D,2oM |   <| to play
+2+<| 2m,2oM   |    <| to play
 | !2M! |      |     | cue = Stayman, 4*oM inv.{orMore}
                       __ or 5*oM inv.
 |  3m  |      |     | #inv.# (seeks fitting honour)
 |  3oM |      |     | GF, 5*oM, COG
-| !3M! |      |     | shortness (s/v), 3*oM
+| !3M! |      |     | shortness (s\|v), 3*oM
 |===
+
+Cue-bid Stayman shows at least invitational values. In response,
+overcaller must distinguish min from max so that we
+can stop with a minimum opposite an invitation.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -76,6 +84,18 @@ They open *one minor*: system ON
 |      |      | 3C  |     | not 4*oM, max (GF) +
                             {tribull} advancer may show
                             _ 5*oM
+|      |   2+<| _non-jump_ in oM <| {ensp} 4*oM min (NF)
+|      |   2+<| _jump_ in oM <| {ensp} 4*oM max (GF)
+|===
+
+If they double, then redouble shows both minors
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|      | (1M) | 1NT | (X)
+|  ?   |      |     |
+| !XX! |      |     | both minors
+2+<| 2m,2oM   |    <| to play
 |===
 
 === Balancing 1NT
@@ -85,7 +105,7 @@ They open *one minor*: system ON
 @@ Range Stayman +
 @ 2NT = 20 {ndash} 21
 
-System ON in all cases
+#System ON# in all cases
 
 ==== Inviting opposite wide-range 1NT
 
@@ -177,6 +197,42 @@ Essentially this asks if balancer is minimum or medium.
 @ #transfer to their major = inv oM# +
 @ vs 2M: 3S = minors +
 @ vs 2m: 3S = other minor
+@ 3NT = to play
+
+==== When they double
+
+If they opened !two{nbsp}of{nbsp}a{nbsp}minor! (weak-two,
+Fantunes-two, precision-2C) then we play similar to !systems{nbsp}ON!
+except that we use Landy (both majors) instead of Stayman.
+
+// [%autowidth,cols="5*^,<",grid="none"]
+// |===
+// | (2m) | 2NT | (X) |  ?     | |
+// |      |     |     | !XX!   | | other minor
+// |      |     |     | !3C!   | | both majors
+// |      |     | | !3D!, !3H! | | transfer
+// |===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|      | (2m) | 2NT | (X)
+|  ?   |      |     |
+| !XX! |      |     | other minor
+2+<| !3D!, !3H! |  <| transfer
+|===
+
+If they opened !two{nbsp}of{nbsp}a{nbsp}major!, then we play
+!systems{nbsp}OFF! with redouble as both minors.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|      | (2M) | 2NT | (X)
+|  ?   |      |     |
+| !XX! |      |     | both minors
+2+<| 2m, 2oM  |    <| to play
+|===
+
+TIP: This is the same, but one-level higher, as when they double after (1M)-1NT .
 
 == Suit Overcalls
 
