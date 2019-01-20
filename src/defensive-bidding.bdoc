@@ -205,19 +205,12 @@ If they opened !two{nbsp}of{nbsp}a{nbsp}minor! (weak-two,
 Fantunes-two, precision-2C) then we play similar to !systems{nbsp}ON!
 except that we use Landy (both majors) instead of Stayman.
 
-// [%autowidth,cols="5*^,<",grid="none"]
-// |===
-// | (2m) | 2NT | (X) |  ?     | |
-// |      |     |     | !XX!   | | other minor
-// |      |     |     | !3C!   | | both majors
-// |      |     | | !3D!, !3H! | | transfer
-// |===
-
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |      | (2m) | 2NT | (X)
 |  ?   |      |     |
 | !XX! |      |     | other minor
+| !3C! |      |     | both majors
 2+<| !3D!, !3H! |  <| transfer
 |===
 
