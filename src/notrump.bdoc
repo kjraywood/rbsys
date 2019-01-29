@@ -153,11 +153,11 @@ We do this with four-card support and not 4333.
 is always possible
 ====
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="^,3*<",grid="none"]
 |===
 |       |  1NT   | |
 | !2D!  | !2NT!* | | * values in {D}, non-max
-| !3D!{superdag} | 3H | | {superdag} re-transfer
+| !3D!{superdag} | {nbsp}3H | | {superdag} re-transfer
 |===
 
 [NOTE]
