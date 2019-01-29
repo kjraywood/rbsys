@@ -21,6 +21,10 @@
 
 === Game and slam tries after a single raise
 
+{reference}
+https://drive.google.com/file/d/1POwc4_FTgXbVdpUzHNeEtZOCKIc5JqiQ/view?usp=sharing[
+_Game and slam tries after a major-suit raise_ ]
+
 @ re-raise = inv with long trumps +
 @ next-step game-try +
 @ second-suit slam-try +
@@ -72,33 +76,43 @@ Highest priority = good second-suit with values in that suit
 | !2D! |    | 3*M, #9{ndash}11# {or} 5*M, 7{ndash}11
 |===
 
-****
+After a 3-card Drury raise, most of opener's bids are the same as
+after a single raise; _i.e._{thinsp} next-step game-tries and new-suit
+slam-tries apply.
 
-{warning} [.xemph.green]#Jan 19, 2019#
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  P   |  1H   | |
+| !2D! |  ?    | |
+|      |  2H   | | sign-off
+|      | !2S!  | | next-step game-try
+|      | !2NT! | | spades, 2nd-suit slam-try
+|      | 3C,3D | | 2nd-suit slam-try
+|      | 3H    | | invitational, long trumps
+| 2+<| !!3S!!,!!4C!!,!!4D!! <| void-splinter slam-try
+|      | 3NT   | | many playing tricks + side stoppers
+|===
 
-The following has been in our notes for over a year.
+A four-card Drury raise (2C) can have constructive-raise (8-9) or
+limit-raise (10-11) strength.  With game-interest opposite the weaker
+raise, opener bids immediately above 2M with the same scheme as after the
+three-card Drury raise.
+
+Opener can ask for the strength by bidding 2D.  This shows game interest
+opposite the limit raise.  Responder returns to the trump suit with
+the weaker raise, and shows the location of secondary values,
+with limit-raise strength.
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-|  P    |  1M  |
-| !2C!  | !2D! |
-|  ?    |      |
-|  2M   |      | min
-| !2oM! |      | max, some singleton
-                 [nobr]#{thinsp}{tribull} 2NT asks where#
-|  2NT  |      | max, no singleton
+|  P   |  1H   |
+| !2C! | !2D!* | {emsp}* range-ask
+|  ?   |       |
+|  2H  |       | min
+2+<| 2S,3C,3D  | max, values in bid suit
+|  2NT |       | max, 3-4-3-3
+|  3H  |       | max, most values in trump
 |===
-
-This is inconsistent with our original notes.
-
-{reference}
-https://drive.google.com/file/d/1POwc4_FTgXbVdpUzHNeEtZOCKIc5JqiQ/view?usp=sharing[
-_Game and slam tries after a major-suit raise_ ]
-****
-
-
-Following either Drury-raise, bidding above 2M is a new-suit slam try
-(with 2NT{eq}{S} when M{eq}{H}), as after a single-raise.
 
 === Semi-Forcing 1NT
 
