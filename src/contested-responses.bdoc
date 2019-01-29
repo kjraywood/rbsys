@@ -58,18 +58,19 @@ five cards in the opening suit.
 
 === Raises
 
-==== We open 1\H, they overcall 1\S
-
 @ jump raise = LR
 @ cue = GF raise
 
-TIP: Distinguishing GF from LR provides a forcing-pass in
-[lightgrey-box]#1{H}{emsp}(1{S}){emsp}!!2{S}!!{emsp}(4{S})# +
+[TIP]
+====
+Distinguishing GF from LR provides a forcing-pass in auctions where
+the opponents compete further. +
+_e.g._{ensp}
+[lightgrey-box]#1{H}{emsp}(1{S}){emsp}!!2{S}!!{emsp}(4{S})#
 
-==== Vs other overcalls
-
-@ jump raise = weak
-@ cue = {LRplus}
+It also avoids problems with unauthorised-information due to a
+break-in-tempo opposite a limit-raise-or-better.
+====
 
 === Negative double vs 1D or 1H
 
