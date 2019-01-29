@@ -317,9 +317,10 @@ Optional minorwood might make sense here.
 [NOTE]
 ====
 *Optional minorwood:* +
-4m shows slam interest.
-To accept, partner bids 4m+1 to ask for KC.
-To decline, partner shows KCs beginning at 4m+2.
+When 4m is not minorwood but is default or sets trump, then partner
+chooses from: +
+@ 4m+1 to ask for KC
+@ shows KCs beginning at 4m+2
 ====
 
 === After a GF cue-bid
