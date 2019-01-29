@@ -5,9 +5,6 @@
 <<notrump.adoc#, NoTrump Openings>>
 
 <<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
-[nobr]##{ndash}
-<<uncontested-responses.adoc#_three_way_drury,
-[.xemph.brickred]#__{warning} Jan 19, 2019__#>>##
 
 <<contested-responses.adoc#, Responding in Contested Auctions>>
 
