@@ -68,11 +68,11 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-| 1m  | 1S         |
-| 1NT | {ensp}?    |
-|     | 3C,3D,3H   | 5-5, good suits
-|     | 3S         | 1-loser suit, or set trump for KC ask
-|     | !4C        | Gerber
+| 1m  | 1S       |
+| 1NT | {ensp}?  |
+|     | 3C,3D,3H | 5-5, good suits
+|     | 3S       | 1-loser suit, or set trump for KC ask
+|     | !4C!     | Gerber
 |===
 
 === Choice-of-game

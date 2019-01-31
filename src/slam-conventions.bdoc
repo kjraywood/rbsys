@@ -603,18 +603,21 @@ Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
 
 === Gerber
 
-Applies after:
+Applies after
 @ 1NT and 2NT openings
 @ 1NT rebids
 
-Responses: 03, 14, 2 & min, 2 & max
+&Responses:&{thinsp} 03, 14, 2 & min, 2 & max
 
 === Cheap Key-Card after preempts
 
+Applies when
 @ we open a preempt
 @ next hand passes or doubles for take-out
-@ (!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
-@ Responses: 0, 1-, 1+, 2-, 2+
+
+(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
+
+&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
 
 === First-round Exclusion
 
@@ -622,7 +625,7 @@ First-round jumps to 4M are to play.
 
 Other first-round jumps that are one-level higher than a splinter are exclusion.
 
-Responses:  0, 1, 2-, 2+, 3-, 3+
+&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
 
 == KC Responses
 
