@@ -64,8 +64,6 @@ possible if the hands fit well.
 for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 4M).
 
-*Double jump to second-suit:* self-splinter slam-try
-
 ==== Summary
 
 [%autowidth,cols="^,2*<",grid="none"]
@@ -74,7 +72,7 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 | 1NT | {ensp}?    |
 |     | 3C,3D,3H   | 5-5, good suits
 |     | 3S         | 1-loser suit, or set trump for KC ask
-|     | !4C!,!4D!,!4H! | self-splinter slam-try
+|     | !4C        | Gerber
 |===
 
 === Choice-of-game
@@ -183,6 +181,7 @@ suits.
 @ ON when opener bids 2NT{eq}18-19,
 _ #even if an opp has shown a suit# +
 @ There are no self-splinters
+_ #and NO GERBER#
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
