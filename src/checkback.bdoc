@@ -275,11 +275,11 @@ However, it is not used following a 1NT rebid.
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
-| 1C  |  1D  | |
-| 2NT |  3C  | |
-| 3D  |  ?   | |
-|     | !3M! | | slam interest in {C}, values in M
-|     |  4m  | | #minorwood#
+|  1C  |  1D  | |
+|  2NT | !3C! | |
+| !3D! |  ?   | |
+|      | !3M! | | slam interest in {C}, values in M
+|      |  4m  | | #minorwood#
 |===
 
 [TIP]
