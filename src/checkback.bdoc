@@ -174,14 +174,13 @@ suits.
 
 == Wolff Sign-Off
 
+[.xemph.green]#__Updated Feb 6, 2019__#
+
 <<staging.adoc#alt-wolff,Possible alternatives>>
 
 === Basic structure
 
-@ ON when opener bids 2NT{eq}18-19,
-_ #even if an opp has shown a suit# +
-@ There are no self-splinters
-_ #and NO GERBER#
+Applies when opener bids 2NT{eq}18-19, #even if an opp has shown a suit#.
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
@@ -193,13 +192,19 @@ _ #and NO GERBER#
 |     | 3H (M={S}) | | 5-5 F
 |     | 3S (M={H}) | | #*unused*#
 |     |  3NT       | | to play
-|     |  4C,4D     | | #natural 5-5#
+|     | !4C!       | | #Gerber#
 |===
 
-Following checkback and a response, we confirm a fit by bidding the
-_other major._
+[NOTE]
+====
+3S is not needed when M={H} because there are no invitational sequences.
+====
 
-=== Slam try in opener's minor or responder's major
+=== Relay 3C
+
+@ sign-off at the 3-level
+@ slam try in opener's minor
+@ minorwood
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
@@ -210,8 +215,52 @@ _other major._
 |     | !3oM!	 | | #slam try, 5{orMore}{xtimes}m#
 |     | !3NT!	 | | slam try, 4*m
 |     | !4m!	 | | #minorwood#
-|     |	 4M	 | | 2-loser suit, slam inv.
+//|   |	 4M	 | | 2-loser suit, slam inv.
 |===
+
+The slam-try sequences imply that responder's major is only
+four-cards, otherwise responder would have used checkback (3D).
+
+=== Checkback 3\D
+
+Following checkback opener bids up-the-line.
+#Responder confirms a fit by bidding the _other major._#
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  |  1S   | |
+| 2NT | !3D!  | | Checkback
+| 3H  | ?     | |
+|     | !3S!  | | #{H}-fit, slammish#
+|     | 3NT   | | no {H}-fit, therefore 5*{S}
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  |  1H   | |
+| 2NT | !3D!  | | Checkback
+| 3H  | ?     | |
+|     | !3S!  | | #{H}-fit, slammish#
+|     | 3NT   | | no {H}-fit, therefore 4*{S}
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  |  1H   | |
+| 2NT | !3D!  | | Checkback
+| 3S  | ?     | |
+|     | 3NT   | | to play
+|     | 4C,4D | | natural, slammish
+|     | !4H!  | | #{S}-fit, slammish#
+|===
+
+[TIP]
+====
+Up-the-line after checkback is also used following a 1NT rebid.
+
+Other-major to confirm a fit is also used following regular Stayman.
+However, it is not used following a 1NT rebid.
+====
 
 === Both minors
 
@@ -222,7 +271,7 @@ _other major._
 |     | !3C! | | {forces} 3D,
                 _ sign-off or set trump = {C}
 |     | !3D! | | checkback
-|     | 3M   | | slam interest in {D}
+|     | 3M   | | slam interest in {D}, values in M
 |===
 
 [%autowidth,cols="^,3*<",grid="none"]
@@ -230,9 +279,16 @@ _other major._
 | 1C  |  1D  | |
 | 2NT |  3C  | |
 | 3D  |  ?   | |
-|     | !3M! | | slam interest in {C}
+|     | !3M! | | slam interest in {C}, values in M
 |     |  4m  | | #minorwood#
 |===
+
+[TIP]
+====
+In the above sequences, 3M by responder shows slam in the minor-suit
+that responder bid on the previous round; even it was an artificial
+relay.
+====
 
 === After a forcing NT
 
