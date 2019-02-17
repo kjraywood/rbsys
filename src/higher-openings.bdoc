@@ -137,8 +137,52 @@ positive values with a double or penalty pass.
 @ new suit = COV + fit
 @ redouble = run-out to long-suit
 
-=== Ogust
+=== Bogust
+
+[.xemph.green]#__New Feb 17, 2019__#
+
+==== Two Major
+
+[%autowidth,cols="2*^,<",grid="none]
+|===
+|  2M   | !2NT! |
+|  ?    |       |
+| !3C!  |       | maximum
+| !3D!  |       | medium
+|  3M   |       | minimum
+| !3oM! |       | [orange-bg]#not-in-use yet:#
+                  [nobr]#non-min, 6*M + 4*oM ??#
+| !3NT! |       | solid suit
+| 4m    |       | [orange-bg]#6{ndash}5  ??#
+|===
+
+[%autowidth,cols="3*<",grid="none]
+|===
+|  2M   | !2NT! |
+| !3C!*  | !3D!{superdag} | {emsp}* max, {superdag} asking
+|  ?    |       |
+| 3M    |       | very-good suit (AKJxxx or AQJxxx) with Q or QJ on side
+| 3NT   |       | moderate suit, scattered values
+2+<| 3oM,4m     | side A or K
+|===
+
+==== Two Diamonds
+
+[%autowidth,cols="2*^,<",grid="none]
+|===
+|  2D   | !2NT! |
+|  ?    |       |
+| !3C!  |       | medium
+|  3D   |       | minimum
+| !3H!  |       | maximum
+| !3S!  |       | [orange-bg]#not-in-use yet:#
+                  [nobr]#possibly 6{xtimes}{D} + 4{xtimes}{H}#
+| !3NT! |       | solid suit
+| 4C    |       | [orange-bg]#6{ndash}5  ??#
+|===
+
+==== Interference
 
 @ ON vs double
 @ OFF vs overcall
-@ Ogust responses OFF vs 4th-hand suit-bid
+@ Bogust responses OFF vs 4th-hand suit-bid
