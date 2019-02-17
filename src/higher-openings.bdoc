@@ -137,11 +137,16 @@ positive values with a double or penalty pass.
 @ new suit = COV + fit
 @ redouble = run-out to long-suit
 
+[#bogust]
 === Bogust
 
 [.xemph.green]#__New Feb 17, 2019__#
 
 ==== Two Major
+
+Bogust also applies when: +
+@ 2M is a negative-free bid
+@ 2M is weak-jump overcall
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
