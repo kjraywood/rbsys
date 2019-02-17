@@ -124,35 +124,12 @@ Shows:
 
 The 3rd bid in each of the following is a 2oM NFB.
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",cols="3*^",stripes=odd]
-:===
- 1m : (1S) : !2H!
-:===
-|
-[grid="none",cols="3*^",stripes=odd]
-:===
- 1S : (2m) : !2H!
-:===
-|===
+[lightgrey-box]#1m{emsp}(1{S}){emsp}2{H}#
+[lightgrey-box]#1{S}{emsp}(2m){emsp}2{H}#
+[lightgrey-box]#1m{emsp}(2{H}){emsp}2{S}#
+[lightgrey-box]#1{H}{emsp}(2m){emsp}2{S}#
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",cols="3*^",stripes=odd]
-:===
- 1m : (2H) : !2S!
-:===
-|
-[grid="none",cols="3*^",stripes=odd]
-:===
- 1H : (2m) : !2S!
-:===
-|===
-
-==== Follow-up
+==== Continuations
 
 @ raise = competitive
 @ <<higher-openings.adoc#bogust, Bogust>> applies
