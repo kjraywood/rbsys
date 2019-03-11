@@ -93,6 +93,15 @@ two-level overcall#
 | 3C  |      |    | nat., not min
 |===
 
+[NOTE]
+====
+A non-jump 2-level overcall is lower-ranking than opener's suit, so we
+use opener's 2M rebid as the default.  A natural 2NT is useful
+here.  In the above sequence, 3C by opener shows extras but is not GF.
+With values for game, opener must bid game or cue-bid; the latter just
+showing some good hand and usually denying four spade cards.
+====
+
 === Scrambling 2NT
 
 Used to find the best fit when #partner forces you to bid at the
@@ -206,7 +215,6 @@ from invitational single-suited hands.
 
 When their cue-bid shows a fit, then our double also show a fit.
 
-
 [%autowidth,cols="5*^,<",grid="rows"]
 |===
 | (1C) | 1S | (2S) | Dbl | | normal raise to 2S
@@ -242,7 +250,6 @@ like a take-out double of their bid-and-raised suit.
 | 1D     | (1S) {ensp} P {ensp} (2D)
 | !Dble! | take-out of their suit +
            _e.g._ {S}2{nbsp}{H}KJ84 {D}AKJ87{nbsp}{C}KT4
-
 |===
 
 [TIP]
