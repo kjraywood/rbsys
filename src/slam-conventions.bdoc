@@ -4,41 +4,41 @@
 
 // == Slam Tries and Control Bids
 
-// == Picture Jumps
+== Picture Jumps
 
-// [#picjumps-2over1]
-// === Two-over-one auctions
+[#picjumps-2over1]
+=== Two-over-one auctions
 
-// :picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
-// :picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
-// :picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
+:picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
+:picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
+:picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
 
-// {reference} _Fast Arrival vs. Picture Bidding,_
-// __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
-// __ {nbsp}{ndash}{nbsp} Andrew Gumperz
+{reference} _Fast Arrival vs. Picture Bidding,_
+ __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
+__ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
-// Responder may initially conceal 4-card support for opener's major when
-// intending to make a picture jump to game on the second round.
-// It is highly unlikely that the auction will be too high for responder
-// to jump on the second round.
+Responder may initially conceal 4-card support for opener's major when
+intending to make a picture jump to game on the second round.
+It is highly unlikely that the auction will be too high for responder
+to jump on the second round.
 
-// We do not conceal 4-card support in other cases because a jump to 3M
-// may not be available on the 2nd-round (_e.g._{thinsp} 2M or 2NT rebid
-// by opener).
-// So, contrary to the recommendation of Gumperz (part 1, page 2, hand
-// 2), the 2nd-round jump to 3M shows strong slam-interest but !denies!
-// 4-card support.
+We do not conceal 4-card support in other cases because a jump to 3M
+may not be available on the 2nd-round (_e.g._{thinsp} 2M or 2NT rebid
+ by opener).
+So, contrary to the recommendation of Gumperz (part 1, page 2, hand
+2), the 2nd-round jump to 3M shows strong slam-interest but !denies!
+4-card support.
 
-// [%autowidth,cols="3*^,<",grid="none"]
-// |===
-// | 1S | 2D  | |
-// | 2H | ?   | |
-// |    | 3S  | | strong slam-interest, 3*{S}
-// |    | 4S  | | picture jump
-// |===
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S | 2D  | |
+| 2H | ?   | |
+|    | 3S  | | strong slam-interest, 3*{S}
+|    | 4S  | | picture jump
+|===
 
-// NOTE: Picture jumps have priority over kickback and minorwood to
-// ensure that responder's initial plan doesn't get scuttled.
+NOTE: Picture jumps have priority over kickback and minorwood to
+ensure that responder's initial plan doesn't get scuttled.
 
 // [#picjumps-reverse]
 // === Reverse auctions
@@ -94,9 +94,7 @@
 
 Four of a previously bid major is natural.
 However, we use 4S as kickback for hearts when we have agreed hearts
-even if spades were bid previously.
-
-// and it when it is not a picture jump.
+even if spades were bid previously and it when it is not a picture jump.
 
 === Set trumps first
 
@@ -128,7 +126,6 @@ The splinter could faked just to set trump for kickback.
 We make an exception to the rule about setting trump first
 in the following auction.
 
-
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1H |  1S   | |
@@ -140,6 +137,8 @@ in the following auction.
 |    | !4NT! | | self-wood ??
 
 |===
+
+=== Change trumps at the 11th hour
 
 ==== Two-over-one Auctions
 
