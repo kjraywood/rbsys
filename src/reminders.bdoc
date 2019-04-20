@@ -78,7 +78,8 @@ _ {vsep} 3S = MSS *]*
 @ fake splinter sometimes used to set trump
 @ picture jumps have priority over KC asking
 @ majors have priority over minors
-@ two-suit KC in double-fit auctions
+
+//@ two-suit KC in double-fit auctions
 
 &Minorwood:&
 @ requires trump agreement
