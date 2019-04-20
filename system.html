@@ -185,7 +185,7 @@
 <li><a href="#_general_principles_for_rkc">20. General Principles for RKC</a>
 <ul class="sectlevel2">
 <li><a href="#_set_trumps_first">20.1. Set trumps first</a></li>
-<li><a href="#_change_trumps_at_the_11th_hour">20.2. Change trumps at the 11th hour</a></li>
+<li><a href="#_picture_bids_have_priority_over_kc_asking">20.2. Picture bids have priority over KC asking</a></li>
 <li><a href="#_majors_have_priority_over_minors">20.3. Majors have priority over minors</a></li>
 <li><a href="#_when_4nt_is_selfwood">20.4. When 4NT is Selfwood</a></li>
 <li><a href="#_auctions_without_suit_agreement">20.5. Auctions without suit agreement</a></li>
@@ -5226,19 +5226,76 @@ even if spades were bid previously and it when it is not a picture jump.</p>
 </div>
 <div class="sect2">
 <h3 id="_set_trumps_first">20.1. Set trumps first</h3>
-<div class="admonitionblock caution">
-<table>
-<tr>
-<td class="icon">
-<img src="../icons/caution.png" alt="Caution">
-</td>
-<td class="content">
-If it&#8217;s possible to set a suit as trump with an unambiguous
+<div class="paragraph">
+<p>If it&#8217;s possible to set a suit as trump with an unambiguous
 below-game forcing-bid, then that route must be taken to ask for
-key-cards in that suit.
-</td>
+key-cards in that suit.</p>
+</div>
+<div class="sect3">
+<h4 id="_exceptions">20.1.1. Exceptions</h4>
+<div class="paragraph">
+<p>In the following auction, responder does not have a way to set
+hearts as trump below game.
+Therefore, we define 4<span class="spades black">&#x2660;</span> as kickback.
+Responder has a forcing 3<span class="spades black">&#x2660;</span> available and can use that as a way to get
+to 4<span class="spades black">&#x2660;</span>.</p>
+</div>
+<table class="tableblock frame-all grid-none fit-content">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="hearts red">&#x2665;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="spades black">&#x2660;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
 </tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="hearts red">&#x2665;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="spades black">&#x2660;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural forcing</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, NF</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">4<span class="clubs black">&#x2663;</span>,4<span class="diamonds red">&#x2666;</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">natural, F</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4<span class="spades black">&#x2660;</span></span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kickback</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4NT</span></p></td>
+<td class="tableblock halign-center valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">self-wood ??</p></td>
+</tr>
+</tbody>
 </table>
+<div class="paragraph">
+<p>The following auction seems similar, but responder can set hearts
+as trump unambiguously with a splinter which could possibly be fake.
+However, to avoid accidents, we define 4<span class="spades black">&#x2660;</span> as kicknack in this auction too.</p>
 </div>
 <table class="tableblock frame-all grid-none fit-content">
 <colgroup>
@@ -5294,8 +5351,7 @@ key-cards in that suit.
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4<span class="spades black">&#x2660;</span></span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Shelley want this as kickback even though
-                 there&#8217;s an unambiguous way to set trump</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>kickback</mark> .</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
@@ -5306,73 +5362,10 @@ key-cards in that suit.
 </tr>
 </tbody>
 </table>
-<div class="paragraph">
-<p>In the above auction, responder can set hearts as trump with a
-splinter, so cannot ask for KC on this round.
-The splinter could faked just to set trump for kickback.</p>
-</div>
-<div class="sect3">
-<h4 id="_exception">20.1.1. Exception</h4>
-<div class="paragraph">
-<p>We make an exception to the rule about setting trump first
-in the following auction.</p>
-</div>
-<table class="tableblock frame-all grid-none fit-content">
-<colgroup>
-<col>
-<col>
-<col>
-<col>
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="hearts red">&#x2665;</span></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">1<span class="spades black">&#x2660;</span></p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="hearts red">&#x2665;</span></p></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">?</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3<span class="spades black">&#x2660;</span></p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">natural forcing</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">3NT</p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">natural, NF</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock">4<span class="clubs black">&#x2663;</span>,4<span class="diamonds red">&#x2666;</span></p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">slam try, trump = <span class="hearts red">&#x2665;</span></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4<span class="spades black">&#x2660;</span></span></p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kickback</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4NT</span></p></td>
-<td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">self-wood ??</p></td>
-</tr>
-</tbody>
-</table>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_change_trumps_at_the_11th_hour">20.2. Change trumps at the 11th hour</h3>
+<h3 id="_picture_bids_have_priority_over_kc_asking">20.2. Picture bids have priority over KC asking</h3>
 <div class="sect3">
 <h4 id="_two_over_one_auctions_2">20.2.1. Two-over-one Auctions</h4>
 <table class="tableblock frame-all grid-none fit-content">
@@ -5417,9 +5410,7 @@ in the following auction.</p>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4<span class="spades black">&#x2660;</span></span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Shelley wants this as KC too,
-                 making it impossible for responder to
-		 plan a picture bid auction</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>picture bid, trump = <span class="spades black">&#x2660;</span></mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"></td>
@@ -5480,12 +5471,9 @@ in the following auction.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">min reverse, no help in <span class="spades black">&#x2660;</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-top"><p class="tableblock">4<span class="spades black">&#x2660;</span></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4<span class="spades black">&#x2660;</span></span></p></td>
 <td class="tableblock halign-center valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Shelley wants this as KC making it impossible
-               for opener to reverse into a 3-card hard-suit
-	       when also holding three spades. <em>e.g.</em>&thinsp;
-	       <span class="lightgrey-bg"><span class="spades black">&#x2660;</span>AQ2 <span class="hearts red">&#x2665;</span>KQ3 <span class="diamonds red">&#x2666;</span>74 <span class="clubs black">&#x2663;</span>AQJT5</span>.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>picture bid, trump = <span class="spades black">&#x2660;</span></mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">4NT</span></p></td>
@@ -5494,6 +5482,17 @@ in the following auction.</p>
 </tr>
 </tbody>
 </table>
+<div class="paragraph">
+<p>As in the 2/1 auction, responder must bid something else before
+bidding 4<span class="spades black">&#x2660;</span> as kickback for hearts.</p>
+</div>
+<div class="paragraph">
+<p>For the picture jump, opener might hold
+<span class="lightgrey-bg"><span class="spades black">&#x2660;</span>AQ2 <span class="hearts red">&#x2665;</span>KQ3 <span class="diamonds red">&#x2666;</span>74 <span class="clubs black">&#x2663;</span>AQJT5</span>.
+The reverse into the three-card heart-suit was safe because a heart
+raise by responder indicates five spades and extras (no reverse
+Flannery).</p>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -7604,7 +7603,7 @@ bid.</p>
 </tbody>
 </table>
 <div class="sect3">
-<h4 id="_exception_2">29.3.1. Exception</h4>
+<h4 id="_exception">29.3.1. Exception</h4>
 <div class="paragraph">
 <p>When advancer guarantees <em>four-card support</em>&thinsp; and forces the
 bidding to the three level, then further strain-investigation is
@@ -8993,7 +8992,7 @@ not a singleton or void (excluded by negative)</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_exceptions">37.2.3. Exceptions</h4>
+<h4 id="_exceptions_2">37.2.3. Exceptions</h4>
 <div class="ulist">
 <ul>
 <li>
