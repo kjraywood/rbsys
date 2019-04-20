@@ -93,23 +93,25 @@ ensure that responder's initial plan doesn't get scuttled.
 
 == General Principles for RKC
 
-Four of a previously bid major is natural.
-However, we use 4S as kickback for hearts when we have agreed hearts
-even if spades were bid previously and it when it is not a picture jump.
+#Natural bidding takes priority over asking for key-cards.#
+
+_I.e.,_{thinsp} we don't sacrifice useful natural bids for uncommon
+situations such as asking for key-cards without first agreeing trump.
+This is based on frequency and usefuless which are ovewhelmingly in favour
+natural bids.
 
 === Set trumps first
 
-If it's possible to set a suit as trump with an unambiguous
-below-game forcing-bid, then that route must be taken to ask for
-key-cards in that suit.
+If it's possible to set a suit as trump with an unambiguous below-game
+forcing-bid, then that route must be taken to ask for key-cards in
+that suit.
 
 ==== Exceptions
 
-In the following auction, responder does not have a way to set
-hearts as trump below game.
+In the following auction, responder does not have a way to set hearts
+as trump below game while responder does have a natural and forcing 3S
+available.
 Therefore, we define 4S as kickback.
-Responder has a forcing 3S available and can use that as a way to get
-to 4S.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -123,8 +125,8 @@ to 4S.
 
 |===
 
-The following auction seems similar, but responder can set hearts
-as trump unambiguously with a splinter which could possibly be fake.
+The following auction seems similar, but responder can set hearts as
+trump unambiguously with a splinter which could possibly be fake.
 However, to avoid accidents, we define 4S as kicknack in this auction too.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -142,6 +144,9 @@ However, to avoid accidents, we define 4S as kicknack in this auction too.
 |===
 
 === Picture bids have priority over KC asking
+
+Picture bids are just well defined natural bids, so it's normal for
+them to have priority over a KC-asking bid.
 
 ==== Two-over-one Auctions
 
@@ -195,6 +200,7 @@ A subsequent 4S (kickback) would be two-suit KC.
 
 In suit-only auctions, asking for key-cards in your own suit
 (selfwood) is often not possible.
+This is a consequence of natural bids having priority.
 
 4NT can be used as selfwood when: +
 @ you have bid only one suit +
@@ -252,29 +258,6 @@ Responder has bid only one suit hence 4NT is selfwood in that suit.
 !4NT! :
 :===
 |===
-
-=== Auctions without suit agreement
-
-==== After a jump rebid of hearts
-
-When opener jump rebids hearts, then it's not possible to agree hearts
-below game.
-Therefore, #it is not possible to use kickback because it requires suit agreement.#
-
-So 4NT is KC asking in hearts.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 3H |  ?    | |
-|    |  3S   | | forcing, [nobr]#trumps not agreed#
-|    | 4C,4D | | natural
-|    |  4S   | | to play
-|    | !4NT! | | #KC for {H}#
-|===
-
-Note that opener's hand strength is fairly tightly defined so a natural
-4NT is not needed.
 
 == Minorwood
 
