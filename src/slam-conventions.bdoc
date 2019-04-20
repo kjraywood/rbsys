@@ -4,97 +4,99 @@
 
 // == Slam Tries and Control Bids
 
-== Picture Jumps
+// == Picture Jumps
 
-[#picjumps-2over1]
-=== Two-over-one auctions
+// [#picjumps-2over1]
+// === Two-over-one auctions
 
-:picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
-:picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
-:picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
+// :picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
+// :picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
+// :picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
 
-{reference} _Fast Arrival vs. Picture Bidding,_
-__ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
-__ {nbsp}{ndash}{nbsp} Andrew Gumperz
+// {reference} _Fast Arrival vs. Picture Bidding,_
+// __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
+// __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
-Responder may initially conceal 4-card support for opener's major when
-intending to make a picture jump to game on the second round.
-It is highly unlikely that the auction will be too high for responder
-to jump on the second round.
+// Responder may initially conceal 4-card support for opener's major when
+// intending to make a picture jump to game on the second round.
+// It is highly unlikely that the auction will be too high for responder
+// to jump on the second round.
 
-We do not conceal 4-card support in other cases because a jump to 3M
-may not be available on the 2nd-round (_e.g._{thinsp} 2M or 2NT rebid
-by opener).
-So, contrary to the recommendation of Gumperz (part 1, page 2, hand
-2), the 2nd-round jump to 3M shows strong slam-interest but !denies!
-4-card support.
+// We do not conceal 4-card support in other cases because a jump to 3M
+// may not be available on the 2nd-round (_e.g._{thinsp} 2M or 2NT rebid
+// by opener).
+// So, contrary to the recommendation of Gumperz (part 1, page 2, hand
+// 2), the 2nd-round jump to 3M shows strong slam-interest but !denies!
+// 4-card support.
 
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S | 2D  | |
-| 2H | ?   | |
-|    | 3S  | | strong slam-interest, 3*{S}
-|    | 4S  | | picture jump
-|===
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1S | 2D  | |
+// | 2H | ?   | |
+// |    | 3S  | | strong slam-interest, 3*{S}
+// |    | 4S  | | picture jump
+// |===
 
-NOTE: Picture jumps have priority over kickback and minorwood to
-ensure that responder's initial plan doesn't get scuttled.
+// NOTE: Picture jumps have priority over kickback and minorwood to
+// ensure that responder's initial plan doesn't get scuttled.
 
-[#picjumps-reverse]
-=== Reverse auctions
+// [#picjumps-reverse]
+// === Reverse auctions
 
-A single-jump in opener's first suit is a picture jump; _not a splinter_.
+// A single-jump in opener's first suit is a picture jump; _not a splinter_.
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-!===
-! 1D ! 1S
-! 2H ! 4D
-!===
-|
-[stripes=odd]
-!===
-! {S} AQT64 +
-  {H} 53 +
-  {D} KQ87 +
-  {C} J2
-!===
-|===
+// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+// |===
+// |
+// [grid="none",stripes=odd]
+// !===
+// ! 1D ! 1S
+// ! 2H ! 4D
+// !===
+// |
+// [stripes=odd]
+// !===
+// ! {S} AQT64 +
+//   {H} 53 +
+//   {D} KQ87 +
+//   {C} J2
+// !===
+// |===
 
-[NOTE]
-====
-A double-jump after a non-reverse is a splinter.
-_e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
-====
+// [NOTE]
+// ====
+// A double-jump after a non-reverse is a splinter.
+// _e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
+// ====
 
-The picture bid can also be in opener's second suit, and five-card
-support is needed in case opener reversed into a three-card suit.
+// The picture bid can also be in opener's second suit, and five-card
+// support is needed in case opener reversed into a three-card suit.
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
- 1C : 1S
- 2D : 4D
-:===
-|
-[stripes=odd]
-!===
-! {S} AK974 +
-  {H} 63 +
-  {D} KJ983 +
-  {C} 5
-!===
-|===
+// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+// |===
+// |
+// [grid="none",stripes=odd]
+// :===
+//  1C : 1S
+//  2D : 4D
+// :===
+// |
+// [stripes=odd]
+// !===
+// ! {S} AK974 +
+//   {H} 63 +
+//   {D} KJ983 +
+//   {C} 5
+// !===
+// |===
 
 == General Principles for RKC
 
 Four of a previously bid major is natural.
 However, we use 4S as kickback for hearts when we have agreed hearts
-and it when it is not a picture jump.
+even if spades were bid previously.
+
+// and it when it is not a picture jump.
 
 === Set trumps first
 
@@ -111,8 +113,9 @@ key-cards in that suit.
 |    |  3S   | | forcing, at most a one-loser suit
 |    | !4C!  | | splinter [nobr]##(#could be fake#)##
 |    |  4H   | | to play
-|    |  4S   | | to play
-|    | !4NT! | | #natural inv.#
+|    | !4S!  | | Shelley want this as kickback even though
+                 there's an unambiguous way to set trump
+|    |  4NT  | | natural inv.
            [nobr]#(forcing-2NT unavailable)#
 |===
 
@@ -120,10 +123,23 @@ In the above auction, responder can set hearts as trump with a
 splinter, so cannot ask for KC on this round.
 The splinter could faked just to set trump for kickback.
 
-=== Picture Jumps have priority over KC asking
+==== Exception
 
-Even after suit agreement, it may be necessary to delay asking for
-key-cards.
+We make an exception to the rule about setting trump first
+in the following auction.
+
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 3H |  ?    | |
+|    |  3S   | | natural forcing
+|    |  3NT  | | natural, NF
+|    | 4C,4D | | slam try, trump = {H}
+|    | !4S!  | | Kickback
+|    | !4NT! | | self-wood ??
+
+|===
 
 ==== Two-over-one Auctions
 
@@ -133,17 +149,12 @@ key-cards.
 | 3H |  ?    | |
 |    | !3S!  | | {S}-card (A, K or Q), [nobr]#trump = {H}#
 |    |  3NT  | | natural, NF, COG, 
-        [nobr]#(neither has shown 5-4{orMore})#
 |    | 4C,4D | | slam try, trump = {H}
-|    |  4S   | | #picture bid#, trump = {S}
+|    |  !4S! | | Shelley wants this as KC too,
+                 making it impossible for responder to
+		 plan a picture bid auction
 |    | !4NT! | | #exclusion#, {S}-void, trump = {H}
 |===
-
-To use 4S as kickback for {H} in the above auction, responder must bid
-something else first.
-It should be honest in case opener takes control;
-_e.g._{thinsp} a fake 3S might induce opener to think that spades are
-solid, and hence convert to 6NT or 7NT.
 
 ==== Reverse Auctions
 
@@ -157,18 +168,19 @@ solid, and hence convert to 6NT or 7NT.
 |  4C   |    | serious slam try
 |  4D   |    | serious slam try ({S} shortness)
 |  4H   |    | min reverse, no help in {S}
-|  4S   |    | #picture jump#, trump = {S}
+|  4S   |    | Shelley wants this as KC making it impossible
+               for opener to reverse into a 3-card hard-suit
+	       when also holding three spades. _e.g._{thinsp}
+	       [lightgrey-bg]#{S}AQ2 {H}KQ3 {D}74 {C}AQJT5#.
 | !4NT! |    | #exclusion#, {S}-void, trump = {H}
 |===
 
-As in the 2/1 auction, responder must bid something else before
-bidding 4S as kickback for hearts.
+// As in the 2/1 auction, responder must bid something else before
+// bidding 4S as kickback for hearts.
 
-For the picture jump, opener might hold
-[lightgrey-bg]#{S}AQ2 {H}KQ3 {D}74 {C}AQJT5#.
-The reverse into the three-card heart-suit was safe because a heart
-raise by responder indicates five spades and extras (no reverse
-Flannery).
+// The reverse into the three-card heart-suit was safe because a heart
+// raise by responder indicates five spades and extras (no reverse
+// Flannery).
 
 === Majors have priority over minors
 
