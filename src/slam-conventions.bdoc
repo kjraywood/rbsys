@@ -127,7 +127,7 @@ Therefore, we define 4S as kickback.
 
 The following auction seems similar, but responder can set hearts as
 trump unambiguously with a splinter which could possibly be fake.
-However, to avoid accidents, we define 4S as kicknack in this auction too.
+However, to avoid accidents, we define 4S as kickback in this auction too.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
