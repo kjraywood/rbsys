@@ -50,27 +50,41 @@ shows both majors but does not promise a good hand.
 
 == Responsive doubles
 
-[.xemph.green]#__New Feb 17, 2019__#
-
 === Vs Raised Minor
 
-A responsive-double of a raised minor shows both majors and the values to compete at that level
+A responsive-double of a raised minor shows both majors and the values
+to compete at that level
 
-[lightgrey-box]#(1{D}){emsp}X{emsp}(2{D}){emsp}!!X!!{emsp}:{emsp}both majors, 8{OrMore}#
-[lightgrey-box]#(1{D}){emsp}X{emsp}(3{D}){emsp}!!X!!{emsp}:{emsp}both majors, 10{OrMore}#
+[lightgrey-box]#(1{D}){emsp}X{emsp}(2{D}){emsp}!!X!!{emsp}:{emsp}both majors,
+                8{OrMore}#
+[lightgrey-box]#(1{D}){emsp}X{emsp}(3{D}){emsp}!!X!!{emsp}:{emsp}both majors,
+                10{OrMore}#
 
 === Vs Raised Major
 
 ALERT: Unusual treatment
 
-A responsive-double of a raised major shows #four in the other major#.
+A responsive-double of a raised major shows #four in the other major#
+
+2NT shows both minors.
 
 [%autowidth,cols="5*^,<",grid="rows"]
 |===
 | (1H) | X | (2H) | ?   | |
-|      |   |      | X   | | 4*{S}, 8{OrMore}
-|      |   |      | 2S  | | 5{orMore}{xtimes}{S}, 6{ndash}9
-|      |   |      | 2NT | | Lebensohl
+|      |   |      | X   | | #4*{S}, 6{OrMore}#
+|      |   |      | 2S  | | 5{orMore}{xtimes}{S}, 5{ndash}8
+|      |   |      | 2NT | | both minors
+|      |   |      | 3S  | | 5{orMore}{xtimes}{S}, 9{ndash}11{orLess}
+|===
+
+[%autowidth,cols="4*^,<",grid="rows"]
+|===
+| (1S) |  X  | (2S) | X*  | {emsp} *4*{H}, 8{OrMore}
+| (P)  |  ?  |      |     |
+|      | 3H  |      |     | {H}-fit, min
+|      | 3D  |      |     | 5*{D}
+|      | 3C  |      |     | 5*{C}
+|      | 2NT |      |     | both minors
 |===
 
 == NoTrump Overcalls

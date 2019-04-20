@@ -19,69 +19,37 @@ Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
 
 == 2NT in competitive auctions
 
-=== Lebensohl after take-out and negative doubles
+=== Lebensohl
 
-Used when the auction is at the 2-level and there is a need to
-distinguish invitational from weak or competitive hands when bidding
-at the three level.
+In addition to the original use to counter interference over our 1NT
+opening, we use Lebensohl in the following situations.
 
-Applies in following auctions
+==== After a double of a weak two
 
-==== After a double (direct or balancing) of a weak two
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-| (2S) | Dbl | (P)  | ?
-|===
+Applies when the double was in direct or balancing seat
 
 [%autowidth,cols="4*^",grid="none"]
 |===
-|     |     | (2S) | P
-| (P) | Dbl | (P)  | ?
+| (2S) | X | (P)  | ?
 |===
-
-==== After a negative double of a 2-level weak jump-overcall
 
 [%autowidth,cols="4*^",grid="none"]
 |===
-| 1D | (2S) | Dbl | (P)
-| ?  3+|
+|     |   | (2S) | P
+| (P) | X | (P)  | ?
 |===
 
-==== After a double of 1-level opening that is raised to the 2-level
+==== After a double of a 2-level overcall
 
-[%autowidth,cols="4*^",grid="none"]
+Applies when: +
+@ 2-level overcall was a #jump or non-jump#
+@ double was in direct or balancing seat
+
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-| (1S) | Dbl | (2S) | ?
+| 1D | (2S) | X | (P)
+| ?  |      |   |
 |===
-
-==== After a negative double of 1-level overcall that is raised to the 2-level
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-| 1D | (1S) | Dbl | (2S)
-| ?  3+|
-|===
-
-****
-.Consider also
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-| 1D  | (1H) | 1S {ensp} (2H)
-| ?   |      |
-| 2S  |      | min raise
-| 2NT |      | Leb., competitive in {C} or {D}
-| 3m  |      | extras
-|===
-
-This is a form of Good-Bad 2NT by opener
-****
-
-[#not_leb_vs_two_level_overcall]
-==== Exception
-
-{warning} [xemph]#Leb. does NOT apply after neg. double of non-jump
-two-level overcall#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -89,18 +57,18 @@ two-level overcall#
 | ?   |      |    |
 | 2H  |      |    | default bid
 | 2S  |      |    | {S}-fit, min
-| 2NT |      |    | nat., not min
-| 3C  |      |    | nat., not min
+| 2NT |      |    | #Lebensohl#
+| 3C  |      |    | nat., extras
+| 3D  |      |    | nat., extras
 |===
 
-[NOTE]
-====
-A non-jump 2-level overcall is lower-ranking than opener's suit, so we
-use opener's 2M rebid as the default.  A natural 2NT is useful
-here.  In the above sequence, 3C by opener shows extras but is not GF.
-With values for game, opener must bid game or cue-bid; the latter just
-showing some good hand and usually denying four spade cards.
-====
+It is particularly important opposite a balancing double of
+a two level overcall.
+
+{reference}
+https://sites.google.com/site/psmartinsite/Home/bridge-articles/the-cooperative-pass[
+_The Cooperative Pass_]
+__ {nbsp}{ndash}{nbsp} Phillip Martin
 
 === Scrambling 2NT
 
@@ -202,11 +170,9 @@ weak hand with hearts, can use scrambling-2NT and follow with 3H.
 [NOTE]
 ====
 In the similar auction [lightgrey-bg]#(1S){hyph}Dbl{hyph}(2S){hyph}?#,
-scrambling-2NT is not needed because advancer is not forced to bid,
-and can use a responsive double to show moderate values with more than
-one place to play.
-So 2NT is Lebensohl, enabling advancer to distinguish competive
-from invitational single-suited hands.
+we use 2NT to show both minors.  It is not strictly scrambling-2NT
+because advancer is not forced to bid, but we use a responsive double
+to exactly four in the other major, so 2NT showing both minors is useful.
 ====
 
 == Doubling cue-bids
