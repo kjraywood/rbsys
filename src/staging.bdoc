@@ -227,50 +227,6 @@ When opener has denied a stopper, #reverse-transfers apply at the
 | !4D!  | 6+<| 5*{H},{thinsp} reverse transfer
 |===
 
-== Unified Lebensohl
-
-Full system: +
-https://bridgewinners.com/article/view/lebensohl-an-optimized-approach[^]
-
-=== Overview
-
-@ fast 3m = inv
-@ fast 3oM = inv
-@ neg. X then 3oM = Forcing (5*oM) +
-@ cue-bid asks for stopper
-@ 3NT shows a stopper +
-@ slow cue-bid{or}3NT shows 4*oM
-@ fast cue-bid{or}3NT denies 4*oM
-
-[%autowidth,cols="4*^,2*<",grid="none"]
-|===
-| (2S) | Dble | (P) | ?   | |
-|      |      |     | 2NT | | Lebensohl
-|      |      |     | 3m  | | natural, positive
-|      |      |     | 3H  | | five-card suit, inv
-|      |      |     | 3S  | | no stopper, not 4*{H}
-|      |      |     | 3NT | | to play
-|===
-
-[%autowidth,cols="4*^,2*<",grid="none"]
-|===
-| (2S) | Dble | (P) | 2NT | |
-| (P)  | 3C   |     | ?   | |
-|      |      |     2+<| P,3D,3H <| to play
-|      |      |     | 3S  | | no stopper, 4*{H}
-|      |      |     | 3NT | | stopper & 4*{H}
-|===
-
-Lebensohl 2NT, followed by bidding a suit _above three of their
-suit_{thinsp} is strong and _forcing if below game._
-
-[%autowidth,cols="4*^,2*<",grid="none"]
-|===
-| (2H) | Dble | (P) | 2NT | |
-| (P)  | 3C   |     | ?   | |
-|      |      |     | 3D  | | to play
-|      |      |     | 3S  | | forcing, 5*{S}
-|===
 
 
 // == Alternate scheme for 1D-2C

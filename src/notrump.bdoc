@@ -397,8 +397,8 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 @ System ON
 @ double of 2C = Stayman
 
-We can pass to discover an unspecified suit, then use a take-out
-double or Lebensohl.
+We can pass to discover an unspecified suit, then use our normal agreements
+vs interference (take-out double, Unified Lebensohl).
 
 ==== Vs 2NT (minors)
 
@@ -411,7 +411,7 @@ _ #(except Michaels vs 5-cd suit)# +
 @ #3m = inv.#
 @ 3M = forcing
 @ 3{thinsp}__cue-bid__ = Stayman, no stopper
-@ 2NT = Lebensohl
+@ 2NT =  <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 
 ==== Negative double
 

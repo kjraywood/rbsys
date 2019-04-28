@@ -19,37 +19,66 @@ Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
 
 == 2NT in competitive auctions
 
-=== Lebensohl
+[#unified-leb]
+=== Unified Lebensohl
 
-In addition to the original use to counter interference over our 1NT
-opening, we use Lebensohl in the following situations.
+Applies when: +
+@ opps overcall our 1NT opening
+_ with 2D, 2H or 2S +
+@ we make a take-out double of their
+_ weak-two (direct or balancing)
 
-==== After a double of a weak two
+Full system: +
+https://bridgewinners.com/article/view/lebensohl-an-optimized-approach[^]
 
-Applies when the double was in direct or balancing seat
+==== Overview
 
-[%autowidth,cols="4*^",grid="none"]
+@ fast 3m = inv
+@ fast 3oM = inv
+@ neg. X then 3oM = Forcing (5*oM) +
+@ cue-bid asks for stopper
+@ 3NT shows a stopper +
+@ slow cue-bid{or}3NT shows 4*oM
+@ fast cue-bid{or}3NT denies 4*oM
+
+[%autowidth,cols="4*^,2*<",grid="none"]
 |===
-| (2S) | X | (P)  | ?
+| (2S) | Dble | (P) | ?   | |
+|      |      |     | 2NT | | Lebensohl
+|      |      |     | 3m  | | natural, positive
+|      |      |     | 3H  | | five-card suit, inv
+|      |      |     | 3S  | | no stopper, not 4*{H}
+|      |      |     | 3NT | | to play
 |===
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="4*^,2*<",grid="none"]
 |===
-|     |   | (2S) | P
-| (P) | X | (P)  | ?
+| (2S) | Dble | (P) | 2NT | |
+| (P)  | 3C   |     | ?   | |
+|      |      |     2+<| P,3D,3H <| to play
+|      |      |     | 3S  | | no stopper, 4*{H}
+|      |      |     | 3NT | | stopper & 4*{H}
 |===
 
-==== After a double of a 2-level overcall
+Lebensohl 2NT, followed by bidding a suit _above three of their
+suit_{thinsp} is strong and _forcing if below game._
+
+[%autowidth,cols="4*^,2*<",grid="none"]
+|===
+| (2H) | Dble | (P) | 2NT | |
+| (P)  | 3C   |     | ?   | |
+|      |      |     | 3D  | | to play
+|      |      |     | 3S  | | forcing, 5*{S}
+|===
+
+=== Simple Lebensohl after double of their 2-level overcall
+
+Simple means that we just use Lebensohl to distinguish between extras
+and no-extras when forced to bid at the three-level.
 
 Applies when: +
 @ 2-level overcall was a #jump or non-jump#
 @ double was in direct or balancing seat
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1D | (2S) | X | (P)
-| ?  |      |   |
-|===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -64,6 +93,14 @@ Applies when: +
 
 It is particularly important opposite a balancing double of
 a two level overcall.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1D  | (2S) | P   | (P) |
+| X   | (P)  | ?   |     |
+|     |      | 2NT |     | #Lebensohl#
+|     |      | _other_ | | nat., extras
+|===
 
 {reference}
 https://sites.google.com/site/psmartinsite/Home/bridge-articles/the-cooperative-pass[
