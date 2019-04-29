@@ -33,13 +33,14 @@ https://bridgewinners.com/article/view/lebensohl-an-optimized-approach[^]
 
 ==== Overview
 
-@ fast 3m = inv
-@ fast 3oM = inv
+@ 3__unbid-suit__ = inv
 @ neg. X then 3oM = Forcing (5*oM) +
 @ cue-bid asks for stopper
 @ 3NT shows a stopper +
-@ slow cue-bid{or}3NT shows 4*oM
-@ fast cue-bid{or}3NT denies 4*oM
+@ direct cue-bid or 3NT (fast)
+_ denies 4*oM +
+@ 2NT then cue-bid or 3NT (slow)
+_ shows 4*oM
 
 [%autowidth,cols="4*^,2*<",grid="none"]
 |===
