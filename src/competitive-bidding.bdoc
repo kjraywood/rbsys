@@ -33,7 +33,10 @@ https://bridgewinners.com/article/view/lebensohl-an-optimized-approach[^]
 
 ==== Overview
 
-@ 3__unbid-suit__ = inv
+:lab: &#x27ea;
+:rab: &#x27eb;
+
+@ 3{lab}unbid-suit{rab} = inv
 @ neg. X then 3oM = Forcing (5*oM) +
 @ cue-bid asks for stopper
 @ 3NT shows a stopper +
