@@ -402,29 +402,43 @@ vs interference (take-out double, Unified Lebensohl).
 
 ==== Vs 2NT (minors)
 
-{simto} _system on_ but since we don't need a bid to show minors 
+{simto} _system on_ but since we don't need a bid to show minors then
+3S is used to show at least 5-5 majors and GF.  This can help if the
+opps preempt further.
 
 @ 3C = Stayman
 @ 3D, 3H = Transfers
+@ 3S = at least 5-5 majors, GF
+@ 3NT = to play
+@ 4C = Gerber
+@ 4D, 4H = Texas transfers
 
 ==== Vs 2D, 2H or 2S (any)
 
 Double = negative +
+@ take-out of bid suit
+_ #as though the interference was natural# +
+@ creates force to 2{S}
+@@ subsequent doubles are penalty
+
 {reference}
 https://sites.google.com/site/psmartinsite/Home/bridge-articles/countering-notrump-interference[
 _Countering Notrump Interference_]
 __ {nbsp}{ndash}{nbsp} Phillip Martin
 
 2M is to play except when the opps have promised at least five in the
-suit (_e.g._{thinsp} they play transfers vs our 1NT); then it would be
+suit (_e.g._{thinsp} they play transfers vs our 1NT); then it is
 Michaels.
 
 Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 
-@ take-out of bid suit
-_ #as though the interference was natural# +
-@ creates force to 2{S}
-@@ subsequent doubles are penalty
+// If the interference shows two known suits, we do not try to sort out
+// stoppers in both suits.  We let them guess which suit to lead.
+
+// If the interference shows a known 5-card suit and an unknown second
+// suit (typically known 5-card major and unknown minor), then bidding
+// that suit is a stopper-asking cue-bid.
+// However, 3NT by responder neither confirms nor denies a stopper.
 
 == 2NT Opening
 
