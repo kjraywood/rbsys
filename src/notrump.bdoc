@@ -402,23 +402,24 @@ vs interference (take-out double, Unified Lebensohl).
 
 ==== Vs 2NT (minors)
 
-We play our 2NT system
+{simto} _system on_ but since we don't need a bid to show minors 
+
+@ 3C = Stayman
+@ 3D, 3H = Transfers
 
 ==== Vs 2D, 2H or 2S (any)
 
-@ 2M = to play
-_ #(except Michaels vs 5-cd suit)# +
-@ #3m = inv.#
-@ 3M = forcing
-@ 3{thinsp}__cue-bid__ = Stayman, no stopper
-@ 2NT =  <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
-
-==== Negative double
-
+Double = negative +
 {reference}
 https://sites.google.com/site/psmartinsite/Home/bridge-articles/countering-notrump-interference[
 _Countering Notrump Interference_]
 __ {nbsp}{ndash}{nbsp} Phillip Martin
+
+2M is to play except when the opps have promised at least five in the
+suit (_e.g._{thinsp} they play transfers vs our 1NT); then it would be
+Michaels.
+
+Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 
 @ take-out of bid suit
 _ #as though the interference was natural# +
