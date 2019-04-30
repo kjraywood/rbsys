@@ -400,19 +400,6 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 We can pass to discover an unspecified suit, then use our normal agreements
 vs interference (take-out double, Unified Lebensohl).
 
-==== Vs 2NT (minors)
-
-{simto} _system on_ but since we don't need a bid to show minors then
-3S is used to show at least 5-5 majors and GF.  This can help if the
-opps preempt further.
-
-@ 3C = Stayman
-@ 3D, 3H = Transfers
-@ 3S = at least 5-5 majors, GF
-@ 3NT = to play
-@ 4C = Gerber
-@ 4D, 4H = Texas transfers
-
 ==== Vs 2D, 2H or 2S (any)
 
 Double = negative +
@@ -438,6 +425,41 @@ Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 // suit (typically known 5-card major and unknown minor), then bidding
 // that suit is a stopper-asking cue-bid.
 // However, 3NT by responder neither confirms nor denies a stopper.
+
+==== Vs 2NT (minors)
+
+Similar to our defence to a 2NT opening.
+
+@ pass = nothing or penalty of both suits
+@@ subsequent double = penalty +
+@ X = values
+@@ subsequent double by either = penalty +
+@ 3C = both majors weak or strong
+@ 3D = both majors medium
+@ 3H, 3S = competitive (NF, mild inv.)
+@ 3NT = to play +
+@ 4C, 4D = Slammish in corresponding major
+_ ({simto}Namyats) +
+@ 4H, 4S = to play
+
+==== Vs 3m
+
+Similar to our defence to natural 2m or 3m openings.
+
+@ X = negative
+@ 3{lab}unbid suit{rab} = natural, [orange-bg]#F or NF ??#
+@ 3NT = to play
+@ 4C = om + unknown M
+@ 4D = majors
+@ 4H, 4S = to play
+
+==== Vs 3M
+
+@ X = negative
+@ 3S (M={H}) = natural, [orange-bg]#F or NF ??#
+@ 3NT = to play
+@ 4m = m + oM
+@ 4oM = to play
 
 == 2NT Opening
 
