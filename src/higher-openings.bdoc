@@ -61,20 +61,45 @@ Following a 2^nd^-round neg., we can stop in 3M or 4m.
 
 === Four-card major & long diamonds
 
+In other situations when there are two possible trump suits, and two
+bids available to set the trump suit, we use the following:
+
+* If one of the available bids is one of the possible trump suits,
+  then bidding that suit is natural, and a new suit sets the other as
+  trump. +
+  _e.g._{thinsp} Second-suit slam-try after a major-suit raise.
+
+* If neither of the two available bids is a possible trump suit, then
+  we use lower-for-lower. +
+  _e.g._{thinsp} [nobr]#1NT-3{D} = both minors, GF#
+   [nobr]#{thinsp}{tribull} 3H{thinsp}=>{thinsp}{C},  3S{thinsp}=>{thinsp}{D}#
+
+So this situation is an instance of the first case with diamonds as
+the primary suit.
+
 [%autowidth,cols="3*^,<",grid="none]
 |===
 | !2C! | !2D!        | |
 | !3M! |  ?          | | 3M = 4*M, 5{OrMore}{xtimes}{D}, GF
 |      |  3S         | | (M={H}){ensp} natural, 6{OrMore}{xtimes}{S}
 |      |  3NT        | | to play, no help in opener's suits
-|      | !4C!        | | #agrees {D}#, pos.
-|      | !4D!        | | #agrees M#, pos.
+|      | !4C!        | | #agrees M#, pos.
+|      | !4D!        | | #agrees  {D}#, pos.
+|      | 4H          | | (M={S}){ensp} natural, 6{OrMore}{xtimes}{H}
 |      | 4M,5D       | | sign-off, neg.
 |===
 
-// |     | 4H (M={S}) | agrees {S} with short {D}
+Using 4C to set {H} as trump, allows opener to make a
+_last-train_{thinsp} slam-try.
 
-<<staging.adoc#fix-trump-agreement-problem,Why Kel thinks the scheme to set trump is misguided>>
+[%autowidth,cols="3*^,<",grid="none]
+|===
+| 2C   |  2D  | |
+| !3H! | !4C! | | 3H = 4*{H}, 5{OrMore}{xtimes}{D}
+|  ?   |      | | 4C => {H}, non-bust
+| !4D! |   2+<| last-train slam-try
+|  4H  |   2+<| minimum
+|===
 
 === Interference
 

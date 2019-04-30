@@ -83,56 +83,6 @@ Mexican 2D opening = bal. 18-19 +
 @ [lightgrey-bg]#1m {ndash} 1M{semicolon} 2NT# = strong m, 3*M
 @ [lightgrey-bg]#1M {ndash} 1NT{semicolon} 2NT# = GF
 
-[#fix-trump-agreement-problem]
-== Setting trump after 2C-2D{semicolon}3M
-
-Our current (lower-for-lower) scheme is
-
-[%autowidth,cols="^,2*<",grid="none]
-|===
-| 2C   | 2D          |
-| !3M! | {ensp}?     | 3M = 4*M, 5{OrMore}{xtimes}{D}
-|      | !4C!        | #agrees {D}#, pos.
-|      | !4D!        | #agrees M#, pos.
-|      | 4M,5D       | sign-off, neg.
-|===
-
-In other situations when there are two possible trump suits, and two
-bids available to set the trump suit, we use the following:
-
-* If one of the available bids is one of the possible trump suits,
-  then bidding that suit is natural, and a new suit sets the other as
-  trump. +
-  _e.g._{thinsp} Second-suit slam-try after a major-suit raise.
-
-* If neither of the two available bids is a possible trump suit, then
-  we use lower-for-lower. +
-  _e.g._{thinsp} [nobr]#1NT-3{D} = both minors, GF#
-   [nobr]#{thinsp}{tribull} 3H{thinsp}=>{thinsp}{C},  3S{thinsp}=>{thinsp}{D}#
-
-Our scheme after 2C-2D{semicolon}3M is inconsistent with the above
-beause it meets the conditions of the first point, but we use the
-encoding (lower-for-lower) of the second point. Hence it is a memory strain.
-
-Our scheme is also has a problem when opener's major is hearts.  If
-responder shows a fit and a postive, then it is useful for opener to
-have a bid that shows slam interest if responder has something more
-than already shown.  This is commonly known as _last train_{thinsp}.
-It allows a return to 4H to indicate that responder should only bid on
-with significant extras.
-
-Using 4C to agree the major, and 4D to agree diamonds, would fix both
-problems.
-
-[%autowidth,cols="3*^,<",grid="none]
-|===
-| 2C   |  2D  | |
-| !3H! | !4C! | | 3H = 4*{H}, 5{OrMore}{xtimes}{D}
-|  ?   |      | | 4C => {H}, non-bust
-| !4D! |   2+<| last-train slam-try
-|  4H  |   2+<| minimum
-|===
-
 == Romex Stayman
 
 [%autowidth,cols="2*^,<",grid="none"]
