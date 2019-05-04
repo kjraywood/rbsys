@@ -364,6 +364,14 @@ This is minorwood by a hand that may have enough extras for slam.
 :===
 |===
 
+==== Following a transfer to a minor
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1NT           | !2NT! | | transfer to {D}
+| 3C,{thinsp}3D | !4D!  | | minorwood
+|===
+
 ==== By limited hand when accepting slam invitation
 
 A limited hand can use minorwood when it has been invited to slam;
@@ -398,64 +406,6 @@ usually via a splinter.
 |===
 
 {tab}{tab}{tab} 3S = splinter, 4S = 2 w/o
-
-==== Unlimited hand pulls 3NT to agreed minor
-
-If the #minor has already been agreed# then 4m by an unlimited hand is
-minorwood.
-
-Usually the 4m bidder was unable to ask for KCs the previous round
-because the suit had not yet been agreed.
-
-[%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",cols="2*^",stripes=odd]
-:===
-  1S  :  2D
-  3D  :  3NT
- !4D! :
-:===
-|
-[grid="none",cols="2*^",stripes=odd]
-:===
- 1C  :  1H
- 2C  :  3C
- 3NT : !4C!
-:===
-|
-[grid="none",cols="2*^",stripes=odd]
-:===
-  1C  :  1S
-  2H  :  3C
-  3NT : !4C!
-:===
-|===
-
-// |===
-// |  1S  | 2D
-// | !3H! | 3NT
-// | 4D
-// |===
-
-==== Following a transfer to a minor
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1NT           | !2NT! | | transfer to {D}
-| 3C,{thinsp}3D | !4D!  | |
-|===
-
-==== After a GF cue-bid
-
-We treat this the same as the 3-level GF-agreement sequences; hence
-minorwood is on.
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-| 1D   | (2S) |  3S | (P)
-| !4D! |      |     |
-|===
 
 === Three-level non-agreement
 
@@ -575,6 +525,105 @@ non-agreement except that the bid is not a jump.
   3C  : 3D
   4D  : !4S!
 :===
+|===
+
+== Optional minorwood
+
+Applies when: +
+@ we are in a forcing auction
+@ either player may have extras
+@ the auction is already above 3m
+
+Responses to 4m = optional minorwood: +
+@ 4m+1 = kickback
+_ (asking for KC) +
+@ shows KCs beginning at 4m+2
+_ (no extras)
+
+=== Following a new-suit slam try
+
+[%autowidth,cols="2*^",grid="none"]
+|===
+|  1H  | 2D
+|  3D  | 3S
+| !4D! |
+|===
+
+Opener may want to take control but may also have no other good bid.
+
+=== Trump is set between 3m and 4m
+
+==== Splinter
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1S   |  2D  | |
+| !3H!* | !4D! | | * splinter
+|===
+
+==== GF cue-bid
+
+When the cue-bid is above three of opener's suit opener is forced and
+does not have an obvious default bid.
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| 1D   | (2S) |  3S | (P)
+| !4D! |      |     |
+|===
+
+=== Pulling 3NT to 4m
+
+Sometimes this is just making one more slam try and sometimes the 4m
+bidder was unable to ask for KCs the previous round.
+
+[%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",cols="2*^",stripes=odd]
+:===
+  1S  :  2D
+  3D  :  3NT
+ !4D! :
+:===
+|
+[grid="none",cols="2*^",stripes=odd]
+:===
+ 1C  :  1H
+ 2C  :  3C
+ 3NT : !4C!
+:===
+|
+[grid="none",cols="2*^",stripes=odd]
+:===
+  1C  :  1S
+  2H  :  3C
+  3NT : !4C!
+:===
+|===
+
+=== After 3-level rebid
+
+[orange-bg]#** Need agreement **#
+
+Either player may have extras.  
+
+[%autowidth,cols="3*<",grid=none]
+|===
+|  1S  | 2D |
+|  2H  | 3D |
+|  ?   |    |
+| !4C! 2+<| ace or singleton
+| !4D! 2+<| optional minorwood
+|===
+
+[%autowidth,cols="3*<",grid=none]
+|===
+|  1C  | 1D |
+|  1S  | 3D |
+|  ?   |    |
+| !3H! 2+<| ace or singleton
+| !4D! 2+<| optional minorwood
 |===
 
 [#blackwood-in-comp]
