@@ -437,7 +437,7 @@ It is the cheapest of: +
 :===
   1C  : 1D
   1H  : 3D
- !4H! :
+ !4S! :
 :===
 |===
 
@@ -452,7 +452,7 @@ It is the cheapest of: +
 |
 [grid="none",stripes=odd]
 :===
- 1S   : 3C
+  1S  : 3C
  !4D! :
 :===
 |===
@@ -600,30 +600,6 @@ bidder was unable to ask for KCs the previous round.
   2H  :  3C
   3NT : !4C!
 :===
-|===
-
-=== After 3-level rebid
-
-[orange-bg]#** Need agreement **#
-
-Either player may have extras.  
-
-[%autowidth,cols="3*<",grid=none]
-|===
-|  1S  | 2D |
-|  2H  | 3D |
-|  ?   |    |
-| !4C! 2+<| ace or singleton
-| !4D! 2+<| optional minorwood
-|===
-
-[%autowidth,cols="3*<",grid=none]
-|===
-|  1C  | 1D |
-|  1S  | 3D |
-|  ?   |    |
-| !3H! 2+<| ace or singleton
-| !4D! 2+<| optional minorwood
 |===
 
 [#blackwood-in-comp]
