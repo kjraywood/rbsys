@@ -614,16 +614,16 @@ If their four-level preempt follows a minor-suit opening or any
 [lightgrey-box]#(1{H}){emsp}1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
                                                minors#
 
-[%autowidth,cols="5*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-|      |      |      |  1D   | |
-| (1S) |  2H  | (4S) | !4NT! | | KC for {H}
+|      |  1D   | (1S) |  3H{thinsp}  | GF
+| (4S) | !4NT! |   2+<|  KC for {H}
 |===
 
-[%autowidth,cols="5*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-|     |      |      |  1D   | |
-| (P) | 1H   | (4S) | !4NT! | | take-out
+|      |  1D   | (P) | 1H  |
+| (4S) | !4NT! |  2+<| take-out
 |===
 
 == First-round ace-asking
