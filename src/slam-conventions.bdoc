@@ -553,19 +553,14 @@ Opener may want to take control but may also have no other good bid.
 
 === Trump is set between 3m and 4m
 
-==== Splinter
-
+.Splinter
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1S   |  2D  | |
 | !3H!* | !4D! | | * splinter
 |===
 
-==== GF cue-bid
-
-When the cue-bid is above three of opener's suit opener is forced and
-does not have an obvious default bid.
-
+.GF cue-bid
 [%autowidth,cols="4*^",grid="none"]
 |===
 | 1D   | (2S) |  3S | (P)
