@@ -106,29 +106,6 @@ If it's possible to set a suit as trump with an unambiguous below-game
 forcing-bid, then that route must be taken to ask for key-cards in
 that suit.
 
-==== Exceptions
-
-In the following auction, responder does not have a way to set hearts
-as trump below game while responder does have a natural and forcing 3S
-available.
-Therefore, we define 4S as kickback.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 3H |  ?    | |
-|    |  3S   | | natural forcing
-|    |  3NT  | | natural, NF
-|    | 4C,4D | | natural, F
-|    | !4S!  | | Kickback
-|    | !4NT! | | self-wood ??
-
-|===
-
-The following auction seems similar, but responder can set hearts as
-trump unambiguously with a splinter which could possibly be fake.
-However, to avoid accidents, we define 4S as kickback in this auction too.
-
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1H |  1S   | |
@@ -138,10 +115,47 @@ However, to avoid accidents, we define 4S as kickback in this auction too.
 |    |  3S   | | forcing, at most a one-loser suit
 |    | !4C!  | | splinter [nobr]##(#could be fake#)##
 |    |  4H   | | to play
-|    | !4S!  | | #kickback# .
+|    |  4S   | | to play
 |    |  4NT  | | natural inv.
            [nobr]#(forcing-2NT unavailable)#
 |===
+
+Responder can set hearts as trump unambiguously with a splinter, which
+could possibly be fake, so cannot ask for KC this round.
+
+=== When we cannot set trumps first
+
+If we get to the 3-level and do not have an unambiguous way to set
+trump, then kickback will be ON, provided that we have
+another way to make a natural bid in the suit of the KC ask.
+
+.Examples
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 3H |  ?    | |
+|    |  3S   | | natural forcing
+|    |  3NT  | | natural, NF
+|    | 4C,4D | | natural, F
+|    | !4S!  | | #Kickback#
+|    | !4NT! | | self-wood ?? +
+                 natural 4NT not needed??
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2C   | |
+| 2H |  3C   | |
+| 3H |  ?    | |
+|    |  3S   | | natural forcing
+|    |  3NT  | | natural, NF
+|    | !4S!  | | #Kickback#
+|    | 4NT   | | natural
+|===
+
+Responder cannot set hearts as trump below game but has a natural and
+forcing 3S available.
+Therefore, we define 4S as kickback.
 
 === Picture bids have priority over KC asking
 
