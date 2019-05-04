@@ -507,6 +507,29 @@ It is the cheapest of: +
 :===
 |===
 
+==== Exception when 4th suit is clubs
+
+@ we are at 3D
+@ have not agreed trumps
+@ there is no bid below 4NT available as KC
+
+then 4D is minorwood
+
+4C agrees {D} as trump then partner may use minorwood or bid 4M as an
+offer to play
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2H   | |
+| 3D |  ?    | |
+|    |  3S   | | natural forcing
+|    |  3NT  | | natural, NF
+|    | !4C!  | | #sets trump = {D}#
+                 [nobr]#{tribull} 4M = to play#
+|    | !4D!  | | #minorwood#
+|    | 4NT   | | natural
+|===
+
 === Four-level agreement
 
 When 4m is the first call that shows support for partner's minor
