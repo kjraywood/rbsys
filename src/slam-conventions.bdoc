@@ -336,6 +336,10 @@ above 3m, and notrump has not been bid.
 
 === Three-level agreement
 
+Applies when we agree the minor by bidding three in that suit.
+
+_i.e._{thinsp} we have not yet gone above 3m.
+
 ==== Four-minor directly after suit agreement
 
 This is minorwood by a hand that may have enough extras for slam.
@@ -372,41 +376,6 @@ This is minorwood by a hand that may have enough extras for slam.
 | 3C,{thinsp}3D | !4D!  | | minorwood
 |===
 
-==== By limited hand when accepting slam invitation
-
-A limited hand can use minorwood when it has been invited to slam;
-usually via a splinter.
-
-[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
-|===
-|
-[stripes=odd]
-!===
-! {S}{thinsp}Axx +
-  {H}{thinsp}Kx +
-  {D}{thinsp}xx +
-  {C}{thinsp}AQTxxx
-!===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1D
-  2C  : !3S!
- !4C! : !4S!
-  6C  :
-:===
-|
-[stripes=odd]
-!===
-! {S}{thinsp}x +
-  {H}{thinsp}xxx +
-  {D}{thinsp}AKxxxx +
-  {C}{thinsp}KJx
-!===
-|===
-
-{tab}{tab}{tab} 3S = splinter, 4S = 2 w/o
-
 === Three-level non-agreement
 
 The general principle is that for 4m to be minorwood, we must first
@@ -437,7 +406,7 @@ It is the cheapest of: +
 :===
   1C  : 1D
   1H  : 3D
- !4S! :
+ !4H! :
 :===
 |===
 
@@ -461,24 +430,50 @@ It is the cheapest of: +
 
 @ we are at 3D
 @ have not agreed trumps
-@ there is no bid below 4NT available as KC
+@ there is no jump-bid below 4NT available as KC
 
-then 4D is minorwood
+This occurs when each player first bids a major (so neither major is a
+2nd-suit), then one bids 3D.
 
-4C agrees {D} as trump then partner may use minorwood or bid 4M as an
-offer to play
-
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
-| 1S |  2H   | |
-| 3D |  ?    | |
-|    |  3S   | | natural forcing
-|    |  3NT  | | natural, NF
-|    | !4C!  | | #sets trump = {D}#
-                 [nobr]#{tribull} 4M = to play#
-|    | !4D!  | | #minorwood#
-|    | 4NT   | | natural
+|
+[grid="none",stripes=odd]
+:===
+  1S  : 2H
+  3D  : ?
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1H  : 1S
+  3D  : ?
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1S  : 2H
+  2S  : 3D
+  ?   :
+:===
 |===
+
+The goals are:
+
+1. agree diamonds as trump in a way that lets partner ask for KC or
+  offer to play in four of either major
+
+2. ask for KC
+
+Goal 1 can only be met with 4C.
+So the raise from 3D to 4D is minorwood even though trumps had not yet
+been agreed.
+
+@ 4C agrees {D} +
+@@ 4D = minorwood +
+@@ 4M = offer to play +
+@ 4D = minorwood +
+@ 4NT = natural +
 
 === Four-level agreement
 
@@ -566,6 +561,41 @@ Opener may want to take control but may also have no other good bid.
 | 1D   | (2S) |  3S | (P)
 | !4D! |      |     |
 |===
+
+==== By limited hand when accepting slam invitation
+
+A limited hand can use optional-minorwood when it has been invited to
+slam via a splinter.
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
+|===
+|
+[stripes=odd]
+!===
+! {S}{thinsp}Axx +
+  {H}{thinsp}Kx +
+  {D}{thinsp}xx +
+  {C}{thinsp}AQTxxx
+!===
+|
+[grid="none",stripes=odd]
+:===
+  1C  : 1D
+  2C  : !3S!
+ !4C! : !4NT!
+  6C  :
+:===
+|
+[stripes=odd]
+!===
+! {S}{thinsp}x +
+  {H}{thinsp}xxx +
+  {D}{thinsp}AKxxxx +
+  {C}{thinsp}KJx
+!===
+|===
+
+{tab}{tab} 3S = splinter, 4C = optional minorwood, 4NT = 2 w/o
 
 === Pulling 3NT to 4m
 
