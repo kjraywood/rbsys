@@ -338,7 +338,7 @@ above 3m, and notrump has not been bid.
 
 Applies when we agree the minor by bidding three in that suit.
 
-_i.e._{thinsp} we have not yet gone above 3m.
+#__i.e.__{thinsp} we have not yet gone above 3m.*
 
 ==== Four-minor directly after suit agreement
 
@@ -430,7 +430,8 @@ It is the cheapest of: +
 
 @ we are at 3D
 @ have not agreed trumps
-@ there is no jump-bid below 4NT available as KC
+@ there is no jump-bid below 4NT
+_ available as KC
 
 This occurs when each player first bids a major (so neither major is a
 2nd-suit), then one bids 3D.
@@ -596,7 +597,9 @@ slam via a splinter.
 !===
 |===
 
-{tab}{tab} 3S = splinter, 4C = optional minorwood, 4NT = 2 w/o
+[nobr]#3S = splinter,#
+[nobr]#4C = optional minorwood,#
+[nobr]#4NT = 2 w/o#
 
 === Pulling 3NT to 4m
 
