@@ -23,10 +23,10 @@ It is highly unlikely that the auction will be too high for responder
 to jump on the second round.
 
 We do not conceal 4-card support in other cases because a jump to 3M
-may not be available on the 2nd-round (_e.g._{thinsp} 2M or 2NT rebid
+may not be available on the 2^nd^-round (_e.g._{thinsp} 2M or 2NT rebid
  by opener).
 So, contrary to the recommendation of Gumperz (part 1, page 2, hand
-2), the 2nd-round jump to 3M shows strong slam-interest but !denies!
+2), the 2^nd^-round jump to 3M shows strong slam-interest but !denies!
 4-card support.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -379,62 +379,85 @@ This is minorwood by a hand that may have enough extras for slam.
 === Three-level non-agreement
 
 The general principle is that for 4m to be minorwood, we must first
-explicitely agree the minor-suit, or set it as trumps with a transfer
-after a notrump opening.
+explicitely agree the minor-suit.
+So if a minor is bid at the 3-level and there is no suit
+agreement, then a raise to 4m is usually just agreeing trump.
+The exception (noted below) is when there is no jump between 4m and
+4NT that can be used to ask for KC.
 
-So when opener or responder bids a minor at the 3-level, a raise to 4m
-is just forward going (forcing).
+To simultaneously set the minor as trump and ask for KC,
+we use a form of kickback.
 
-The KC-asking bid is #a jump to a suit-bid below 4NT#.
+NOTE: Kantar still calls it minorwood because it's
+      asking for KC in the minor.
+
+Following 3m without suit agreement, the KC-asking bid is: +
+#a jump to a suit below 4NT#
+
 It is the cheapest of: +
 @ unbid-suit
 @ fourth suit
 @ opener's 2nd-suit
 @ responder's 2nd-suit
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+.Examples
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-|
-[grid="none",stripes=odd]
-:===
-  1S  : 2D
-  2H  : 3D
- !4H! :
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1D
-  1H  : 3D
- !4H! :
-:===
+|  1S  | 2D |
+|  2H  | 3D |
+| !4H! |    | opener's 2nd suit +
+              @ 4th-suit (4C)
+	      _ is not a jump
 |===
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-|
-[grid="none",stripes=odd]
-:===
- 1D : 1S
- 3D : !4H!
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1S  : 3C
- !4D! :
-:===
+|  1C  | 1D  |
+|  1H  | 3D* | {emsp} natural GF
+| !4H! |     | opener's 2nd-suit +
+               @ cheaper than 4th suit
 |===
 
-==== Exception when 4th suit is clubs
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D |  1H  | |
+| 3D | !4S! | | unbid suit +
+                @ other unbid suit (4C)
+		_ is not a jump
+|===
 
-@ we are at 3D
-@ have not agreed trumps
-@ there is no jump-bid below 4NT
-_ available as KC
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 3C* | {emsp} natural inv.
+| !4D! |     | jump to cheapest unbid suit
+|===
 
-This occurs when each player first bids a major (so neither major is a
-2nd-suit), then one bids 3D.
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1C  | 1D   | |
+|  1NT | 2H*  | | natural GF
+|  3D  | !4H! | | responder's 2nd suit +
+                @ cheaper than 4th suit
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D |  2C  | |
+| 2D |  2S  | |
+| 3C | !4H! | | unbid suit +
+                @ cheaper than responder's
+		_ 2nd suit
+|===
+
+==== Exception when no jump below 4NT can be KC
+
+@ we are at 3D +
+@ have not agreed trumps +
+@ each player bids a major
+_ at their first turn +
+@ {C} is unbid
+
+Neither major is a 2^nd^-suit so there is no jump below 4NT available as KC.
 
 [%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
