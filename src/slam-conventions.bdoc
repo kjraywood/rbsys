@@ -449,15 +449,15 @@ It is the cheapest of: +
 		_ 2nd-suit
 |===
 
-==== Exception when no jump below 4NT can be KC
+==== Exception when no jump below 4NT can be KC asking
 
 @ we are at 3D +
 @ have not agreed trumps +
-@ each player bids a major
-_ at their first turn +
+@ each major bid on first round +
 @ {C} is unbid
 
-Neither major is a 2^nd^-suit so there is no jump below 4NT available as KC.
+Neither major is unbid or a 2^nd^-suit so there is no jump below 4NT
+available as KC.
 
 [%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
