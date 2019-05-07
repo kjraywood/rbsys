@@ -405,8 +405,8 @@ It is the cheapest of: +
 |===
 |  1S  | 2D |
 |  2H  | 3D |
-| !4H! |    | opener's 2nd suit +
-              @ 4th-suit (4C)
+| !4H! |    | opener's 2nd-suit +
+              @ 4C (4th suit)
 	      _ is not a jump
 |===
 
@@ -422,7 +422,7 @@ It is the cheapest of: +
 |===
 | 1D |  1H  | |
 | 3D | !4S! | | unbid suit +
-                @ other unbid suit (4C)
+                @ 4C (other unbid suit)
 		_ is not a jump
 |===
 
@@ -436,7 +436,7 @@ It is the cheapest of: +
 |===
 |  1C  | 1D   | |
 |  1NT | 2H*  | | natural GF
-|  3D  | !4H! | | responder's 2nd suit +
+|  3D  | !4H! | | responder's 2nd-suit +
                 @ cheaper than 4th suit
 |===
 
@@ -446,7 +446,7 @@ It is the cheapest of: +
 | 2D |  2S  | |
 | 3C | !4H! | | unbid suit +
                 @ cheaper than responder's
-		_ 2nd suit
+		_ 2nd-suit
 |===
 
 ==== Exception when no jump below 4NT can be KC
