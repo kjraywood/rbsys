@@ -73,14 +73,51 @@ _ possibly 5-5 shape
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1NT   | 2C |
-| 2D,2H | 2S | {emsp}5-card suit, inv
-| ?     |    |
-| pass  |    | min, 3*{S}
-| 2NT   |    | min, 2*{S}
-| 3S    |    | #max, {S} Ax, Kx or Qx, FORCING#
-| 3NT   |    | max, {S}{thinsp}xx
-| 4S    |    | max, 3*{S}
+| 1NT   | !2C! |
+| 2D,2H |  2S  | {emsp}5-card suit, inv
+| ?     |      |
+| pass  |      | min, 3*{S}
+| 2NT   |      | min, 2*{S}
+| 3S    |      | #max, {S} Ax, Kx or Qx, FORCING#
+| 3NT   |      | max, {S}{thinsp}xx
+| 4S    |      | max, 3*{S}
+|===
+
+==== Baze
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1NT | !2C!  | |
+| 2M  |  ?    | |
+|     | !3oM! | | M fit, slam-inv, [nobr]#unspecified shortness# +
+                  {tribull} next step asks
+|     | !4C!  | | M fit, KC ask
+|     | !4D!  | | M fit, slam-inv, [nobr]#no shortness# +
+                  {tribull} 4oM = KC ask +
+                  {tribull} 4NT = min, to play
+|===
+
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+!  1NT  ! !2C! !
+!  2H   ! !3S! !
+! !3NT! !  ?   !
+!       ! !4m! ! [nobr]#1{xtimes}m#
+!       ! !4H! ! [nobr]#1{xtimes}{S}#
+!===
+|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+! 1NT  ! !2C!  !
+! 2S   ! !3H!  !
+! !3S! !  ?    !
+!      ! !3NT! ! [nobr]#1{xtimes}{H}#
+!      ! !4m!  ! [nobr]#1{xtimes}m#
+!===
 |===
 
 [#stayman-doubled]
