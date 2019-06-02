@@ -23,8 +23,8 @@ It is highly unlikely that the auction will be too high for responder
 to jump on the second round.
 
 We do not conceal 4-card support in other cases because a jump to 3M
-may not be available on the 2^nd^-round (_e.g._{thinsp} 2M or 2NT rebid
- by opener).
+may not be available on the 2^nd^-round (_e.g._{thinsp} 2M or 2NT
+rebid by opener).
 So, contrary to the recommendation of Gumperz (part 1, page 2, hand
 2), the 2^nd^-round jump to 3M shows strong slam-interest but !denies!
 4-card support.
@@ -106,11 +106,10 @@ that suit.
 |    |  2NT  | | natural inv.
 |    |  3H   | | inv.
 |    |  3S   | | forcing, at most a one-loser suit
-|    | !4C!  | | splinter [nobr]##(#could be fake#)##
+|    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
 |    |  4H   | | to play
 |    |  4S   | | to play
 |    |  4NT  | | natural inv.
-           [nobr]#(forcing-2NT unavailable)#
 |===
 
 Responder can set hearts as trump unambiguously with a splinter, which
@@ -118,11 +117,11 @@ could possibly be fake, so cannot ask for KC this round.
 
 === Natural bidding has priority over KC
 
-We don't sacrifice useful natural bids for uncommon
-situations such as asking for key-cards without first agreeing trump.
+We don't sacrifice useful natural bids for uncommon situations such as
+asking for key-cards without first agreeing trump.
 
 NOTE: This is based on frequency and usefuless which are
-overwhelmingly in favour natural bids.
+overwhelmingly in favour of natural bids.
 
 &Hearts and Spades&
 
@@ -132,8 +131,8 @@ When +
 @ spades were bid on the first round +
 then 4NT is KC for hearts.
 
-TIP: If partner is unlimited, we need 4NT as natural which has prority
-over KC-asking.
+TIP: When partner is unlimited we need 4NT as natural.
+This has prority over KC-asking.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
