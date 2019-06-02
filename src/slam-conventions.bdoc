@@ -40,30 +40,29 @@ So, contrary to the recommendation of Gumperz (part 1, page 2, hand
 NOTE: Picture jumps have priority over kickback and minorwood to
 ensure that responder's initial plan doesn't get scuttled.
 
-// [#picjumps-reverse]
-// === Reverse auctions
+[#picjumps-reverse]
+=== Reverse auctions
 
-// A single-jump in opener's first suit is a picture jump; _not a splinter_.
+A single-jump in opener's first suit is a picture jump; _not a splinter_.
 
-// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-// |===
-// |
-// [grid="none",stripes=odd]
-// !===
-// ! 1D ! 1S
-// ! 2H ! 4D
-// !===
-// |
-// [stripes=odd]
-// !===
-// ! {S} AQT64 +
-//   {H} 53 +
-//   {D} KQ87 +
-//   {C} J2
-// !===
-// |===
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+!===
+! 1D ! 1S
+! 2H ! 4D
+!===
+|
+[stripes=odd]
+!===
+! {S} AQT64 +
+  {H} 53 +
+  {D} KQ87 +
+  {C} J2
+!===
+|===
 
-// In the following auction, 4D is a picture bid and
 // The picture bid can also be in opener's second suit, and five-card
 // support is needed in case opener reversed into a three-card suit.
 
