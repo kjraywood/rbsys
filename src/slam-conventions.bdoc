@@ -232,7 +232,9 @@ A subsequent 4S would be kickback for hearts only.
 
 {warning} [xemph]#we do not play two-suit KC#
 
-== Fourth suit at the 4-level for setting trump
+== Special ways to set trump
+
+=== Fourth suit at the 4-level
 
 When +
 @ we are at 3M in a GF auction
@@ -266,7 +268,9 @@ has no immediate KC-asking bid.
 // forcing 3S available.
 // Therefore, we define 4S as kickback.
 
-=== When 4NT is Selfwood
+== Special KC-asking bids
+
+=== Selfwood
 
 In suit-only auctions, asking for key-cards in your own suit
 (selfwood) is often not possible.
@@ -327,6 +331,18 @@ Responder has bid only one suit hence 4NT is selfwood in that suit.
 !4NT! :
 :===
 |===
+
+=== Exclusion
+
+Applies when:
+
+@ direct triple-jump response to 1M opening
+@ suit agreed, then jump +
+@ a non-jump following
+@@ a control-bid by partner
+@@ suit agreement at 4-level
+
+Responses:  0, 1, 2-, 2+, 3-, 3+
 
 == Minorwood
 
@@ -640,7 +656,7 @@ Opener may want to take control but may also have no other good bid.
 | !4D! |      |     |
 |===
 
-==== By limited hand when accepting slam invitation
+&By limited hand when accepting slam invitation&
 
 A limited hand can use optional-minorwood when it has been invited to
 slam via a splinter.
@@ -803,27 +819,16 @@ _ Dbl = 0 or 3, P = 1 or 4 +
 |     |      |  5S  | 2 with trump Q
 |===
 
-==== DEPO example
+&DEPO example&
 
 If trump = {S} and interference = 5{H} then +
 @ Dble = 0, 2{OrLess}, or 4 (even)
 @ Pass = 1 or 3 (odd)
 @ 5{S} = 2 with trump Q
 
-Following Pass (odd) it is still possible to ask for the trump Q with double.
+Following Pass (odd) it is still possible to ask for the trump Q with
+double.
 
 // Specific Suit Asking Bids
 // ** danger **
-
-== Exclusion
-
-Applies when:
-
-@ direct triple-jump response to 1M opening
-@ suit agreed, then jump +
-@ a non-jump following
-@@ a control-bid by partner
-@@ suit agreement at 4-level
-
-Responses:  0, 1, 2-, 2+, 3-, 3+
 
