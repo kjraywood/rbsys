@@ -136,13 +136,13 @@ that suit.
 |===
 | 1H |  1S   | |
 | 2H |  ?    | |
-|    |  2NT  | | natural inv.
+|    |  2NT  | | natural, inv.
 |    |  3H   | | inv.
 |    |  3S   | | forcing, at most a one-loser suit
 |    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
 |    |  4H   | | to play
 |    |  4S   | | to play
-|    |  4NT  | | natural inv.
+|    |  4NT  | | natural, slam inv.
 |===
 
 Responder can set hearts as trump unambiguously with a splinter, which
@@ -236,11 +236,16 @@ A subsequent 4S would be kickback for hearts only.
 
 === Fourth suit at the 4-level
 
-When +
+If we have reached the 3-level without agreeing trump, then we don't
+look for a fit in the fourth suit at the 4-level.
+Hence it is not natural and can be used to indicate a real trump fit
+and not just a preference.
+
+4^th^ suit @ 4-level agrees last bid suit when: +
 @ we are at 3M in a GF auction
-@ we have not agreed trump
-@ the fourth-suit is at the four level +
-then the fourth-suit sets the last-bid suit as trump.
+@ we have bid three suits
+@ no trump agreement
+@ it is not a jump
 
 TIP: if we are above 2NT, have not agreed trump and partner is
 unlimited, then 4NT is needed as natural so cannot be used for KC
@@ -253,7 +258,7 @@ asking.
 | 3H |  ?    | |
 |    |  3S   | | {S} preference
 |    |  3NT  | | natural, NF
-|    | !4D!  | | fourth-suit @ 4-level agrees {H}
+|    | !4D!  | | non-jump 4th-suit @ 4-level agrees {H}
 |    |  4H   | | {H} preference
 |    |  4S   | | ?? possibly a picture bid
 |    | 4NT   | | natural, inv
@@ -272,9 +277,9 @@ has no immediate KC-asking bid.
 
 === Selfwood
 
-In suit-only auctions, asking for key-cards in your own suit
-(selfwood) is often not possible.
-This is a consequence of natural bids having priority.
+In suit-only auctions without trump agreement, asking for key-cards in
+your own suit (selfwood) is often not possible.
+Usually 4NT will be needed as natural which has priority.
 
 4NT can be used as selfwood when: +
 @ you have bid only one suit +
@@ -283,16 +288,17 @@ _ (so a natural 4NT is not needed) +
 @ you can agree partner's suit(s) with a
 _ below-game forcing-bid
 
-In the auction below, 4NT is not KC for spades because they can be set
-as trump with a GF 3S.
-4NT is not needed as natural because a 2NT would be forcing.
-Responder has bid only one suit hence 4NT is selfwood in that suit.
+In the auction below, 4NT is not KC for spades because a GF 3S is
+available to set trump.
+4NT is not needed as natural because a GF 2NT is available.
+Responder has bid only one suit.
+Hence 4NT is selfwood; asking for KC in that suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1S |  2H   | |
 | 2S |  ?    | |
-|    |  2NT  | | forcing (2/1 auction)
+|    |  2NT  | | forcing
 |    |  3S   | | trump = {S}
 |    |  4S   | | picture bid
 |    | !4NT! | | #KC for {H}# (selfwood)
