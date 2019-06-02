@@ -93,13 +93,6 @@ ensure that responder's initial plan doesn't get scuttled.
 
 == General Principles for RKC
 
-#Natural bidding takes priority over asking for key-cards.#
-
-_I.e.,_{thinsp} we don't sacrifice useful natural bids for uncommon
-situations such as asking for key-cards without first agreeing trump.
-This is based on frequency and usefuless which are overwhelmingly in favour
-natural bids.
-
 === Set trumps first
 
 If it's possible to set a suit as trump with an unambiguous below-game
@@ -123,13 +116,25 @@ that suit.
 Responder can set hearts as trump unambiguously with a splinter, which
 could possibly be fake, so cannot ask for KC this round.
 
-=== When we cannot set trumps first
+=== Natural bidding has priority over KC
 
-If we get to the 3-level and do not have an unambiguous way to set
-trump, then kickback will be ON, provided that we have
-another way to make a natural bid in the suit of the KC ask.
+We don't sacrifice useful natural bids for uncommon
+situations such as asking for key-cards without first agreeing trump.
 
-.Examples
+NOTE: This is based on frequency and usefuless which are
+overwhelmingly in favour natural bids.
+
+&Hearts and Spades&
+
+When +
+@ we are at 3H
+@ the 3H bidder is limited
+@ spades were bid on the first round +
+then 4NT is KC for hearts.
+
+TIP: If partner is unlimited, we need 4NT as natural which has prority
+over KC-asking.
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1H |  1S   | |
@@ -137,33 +142,17 @@ another way to make a natural bid in the suit of the KC ask.
 |    |  3S   | | natural forcing
 |    |  3NT  | | natural, NF
 |    | 4C,4D | | natural, F
-|    | !4S!  | | #Kickback#
-|    | !4NT! | | self-wood ?? +
-                 natural 4NT not needed??
+|    |  4S   | | to play
+|    | !4NT! | | KC for {H}
+                 @ opener is limited 
 |===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S |  2C   | |
-| 2H |  3C   | |
-| 3H |  ?    | |
-|    |  3S   | | natural forcing
-|    |  3NT  | | natural, NF
-|    | !4S!  | | #Kickback#
-|    | 4NT   | | natural
-|===
-
-Responder cannot set hearts as trump below game but has a natural and
-forcing 3S available.
-Therefore, we define 4S as kickback.
 
 === Picture bids have priority over KC asking
 
 Picture bids are just well defined natural bids, so it's normal for
 them to have priority over a KC-asking bid.
 
-==== Two-over-one Auctions
-
+.Two-over-one Auctions
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1S |  2H   | |
@@ -175,8 +164,7 @@ them to have priority over a KC-asking bid.
 |    | !4NT! | | #exclusion#, {S}-void, trump = {H}
 |===
 
-==== Reverse Auctions
-
+.Reverse Auctions
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1C   | 1S |
@@ -211,6 +199,40 @@ Flannery).
 A subsequent 4S would be kickback for hearts only.
 
 {warning} [xemph]#we do not play two-suit KC#
+
+== Fourth suit at the 4-level for setting trump
+
+When +
+@ we are at 3M in a GF auction
+@ we have not agreed trump
+@ the fourth-suit is at the four level +
+then the fourth-suit sets the last-bid suit as trump.
+
+TIP: if we are above 2NT, have not agreed trump and partner is
+unlimited, then 4NT is needed as natural so cannot be used for KC
+asking.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2C   | |
+| 2H |  3C   | |
+| 3H |  ?    | |
+|    |  3S   | | {S} preference
+|    |  3NT  | | natural, NF
+|    | !4D!  | | fourth-suit @ 4-level agrees {H}
+|    |  4H   | | {H} preference
+|    |  4S   | | ?? possibly a picture bid
+|    | 4NT   | | natural, inv
+|===
+
+TIP: This is similar to using 4C to agree diamonds when we reach 3D
+after having bid both majors on the first round.
+However, in that case 4D is minorwood, while here the 4th-suit bidder
+has no immediate KC-asking bid.
+
+// Responder cannot set hearts as trump below game but has a natural and
+// forcing 3S available.
+// Therefore, we define 4S as kickback.
 
 === When 4NT is Selfwood
 
