@@ -117,8 +117,8 @@ could possibly be fake, so cannot ask for KC this round.
 
 === Natural bidding has priority over KC
 
-We don't sacrifice useful natural bids for uncommon situations such as
-asking for key-cards without first agreeing trump.
+We don't sacrifice useful natural bids for uncommon situations, such
+as asking for key-cards, without first agreeing trump.
 
 NOTE: This is based on frequency and usefuless which are
 overwhelmingly in favour of natural bids.
