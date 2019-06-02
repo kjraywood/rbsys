@@ -3,17 +3,30 @@
 = Reminders
 
 &1NT Opening:&
+@ rev. Crawling-Stayman
+@ *super-accepts [* jump=max
+_ {vsep} new suit = anti-splinter (2NT = Tfr suit) *]* +
+@ *2nd-round Transfers [*
+_ 3M-1 = split-range inv., 6{orMore}{times}M
+_ {vsep} 3M = COG, 6{times}M
+_ {vsep} 4M = bal. slam-inv, 5{times}M *]* +
 @ *vs double [* sys. ON
 _ {vsep} XX {forces} 2C, to play in {C} or {D} 
 _ {vsep} XX by opener = some 5-cd suit *]* +
-@ *super-accepts [* jump=max
-_ {vsep} anti-splinter=min (2NT = Tfr suit) *]* +
-@ inverted Crawling-Stayman
-@ 2nd-round Transfers +
-@ *Tfr {forces} 2M*
-@@ *[* 3M-1 (re-tfr) = game or slam inv, 6{orMore}{times}M
-__ {vsep} 3M = COG, 6{times}M
-__ {vsep} 4M = bal. slam-inv, 5{times}M *]* +
+@ *Unified Leb. [* 3{lab}new suit{rab} = inv
+_ {vsep} neg. X then 3oM = 5{times}oM, F
+_ {vsep} slow cue or 3NT = 4{times}oM *]* +
+@ *vs 2NT (minors) [* 4-level = Namyats (not Texas)
+_ {vsep} 3m = majors ({C} = wk|str, {D} = GF)
+_ {vsep} 3M = comp. *]* +
+@ *vs 3m [* Texas OFF
+_ {vsep} 4C = om + unknown M {tribull} 4D asks
+_ {vsep} 4D = majors
+_ {vsep} 4M = to play *]*
+@ *vs 3M [* 4m = non-leaping michaels
+_ {vsep} 4oM = to play
+_ {vsep} 4M = minors
+_ {vsep} 4NT = natural inv. *]*
 
 &2\C Opening:&{nbsp}
 @ *vs interference [* Pass = bust or trap
@@ -22,19 +35,29 @@ _ {vsep} X or XX = values (not trap) *]*
 
 &Weak Two:&{nbsp}
 @ *vs o/call [* new-suit = NF
-_ {vsep} 2NT = nat. (Ogust OFF) *]*
+_ {vsep} 2NT = nat. (Bogust OFF) *]*
 
 &Major Opening:&
-@ 1H{ndash}3NT = {S}-splinter
-@ 2NT by PH = 5-5 m's inv. (ON vs X, 1S) +
+@ 3/1 inv., ON vs X
+@ 3M+1 = weak splinter, OFF vs X
+@ 1H{ndash}3NT = {S}-splinter +
 @ 1M {ndash} 1NT{semicolon} 2__lower__ {ndash} 2NT
-@@ *[* old-suit NF {vsep} new-minor-relay GF *]*
+@@ *[* old-suit NF {vsep} new-minor-relay GF *]* +
+@ *vs double [* 2NT = split-range (LR or slam-inv)
+_ {vsep} 3NT = bal. game-raise *]* +
+@ *PH responses [* 2NT = 5-5 m's inv. (ON vs X, 1S)
+_ {vsep} 3/1 = fit showing
+_ {vsep} JR = weak splinter *]*
 
-&vs Opp's Take-Out Double:&
-@ 2NT = LR (NF bal. / 1m)
-@ 3NT = game raise (NF bal. / 1m)
-@ JS other-minor = unbal. LR{orMore}
-@ other JS = inv. +
+&Minor Opening:&
+@ *vs double [* 2NT = bal. LR, NF
+_ {vsep} 3NT = bal. GR
+_ {vsep} JS om = unbal. LR{orMore}
+_ {vsep} other JS = inv. *]*
+@ *PH responses [* 2m = 6-10
+_ {vsep} 3m = unbal. LR
+_ {vsep} 2S = bal. LR
+_ {vsep} JS om = fit showing *]*
 
 &Two over One:&
 @ 1M {ndash} 2C{semicolon} 2D {ndash} !2oM! = real clubs
@@ -55,8 +78,13 @@ __ {vsep} 3NT = short _om_ *]*
 @ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
 @ JS adv of overcall = nat, inv. 
 @ U vs U: lower of lo-cue & new-suit = NF
-@ *&#x00a7;32* (Leb. & Scrambling 2NT):{nbsp}
+@ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
 _ they are at 2M, we have doubled +
+
+&Weak Jump-Overcall:&
+@ new-suit = NF
+@ 3NT or X by PH = save suggesting
+@ raise = competetive
 
 &2NT Overcalls:&
 @ *vs nat. 2m [* 2NT = 15 {ndash} 18
