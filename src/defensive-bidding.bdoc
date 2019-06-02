@@ -264,20 +264,17 @@ If they opened !two{nbsp}of{nbsp}a{nbsp}major!, then we play
 2+<| 3m, 3oM  |    <| to play
 |===
 
-TIP: This is the same, but one-level higher, as when they double after (1M)-1NT .
+TIP: This is the same, but one-level higher, as when they double after
+(1M)-1NT .
 
 == Suit Overcalls
 
+=== Responses to simple overcalls
+
 @ New suit = constructive, NF +
 @ JS = natural, good hand, but NF
-@@ _no inv./inv._{thinsp} applies
-
-=== One-major overcalls
-
-@ !2NT! = good 4-card raise
-@ cue  = good 3-card raise, or any force
-@ Jump cue = mixed raise
-@ double of raise = responsive
+@@ _no inv./inv._{thinsp} applies +
+@ double of raise = responsive +
 @ double of new suit = snapdragon
 
 ==== Honour redouble vs neg. double
@@ -286,6 +283,12 @@ TIP: This is the same, but one-level higher, as when they double after (1M)-1NT 
 @ Usually Ax or Kx in partner's suit +
 @ Advancer may redouble with Qx when it
 _ seems likely that opener will play NT
+
+=== One-major overcalls
+
+@ !2NT! = good 4-card raise
+@ cue  = good 3-card raise, or any force
+@ Jump cue = mixed raise
 
 === Two-level overcalls
 
@@ -381,6 +384,12 @@ _ (McCartney, "`__When I'm sixty-four__{thinsp}`")
 |      |    |      |  2D  | | natural
 |      |    |      | !2H! | | cue-bid, good raise to 2S
 |===
+
+=== Weak Jump Ovecalls
+
+@ lowest jump-overcall is Klinger
+_ NOT natural & weak
+@ #new-suit after natural WJO is NF#
 
 == Two-suited overcalls (Klinger)
 
