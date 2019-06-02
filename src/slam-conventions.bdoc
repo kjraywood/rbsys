@@ -193,7 +193,7 @@ them to have priority over a KC-asking bid.
 |    |  3NT  | | natural, NF, COG, 
 |    | 4C,4D | | slam try, trump = {H}
 |    |  !4S! | | #picture bid, trump = {S}#
-|    | !4NT! | | #exclusion#, {S}-void, trump = {H}
+|    | !4NT! | | exclusion, {S}-void, trump = {H}
 |===
 
 .Reverse Auctions
@@ -208,7 +208,7 @@ them to have priority over a KC-asking bid.
 |  4D   |    | serious slam try ({S} shortness)
 |  4H   |    | min reverse, no help in {S}
 | !4S!  |    | #picture bid, trump = {S}#
-| !4NT! |    | #exclusion#, {S}-void, trump = {H}
+| !4NT! |    | exclusion, {S}-void, trump = {H}
 |===
 
 As in the 2/1 auction, responder must bid something else before
