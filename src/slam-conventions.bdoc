@@ -91,6 +91,40 @@ ensure that responder's initial plan doesn't get scuttled.
 // _e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
 // ====
 
+== First-round ace-asking
+
+=== Plain Blackwood
+
+1__suit__ {ndash} 4NT = plain Blackwood
+
+Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
+
+=== Gerber
+
+Applies after
+@ 1NT and 2NT openings
+@ 1NT rebids
+
+&Responses:&{thinsp} 03, 14, 2 & min, 2 & max
+
+=== Cheap Key-Card after preempts
+
+Applies when
+@ we open a preempt
+@ next hand passes or doubles for take-out
+
+(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
+
+&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
+
+=== First-round Exclusion
+
+First-round jumps to 4M are to play.
+
+Other first-round jumps that are one-level higher than a splinter are exclusion.
+
+&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
+
 == General Principles for RKC
 
 === Set trumps first
@@ -722,40 +756,6 @@ If their four-level preempt follows a minor-suit opening or any
 |      |  1D   | (P) | 1H  |
 | (4S) | !4NT! |  2+<| take-out
 |===
-
-== First-round ace-asking
-
-=== Plain Blackwood
-
-1__suit__ {ndash} 4NT = plain Blackwood
-
-Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
-
-=== Gerber
-
-Applies after
-@ 1NT and 2NT openings
-@ 1NT rebids
-
-&Responses:&{thinsp} 03, 14, 2 & min, 2 & max
-
-=== Cheap Key-Card after preempts
-
-Applies when
-@ we open a preempt
-@ next hand passes or doubles for take-out
-
-(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
-
-&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
-
-=== First-round Exclusion
-
-First-round jumps to 4M are to play.
-
-Other first-round jumps that are one-level higher than a splinter are exclusion.
-
-&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
 
 == KC Responses
 
