@@ -350,6 +350,55 @@ Applies when:
 
 Responses:  0, 1, 2-, 2+, 3-, 3+
 
+[#blackwood-in-comp]
+=== 4NT in high-level competition
+
+{reference} http://www.districtsix.org/Articles/Article%202011-02.aspx[
+_ACBL district-6 panel {ndash} Feb/Mar 2011_ ]
+
+If #they preempt at the 4-level# after #partner has shown opening
+values# (includes 2{orMore}-level or higher overcall) and a
+#five-card or longer suit#, then 4NT is KC asking for majors
+but plain aces for minors.
+
+If their four-level preempt follows a minor-suit opening or any
+1-level overcall, then 4NT is general take-out.
+
+// @ 5{orMore}{xtimes}Major
+// @@ 4NT = KC asking +
+
+// @ 5{orMore}{xtimes}minor
+// @@ 4NT = plain aces +
+
+// @ 1m opening, or 1-level overcall
+// @@ 4NT = take-out
+
+&Examples&
+
+[lightgrey-box]#1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}KC#
+[lightgrey-box]#(3{D}){emsp}3{S}{emsp}(4{D}){emsp}!!4NT!!{emsp}:{emsp}KC#
+
+[lightgrey-box]#1{H}{emsp}(3{S}){emsp}!!4NT!!{emsp}:{emsp}KC#
+[lightgrey-box]#(1{S}){emsp}2{C}{emsp}(4{S}){emsp}!!4NT!!{emsp}:{emsp}aces#
+
+[lightgrey-box]#1{C}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
+                                               6{orMore}{xtimes}{D}, 4*{C}#
+
+[lightgrey-box]#(1{H}){emsp}1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
+                                               minors#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |  1D   | (1S) |  3H{thinsp}  | GF
+| (4S) | !4NT! |   2+<|  KC for {H}
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |  1D   | (P) | 1H  |
+| (4S) | !4NT! |  2+<| take-out
+|===
+
 == Minorwood
 
 === Two-level agreement
@@ -727,55 +776,6 @@ bidder was unable to ask for KCs the previous round.
   2H  :  3C
   3NT : !4C!
 :===
-|===
-
-[#blackwood-in-comp]
-== 4NT in high-level competition
-
-{reference} http://www.districtsix.org/Articles/Article%202011-02.aspx[
-_ACBL district-6 panel {ndash} Feb/Mar 2011_ ]
-
-If #they preempt at the 4-level# after #partner has shown opening
-values# (includes 2{orMore}-level or higher overcall) and a
-#five-card or longer suit#, then 4NT is KC asking for majors
-but plain aces for minors.
-
-If their four-level preempt follows a minor-suit opening or any
-1-level overcall, then 4NT is general take-out.
-
-// @ 5{orMore}{xtimes}Major
-// @@ 4NT = KC asking +
-
-// @ 5{orMore}{xtimes}minor
-// @@ 4NT = plain aces +
-
-// @ 1m opening, or 1-level overcall
-// @@ 4NT = take-out
-
-=== Examples
-
-[lightgrey-box]#1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}KC#
-[lightgrey-box]#(3{D}){emsp}3{S}{emsp}(4{D}){emsp}!!4NT!!{emsp}:{emsp}KC#
-
-[lightgrey-box]#1{H}{emsp}(3{S}){emsp}!!4NT!!{emsp}:{emsp}KC#
-[lightgrey-box]#(1{S}){emsp}2{C}{emsp}(4{S}){emsp}!!4NT!!{emsp}:{emsp}aces#
-
-[lightgrey-box]#1{C}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
-                                               6{orMore}{xtimes}{D}, 4*{C}#
-
-[lightgrey-box]#(1{H}){emsp}1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
-                                               minors#
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      |  1D   | (1S) |  3H{thinsp}  | GF
-| (4S) | !4NT! |   2+<|  KC for {H}
-|===
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      |  1D   | (P) | 1H  |
-| (4S) | !4NT! |  2+<| take-out
 |===
 
 == KC Responses
