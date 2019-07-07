@@ -6,25 +6,21 @@
 
 === Suit Contracts
 
-====  Honour leads
+* Rusinow honour-leads
+@ opening-lead only
 
-* Standard honour leads
+* Low from a doubleton
+@ opening-lead only
+@ top card = T or lower
 
-* King from AKx or KQx.  When unsure which, leader's partner assumes AKx.
+* high from xxx
 
-* Queen from AKQx. Leader's partner can always read this and gives count. +
-  {tribull} Then A or K shows suit-pref.
-
-==== Spot-card leads
-
-* Low from a doubleton (opening-lead only)
-
-* high from three small
+* #middle from Txx#
 
 * 2^nd^ highest from four or five small, except highest of touching
   cards
 
-* low from honour third
+* low from honour third (except ten)
 
 * 4^th^ best
 
@@ -96,17 +92,21 @@ priority.
 
 ==== Exceptions
 
-* Q from AKQ vs suit {tribull}{nbsp}count
-
-* K from AK vs suit-slam {tribull}{nbsp}count
 
 * trump lead [nobr]#{tribull}{nbsp}suit preference#
 
-* vs suits on the lead of K (from AK) and dummy holds four or more
-  to the J or T [nobr]#{tribull} simple attitude#
-
-* vs suits: partner leads K (from AK), dummy has a stiff, long trumps, and
-equal-length short-suits [nobr]#{tribull} suit-preference#
+* K from AK vs suit contracts +
+@ vs slam
+@@ count +
+@ dummy has Qxx(x) in led suit
+@@ count (2^nd^ highest from 9xxx) +
+@ dummy has Jxxx(x) or
+_ Txxx(x) in led suit
+@@ simple attitude +
+@ dummy has a stiff in led suit,
+_ long trumps,
+_ and equal-length side-suits
+@@ suit-preference
 
 * vs NT on a spot-card lead, if dummy is winning the trick holding
   Q-J-x or J-T-x, we give count, followed by suit-preference when
