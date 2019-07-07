@@ -4,11 +4,40 @@
 
 == 1NT Opening
 
-After a Jacoby transfer, we use 2^nd^-round transfers.
+=== Overview
 
-* transfer to spades then 2NT shows clubs
-* #All invitational hands with five spades use Stayman#
-* Stayman promises a 4-card major
+[%autowidth,cols="^,<",grid="none"]
+|===
+| 2C    | Stayman, promises a 4-card major, Smolen, Baze,
+          [nobr]#delayed Texas & Gerber#
+| 2D,2H | Jacoby transfer +
+          [nobr]#{tribull} 2^nd^-round transfers,#
+	  _ incl. 2NT = 4{OrMore}{xtimes}{C}
+| 2S    | balanced inv. or clubs
+| 2NT   | diamonds
+| 3C    | five-card Stayman +
+{reference} https://justinlall.wordpress.com/2011/09/07/puppet-stayman-after-a-1n-opener/[
+_Puppet Stayman after a 1N Opener_]
+__ {nbsp}{ndash}{nbsp} Justin Lall
+
+| 3D    | both minors, slammish +
+          [nobr]#{tribull} 3H{thinsp}={thinsp}{C},
+	                   3S{thinsp}={thinsp}{D},
+			   3NT{thinsp}={thinsp}neg.#
+| 3H,3S | stiff with 3{xtimes}oM
+| 3NT   | to play
+| 4C    | Gerber (03-14-2min-2max)
+| 4D,4H | Texas
+| 4S    | Quant. with minors (4-4 or 5-4)
+| 4NT   | Quant.
+| 5NT   | Quant. (forces 6, invites 7)
+|===
+
+#ALL invitational hands with five spades use Stayman#
+
+A 2^nd^-round transfer to a new suit is GF
+
+A 2^nd^-round re-transfer is game-inv or slam-inv
 
 === Both majors
 
@@ -144,7 +173,7 @@ bids 2D and opener corrects with a four-card major.
 With short-clubs and a GF, responder bids 3C as re{hyph}Stayman.
 Smolen is ON.
 
-Other bids are as though opener had replied to Stayman with 2D,
+Other bids are #as though opener had replied to Stayman with 2D#,
 although in this case, opener may still have a four-card major.
 It's possible to miss a 4{hyph}-4 major-suit fit when responder rebids
 2NT and opener passes.
@@ -233,10 +262,6 @@ Opener assumes that it is one of: +
 
 Other bids below three of the suit shown by the 1^st^-round transfer
 are 2^nd^-round transfers, showing length in the next suit.
-
-// A 2^nd^-round transfer to a new suit is GF.
-
-// A 2^nd^-round re-transfer is game-inv or slam-inv
 
 @ 2^nd^-round transfer to 3m
 _ = 4{orMore}{xtimes}m, GF +
@@ -393,19 +418,6 @@ reverse-transfers# to ensure that responder declares.
 
 A 3NT rebid is generally to play, but opener may continue with
 undisclosed extras following a previous-round min or pre-decline.
-
-=== Three-level responses
-
-{reference} https://justinlall.wordpress.com/2011/09/07/puppet-stayman-after-a-1n-opener/[
-_Puppet Stayman after a 1N Opener_]
-__ {nbsp}{ndash}{nbsp} Justin Lall
-
-@ 3C = five-card Stayman +
-@ 3{D} = 5-5 minors GF +
-@@ 3H => {C}
-@@ 3S => {D}
-@@ 3NT = poor hand for minors +
-@ 3H,3S = stiff with three in other major
 
 === Interference over 1NT
 
