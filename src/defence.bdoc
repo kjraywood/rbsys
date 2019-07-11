@@ -9,6 +9,7 @@
 Rusinow honour-leads
 @ opening-lead only
 @ includes 3-card-suits
+@ pivot-card = 8
 
 Low from a doubleton
 @ opening-lead only
