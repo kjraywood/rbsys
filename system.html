@@ -12,7 +12,7 @@
 <div id="header">
 <h1>System Notes</h1>
 <div class="details">
-<span id="revdate">Last updated July 7, 2019</span>
+<span id="revdate">Last updated July 11, 2019</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -318,16 +318,18 @@
 <ul class="sectlevel2">
 <li><a href="#_suit_contracts">37.1. Suit Contracts</a></li>
 <li><a href="#_notrump_contracts">37.2. NoTrump Contracts</a></li>
+<li><a href="#_rusinow_exceptions">37.3. Rusinow exceptions</a></li>
 </ul>
 </li>
 <li><a href="#_carding">38. Carding</a>
 <ul class="sectlevel2">
 <li><a href="#_signalling">38.1. Signalling</a></li>
 <li><a href="#_the_aggressive_shift">38.2. The aggressive shift</a></li>
-<li><a href="#_honour_sequences">38.3. Honour sequences</a></li>
-<li><a href="#_discards">38.4. Discards</a></li>
-<li><a href="#_suit_preference_returns">38.5. Suit-Preference Returns</a></li>
-<li><a href="#_getting_a_ruff">38.6. Getting a Ruff</a></li>
+<li><a href="#_exceptions_to_aggressive_shift_signalling">38.3. Exceptions to aggressive-shift signalling</a></li>
+<li><a href="#_honour_sequences">38.4. Honour sequences</a></li>
+<li><a href="#_discards">38.5. Discards</a></li>
+<li><a href="#_suit_preference_returns">38.6. Suit-Preference Returns</a></li>
+<li><a href="#_getting_a_ruff">38.7. Getting a Ruff</a></li>
 </ul>
 </li>
 </ul>
@@ -9694,62 +9696,85 @@ The purpose is to help the defence.</p>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_suit_contracts">37.1. Suit Contracts</h3>
-<div class="ulist">
-<ul>
-<li>
+<div class="paragraph">
 <p>Rusinow honour-leads
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; opening-lead only</span></p>
-</li>
-<li>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; opening-lead only</span>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; includes 3-card-suits</span></p>
+</div>
+<div class="paragraph">
 <p>Low from a doubleton
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; opening-lead only</span>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; top card = T or lower</span></p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>high from xxx</p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p><mark>middle from Txx</mark></p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>2<sup>nd</sup> highest from four or five small, except highest of touching
 cards</p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>low from honour third (except ten)</p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>4<sup>th</sup> best</p>
-</li>
-</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="../icons/note.png" alt="Note">
+</td>
+<td class="content">
+Leading low from Tx and middle from Txx means that a lead of the
+ten will promise the J or be a singleton
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_notrump_contracts">37.2. NoTrump Contracts</h3>
-<div class="ulist">
-<ul>
-<li>
+<div class="paragraph">
 <p>4<sup>th</sup> best from length</p>
-</li>
-<li>
-<p>Rusinow Q,J,T or 9 (promises next higher honour or shortness)</p>
-</li>
-<li>
-<p>King = power (from AKQT, AKJT, KQT9, KQJ9, KQJT)<br>
-  It requests:
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; overtake with the ace and return</span>
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; unblock of Q, J or T</span>
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; otherwise count</span><br></p>
-</li>
-<li>
-<p>Ace from AKx(x)</p>
-</li>
-</ul>
 </div>
 <div class="paragraph">
-<p>Rusinow does not apply when leading partner&#8217;s suit, dummy&#8217;s suit, or
-when the opening leader has preempted and leads a side suit.
-These are situations where we might want to lead honour doubleton.</p>
+<p>Rusinow Q,J,T,9 or 8 - from four-card or longer suits</p>
+</div>
+<div class="paragraph">
+<p>Ace from AKx(x)</p>
+</div>
+<div class="paragraph">
+<p>King = power (from AKQT, AKJT, KQT9, KQJ9, KQJT)<br>
+It requests:<br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; overtake with the ace and return</span>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; unblock of Q, J or T</span>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; otherwise count</span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rusinow_exceptions">37.3. Rusinow exceptions</h3>
+<div class="paragraph">
+<p>Rusinow does not apply in:<br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; partner&#8217;s suit</span>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; dummy&#8217;s suit</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; opening leader has preempted</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; and leads a side suit</span></p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<img src="../icons/tip.png" alt="Tip">
+</td>
+<td class="content">
+These are situations where we might want to lead honour doubleton
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -9763,8 +9788,8 @@ These are situations where we might want to lead honour doubleton.</p>
 <p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; upside-down attitude</span>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; standard count</span>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; suit-preference in trump-suit</span><br>
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; Smith Echo in NT</span><span class="backspacex"> </span>
-<span class="nobr">&emsp; &ndash; USD by opening leader, Std by partner</span></p>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; Smith Echo vs NT</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; &ndash; rev. by opening leader</span></p>
 </div>
 <div class="paragraph">
 <p>If partner leads our known 6<sup><strong>+</strong></sup>-card suit:
@@ -9786,76 +9811,84 @@ priority.</p>
 </div>
 <div class="sect3">
 <h4 id="_negatives">38.2.1. Negatives</h4>
-<div class="ulist">
-<ul>
-<li>
+<div class="paragraph">
 <p>not trumps</p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>not a suit headed by AKQ, KQJ, or AKJT</p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>not a singleton or void in a suit-contract except it could be a
 singleton vs a slam</p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>not a suit that was shown by declarer</p>
-</li>
-</ul>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_positives">38.2.2. Positives</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>opening-leader&#8217;s suit (when a different suit was led)</p>
-</li>
-<li>
-<p>suit shown by leader&#8217;s partner (when a different suit was led)</p>
-</li>
-<li>
-<p>vs suit: a 3-card suit headed by at most one honour</p>
-</li>
-<li>
-<p>vs suit: if no weak-three-card suit, then shortest side-suit but
-not a singleton or void (excluded by negative)</p>
-</li>
-<li>
-<p>vs notrump: shortest side-suit not excluded by a negative</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>opening-leader&#8217;s suit - when a different suit was led</p>
+</div>
+<div class="paragraph">
+<p>suit shown by leader&#8217;s partner - when a different suit was led</p>
+</div>
+<div class="paragraph">
+<p>vs suit:<br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; a 3-card suit headed by at most</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; one honour</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; otherwise shortest side-suit</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; (but not s|v below slam)</span></p>
+</div>
+<div class="paragraph">
+<p>vs notrump:<br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; shortest side-suit not excluded by</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; a negative</span></p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_exceptions">38.2.3. Exceptions</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>trump lead <span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp;&#160;suit preference</span></p>
-</li>
-<li>
-<p>K from AK vs suit contracts<br>
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; vs slam</span><span class="backspace"> </span>
+<h4 id="_problem_hands">38.2.3. Problem hands</h4>
+<div class="paragraph">
+<p>In third seat when you don&#8217;t want the suit led, and you don&#8217;t want the
+aggressive shift, signal for the suit that you think is least likely
+to cost a trick.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_exceptions_to_aggressive_shift_signalling">38.3. Exceptions to aggressive-shift signalling</h3>
+<div class="paragraph">
+<p>trump lead <span class="vraise mildblue small">&#x27a4;</span>&thinsp; suit preference</p>
+</div>
+<div class="sect3">
+<h4 id="_k_from_ak_vs_suit_contracts">38.3.1. K from AK vs suit contracts</h4>
+<div class="paragraph">
+<p><span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; vs slam</span><span class="backspace"> </span>
 <span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; count</span><br>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; dummy has Qxx(x) in led suit</span><span class="backspace"> </span>
-<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; count (2<sup>nd</sup> highest from 9xxx)</span><br>
-<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; dummy has Jxxx(x) or</span><span class="backspacex"> </span>
-<span class="nobr">&emsp; Txxx(x) in led suit</span><span class="backspace"> </span>
+<span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; count (2<sup>nd</sup> highest from [T|9]xxx)</span><br>
+<span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; dummy has [J|T]xxx(x) in led suit</span><span class="backspace"> </span>
 <span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; simple attitude</span><br>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; dummy has a stiff in led suit,</span><span class="backspacex"> </span>
 <span class="nobr">&emsp; long trumps,</span><span class="backspacex"> </span>
 <span class="nobr">&emsp; and equal-length side-suits</span><span class="backspace"> </span>
 <span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; suit-preference</span></p>
-</li>
-<li>
-<p>vs NT on a spot-card lead, if dummy is winning the trick holding
-Q-J-x or J-T-x, we give count, followed by suit-preference when
-declarer plays to trick two.
-This also applies if dummy has Q-T-x, provided declarer wins
-the ten.</p>
-</li>
-</ul>
+</div>
+<div class="paragraph">
+<p>A ten is usually treated as an honour card (it might win a trick), but
+when partner leads a king (from AKx) and dummy has the guarded queen,
+we treat the ten like any other spot card.
+Thus from Tx we play the ten to give count.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_vs_nt_on_a_spot_card_lead">38.3.2. vs NT on a spot-card lead</h4>
+<div class="paragraph">
+<p>If dummy is winning the trick holding Q-J-x or J-T-x, we give count,
+followed by suit-preference when declarer plays to trick two.</p>
+</div>
+<div class="paragraph">
+<p>This also applies if dummy has Q-T-x, provided declarer wins the ten.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -9869,25 +9902,10 @@ If we cannot have a significant honour (J or higher) we give count
 </tr>
 </table>
 </div>
-<div class="paragraph">
-<p>A ten is usually treated as an honour card (it might win a trick), but
-when partner leads a king (from AKx) and dummy has the guarded queen,
-we treat the ten like any other spot card.
-We would play it from Txx to discourage a continuation because we
-can&#8217;t ruff the third round.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_problem_hands">38.2.4. Problem hands</h4>
-<div class="paragraph">
-<p>In third seat when you don&#8217;t want the suit led, and you don&#8217;t want the
-aggressive shift, signal for the suit that you think is least likely
-to cost a trick.</p>
-</div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_honour_sequences">38.3. Honour sequences</h3>
+<h3 id="_honour_sequences">38.4. Honour sequences</h3>
 <div class="paragraph">
 <p><span class="vraise"><span class="icon"><img src="../icons/reference.png" alt="reference" width="24"></span></span>&ensp;
 <a href="https://drive.google.com/file/d/0B1L4Qo4rjzd_M0YzdlJ1NVE2N0U/view?usp=sharing">
@@ -9914,7 +9932,7 @@ known to partner, then that&#8217;s the card we play.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_discards">38.4. Discards</h3>
+<h3 id="_discards">38.5. Discards</h3>
 <div class="paragraph">
 <p>Natural discards have priority.  These are:<br>
 <span class="nobr">&nbsp;<span class="vvraise mildblue ssmall">&#x25cf;</span>&thinsp; top of honour sequence</span><br>
@@ -9950,7 +9968,7 @@ then:<br>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_suit_preference_returns">38.5. Suit-Preference Returns</h3>
+<h3 id="_suit_preference_returns">38.6. Suit-Preference Returns</h3>
 <div class="paragraph">
 <p>When playing a suit for partner to ruff and dummy holds no
 honour-card:<br>
@@ -9959,7 +9977,7 @@ honour-card:<br>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_getting_a_ruff">38.6. Getting a Ruff</h3>
+<h3 id="_getting_a_ruff">38.7. Getting a Ruff</h3>
 <div class="paragraph">
 <p>When you intend to shift to a singleton and hold AKx in the led suit,
 win the first trick with the ace.</p>

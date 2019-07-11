@@ -6,41 +6,51 @@
 
 === Suit Contracts
 
-* Rusinow honour-leads
+Rusinow honour-leads
 @ opening-lead only
+@ includes 3-card-suits
 
-* Low from a doubleton
+Low from a doubleton
 @ opening-lead only
 @ top card = T or lower
 
-* high from xxx
+high from xxx
 
-* #middle from Txx#
+#middle from Txx#
 
-* 2^nd^ highest from four or five small, except highest of touching
-  cards
+2^nd^ highest from four or five small, except highest of touching
+cards
 
-* low from honour third (except ten)
+low from honour third (except ten)
 
-* 4^th^ best
+4^th^ best
+
+NOTE: Leading low from Tx and middle from Txx means that a lead of the
+ten will promise the J or be a singleton
 
 === NoTrump Contracts
 
-* 4^th^ best from length
+4^th^ best from length
 
-* Rusinow Q,J,T or 9 (promises next higher honour or shortness)
+Rusinow Q,J,T,9 or 8 - from four-card or longer suits
 
-* King = power (from AKQT, AKJT, KQT9, KQJ9, KQJT) +
-  It requests:
+Ace from AKx(x)
+
+King = power (from AKQT, AKJT, KQT9, KQJ9, KQJT) +
+It requests: +
 @ overtake with the ace and return
 @ unblock of Q, J or T
-@ otherwise count +
+@ otherwise count
 
-* Ace from AKx(x)
+=== Rusinow exceptions
 
-Rusinow does not apply when leading partner's suit, dummy's suit, or
-when the opening leader has preempted and leads a side suit.
-These are situations where we might want to lead honour doubleton.
+Rusinow does not apply in: +
+@ partner's suit
+@ dummy's suit +
+@ opening leader has preempted
+_ and leads a side suit
+
+TIP: These are situations where we might want to lead honour doubleton
 
 == Carding
 
@@ -49,8 +59,8 @@ These are situations where we might want to lead honour doubleton.
 @ upside-down attitude
 @ standard count
 @ suit-preference in trump-suit +
-@ Smith Echo in NT
-_ {ndash} USD by opening leader, Std by partner
+@ Smith Echo vs NT
+_ {ndash} rev. by opening leader
 
 If partner leads our known 6{OrMore}-card suit:
 @ middle spot-card = continue
@@ -68,65 +78,67 @@ priority.
 
 ==== Negatives
 
-* not trumps
+not trumps
 
-* not a suit headed by AKQ, KQJ, or AKJT
+not a suit headed by AKQ, KQJ, or AKJT
 
-* not a singleton or void in a suit-contract except it could be a
-  singleton vs a slam
+not a singleton or void in a suit-contract except it could be a
+singleton vs a slam
 
-* not a suit that was shown by declarer
+not a suit that was shown by declarer
 
 ==== Positives
 
-* opening-leader's suit (when a different suit was led)
+opening-leader's suit - when a different suit was led
 
-* suit shown by leader's partner (when a different suit was led)
+suit shown by leader's partner - when a different suit was led
 
-* vs suit: a 3-card suit headed by at most one honour
+vs suit: +
+@ a 3-card suit headed by at most
+_ one honour +
+@ otherwise shortest side-suit
+_ (but not s|v below slam)
 
-* vs suit: if no weak-three-card suit, then shortest side-suit but
-  not a singleton or void (excluded by negative)
-
-* vs notrump: shortest side-suit not excluded by a negative
-
-==== Exceptions
-
-
-* trump lead [nobr]#{tribull}{nbsp}suit preference#
-
-* K from AK vs suit contracts +
-@ vs slam
-@@ count +
-@ dummy has Qxx(x) in led suit
-@@ count (2^nd^ highest from 9xxx) +
-@ dummy has Jxxx(x) or
-_ Txxx(x) in led suit
-@@ simple attitude +
-@ dummy has a stiff in led suit,
-_ long trumps,
-_ and equal-length side-suits
-@@ suit-preference
-
-* vs NT on a spot-card lead, if dummy is winning the trick holding
-  Q-J-x or J-T-x, we give count, followed by suit-preference when
-  declarer plays to trick two.
-  This also applies if dummy has Q-T-x, provided declarer wins
-  the ten.
-
-TIP: If we cannot have a significant honour (J or higher) we give count
-
-A ten is usually treated as an honour card (it might win a trick), but
-when partner leads a king (from AKx) and dummy has the guarded queen,
-we treat the ten like any other spot card.
-We would play it from Txx to discourage a continuation because we
-can't ruff the third round.
+vs notrump: +
+@ shortest side-suit not excluded by
+_ a negative
 
 ==== Problem hands
 
 In third seat when you don't want the suit led, and you don't want the
 aggressive shift, signal for the suit that you think is least likely
 to cost a trick.
+
+=== Exceptions to aggressive-shift signalling
+
+trump lead {tribull} suit preference
+
+==== K from AK vs suit contracts
+
+@ vs slam
+@@ count +
+@ dummy has Qxx(x) in led suit
+@@ count (2^nd^ highest from [T|9]xxx) +
+@ dummy has [J|T]xxx(x) in led suit
+@@ simple attitude +
+@ dummy has a stiff in led suit,
+_ long trumps,
+_ and equal-length side-suits
+@@ suit-preference
+
+A ten is usually treated as an honour card (it might win a trick), but
+when partner leads a king (from AKx) and dummy has the guarded queen,
+we treat the ten like any other spot card.
+Thus from Tx we play the ten to give count.
+
+==== vs NT on a spot-card lead
+
+If dummy is winning the trick holding Q-J-x or J-T-x, we give count,
+followed by suit-preference when declarer plays to trick two.
+
+This also applies if dummy has Q-T-x, provided declarer wins the ten.
+
+TIP: If we cannot have a significant honour (J or higher) we give count
 
 === Honour sequences
 
