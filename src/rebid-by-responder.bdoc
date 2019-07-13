@@ -12,7 +12,40 @@ __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 
 @ 2nd-round jump = natural & GF
 @ #2nd-round raise of minor = GF#
-@ 4th-suit or new 3rd-suit = F1
+@ 4th-suit = F1
+
+=== Opener's third bid
+
+{new} [.xemph.green]#__July 13, 2019__#
+
+After fourth-suit forcing at the 2-level:
+
+@ 2NT, or a two-level bid of either player's
+_ first suit
+_ = NF, rejects an invitation
+
+@ other non-jump
+_ = F1, ambiguous strength
+
+@ jump = GF
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1C  |  1H  |
+| 1S  | !2D! |
+| ?   |      |
+| 2H  |      | reject, NF, usually {H}Hx
+| 2S* |      | #ambiguous strength, F1#,
+| 2NT |      | reject, NF
+| 3C  |      | 6{xtimes}{C}, ambiguous strength, F1
+| 3D  |      | 4{xtimes}{D}, ambiguous strength, F1
+| 3H  |      | accept, GF
+| 3S  |      | 5{xtimes}{S}, 6{OrMore}{xtimes}{C}, GF
+| 3NT |      | accept
+|===
+
+{asterisk} could be just a minimum not suitable for 2NT.
+[nobr]#__e.g.__{ensp}{S}KQTx {H}xx {D}xx {C}AQJxx#
 
 === Vs interference
 
@@ -35,7 +68,8 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 
 @ #2D rebid = extra strength or extra length#
 _ __i.e.__{thinsp} it is not a minimum 5-4
-@ 1NT rebid includes min 2-5-4-2 or 1-5-4-3
+@ 1NT rebid includes min 2-5-4-2
+_ and 1-5-4-3
 
 ==== Two-way Checkback after both majors
 
@@ -134,9 +168,10 @@ If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 === After 1-level suit-response
 
 @ promises a rebid below-game +
-@ Default rebid by responder
-_ = cheaper of 4th-suit & 2NT
-@@ to force, opener bids above 3 of 1st-suit
+@ default rebid by responder
+_ = cheaper of fourth-suit & 2NT
+@@ to force, opener bids above
+__ three of first-suit
 
 See also:
 <<slam-conventions.adoc#picjumps-reverse,
