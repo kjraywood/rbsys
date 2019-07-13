@@ -10,7 +10,7 @@
 
 <<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>> +
 <<rebid-by-responder.adoc#_openers_third_bid,
-{tribull} [.xemph.brickred.nobr]##Opener's bid after 4th-suit F1##
+{tribull} [.xemph.brickred.nobr]##4^th^-suit F1, opener's 3^rd^ bid##
 [.xemph.brickred.nobr]##- 2019/07/13##>>
 
 <<checkback.adoc#, 2-Way Checkback and Wolff Sign-off>>
