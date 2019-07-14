@@ -290,6 +290,19 @@ _ seems likely that opener will play NT
 @ cue  = good 3-card raise, or any force
 @ Jump cue = mixed raise
 
+&Rebid by overcaller&
+
+A bid of the suit on overcaller's right is natural.
+
+[%autowidth,cols="^,4*<",grid="none"]
+|===
+| (1C) | 1H  | (P)   | 1S | 
+| (P)  | 2C* |       |    | * natural
+|===
+
+There is no cue-bid in this auction.
+To show a good raise of spades, overcaller just jumps to 3S.
+
 === Two-level overcalls
 
 &vs pass& [ _e.g._ {thinsp}(1S) - 2C - (P) - ? ] +
@@ -351,8 +364,11 @@ _send it back_{thinsp} with redouble
 
 ==== Unpassed hand
 
-@ #cue-bid of suit on left = other two suits#
-@ bid of suit on right = natural
+@ bid of suit on bidder's left
+_ = cue-bid
+_ = other two suits +
+@ bid of suit on bidder's right
+_ = natural +
 @ #2NT = minors#
 
 [%autowidth,cols="4*^,<",grid="none"]
@@ -360,7 +376,7 @@ _send it back_{thinsp} with redouble
 |      |       | (1D) | P |
 | (1S) |  ?    |      |   |
 |      |  1NT  |      |   | natural (see responses above)
-|      | !2D!  |      |   | {H} + {C}
+|      | !2D!  |      |   | {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
 |      |  2S   |      |   | natural
 |      | !2NT! |      |   | minors
 |===
@@ -368,14 +384,16 @@ _send it back_{thinsp} with redouble
 ==== Passed hand
 
 @ 1NT = unusual
-_ (5-5{OrMore} other two suits) +
-@ #cue-bid of suit on left = 6*om + 4*oM#,
+_ (5{ndash}5{OrMore} other two suits) +
+@ #cue-bid of suit on left = 6{OrMore}{xtimes}om + 4*oM#,
 _ (McCartney, "`__When I'm sixty-four__{thinsp}`")
 
 ==== Raising a sandwich overcall
 
-@ Bid in suit we are over = natural
-@ Bid in suit we are under = cue-bid
+@ bid of suit on bidder's right
+_ = natural +
+@ bid of suit on bidder's left
+_ = cue-bid
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
