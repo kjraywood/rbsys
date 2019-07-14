@@ -286,9 +286,11 @@ _ seems likely that opener will play NT
 
 === One-major overcalls
 
-@ !2NT! = good 4-card raise
-@ cue  = good 3-card raise, or any force
-@ Jump cue = mixed raise
+@ non-jump cue = good 3-card raise,
+_ or any force +
+@ 2NT = 4-card limit-raise
+@ Jump cue = split-range
+_ = mixed-raise or GF-raise
 
 &Rebid by overcaller&
 
