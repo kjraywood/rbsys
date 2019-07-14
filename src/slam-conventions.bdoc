@@ -116,11 +116,33 @@ Applies when
 
 &Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
 
+&Follow-ups&
+
+Returning to the trump suit #and 4NT# are to play.
+
+Other suit bids are normal KC follow-ups.
+The priority order is: +
+@ trump queen - only after zero KCs +
+@ specific kings - except after 2+Q +
+@ suit-asking
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|      |  2S   |
+| !4C! | !4S!* | {emsp}* 1 KC + {S}Q
+|  ?   |       |
+| pass |       | sign off
+| 4NT  |       | #sign off#
+| !5C! |       | specific-king ask
+| !5D!,!5H!,!6C! | | suit-ask
+|===
+
 === First-round Exclusion
 
 First-round jumps to 4M are to play.
 
-Other first-round jumps that are one-level higher than a splinter are exclusion.
+Other first-round jumps that are one-level higher than a splinter are
+exclusion.
 
 &Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
 
