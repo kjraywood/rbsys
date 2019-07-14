@@ -286,11 +286,28 @@ _ seems likely that opener will play NT
 
 === One-major overcalls
 
+[green-box]#Updated {ndash} Jul 14, 2019#
+
 @ non-jump cue = good 3-card raise,
 _ or any force +
 @ 2NT = 4-card limit-raise
-@ Jump cue = split-range
+@ Jump cue = #split-range#
 _ = mixed-raise or GF-raise
+
+If a two-level cue-bid jump-cue to the three-level is not available,
+then the thre-level cue-bid is the most defensive-raise, usually three
+trumps, and 2NT is used for all four-card raises; a good mised-raise
+or better.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|       |     | (1D) | 1S | 
+| (2D)  |  ?  |      |    |
+|       |  X  |      |    | responsive
+|       | 2NT |      |    | 4{OrMore}{xtimes}{S}, good mixed-raise{OrMore}
+|       | 3D  |      |    | 3{xtimes}{S}, {LRplus}
+|       | 3S  |      |    | preemptive, up to a poor mixed-raise
+|===
 
 &Rebid by overcaller&
 
