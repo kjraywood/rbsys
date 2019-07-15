@@ -6,6 +6,8 @@
 
 === Overview
 
+[green-box]#New {ndash} July 13, 2019#
+
 [%autowidth,cols="^,<",grid="none"]
 |===
 | 2C    | Stayman, promises a 4-card major, Smolen, Baze,
@@ -332,7 +334,13 @@ Similarly, transfer then 5M = quantative 5332, forces 6 and invites 7 (like
 The scheme is similar to when Stayman is doubled.
 The focus is on a stopper in the doubled suit.
 
-==== With four-card support
+@ four-card support makes a super accept +
+@ accepting transfer
+_ =  3-card support, A or K of doubled suit +
+@ pass promises a stopper +
+@ redouble = no stopper
+
+==== Super accepts
 
 Our super-accept scheme is ON, except that opener may use a reverse
 transfer to make responder declare.
@@ -346,6 +354,7 @@ is a slam try with preference to declare.
 |===
 |  1NT  | (P) | !2D! {ensp} (X)
 |   ?   |     |
+|  2H   |     | 3-card support, {D}A or K
 2+<| !2S!,!3C! <| COV, minimum +
                 {tribull} 3NT = slam-try, {D}-control, prefer to declare
 | !2NT! |     | {D}-stopper, minimum
@@ -353,14 +362,16 @@ is a slam try with preference to declare.
 |  3H   |     | clear max, prefer to declare
 |===
 
-==== Without four-card support
+[#opener_accepts_doubled_xfer]
+==== Opener accepts the doubled transfer
 
-@ accepting transfer
-_ =  3-card support, A or K of doubled suit +
-@ pass promises a stopper +
-@ redouble = no stopper
+[green-box]#New {ndash} July 13, 2019#
 
-===== When opener passes
+This sets trump so #2^nd^-round transfers are OFF#.
+Susequent bidding is natural except that bidding the transfer suit
+is a cue-bid indicating a general good hand.
+
+==== When opener passes
 
 Responder can redouble to re-transfer but must have at least two cards
 in the transfer suit in case opener has a stack and passes.
@@ -376,7 +387,7 @@ in the transfer suit in case opener has a stack and passes.
                  [nobr]#__incl. 2^nd^-round transfers__#
 |===
 
-===== When opener redoubles
+==== When opener redoubles
 
 Opener has denied a stopper so it's preferable for responder to
 declare.
