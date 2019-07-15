@@ -224,7 +224,7 @@ Essentially this asks if balancer is minimum or medium.
 
 === Sandwich-position 1NT
 
-[green-box]#Updated {ndash} Jul 14, 2019#
+[green-box]#Updated {ndash} July 13, 2019#
 
 @ #natural# by unpassed hand, 16-19 +
 @ unusual by passed hand,
@@ -237,12 +237,12 @@ _ 5{ndash}5{OrMore} other two suits
 [%autowidth,cols="4*^,<",grid=none]
 |===
 |       |      |      | (1C)     |
-|   P   | (1H) | 1NT* | (P or X) | {emsp}* natural, 16-19
+|   P   | (1H) | 1NT* | (P{or}X) | {emsp}* natural, 16-19
 |   ?   |      |      |          |
-|  pass |      |      |          | to play
+2+<| pass      |      |         <| to play
 |   XX  |      |      |          | 2 lowest excluding suit on left,
                                    [nobr]#minors in this case#
-| 2C,2D |      |      |          | to play
+2+<| 2C,2D     |      |         <| to play
 | !2H!  |      |      |          | under-suit cue = Stayman
 | 2S    |      |      |          | to play
 | 2NT   |      |      |          | natural inv.
@@ -306,7 +306,7 @@ _ seems likely that opener will play NT
 
 === One-major overcalls
 
-[green-box]#Updated {ndash} Jul 14, 2019#
+[green-box]#Updated {ndash} July 13, 2019#
 
 @ non-jump cue = good 3-card raise,
 _ or any force +
@@ -598,10 +598,15 @@ majors.
 |      |      |     | 5om  | | to play
 |===
 
-=== vs opening 2NT showing minors
+=== Vs 2NT-Opening = minors
 
-This is part of Fantunes and Polish Club.
-Some strong-1{C} pairs play it.
+[green-box]#Added {ndash} July 14, 2019#
+
+A 2NT opening showing a weak hand with both minors is part of Fantunes
+and Polish Club.
+Some strong-1{C} pairs also play it.
+
+&Our defence&
 
 Pass with both minors.  A subsequent double is penalty.
 
