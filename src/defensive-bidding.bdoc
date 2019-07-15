@@ -222,11 +222,31 @@ Essentially this asks if balancer is minimum or medium.
 | 2NT  |      | sign off
 |===
 
-=== Sandwich position
+=== Sandwich-position 1NT
 
-@ #natural#, 16-19, System OFF
-@@ under-suit cue = Stayman +
-@ unusual by PH
+[green-box]#Updated {ndash} Jul 14, 2019#
+
+@ #natural# by unpassed hand, 16-19 +
+@ unusual by passed hand,
+_ 5{ndash}5{OrMore} other two suits
+
+&Responses to natural 1NT in sandwich position&
+
+@ System OFF @ under-suit cue = Stayman
+
+[%autowidth,cols="4*^,<",grid=none]
+|===
+|       |      |      | (1C)     |
+|   P   | (1H) | 1NT* | (P or X) | {emsp}* natural, 16-19
+|   ?   |      |      |          |
+|  pass |      |      |          | to play
+|   XX  |      |      |          | 2 lowest excluding suit on left,
+                                   [nobr]#minors in this case#
+| 2C,2D |      |      |          | to play
+| !2H!  |      |      |          | under-suit cue = Stayman
+| 2S    |      |      |          | to play
+| 2NT   |      |      |          | natural inv.
+|===
 
 === vs weak two or precision 2C
 
@@ -550,7 +570,8 @@ Applies after weak two or Fantunes 2M opening.
 
 ==== vs minor
 
-Applies after natural 2m openings including weak twos, Fantunues twos and Precision-style 2C opening.
+Applies after natural 2m openings including weak twos, Fantunues twos
+and Precision-style 2C opening.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -573,6 +594,28 @@ majors.
 |===
 | (2m) | !4C! | (P) | !4D! | | requests major
 | (P)  | 4M   |     |  ?   | |
-|      |      |     | 4NT  | | 2-suit KC
+|      |      |     | 4NT  | | KC in M
 |      |      |     | 5om  | | to play
+|===
+
+=== vs opening 2NT showing minors
+
+This is part of Fantunes and Polish Club.
+Some strong-1{C} pairs play it.
+
+Pass with both minors.  A subsequent double is penalty.
+
+Double shows values but not both minors.
+#We have NOT established the balance-of-power# so a subsequent double
+by either player is take-out.
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|  !3C! | | both majors, moderate or very strong
+          [nobr]#{tribull} 3D requests longer major#
+|  !3D! | | both majors, medium
+| 3H,3S | | natural
+|  3NT  | | to play
+| !4C!,!4D! | | Slammish in corresponding major, {simto}Namyats
+| 4H,4S | | to play
 |===
