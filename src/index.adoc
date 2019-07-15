@@ -4,19 +4,23 @@
 
 <<notrump.adoc#, *NoTrump Openings*>> +
 <<notrump.adoc#_overview,
-{tribull} [.green.nobr]##Overview - July 13, 2019##>> +
+{tribull} [.green.nobr]##Overview##>>
+[nobr]#{ndash} __July 13, 2019__# +
 <<notrump.adoc#opener_accepts_doubled_xfer,
-{tribull} [.green.nobr]##Opener accepts transfer after double##
-[.green.nobr]##- July 13, 2019##>>
+{tribull} [.green.nobr]##Opener accepts transfer after double##>>
+[nobr]#{ndash} __July 13, 2019__#
 
 <<uncontested-responses.adoc#, *Uncontested Responses to Suit Openings*>>
 
-<<contested-responses.adoc#, *Responding in Contested Auctions*>>
+<<contested-responses.adoc#, *Responding in Contested Auctions*>> +
+<<contested-responses.adoc#_vs_1nt_overcall,
+{tribull} [.green.nobr]##Vs 1NT Overcall##>>
+[nobr]#{ndash} __July 15, 2019__#
 
 <<rebid-by-responder.adoc#, *Rebids by Responder in suit auctions*>> +
 <<rebid-by-responder.adoc#_openers_third_bid,
-{tribull} [.green.nobr]##4^th^-suit F1: opener's 3^rd^ bid##
-[.green.nobr]##- July 13, 2019##>>
+{tribull} [.green.nobr]##4^th^-suit F1: opener's 3^rd^ bid##>>
+[nobr]#{ndash} __July 13, 2019__#
 
 <<checkback.adoc#, *2-Way Checkback and Wolff Sign-off*>>
 
@@ -24,19 +28,19 @@
 
 <<slam-conventions.adoc#, *Slam Conventions*>> +
 <<slam-conventions.adoc#_cheap_key_card_after_preempts,
-{tribull} [.green.nobr]##Cheap KC after preempts: follow-ups##
-[.green.nobr]##- July 14, 2019##>>
+{tribull} [.green.nobr]##Cheap KC after preempts: follow-ups##>>
+[nobr]#{ndash} __July 14, 2019__#
 
 <<defensive-bidding.adoc#, *Defensive Bidding*>> +
 <<defensive-bidding.adoc#_one_major_overcalls,
-{tribull} [.green.nobr]##One-major overcalls: responses##
-[.green.nobr]##- July 13, 2019##>> +
+{tribull} [.green.nobr]##One-major overcalls: responses##>>
+[nobr]#{ndash} __July 13, 2019__# +
 <<defensive-bidding.adoc#_sandwich_position_1nt,
-{tribull} [.green.nobr]##Natural sandwich-1NT: responses##
-[.green.nobr]##- July 13, 2019##>> +
+{tribull} [.green.nobr]##Natural sandwich-1NT: responses##>>
+[nobr]#{ndash} __July 13, 2019__# +
 <<defensive-bidding.adoc#_vs_2nt_opening_minors,
-{tribull} [.green.nobr]##vs 2NT-Opening = minors##
-[.green.nobr]##- July 14, 2019##>>
+{tribull} [.green.nobr]##vs 2NT-Opening = minors##>>
+[nobr]#{ndash} __July 14, 2019__#
 
 <<competitive-bidding.adoc#, *Competitive Bidding*>>
 
