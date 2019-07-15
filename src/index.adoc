@@ -1,33 +1,33 @@
 = System Notes
 
-<<overview.adoc#, System Overview>>
+<<overview.adoc#, *System Overview*>>
 
-<<notrump.adoc#, NoTrump Openings>> +
+<<notrump.adoc#, *NoTrump Openings*>> +
 <<notrump.adoc#_overview,
 {tribull} [.green.nobr]##Overview - July 13, 2019##>> +
 <<notrump.adoc#opener_accepts_doubled_xfer,
 {tribull} [.green.nobr]##Opener accepts transfer after double##
 [.green.nobr]##- July 13, 2019##>>
 
-<<uncontested-responses.adoc#, Uncontested Responses to Suit Openings>>
+<<uncontested-responses.adoc#, *Uncontested Responses to Suit Openings*>>
 
-<<contested-responses.adoc#, Responding in Contested Auctions>>
+<<contested-responses.adoc#, *Responding in Contested Auctions*>>
 
-<<rebid-by-responder.adoc#, Rebids by Responder in suit auctions>> +
+<<rebid-by-responder.adoc#, *Rebids by Responder in suit auctions*>> +
 <<rebid-by-responder.adoc#_openers_third_bid,
 {tribull} [.green.nobr]##4^th^-suit F1: opener's 3^rd^ bid##
 [.green.nobr]##- July 13, 2019##>>
 
-<<checkback.adoc#, 2-Way Checkback and Wolff Sign-off>>
+<<checkback.adoc#, *2-Way Checkback and Wolff Sign-off*>>
 
-<<higher-openings.adoc#, Higher Opening Bids>>
+<<higher-openings.adoc#, *Higher Opening Bids*>>
 
-<<slam-conventions.adoc#, Slam Conventions>> +
+<<slam-conventions.adoc#, *Slam Conventions*>> +
 <<slam-conventions.adoc#_cheap_key_card_after_preempts,
 {tribull} [.green.nobr]##Cheap KC after preempts: follow-ups##
 [.green.nobr]##- July 14, 2019##>>
 
-<<defensive-bidding.adoc#, Defensive Bidding>> +
+<<defensive-bidding.adoc#, *Defensive Bidding*>> +
 <<defensive-bidding.adoc#_one_major_overcalls,
 {tribull} [.green.nobr]##One-major overcalls: responses##
 [.green.nobr]##- July 13, 2019##>> +
@@ -38,9 +38,9 @@
 {tribull} [.green.nobr]##vs 2NT-Opening = minors##
 [.green.nobr]##- July 14, 2019##>>
 
-<<competitive-bidding.adoc#, Competitive Bidding>>
+<<competitive-bidding.adoc#, *Competitive Bidding*>>
 
-<<defence.adoc#, Leads and Carding>>
+<<defence.adoc#, *Leads and Carding*>>
 
 '''
 
