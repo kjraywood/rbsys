@@ -331,6 +331,8 @@ Similarly, transfer then 5M = quantative 5332, forces 6 and invites 7 (like
 
 === Vs double of transfer
 
+[green-box]#Updated {ndash} July 13, 2019#
+
 The scheme is similar to when Stayman is doubled.
 The focus is on a stopper in the doubled suit.
 
@@ -340,36 +342,26 @@ _ =  3-card support, A or K of doubled suit +
 @ pass promises a stopper +
 @ redouble = no stopper
 
-==== Super accepts
-
 Our super-accept scheme is ON, except that opener may use a reverse
 transfer to make responder declare.
 
 Anti-splinter super-accepts (showing values, four-card-support and
-minumum) neither confirm nor deny control.
-A subsequent 3NT by responder shows control of the transfer-suit and
-is a slam try with preference to declare.
+minumum) neither confirm nor deny control. A subsequent 3NT by
+responder shows control of the transfer-suit and is a slam try with
+preference to declare.
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
 |  1NT  | (P) | !2D! {ensp} (X)
 |   ?   |     |
-|  2H   |     | 3-card support, {D}A or K
+|  2H   |     | 3*{H},{ensp}A or K of {D},{ensp}sets trump +
+                {tribull}  #2^nd^-round transfers are OFF#
 2+<| !2S!,!3C! <| COV, minimum +
                 {tribull} 3NT = slam-try, {D}-control, prefer to declare
 | !2NT! |     | {D}-stopper, minimum
 | !3D!  |     | clear max, prefer to be dummy
 |  3H   |     | clear max, prefer to declare
 |===
-
-[#opener_accepts_doubled_xfer]
-==== Opener accepts the doubled transfer
-
-[green-box]#New {ndash} July 13, 2019#
-
-This sets trump so #2^nd^-round transfers are OFF#.
-Susequent bidding is natural except that bidding the transfer suit
-is a cue-bid indicating a general good hand.
 
 ==== When opener passes
 

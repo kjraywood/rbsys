@@ -6,8 +6,8 @@
 <<notrump.adoc#_overview,
 {tribull} [.green.nobr]##Overview##>>
 [nobr]#{ndash} __July 13, 2019__# +
-<<notrump.adoc#opener_accepts_doubled_xfer,
-{tribull} [.green.nobr]##Opener accepts transfer after double##>>
+<<notrump.adoc#_vs_double_of_transfer,
+{tribull} [.green.nobr]##Vs double of transfer##>>
 [nobr]#{ndash} __July 13, 2019__#
 
 <<uncontested-responses.adoc#, *Uncontested Responses to Suit Openings*>>
