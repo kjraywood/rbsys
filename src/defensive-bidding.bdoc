@@ -319,14 +319,14 @@ non-jump three-level cue-bid is the most defensive-raise, usually
 three trumps, and 2NT is used for all four-card raises; a good
 mised-raise or better.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-|       |     | (1D) | 1S | 
-| (2D)  |  ?  |      |    |
-|       |  X  |      |    | responsive
-|       | 2NT |      |    | 4{OrMore}{xtimes}{S}, good mixed-raise{OrMore}
-|       | 3D  |      |    | 3{xtimes}{S}, {LRplus}
-|       | 3S  |      |    | preemptive, up to a poor mixed-raise
+|      | (1D) | 1S {emsp}(2D)
+|   ?  |      |
+|   X  |      | responsive
+| !2NT! |     | 4{OrMore}{xtimes}{S}, good mixed-raise{OrMore}
+| !3D! |      | 3{xtimes}{S}, {LRplus}
+|  3S  |      | preemptive, up to a poor mixed-raise
 |===
 
 &Rebid by overcaller&
