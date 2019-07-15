@@ -72,12 +72,9 @@ _ and 1-5-4-3
 ==== Two-way Checkback after both majors
 
 With 4{times}{D} and a minimum, opener rebids 1NT; not 2{D}.
-Following 2C by responder, opener shows this hand by bidding 2H (paradox)
-instead of accepting the relay.
-It is safe because if responder had intended to drop the auction in
-2D, then we have at least a nine-card {D}-fit.
-Opener will have at most three weak spades, because opener would
-usually have raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.
+
+Following 2C by responder, opener shows this hand by bidding 2H
+(paradox) instead of accepting the relay.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -89,6 +86,17 @@ usually have raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.
 |===
 
 Responder will often pass 2H.
+
+[NOTE]
+====
+The paradox 2H is safe because if responder had intended to drop the
+auction in 2D, then we have at least a nine-card {D}-fit.
+So gettting to 3D is acceptable.
+
+Responder need not worry about a spade fit because  opener would
+usually have raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.
+So dropping 2H will keep us low.
+====
 
 ==== Fourth suit at the 3-level
 
