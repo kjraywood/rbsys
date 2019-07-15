@@ -232,7 +232,8 @@ _ 5{ndash}5{OrMore} other two suits
 
 &Responses to natural 1NT in sandwich position&
 
-System OFF @ under-suit cue = Stayman
+@ system OFF
+@ under-suit cue = Stayman
 
 [%autowidth,cols="4*^,<",grid=none]
 |===
