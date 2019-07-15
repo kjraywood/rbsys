@@ -37,7 +37,7 @@ One of: +
 @ no fit +
 @@ good 10{orMore} HCP +
 @@ 4{orMore} cards in 2{orMore} unbid suits +
-@@ Forcing to two of opener's suit +
+@@ #Forcing to two of opener's suit# +
 @@ Subsequent doubles = 4{orMore} of their suit
 
 === Pass then double
@@ -48,7 +48,6 @@ One of: +
 | P         | (P)   | X |           | cooperative
 |===
 
-
 With 4333 and 10{OrMore} HCP, responder passes on the first
 round, then doubles on the second round.
 Opener pulls with a singleton in their suit, or with a doubleton and
@@ -58,19 +57,27 @@ five cards in the opening suit.
 
 === Raises
 
-@ jump raise = LR
-@ cue = GF raise
+.Both majors at 1-level
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1H | (1S) |  ?   | |
+|    |      | !2S! | | #GF#
+|    |      | 3H   | | #LR#, 3{OrMore}{xtimes}{H}
+|===
 
 [TIP]
 ====
-Distinguishing GF from LR provides a forcing-pass in auctions where
-the opponents compete further. +
-_e.g._{ensp}
-[lightgrey-box]#1{H}{emsp}(1{S}){emsp}!!2{S}!!{emsp}(4{S})#
+Showing a GF immediately provides a forcing-pass if the opponents
+compete further. +
 
 It also avoids problems with unauthorised-information due to a
 break-in-tempo opposite a limit-raise-or-better.
 ====
+
+&Other&
+
+@ jump-raise = weak
+@ cue = {LRplus}
 
 === Negative double vs 1D or 1H
 
