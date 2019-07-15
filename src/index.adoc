@@ -18,13 +18,19 @@
 <<higher-openings.adoc#, Higher Opening Bids>>
 
 <<slam-conventions.adoc#, Slam Conventions>> +
-<<slam-conventions.adoc#_cheap_keycard_after_preempts,
+<<slam-conventions.adoc#_cheap_key_card_after_preempts,
 {tribull} [.green.nobr]##Cheap KC after preempts: follow-ups##
 [.green.nobr]##- July 14, 2019##>>
 
 <<defensive-bidding.adoc#, Defensive Bidding>> +
 <<defensive-bidding.adoc#_one_major_overcalls,
-{tribull} [.green.nobr]##One-major overcalls##
+{tribull} [.green.nobr]##One-major overcalls: responses##
+[.green.nobr]##- July 13, 2019##>> +
+<<defensive-bidding.adoc#_sandwich_position_1nt,
+{tribull} [.green.nobr]##Natural sandwich-1NT: responses##
+[.green.nobr]##- July 13, 2019##>> +
+<<defensive-bidding.adoc#_vs_2nt_opening_minors,
+{tribull} [.green.nobr]##vs 2NT-Opening = minors##
 [.green.nobr]##- July 14, 2019##>>
 
 <<competitive-bidding.adoc#, Competitive Bidding>>
