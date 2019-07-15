@@ -20,14 +20,12 @@ __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 
 After fourth-suit forcing at the 2-level:
 
-@ 2NT, or a two-level bid of either player's
-_ first-suit
-_ = NF, rejects an invitation
+2NT, or a two-level bid of either player's first-suit
+[nobr]#= NF, rejects an invitation#
 
-@ other non-jump
-_ = F1, ambiguous strength
+other non-jump = F1, ambiguous strength
 
-@ jump = GF
+jump = GF
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
