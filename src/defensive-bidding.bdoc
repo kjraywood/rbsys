@@ -232,7 +232,7 @@ _ 5{ndash}5{OrMore} other two suits
 
 &Responses to natural 1NT in sandwich position&
 
-@ System OFF @ under-suit cue = Stayman
+System OFF @ under-suit cue = Stayman
 
 [%autowidth,cols="4*^,<",grid=none]
 |===
@@ -314,10 +314,10 @@ _ or any force +
 @ Jump cue = #split-range#
 _ = mixed-raise or GF-raise
 
-If a two-level cue-bid jump-cue to the three-level is not available,
-then the thre-level cue-bid is the most defensive-raise, usually three
-trumps, and 2NT is used for all four-card raises; a good mised-raise
-or better.
+If a two-level cue-bid to the three-level is not available, then the
+non-jump three-level cue-bid is the most defensive-raise, usually
+three trumps, and 2NT is used for all four-card raises; a good
+mised-raise or better.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
