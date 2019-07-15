@@ -156,10 +156,16 @@ No weak-two opening => +
 
 == Vs 1NT Overcall
 
-@ Dble = penalty, creates a force below 2S
+[green-box]#Updated {ndash} Jul 15, 2019#
 
-When our opening was a major, then either minor = that minor
-and the other major.
+Double = penalty +
+{tribull} creates a forcing pass over their 2m,
+_ hence double of their 2m is penalty +
+{tribull} #pass of their 2M is NOT forcing#,
+_ hence double is take-out
+
+When our opening was a major, then two of either minor shows that
+minor and the other major.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -170,17 +176,34 @@ and the other major.
 |    |       | !2NT! | | good 4{OrMore}-card raise
 |===
 
-When our opening was a minor, we play Stayman and transfers ... sort of.
+When our opening was a minor, we play Landy and transfers.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1m | (1NT) |   ?   | |
-|    |       | !2C!  | | [nobr]#majors, at least 5-4# +
-                        {tribull} 2D = you pick
+|    |       | !2C!  | | both majors
 |    |       | !2D!  | | transfer
 |    |       | !2H!  | | transfer
 |    |       | !2S!  | | other minor
 |    |       | !2NT! | | good 5{OrMore}-card raise
+|===
+
+When the opening was 1C, Landy can be used with 5-4 because
+opener can follow with 2D to show no preference.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|     | 1C   | (1NT) | !2C! | {ensp} 5{ndash}4{OrMore} majors
+| (P) | !2D! |       |      | you pick
+|===
+
+After a 1D opening, Landy shows at least 5-5 because opener cannot
+show no preference.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|     |  1D | (1NT) | !2C! | {ensp} 5{ndash}5{OrMore} majors
+| (P) |  2D |       |      | to play
 |===
 
 == Vs Two Suiters
