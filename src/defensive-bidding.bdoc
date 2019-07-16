@@ -91,11 +91,11 @@ A responsive-double of a raised major shows #four in the other major#
 
 === Direct 1NT Overcall
 
-==== They open one minor
+==== They opened one minor
 
 #System ON#, including run-out system if doubled
 
-==== They open one major
+==== They opened one major
 
 #System OFF#
 
@@ -261,9 +261,11 @@ _ 5{ndash}5{OrMore} other two suits
 
 ==== When they double
 
-If they opened !two{nbsp}of{nbsp}a{nbsp}minor! (weak-two,
-Fantunes-two, precision-2C) then we play similar to !systems{nbsp}ON!
-except that we use Landy (both majors) instead of Stayman.
+When our 2NT overcall is doubled, we mimic what we do at the one-level.
+
+They opened two-*minor* {tribull} transfers ON
+
+They opened two-*major* {tribull} transfers OFF
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -274,9 +276,6 @@ except that we use Landy (both majors) instead of Stayman.
 2+<| !3D!, !3H! |  <| transfer
 |===
 
-If they opened !two{nbsp}of{nbsp}a{nbsp}major!, then we play
-!systems{nbsp}OFF! with redouble as both minors.
-
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |      | (2M) | 2NT | (X)
@@ -284,9 +283,6 @@ If they opened !two{nbsp}of{nbsp}a{nbsp}major!, then we play
 | !XX! |      |     | both minors
 2+<| 3m, 3oM  |    <| to play
 |===
-
-TIP: This is the same, but one-level higher, as when they double after
-(1M)-1NT .
 
 == Suit Overcalls
 
