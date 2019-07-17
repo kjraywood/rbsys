@@ -76,10 +76,14 @@ __ {vsep} 3NT = short _om_ *]*
 
 &Competitive bidding:&
 @ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
-@ JS adv of overcall = nat, inv. 
+@ Neg. X then: 2oM=NF, 3oM=GF
 @ U vs U: lower of lo-cue & new-suit = NF
 @ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
 _ they are at 2M, we have doubled +
+
+&Overcalls&
+@ Jump-cue=split-range (mixed or GF)
+@ JS adv: nat inv. #when responder passed#, otherwise fit-jump
 
 &Weak Jump-Overcall:&
 @ new-suit = NF
@@ -122,8 +126,7 @@ _ KC ask = as above but not jump
 &vs weak NT:&
 @ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
 @ direct and balancing +
-@ Landy & transfers
-@ 2S, 2NT, 3m (see CC)
+@ KASTRO
 @ dble = penalty
 @@ Landy & transfers by advancer
 
