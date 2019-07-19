@@ -2,66 +2,107 @@
 
 = Reminders
 
-&1NT Opening:&
-@ rev. Crawling-Stayman
-@ *super-accepts [* jump=max
-_ {vsep} new suit = anti-splinter (2NT = Tfr suit) *]* +
-@ *2nd-round Transfers [*
-_ 3M-1 = split-range inv., 6{orMore}{times}M
-_ {vsep} 3M = COG, 6{times}M
-_ {vsep} 4M = bal. slam-inv, 5{times}M *]* +
-@ *vs double [* sys. ON
-_ {vsep} XX {forces} 2C, to play in {C} or {D} 
-_ {vsep} XX by opener = some 5-cd suit *]* +
-@ *Unified Leb. [* 3{lab}new suit{rab} = inv
-_ {vsep} neg. X then 3oM = 5{times}oM, F
-_ {vsep} slow cue or 3NT = 4{times}oM *]* +
-@ *vs 2NT (minors) [* 4-level = Namyats (not Texas)
-_ {vsep} 3m = majors ({C} = wk|str, {D} = GF)
-_ {vsep} 3M = comp. *]* +
-@ *vs 3m [* Texas OFF
-_ {vsep} 4C = om + unknown M {tribull} 4D asks
-_ {vsep} 4D = majors
-_ {vsep} 4M = to play *]*
-@ *vs 3M [* 4m = non-leaping michaels
-_ {vsep} 4oM = to play
-_ {vsep} 4M = minors
-_ {vsep} 4NT = natural inv. *]*
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| [.big.brickred]#1NT Opening#
 
-&2\C Opening:&{nbsp}
-@ *vs interference [* Pass = bust or trap
-_ {vsep} bid = natural weak
-_ {vsep} X or XX = values (not trap) *]*
+3+^d| Texas off vs 2NT{OrMore} {xbull} rev. crawling Stm
+| super +
+  accepts    || jump=max +
+                new-suit = anti-splinter +
+	        ( 2NT for t'fer suit )
+| 2^nd^ round +
+  transfers  || 3M-1 = 6{orMore}{times}M, #split-range# +
+                3M = 6{times}M, COG +
+                4M = bal. slam-inv, 5{times}M
+| vs double  || t'fers ON {xbull} XX = weak {C} or {D} +
+                #XX by opener = some 5-cd suit#
+| Unified +
+  Leb.       || 3{lab}new suit{rab} = inv +
+                neg. X then 3oM = 5{times}oM, F +
+                slow cue or 3NT = 4{times}oM
+| vs 2NT +
+  (minors)   || 4-level = Namyats (not Texas) +
+                3m = majors ({C} = wk{or}str, {D} = GF) +
+                3M = comp.
+| vs 3m      || #4C = om + unknown M# {tribull} 4D asks +
+                #4D = majors# {xbull} 4M = to play
+| vs 3M      || 4m = m + oM (non-leap michaels) +
+                4oM = to play {xbull} #4M = minors# +
+             || 4NT = natural inv.
+|===
 
-&Weak Two:&{nbsp}
-@ *vs o/call [* new-suit = NF
-_ {vsep} 2NT = nat. (Bogust OFF) *]*
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| [.big.brickred]#2\C Opening#
 
-&Major Opening:&
-@ 3/1 inv., ON vs X
-@ 3M+1 = weak splinter, OFF vs X
-@ 1H{ndash}3NT = {S}-splinter +
-@ 1M {ndash} 1NT{semicolon} 2__lower__ {ndash} 2NT
-@@ *[* old-suit NF {vsep} new-minor-relay GF *]* +
-@ *vs double [* 2NT = split-range (LR or slam-inv)
-_ {vsep} 3NT = bal. game-raise *]* +
-@ *PH responses [* 2NT = 5-5 m's inv. (ON vs X, 1S)
-_ {vsep} 3/1 = fit showing
-_ {vsep} JR = weak splinter *]*
+| vs interference || Pass = bust or trap +
+                     bid = natural weak +
+                     X or XX = values (not trap)
+|===		     
 
-&Minor Opening:&
-@ *vs double [* 2NT = bal. LR, NF
-_ {vsep} 3NT = bal. GR
-_ {vsep} JS om = unbal. LR{orMore}
-_ {vsep} other JS = inv. *]*
-@ *PH responses [* 2m = 6-10
-_ {vsep} 3m = unbal. LR
-_ {vsep} 2S = bal. LR
-_ {vsep} JS om = fit showing *]*
 
-&Two over One:&
-@ 1M {ndash} 2C{semicolon} 2D {ndash} !2oM! = real clubs
-@ 1M {ndash} 2C{semicolon} 2M = 6{orMore}{xtimes}M
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| [.big.brickred]#Weak Two#
+
+| vs overcall  || new-suit = NF +
+                   2NT = nat. (Bogust OFF)
+|===
+
+
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| [.big.brickred]#Major Opening#
+
+| Jump shift   || inv., ON vs X
+| Splinters    || 3M+1 = wk splinter
+                  @@ #OFF vs X# +
+                  1H{ndash}3NT  = {S}-splinter
+| vs double    || 2NT = split-range (LR or SI) +
+                  #3NT = bal. game-raise#
+| Passed-hand +
+  responses    || 2NT = 5-5 minors inv.
+                  @@ #ON vs X, 1S# +
+                  3/1 = fit showing +
+                  jump-raise = wk splinter
+| semi-forcing
+  1NT          |
+^.^a|
+[%autowidth,cols="2*<",grid="none",stripes=none,frame=none]
+!===
+! 1M  ! !!1NT!!
+! 2{lab}__lower__{rab}
+      ! 2NT
+! {ensp}? !
+2+<! old-suit = NF
+2+<! unbid-minor = #relay#
+!===
+|===
+
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| [.big.brickred]#Minor Opening#
+
+| vs double   || 2NT = bal. LR, #NF# +
+                 3NT = bal. GR +
+                 JS om = unbal. LR{orMore} +
+                 other JS = inv.
+| Passed-hand +
+  responses    || 2m = 6-10 {xbull} 3m = unbal. LR +
+                  2S = bal. LR +
+                  JS om = fit showing
+|===
+
+
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| [.big.brickred]#Two over One#
+
+| nebulous +
+  2\C         || 1M {ndash} !2C!{semicolon} 2D {ndash} !2oM! = real clubs +
+                 1M {ndash} !2C!{semicolon} 2M = 6{orMore}{xtimes}M
+|===
 
 &Uncontested rebids:&
 @ 2nd-round raise of minor = GF
