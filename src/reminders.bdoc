@@ -4,7 +4,7 @@
 
 [%autowidth,cols=".^s,2*<",grid="none"]
 |===
-3+^d| [.big.brickred]#1NT Opening#
+3+^d| 1NT Opening
 
 3+^d| Texas off vs 2NT{OrMore} {xbull} rev. crawling Stm
 | super +
@@ -25,7 +25,7 @@
   (minors)   || 4-level = Namyats (not Texas) +
                 3m = majors ({C} = wk{or}str, {D} = GF) +
                 3M = comp.
-| vs 3m      || #4C = om + unknown M# {tribull} 4D asks +
+| vs 3m      || #4C = om + M {tribull} 4D asks which M# +
                 #4D = majors# {xbull} 4M = to play
 | vs 3M      || 4m = m + oM (non-leap michaels) +
                 4oM = to play {xbull} #4M = minors# +
@@ -34,7 +34,7 @@
 
 [%autowidth,cols=".^s,2*<",grid="none"]
 |===
-3+^d| [.big.brickred]#2\C Opening#
+3+^d| 2\C Opening
 
 | vs interference || Pass = bust or trap +
                      bid = natural weak +
@@ -44,7 +44,7 @@
 
 [%autowidth,cols=".^s,2*<",grid="none"]
 |===
-3+^d| [.big.brickred]#Weak Two#
+3+^d| Weak Two
 
 | vs overcall  || new-suit = NF +
                    2NT = nat. (Bogust OFF)
@@ -53,7 +53,7 @@
 
 [%autowidth,cols=".^s,2*<",grid="none"]
 |===
-3+^d| [.big.brickred]#Major Opening#
+3+^d| Major Opening
 
 | Jump shift   || inv., ON vs X
 | Splinters    || 3M+1 = wk splinter
@@ -69,7 +69,7 @@
 | semi-forcing
   1NT          |
 ^.^a|
-[%autowidth,cols="2*<",grid="none",stripes=none,frame=none]
+[%autowidth,cols="2*<",grid="none"]
 !===
 ! 1M  ! !!1NT!!
 ! 2{lab}__lower__{rab}
@@ -82,7 +82,7 @@
 
 [%autowidth,cols=".^s,2*<",grid="none"]
 |===
-3+^d| [.big.brickred]#Minor Opening#
+3+^d| Minor Opening
 
 | vs double   || 2NT = bal. LR, #NF# +
                  3NT = bal. GR +
@@ -97,30 +97,65 @@
 
 [%autowidth,cols=".^s,2*<",grid="none"]
 |===
-3+^d| [.big.brickred]#Two over One#
+3+^d| Two over One
 
 | nebulous +
-  2\C         || 1M {ndash} !2C!{semicolon} 2D {ndash} !2oM! = real clubs +
+  2\C         || 1M {ndash} !2C!{semicolon} !2D! {ndash} !2oM! = real clubs +
                  1M {ndash} !2C!{semicolon} 2M = 6{orMore}{xtimes}M
 |===
 
-&Uncontested rebids:&
-@ 2nd-round raise of minor = GF
-@ 1m {ndash} 1M{semicolon} 1NT {ndash} !2C!{semicolon} !2D! {ndash} !3NT! = COG +
-@ Reverse after 1NT = unbal. raise to 2NT
-@@ 2NT = NF (not Leb.) +
-@ we bid 3 suits & auction is NF
-@@ jump to 3NT = 16-17 always +
-@ 1m {ndash} 1M{semicolon} 2M {ndash} !3om! = GF enquiry
-@@ *[* 3M = 4-cd suit {vsep} 3oM = shortness
-__ {vsep} 3NT = short _om_ *]*
+[%autowidth,cols="2*^.<a",grid="none"]
+|===
+2+^d| Uncontested auctions
 
-&Competitive bidding:&
-@ 2oM neg. free-bid = 6*M, 7{ndash}11{orLess}
-@ Neg. X then: 2oM=NF, 3oM=GF
-@ U vs U: lower of lo-cue & new-suit = NF
-@ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
-_ they are at 2M, we have doubled +
+2+<d| 2nd-round raise of minor = GF +
+2+<d| reverse after 1NT
+@@ 2NT = NF (not Leb.) +
+2+<d| we bid 3 suits
+@@ jump to 3NT = 16-17 +
+|
+[%autowidth,cols="^,<",grid="none"]
+!===
+! 1m ! 1M
+! 2M ! !!3om!! {ensp} GF
+! ?  !
+! 3M ! {ensp} 4*M
+! !!3oM!! ! {ensp} 3*M, +
+            {ensp} short oM
+! !!3NT!! ! {ensp} 3*M, +
+            {ensp} short om
+!===
+|
+[%autowidth,cols="^,<",grid="none"]
+!===
+!    ! 1D
+! 1S ! 2D
+! ?  !
+! 2H ! {ensp} nat. inv., +
+       {ensp} or GF + {H}-val +
+       @@ 3C = 4*{H} min
+! !!3C!! ! {ensp} inv in {D} or {S}, +
+       {ensp} or GF + {C}-val
+!===
+|===
+
+// @ 1m {ndash} 1M{semicolon} 1NT {ndash} !2C!{semicolon} !2D! {ndash} !3NT! = COG +
+
+
+[%autowidth,cols=".^s,2*<.^",grid="none"]
+|===
+3+^d| Competitive bidding:
+
+| neg. +
+  free-bid  ||  2oM = 6*M, 7{ndash}11{orLess}
+@@ 2NT = Bogust
+| neg.{nbsp}dble || Shows 4{or}5{xtimes}oM +
+                    {tribull} rebid = 5, 2oM=NF, 3oM=GF
+| Un vs Un  || lower of lo-cue & new-suit = NF
+|===
+
+// @ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
+// _ they are at 2M, we have doubled +
 
 &Overcalls&
 @ Jump-cue=split-range (mixed or GF)
