@@ -136,7 +136,29 @@
 |    | !3C! | | inv in {D} or {S}, or GF + {C}-val
 |===
 
-// @ 1m {ndash} 1M{semicolon} 1NT {ndash} !2C!{semicolon} !2D! {ndash} !3NT! = COG +
+[%autowidth,cols="<.^a",grid="none"]
+|===
+^d| 2-Way Checkback
+
+d| ON vs double {xbull} OFF vs overcall
+|
+[%autowidth,cols="2*^,<",grid="none"]
+!===
+!   1m   !   1M    !
+!   1NT  ! !!2C!!  !
+! !!2D!! ! !!3NT!! ! COG 5*M
+!===
+
+|
+[%autowidth,cols="^,2*<",grid="none"]
+!===
+! 1m   !  1M !
+! 1NT  ! {thinsp}? !
+!      ! 3{lab}lower{rab} ! 5-5, good suits
+!      ! 3M  ! COG 6*M, +
+               or set trump for KC
+!===
+|===
 
 
 [%autowidth,cols=".^s,2*<.^",grid="none"]
@@ -160,7 +182,7 @@
 3+^d| Advancing Overcalls
 
 | Jump cue   || split-range (mixed or GF)
-| Jump shift || (1C)-1H-##(pass)##-2S = nat., 6*{S}, 13{OrMore} +
+| Jump shift || (1C)-1H-##(pass)##-2S = 6*{S}, 13{OrMore} +
                 fit-showing vs 3rd-hand non-pass
 |===
 
