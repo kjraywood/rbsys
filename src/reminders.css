@@ -263,10 +263,9 @@ blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
     column-count: 2;
     -webkit-column-count: 2;
     -moz-column-count: 2;
-    /* column-rule: 0.05em solid grey; */
-    column-gap: 60px;
-    -webkit-column-gap: 60px;
-    -moz-column-gap: 60px;
+    /* column-gap: 60px; */
+    /* -webkit-column-gap: 60px; */
+    /* -moz-column-gap: 60px; */
   }
 }
 
@@ -274,13 +273,15 @@ blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
 table { background: #fff; margin-top: 0.25em; margin-bottom: 1.5em; border: solid 1px #ddd; }
 table thead, table tfoot { background: #f7f7f7; }
 
-table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.125em 0.5em;
-									     font-size: larger;
-									     font-weight: bold;
-									     color: #fff;
-									     background: #0000bf;
-									     text-align: left;
-									   }
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td
+{ padding: 0.125em 0.5em;
+  font-size: larger;
+  font-weight: bold;
+  color: #000;
+  /* background: #e5b6b6; */
+  background: #bdc7ed;
+ text-align: left;
+}
 
 table tr th, table tr td { padding: 0.2em 0.5em 0.05em 0.5em; font-size: inherit; color: #000; }
 table tr.odd, table tr.alt, table tr:nth-of-type(odd) { background: #e7e7e7; }
