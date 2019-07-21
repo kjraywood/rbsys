@@ -6,8 +6,6 @@
 
 === Overview
 
-[green-box]#New {ndash} July 13, 2019#
-
 [%autowidth,cols="^,<",grid="none"]
 |===
 | 2C    | Stayman, promises a 4-card major, Smolen, Baze,
@@ -331,8 +329,6 @@ Similarly, transfer then 5M = quantative 5332, forces 6 and invites 7 (like
 
 === Vs double of transfer
 
-[green-box]#Updated {ndash} July 13, 2019#
-
 The scheme is similar to when Stayman is doubled.
 The focus is on a stopper in the doubled suit.
 
@@ -495,7 +491,7 @@ Similar to our defence to a 2NT opening that shows both minors:
 @ pass = nothing or penalty of both suits
 @@ subsequent double = penalty +
 @ X = values
-@@ subsequent double by either = penalty +
+@@ [orange-bg]#subsequent double by either = ??# +
 @ 3C = both majors weak or strong
 @ 3D = both majors medium
 @ 3H, 3S = competitive (NF, mild inv.)
