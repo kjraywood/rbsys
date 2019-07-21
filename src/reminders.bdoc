@@ -131,9 +131,13 @@
 
 | 1D |  1S  | |
 | 2D |  ?   | |
-|    |  2H  | | nat. inv., or GF + {H}-val +
-                {tribull} !3C! = 4*{H} min
-|    | !3C! | | inv in {D} or {S}, or GF + {C}-val
+|    |  2H  | | nat. inv. {or} GF with {H}-val +
+                {tribull} !3C! = 4*{H} min +
+		{emsp}     3H  = 4*{H} max
+|    | !3C! | | inv in {D} {or} inv in {S} {or} GF with {C}-val +
+                {tribull} 3D = reject +
+		{emsp}    3H = accept w/o {S} tol +
+		{emsp}    3S = accept with {S} tol
 |===
 
 [%autowidth,cols="<.^a",grid="none", stripes="none"]
