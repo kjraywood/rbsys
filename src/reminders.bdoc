@@ -36,22 +36,21 @@
 |===
 2+^d| Major Opening
 
-| Jump shift  | inv., opener can pass or force
-| Splinters   | 3M+1 = wk splinter +
+| JS (3/1)    | inv. {tribull} opener can pass or force
+| splinters   | 3M+1 = weak splinter +
                 1H{ndash}3NT  = {S}-splinter +
-| vs double   | 2NT = split-range (LR or SI) +
+| vs dble     | 2NT = split-range (LR or SI) +
                 #3NT = bal. game-raise# +
 	        JS = inv {xbull} normal splinters
-| Passed-hand +
-  responses   | 2NT = 5-5 {C}{ndash}{D}, inv., #ON vs X,1S# +
+| PH resp.    | 2NT = 5-5 minors, inv., #ON vs X,1S# +
                 JS = fit showing +
-                jump-raise = wk splinter
-| 2/1 (neb.{nbsp}2C)
+                jump-raise = weak splinter
+| {emsp} 2/1 +
+ (neb.{nbsp}2C)
               | 1M {ndash} !2C!{semicolon} !2D! {ndash} !2oM!
 	        = real{nbsp}clubs +
                 1M {ndash} !2C!{semicolon} 2M = 6{orMore}{xtimes}M
 |===
-
 
 [%autowidth,cols=".^a,^.^,.^",grid="none"]
 |===
@@ -63,41 +62,25 @@
 1M : !1NT!
 2{lab}__lower__{rab} : 2NT
 :===
-    | {tribull}
-          |  old-suit = NF +
-	     #unbid-minor = GF relay#
+    | {tribull} | old-suit = NF +
+	          #unbid-minor = GF relay#
 |===
 
-[%autowidth,cols="2*.^s,<",grid="none"]
+[%autowidth,cols=".^s,<",grid="none"]
 |===
-3+^d| Minor Opening
+2+^d| Minor Opening
 
-| vs double     || 2NT = bal. LR, #NF# +
-                   3NT = bal. GR +
-                   JS om = unbal. LR{orMore} +
-                   other JS = inv.
-| Passed{hyph}hand +
-  responses     || 2m = 6-10 {xbull} 3m = unbal. LR +
-                   2S = bal. LR +
-                   JS om = fit showing
-^.^s| 1D {ndash} 2C |
-               <d| 2{D} = 5{OrMore} {xbull} 2M = 4{ndash}4 (M{ndash}{D}) +
-		   #!!3NT!! = 4-4-4-1, 16-17#
-|===
-
-
-[%autowidth,cols="2*.^s,<",grid="none"]
-|===
-3+^d| Two-level Openings
-
-| 2C {ndash} (X or bid) | {tribull}
-                | XX = values, not {C}-length +
-                  pass = bust or trap +
-                  bid = natural weak +
-| Weak two {ndash} +
-  they overcall | {tribull}
-                | new-suit = NF +
-                  2NT = nat. #(Bogust OFF)#
+| vs double     | 2NT = bal. LR, #NF# +
+                  3NT = bal. GR +
+                  JS om = unbal. LR{orMore} +
+                  other JS = inv.
+| PH +
+  responses     | 2m = 6-10 {xbull} #3m = unbal. LR# +
+                  2S = bal. LR +
+                  JS om = fit showing
+| {ensp} 1D {ndash} 2C
+                | 2{D} = 5{OrMore} {xbull} 2M = 4{ndash}4 (M{ndash}{D}) +
+	          #!!3NT!! = 4-4-4-1, 16-17#
 |===
 
 [%autowidth,cols="<",grid="none"]
@@ -181,13 +164,27 @@ d| ON vs double {xbull} OFF vs overcall
 // _ they are at 2M, we have doubled +
 
 
-[%autowidth,cols=".^s,2*<",grid="none"]
+[%autowidth,cols="2*.^s,<",grid="none"]
 |===
-3+^d| Advancing Overcalls
+3+^d| Two-level Openings
 
-| Jump cue   || split-range (mixed or GF)
-| Jump shift || (1C)-1H-##(pass)##-2S = 6*{S}, 13{OrMore} +
-                fit-showing vs 3rd-hand non-pass
+| 2C {ndash} (X or bid) | {tribull}
+                | XX = values, not {C}-length +
+                  pass = bust or trap +
+                  bid = natural weak +
+| Weak two {ndash} +
+  they overcall | {tribull}
+                | new-suit = NF +
+                  2NT = nat. #(Bogust OFF)#
+|===
+
+[%autowidth,cols=".^s,<",grid="none"]
+|===
+2+^d| Advancing Overcalls
+
+| Jump cue   | split-range (mixed or GF)
+| Jump shift | (1C)-1H-##(pass)##-2S = 6*{S}, 13{OrMore} +
+               fit-showing vs 3rd-hand non-pass
 |===
 
 
@@ -200,19 +197,19 @@ d| ON vs double {xbull} OFF vs overcall
 |===
 
 
-[%autowidth,cols=".^s,2*<",grid="none"]
+[%autowidth,cols=".^s,<",grid="none"]
 |===
-3+^d| 2NT Overcalls
+2+^d| 2NT Overcalls
 
 | (2m) {ndash} 2NT +
-  = 15 - 18        || reg. Stayman & Smolen +
-		      3S = om +
-		      *vs dble:* tfrs ON, XX = om
+  = 15 - 18        | reg. Stayman & Smolen +
+		     3S = om +
+		     *vs dble:* tfrs ON, XX = om
 | (2M) {ndash} 2NT +
-  = 16 - 19        || 5-cd Stayman (for oM) +
-		      tfr to their M = inv oM +
-		       3S = minors +
-		      *vs dble:* tfrs OFF, XX = minors
+  = 16 - 19        | 5-cd Stayman (for oM) +
+		     tfr to their M = inv oM +
+		     3S = minors +
+		     *vs dble:* tfrs OFF, XX = minors
 |===
 
 
