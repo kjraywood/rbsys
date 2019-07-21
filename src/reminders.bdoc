@@ -127,7 +127,7 @@
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-4+^| After minor-suit rebid
+4+^| Opener rebids minor-suit
 
 | 1D |  1S  | |
 | 2D |  ?   | |
@@ -144,11 +144,11 @@
 3+^d| Competitive bidding:
 
 | neg. +
-  free-bid  ||  2oM = 6*M, 7{ndash}11{orLess}
-@@ 2NT = Bogust
+  free-bid       || 2oM = 6*M, inv. or less +
+                    {tribull} 2NT = Bogust
 | neg.{nbsp}dble || Shows 4{or}5{xtimes}oM +
                     {tribull} rebid = 5, 2oM=NF, 3oM=GF
-| Un vs Un  || lower of lo-cue & new-suit = NF
+| Un vs Un       || lower of lo-cue & new-suit = NF
 |===
 
 // @ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
@@ -194,8 +194,8 @@
 |===
 ^| Balancing
 
-| cue minor = majors
-| cue major = minors #(not Michaels)#
+| cue of minor = majors
+| cue of major = minors #(not Michaels)#
 | we bal. 1M {tribull} unbid-minor = LR{orMore}
 |===
 
