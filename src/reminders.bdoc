@@ -8,7 +8,7 @@
 
 3+^d| Texas off vs 2NT{OrMore} {xbull} rev. crawling Stm
 | super +
-  accepts    || jump=max +
+  accepts    || jump = max +
                 new-suit = anti-splinter +
 	        ( 2NT for t'fer suit )
 | 2^nd^ round +
@@ -32,111 +32,105 @@
              || 4NT = natural inv.
 |===
 
-[%autowidth,cols=".^s,2*<",grid="none"]
+[%autowidth,cols=".^s,<",grid="none"]
 |===
-3+^d| 2\C Opening
+2+^d| Major Opening
 
-| vs interference || Pass = bust or trap +
-                     bid = natural weak +
-                     X or XX = values (not trap)
-|===		     
-
-
-[%autowidth,cols=".^s,2*<",grid="none"]
-|===
-3+^d| Weak Two
-
-| vs overcall  || new-suit = NF +
-                   2NT = nat. (Bogust OFF)
-|===
-
-
-[%autowidth,cols=".^s,2*<",grid="none"]
-|===
-3+^d| Major Opening
-
-| Jump shift   || inv., ON vs X
-| Splinters    || 3M+1 = wk splinter
-                  @@ #OFF vs X# +
+| Jump shift    | inv., ON vs X
+| Splinters     | 3M+1 = wk splinter, #OFF vs X# +
                   1H{ndash}3NT  = {S}-splinter
-| vs double    || 2NT = split-range (LR or SI) +
+| vs double     | 2NT = split-range (LR or SI) +
                   #3NT = bal. game-raise#
 | Passed-hand +
-  responses    || 2NT = 5-5 minors inv.
-                  @@ #ON vs X, 1S# +
-                  3/1 = fit showing +
+  responses     | 2NT = 5-5 minors inv., #ON vs X,1S# +
+                  JS = fit showing +
                   jump-raise = wk splinter
-| semi-forcing
-  1NT          |
-^.^a|
-[%autowidth,cols="2*<",grid="none"]
-!===
-! 1M  ! !!1NT!!
-! 2{lab}__lower__{rab}
-      ! 2NT
-! {ensp}? !
-2+<! old-suit = NF
-2+<! unbid-minor = #relay#
-!===
+| 2/1 (neb. 2C) | 1M {ndash} !2C!{semicolon} !2D! {ndash} !2oM! = real{nbsp}clubs +
+                  1M {ndash} !2C!{semicolon} 2M = 6{orMore}{xtimes}M
 |===
 
-[%autowidth,cols=".^s,2*<",grid="none"]
+
+[%autowidth,cols=".^a,^.^,.^",grid="none"]
+|===
+3+^d| Semi-forcing NT
+
+|
+[grid="none"]
+:===
+1M : !1NT!
+2{lab}__lower__{rab} : 2NT
+:===
+    | {tribull}
+          |  old-suit = NF +
+	     #unbid-minor = GF relay#
+|===
+
+[%autowidth,cols="2*.^s,<",grid="none"]
 |===
 3+^d| Minor Opening
 
-| vs double   || 2NT = bal. LR, #NF# +
-                 3NT = bal. GR +
-                 JS om = unbal. LR{orMore} +
-                 other JS = inv.
-| Passed-hand +
-  responses    || 2m = 6-10 {xbull} 3m = unbal. LR +
-                  2S = bal. LR +
-                  JS om = fit showing
+| vs double     || 2NT = bal. LR, #NF# +
+                   3NT = bal. GR +
+                   JS om = unbal. LR{orMore} +
+                   other JS = inv.
+| Passed{hyph}hand +
+  responses     || 2m = 6-10 {xbull} 3m = unbal. LR +
+                   2S = bal. LR +
+                   JS om = fit showing
+^.^s| 1D {ndash} 2C |
+               <d| 2{D} = 5{OrMore} {xbull} 2M = 4{ndash}4 (M{ndash}{D}) +
+		   #!!3NT!! = 4-4-4-1, 16-17#
 |===
 
 
-[%autowidth,cols=".^s,2*<",grid="none"]
+[%autowidth,cols="2*.^s,<",grid="none"]
 |===
-3+^d| Two over One
+3+^d| Two-level Openings
 
-| nebulous +
-  2\C         || 1M {ndash} !2C!{semicolon} !2D! {ndash} !2oM! = real clubs +
-                 1M {ndash} !2C!{semicolon} 2M = 6{orMore}{xtimes}M
+| 2C {ndash} (X or bid) | {tribull}
+                | XX = values, not {C}-length +
+                  pass = bust or trap +
+                  bid = natural weak +
+| Weak two {ndash} +
+  they overcall | {tribull}
+                | new-suit = NF +
+                  2NT = nat. #(Bogust OFF)#
 |===
 
-[%autowidth,cols="2*^.<a",grid="none"]
+[%autowidth,cols="<",grid="none"]
 |===
-2+^d| Uncontested auctions
+^| Uncontested auctions
 
-2+<d| 2nd-round raise of minor = GF +
-2+<d| reverse after 1NT
-@@ 2NT = NF (not Leb.) +
-2+<d| we bid 3 suits
-@@ jump to 3NT = 16-17 +
-|
-[%autowidth,cols="^,<",grid="none"]
-!===
-! 1m ! 1M
-! 2M ! !!3om!! {ensp} GF
-! ?  !
-! 3M ! {ensp} 4*M
-! !!3oM!! ! {ensp} 3*M, +
-            {ensp} short oM
-! !!3NT!! ! {ensp} 3*M, +
-            {ensp} short om
-!===
-|
-[%autowidth,cols="^,<",grid="none"]
-!===
-!    ! 1D
-! 1S ! 2D
-! ?  !
-! 2H ! {ensp} nat. inv., +
-       {ensp} or GF + {H}-val +
-       @@ 3C = 4*{H} min
-! !!3C!! ! {ensp} inv in {D} or {S}, +
-       {ensp} or GF + {C}-val
-!===
+| 2nd-round raise of minor = GF +
+| reverse after 1NT
+  @@ 2NT = NF (not Leb.) +
+| we bid 3 suits
+  @@ jump to 3NT = 16-17 +
+| back-preference after opener raises = NF +
+  {ensp} _e.g._ 1C{ndash}1H; 2H{ndash}3C = NF (only 4*{H})
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+3+^| 1m{ndash}1M{semicolon}2M
+
+|  1m   | 1M    |
+|  2M   | !3om! | {ensp} GF enquiry
+|  ?    |       |
+|  3M   |       | 4-cd raise
+| !3oM! |       | 3-cd raise, short oM
+| !3NT! |       | 3-cd raise, short om
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+4+^| After minor-suit rebid
+
+| 1D |  1S  | |
+| 2D |  ?   | |
+|    |  2H  | | nat. inv., or GF + {H}-val +
+                {tribull} !3C! = 4*{H} min
+|    | !3C! | | inv in {D} or {S}, or GF + {C}-val
 |===
 
 // @ 1m {ndash} 1M{semicolon} 1NT {ndash} !2C!{semicolon} !2D! {ndash} !3NT! = COG +
@@ -157,65 +151,80 @@
 // @ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
 // _ they are at 2M, we have doubled +
 
-&Overcalls&
-@ Jump-cue=split-range (mixed or GF)
-@ JS adv: nat inv. #when responder passed#, otherwise fit-jump
 
-&Weak Jump-Overcall:&
-@ new-suit = NF
-@ 3NT or X by PH = save suggesting
-@ raise = competetive
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| Advancing Overcalls
 
-&2NT Overcalls:&
-@ *vs nat. 2m [* 2NT = 15 {ndash} 18
-_ {vsep} reg. Stayman & Smolen
-_ {vsep} 3S = om *]* +
-@ *vs nat. 2M*
-_ *[* 2NT = 16 {ndash} 19
-_ {vsep} 5-cd Stayman (for oM)
-_ {vsep} tfr to their M = inv oM
-_ {vsep} 3S = MSS *]*
+| Jump cue   || split-range (mixed or GF)
+| Jump shift || (1C)-1H-##(pass)##-2S = nat., 6*{S}, 13{OrMore} +
+                fit-showing vs 3rd-hand non-pass
+|===
 
-&Balancing:&
-@ cue m = M's
-@ cue M = m's (not Michaels)
-@ we bal. 1M {tribull} unbid-minor = LR{orMore}
 
-&Kickback for hearts:&
-@ requires trump agreement
-@ fake splinter sometimes used to set trump
-@ picture jumps have priority over KC asking
-@ majors have priority over minors
+[%autowidth,cols="<",grid="none"]
+|===
+^| Weak Jump-Overcalls
 
-//@ two-suit KC in double-fit auctions
+| new-suit = NF
+| #3NT or X by PH = save suggesting#
+|===
 
-&Minorwood:&
-@ requires trump agreement
-@ in comp., KC ask = [underline]#jump# to cheapest
-_ unbid-suit above 4m +
-@ *3-level w/o agreement:*{nbsp}
-_ KC ask = cheaper of
-_ *[* unbid {vsep} 4th suit {vsep} opener's 2nd suit *]* +
-@ *4-level agreement:*{nbsp}
-_ KC ask = as above but not jump
 
-&vs weak NT:&
-@ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
-@ direct and balancing +
-@ KASTRO
-@ dble = penalty
-@@ Landy & transfers by advancer
+[%autowidth,cols=".^s,2*<",grid="none"]
+|===
+3+^d| 2NT Overcalls
 
-&Carding:&
-@  when known-length = 6{orMore}
-@@ middle-enc. & suit-pref  +
-// @ lead 2nd high thru decl. to dummy weakness
-@ *vs NT when decl. runs a suit*
-_ *[* early discard in led suit = not ready to run
-_ {vsep} quick enc. discard = quick entry *]*
+| (2m) {ndash} 2NT +
+  = 15 - 18        || reg. Stayman & Smolen +
+		      3S = om +
+		      *vs dble:* tfrs ON, XX = om
+| (2M) {ndash} 2NT +
+  = 16 - 19        || 5-cd Stayman (for oM) +
+		      tfr to their M = inv oM +
+		       3S = minors +
+		      *vs dble:* tfrs OFF, XX = minors
+|===
 
-[bold-brickred]#Playing & Defending:#
-@ when they tank, we think
-@ predict declarer's shape +
-@ dummy hits:
-_ review {forces} plan {forces} "`__I'm ready to play__`" +
+
+[%autowidth,cols="<",grid="none"]
+|===
+^| Balancing
+
+| cue minor = majors
+| cue major = minors #(not Michaels)#
+| we bal. 1M {tribull} unbid-minor = LR{orMore}
+|===
+
+// &Kickback for hearts:&
+// @ requires trump agreement
+// @ fake splinter sometimes used to set trump
+// @ picture jumps have priority over KC asking
+// @ majors have priority over minors
+
+// //@ two-suit KC in double-fit auctions
+
+// &Minorwood:&
+// @ requires trump agreement
+// @ in comp., KC ask = [underline]#jump# to cheapest
+// _ unbid-suit above 4m +
+// @ *3-level w/o agreement:*{nbsp}
+// _ KC ask = cheaper of
+// _ *[* unbid {vsep} 4th suit {vsep} opener's 2nd suit *]* +
+// @ *4-level agreement:*{nbsp}
+// _ KC ask = as above but not jump
+
+// &vs weak NT:&
+// @ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
+// @ direct and balancing +
+// @ KASTRO
+// @ dble = penalty
+// @@ Landy & transfers by advancer
+
+// &Carding:&
+// @  when known-length = 6{orMore}
+// @@ middle-enc. & suit-pref  +
+// // @ lead 2nd high thru decl. to dummy weakness
+// @ *vs NT when decl. runs a suit*
+// _ *[* early discard in led suit = not ready to run
+// _ {vsep} quick enc. discard = quick entry *]*
