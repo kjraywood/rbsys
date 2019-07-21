@@ -2,51 +2,54 @@
 
 = Reminders
 
-[%autowidth,cols=".^s,2*<",grid="none"]
+[%autowidth,cols=".^s,<",grid="none"]
 |===
-3+^d| 1NT Opening
+2+^d| 1NT Opening
 
-3+^d| Texas off vs 2NT{OrMore} {xbull} rev. crawling Stm
+2+^d| Texas off vs 2NT{OrMore} {xbull} rev. crawling Stm
 | super +
-  accepts    || jump = max +
+  accepts    | jump = max +
                 new-suit = anti-splinter +
-	        ( 2NT for t'fer suit )
+	        ( 2NT for tfr suit )
 | 2^nd^ round +
-  transfers  || 3M-1 = 6{orMore}{times}M, #split-range# +
+  transfers  | 3M-1 = 6{orMore}{times}M, #GI or SI# (split-range) +
                 3M = 6{times}M, COG +
                 4M = bal. slam-inv, 5{times}M
-| vs double  || t'fers ON {xbull} XX = weak {C} or {D} +
+| vs double  | tfrs ON {xbull} XX = {C} or {D}, weak +
                 #XX by opener = some 5-cd suit#
 | Unified +
-  Leb.       || 3{lab}new suit{rab} = inv +
+  Leb.       | 3{lab}new suit{rab} = inv +
                 neg. X then 3oM = 5{times}oM, F +
                 slow cue or 3NT = 4{times}oM
 | vs 2NT +
-  (minors)   || 4-level = Namyats (not Texas) +
+  (minors)   | 4-level = Namyats (not Texas) +
                 3m = majors ({C} = wk{or}str, {D} = GF) +
                 3M = comp.
-| vs 3m      || #4C = om + M {tribull} 4D asks which M# +
+| vs 3m      | #4C = om + M {tribull} 4D asks which M# +
                 #4D = majors# {xbull} 4M = to play
-| vs 3M      || 4m = m + oM (non-leap michaels) +
+| vs 3M      | 4m = m + oM (non-leap michaels) +
                 4oM = to play {xbull} #4M = minors# +
-             || 4NT = natural inv.
+             | 4NT = natural inv.
 |===
 
 [%autowidth,cols=".^s,<",grid="none"]
 |===
 2+^d| Major Opening
 
-| Jump shift    | inv., ON vs X
-| Splinters     | 3M+1 = wk splinter, #OFF vs X# +
-                  1H{ndash}3NT  = {S}-splinter
-| vs double     | 2NT = split-range (LR or SI) +
-                  #3NT = bal. game-raise#
+| Jump shift  | inv., opener can pass or force
+| Splinters   | 3M+1 = wk splinter +
+                1H{ndash}3NT  = {S}-splinter +
+| vs double   | 2NT = split-range (LR or SI) +
+                #3NT = bal. game-raise# +
+	        JS = inv {xbull} normal splinters
 | Passed-hand +
-  responses     | 2NT = 5-5 minors inv., #ON vs X,1S# +
-                  JS = fit showing +
-                  jump-raise = wk splinter
-| 2/1 (neb. 2C) | 1M {ndash} !2C!{semicolon} !2D! {ndash} !2oM! = real{nbsp}clubs +
-                  1M {ndash} !2C!{semicolon} 2M = 6{orMore}{xtimes}M
+  responses   | 2NT = 5-5 {C}{ndash}{D}, inv., #ON vs X,1S# +
+                JS = fit showing +
+                jump-raise = wk splinter
+| 2/1 (neb.{nbsp}2C)
+              | 1M {ndash} !2C!{semicolon} !2D! {ndash} !2oM!
+	        = real{nbsp}clubs +
+                1M {ndash} !2C!{semicolon} 2M = 6{orMore}{xtimes}M
 |===
 
 
