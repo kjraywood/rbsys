@@ -486,12 +486,20 @@ Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 
 ==== Vs 2NT (minors)
 
-Similar to our defence to a 2NT opening that shows both minors:
+[NOTE]
+====
+Our defence to 2NT intervention is similar to our defence to a 2NT
+opening that shows both minors.
+However, when a 2NT opening is doubled, we play the next double as take-out
+because we have not established the balance of power.
+After 1NT-(2NT)-X we are assumed to have the balance of power and
+subsequent doubles are penalty.
+====
 
 @ pass = nothing or penalty of both suits
 @@ subsequent double = penalty +
 @ X = values
-@@ [orange-bg]#subsequent double by either = ??# +
+@@ #next double = penalty# +
 @ 3C = both majors weak or strong
 @ 3D = both majors medium
 @ 3H, 3S = competitive (NF, mild inv.)
@@ -502,10 +510,13 @@ _ ({simto}Namyats) +
 
 ==== Vs 3m
 
-Similar to our defence to natural 2m or 3m openings.
+ALERT:  Unusual treatment.  3{lab}unbid-suit{rab} = NF.
+
+At the 4-level, we use (non-)leaphing-Michaels; similar to our defence
+to natural 2m or 3m openings.
 
 @ X = negative
-@ 3{lab}unbid suit{rab} = natural, [orange-bg]#F or NF ??#
+@ 3{lab}unbid-suit{rab} = natural, competitive, #NF#
 @ 3NT = to play
 @ 4C = om + unknown M
 @ 4D = majors
@@ -517,7 +528,7 @@ Similar to vs their opening 3M, we play non-leaping michaels except
 that 4NT is natural; not both minors-weak.
 
 @ X = negative
-@ 3S (M={H}) = natural, [orange-bg]#F or NF ??#
+@ 3S (M={H}) = natural, #NF#
 @ 3NT = to play
 @ 4m = m + oM
 @ 4oM = to play
