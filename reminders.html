@@ -627,6 +627,14 @@ sup.footnote a:active, sup.footnoteref a:active { text-decoration: underline; }
 
 div.unbreakable { page-break-inside: avoid; }
 
+/* Kel - draw oval around character */
+.OvalBox {
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.25em 0.15em 0.025em 0.25em; /* TRBL */
+    border: 3px solid #0000bf;
+}
+
 /* Kel - extra emphasis */
 .xemph { font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: normal; font-style: italic; }
 
@@ -809,7 +817,7 @@ b.conum * { color: inherit !important; }
 <div id="header">
 <h1>Reminders</h1>
 <div class="details">
-<span id="revdate">Last updated July 21, 2019</span>
+<span id="revdate">Last updated July 22, 2019</span>
 </div>
 </div>
 <div id="content">
@@ -832,7 +840,7 @@ b.conum * { color: inherit !important; }
   accepts</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">jump = max<br>
                new-suit = anti-splinter<br>
-	       ( 2NT for tfr suit )</p></td>
+	       ( 2NT for transfer suit )</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>2<sup>nd</sup> round<br>
@@ -843,7 +851,8 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>vs double</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">tfrs ON &thinsp;<span class="mildblue">&bull;</span>&thinsp; XX = <span class="clubs green">&#x2663;</span> or <span class="diamonds orange">&#x2666;</span>, weak<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TFRs ON<br>
+               XX = <span class="clubs green">&#x2663;</span> or <span class="diamonds orange">&#x2666;</span>, weak<br>
                <mark>XX by opener =&#160;some&#160;5-cd&#160;suit</mark></p></td>
 </tr>
 <tr>
@@ -856,14 +865,15 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>vs 2NT<br>
   (minors)</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">4-lev. = Namyats, <mark>not&#160;Texas</mark><br>
-               3<span class="clubs green">&#x2663;</span> = majors, wk or str<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3<span class="clubs green">&#x2663;</span> = majors, wk or str<br>
 	       3<span class="diamonds orange">&#x2666;</span> = majors, GF)<br>
-               3M = competitive, <mark>NF</mark></p></td>
+               3M = competitive, <mark>NF</mark><br>
+	       4-lev. = Namyats, <mark>not&#160;Texas</mark><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>vs 3m</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><mark>4<span class="clubs green">&#x2663;</span> = om + M</mark><span class="backspace"> </span>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3&#x27e8;suit&#x27e9; = competitive, <mark>NF</mark><br>
+	       <mark>4<span class="clubs green">&#x2663;</span> = om + M</mark><span class="backspace"> </span>
 <span class="nobr">&emsp;&nbsp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; 4<span class="diamonds orange">&#x2666;</span> asks which M</span><br>
                <mark>4<span class="diamonds orange">&#x2666;</span> = majors</mark><br>
 	       4M = to play</p></td>
@@ -890,7 +900,7 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>JS (3/1)</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">inv. <span class="vraise mildblue small">&#x27a4;</span>&thinsp; opener can pass or force</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">inv. <span class="vraise mildblue small">&#x27a4;</span>&thinsp; pass or force</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>splinters</strong></p></td>
@@ -906,17 +916,16 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>PH resp.</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2NT = 5-5 minors, inv.,<span class="backspacex"> </span>
-<span class="nobr">&emsp; <mark>ON vs X,1<span class="spades blue">&#x2660;</span></span></mark><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2NT = 5-5 minors,
+              inv., <mark>ON vs X,1<span class="spades blue">&#x2660;</span></mark><br>
                 JS = fit showing<br>
                 jump-raise = weak splinter</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>&emsp; 2/1<br>
  (neb.&#160;2<span class="clubs green">&#x2663;</span>)</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1M &ndash; <span class="alert">2<span class="clubs green">&#x2663;</span></span><code>&#59;</code> <span class="alert">2<span class="diamonds orange">&#x2666;</span></span> &ndash; <span class="alert">2oM</span>
-	        =&#160;real&#160;clubs<br>
-                1M &ndash; <span class="alert">2<span class="clubs green">&#x2663;</span></span><code>&#59;</code> 2M = 6<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1M&ndash;<span class="alert">2<span class="clubs green">&#x2663;</span></span><code>&#59;</code>&thinsp;<span class="alert">2<span class="diamonds orange">&#x2666;</span></span>&ndash;<span class="alert">2oM</span>: real clubs<br>
+         1M&ndash;<span class="alert">2<span class="clubs green">&#x2663;</span></span><code>&#59;</code>&thinsp;2M: 6<sup><strong>+</strong></sup>&thinsp;&times;&thinsp;M</p></td>
 </tr>
 </tbody>
 </table>
@@ -959,15 +968,17 @@ b.conum * { color: inherit !important; }
 <colgroup>
 <col>
 <col>
+<col>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-center valign-middle" colspan="2">Minor Opening</th>
+<th class="tableblock halign-center valign-middle" colspan="3">Minor Opening</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>vs dble</strong></p></td>
+<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2NT = bal. LR, <mark>NF</mark><br>
               3NT = bal. GR<br>
               JS om = unbal. LR<sup><strong>+</strong></sup><br>
@@ -976,13 +987,15 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>PH<br>
   resp.</strong></p></td>
+<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2m = 6-10<br>
               <mark>3m = unbal. LR</mark><br>
               2<span class="spades blue">&#x2660;</span> = bal. LR<br>
               JS om = fit showing</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>&ensp; 1<span class="diamonds orange">&#x2666;</span> &ndash; 2<span class="clubs green">&#x2663;</span></strong></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>1<span class="diamonds orange">&#x2666;</span> &ndash; 2<span class="clubs green">&#x2663;</span></strong></p></td>
+<td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2<span class="diamonds orange">&#x2666;</span> = 5<sup><strong>+</strong></sup><br>
 	      2M = 4&ndash;4 (M&ndash;<span class="diamonds orange">&#x2666;</span>)<br>
 	      <mark><span class="alert">3NT</span> = 4-4-4-1, 16-17</mark></p></td>
@@ -995,7 +1008,7 @@ b.conum * { color: inherit !important; }
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-center valign-top">Uncontested auctions</th>
+<th class="tableblock halign-center valign-top">Uncontested Auctions</th>
 </tr>
 </thead>
 <tbody>
@@ -1022,7 +1035,7 @@ b.conum * { color: inherit !important; }
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-center valign-top" colspan="3">1m&ndash;1M<code>&#59;</code>2M</th>
+<th class="tableblock halign-center valign-top" colspan="3">Opener raises</th>
 </tr>
 </thead>
 <tbody>
@@ -1167,8 +1180,7 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">3M</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">COG 6&thinsp;&times;&thinsp;M,<br>
-               or set trump for KC</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6&thinsp;&times;&thinsp;M, COG or set trump for KC</p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -1249,9 +1261,10 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>JS</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">(1<span class="clubs green">&#x2663;</span>)-1<span class="hearts red">&#x2665;</span>-<mark>(pass)</mark>-2<span class="spades blue">&#x2660;</span> = 6&thinsp;&times;&thinsp;<span class="spades blue">&#x2660;</span>, 13<sup><strong>+</strong></sup><br>
-             fit-showing vs<span class="backspacex"> </span>
-<span class="nobr">&emsp; 3rd-hand non-pass</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">(1<span class="clubs green">&#x2663;</span>)&ndash;1<span class="hearts red">&#x2665;</span>&ndash;<mark>(pass)</mark>&ndash;2<span class="spades blue">&#x2660;</span><span class="backspacex"> </span>
+<span class="nobr">&emsp; = <mark>natural</mark>, 6&thinsp;&times;&thinsp;<span class="spades blue">&#x2660;</span>, 13<sup><strong>+</strong></sup></span><br>
+             vs 3rd-hand non-pass<span class="backspacex"> </span>
+<span class="nobr">&emsp; = <mark>fit-showing</span></mark></p></td>
 </tr>
 </tbody>
 </table>
@@ -1285,19 +1298,18 @@ b.conum * { color: inherit !important; }
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>(2m) &ndash; 2NT<br>
-  = 15 - 18</strong></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>(2m) &ndash;&#160;2NT<br></strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">reg. Stayman &amp; Smolen<br>
 		     3<span class="spades blue">&#x2660;</span> = om<br>
-		     <strong>vs dble:</strong> <mark>tfrs ON</mark>, XX = om</p></td>
+		     <strong>vs dble:</strong> <mark>TFRs ON</mark>,<span class="backspacex"> </span>
+<span class="nobr">&emsp; XX = om</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>(2M) &ndash; 2NT<br>
-  = 16 - 19</strong></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>(2M) &ndash;&#160;2NT<br></strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">5-cd Stayman (for oM)<br>
-		     tfr to their M = inv oM<br>
+		     t&#8217;fer to their M = inv oM<br>
 		     3<span class="spades blue">&#x2660;</span> = minors<br>
-		     <strong>vs dble:</strong> <mark>tfrs OFF</mark>,<span class="backspacex"> </span>
+		     <strong>vs dble:</strong> <mark>TFRs OFF</mark>,<span class="backspacex"> </span>
 <span class="nobr">&emsp; XX = minors</span></p></td>
 </tr>
 </tbody>
@@ -1320,6 +1332,32 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">we bal. 1M <span class="vraise mildblue small">&#x27a4;</span>&thinsp; unbid-minor = LR<sup><strong>+</strong></sup></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-none fit-content">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-middle" colspan="2">Carding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle" colspan="2"><p class="tableblock">6<sup><strong>+</strong></sup>-length known
+    <span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; suit-pref, mid. enc.</span> <br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle" colspan="2"><p class="tableblock">2nd-high thru decl. to dummy weakness<br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong><span class="nobr">A&thinsp;<span class="OvalBox">K</span>&thinsp;x</span></strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vs slam <span class="vraise mildblue small">&#x27a4;</span>&thinsp; count<br>
+           Qxx(x) in dummy <span class="vraise mildblue small">&#x27a4;</span>&thinsp; count<br>
+           Jxxx or Txxx <span class="vraise mildblue small">&#x27a4;</span>&thinsp; simple attitude</p></td>
 </tr>
 </tbody>
 </table>
