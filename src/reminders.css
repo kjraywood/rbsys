@@ -618,6 +618,14 @@ sup.footnote a:active, sup.footnoteref a:active { text-decoration: underline; }
 
 div.unbreakable { page-break-inside: avoid; }
 
+/* Kel - draw oval around character */
+.OvalBox {
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.25em 0.15em 0.025em 0.25em; /* TRBL */
+    border: 3px solid #0000bf;
+}
+
 /* Kel - extra emphasis */
 .xemph { font-family: "Noto Serif", "DejaVu Serif", serif; font-weight: normal; font-style: italic; }
 
