@@ -39,6 +39,17 @@
              | 4NT = natural inv.
 |===
 
+[%autowidth,cols="2*<",grid="none"]
+|===
+2+^| 2NT Opening
+
+2+| T'fer to {H} then 3S = 5-5 slammish +
+  {emsp}{tribull} 3NT=bad,{ensp}4C={H},{ensp}4D={S}
+>.^| [nobr]##3S {forces} 3NT{ensp}{tribull}##
+     | 4m = slam inv. +
+       4M = stiff, 3*oM
+|===
+
 [%autowidth,cols=".^s,<",grid="none"]
 |===
 2+^d| Major Opening
@@ -236,7 +247,7 @@ d| ON vs double {xbull} OFF vs overcall
 
 | cue of minor = majors
 | cue of major = minors #(not Michaels)#
-| we bal. 1M {tribull} unbid-minor = LR{orMore}
+| we bal. 1M {tribull} unbid-minor = rev. Drury
 |===
 
 // -------------------------------- //
