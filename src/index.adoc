@@ -17,6 +17,8 @@
 <<slam-conventions.adoc#, *Slam Conventions*>>
 
 <<defensive-bidding.adoc#, *Defensive Bidding*>>
+<<defensive-bidding.adoc#_leaping_michaels,
+[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##KC after Leaping Michaels {ndash} __July 29, 2019__##>>
 
 <<competitive-bidding.adoc#, *Competitive Bidding*>>
 

@@ -488,7 +488,7 @@ overcalled naturally on the first round.
 
 === Balancing Michaels
 
-@ shows strong 2-suiter
+Shows decent 2-suiter
 @ both majors vs minor
 @ both minors vs major
 
@@ -511,7 +511,7 @@ __ {nbsp}{ndash}{nbsp} Eddie Kantar
 | (1C) |  P   | (1NT) | P |
 | (P)  |  ?   |       |   |
 |      |  2C  |       |   | natural
-|      |  2D  |       |   | majors
+|      | !2D! |       |   | majors
 |===
 
 In the above auction, reopener is unlikely to have diamonds (no
@@ -549,6 +549,8 @@ As before, reopener is limited by the failure to act on the previous round.
 
 ==== vs major
 
+[green-box]#Updated {ndash} July 29, 2019#
+
 Applies after weak two or Fantunes 2M opening.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -556,9 +558,26 @@ Applies after weak two or Fantunes 2M opening.
 | (2M) | ?     | |
 |      | !3M!  | | some solid suit, requests{nbsp}stopper
 |      | !4m!  | | m + oM, GF
-                   [nobr]#{tribull} 4NT = 2-suit KC#
 |      | !4M!  | | both minors, strong
 |      | !4NT! | | both minors, weak
+|===
+
+Following a Leaping-Michaels 4m: +
+@ lowest non-sign-off = KC for minor +
+@ next non-sign-off = KC for oM
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (2H) | !4C!* | (P) |  ?     | | {ensp}* {C} + {S}
+|      |       |     | !4{D}! | | KC for {C}
+|      |       |     | !4{H}! | | KC for {S}
+|===
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (2S) | !4D!* | (P) |  ?     | | {ensp}* {D} + {H}
+|      |       |     | !4{S}! | | KC for {D}
+|      |       |     | !4NT!  | | KC for {H}
 |===
 
 ==== vs minor
@@ -609,7 +628,7 @@ by either player is take-out.
 |===
 |  !3C! | | both majors, moderate or very strong
           [nobr]#{tribull} 3D requests longer major#
-|  !3D! | | both majors, medium
+|  !3D! | | both majors, decent
 | 3H,3S | | natural
 |  3NT  | | to play
 | !4C!,!4D! | | Slammish in corresponding major, {simto}Namyats
