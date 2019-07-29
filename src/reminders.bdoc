@@ -24,7 +24,7 @@
                 slow cue or 3NT = 4{times}oM
 | vs 2NT +
   (minors)   | 3C = majors, wk or str +
-	       3D = majors, GF) +
+	       3D = majors, GF +
                3M = competitive, #NF# +
 	       4-lev. = Namyats, #not{nbsp}Texas# +
 | vs 3m      | 3{lab}suit{rab} = competitive, #NF# +
@@ -102,7 +102,7 @@
               JS om = fit showing
 | 1D {ndash} 2C
            || 2{D} = 5{OrMore} +
-	      2M = 4{ndash}4 (M{ndash}{D}) +
+	      2M = 4*{D}, 4*M +
 	      #!!3NT!! = 4-4-4-1, 16-17#
 |===
 
@@ -113,8 +113,9 @@
 | 2nd-round raise of minor = GF +
 | reverse after 1NT {tribull} 2NT = NF #(not Leb.)# +
 | we bid 3 suits {tribull} jump to 3NT = 16-17 +
-| #non-forcing back-preference# +
-  _e.g._ 1C{ndash}1H; 2H{ndash}3C = NF (only 4*{H})
+| #non-forcing back-preferences# +
+  {emsp}1C{ndash}1H; 2H{ndash}3C = inv., 4*{H}, 4{OrMore}{xtimes}{C} +
+  {emsp}1H{ndash}1S; 2S{ndash}3H = 3-cd LR, 4*{S}
 |===
 
 [%autowidth,cols="2*^,<",grid="none"]
@@ -246,7 +247,7 @@ d| ON vs double {xbull} OFF vs overcall
 ^| Balancing
 
 | cue of minor = majors
-| cue of major = minors #(not Michaels)#
+| cue of major = minors
 | we bal. 1M {tribull} unbid-minor = rev. Drury
 |===
 
