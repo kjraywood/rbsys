@@ -258,17 +258,6 @@ blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
   /* h4 { font-size: 1.4375em; } */
 }
 
-@media print {
-  #content {
-    column-count: 3;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    /* column-gap: 60px; */
-    /* -webkit-column-gap: 60px; */
-    /* -moz-column-gap: 60px; */
-  }
-}
-
 /* Tables */
 table { background: #fff; margin-top: 0.25em; margin-bottom: 1.5em; border: solid 1px #ddd; }
 table thead, table tfoot { background: #f7f7f7; }
@@ -801,3 +790,19 @@ b.conum * { color: inherit !important; }
 
 .literalblock pre, .listingblock pre { background: #eee; }
 
+@media print {
+    @page { size: 8.5in 11in;
+	margin-top: 8mm;
+	margin-bottom: 8mm;
+	margin-right: 0mm;
+	margin-left: 0mm;
+    }
+    table {
+	font-size: 9px;
+    }
+    #content {
+	column-count: 4;
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+    }
+}
