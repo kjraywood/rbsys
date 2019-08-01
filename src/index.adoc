@@ -7,6 +7,8 @@
 <<uncontested-responses.adoc#, *Uncontested Responses to Suit Openings*>>
 
 <<contested-responses.adoc#, *Responding in Contested Auctions*>>
+<<contested-responses.adoc#_two_over_one_in_comp,
+[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##2/1 in comp. {ndash} __August 1, 2019__##>>
 
 <<rebid-by-responder.adoc#, *Rebids by Responder in suit auctions*>>
 

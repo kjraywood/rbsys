@@ -39,6 +39,8 @@
              | 4NT = natural inv.
 |===
 
+// -------------------------------- //
+
 [%autowidth,cols="2*<",grid="none"]
 |===
 2+^| 2NT Opening
@@ -49,6 +51,8 @@
      | 4m = slam inv. +
        4M = stiff, 3*oM
 |===
+
+// -------------------------------- //
 
 [%autowidth,cols=".^s,<",grid="none"]
 |===
@@ -63,7 +67,7 @@
 		normal splinters
 | PH resp.    | 2NT = 5-5 minors,
 // web
-              inv., #ON vs X,1S# +
+              inv., [nobr]## #ON vs X,1S# ## +
 // print      inv. [nobr]##{emsp}{emsp}{xbull} #ON vs X,1S# ## +
                 JS = fit showing +
                 jump-raise = weak splinter
@@ -72,6 +76,8 @@
        | 1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}!!2oM!!: real clubs +
          1M{ndash}!!2C!!{semicolon}{thinsp}2M: 6{orMore}{xtimes}M
 |===
+
+// -------------------------------- //
 
 [%autowidth,cols=".^a,^.^,.^",grid="none"]
 |===
@@ -86,6 +92,8 @@
     | {tribull} | old-suit = NF +
 	          #unbid-minor ={nbsp}GF{nbsp}relay#
 |===
+
+// -------------------------------- //
 
 [%autowidth,cols=".^s,2*<",grid="none"]
 |===
@@ -106,6 +114,8 @@
 	      #!!3NT!! = 4-4-4-1, 16-17#
 |===
 
+// -------------------------------- //
+
 [%autowidth,cols="<",grid="none"]
 |===
 ^| Uncontested Auctions
@@ -118,6 +128,8 @@
   {emsp}1H{ndash}1S; 2S{ndash}3H = 3-cd LR, 4*{S}
 |===
 
+// -------------------------------- //
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 3+^| Opener raises
@@ -129,6 +141,8 @@
 | !3oM! |       | 3-cd raise, short oM
 | !3NT! |       | 3-cd raise, short om
 |===
+
+// -------------------------------- //
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -144,6 +158,8 @@
 		{emsp}    3H = accept w/o {S} tol +
 		{emsp}    3S = accept with {S} tol
 |===
+
+// -------------------------------- //
 
 [%autowidth,cols="<.^a",grid="none", stripes="none"]
 |===
@@ -168,10 +184,11 @@ d| ON vs double {xbull} OFF vs overcall
 !===
 |===
 
+// -------------------------------- //
 
 [%autowidth,cols=".^s,<.^",grid="none"]
 |===
-2+^d| Competitive bidding:
+2+^d| Contested auctions
 
 | neg. +
   free-bid       | 2oM = 6*M, inv. or less +
@@ -179,6 +196,8 @@ d| ON vs double {xbull} OFF vs overcall
 | neg.{nbsp}dble | Shows 4{or}5{xtimes}oM +
                    {ensp}{tribull} rebid=5,
 		   _ {nbsp}2oM=inv., 3oM=GF
+| 2/1 in comp.   | F1 when not NFB,
+                   [nobr]#2nd-round jump = GF#
 | Un vs Un       | #lower of lo-cue & new-suit ={nbsp}NF#
 |===
 
@@ -212,6 +231,8 @@ d| ON vs double {xbull} OFF vs overcall
              vs 3rd-hand non-pass
 	     _ = #fit-showing#
 |===
+
+// -------------------------------- //
 
 [%autowidth,cols="<",grid="none"]
 |===

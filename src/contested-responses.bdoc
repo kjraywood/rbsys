@@ -161,6 +161,28 @@ No weak-two opening => +
 @ Two  _other major_{thinsp} is usually a five-card suit.
 @ Jump to 3oM = fit-showing, usually 5-5
 
+=== Two over one in comp.
+
+[green-box]#New {ndash} August 1, 2019#
+
+Applies when the new-suit at the two-level is a one-round force;
+__i.e.__{thinsp} not a neg. free-bid.
+
+#A 2/1 in competition followed by a jump is game forcing.#
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     | 1H | (1S) | 2C | | F1
+| (P) | 2D | (P)  | 3H | | GF
+|===
+
+This shows good clubs and real three-card trump support.
+A second-round cue-bid is GF, but a subsequent 3H would only show
+heart preference.
+
+NOTE: An invitional hand must show the heart support immediately;
+possibly with a fit-showing jump if the suits qualify.
+
 == Vs 1NT Overcall
 
 Double = penalty +
