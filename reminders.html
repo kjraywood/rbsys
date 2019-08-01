@@ -267,17 +267,6 @@ blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
   /* h4 { font-size: 1.4375em; } */
 }
 
-@media print {
-  #content {
-    column-count: 3;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    /* column-gap: 60px; */
-    /* -webkit-column-gap: 60px; */
-    /* -moz-column-gap: 60px; */
-  }
-}
-
 /* Tables */
 table { background: #fff; margin-top: 0.25em; margin-bottom: 1.5em; border: solid 1px #ddd; }
 table thead, table tfoot { background: #f7f7f7; }
@@ -810,6 +799,22 @@ b.conum * { color: inherit !important; }
 
 .literalblock pre, .listingblock pre { background: #eee; }
 
+@media print {
+    @page { size: 8.5in 11in;
+	margin-top: 8mm;
+	margin-bottom: 8mm;
+	margin-right: 0mm;
+	margin-left: 0mm;
+    }
+    table {
+	font-size: 9px;
+    }
+    #content {
+	column-count: 4;
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+    }
+}
 
 </style>
 </head>
@@ -817,7 +822,7 @@ b.conum * { color: inherit !important; }
 <div id="header">
 <h1>Reminders</h1>
 <div class="details">
-<span id="revdate">Last updated August 1, 2019</span>
+<span id="revdate">August 1, 2019</span>
 </div>
 </div>
 <div id="content">
@@ -940,8 +945,8 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>PH resp.</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2NT = 5-5 minors,
               inv., <span class="nobr"> <mark>ON vs X,1<span class="spades blue">&#x2660;</span></mark> </span><br>
-                JS = fit showing<br>
-                jump-raise = weak splinter</p></td>
+              JS = fit showing<br>
+              jump-raise = weak splinter</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>&emsp; 2/1<br>
@@ -1228,7 +1233,7 @@ b.conum * { color: inherit !important; }
                    &ensp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; 2NT = Bogust</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>neg.&#160;dble</strong></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>neg. dble</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Shows 4<strong>|</strong>5&thinsp;&times;&thinsp;oM<br>
                    &ensp;<span class="vraise mildblue small">&#x27a4;</span>&thinsp; rebid=5,<span class="backspacex"> </span>
 <span class="nobr">&emsp; &#160;2oM=inv., 3oM=GF</span></p></td>
@@ -1264,7 +1269,7 @@ b.conum * { color: inherit !important; }
                   bid = natural weak<br></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Weak-two &ndash;<br>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Weak Two &ndash;
   they overcall</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">new-suit = NF<br>
                   2NT = nat.<span class="backspacex"> </span>
