@@ -66,11 +66,13 @@
 	        JS = inv +
 		normal splinters
 | PH resp.    | 2NT = 5-5 minors,
+// ----- \\
 // web
               inv., [nobr]## #ON vs X,1S# ## +
 // print      inv. [nobr]##{emsp}{emsp}{xbull} #ON vs X,1S# ## +
-                JS = fit showing +
-                jump-raise = weak splinter
+// ----- //
+              JS = fit showing +
+              jump-raise = weak splinter
 | {emsp} 2/1 +
  (neb.{nbsp}2C)
        | 1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}!!2oM!!: real clubs +
@@ -193,7 +195,7 @@ d| ON vs double {xbull} OFF vs overcall
 | neg. +
   free-bid       | 2oM = 6*M, inv. or less +
                    {ensp}{tribull} 2NT = Bogust
-| neg.{nbsp}dble | Shows 4{or}5{xtimes}oM +
+| neg. dble      | Shows 4{or}5{xtimes}oM +
                    {ensp}{tribull} rebid=5,
 		   _ {nbsp}2oM=inv., 3oM=GF
 | 2/1 in comp.   | F1 when not NFB,
@@ -213,7 +215,7 @@ d| ON vs double {xbull} OFF vs overcall
 		  _ #denies {C}-length# +
                   pass = bust or trap +
                   bid = natural weak +
-| Weak-two {ndash} +
+| Weak Two {ndash}
   they overcall | new-suit = NF +
                   2NT = nat.
 		  _ #(Bogust OFF)#
