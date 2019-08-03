@@ -794,10 +794,10 @@ b.conum * { color: inherit !important; }
     @page { size: 8.5in 11in;
 	margin-top: 0mm;
 	margin-bottom: 0mm;
-	margin-right: 3mm;
-	margin-left: 3mm;
+	margin-right: 2mm;
+	margin-left: 2mm;
     }
-    table { font-size: 9px; }
+    table { font-size: 10px; }
     h1 {
 	font-size: 12px;
         margin-top: 0px;
