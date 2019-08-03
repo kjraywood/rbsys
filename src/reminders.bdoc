@@ -9,8 +9,8 @@
 2+^d| Texas off vs 2NT{OrMore} {xbull} rev. crawling Stm
 | super +
   accepts    | jump = max +
-               new-suit = anti-splinter +
-	       ( 2NT for transfer suit )
+               new-suit = anti-splinter
+	       @@ 2NT for transfer suit
 | 2^nd^ round +
   transfers  | 3M-1 = 6{orMore}{times}M, #GI or SI# +
                3M = 6{times}M, COG +
