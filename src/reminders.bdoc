@@ -217,14 +217,15 @@ d| ON vs double {xbull} OFF vs overcall
 2+^d| Contested auctions
 
 | neg. +
-  free-bid       | 2oM = 6*M, inv. or less +
-                   {ensp}{tribull} 2NT = Bogust
+  free-bid       | 2oM = 6*M, inv. or less
+                   >> 2NT = Bogust
 | neg. dble      | Shows 4{or}5{xtimes}oM +
-                   {ensp}{tribull} rebid=5,
-		   _ {nbsp}2oM=inv., 3oM=GF
+                   > rebid = 5
+		   @@ 2oM = inv.,{ensp} 3oM = GF
 | 2/1 in comp.   | F1 when not NFB
                    >> #2nd-round jump = GF#
-| Un vs Un       | #lower of lo-cue & new-suit {nbsp}={nbsp}NF#
+| Un vs Un       | #lower of lo-cue & new-suit#
+                   _ #= NF#
 |===
 
 // -------------------------------- //
@@ -296,7 +297,8 @@ d| ON vs double {xbull} OFF vs overcall
 
 | cue of minor = majors
 | cue of major = minors
-| we bal. 1M {tribull} unbid-minor = rev. Drury
+| we bal. 1M
+  >> unbid-minor = rev. Drury
 |===
 
 // -------------------------------- //
@@ -306,7 +308,7 @@ d| ON vs double {xbull} OFF vs overcall
 2+^.^| Carding
 
 2+<d| 6{orMore}-length known
-    [nobr]#{tribull} suit-pref, mid. enc.#  +
+      >> suit-pref, mid. enc.
 2+<d| 2nd-high thru decl. to dummy weakness +
 | [nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#
          | vs slam
