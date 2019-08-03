@@ -6,7 +6,8 @@
 |===
 2+^d| 1NT Opening
 
-2+^d| Texas off vs 2NT{OrMore} {xbull} rev. crawling Stm
+2+<d| Texas OFF vs 2NT{OrMore} +
+      rev. crawling Stayman
 | super +
   accepts    | jump = max +
                new-suit = anti-splinter
@@ -20,13 +21,15 @@
                #XX by opener = 5-cd suit#
 | Unified +
   Leb.       | 3{lab}new suit{rab} = inv +
-                neg. X then 3oM = 5{times}oM, F +
-                slow cue or 3NT = 4{times}oM
+                slow cue or 3NT = 4{times}oM +
+                neg. X then 3oM
+		_ = 5{times}oM, #FORCING#
 | vs 2NT +
   (minors)   | 3C = majors, wk or str +
 	       3D = majors, GF +
                3M = competitive, #NF# +
-	       4-lev. = Namyats, #not{nbsp}Texas# +
+	       4-lev. = Namyats
+	       @@ #not Texas#
 | vs 3m      | 3{lab}suit{rab} = competitive, #NF# +
 	       #4C = om + M#
                >> 4D asks which M +
@@ -83,17 +86,18 @@
 | vs dble     | 2NT = LR or SI (split-range) +
 		#3NT = bal. game-raise# +
 		JS = inv +
-		normal splinters
+		dble-JS = splinter
 | vs o/call   | JS = fit showing +
 		dble-JS = splinter
 		@@ #if below game#
 | PH resp.    | JS = fit showing +
 		jump-raise = weak splinter +
 		2NT = 5-5 minors, inv.
-		@@ #ON vs X & 1S,# ({simto} Drury)
+		@ #ON vs X & 1S,# {simto} Drury
 | {emsp} 2/1 +
  (neb.{nbsp}2C)
-       | 1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}!!2oM!! = real clubs +
+       | 1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}!!2oM!!
+         _ = 5{orMore}{xtimes}{C} +
          1M{ndash}!!2C!!{semicolon}{thinsp}2M = 6{orMore}{xtimes}M
 |===
 
@@ -141,8 +145,10 @@
 ^| Uncontested Auctions
 
 | 2nd-round raise of minor = GF +
-| reverse after 1NT {tribull} 2NT = NF #(not Leb.)# +
-| we bid 3 suits {tribull} jump to 3NT = 16-17 +
+| reverse after 1NT
+  >> 2NT = NF #(not Leb.)# +
+| we bid 3 suits
+  >> jump to 3NT = 16-17 +
 | #non-forcing back-preferences# +
   {emsp}1C{ndash}1H; 2H{ndash}3C = inv., 4*{H}, 4{OrMore}{xtimes}{C} +
   {emsp}1H{ndash}1S; 2S{ndash}3H = 3-cd LR, 4*{S}
