@@ -174,7 +174,7 @@ If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 @ promises a rebid below-game +
 @ default rebid by responder
 _ = cheaper of fourth-suit & 2NT
-@@ to force, opener bids above
+>> to force, opener bids above
 __ three of first-suit
 
 See also:

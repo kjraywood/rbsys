@@ -163,7 +163,7 @@ _ (may have a stack) +
 @ reverse transfers deny stopper
 _ (2D{thinsp}={thinsp}4*{H}, 2H{thinsp}={thinsp}4*{S}) +
 @ Redble = double neg. (no stop, no M) +
-@@ scramble for a place to play,
+>> scramble for a place to play,
 __ #Smolen is OFF#
 
 ==== When opener passes
@@ -405,17 +405,26 @@ reverse-transfers# to ensure that responder declares.
 
 === Minor-suit transfers
 
-@ *2S* = {C}, or balanced inv +
-@@ 2NT = min
-@@ 3C = max +
-@ *2NT* = {D}, any strength +
-@@ 3C = pre-decline
-@@ 3D =  pre-accept ({D}Qxx or better) +
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1NT  | !2S! | {emsp}{C} or balanced-inv.
+|   ?   |      |
+| !2NT! |      | min
+| !3C!  |      | max
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1NT  | !2NT! | {emsp}{D}, any strength
+|   ?   |      |
+| !3C!  |      | pre-decline
+| !3D!  |      | pre-accept ({D}Qxx or better)
+|===
 
 ==== Rebids with strong hands
 
 @ new-suit = shortness
-@@ opener assumes COG +
+>> opener assumes COG +
 @ 4m = minorwood
 @ other jump-shift = exclusion
 @ 4NT = slam inv.
@@ -432,20 +441,36 @@ similarly to when they make a preemptive opening-bid in that strain.
 
 ==== Vs penalty double
 
-@ pass = to play
-@@ #Redbl by opener = 5-card suit# +
-@ !Redbl! = {C} or {D} +
-@ !2C! = majors
-@@ #{thinsp}2D or Redbl = no pref{thinsp}# +
-@ !2D!, !2H! = transfers
-@ !2S! = 4*{S} + 6*m
-@ !2NT! =  {C} + {D}
-@ !3m! = 6*m + 4*{H}
+Transfers are on, redouble is one minor, 2C is both majors, and 2NT is
+both minors.
+Pass is to play but opener redoubles with a five-card suit, after
+which 2C is pass-or-correct and pass says, _"I think you'll make it."_
+
+
+With a 4-card major and 6-card minor (McCartney), responder is willing
+to compete to the 3-level.
+2S is four spades and a six-card minor.
+3m is four hearts and six in the bid minor.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|       || 1NT{emsp}(X)
+|  ?    ||
+|  P    || to play
+           > #XX by opener = 5-cd suit#
+| !XX!  || {C} or {D}
+| !2C!  || majors
+           > 2D or XX = no pref
+2+<| !!2D!!,!!2H!! <| transfers
+| !2S!  || 4*{S} + 6*m
+| !2NT! || {C} + {D}
+| !3m!  || 6*m + 4*{H}
+|===
 
 ==== Vs natural 2C (single suit)
 
 @ dble = take-out
-@@ subsequent cue (3C) requests stopper +
+>> subsequent cue (3C) requests stopper +
 @ other system ON
 
 ==== Vs artificial double or 2C
@@ -468,7 +493,7 @@ __ {nbsp}{ndash}{nbsp} Phillip Martin +
 @ take-out of bid suit
 _ #as though the interference was natural# +
 @ creates force to 2{S}
-@@ subsequent doubles are penalty
+>> subsequent doubles are penalty
 
 2M is to play except when the opps have promised at least five in the
 suit (_e.g._{thinsp} they play transfers vs our 1NT); then it is
@@ -497,9 +522,9 @@ subsequent doubles are penalty.
 ====
 
 @ pass = nothing or penalty of both suits
-@@ subsequent double = penalty +
+>> subsequent double = penalty +
 @ X = values
-@@ #next double = penalty# +
+>> #next double = penalty# +
 @ 3C = both majors weak or strong
 @ 3D = both majors medium
 @ 3H, 3S = competitive (NF, mild inv.)
@@ -566,9 +591,9 @@ that 4NT is natural; not both minors-weak.
 _ = 5-5 Majors, game only +
 @ transfer to {H} then 3S
 _ = 5-5 Majors, slam inv. +
-@@ 3NT = poor for majors
-@@ 4C => {H}
-@@ 4D => {S}
+>> 3NT = poor for majors
+>> 4C => {H}
+>> 4D => {S}
 
 === Major-minor
 

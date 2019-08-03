@@ -35,10 +35,10 @@
 One of: +
 @ good three-card raise of major +
 @ no fit +
-@@ good 10{orMore} HCP +
-@@ 4{orMore} cards in 2{orMore} unbid suits +
-@@ #Forcing to two of opener's suit# +
-@@ Subsequent doubles = 4{orMore} of their suit
+>> good 10{orMore} HCP +
+>> 4{orMore} cards in 2{orMore} unbid suits +
+>> #Forcing to two of opener's suit# +
+>> Subsequent doubles = 4{orMore} of their suit
 
 === Pass then double
 
@@ -238,7 +238,7 @@ show no preference.
 === Lower for Other
 
 @ Lower of their two suits = other suit +
-@@ next step by opener
+>> next step by opener
 __ = default (nothing more to say)
 
 Thus there are two non-jump bids to show the other suit; a cue-bid of

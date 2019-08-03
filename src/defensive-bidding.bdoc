@@ -141,7 +141,7 @@ If they double, then redouble shows both minors
 
 @ 1NT vs. minor = 11 {ndash} 14 +
 @ 1NT vs. major = 11{OrMore} {ndash} 17{OrLess}
-@@ Range Stayman +
+>> Range Stayman +
 @ 2NT = 20 {ndash} 21
 
 #System ON# in all cases
@@ -288,7 +288,7 @@ They opened two-*major* {tribull} transfers OFF
 
 @ New suit = constructive, NF +
 @ JS = natural, good hand, but NF
-@@ _no inv./inv._{thinsp} applies +
+>> _no inv./inv._{thinsp} applies +
 @ double of raise = responsive +
 @ double of new suit = snapdragon
 

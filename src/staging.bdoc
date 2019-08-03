@@ -5,10 +5,10 @@ Stuff that we don't do yet
 == Transfer reponses to 2C opening
 
 @ 2S = one-loser red-suit
-@@ opener bids next step
-@@ responder transfers +
+>> opener bids next step
+>> responder transfers +
 @ 3C = one-loser black-suit
-@@ _as above_ +
+>> _as above_ +
 @ 3D,3H,3S,4C = transfer to solid suit
 
 [#xfers-over-double]
@@ -45,7 +45,7 @@ Otherwise, opener makes normal rebid.
 @ opener tries to make normal bid +
 @ XX = four-cards in transfer suit +
 @ pass = three-cards in transfer suit
-@@ responder can XX to play (no rescue)
+>> responder can XX to play (no rescue)
 
 === Effect of transfers on other bids
 
@@ -136,9 +136,9 @@ Therefore responder should not bid either major with that shape.
 @ same principle as vs double of
 _ regular Stayman +
 @ reverse transfers have Romex meanings
-@@ accepting = sign off => garbage +
+>> accepting = sign off => garbage +
 @ other follow-ups = same as uncontested
-@@ opener rev.-transfers @ 4-level
+>> opener rev.-transfers @ 4-level
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===

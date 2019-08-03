@@ -28,7 +28,7 @@ _Game and slam tries after a major-suit raise_ ]
 @ re-raise = inv with long trumps +
 @ next-step game-try +
 @ second-suit slam-try +
-@@ new-suit by responder = ace
+>> new-suit by responder = ace
 __ and agrees second-suit +
 @ jump new-suit = void slam-try
 
@@ -120,9 +120,9 @@ with limit-raise strength.
 
 @ 2D almost always at least four +
 @ 3*{D} only with
-@@ 4-5-3-1
-@@ poor hearts (no 2H rebid)
-@@ {simto} 14-16{thinsp}HCP (no pass or 2S) +
+>> 4-5-3-1
+>> poor hearts (no 2H rebid)
+>> {simto} 14-16{thinsp}HCP (no pass or 2S) +
 @ 2C usually four,
 _ occasionally three or even two
 

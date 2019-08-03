@@ -117,15 +117,15 @@ trump lead {tribull} suit preference
 ==== K from AK vs suit contracts
 
 @ vs slam
-@@ count +
+>> count +
 @ dummy has Qxx(x) in led suit
-@@ count (2^nd^ highest from [T|9]xxx) +
+>> count (2^nd^ highest from [T|9]xxx) +
 @ dummy has [J|T]xxx(x) in led suit
-@@ simple attitude +
+>> simple attitude +
 @ dummy has a stiff in led suit,
 _ long trumps,
 _ and equal-length side-suits
-@@ suit-preference
+>> suit-preference
 
 A ten is usually treated as an honour card (it might win a trick), but
 when partner leads a king (from AKx) and dummy has the guarded queen,

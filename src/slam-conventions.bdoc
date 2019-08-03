@@ -366,8 +366,8 @@ Applies when:
 @ direct triple-jump response to 1M opening
 @ suit agreed, then jump +
 @ a non-jump following
-@@ a control-bid by partner
-@@ suit agreement at 4-level
+>> a control-bid by partner
+>> suit agreement at 4-level
 
 Responses:  0, 1, 2-, 2+, 3-, 3+
 
@@ -386,13 +386,13 @@ If their four-level preempt follows a minor-suit opening or any
 1-level overcall, then 4NT is general take-out.
 
 // @ 5{orMore}{xtimes}Major
-// @@ 4NT = KC asking +
+// >> 4NT = KC asking +
 
 // @ 5{orMore}{xtimes}minor
-// @@ 4NT = plain aces +
+// >> 4NT = plain aces +
 
 // @ 1m opening, or 1-level overcall
-// @@ 4NT = take-out
+// >> 4NT = take-out
 
 &Examples&
 
@@ -640,8 +640,8 @@ So the raise from 3D to 4D is minorwood even though trumps had not yet
 been agreed.
 
 @ 4C agrees {D} +
-@@ 4D = minorwood +
-@@ 4M = offer to play +
+>> 4D = minorwood +
+>> 4M = offer to play +
 @ 4D = minorwood +
 @ 4NT = natural +
 
