@@ -309,9 +309,12 @@ d| ON vs double {xbull} OFF vs overcall
     [nobr]#{tribull} suit-pref, mid. enc.#  +
 2+<d| 2nd-high thru decl. to dummy weakness +
 | [nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#
-         | vs slam {tribull} count +
-           Qxx(x) in dummy {tribull} count +
-           Jxxx or Txxx {tribull} simple attitude
+         | vs slam
+	   >> count +
+           Qxx(x) in dummy
+	   >> count +
+           Jxxx or Txxx in dummy
+	   >> simple attitude
 |===
 
 // @ *vs NT when decl. runs a suit*
