@@ -576,8 +576,7 @@ that 4NT is natural; not both minors-weak.
 
 == 2NT Opening
 
-@ simple Stayman
-@ Smolen
+Regular Stayman and non-jump Smolen.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -601,13 +600,12 @@ that 4NT is natural; not both minors-weak.
 
 === Both majors
 
-@ transfer to {S} then 4H
-_ = 5-5 Majors, game only +
-@ transfer to {H} then 3S
+Transfer to {S} then 4H
+_ = 5-5 majors, game only
+
+Transfer to {H} then 3S
 _ = 5-5 Majors, slam inv. +
->> 3NT = poor for majors
->> 4C => {H}
->> 4D => {S}
+> 3NT = poor for majors,{ensp} 4C = {H},{ensp} 4D = {S}
 
 === Major-minor
 
