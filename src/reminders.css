@@ -811,10 +811,7 @@ b.conum * { color: inherit !important; }
 	font-weight: normal;
 	font-style: italic;
     }
-    sup {
-	font-size: 70%;
-	top: -0.4em;
-    }
+    sup { font-size: 70%; }
     #header .details {
 	font-size: 13px;
 	color: #000;
