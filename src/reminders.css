@@ -804,18 +804,24 @@ b.conum * { color: inherit !important; }
     }
     table { font-size: 10px; }
     h1 {
-	font-size: 12px;
+	font-size: 13px;
         margin-top: 0px;
+        margin-left: 10px;
+	font-family: "Noto Serif", "DejaVu Serif", serif;
+	font-weight: normal;
+	font-style: italic;
     }
     sup {
 	font-size: 70%;
 	top: -0.4em;
     }
     #header .details {
-	font-size: 12px;
+	font-size: 13px;
+	color: #000;
 	float: right;
 	border-style: none;
 	margin-top: -23px;
+        margin-right: 10px;
     }
     #content {
         margin-top: 12px;
