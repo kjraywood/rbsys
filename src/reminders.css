@@ -807,6 +807,10 @@ b.conum * { color: inherit !important; }
 	font-size: 12px;
         margin-top: 0px;
     }
+    sup {
+	font-size: 70%;
+	top: -0.4em;
+    }
     #header .details {
 	font-size: 12px;
 	float: right;

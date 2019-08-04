@@ -146,7 +146,7 @@
 |===
 ^| Uncontested Auctions
 
-| 2nd-round raise of minor = GF +
+| 2^nd^-round raise of minor = GF +
 | reverse after 1NT
   >> 2NT = NF #(not Leb.)# +
 | we bid 3 suits
@@ -226,8 +226,8 @@ d|
 | 3-level, no agreement
 		| #jump# to cheaper of: +
 		  @ unbid suit
-		  @ 4th suit
-		  @ either player's 2nd suit
+		  @ 4^th^ suit
+		  @ either player's 2^nd^ suit
 | 4-level agreement | as above but not jump
 | optional minorwood
 		|
@@ -249,7 +249,7 @@ d|
                    > rebid = 5
 		   @@ 2oM = inv.,{ensp} 3oM = GF
 | 2/1 in comp.   | F1 when not NFB
-                   >> #2nd-round jump = GF#
+                   >> #2^nd^-round jump = GF#
 | Un vs Un       | #lower of lo-cue & new-suit#
                    _ #= NF#
 |===
@@ -335,7 +335,7 @@ d|
 
 2+<d| 6{orMore}-length known
       >> suit-pref, mid. enc.
-2+<d| 2nd-high thru decl. to dummy weakness +
+2+<d| 2^nd^ high thru decl. to dummy weakness +
 | [nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#
          | vs slam
 	   >> count +
@@ -354,7 +354,7 @@ d|
 // _ they are at 2M, we have doubled +
 
 // &vs weak NT:&
-// @ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
+// @ *applies when [* lower-limit {le} 13 {vsep} 3^rd^ NV *]*
 // @ direct and balancing +
 // @ KASTRO
 // @ dble = penalty
