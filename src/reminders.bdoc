@@ -192,7 +192,8 @@
 |===
 ^d| 2-Way Checkback
 
-d| @ ON vs double{ensp}
+d|
+   @ ON vs double{ensp}
    @ OFF vs overcall
 |
 [%autowidth,cols="2*^,<",grid="none", stripes="odd"]
@@ -216,11 +217,10 @@ d| @ ON vs double{ensp}
 
 [%autowidth,cols="<.^s,<.^",grid="none"]
 |===
-2+^d| Minorwood
+2+^d| Kickback & Minorwood
 
-2+d| set trump first if possible
-2+d| picture jumps have priority over KC asking
-2+d| majors have priority over minors
+| priority      | pic. jumps / KC asking +
+                  majors / minors
 | in comp.	| #jump# to cheapest unbid-suit above 4m
 | 3-level, no agreement
 		| #jump# to cheaper of: +
@@ -228,6 +228,11 @@ d| @ ON vs double{ensp}
 		  @ 4th suit
 		  @ either player's 2nd suit
 | 4-level agreement | as above but not jump
+| optional minorwood
+		|
+		  @ we are above 3m +
+		  @ minor agreed, or pull
+		  _ 3NT to long minor
 |===
 
 // -------------------------------- //
@@ -346,24 +351,6 @@ d| @ ON vs double{ensp}
 
 // @ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
 // _ they are at 2M, we have doubled +
-
-// &Kickback for hearts:&
-// @ requires trump agreement
-// @ fake splinter sometimes used to set trump
-// @ picture jumps have priority over KC asking
-// @ majors have priority over minors
-
-// //@ two-suit KC in double-fit auctions
-
-// &Minorwood:&
-// @ requires trump agreement
-// @ in comp., KC ask = [underline]#jump# to cheapest
-// _ unbid-suit above 4m +
-// @ *3-level w/o agreement:*{nbsp}
-// _ KC ask = cheaper of
-// _ *[* unbid {vsep} 4th suit {vsep} opener's 2nd suit *]* +
-// @ *4-level agreement:*{nbsp}
-// _ KC ask = as above but not jump
 
 // &vs weak NT:&
 // @ *applies when [* lower-limit {le} 13 {vsep} 3rd NV *]*
