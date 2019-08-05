@@ -125,26 +125,28 @@ ALERT: Unusual scheme
 Many use double (or redouble) to show a bust, and pass as a generic
 positive.
 The lack of shape info leads to awkward auctions.
-We use double to show values without length in the bid suit.
-Thus pass is either a bust or a trap hand.
-This is similar to what strong one-clubbers do.
 
-==== Vs double
+We do what strong one-clubbers do.
+Double shows values without length in the bid suit.
+Pass is either a bust or a trap hand.
 
-@ redouble
-_ = values but not {C}-length +
-@ pass = bust or {C}-length
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|    || !2C! {ensp} (X)
+| ?  ||
+| P  || bust or {C}-length
+| XX || values, not {C}-length
+|===
 
-==== Vs overcall
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|   || !2C! {ensp} (__suit-bid__{thinsp})
+| ? ||
+| P || bust or length in opp's suit
+| X || values, not length opp's suit
+|===
 
-@ double
-_ = values but not length in bid suit +
-@ pass = bust or length in bid suit
-
-TIP: This is similar to how we counter overcalls of our strong
-1NT opening.
-
-==== Subsequent bidding
+TIP: This is similar to how we counter overcalls of our 1NT opening.
 
 Opener's double or redouble is take-out unless responder has shown
 positive values with a double or penalty pass.
