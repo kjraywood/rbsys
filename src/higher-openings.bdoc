@@ -9,31 +9,59 @@ https://drive.google.com/file/d/1Ps2yWPQ5piCtCB4OgLXDsGBNC-Ln0C-O/view?usp=shari
 _Responding to an Omnibus 2\C Opening_ ]
 __ {nbsp}{ndash}{nbsp} Danny Kleinman 
 
-=== Responses
-
 {warning} [xemph]#We do NOT play Kokish#
 
-==== Default response
+=== Responses
 
-2D = weak or waiting
+[%autowidth,cols="^,2*<",grid="none]
+|===
+| !2D! | | weak or waiting
+|  2H  | | natural positive, any suit-quality
+|  2NT | | bal 8-10 (or 13{OrMore})
+|  3NT | | bal 11-12
+|===
 
-==== Natural responses
+=== Transfer responses
 
-@ 2H = natural positive, any suit-quality
-@ 2NT = bal 8-10 (or 13{OrMore})
-@ 3NT = bal 11-12
+[orange-box]#NOT IN USE#
 
-==== Transfer responses
+[%autowidth,cols="^,2*<.^",grid="none]
+|===
+| !2S!	|| one-loser red-suit +
+| !3C!	|| one-loser black-suit
+<| !3D!, !3H!, +
+   !3S!, !4C!
+	|| transfer to solid suit
+|===
 
-****
-.Not in use yet
+Following 2S or 3C, opener bids the next step then responder transfers
+to the one-loser suit.
 
-<<staging.adoc#2\C-xfer-responses,Transfer responses to a 2\C opening>>
-****
+[%autowidth,cols="3*<a",grid="none",frame="none",stripes="none"]
+|===
+|
+[%autowidth,cols="^,<",grid="none",stripes=odd]
+:===
+ !2C!  : !2S!
+ !2NT! : {thinsp}?
+       : !3C! {blueRarrow} {D}
+       : !3D! {blueRarrow} {H}
+:===
+||
+[%autowidth,cols="^,<",grid="none",stripes=odd]
+:===
+ !2C!  : !3C!
+ !3D!  : {thinsp}?
+       : !3H! {blueRarrow} {S}
+       : !3S! {blueRarrow} {C}
+:===
+|===
 
-==== Second-round negatives
+TIP: This scheme allows the 2C opener to declare
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+=== Second-round negatives
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
 |
 [grid="none",cols="2*^",stripes=odd]
@@ -41,7 +69,7 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
  !2C! : !2D!
   2M  : !2NT!
 :===
-|
+||
 [grid="none",cols="2*^",stripes=odd]
 :===
  !2C! : !2D!
@@ -51,7 +79,7 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 
 Following a 2^nd^-round neg., we can stop in 3M or 4m.
 
-==== Special second-round positive
+=== Special second-round positive
 
 [%autowidth,cols="3*^,<",grid="none]
 |===
@@ -61,44 +89,33 @@ Following a 2^nd^-round neg., we can stop in 3M or 4m.
 
 === Four-card major & long diamonds
 
-In other situations when there are two possible trump suits, and two
-bids available to set the trump suit, we use the following:
+Opener jumps to 3M on the second round to show this shape and game forcing.
 
-* If one of the available bids is one of the possible trump suits,
-  then bidding that suit is natural, and a new suit sets the other as
-  trump. +
-  _e.g._{thinsp} Second-suit slam-try after a major-suit raise.
+To agree the major, responder bids the other minor (4C).
 
-* If neither of the two available bids is a possible trump suit, then
-  we use lower-for-lower. +
-  _e.g._{thinsp} [nobr]#1NT-3{D} = both minors, GF#
-   [nobr]#{thinsp}{tribull} 3H{thinsp}=>{thinsp}{C},  3S{thinsp}=>{thinsp}{D}#
-
-So this situation is an instance of the first case with diamonds as
-the primary suit.
-
-[%autowidth,cols="3*^,<",grid="none]
+[%autowidth,cols="^,2*<",grid="none]
 |===
-| !2C! | !2D!        | |
-| !3M! |  ?          | | 3M = 4*M, 5{OrMore}{xtimes}{D}, GF
-|      |  3S         | | (M={H}){ensp} natural, 6{OrMore}{xtimes}{S}
-|      |  3NT        | | to play, no help in opener's suits
-|      | !4C!        | | #agrees M#, pos.
-|      | !4D!        | | #agrees  {D}#, pos.
-|      | 4H          | | (M={S}){ensp} natural, 6{OrMore}{xtimes}{H}
-|      | 4M,5D       | | sign-off, neg.
+|      | !2C! |
+| !2D! | !3M! | {emsp} 4*M, 5{OrMore}{xtimes}{D}, GF
+|  ?   |      |
+|  3S  |      | (M={H}){ensp} natural, 6{OrMore}{xtimes}{S}
+|  3NT |      | to play
+| !4C! |      | #agrees M#, pos.
+| !4D! |      | #agrees  {D}#, pos.
+|  4H >| (M={S}) | natural, 6{OrMore}{xtimes}{H}
+2+<| 4M,5D    | sign-off, neg.
 |===
 
 Using 4C to set {H} as trump, allows opener to make a
 _last-train_{thinsp} slam-try.
 
-[%autowidth,cols="3*^,<",grid="none]
+[%autowidth,cols="<,^,2*<",grid="none]
 |===
-| 2C   |  2D  | |
-| !3H! | !4C! | | 3H = 4*{H}, 5{OrMore}{xtimes}{D}
-|  ?   |      | | 4C => {H}, non-bust
-| !4D! |   2+<| last-train slam-try
-|  4H  |   2+<| minimum
+|       |  2C  | |
+|  2D   | !3H! | | 4*{H}, 5{OrMore}{xtimes}{D}
+| !4C!* |   ?  | | * {H}, non-bust
+|       | !4D! | | last-train slam-try
+|       |  4H  | | minimum
 |===
 
 === Interference
