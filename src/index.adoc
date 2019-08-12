@@ -5,10 +5,13 @@
 <<notrump.adoc#, *NoTrump Openings*>>
 
 <<uncontested-responses.adoc#, *Uncontested Responses to Suit Openings*>>
+<<uncontested-responses.adoc#_one_diamond_two_clubs,
+[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##2/1 in comp. {ndash} __Aug 1, 2019__##>>
 
 <<contested-responses.adoc#, *Responding in Contested Auctions*>>
 <<contested-responses.adoc#_two_over_one_in_comp,
-[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##2/1 in comp. {ndash} __August 1, 2019__##>>
+[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##
+    1D-2C{semicolon}3NT-? {ndash} __Aug 12, 2019__##>>
 
 <<rebid-by-responder.adoc#, *Rebids by Responder in suit auctions*>>
 
@@ -20,7 +23,8 @@
 
 <<defensive-bidding.adoc#, *Defensive Bidding*>>
 <<defensive-bidding.adoc#_leaping_michaels,
-[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##KC after Leaping Michaels {ndash} __July 29, 2019__##>>
+[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##KC
+    after Leaping Michaels {ndash} __July 29 2019__##>>
 
 <<competitive-bidding.adoc#, *Competitive Bidding*>>
 

@@ -283,13 +283,13 @@ See also:
 _Better 2/1 Bidding: The Nebulous 2\C Bid_]
 __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1M  | !2C! | | could be short
-|  ?   |      | |
-| !2D! |      | | default +
-                  {tribull} !2oM! = real clubs
-|  2M  |      | | 6{OrMore}{xtimes}M
+|  1M  | !2C! | {emsp} could be short
+|  ?   |      |
+| !2D! |      | default
+                > !2oM! =  5{OrMore}{xtimes}{C}
+|  2M  |      | 6{OrMore}{xtimes}M
 |===
 
 
@@ -297,14 +297,32 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  2D   | | #__required__{thinsp} with 5{orMore}#
-           unless rebidding 3D or raising {C}
-|  2M   | | 4*M, 4*{D}, no stopper in other M
-|  2NT  | | 4{OrLess}{xtimes}{D},
-          _ stoppers in both majors,
-          _ may hold 4*M
+|  1D   | 2C |
+|  ?    |    |
+|  2D   |    | #__required__{thinsp} with 5{orMore}#
+               unless rebidding 3D or raising {C}
+|  2M   |    | 4*M, 4*{D}, other{nbsp}major{nbsp}unstopped
+|  2NT  |    | 4{OrLess}{xtimes}{D},
+               stoppers in both majors,
+               [nobr]#may hold 4*M#
 |  3C   | | 4*{C}, no 4-cd M
 |  3D   | | extras
 | !3M!  | | splinter for {C}
-| !3NT! | | #4-4-4-1, 16-17#
+| !3NT! | | #4-4-4-1, 16-17# +
+|===
+
+[green-box]#New {ndash} Aug 12, 2019#
+
+[orange-box]#Proposed follow-ups to 3NT#
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D   |  2C  ||
+|  3NT  |  ?   ||
+|       | !4m! || sets trump, {C} {blueRarrow} {H},
+                  {D} {blueRarrow} {S} +
+		  > next step = good for slam
+|       | !4M! || sets trump, {H} {blueRarrow} {C},
+                  {S} {blueRarrow} {D} +
+		  > opener shows key-cards
 |===

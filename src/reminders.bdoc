@@ -137,7 +137,10 @@
 | 1D {ndash} 2C
            || 2{D} = 5{OrMore} +
 	      2M = 4*{D}, 4*M +
-	      #!!3NT!! = 4-4-4-1, 16-17#
+	      #!!3NT!! = 4-4-4-1, 16-17# +
+	      > _lower for lower_ +
+              [nobr]##{emsp} !4m! sets trump to _major_## +
+              [nobr]##{emsp} !4M! asks KCs in _minor_## +
 |===
 
 // -------------------------------- //
@@ -335,7 +338,7 @@ d|
 
 2+<d| 6{orMore}-length known
       >> suit-pref, mid. enc.
-2+<d| 2^nd^ high thru decl. to dummy weakness +
+2+<d| 2^nd^ high thru decl. to weakness in dummy
 | [nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#
          | vs slam
 	   >> count +
