@@ -6,12 +6,13 @@
 
 <<uncontested-responses.adoc#, *Uncontested Responses to Suit Openings*>>
 <<uncontested-responses.adoc#_one_diamond_two_clubs,
-[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##2/1 in comp. {ndash} __Aug 1, 2019__##>>
+[.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##
+    1D-2C{semicolon}3NT-? {ndash} __Aug 12, 2019__##>>
 
 <<contested-responses.adoc#, *Responding in Contested Auctions*>>
 <<contested-responses.adoc#_two_over_one_in_comp,
 [.vraise.green.small]##&#x27a4;##{nbsp}[.green.nobr]##
-    1D-2C{semicolon}3NT-? {ndash} __Aug 12, 2019__##>>
+    2/1 in comp. {ndash} __Aug 1, 2019__##>>
 
 <<rebid-by-responder.adoc#, *Rebids by Responder in suit auctions*>>
 
