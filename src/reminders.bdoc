@@ -87,11 +87,11 @@
 |
 [%autowidth,cols="3*<.^",grid="none", frame="none", stripes="none"]
 !===
-! [nobr]#3S {forces} 3NT# !
-! 4m = slam inv.
-  >> KC or 4NT (bad) +
-  4M = stiff, 3*oM +
-  4NT = minors, weak
+! [nobr]#3S {forces} 3NT#
+  ! ! 4m = slam inv.
+      >> KC or 4NT (bad) +
+      4M = stiff, 3*oM +
+      4NT = minors, weak
 !===
 
 |
