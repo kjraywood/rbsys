@@ -188,7 +188,7 @@
 		{emsp}     3H  = 4*{H} max
 |    | !3C! | | {D} inv. {or} {S} inv. {or} {C}-val., GF +
                 {tribull} 3D = reject +
-		{emsp}    3H = accept, no {S} tol. +
+		{emsp}   !3H! = accept, no {S} tol. +
 		{emsp}    3S = accept with {S} tol.
 |===
 
@@ -257,7 +257,7 @@ d|
 | 2/1 in comp.   | F1 when not NFB
                    > #2^nd^-round jump = GF#
 | Un vs Un       | lo-cue = other, #usually inv.# +
-                   {bull} 1C-(2C): 2D=inv., 2H=GF {D}
+                   {bull} 1C-(2C): 2D=inv., !2H!=GF {D}
 |===
 
 // -------------------------------- //
