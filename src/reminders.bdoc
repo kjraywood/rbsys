@@ -61,7 +61,7 @@
 		dble-JS = splinter
 		@@ #if below game#
 | PH resp.    | JS = fit showing +
-		jump-raise = weak splinter +
+		JR = weak splinter +
 		2NT = 5-5 minors, inv.
 		@ #ON vs X & 1S,# {simto} Drury
 | {emsp} 2/1 +
@@ -125,7 +125,9 @@
 |===
 3+^d| Minor Opening
 
-| vs dble  || 2NT = bal. LR, #NF# +
+| vs{nbsp}dble
+	   ||
+	      2NT = bal. LR, #NF# +
               3NT = bal. GR +
               JS om = unbal. LR{orMore} +
               other JS = inv.
@@ -134,13 +136,13 @@
               #3m = unbal. LR# +
               2S = bal. LR +
               JS om = fit showing
-| 1D {ndash} 2C
+| [nobr]##1D {ndash} 2C##
            || 2{D} = 5{OrMore} +
 	      2M = 4*{D}, 4*M +
 	      #!!3NT!! = 4-4-4-1, 16-17# +
-	      > _lower for lower_ +
-              [nobr]##{emsp} !4m! sets trump to _major_## +
-              [nobr]##{emsp} !4M! asks KCs in _minor_## +
+	      {tribull} _lower for lower_ +
+              {ensp}[nobr]##{bull} !4m! sets trump = _major_## +
+              {ensp}[nobr]##{bull} !4M! asks KCs in _minor_##
 |===
 
 // -------------------------------- //
@@ -161,16 +163,16 @@
 
 // -------------------------------- //
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="2*^,2*<",grid="none"]
 |===
-3+^| Opener raises
+4+^| Opener raises
 
-|  1m   | 1M    |
-|  2M   | !3om! | {ensp} GF enquiry
-|  ?    |       |
-|  3M   |       | 4-cd raise
-| !3oM! |       | 3-cd raise, short oM
-| !3NT! |       | 3-cd raise, short om
+|  1m   | 1M    | |
+|  2M   | !3om! | {ensp} GF enquiry |
+|  ?    |       | |
+|  3M   |       | 4-cd raise |
+| !3oM! |       | 3-cd raise, short oM |
+| !3NT! |       | 3-cd raise, short om |
 |===
 
 // -------------------------------- //
@@ -231,12 +233,13 @@ d|
 		  @ unbid suit
 		  @ 4^th^ suit
 		  @ either player's 2^nd^ suit
-| 4-level agreement | as above but not jump
+| above{nbsp}3m +
+  (not{nbsp}3NT) +
+  suit{nbsp}agreed | as above but might not be jump
 | optional minorwood
-		|
-		  @ we are above 3m +
-		  @ minor agreed, or pull
-		  _ 3NT to long minor
+		| pull 3NT to: +
+		  @ agreed minor, _or_
+		  @ single long minor
 |===
 
 // -------------------------------- //
@@ -247,12 +250,12 @@ d|
 
 | neg. +
   free-bid       | 2oM = 6*M, inv. or less
-                   >> 2NT = Bogust
+                   > 2NT = Bogust
 | neg. dble      | Shows 4{or}5{xtimes}oM +
                    > rebid = 5
 		   @@ 2oM = inv.,{ensp} 3oM = GF
 | 2/1 in comp.   | F1 when not NFB
-                   >> #2^nd^-round jump = GF#
+                   > #2^nd^-round jump = GF#
 | Un vs Un       | #lower of lo-cue & new-suit#
                    _ #= NF#
 |===
@@ -271,8 +274,7 @@ d|
                   bid = natural weak +
 | Weak 2 {ndash} +
   they{nbsp}o/call | #new-suit = NF# +
-                  2NT = nat.
-		  @ #Bogust OFF#
+                  [nobr]#2NT = nat. (not Bogust)#
 |===
 
 // -------------------------------- //
