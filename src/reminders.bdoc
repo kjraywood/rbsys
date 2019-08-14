@@ -73,6 +73,22 @@
 
 // -------------------------------- //
 
+[%autowidth,cols=".^a,^.^,.^",grid="none"]
+|===
+3+^d| Semi-forcing NT
+
+|
+[grid="none"]
+:===
+1M : !1NT!
+2{lab}__lower__{rab} : 2NT
+:===
+    | {tribull} | old-suit = NF +
+	          #unbid-minor ={nbsp}GF{nbsp}relay#
+|===
+
+// -------------------------------- //
+
 [%autowidth,cols="<.^a",grid="none"]
 |===
 ^| 2NT Opening
@@ -101,22 +117,6 @@
   > 4m = minorwood,{ensp} 4NT = bad
 !===
 
-|===
-
-// -------------------------------- //
-
-[%autowidth,cols=".^a,^.^,.^",grid="none"]
-|===
-3+^d| Semi-forcing NT
-
-|
-[grid="none"]
-:===
-1M : !1NT!
-2{lab}__lower__{rab} : 2NT
-:===
-    | {tribull} | old-suit = NF +
-	          #unbid-minor ={nbsp}GF{nbsp}relay#
 |===
 
 // -------------------------------- //
@@ -163,6 +163,33 @@
 
 // -------------------------------- //
 
+[%autowidth,cols="<.^a",grid="none", stripes="none"]
+|===
+^d| 2-Way Checkback
+
+d|
+   @ ON vs double{ensp}
+   @ OFF vs overcall
+|
+[%autowidth,cols="2*^,<",grid="none", stripes="odd"]
+!===
+!   1m   !   1M    !
+!   1NT  ! !!2C!!  !
+! !!2D!! ! !!3NT!! ! COG 5*M
+!===
+
+|
+[%autowidth,cols="^,2*<",grid="none", stripes="odd"]
+!===
+! 1m   !  1M !
+! 1NT  ! {thinsp}? !
+!      ! 3{lab}lower{rab} ! 5-5, good suits
+!      ! 3M  ! 6*M, COG or set trump for KC
+!===
+|===
+
+// -------------------------------- //
+
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
 4+^| Opener raises
@@ -190,33 +217,6 @@
                 {tribull} 3D = reject +
 		{emsp}   !3H! = accept, no {S} tol. +
 		{emsp}    3S = accept with {S} tol.
-|===
-
-// -------------------------------- //
-
-[%autowidth,cols="<.^a",grid="none", stripes="none"]
-|===
-^d| 2-Way Checkback
-
-d|
-   @ ON vs double{ensp}
-   @ OFF vs overcall
-|
-[%autowidth,cols="2*^,<",grid="none", stripes="odd"]
-!===
-!   1m   !   1M    !
-!   1NT  ! !!2C!!  !
-! !!2D!! ! !!3NT!! ! COG 5*M
-!===
-
-|
-[%autowidth,cols="^,2*<",grid="none", stripes="odd"]
-!===
-! 1m   !  1M !
-! 1NT  ! {thinsp}? !
-!      ! 3{lab}lower{rab} ! 5-5, good suits
-!      ! 3M  ! 6*M, COG or set trump for KC
-!===
 |===
 
 // -------------------------------- //
