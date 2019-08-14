@@ -223,23 +223,33 @@ d|
 
 [%autowidth,cols="<.^s,<.^",grid="none"]
 |===
-2+^d| Kickback & Minorwood
+2+^d| minor-suit KC
 
-| priority      | pic. jumps / KC asking +
-                  majors / minors
-| in comp.	| #jump# to cheapest unbid-suit above 4m
-| 3-level, no agreement
-		| #jump# to cheaper of: +
-		  @ unbid suit
-		  @ 4^th^ suit
-		  @ either player's 2^nd^ suit
-| above{nbsp}3m +
-  (not{nbsp}3NT) +
-  suit{nbsp}agreed | as above but might not be jump
-| optional minorwood
-		| pull 3NT to: +
-		  @ agreed minor, _or_
-		  @ single long minor
+| regular +
+  minorwood  |
+		@ agreed minor
+		@ no agreed major
+		@ uncontested
+		@ last-bid {le} 3m
+| optional +
+  minorwood   | pull 3NT to #agreed{nbsp}minor#, or to
+		#single{nbsp}long{hyph}minor#
+| kickback   a|
+[%autowidth,cols="<.^",grid="none", stripes="odd"]
+!===
+! _no agreement_ +
+  @ last-bid = 3m
+! _agreed minor_ +
+  @ in comp., or
+  _ last-bid {gt} 3m +
+  @ last-bid {le} 4m
+  @ last-bid {ne} 3NT
+!===
+| kickback +
+  bid	    |	above 4m, cheaper of: +
+		@ unbid suit
+		@ 4^th^ suit
+		@ either player's 2^nd^-suit
 |===
 
 // -------------------------------- //
