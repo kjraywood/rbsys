@@ -221,6 +221,23 @@ d|
 
 // -------------------------------- //
 
+[%autowidth,cols=".^s,<",grid="none"]
+|===
+2+^d| Two-level Openings
+
+| 2C {ndash} +
+  (X{nbsp}or{nbsp}bid)
+                | XX = values
+		  @ #denies {C}-length# +
+                  pass = bust or trap +
+                  bid = natural weak +
+| Weak 2 {ndash} +
+  they{nbsp}o/call | #new-suit = NF# +
+                  [nobr]#2NT = nat. (not Bogust)#
+|===
+
+// -------------------------------- //
+
 [%autowidth,cols="<.^s,<.^",grid="none"]
 |===
 2+^d| minor-suit KC
@@ -250,6 +267,8 @@ d|
 		@ unbid suit
 		@ 4^th^ suit
 		@ either player's 2^nd^-suit
+2+<d| *Special way to set trump* +
+      non-jump 4^th^-suit @ 4-level = last suit
 |===
 
 // -------------------------------- //
@@ -268,23 +287,6 @@ d|
                    > #2^nd^-round jump = GF#
 | Un vs Un       | lo-cue = other, #usually inv.# +
                    {bull} 1C-(2C): 2D=inv., !2H!=GF {D}
-|===
-
-// -------------------------------- //
-
-[%autowidth,cols=".^s,<",grid="none"]
-|===
-2+^d| Two-level Openings
-
-| 2C {ndash} +
-  (X{nbsp}or{nbsp}bid)
-                | XX = values
-		  @ #denies {C}-length# +
-                  pass = bust or trap +
-                  bid = natural weak +
-| Weak 2 {ndash} +
-  they{nbsp}o/call | #new-suit = NF# +
-                  [nobr]#2NT = nat. (not Bogust)#
 |===
 
 // -------------------------------- //
