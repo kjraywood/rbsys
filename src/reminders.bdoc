@@ -248,9 +248,6 @@ d|
 		@ no agreed major
 		@ uncontested
 		@ last-bid {le} 3m
-| optional +
-  minorwood   | pull 3NT to #agreed{nbsp}minor#, or to
-		#single{nbsp}long{hyph}minor#
 | kickback   a|
 [%autowidth,cols="<.^",grid="none", stripes="odd"]
 !===
@@ -260,15 +257,17 @@ d|
   @ in comp., or
   _ last-bid {gt} 3m +
   @ last-bid {le} 4m
-  @ last-bid {ne} 3NT
 !===
-| kickback +
-  bid	    |	above 4m, cheaper of: +
-		@ unbid suit
-		@ 4^th^ suit
-		@ either player's 2^nd^-suit
-2+<d| *Special way to set trump* +
-      non-jump 4^th^-suit @ 4-level = last suit
+2+<d| *Kickback bid:*{nbsp}
+      @ above 4m
+      @ below 4NT +
+      _Cheaper of:_
+      @ unbid suit
+      @ 4^th^ suit
+      @ either player's 2^nd^-suit
+2+<d| *If no kickback bid:* +
+      > non-jump 4^th^-suit @ 4-level
+      _ agrees last suit
 |===
 
 // -------------------------------- //
@@ -280,9 +279,9 @@ d|
 | neg. +
   free-bid       | 2oM = 6*M, inv. or less
                    > 2NT = Bogust
-| neg. dble      | Shows 4{or}5{xtimes}oM +
-                   > rebid = 5
-		   @@ 2oM = inv.,{ensp} 3oM = GF
+| neg. dble      | 4{or}5{xtimes}oM +
+                   > rebid = 5-cd suit,
+		   _ 2-lev. = inv., 3-lev. = GF
 | 2/1 in comp.   | F1 when not NFB
                    > #2^nd^-round jump = GF#
 | Un vs Un       | lo-cue = other, #usually inv.# +
