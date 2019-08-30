@@ -549,8 +549,6 @@ As before, reopener is limited by the failure to act on the previous round.
 
 ==== vs major
 
-[green-box]#Updated {ndash} July 29, 2019#
-
 Applies after weak two or Fantunes 2M opening.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -577,7 +575,8 @@ Following a Leaping-Michaels 4m: +
 |===
 | (2S) | !4D!* | (P) |  ?     | | {ensp}* {D} + {H}
 |      |       |     | !4{S}! | | KC for {D}
-|      |       |     | !4NT!  | | KC for {H}
+|      |       |     |  4NT   | | natural
+|      |       |     | !5C!   | | KC for {H}
 |===
 
 ==== vs minor
