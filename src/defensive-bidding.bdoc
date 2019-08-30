@@ -301,11 +301,11 @@ _ seems likely that opener will play NT
 
 === One-major overcalls
 
-@ non-jump cue = good 3-card raise,
-_ or any force +
-@ 2NT = 4-card limit-raise
-@ Jump cue = #split-range#
-_ = mixed-raise or GF-raise
+@ non-jump cue
+_ = good 3-cd raise or any force +
+@ 2NT = 4-cd limit-raise +
+@ Jump cue
+_ = #split-range# 4-cd raise, mixed or GF
 
 If a two-level cue-bid to the three-level is not available, then the
 non-jump three-level cue-bid is the most defensive-raise; usually
@@ -488,7 +488,7 @@ overcalled naturally on the first round.
 
 === Balancing Michaels
 
-Shows decent 2-suiter
+Balancing cue-bid = decent 2-suiter +
 @ both majors vs minor
 @ both minors vs major
 
