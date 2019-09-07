@@ -333,33 +333,19 @@ The scheme is similar to when Stayman is doubled.
 The focus is on a stopper in the doubled suit.
 
 @ four-card support makes a super accept +
-@ accepting transfer
-_ =  3-card support, A or K of doubled suit +
+@ accepting transfer = 3-card support
+_ and A or K of doubled suit +
 @ pass promises a stopper +
 @ redouble = no stopper
 
-Our super-accept scheme is ON, except that opener may use a reverse
-transfer to make responder declare.
+==== Opener accepts the transfer
 
-Anti-splinter super-accepts (showing values, four-card-support and
-minumum) neither confirm nor deny control. A subsequent 3NT by
-responder shows control of the transfer-suit and is a slam try with
-preference to declare.
+We have set trump so responder continues with natural methods
+to make game or slam tries.
 
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-|  1NT  | (P) | !2D! {ensp} (X)
-|   ?   |     |
-|  2H   |     | 3*{H},{ensp}A or K of {D},{ensp}sets trump +
-                {tribull}  #2^nd^-round transfers are OFF#
-2+<| !2S!,!3C! <| COV, minimum +
-                {tribull} 3NT = slam-try, {D}-control, prefer to declare
-| !2NT! |     | {D}-stopper, minimum
-| !3D!  |     | clear max, prefer to be dummy
-|  3H   |     | clear max, prefer to declare
-|===
+#2^nd^-round transfers are OFF#
 
-==== When opener passes
+==== Opener passes
 
 Responder can redouble to re-transfer but must have at least two cards
 in the transfer suit in case opener has a stack and passes.
@@ -375,17 +361,18 @@ in the transfer suit in case opener has a stack and passes.
                  [nobr]#__incl. 2^nd^-round transfers__#
 |===
 
-==== When opener redoubles
+==== Opener redoubles
 
 Opener has denied a stopper so it's preferable for responder to
-declare.
-So #2^nd^-round transfers are OFF#.
+declare.  So
 
-However, when 2D (transfer to {H}) is doubled and redoubled, we still
-need to distinguish between invitational and game-forcing when
-responder has [nobr]#{H} + {C}#.
-So 2S shows invitational with clubs and #opener uses
-reverse-transfers# to ensure that responder declares.
+#2^nd^-round transfers are OFF#
+
+#Reverse-transfers by opener are ON#
+
+Following a transfer to hearts, 2S by responder retains its meaning of
+artificial and invitational.
+The only possibility is [nobr]#{H} + {C}#
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
@@ -393,15 +380,38 @@ reverse-transfers# to ensure that responder declares.
 | !2D!  | (X) | !XX!* | (P) 2+<| * no {D} stop
 |  ?    |  4+<|
 |  2H   |  4+<| sign off
-| !2S!  |  4+<| inv., 5{times}{H} + 4{orMore}{times}{C} +
-                {tribull} #reverse-transfers:#
+| !2S!  |  4+<| 5{xtimes}{H}, 4{orMore}{xtimes}{C}, inv. +
+                > #reverse-transfers:#
 	        _ !2NT! {forces} {C}, !3D! {forces} {H}
-| 2NT   |  4+<| natural, inv
+| 2NT   |  4+<| natural
 | 3C    |  4+<| natural, GF
-| 3H    |  4+<| natural, inv
-| 3NT   |  4+<| to play
+                > #3D = reverse-transfer#
+| 3H    |  4+<| inv
+| 3NT   |  4+<| natural, COG
 | 4H    |  4+<| to play
 |===
+
+==== Open super-accepts
+
+Our super-accept scheme is ON, except that opener may use a reverse
+transfer to make responder declare.
+
+Anti-splinter super-accepts (showing values, four-card-support and
+minumum) neither confirm nor deny control.
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|  1NT  | (P) | !2D! {ensp} (X)
+|   ?   |     |
+2+<| !2S!,!3C! <| COV, minimum
+| !2NT! |     | {D}-stopper, minimum
+| !3D!  |     | clear max, #reverse transfer#
+|  3H   |     | clear max, {D}-control
+|===
+
+If opener has not shown control of the transfer suit, then a
+subsequent 3NT by responder shows that control and is a slam try with
+preference to declare.
 
 === Minor-suit transfers
 
