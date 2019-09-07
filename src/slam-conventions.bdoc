@@ -1,94 +1,176 @@
 :sectnumoffset: 18
 
-= Slam Bidding
+= Slam Conventions
 
-// == Slam Tries and Control Bids
+== General Principles for RKC
 
-== Picture Jumps
+=== Set trumps first
 
-[#picjumps-2over1]
-=== Two-over-one auctions
-
-:picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
-:picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
-:picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
-
-{reference} _Fast Arrival vs. Picture Bidding,_
- __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
-__ {nbsp}{ndash}{nbsp} Andrew Gumperz
-
-Responder may initially conceal 4-card support for opener's major when
-intending to make a picture jump to game on the second round.
-It is highly unlikely that the auction will be too high for responder
-to jump on the second round.
-
-We do not conceal 4-card support in other cases because a jump to 3M
-may not be available on the 2^nd^-round (_e.g._{thinsp} 2M or 2NT
-rebid by opener).
-So, contrary to the recommendation of Gumperz (part 1, page 2, hand
-2), the 2^nd^-round jump to 3M shows strong slam-interest but !denies!
-4-card support.
+If it's possible to set a suit as trump with an unambiguous below-game
+forcing-bid, then that route must be taken to ask for key-cards in
+that suit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S | 2D  | |
-| 2H | ?   | |
-|    | 3S  | | strong slam-interest, 3*{S}
-|    | 4S  | | picture jump
+| 1H |  1S   | |
+| 2H |  ?    | |
+|    |  2NT  | | natural, inv.
+|    |  3H   | | inv.
+|    |  3S   | | forcing, at most a one-loser suit
+|    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
+|    |  4H   | | to play
+|    |  4S   | | to play
+|    |  4NT  | | natural, slam inv.
 |===
 
-NOTE: Picture jumps have priority over kickback and minorwood to
-ensure that responder's initial plan doesn't get scuttled.
+Responder can set hearts as trump unambiguously with a splinter, which
+could possibly be fake, so cannot ask for KC this round.
 
-[#picjumps-reverse]
-=== Reverse auctions
+// === Natural bidding has priority over KC
 
-A single-jump in opener's first suit is a picture jump; _not a splinter_.
+// We don't sacrifice useful natural bids for uncommon situations, such
+// as asking for key-cards, without first agreeing trump.
+
+// NOTE: This is based on frequency and usefuless which are
+// overwhelmingly in favour of natural bids.
+
+// === Picture bids have priority over KC asking
+
+// Picture bids are just well defined natural bids, so it's normal for
+// them to have priority over a KC-asking bid.
+
+// .Two-over-one Auctions
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1S |  2H   | |
+// | 3H |  ?    | |
+// |    | !3S!  | | {S}-card (A, K or Q), [nobr]#trump = {H}#
+// |    |  3NT  | | natural, NF, COG, 
+// |    | 4C,4D | | slam try, trump = {H}
+// |    |  !4S! | | #picture bid, trump = {S}#
+// |    | !4NT! | | exclusion, {S}-void, trump = {H}
+// |===
+
+// .Reverse Auctions
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// |  1C   | 1S |
+// |  2H   | 3H |
+// |  ?    |    |
+// | !3S!  |    | {S}-card (A, K or Q), [nobr]#trump = {H}#
+// | !3NT! |    | slam-try, no shortness, [nobr]#trump = {H}#
+// |  4C   |    | slam try, good clubs
+// |  4D   |    | slam try ({S} shortness)
+// |  4H   |    | min reverse, no help in {S}
+// | !4S!* |    | #picture bid, trump = {S}#
+// | !4NT! |    | exclusion, {S}-void, trump = {H}
+// |===
+
+// As in the 2/1 auction, responder must bid something else before
+// bidding 4S as kickback for hearts.
+
+// {asterisk} For the picture jump, opener might hold
+// [nobr]#{S}AQ2 {H}KQ3 {D}74 {C}AQJT5#.
+// The reverse into the three-card heart-suit was safe because a heart
+// raise by responder indicates five spades and extras (no reverse
+// Flannery).
+
+=== Majors have priority over minors
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H  | 2D | |
+| 3D  | 3H | | {H} are trump
+|===
+
+A subsequent 4S would be kickback for hearts only.
+
+{warning} [xemph]#we do not play two-suit KC#
+
+== Minorwood
+
+Applies when:
+
+@ we have agreed a minor
+@ we have not agreed a major
+@ the auction is uncontested
+@ #it is a jump#
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
 |
 [grid="none",stripes=odd]
-!===
-! 1D ! 1S
-! 2H ! 4D
-!===
+:===
+  1C  : 2C
+ !4C! :
+:===
 |
-[stripes=odd]
-!===
-! {S} AQT64 +
-  {H} 53 +
-  {D} KQ87 +
-  {C} J2
-!===
+[grid="none",stripes=odd]
+:===
+ 1C :  1D
+ 2D : !4D!
+:===
+|===
+ 
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+ 1C :  2C
+ 2S : !4C!
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1D  : !3C! : LR
+ !4D! :      :
+:===
 |===
 
-// The picture bid can also be in opener's second suit, and five-card
-// support is needed in case opener reversed into a three-card suit.
+=== Following a transfer to a minor
 
-// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-// |===
-// |
-// [grid="none",stripes=odd]
-// :===
-//  1C : 1S
-//  2D : 4D
-// :===
-// |
-// [stripes=odd]
-// !===
-// ! {S} AK974 +
-//   {H} 63 +
-//   {D} KJ983 +
-//   {C} 5
-// !===
-// |===
+We also use minorwood after transferring to a minor
 
-// [NOTE]
-// ====
-// A double-jump after a non-reverse is a splinter.
-// _e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
-// ====
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1NT           | !2NT! | | transfer to {D}
+| 3C,{thinsp}3D | !4D!  | | minorwood
+|===
+
+== Kickback
+
+{warning} We give priority to kickback over over picture jumps
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S | 2H   | |
+| 3H | !4S! | | kickback 
+|===
+
+3H set hearts as trump and we cannot get back to spades.
+
+=== Other Hearts vs Spades auctions
+
+A jump to 4NT is KC for hearts when: +
+@ we are at 3H
+@ the 3H bidder is limited
+@ spades were bid on the first round +
+
+TIP: When partner is unlimited we need 4NT as natural.
+This has prority over KC-asking.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 3H |  ?    | |
+|    |  3S   | | natural forcing
+|    |  3NT  | | natural, NF
+|    | 4C,4D | | natural, F
+|    |  4S   | | to play
+|    | !4NT! | | KC for {H}
+                 @ opener is limited 
+|===
 
 == First-round ace-asking
 
@@ -145,113 +227,6 @@ Other first-round jumps that are one-level higher than a splinter are
 exclusion.
 
 &Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
-
-== General Principles for RKC
-
-=== Set trumps first
-
-If it's possible to set a suit as trump with an unambiguous below-game
-forcing-bid, then that route must be taken to ask for key-cards in
-that suit.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 2H |  ?    | |
-|    |  2NT  | | natural, inv.
-|    |  3H   | | inv.
-|    |  3S   | | forcing, at most a one-loser suit
-|    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
-|    |  4H   | | to play
-|    |  4S   | | to play
-|    |  4NT  | | natural, slam inv.
-|===
-
-Responder can set hearts as trump unambiguously with a splinter, which
-could possibly be fake, so cannot ask for KC this round.
-
-=== Natural bidding has priority over KC
-
-We don't sacrifice useful natural bids for uncommon situations, such
-as asking for key-cards, without first agreeing trump.
-
-NOTE: This is based on frequency and usefuless which are
-overwhelmingly in favour of natural bids.
-
-&Hearts and Spades&
-
-A jump to 4NT is KC for hearts when: +
-@ we are at 3H
-@ the 3H bidder is limited
-@ spades were bid on the first round +
-
-TIP: When partner is unlimited we need 4NT as natural.
-This has prority over KC-asking.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 3H |  ?    | |
-|    |  3S   | | natural forcing
-|    |  3NT  | | natural, NF
-|    | 4C,4D | | natural, F
-|    |  4S   | | to play
-|    | !4NT! | | KC for {H}
-                 @ opener is limited 
-|===
-
-=== Picture bids have priority over KC asking
-
-Picture bids are just well defined natural bids, so it's normal for
-them to have priority over a KC-asking bid.
-
-.Two-over-one Auctions
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S |  2H   | |
-| 3H |  ?    | |
-|    | !3S!  | | {S}-card (A, K or Q), [nobr]#trump = {H}#
-|    |  3NT  | | natural, NF, COG, 
-|    | 4C,4D | | slam try, trump = {H}
-|    |  !4S! | | #picture bid, trump = {S}#
-|    | !4NT! | | exclusion, {S}-void, trump = {H}
-|===
-
-.Reverse Auctions
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C   | 1S |
-|  2H   | 3H |
-|  ?    |    |
-| !3S!  |    | {S}-card (A, K or Q), [nobr]#trump = {H}#
-| !3NT! |    | slam-try, no shortness, [nobr]#trump = {H}#
-|  4C   |    | slam try, good clubs
-|  4D   |    | slam try ({S} shortness)
-|  4H   |    | min reverse, no help in {S}
-| !4S!* |    | #picture bid, trump = {S}#
-| !4NT! |    | exclusion, {S}-void, trump = {H}
-|===
-
-As in the 2/1 auction, responder must bid something else before
-bidding 4S as kickback for hearts.
-
-{asterisk} For the picture jump, opener might hold
-[nobr]#{S}AQ2 {H}KQ3 {D}74 {C}AQJT5#.
-The reverse into the three-card heart-suit was safe because a heart
-raise by responder indicates five spades and extras (no reverse
-Flannery).
-
-=== Majors have priority over minors
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H  | 2D | |
-| 3D  | 3H | | {H} are trump
-|===
-
-A subsequent 4S would be kickback for hearts only.
-
-{warning} [xemph]#we do not play two-suit KC#
 
 == Special ways to set trump
 
@@ -420,48 +395,7 @@ If their four-level preempt follows a minor-suit opening or any
 | (4S) | !4NT! |  2+<| take-out
 |===
 
-== Minorwood
-
-=== Two-level agreement
-
-#Includes artificial limit-raises below 3m.#
-
-==== Uncontested auction
-
-4m by an unlimited hand is minorwood except when the previous bid was
-above 3m, and notrump has not been bid.
-
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 2C
- !4C! :
-:===
-|
-[grid="none",stripes=odd]
-:===
- 1C :  1D
- 2D : !4D!
-:===
-|===
- 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
- 1C :  2C
- 2S : !4C!
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1D  : !3C! : LR
- !4D! :      :
-:===
-|===
+=== Cheap KC for minors
 
 ==== Contested auction:
 
@@ -479,15 +413,7 @@ above 3m, and notrump has not been bid.
  !4S! : : :
 :===
 
-=== Three-level agreement
-
-Applies when we agree the minor by bidding three in that suit.
-
-#__i.e.__{thinsp} we have not yet gone above 3m.#
-
-==== Four-minor directly after suit agreement
-
-This is minorwood by a hand that may have enough extras for slam.
+==== Kickback after suit agreement
 
 [%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
 |===
@@ -495,30 +421,22 @@ This is minorwood by a hand that may have enough extras for slam.
 [grid="none",stripes=odd]
 :===
  1S :  2D
- 3D : !4D!
+ 3D : !4H!
 :===
 |
 [grid="none",stripes=odd]
 :===
   1C  : 1S
   2H  : 3C
- !4C! :
+ !4D! :
 :===
 |
 [grid="none",stripes=odd]
 :===
   1D  : 1S
   2C  : 3D
- !4D! :
+ !4H! :
 :===
-|===
-
-==== Following a transfer to a minor
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1NT           | !2NT! | | transfer to {D}
-| 3C,{thinsp}3D | !4D!  | | minorwood
 |===
 
 === Three-level non-agreement
@@ -689,113 +607,6 @@ non-agreement except that the bid is not a jump.
  !2C! : 2H
   3C  : 3D
   4D  : !4S!
-:===
-|===
-
-== Optional minorwood
-
-Applies when: +
-@ we are in a forcing auction
-@ either player may have extras
-@ the auction is already above 3m
-
-Responses to 4m = optional minorwood: +
-@ 4m+1 = kickback
-_ (asking for KC) +
-@ shows KCs beginning at 4m+2
-_ (no extras)
-
-=== Following a new-suit slam try
-
-[%autowidth,cols="2*^",grid="none"]
-|===
-|  1H  | 2D
-|  3D  | 3S
-| !4D! |
-|===
-
-Opener may want to take control but may also have no other good bid.
-
-=== Trump is set between 3m and 4m
-
-.Splinter
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1S   |  2D  | |
-| !3H!* | !4D! | | * splinter
-|===
-
-.GF cue-bid
-[%autowidth,cols="4*^",grid="none"]
-|===
-| 1D   | (2S) |  3S | (P)
-| !4D! |      |     |
-|===
-
-&By limited hand when accepting slam invitation&
-
-A limited hand can use optional-minorwood when it has been invited to
-slam via a splinter.
-
-[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
-|===
-|
-[stripes=odd]
-!===
-! {S}{thinsp}Axx +
-  {H}{thinsp}Kx +
-  {D}{thinsp}xx +
-  {C}{thinsp}AQTxxx
-!===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1D
-  2C  : !3S!
- !4C! : !4NT!
-  6C  :
-:===
-|
-[stripes=odd]
-!===
-! {S}{thinsp}x +
-  {H}{thinsp}xxx +
-  {D}{thinsp}AKxxxx +
-  {C}{thinsp}KJx
-!===
-|===
-
-[nobr]#3S = splinter,#
-[nobr]#4C = optional minorwood,#
-[nobr]#4NT = 2 w/o#
-
-=== Pulling 3NT to 4m
-
-Sometimes this is just making one more slam try and sometimes the 4m
-bidder was unable to ask for KCs the previous round.
-
-[%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",cols="2*^",stripes=odd]
-:===
-  1S  :  2D
-  3D  :  3NT
- !4D! :
-:===
-|
-[grid="none",cols="2*^",stripes=odd]
-:===
- 1C  :  1H
- 2C  :  3C
- 3NT : !4C!
-:===
-|
-[grid="none",cols="2*^",stripes=odd]
-:===
-  1C  :  1S
-  2H  :  3C
-  3NT : !4C!
 :===
 |===
 
