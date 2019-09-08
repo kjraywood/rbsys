@@ -362,7 +362,7 @@ in the transfer suit in case opener has a stack and passes.
 |  ? 7+|
 | !XX! |  6+<| re-transfer with tolerance for pass
 |  2H  |  6+<| sign-off
-| _other_ | 6+<| system ON without tolerance for 2D-XX
+| _other_ | 6+<| system ON without tolerance for 2D{hyph}XX
 |===
 
 ==== Opener redoubles
@@ -387,8 +387,8 @@ The only possibility is [nobr]#{H} + {C}#
 |  ?    |  4+<|
 |  2H   |  4+<| sign off
 | !2S!  |  4+<| 5{xtimes}{H}, 4{orMore}{xtimes}{C}, inv. +
-                > #reverse transfers:#{nbsp}
-	        _ !2NT! {forces} {C}, !3D! {forces} {H}
+                > #reverse transfers:#{ensp}
+	        _ !2NT! {blueRarrow} {C},{nbsp} !3D! {blueRarrow} {H}
 | 2NT   |  4+<| natural, inv.
                 > #3D = reverse transfer#
 | 3C    |  4+<| natural, GF
