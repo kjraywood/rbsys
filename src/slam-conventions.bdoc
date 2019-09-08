@@ -2,6 +2,10 @@
 
 = Slam Conventions
 
+We use a combination of minorwood, kickback and some special KC-asking bids.
+
+{warning} [xemph]#we do not play two-suit KC#
+
 == General Principles for RKC
 
 === Set trumps first
@@ -26,6 +30,27 @@ that suit.
 Responder can set hearts as trump unambiguously with a splinter, which
 could possibly be fake, so cannot ask for KC this round.
 
+=== Kickback has priority over a picture jump
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S | 2H   | |
+| 3H | !4S! | | kickback 
+|===
+
+3H set hearts as trump and we cannot get back to spades.
+
+=== Majors have priority over minors
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H  | 2D | |
+| 3D  | ?  | |
+|     | 3H | | {H} are trump
+|     | 4H | | kickback for {D}, higher priority than picture jump
+             
+|===
+
 // === Natural bidding has priority over KC
 
 // We don't sacrifice useful natural bids for uncommon situations, such
@@ -34,63 +59,9 @@ could possibly be fake, so cannot ask for KC this round.
 // NOTE: This is based on frequency and usefuless which are
 // overwhelmingly in favour of natural bids.
 
-// === Picture bids have priority over KC asking
-
-// Picture bids are just well defined natural bids, so it's normal for
-// them to have priority over a KC-asking bid.
-
-// .Two-over-one Auctions
-// [%autowidth,cols="3*^,<",grid="none"]
-// |===
-// | 1S |  2H   | |
-// | 3H |  ?    | |
-// |    | !3S!  | | {S}-card (A, K or Q), [nobr]#trump = {H}#
-// |    |  3NT  | | natural, NF, COG, 
-// |    | 4C,4D | | slam try, trump = {H}
-// |    |  !4S! | | #picture bid, trump = {S}#
-// |    | !4NT! | | exclusion, {S}-void, trump = {H}
-// |===
-
-// .Reverse Auctions
-// [%autowidth,cols="2*^,<",grid="none"]
-// |===
-// |  1C   | 1S |
-// |  2H   | 3H |
-// |  ?    |    |
-// | !3S!  |    | {S}-card (A, K or Q), [nobr]#trump = {H}#
-// | !3NT! |    | slam-try, no shortness, [nobr]#trump = {H}#
-// |  4C   |    | slam try, good clubs
-// |  4D   |    | slam try ({S} shortness)
-// |  4H   |    | min reverse, no help in {S}
-// | !4S!* |    | #picture bid, trump = {S}#
-// | !4NT! |    | exclusion, {S}-void, trump = {H}
-// |===
-
-// As in the 2/1 auction, responder must bid something else before
-// bidding 4S as kickback for hearts.
-
-// {asterisk} For the picture jump, opener might hold
-// [nobr]#{S}AQ2 {H}KQ3 {D}74 {C}AQJT5#.
-// The reverse into the three-card heart-suit was safe because a heart
-// raise by responder indicates five spades and extras (no reverse
-// Flannery).
-
-=== Majors have priority over minors
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H  | 2D | |
-| 3D  | 3H | | {H} are trump
-|===
-
-A subsequent 4S would be kickback for hearts only.
-
-{warning} [xemph]#we do not play two-suit KC#
-
 == Minorwood
 
-Applies when:
-
+Minorwood applies when: +
 @ we have agreed a minor
 @ we have not agreed a major
 @ the auction is uncontested
@@ -140,93 +111,111 @@ We also use minorwood after transferring to a minor
 
 == Kickback
 
-{warning} We give priority to kickback over over picture jumps
+We use kickback after agreeing hearts.
+
+We also use kickback after agreeing a minor when four of the minor
+would not be a jump.
+However, if the kickback bid conflicts with four of a major as an
+offer to play, then we use an alternative bid or sequence to ask for
+KC.
+
+=== Examples of Kickback for minors
+
+[%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+ 1S :  2D
+ 3D : !4H!
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1C  : 1S
+  2H  : 3C
+ !4D! :
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1D  : 1S
+  2C  : 3D
+ !4H! :
+:===
+|===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S | 2H   | |
-| 3H | !4S! | | kickback 
+|  1C  | 1D   | |
+|  1NT | 2H*  | | natural GF
+|  3D  | !4H! | | {D} were agreed
 |===
-
-3H set hearts as trump and we cannot get back to spades.
-
-=== Other Hearts vs Spades auctions
-
-A jump to 4NT is KC for hearts when: +
-@ we are at 3H
-@ the 3H bidder is limited
-@ spades were bid on the first round +
-
-TIP: When partner is unlimited we need 4NT as natural.
-This has prority over KC-asking.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1H |  1S   | |
-| 3H |  ?    | |
-|    |  3S   | | natural forcing
-|    |  3NT  | | natural, NF
-|    | 4C,4D | | natural, F
-|    |  4S   | | to play
-|    | !4NT! | | KC for {H}
-                 @ opener is limited 
+| 1D |  2C  | |
+| 2D |  2S  | |
+| 3C | !4D! | | {C} were agreed
 |===
 
-== First-round ace-asking
+=== Contested auction:
 
-=== Plain Blackwood
+##!Jump! to cheapest unbid suit above 4m is KC asking##
 
-1__suit__ {ndash} 4NT = plain Blackwood
+[%autowidth,grid="none"]
+:===
+  1D  : (P) : 2D : (2S)
+ !4H! : : :
+:===
 
-Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
+[%autowidth,grid="none"]
+:===
+  1D  : (1H) : !2H! : (P)
+ !4S! : : :
+:===
 
-=== Gerber
+=== Four-level agreement
 
-Applies after
-@ 1NT and 2NT openings
-@ 1NT rebids
+Here we use kickback except when the kickback suit is opener's or
+responder's first-bid major-suit in which case we would use the next
+step.
 
-&Responses:&{thinsp} 03, 14, 2 & min, 2 & max
-
-=== Cheap Key-Card after preempts
-
-Applies when
-@ we open a preempt
-@ next hand passes or doubles for take-out
-
-(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
-
-&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
-
-&Follow-ups&
-
-Returning to the trump suit #and 4NT# are to play.
-
-Other suit bids are normal KC follow-ups.
-The priority order is: +
-@ trump queen - only after zero KCs +
-@ specific kings - except after 2+Q +
-@ suit-asking
-
-[%autowidth,cols="^,2*<",grid="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-|      |  2S   |
-| !4C! | !4S!* | {emsp}* 1 KC + {S}Q
-|  ?   |       |
-| pass |       | sign off
-| 4NT  |       | #sign off#
-| !5C! |       | specific-king ask
-| !5D!,!5H!,!6C! | | suit-ask
+|
+[grid="none",stripes=odd]
+:===
+  1S : 2D
+  2H : 3D
+  4D : !4H!
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1C  : 1D
+  1S  : 3D
+  4D  : !4H!
+:===
 |===
 
-=== First-round Exclusion
-
-First-round jumps to 4M are to play.
-
-Other first-round jumps that are one-level higher than a splinter are
-exclusion.
-
-&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+  1H : 2D
+  2H : 3D
+  4D : !4S!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ !2C! : 2H
+  3C  : 3D
+  4D  : !4S!
+:===
+|===
 
 == Special ways to set trump
 
@@ -395,64 +384,33 @@ If their four-level preempt follows a minor-suit opening or any
 | (4S) | !4NT! |  2+<| take-out
 |===
 
-=== Cheap KC for minors
 
-==== Contested auction:
+== KC-asking without suit-agreement
 
-##!Jump! to cheapest unbid suit above 4m is KC asking##
+=== Hearts and Spades
 
-[%autowidth,grid="none"]
-:===
-  1D  : (P) : 2D : (2S)
- !4H! : : :
-:===
+A jump to 4NT is KC for hearts when: +
+@ we are at 3H
+@ the 3H bidder is limited
+@ spades were bid on the first round +
 
-[%autowidth,grid="none"]
-:===
-  1D  : (1H) : !2H! : (P)
- !4S! : : :
-:===
+TIP: When partner is unlimited we need 4NT as natural.
+This has prority over KC-asking.
 
-==== Kickback after suit agreement
-
-[%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-|
-[grid="none",stripes=odd]
-:===
- 1S :  2D
- 3D : !4H!
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1S
-  2H  : 3C
- !4D! :
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1D  : 1S
-  2C  : 3D
- !4H! :
-:===
+| 1H |  1S   | |
+| 3H |  ?    | |
+|    |  3S   | | natural forcing
+|    |  3NT  | | natural, NF
+|    | 4C,4D | | natural, F
+|    |  4S   | | to play
+|    | !4NT! | | KC for {H}
+                 @ opener is limited 
 |===
 
-=== Three-level non-agreement
 
-The general principle is that for 4m to be minorwood, we must first
-explicitely agree the minor-suit.
-So if a minor is bid at the 3-level and there is no suit
-agreement, then a raise to 4m is usually just agreeing trump.
-The exception (noted below) is when there is no jump between 4m and
-4NT that can be used to ask for KC.
-
-To simultaneously set the minor as trump and ask for KC,
-we use a form of kickback.
-
-NOTE: Kantar still calls it minorwood because it's
-      asking for KC in the minor.
+=== Minors
 
 Following 3m without suit agreement, the KC-asking bid is: +
 #a jump to a suit below 4NT#
@@ -493,23 +451,6 @@ It is the cheapest of: +
 |===
 |  1S  | 3C* | {emsp} natural inv.
 | !4D! |     | jump to cheapest unbid suit
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1C  | 1D   | |
-|  1NT | 2H*  | | natural GF
-|  3D  | !4H! | | responder's 2nd-suit +
-                @ cheaper than 4th suit
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1D |  2C  | |
-| 2D |  2S  | |
-| 3C | !4H! | | unbid suit +
-                @ cheaper than responder's
-		_ 2nd-suit
 |===
 
 ==== Exception when no jump below 4NT can be KC asking
@@ -562,53 +503,6 @@ been agreed.
 >> 4M = offer to play +
 @ 4D = minorwood +
 @ 4NT = natural +
-
-=== Four-level agreement
-
-When 4m is the first call that shows support for partner's minor
-then, it is not minorwood.
-Here we use kickback except when the kickback suit is opener's or
-responder's first-bid major-suit in which case we would use the next
-step.
-
-TIP: The KC-asking bid is essentially the same as in three-level
-non-agreement except that the bid is not a jump.
-
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1S : 2D
-  2H : 3D
-  4D : !4H!
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1D
-  1S  : 3D
-  4D  : !4H!
-:===
-|===
-
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1H : 2D
-  2H : 3D
-  4D : !4S!
-:===
-|
-[grid="none",stripes=odd]
-:===
- !2C! : 2H
-  3C  : 3D
-  4D  : !4S!
-:===
-|===
 
 == KC Responses
 
@@ -670,4 +564,62 @@ double.
 
 // Specific Suit Asking Bids
 // ** danger **
+
+
+== First-round ace-asking
+
+=== Plain Blackwood
+
+1__suit__ {ndash} 4NT = plain Blackwood
+
+Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
+
+=== Gerber
+
+Applies after
+@ 1NT and 2NT openings
+@ 1NT rebids
+
+&Responses:&{thinsp} 03, 14, 2 & min, 2 & max
+
+=== Cheap Key-Card after preempts
+
+Applies when
+@ we open a preempt
+@ next hand passes or doubles for take-out
+
+(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
+
+&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
+
+&Follow-ups&
+
+Returning to the trump suit #and 4NT# are to play.
+
+Other suit bids are normal KC follow-ups.
+The priority order is: +
+@ trump queen - only after zero KCs +
+@ specific kings - except after 2+Q +
+@ suit-asking
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|      |  2S   |
+| !4C! | !4S!* | {emsp}* 1 KC + {S}Q
+|  ?   |       |
+| pass |       | sign off
+| 4NT  |       | #sign off#
+| !5C! |       | specific-king ask
+| !5D!,!5H!,!6C! | | suit-ask
+|===
+
+=== First-round Exclusion
+
+First-round jumps to 4M are to play.
+
+Other first-round jumps that are one-level higher than a splinter are
+exclusion.
+
+&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
+
 
