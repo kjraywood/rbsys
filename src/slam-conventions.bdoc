@@ -115,11 +115,26 @@ We use kickback after agreeing hearts.
 
 We also use kickback after agreeing a minor when four of the minor
 would not be a jump.
-However, if the kickback bid conflicts with four of a major as an
-offer to play, then we use an alternative bid or sequence to ask for
-KC.
 
-=== Examples of Kickback for minors
+=== Diamonds and Hearts
+
+If we have agreed diamonds and 4D would not be a jump, then 4H is
+usually kickback.
+However, if hearts was bid by either player on the first round,
+then 4H may be needed as an offer-to-play and this takes priority.
+
+After agreeing diamonds, 4H is an offer-to-play when: +
+@ it is not a jump +
+@ hearts was bid on the first round
+_ by either player
+
+INFO: This is restrictive but unambiguous.
+      We may make it less resrictive in future.
+
+If 4H is not available as kickback for diamonds, then 4S is kickback
+unless spades were also bid on the first round.
+
+=== Examples
 
 [%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
 |===
