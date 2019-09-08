@@ -387,7 +387,7 @@ The only possibility is [nobr]#{H} + {C}#
 |  ?    |  4+<|
 |  2H   |  4+<| sign off
 | !2S!  |  4+<| 5{xtimes}{H}, 4{orMore}{xtimes}{C}, inv. +
-                > #reverse transfers:#
+                > #reverse transfers:#{nbsp}
 	        _ !2NT! {forces} {C}, !3D! {forces} {H}
 | 2NT   |  4+<| natural, inv.
                 > #3D = reverse transfer#
