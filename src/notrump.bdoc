@@ -188,14 +188,15 @@ It's possible to miss a 4{hyph}-4 major-suit fit when responder rebids
 |       |     |        1NT         {ensp} (P)
 | !2C!  | (X) | {ensp}!!P!!*{nbsp} {ensp} (P) {emsp} * {C} stopper
 |  ?    |     |
-| !XX!  |     | re-Stayman, 2{OrMore}{xtimes}{C}, #System{nbsp}ON#
+| !XX!  |     | re-Stayman, #2{OrMore}{xtimes}{C}#
+                > #System{nbsp}ON#
 |  2D   |     | garbage-Stayman hand
 | !2H!  |     | both majors, weak,
                 [nobr]#{S}-length {ge} {H}-length#
 |  2S   |     | 5*{S}, inv. (short {C})
 | 2NT   |     | natural inv. but short {C}
-| !3C!  |     | re-Stayman, short {C}
-         [nobr]##{thinsp}{tribull} #Smolen ON# ##
+| !3C!  |     | re-Stayman, #short {C}#
+                > #Smolen ON#
 |  3D   |     | 5*{D}, 4*M, short {C}, GF
 |===
 
