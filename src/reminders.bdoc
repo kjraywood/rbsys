@@ -8,7 +8,7 @@
 
 2+<d|
       Texas OFF vs 2NT{OrMore} +
-      rev. crawling Stayman
+      Inverted crawling-Stayman
 | super +
   accepts    | jump = max +
                new-suit = anti-splinter
@@ -94,60 +94,48 @@
 
 // -------------------------------- //
 
-[%autowidth,cols="<.^a",grid="none"]
+[%autowidth,cols="<",grid="none"]
 |===
 ^| 2NT Opening
 
-|
-[%autowidth,cols="<",grid="none", frame="none", stripes="odd"]
-!===
-! Tfr to {H} then 3S = 5-5 slammish
-    > 3NT = bad,{ensp} !4C! = {H},{ensp} !4D! = {S}
-!===
+| Tfr to {H} then 3S = 5-5 slammish
+  > 3NT = bad,{ensp} !4C! = {H},{ensp} !4D! = {S}
 
-|
-[%autowidth,cols="3*<.^",grid="none", frame="none", stripes="none"]
-!===
-! [nobr]#3S {forces} 3NT#
-  ! ! 4m = slam inv.
-      >> KC or 4NT (bad) +
-      4M = stiff, 3*oM +
-      4NT = minors, weak
-!===
+| *3{S} {forces} 3NT {semicolon} ?* +
+  4m = #opt. minorwood# +
+  4M = stiff, 3*oM +
+  4NT = minors, weak
 
-|
-[%autowidth,cols="<",grid="none", frame="none", stripes="odd"]
-!===
-! 3NT = minors, slammish
+| 3NT = minors, slammish
   > 4m = minorwood,{ensp} 4NT = bad
-!===
 
 |===
 
 // -------------------------------- //
 
-[%autowidth,cols=".^s,2*<",grid="none"]
+[%autowidth,cols="<",grid="none"]
 |===
-3+^d| Minor Opening
+^| Minor Opening
 
-| vs{nbsp}dble
-	   ||
-	      2NT = bal. LR, #NF# +
-              3NT = bal. GR +
-              JS om = unbal. LR{orMore} +
-              other JS = inv.
-| PH +
-  resp.    || 2m = 6-10 +
-              #3m = unbal. LR# +
-              2S = bal. LR +
-              JS om = fit showing
-| [nobr]##1D {ndash} 2C##
-           || 2{D} = 5{OrMore} +
-	      2M = 4*{D}, 4*M +
-	      #!!3NT!! = 4-4-4-1, 16-17# +
-	      {tribull} _lower for lower_ +
-              {ensp}[nobr]##{bull} !4m! sets trump = _major_## +
-              {ensp}[nobr]##{bull} !4M! asks KCs in _minor_##
+| *Responses* +
+@ 2m = GF {or} 4c 6-10 by PH +
+@ #3m = 5c{OrMore} 6-9{OrLess}#
+@ 2S = LR +
+@ JS om = nat. inv {or} fit-showing by PH
+
+|  *vs. dble* +
+@ 2NT = bal. LR, #NF#
+@ 3NT = bal. GR +
+@ JS om = unbal. LR{orMore}
+@ other JS = inv.
+
+| *Rebids after 1{D} {ndash} 2{C}* +
+2{D} = 5c{OrMore} +
+2M = 4*{D}, 4*M +
+#!!3NT!! = 4-4-4-1, 16-17# +
+> _lower for lower_ +
+@@ !4m! sets trump = _major_ +
+@@ !4M! asks KCs in _minor_
 |===
 
 // -------------------------------- //
