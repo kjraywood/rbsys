@@ -136,28 +136,12 @@ unless spades were also bid on the first round.
 
 === Examples
 
-[%autowidth,cols="3*^a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
- 1S :  2D
- 3D : !4H!
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1S
-  2H  : 3C
- !4D! :
-:===
-
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1C  | 1D |
 |  2H  | 3C |
-| !4D! |    | {C} agreed, 4{D} not a jump so NOT minorwood,
-                {H} bid on first round, 4H NOT a jump, so 4H is kickback
+| !4D! |    | {C} agreed, 4{C} not a jump so NOT minorwood,
+              so 4D is kickback
 |===
 
 [%autowidth,cols="2*^,<",grid="none"]
@@ -165,7 +149,7 @@ unless spades were also bid on the first round.
 |  1D  | 1H   |
 |  2C  | 3D*  | {ensp} natural GF
 | !4H! |      | {D} agreed, 4{D} not a jump so NOT minorwood,
-                {H} bid on first round, 4H NOT a jump, so 4H is kickback
+                {H} bid on first round, 4H is a jump, so 4H is kickback
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
