@@ -234,13 +234,13 @@ rebids 3NT.
 |===
 | Response       ^| Unpassed   ^| Passed
 
-| single{nbsp}raise | GF          | 6{ndash}10
-| jump{nbsp}raise   | weak        | unbal. LR
-| JS to other{nbsp}minor | LR     | fit showing
-| !2S!              | mixed raise | bal. LR
+| single{nbsp}raise | GF          | 6{ndash}10, 4-cd
+| jump{nbsp}raise   | mixed raise, 5{OrMore}-cd | mixed-raise, 5{OrMore}-cd
+// | JS to other{nbsp}minor | LR     | fit showing
+| !2S!              | LR          | bal. LR
 | !2H!           2+^| rev. Flannery
-| 2NT               | 11{ndash}12 | 
-| 3NT               | 13{ndash}15 |
+| 2NT               | 11{ndash}12 | try-to-avoid
+| 3NT               | 13{ndash}15 | N/A
 |===
 
 === Inverted Minors
