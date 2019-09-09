@@ -19,23 +19,23 @@ __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 After fourth-suit forcing at the 2-level: +
 @ 2NT, or a #2-level bid# of
 _ #either player's first-suit#
-_ #= NF, rejects an invitation#
-@ other non-jump = F1, ambiguous strength +
-@ jump = GF
+_ = #minimum strength, NF# +
+@ other non-jump = ambiguous strength, F1 +
+@ jump = extra strength, GF
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 1C  |  1H  |
 | 1S  | !2D! |
 | ?   |      |
-| 2H  |      | reject, NF, usually {H}Hx
-| 2S* |      | #ambiguous strength, F1#,
-| 2NT |      | reject, NF
+| 2H  |      | minumum, NF, usually {H}Hx
+| 2S* |      | #ambiguous strength, F1#
+| 2NT |      | minimum, NF
 | 3C  |      | 6{xtimes}{C}, ambiguous strength, F1
 | 3D  |      | 4{xtimes}{D}, ambiguous strength, F1
-| 3H  |      | accept, GF
+| 3H  |      | extra strength, GF
 | 3S  |      | 5{xtimes}{S}, 6{OrMore}{xtimes}{C}, GF
-| 3NT |      | accept
+| 3NT |      | non-minimum
 |===
 
 {asterisk} could be just a minimum not suitable for 2NT.
