@@ -50,37 +50,37 @@ A 2^nd^-round re-transfer is game-inv or slam-inv.
 
 ALERT: Unusual treatment
 
-[%autowidth,cols="2*<.^",grid="cols"]
+[%autowidth,cols="^.^,<.^",grid="cols"]
 |===
-| [nobr]#5{ndash}4{orMore}#
-      | Stayman then 2H
-        [nobr]#(inverted Crawling-Stayman)# +
-        [nobr]##{tribull} #Opener bids 2S with 3-3 majors# ##
-| [nobr]#4{ndash}5#
-      | Transfer to {H} then pass
-        @ we can't show 4*{S}
+| 4{ndash}5 | Transfer to {H} then pass
+              @ we can't show 4*{S}
+| 5{ndash}4 +
+  or +
+  5{ndash}5 | Stayman then 2H +
+              > #Opener bids 2S with 3-3 majors# +
+              _ (inverted Crawling-Stayman)
 |===
 
 iCS maximises the chances that opener declares.
 
 .Invitational
-[%autowidth,cols="2*<.^",grid="cols"]
+[%autowidth,cols="^.^,<.^",grid="cols"]
 |===
-| [nobr]#5{ndash}4{orMore}#
-      | Stayman then raise or 2S
-| [nobr]#4{ndash}5#
-      | Stayman then raise or 2NT
-        @ we can't show 5th {H}
+| 4{ndash}5 | Stayman then raise or 2NT
+              @ we can't show 5th {H}
+| 5{ndash}4 | Stayman then raise or 2S
+              > pass 2NT or 3NT
+| 5{ndash}5 | Stayman then raise or 2S
+              > pull 2NT or 3NT to {H}
 |===
 
 .Game Forcing
-[%autowidth,cols="2*<.^",grid="cols"]
+[%autowidth,cols="^.^,<.^",grid="cols"]
 |===
-| [nobr]#5{ndash}5#
-      | [nobr]#Transfer to {S}#, then
-        [nobr]#transfer to {H}#
-| [nobr]#5{ndash}4# or [nobr]#4{ndash}5#
-      | Stayman then Smolen
+| 5{ndash}5 | Transfer to {S}
+              > transfer to {H}
+| [nobr]#4-5 {or} 5-4#
+            | Stayman then Smolen
 |===
 
 === Stayman
@@ -606,9 +606,7 @@ Regular Stayman and non-jump Smolen.
 | 2NT | !3S! | | forces 3NT
 | 3NT |  ?   | |
 |     | pass | | to play
-|     |  4m  | | natural slam inv.
-|     |      | | {tribull} next step = RKC
-|     |      | | {tribull} 4NT = to play
+|     |  4m  | | optional minorwood
 |     | !4M! | | stiff with three in other major
 |     |  4NT | | both minors weak
 |===
@@ -619,6 +617,14 @@ Regular Stayman and non-jump Smolen.
 |  ?   |       | |
 | !4m! |       | | minorwood
 |  4NT |       | | decline
+|===
+
+[%autowidth,cols="^,<",grid="none"]
+|===
+2+^| Responses to optional minorwood
+
+| 4m+1 | accept, asks partner for KC
+| other | decline, shows KCs beginning at 4m+2
 |===
 
 === Both majors
