@@ -231,36 +231,32 @@ d|
 
 // -------------------------------- //
 
-[%autowidth,cols="<.^s,<.^",grid="none"]
+[%autowidth,cols="<",grid="none"]
 |===
-2+^d| minor-suit KC
+^| Slam Conventions
 
-| regular +
-  minorwood  |
-		@ agreed minor
-		@ no agreed major
-		@ uncontested
-		@ last-bid {le} 3m
-| kickback   a|
-[%autowidth,cols="<.^",grid="none", stripes="odd"]
-!===
-! _no agreement_ +
-  @ last-bid = 3m
-! _agreed minor_ +
-  @ in comp., or
-  _ last-bid {gt} 3m +
-  @ last-bid {le} 4m
-!===
-2+<d| *Kickback bid:*{nbsp}
-      @ above 4m
-      @ below 4NT +
-      _Cheaper of:_
-      @ unbid suit
-      @ 4^th^ suit
-      @ either player's 2^nd^-suit
-2+<d| *If no kickback bid:* +
-      > non-jump 4^th^-suit @ 4-level
-      _ agrees last suit
+| *Minorwood* +
+  @ suit agreed, uncontested,{nbsp}
+  _ 4m = #jump# +
+  @ 1NT opening: t'fer to minor then 4m
+
+| *Kickback when {D} are trump* +
+  4H if jump or {H} not bid on 1^st^ round +
+  {or} 4S if {S} not bid on 1^st^ round
+
+| *KC without suit-agreement* +
+   After 3m: +
+   _ jump to cheaper of{nbsp}
+   _ unbid suit, 4^th^ suit,{nbsp}
+   _ either 2^nd^-suit +
+   After 3H (single suit): +
+   _ jump to 4S{nbsp}
+   _ {or} 4NT if 1^st^-suit = {S} +
+   After 3S (single suit): +
+   _ jump to 4NT +
+   If no KC ask available: +
+   _ non-jump 4^th^-suit @ 4-level{nbsp}
+   _ agrees last suit
 |===
 
 // -------------------------------- //

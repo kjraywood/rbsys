@@ -121,14 +121,14 @@ _ possibly 5-5 shape
 |===
 | 1NT | !2C!  | |
 | 2M  |  ?    | |
-|     | !3oM! | | M fit, slam-inv, [nobr]#unspecified shortness# +
+|     | !3oM! | | M fit, slam-inv, unspecified{nbsp}shortness +
                   {tribull} next step asks
-|     | !4C!  | | M fit, KC ask
-|     | !4D!  | | M fit, slam-inv, [nobr]#no shortness# +
-                  {tribull} 4oM = KC ask +
-                  {tribull} 4NT = min, to play
+|     | !4C!  | | M fit, KC ask (not Gerber)
+|     | !4D!  | | M fit, slam-inv, no{nbsp}shortness +
+                  > 4M by O = decline +
+                  > #4oM by O = accept, KC ask# +
+                  > 4NT by O = min, to play
 |===
-
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
