@@ -234,11 +234,11 @@ rebids 3NT.
 |===
 | Response           | Unpassed          | Passed
 
-| single{nbsp}raise  | GF                | 6{ndash}10, 4{hyph}cd{nbsp}support
-| jump{nbsp}raise 2+^| 6{ndash}9{OrLess}, 5{OrMore}{hyph}cd{nbsp}support
+| single{nbsp}raise  | GF                | 6{ndash}10,{nbsp} 4{hyph}cd{nbsp}support
+| jump{nbsp}raise 2+^| 6{ndash}9{OrLess},{nbsp} 5{OrMore}{hyph}cd{nbsp}support{emsp}
 | JS {blueRarrow} om | natural{nbsp}inv. | #fit showing#
-| !2H!            2+^| rev. Flannery
-| !2S!            2+^| LR, bal. or unbal.
+| !2H!            2+^| rev. Flannery{emsp}{nbsp}
+| !2S!            2+^| LR,{nbsp} bal. or unbal.{emsp}{nbsp}
 | 2NT                | 11{ndash}12       | #avoid opposite 3^rd^{nbsp}seat#
 | 3NT                | 13{ndash}15       | --
 |===
