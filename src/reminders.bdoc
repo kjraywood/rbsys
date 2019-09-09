@@ -18,7 +18,7 @@
 	     | 3M-1 = 6{orMore}{times}M, GI or SI +
                3M = 6{times}M, COG +
                4M = bal. slam-inv, 5{times}M
-	       @@ 5C = KC for M={S}
+	       > 5C = KC for {S}
 	       
 | vs double  | pass = NF
                > XX by O = 5c suit +
