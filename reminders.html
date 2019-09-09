@@ -635,7 +635,7 @@ div.unbreakable { page-break-inside: avoid; }
 .brickred { color: #7a2518; }
 .githubblue { color: #0366d6; }
 
-.big { font-size: larger; }
+.big { font-size: larger; line-height: 0; }
 
 .small { font-size: smaller; }
 
@@ -770,6 +770,8 @@ div.unbreakable { page-break-inside: avoid; }
 	     margin: 0.0em 0.5em 0.0625em 0.0em;
 	   }
 
+.higher { bottom: 0.0625em; line-height: 0; position: relative; vertical-align: baseline; }
+.vlower { bottom: -0.125em; line-height: 0; position: relative; vertical-align: baseline; }
 .vraise {vertical-align: 8%; }
 .vvraise {vertical-align: 12.5%; }
 .ssmall { font-size: 75%; }
@@ -843,7 +845,7 @@ b.conum * { color: inherit !important; }
 <div id="header">
 <h1>Reminders</h1>
 <div class="details">
-<span id="revdate">September 8, 2019</span>
+<span id="revdate">September 9, 2019</span>
 </div>
 </div>
 <div id="content">
@@ -874,12 +876,12 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-top"><p class="tableblock">3M-1 = 6<sup><strong>+</strong></sup>&times;M, GI or SI<br>
                3M = 6&times;M, COG<br>
                4M = bal. slam-inv, 5&times;M&#160;
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; 5<span class="clubs green">&#x2663;</span> = KC for <span class="spades blue">&#x2660;</span></span></p></td>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; 5<span class="clubs green">&#x2663;</span> = KC for <span class="spades blue">&#x2660;</span></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>vs double</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">pass = NF&#160;
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; XX by O = 5c suit</span><br>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; XX by O = 5c suit</span><br>
                XX = <span class="clubs green">&#x2663;</span> or <span class="diamonds orange">&#x2666;</span>, weak<br>
 	       Tfrs ON<br>
 	       2<span class="spades blue">&#x2660;</span>, 3m = 4&thinsp;&times;&thinsp;M + 6&thinsp;&times;&thinsp;m</p></td>
@@ -930,7 +932,7 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>JS (3/1)</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">inv. <span class="vraise mildblue small">&#x27a4;</span>&thinsp; pass or force</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">inv. <span class="mildblue small higher">&#x27a4;</span>&thinsp; pass or force</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>splinters</strong></p></td>
@@ -948,14 +950,14 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>vs o/call</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">JS = fit showing<br>
 		dble-JS = splinter<span class="backspacey"> </span>
-<span class="nobr"><span class="indenty">&nbsp; </span><span class="mildblue">&bull;</span> <mark>if below game</span></mark></p></td>
+<span class="nobr"><span class="indenty">&nbsp; </span><span class="vlower mildblue big">&bull;</span> <mark>if below game</span></mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>PH resp.</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">JS = fit showing<br>
 		JR = weak splinter<br>
 		2NT = 5-5 minors, inv.
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> <mark>ON vs X &amp; 1<span class="spades blue">&#x2660;</span>,</mark> &#x223c; Drury</span></p></td>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> <mark>ON vs X &amp; 1<span class="spades blue">&#x2660;</span>,</mark> &#x223c; Drury</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>&emsp; 2/1<br>
@@ -995,7 +997,7 @@ b.conum * { color: inherit !important; }
 </tr>
 </tbody>
 </table></div></td>
-<td class="tableblock halign-center valign-middle"><p class="tableblock"><span class="vraise mildblue small">&#x27a4;</span>&thinsp;</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock"><span class="mildblue small higher">&#x27a4;</span>&thinsp;</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">old-suit = NF<br>
 	          <mark>unbid-minor =&#160;GF&#160;relay</mark></p></td>
 </tr>
@@ -1019,7 +1021,7 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Tfr to <span class="hearts red">&#x2665;</span> then 3<span class="spades blue">&#x2660;</span> = 5-5 slammish&#160;
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; 3NT = bad,&ensp; <span class="alert">4<span class="clubs green">&#x2663;</span></span> = <span class="hearts red">&#x2665;</span>,&ensp; <span class="alert">4<span class="diamonds orange">&#x2666;</span></span> = <span class="spades blue">&#x2660;</span></span></p></td>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; 3NT = bad,&ensp; <span class="alert">4<span class="clubs green">&#x2663;</span></span> = <span class="hearts red">&#x2665;</span>,&ensp; <span class="alert">4<span class="diamonds orange">&#x2666;</span></span> = <span class="spades blue">&#x2660;</span></span></p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -1036,7 +1038,7 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="nobr">3<span class="spades blue">&#x2660;</span> &#x279c; 3NT</span></p></td>
 <td class="tableblock halign-left valign-middle"></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">4m = slam inv.<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; KC or 4NT (bad)</span><br>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; KC or 4NT (bad)</span><br>
       4M = stiff, 3&thinsp;&times;&thinsp;oM<br>
       4NT = minors, weak</p></td>
 </tr>
@@ -1051,7 +1053,7 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">3NT = minors, slammish&#160;
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; 4m = minorwood,&ensp; 4NT = bad</span></p></td>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; 4m = minorwood,&ensp; 4NT = bad</span></p></td>
 </tr>
 </tbody>
 </table></div></td>
@@ -1093,9 +1095,9 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-top"><p class="tableblock">2<span class="diamonds orange">&#x2666;</span> = 5<sup><strong>+</strong></sup><br>
 	      2M = 4&thinsp;&times;&thinsp;<span class="diamonds orange">&#x2666;</span>, 4&thinsp;&times;&thinsp;M<br>
 	      <mark><span class="alert">3NT</span> = 4-4-4-1, 16-17</mark><br>
-	      <span class="vraise mildblue small">&#x27a4;</span>&thinsp; <em>lower for lower</em><br>
-              &ensp;<span class="nobr"><span class="mildblue">&bull;</span> <span class="alert">4m</span> sets trump = <em>major</em></span><br>
-              &ensp;<span class="nobr"><span class="mildblue">&bull;</span> <span class="alert">4M</span> asks KCs in <em>minor</em></span></p></td>
+	      <span class="mildblue small higher">&#x27a4;</span>&thinsp; <em>lower for lower</em><br>
+              &ensp;<span class="nobr"><span class="vlower mildblue big">&bull;</span> <span class="alert">4m</span> sets trump = <em>major</em></span><br>
+              &ensp;<span class="nobr"><span class="vlower mildblue big">&bull;</span> <span class="alert">4M</span> asks KCs in <em>minor</em></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -1114,11 +1116,11 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">reverse after 1NT<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; 2NT = NF <mark>(not Leb.)</span></mark><br></p></td>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; 2NT = NF <mark>(not Leb.)</span></mark><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">we bid 3 suits<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; jump to 3NT = 16-17</span><br></p></td>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; jump to 3NT = 16-17</span><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><mark>non-forcing back-preferences</mark><br>
@@ -1138,8 +1140,8 @@ b.conum * { color: inherit !important; }
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="nobr">&nbsp;<span class="mildblue">&bull;</span> ON vs double&ensp;</span>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> OFF vs overcall</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> ON vs double&ensp;</span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> OFF vs overcall</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><div class="content"><table class="tableblock frame-all grid-none stripes-odd fit-content">
@@ -1281,7 +1283,7 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-center valign-top"><p class="tableblock">2<span class="hearts red">&#x2665;</span></p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">natural inv. &#x2016; <span class="hearts red">&#x2665;</span>-val., GF<br>
-                <span class="vraise mildblue small">&#x27a4;</span>&thinsp; <span class="alert">3<span class="clubs green">&#x2663;</span></span> = 4&thinsp;&times;&thinsp;<span class="hearts red">&#x2665;</span> min<br>
+                <span class="mildblue small higher">&#x27a4;</span>&thinsp; <span class="alert">3<span class="clubs green">&#x2663;</span></span> = 4&thinsp;&times;&thinsp;<span class="hearts red">&#x2665;</span> min<br>
 		&emsp;     3<span class="hearts red">&#x2665;</span>  = 4&thinsp;&times;&thinsp;<span class="hearts red">&#x2665;</span> max</p></td>
 </tr>
 <tr>
@@ -1289,7 +1291,7 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-center valign-top"><p class="tableblock"><span class="alert">3<span class="clubs green">&#x2663;</span></span></p></td>
 <td class="tableblock halign-center valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diamonds orange">&#x2666;</span> inv. &#x2016; <span class="spades blue">&#x2660;</span> inv. &#x2016; <span class="clubs green">&#x2663;</span>-val., GF<br>
-                <span class="vraise mildblue small">&#x27a4;</span>&thinsp; 3<span class="diamonds orange">&#x2666;</span> = reject<br>
+                <span class="mildblue small higher">&#x27a4;</span>&thinsp; 3<span class="diamonds orange">&#x2666;</span> = reject<br>
 		&emsp;   <span class="alert">3<span class="hearts red">&#x2665;</span></span> = accept, no <span class="spades blue">&#x2660;</span> tol.<br>
 		&emsp;    3<span class="spades blue">&#x2660;</span> = accept with <span class="spades blue">&#x2660;</span> tol.</p></td>
 </tr>
@@ -1310,7 +1312,7 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>2<span class="clubs green">&#x2663;</span> &ndash;<br>
   (X&#160;or&#160;bid)</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">XX = values
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> <mark>denies <span class="clubs green">&#x2663;</span>-length</span></mark><br>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> <mark>denies <span class="clubs green">&#x2663;</span>-length</span></mark><br>
                   pass = bust or trap<br>
                   bid = natural weak<br></p></td>
 </tr>
@@ -1336,10 +1338,10 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>regular<br>
   minorwood</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="nobr">&nbsp;<span class="mildblue">&bull;</span> agreed minor</span>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> no agreed major</span>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> uncontested</span>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> last-bid &#x2a7d; 3m</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> agreed minor</span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> no agreed major</span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> uncontested</span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> last-bid &#x2a7d; 3m</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>kickback</strong></p></td>
@@ -1350,29 +1352,29 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><em>no agreement</em><br>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> last-bid = 3m</span></p></td>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> last-bid = 3m</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><em>agreed minor</em><br>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> in comp., or</span><span class="backspacey"> </span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> in comp., or</span><span class="backspacey"> </span>
 <span class="nobr"><span class="indent">&nbsp; </span> last-bid &#65310; 3m</span><br>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> last-bid &#x2a7d; 4m</span></p></td>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> last-bid &#x2a7d; 4m</span></p></td>
 </tr>
 </tbody>
 </table></div></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle" colspan="2"><p class="tableblock"><strong>Kickback bid:</strong>&#160;
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> above 4m</span>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> below 4NT</span><br>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> above 4m</span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> below 4NT</span><br>
       <em>Cheaper of:</em>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> unbid suit</span>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> 4<sup>th</sup> suit</span>
-<span class="nobr">&nbsp;<span class="mildblue">&bull;</span> either player&#8217;s 2<sup>nd</sup>-suit</span></p></td>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> unbid suit</span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 4<sup>th</sup> suit</span>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> either player&#8217;s 2<sup>nd</sup>-suit</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle" colspan="2"><p class="tableblock"><strong>If no kickback bid:</strong>&#160;<br>
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; non-jump 4<sup>th</sup>-suit @ 4-level</span><span class="backspacey"> </span>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; non-jump 4<sup>th</sup>-suit @ 4-level</span><span class="backspacey"> </span>
 <span class="nobr"><span class="indent">&nbsp; </span> agrees last suit</span></p></td>
 </tr>
 </tbody>
@@ -1392,23 +1394,23 @@ b.conum * { color: inherit !important; }
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>neg.<br>
   free-bid</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">2oM = 6&thinsp;&times;&thinsp;M, inv. or less&#160;
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; 2NT = Bogust</span></p></td>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; 2NT = Bogust</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>neg. dble</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">4&#x2016;5&thinsp;&times;&thinsp;oM&#160;<br>
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; rebid = 5-cd suit,</span><span class="backspacey"> </span>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; rebid = 5-cd suit,</span><span class="backspacey"> </span>
 <span class="nobr"><span class="indent">&nbsp; </span> 2-lev. = inv., 3-lev. = GF</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>2/1 in comp.</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">F1 when not NFB&#160;
-<span class="nobr"><span class="vraise mildblue small">&#x27a4;</span>&thinsp; <mark>2<sup>nd</sup>-round jump = GF</span></mark></p></td>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; <mark>2<sup>nd</sup>-round jump = GF</span></mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Un vs Un</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">lo-cue = other, <mark>usually inv.</mark><br>
-                   <span class="mildblue">&bull;</span> 1<span class="clubs green">&#x2663;</span>-(2<span class="clubs green">&#x2663;</span>): 2<span class="diamonds orange">&#x2666;</span>=inv., <span class="alert">2<span class="hearts red">&#x2665;</span></span>=GF <span class="diamonds orange">&#x2666;</span></p></td>
+                   <span class="vlower mildblue big">&bull;</span> 1<span class="clubs green">&#x2663;</span>-(2<span class="clubs green">&#x2663;</span>): 2<span class="diamonds orange">&#x2666;</span>=inv., <span class="alert">2<span class="hearts red">&#x2665;</span></span>=GF <span class="diamonds orange">&#x2666;</span></p></td>
 </tr>
 </tbody>
 </table>
@@ -1503,7 +1505,7 @@ b.conum * { color: inherit !important; }
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">we balance 1M<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; unbid-minor = rev. Drury</span></p></td>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; unbid-minor = rev. Drury</span></p></td>
 </tr>
 </tbody>
 </table>
@@ -1520,7 +1522,7 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-middle" colspan="2"><p class="tableblock">6<sup><strong>+</strong></sup>-length known<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; suit-pref, mid. enc.</span></p></td>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; suit-pref, mid. enc.</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle" colspan="2"><p class="tableblock">2<sup>nd</sup> high thru decl. to weakness in dummy</p></td>
@@ -1528,11 +1530,11 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong><span class="nobr">A&thinsp;<span class="OvalBox">K</span>&thinsp;x</span></strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">vs slam<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; count</span><br>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; count</span><br>
            Qxx(x) in dummy<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; count</span><br>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; count</span><br>
            Jxxx or Txxx in dummy<span class="backspace"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span><span class="vraise mildblue small">&#x27a4;</span>&thinsp; simple attitude</span></p></td>
+<span class="nobr"><span class="indent">&nbsp; </span><span class="mildblue small higher">&#x27a4;</span>&thinsp; simple attitude</span></p></td>
 </tr>
 </tbody>
 </table>
