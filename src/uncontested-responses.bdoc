@@ -235,7 +235,7 @@ rebids 3NT.
 | Response       ^| Unpassed   ^| Passed
 
 | single{nbsp}raise | GF          | 6{ndash}10, 4{hyph}cd
-| jump{nbsp}raise   2+^| 6{ndash}9{OrLess}, 5{OrMore}-cd | 6{ndash}9{OrLess}, 5{OrMore}{hyph}cd
+| jump{nbsp}raise   2+^| 6{ndash}9{OrLess}, 5{OrMore}-cd
 | JS to other{nbsp}minor | natural inv.     | fit showing
 | !2S!           2+^| LR bal. or unbal.
 | !2H!           2+^| rev. Flannery
