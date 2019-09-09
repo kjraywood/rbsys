@@ -12,29 +12,34 @@
 | super +
   accepts    | jump = max +
                new-suit = anti-splinter
-	       @@ 2NT for tfr suit
+// @@ 2NT for tfr suit
 | 2^nd^{nbsp}round{backspacex} +
   transfers
-	     | 3M-1 = 6{orMore}{times}M, #GI or SI# +
+	     | 3M-1 = 6{orMore}{times}M, GI or SI +
                3M = 6{times}M, COG +
                4M = bal. slam-inv, 5{times}M
-| vs double  | Tfrs ON +
+	       @@ 5C = KC for M={S}
+	       
+| vs double  | pass = NF
+               > XX by O = 5c suit +
                XX = {C} or {D}, weak +
-               #XX by opener = 5-cd suit#
+	       Tfrs ON +
+	       2S, 3m = 4*M + 6*m
+               
 | Unified +
   Leb.       | 3{lab}new suit{rab} = inv +
                 slow cue or 3NT = 4{times}oM +
                 neg. X then 3oM
-		_ = 5{times}oM, #FORCING#
+		_ = #5{times}oM, FORCING#
 | vs 2NT +
-  (minors)   | 3C = majors, wk or str +
-	       3D = majors, GF +
+  (minors)   | 3C = majors, #wk or str# +
+	       3D = majors, #GF# +
                3M = competitive, #NF# +
-	       4-lev. = Namyats
-	       @@ #not Texas#
+	       4-lev. = #Namyats#
 | vs 3m      | 3{lab}suit{rab} = competitive, #NF# +
 	       #4C = om + M#
-               >> 4D asks which M +
+//               > 4D asks which M
+               +
                #4D = majors# +
 	       4M = to play
 | vs 3M      | 4m = m + oM
