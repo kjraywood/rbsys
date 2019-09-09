@@ -235,8 +235,8 @@ rebids 3NT.
 | Response       ^| Unpassed   ^| Passed
 
 | single{nbsp}raise | GF          | 6{ndash}10, 4{hyph}cd{nbsp}support
-| jump{nbsp}raise   2+<| {ensp}6{ndash}9{OrLess}, 5{OrMore}{hyph}cd{nbsp}support
-| JS to other{nbsp}minor | natural inv.  | #fit showing#
+| jump{nbsp}raise   2+^| 6{ndash}9{OrLess}, 5{OrMore}{hyph}cd{nbsp}support
+| JS to other{nbsp}minor | natural{nbsp}inv.  | #fit showing#
 | !2S!           2+^| LR, bal. or unbal.
 | !2H!           2+^| rev. Flannery
 | 2NT               | 11{ndash}12 | #avoid opposite 3^rd^{nbsp}seat#
