@@ -128,7 +128,7 @@ After agreeing diamonds, 4H is an offer-to-play when: +
 @ hearts was bid on the first round
 _ by either player
 
-INFO: This is restrictive but unambiguous.
+NOTE: This is restrictive but unambiguous.
       We may make it less resrictive in future.
 
 If 4H is not available as kickback for diamonds, then 4S is kickback
@@ -151,27 +151,43 @@ unless spades were also bid on the first round.
   2H  : 3C
  !4D! :
 :===
-|
-[grid="none",stripes=odd]
-:===
-  1D  : 1S
-  2C  : 3D
- !4H! :
-:===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C  | 1D |
+|  2H  | 3C |
+| !4D! |    | {C} agreed, 4{D} not a jump so NOT minorwood,
+                {H} bid on first round, 4H NOT a jump, so 4H is kickback
 |===
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1C  | 1D   | |
-|  1NT | 2H*  | | natural GF
-|  3D  | !4H! | | {D} were agreed
+|  1D  | 1H   |
+|  2C  | 3D*  | {ensp} natural GF
+| !4H! |      | {D} agreed, 4{D} not a jump so NOT minorwood,
+                {H} bid on first round, 4H NOT a jump, so 4H is kickback
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1D |  2C  | |
-| 2D |  2S  | |
-| 3C | !4D! | | {C} were agreed
+| 2S |  3C  | |
+| 4C | !4D! | | {C} were agreed, 4D is kickback
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2D  | |
+| 2H |  3D  | |
+| 4D | !4H! | | {D} agreed, {H} NOT bid on first round, 4H is kickback
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1H | 2D   | |
+|  2H | 3D   | |
+|  4D | !4S! | | {D} agreed, {H} bid on first round, 4H not a jump,
+                 4H is NOT kickback, {S} NOT bid on first round, so 4S is kickback
 |===
 
 === Contested auction:
@@ -190,47 +206,124 @@ unless spades were also bid on the first round.
  !4S! : : :
 :===
 
-=== Four-level agreement
+== KC-asking without suit-agreement
 
-Here we use kickback except when the kickback suit is opener's or
-responder's first-bid major-suit in which case we would use the next
-step.
+=== Hearts and Spades
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+A jump to 4NT is KC for hearts when: +
+@ we are at 3H
+@ the 3H bidder is limited
+@ spades were bid on the first round +
+
+TIP: When partner is unlimited we need 4NT as natural.
+This has prority over KC-asking.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H |  1S   | |
+| 3H |  ?    | |
+|    |  3S   | | natural forcing
+|    |  3NT  | | natural, NF
+|    | 4C,4D | | natural, F
+|    |  4S   | | to play
+|    | !4NT! | | KC for {H}
+                 @ opener is limited 
+|===
+
+
+=== Minors
+
+Following 3m without suit agreement, the KC-asking bid is: +
+#a jump to a suit below 4NT#
+
+It is the cheapest of: +
+@ unbid-suit
+@ fourth suit
+@ opener's 2nd-suit
+@ responder's 2nd-suit
+
+.Examples
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 2D |
+|  2H  | 3D |
+| !4H! |    | opener's 2nd-suit +
+              @ 4C (4th suit)
+	      _ is not a jump
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C  | 1D  |
+|  1H  | 3D* | {emsp} natural GF
+| !4H! |     | opener's 2nd-suit +
+               @ cheaper than 4th suit
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D |  1H  | |
+| 3D | !4S! | | unbid suit +
+                @ 4C (other unbid suit)
+		_ is not a jump
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 3C* | {emsp} natural inv.
+| !4D! |     | jump to cheapest unbid suit
+|===
+
+==== Exception when no jump below 4NT can be KC asking
+
+@ we are at 3D +
+@ have not agreed trumps +
+@ each major bid on first round +
+@ {C} is unbid
+
+Neither major is unbid or a 2^nd^-suit so there is no jump below 4NT
+available for KC asking.
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
 |
 [grid="none",stripes=odd]
 :===
-  1S : 2D
-  2H : 3D
-  4D : !4H!
+  1S  : 2H
+  3D  : ?
 :===
 |
 [grid="none",stripes=odd]
 :===
-  1C  : 1D
-  1S  : 3D
-  4D  : !4H!
+  1H  : 1S
+  3D  : ?
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1S  : 2H
+  2S  : 3D
+  ?   :
 :===
 |===
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1H : 2D
-  2H : 3D
-  4D : !4S!
-:===
-|
-[grid="none",stripes=odd]
-:===
- !2C! : 2H
-  3C  : 3D
-  4D  : !4S!
-:===
-|===
+The goals are:
+
+1. agree diamonds and allow partner to: +
+@ ask for KC in {D} +
+@ offer to play four of either major
+
+2. ask for KC
+
+Goal 1 can only be met with 4C.
+So the raise from 3D to 4D is minorwood even though trumps had not yet
+been agreed.
+
+@ 4C agrees {D} +
+>> 4D = minorwood +
+>> 4M = offer to play +
+@ 4D = minorwood +
+@ 4NT = natural +
 
 == Special ways to set trump
 
@@ -398,126 +491,6 @@ If their four-level preempt follows a minor-suit opening or any
 |      |  1D   | (P) | 1H  |
 | (4S) | !4NT! |  2+<| take-out
 |===
-
-
-== KC-asking without suit-agreement
-
-=== Hearts and Spades
-
-A jump to 4NT is KC for hearts when: +
-@ we are at 3H
-@ the 3H bidder is limited
-@ spades were bid on the first round +
-
-TIP: When partner is unlimited we need 4NT as natural.
-This has prority over KC-asking.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 3H |  ?    | |
-|    |  3S   | | natural forcing
-|    |  3NT  | | natural, NF
-|    | 4C,4D | | natural, F
-|    |  4S   | | to play
-|    | !4NT! | | KC for {H}
-                 @ opener is limited 
-|===
-
-
-=== Minors
-
-Following 3m without suit agreement, the KC-asking bid is: +
-#a jump to a suit below 4NT#
-
-It is the cheapest of: +
-@ unbid-suit
-@ fourth suit
-@ opener's 2nd-suit
-@ responder's 2nd-suit
-
-.Examples
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1S  | 2D |
-|  2H  | 3D |
-| !4H! |    | opener's 2nd-suit +
-              @ 4C (4th suit)
-	      _ is not a jump
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C  | 1D  |
-|  1H  | 3D* | {emsp} natural GF
-| !4H! |     | opener's 2nd-suit +
-               @ cheaper than 4th suit
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1D |  1H  | |
-| 3D | !4S! | | unbid suit +
-                @ 4C (other unbid suit)
-		_ is not a jump
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1S  | 3C* | {emsp} natural inv.
-| !4D! |     | jump to cheapest unbid suit
-|===
-
-==== Exception when no jump below 4NT can be KC asking
-
-@ we are at 3D +
-@ have not agreed trumps +
-@ each major bid on first round +
-@ {C} is unbid
-
-Neither major is unbid or a 2^nd^-suit so there is no jump below 4NT
-available for KC asking.
-
-[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1S  : 2H
-  3D  : ?
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1H  : 1S
-  3D  : ?
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1S  : 2H
-  2S  : 3D
-  ?   :
-:===
-|===
-
-The goals are:
-
-1. agree diamonds and allow partner to: +
-@ ask for KC in {D} +
-@ offer to play four of either major
-
-2. ask for KC
-
-Goal 1 can only be met with 4C.
-So the raise from 3D to 4D is minorwood even though trumps had not yet
-been agreed.
-
-@ 4C agrees {D} +
->> 4D = minorwood +
->> 4M = offer to play +
-@ 4D = minorwood +
-@ 4NT = natural +
 
 == KC Responses
 
