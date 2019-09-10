@@ -101,10 +101,10 @@
 | Tfr to {H} then 3S = 5-5 slammish
   > 3NT = bad,{ensp} !4C! = {H},{ensp} !4D! = {S}
 
-| *3{S} {forces} 3NT {semicolon} ?* +
-  4m = #opt. minorwood# +
-  4M = stiff, 3*oM +
-  4NT = minors, weak
+| *3{S} {forces} 3NT* +
+  > 4m = #opt. minorwood# +
+  {emsp} 4M = stiff, 3*oM +
+  {emsp} 4NT = minors, weak
 
 | 3NT = minors, slammish
   > 4m = minorwood,{ensp} 4NT = bad
@@ -241,8 +241,8 @@ d|
   @ 1NT opening: t'fer to minor then 4m
 
 | *Kickback when {D} are trump* +
-  4H if jump or {H} not bid on 1^st^ round +
-  {or} 4S if {S} not bid on 1^st^ round
+  4H: if jump, or {H} not bid on 1^st^ round +
+  {or} 4S: if {S} not bid on 1^st^ round
 
 | *KC without suit-agreement* +
    After 3m: +
