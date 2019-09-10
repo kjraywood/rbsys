@@ -111,22 +111,20 @@ We also use minorwood after transferring to a minor
 
 == Kickback
 
-We use kickback after agreeing hearts.
-
-We also use kickback after agreeing a minor when four of the minor
-would not be a jump.
-
+Applies when: +
+@ hearts agreed, or
+@ minor agreed and 4m not a jump
+ 
 === Diamonds and Hearts
 
-If we have agreed diamonds and 4D would not be a jump, then 4H is
-usually kickback.
-However, if hearts was bid by either player on the first round,
-then 4H may be needed as an offer-to-play and this takes priority.
+If we have agreed diamonds and hearts were bid by either player on the
+first round, then 4H may be needed as an offer-to-play.
+If a 3H bid is available, hence 4H is a jump, then 4H is not needed as
+an offer to play.
 
-After agreeing diamonds, 4H is an offer-to-play when: +
-@ it is not a jump +
-@ hearts was bid on the first round
-_ by either player
+After agreeing diamonds, 4H is an offer-to-play (NOT kickback) when: +
+@ hearts were bid on the first round +
+@ it is not a jump
 
 NOTE: This is restrictive but unambiguous.
       We may make it less resrictive in future.
@@ -140,16 +138,16 @@ unless spades were also bid on the first round.
 |===
 |  1C  | 1D |
 |  2H  | 3C |
-| !4D! |    | {C} agreed, 4{C} not a jump so NOT minorwood,
+| !4D! |    | {C} agreed, 4C not a jump (so not minorwood),
               so 4D is kickback
 |===
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="3*<",grid="none"]
 |===
 |  1D  | 1H   |
 |  2C  | 3D*  | {ensp} natural GF
-| !4H! |      | {D} agreed, 4{D} not a jump so NOT minorwood,
-                {H} bid on first round, 4H is a jump, so 4H is kickback
+| !4H! |      | {D} agreed, 4D not a jump (so not minorwood),
+                4H is a jump, so 4H is kickback
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -163,18 +161,19 @@ unless spades were also bid on the first round.
 |===
 | 1S |  2D  | |
 | 2H |  3D  | |
-| 4D | !4H! | | {D} agreed, {H} NOT bid on first round, 4H is kickback
+| 4D | !4H! | | {D} agreed, {H} not bid on first round, 4H is kickback
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1H | 2D   | |
-|  2H | 3D   | |
-|  4D | !4S! | | {D} agreed, {H} bid on first round, 4H not a jump,
-                 4H is NOT kickback, {S} NOT bid on first round, so 4S is kickback
+|  2S | 3D   | |
+|  4D | !4S! | | {D} agreed, 4H not a jump, {H} bid on first round,
+                 4H is NOT kickback, {S} not bid on first round,
+		 so 4S is kickback
 |===
 
-=== Contested auction:
+=== Contested auction
 
 ##!Jump! to cheapest unbid suit above 4m is KC asking##
 
@@ -191,6 +190,49 @@ unless spades were also bid on the first round.
 :===
 
 == KC-asking without suit-agreement
+
+=== Minors
+
+After 3m without suit agreement, the KC-asking bid is a jump to a suit
+below 4NT.
+
+It is the cheapest of: +
+@ unbid-suit
+@ fourth suit
+@ either player's 2nd-suit
+
+.Examples
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 2D |
+|  2H  | 3D |
+| !4H! |    | opener's 2nd-suit +
+              @ 4C (4th suit)
+	      _ is not a jump
+|===
+
+[%autowidth,cols="3*<",grid="none"]
+|===
+|  1C  | 1D  |
+|  1H  | 3D* | {emsp} natural GF
+| !4H! |     | opener's 2nd-suit +
+               @ cheaper than
+	       _ jump to 4th suit
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D |  1H  | |
+| 3D | !4S! | | unbid suit +
+                @ 4C (other unbid suit)
+		_ is not a jump
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S  | 3C* | {emsp} natural inv.
+| !4D! |     | jump to cheapest unbid suit
+|===
 
 === Hearts and Spades
 
@@ -212,50 +254,6 @@ This has prority over KC-asking.
 |    |  4S   | | to play
 |    | !4NT! | | KC for {H}
                  @ opener is limited 
-|===
-
-
-=== Minors
-
-Following 3m without suit agreement, the KC-asking bid is: +
-#a jump to a suit below 4NT#
-
-It is the cheapest of: +
-@ unbid-suit
-@ fourth suit
-@ opener's 2nd-suit
-@ responder's 2nd-suit
-
-.Examples
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1S  | 2D |
-|  2H  | 3D |
-| !4H! |    | opener's 2nd-suit +
-              @ 4C (4th suit)
-	      _ is not a jump
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C  | 1D  |
-|  1H  | 3D* | {emsp} natural GF
-| !4H! |     | opener's 2nd-suit +
-               @ cheaper than 4th suit
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1D |  1H  | |
-| 3D | !4S! | | unbid suit +
-                @ 4C (other unbid suit)
-		_ is not a jump
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1S  | 3C* | {emsp} natural inv.
-| !4D! |     | jump to cheapest unbid suit
 |===
 
 ==== Exception when no jump below 4NT can be KC asking
