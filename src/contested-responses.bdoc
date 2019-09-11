@@ -10,19 +10,22 @@
 <<staging.adoc#xfers-over-double,Transfers over take-out doubles>>
 ****
 
-=== Raises and preempts
+=== Jumps
 
-[%autowidth,cols="3*<.^",grid="cols"]
+[%autowidth,cols="3*^.^",grid="cols"]
 |===
 | Response       ^| Major   ^| Minor
 
-| 2NT             | LR (4{orMore}{xtimes}M)
-                             | bal. LR, NF
-| 3NT             | bal.{nbsp}game-raise (4{orMore}{xtimes}M)
-                             | bal.{nbsp}game-raise
-| jump{nbsp}shift | inv.     | 2S = #unbal. {LRplus}# +
-                               other JS = inv.
 | jump{nbsp}raise | weak     | weak
+| 2NT            <| LR (4{orMore}{xtimes}M)
+                            <| bal. LR, NF
+| 3NT             | bal.{nbsp}game{hyph}raise
+                    [nobr]#(4{orMore}{xtimes}M)#
+                             | bal.{nbsp}game-raise
+| jump{nbsp}shift | inv.    <| [nobr]##2S = #unbal. {LRplus}# ## +
+                               other JS = inv.
+| dble{hyph}jump
+     shift        | splinter | [orange-bg]#nat. weak ??#
 |===
 
 === Strength redouble
