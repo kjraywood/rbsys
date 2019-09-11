@@ -160,8 +160,8 @@ In order of priority: +
 @ 2NT = 4-4 majors min +
 @ pass promises a stopper
 _ (may have a stack) +
-@ reverse transfers deny stopper
-_ (2D{thinsp}={thinsp}4*{H}, 2H{thinsp}={thinsp}4*{S}) +
+@ reverse transfers (2D {blueRarrow} {H},{ensp}2H {blueRarrow} {S})
+_ deny a stopper +
 @ Redble = double neg. (no stop, no M) +
 >> scramble for a place to play,
 __ #Smolen is OFF#
