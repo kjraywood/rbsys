@@ -770,11 +770,21 @@ div.unbreakable { page-break-inside: avoid; }
 
 .backspace  { margin-left: -0.5em; }
 .backspacex { margin-left: -2em; }
-.backspacey { margin-left: -1.2em; }
+.backspacey { margin-left: -0.85em; }
 
 .indent  { margin-right: 0.4em; }
 .indentx { margin-right: 1.55em; }
 .indenty { margin-right: 0.6em; }
+
+.nullchar {
+    margin-right: -1em;
+    margin-left:  -1em;
+}
+
+.rot135 {
+    display: inline-block;
+    transform: rotate(135deg);
+}
 
 span.icon > .fa { cursor: default; }
 
