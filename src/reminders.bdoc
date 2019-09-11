@@ -64,7 +64,7 @@
 		dble-JS = splinter
 | vs o/call   | JS = fit showing +
 		dble-JS = splinter
-		@@ #if below game#
+		@ #if below game#
 | PH resp.    | JS = fit showing +
 		JR = weak splinter +
 		2NT = 5-5 minors, inv.
@@ -236,9 +236,9 @@ d|
 ^| Slam Conventions
 
 | *Minorwood* +
-  @ suit agreed, uncontested,{nbsp}
-  _ 4m = #jump# +
-  @ 1NT opening: t'fer to minor then 4m
+  @ minor-suit agreed, uncontested,
+  _ #4m = jump# +
+  @ 1NT opening: Tfr to m then 4m
 
 | *Kickback when {D} are trump* +
   4H: if jump, or {H} not bid on 1^st^ round +
@@ -246,16 +246,16 @@ d|
 
 | *KC without suit-agreement* +
    After 3m: +
-   _ jump to cheaper of{nbsp}
-   _ unbid suit, 4^th^ suit,{nbsp}
+   _ jump to cheaper of
+   _ unbid suit, 4^th^ suit,
    _ either 2^nd^-suit +
    After 3H (single suit): +
-   _ jump to 4S{nbsp}
+   _ jump to 4S
    _ {or} 4NT if 1^st^-suit = {S} +
    After 3S (single suit): +
    _ jump to 4NT +
    If no KC ask available: +
-   _ non-jump 4^th^-suit @ 4-level{nbsp}
+   _ non-jump 4^th^-suit @ 4-level
    _ agrees last suit
 |===
 
@@ -311,7 +311,7 @@ d|
   @ reg. Stayman & Smolen
   @ 3S = om +
   *vs dble:* #Tfrs ON#, XX = om
-| *(2M) {ndash}{nbsp}2NT* +
+| *(2M) {ndash} 2NT* +
   @ 5-cd Stayman (for oM)
   @ Tfr to their M = inv oM
   @ 3S = minors +
@@ -353,7 +353,7 @@ d|
 // _ {vsep} quick enc. discard = quick entry *]*
 
 
-// @ *&#x00a7;35* (Leb. & Scrambling 2NT):{nbsp}
+// @ *&#x00a7;35* (Leb. & Scrambling 2NT):
 // _ they are at 2M, we have doubled +
 
 // &vs weak NT:&

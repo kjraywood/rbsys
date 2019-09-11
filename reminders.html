@@ -779,11 +779,21 @@ div.unbreakable { page-break-inside: avoid; }
 
 .backspace  { margin-left: -0.5em; }
 .backspacex { margin-left: -2em; }
-.backspacey { margin-left: -1.2em; }
+.backspacey { margin-left: -0.85em; }
 
 .indent  { margin-right: 0.4em; }
 .indentx { margin-right: 1.55em; }
 .indenty { margin-right: 0.6em; }
+
+.nullchar {
+    margin-right: -1em;
+    margin-left:  -1em;
+}
+
+.rot135 {
+    display: inline-block;
+    transform: rotate(135deg);
+}
 
 span.icon > .fa { cursor: default; }
 
@@ -950,8 +960,8 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>vs o/call</strong></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">JS = fit showing<br>
-		dble-JS = splinter<span class="backspacey"> </span>
-<span class="nobr"><span class="indenty">&nbsp; </span><span class="vlower mildblue big">&bull;</span> <mark>if below game</span></mark></p></td>
+		dble-JS = splinter
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> <mark>if below game</span></mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>PH resp.</strong></p></td>
@@ -1300,9 +1310,9 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Minorwood</strong><br>
-<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> suit agreed, uncontested,&#160;</span><span class="backspacey"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span> 4m = <mark>jump</span></mark><br>
-<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 1NT opening: t&#8217;fer to minor then 4m</span></p></td>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> minor-suit agreed, uncontested,</span><span class="backspacey"> </span>
+<span class="nobr"><span class="indent">&nbsp; </span> <mark>4m = jump</span></mark><br>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 1NT opening: Tfr to m then 4m</span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Kickback when <span class="diamonds orange">&#x2666;</span> are trump</strong><br>
@@ -1312,16 +1322,16 @@ b.conum * { color: inherit !important; }
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>KC without suit-agreement</strong><br>
    After 3m:<span class="backspacey"> </span><br>
-<span class="nobr"><span class="indent">&nbsp; </span> jump to cheaper of&#160;</span><span class="backspacey"> </span>
-<span class="nobr"><span class="indent">&nbsp; </span> unbid suit, 4<sup>th</sup> suit,&#160;</span><span class="backspacey"> </span>
+<span class="nobr"><span class="indent">&nbsp; </span> jump to cheaper of</span><span class="backspacey"> </span>
+<span class="nobr"><span class="indent">&nbsp; </span> unbid suit, 4<sup>th</sup> suit,</span><span class="backspacey"> </span>
 <span class="nobr"><span class="indent">&nbsp; </span> either 2<sup>nd</sup>-suit</span><br>
    After 3<span class="hearts red">&#x2665;</span> (single suit):<span class="backspacey"> </span><br>
-<span class="nobr"><span class="indent">&nbsp; </span> jump to 4<span class="spades blue">&#x2660;</span>&#160;</span><span class="backspacey"> </span>
+<span class="nobr"><span class="indent">&nbsp; </span> jump to 4<span class="spades blue">&#x2660;</span></span><span class="backspacey"> </span>
 <span class="nobr"><span class="indent">&nbsp; </span> &#x2016; 4NT if 1<sup>st</sup>-suit = <span class="spades blue">&#x2660;</span></span><br>
    After 3<span class="spades blue">&#x2660;</span> (single suit):<span class="backspacey"> </span><br>
 <span class="nobr"><span class="indent">&nbsp; </span> jump to 4NT</span><br>
    If no KC ask available:<span class="backspacey"> </span><br>
-<span class="nobr"><span class="indent">&nbsp; </span> non-jump 4<sup>th</sup>-suit @ 4-level&#160;</span><span class="backspacey"> </span>
+<span class="nobr"><span class="indent">&nbsp; </span> non-jump 4<sup>th</sup>-suit @ 4-level</span><span class="backspacey"> </span>
 <span class="nobr"><span class="indent">&nbsp; </span> agrees last suit</span></p></td>
 </tr>
 </tbody>
@@ -1423,7 +1433,7 @@ b.conum * { color: inherit !important; }
   <strong>vs dble:</strong> <mark>Tfrs ON</mark>, XX = om</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>(2M) &ndash;&#160;2NT</strong><br>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>(2M) &ndash; 2NT</strong><br>
 <span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 5-cd Stayman (for oM)</span>
 <span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> Tfr to their M = inv oM</span>
 <span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 3<span class="spades blue">&#x2660;</span> = minors</span><br>
