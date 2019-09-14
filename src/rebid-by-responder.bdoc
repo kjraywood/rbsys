@@ -60,20 +60,15 @@ After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 
 === Rebidding after 1H{ndash}1S
 
-@ #2D rebid = extra strength or extra length#
-_ __i.e.__{thinsp} it is not a minimum 5-4
-@ 1NT rebid includes min 2-5-4-2
-_ and 1-5-4-3
+2D rebid = extra strength or extra length, it is not a minimum 5-4
 
-==== Two-way Checkback after both majors
-
-With 4{times}{D} and a minimum, opener rebids 1NT; not 2{D}.
-
-Following 2C by responder, opener shows this hand by bidding 2H
-(paradox) instead of accepting the relay.
+With 4{times}{D} and a minimum, opener rebids 1NT, not 2{D}.
+Therefore, 1NT rebid includes 2-5-4-2 and 1-5-4-3 minimum strength.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
+4+^| 2-way checkback after [nobr]#1H {ndash} 1S{semicolon} 1NT#
+
 | 1H   | 1S   | |
 | 1NT  | !2C! | | sign-off in {D}, or some inv.
 |  ?   |      | |
@@ -81,18 +76,13 @@ Following 2C by responder, opener shows this hand by bidding 2H
 | 2H   |      | | #4*{D}, minumum#
 |===
 
-Responder will often pass 2H.
+Breaking the relay by bidding 2H is safe because if responder had
+intended to drop the auction in 2D, then we have at least a nine-card
+{D}-fit.
 
-[NOTE]
-====
-The paradox 2H is safe because if responder had intended to drop the
-auction in 2D, then we have at least a nine-card {D}-fit.
-So gettting to 3D is acceptable.
-
-Responder need not worry about a spade fit because  opener would
-usually have raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.
-So dropping 2H will keep us low.
-====
+Responder need not worry about a spade fit because opener would have
+raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.  Responder will
+often pass 2H with a doubleton.
 
 === Fourth suit at the 3-level
 
@@ -101,37 +91,46 @@ https://bridgewinners.com/article/view/4th-suit-for-invitational-hands-where-xyz
 _4th suit for invitational hands_]
 __ {nbsp}{ndash}{nbsp} Kit Woolsey
 
-3-level suit-bids follow the normal 2nd-round rule
-[nobr]#(jump or raise-of-minor = GF)#
+Auction starts: 1H {ndash} 1S{semicolon} 2D
 
-Invitations in {D} or {H} bid 4th-suit
-[nobr]#{thinsp}{tribull} _pass-or-correct_{thinsp} (paradox) responses#
+The fourth suit is at the 3-level so space is tight.
 
-There is no invitation in {S} because that hand invites on 1st-round (1{H}-2{S})
-
-2NT can be forcing (one round) because opener's 2D showed non-minimum or at least 5-5
+Our 2D rebid shows extra strength (would accept an invitation to game)
+or extra length (at least 5-5 so would prefer a suit contract over NT).
+Therefore, reponder's 2NT can be a one-round force.
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
+4+^| When 4^th^-suit forcing is 3C
+
 | 1H |  1S    | |
 | 2D |  ?     | |
 |    | !2NT!  | | #F1#, 11-14 if bal +
-                  {thinsp}{tribull} 3D = NF +
-                  {thinsp}{tribull} _other_ = GF +
+                  > 3D = NF +
+                  {emsp} _other_ = GF +
 |    | !3C!   | | invitation in {D} or {H} +
-                  *pass-or-correct responses* +
-                  {thinsp}{tribull} 3D = decline {D} +
-                  {thinsp}{tribull} 3H = accept {D}, decline {H} +
-                  {thinsp}{tribull} _other_ = accept either
+                  > 3D = decline {D} +
+                  {emsp} 3H = accept {D}, decline {H} +
+                  {emsp} _other_ = accept either
 | 2+<| 3D,3H,3S | natural, GF
 |    | 3NT    | {emsp} | 15-17 bal
 |===
 
+3-level suit-bids follow the normal 2nd-round rule;
+[nobr]#jumps and raise-of-minor = GF#
+
+Invitations in {D} or {H} bid 4th-suit
+> _pass-or-correct_{thinsp} responses
+
+There is no invitation in {S} because that hand invites on 1st-round
+(1{H}-2{S}).
+
 === Responder's notrump ladder
 
-.After three suits at the 1-level
 [%autowidth,cols="3*^,<",grid="none"]
 |===
+4+^| After three suits at the 1-level
+
 | 1C | 1H   | |
 | 1S | ?    | |
 |    | 2NT  | | 13-15 or 18{OrMore}
@@ -139,9 +138,10 @@ There is no invitation in {S} because that hand invites on 1st-round (1{H}-2{S})
 |    | !2D! | | 4th-Suit-F1, [nobr]#includes bal. 11-12#
 |===
 
-.After opener's 2-level rebid
 [%autowidth,cols="3*^,<",grid="none"]
 |===
+4+| After opener's 2-level rebid
+
 | 1D | 1S   | |
 | 2C | ?    | |
 |    | 2NT  | | 11-12
@@ -190,12 +190,27 @@ when there's a cue-bid available to establish a GF.
 
 [%autowidth,cols="<,3*^,<",grid="none"]
 |===
+5+^| Reverse after neg. double
+
 | 1C  | (1S) | Dbl | (P) |
 | 2D* | (P)  | ?   |     | * extras, #F1#
-|     |      | 2H  |     | 5-card suit, NF
+|     |      | 2H  |     | 5-card suit, #NF#,
+                           [nobr]#see {warning} below#
 |     |      | 2S  |     | cue-bid, GF
 |     |   2+<| 2NT,3C,3D <| min, NF
+|     |      | 3H  |     | 5-card suit, GF
 |===
+
+{warning} 2oM neg.-free-bid agreements apply
+
+The negative double showed four or five hearts with any strength.
+
+When opener has not shown extra +
+> 2H = 5-cd inv.,{ensp}3H = 5-cd GF
+
+Here, opener has shown extra and responder is forced to bid something.
+Therefore, 2H denies more than a minimum negative double.
+A jump to 3H is a GF opposite the extra strength shown by opener.
 
 === After 1NT response
 
