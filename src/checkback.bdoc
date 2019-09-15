@@ -268,7 +268,9 @@ However, it is not used following a 1NT rebid.
 | 2NT |  ?   | |
 |     | !3C! | | forces 3D
 |     | !3D! | | checkback
-|     | 3M   | | slam interest in {D}, values in M
+|     |  3M  | | slam interest in {D}, values in M
+|     | !4C! | | Gerber
+|     | !4D! | | self-minorwood
 |===
 
 [%autowidth,cols="^,3*<",grid="none"]
@@ -277,7 +279,7 @@ However, it is not used following a 1NT rebid.
 |  2NT | !3C! | |
 | !3D! |  ?   | |
 |      | !3M! | | slam interest in {C}, values in M
-|      |  4m  | | #minorwood#
+|      | !4C! | | #minorwood#
 |===
 
 [TIP]
