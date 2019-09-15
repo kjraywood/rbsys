@@ -141,77 +141,69 @@ our agreement from: +
 
 === Examples
 
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes="none"]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1C : 1D
   2H : 3C
   ?  :
 :===
 |
-[%autowidth,grid="none",stripes="odd"]
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! {C} agreed, 4C not a jump +
- > 4C is NOT minorwood +
- > !4D! is kickback
+   > 4C is NOT minorwood +
+   > !4D! is kickback
 !===
 |===
 
-[%autowidth,cols="3*^.^a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="2*^.^a,<.^d",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1D : 2C
   2S : 3C
   4C : ?
 :===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1H : 2D
   3C : 4C
   ?  :
 :===
-|
-[%autowidth,grid="none",stripes="odd"]
-!===
-! {C} agreed +
- > !4D! is kickback
-!===
+| {C} agreed +
+  > !4D! is kickback
 |===
 
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes="none"]
+[%autowidth,cols="^.^a,<.^d",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1S : 2D
   2H : 3D
   4D : ?
 :===
-|
-[%autowidth,grid="none",stripes="odd"]
-!===
-! {D} agreed,
+| {D} agreed,
   [nobr]#{H} not bid on 1^st^ round# +
- > !4H! is kickback
-!===
+  > !4H! is kickback
 |===
 
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes="none"]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1D : 1H
   2C : [nobr]#3D{ensp}GF#
   ?  :
 :===
 |
-[%autowidth,grid="none",stripes="odd"]
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! {D} agreed, 4D not a jump +
   > 4D is NOT minorwood +
@@ -220,17 +212,17 @@ our agreement from: +
 !===
 |===
 
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes="none"]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1H : 2D
   2S : 3D
   4D : ?
 :===
 |
-[%autowidth,grid="none",stripes="odd"]
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! {D} agreed, 4H not a jump +
   [nobr]#{H} bid on 1^st^ round# +
@@ -278,116 +270,116 @@ If we are at 3m or 3H without trump-suit agreement,
 then we can use kickback provided that the next step is forcing
 
 .Examples
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1S : 2D
   2H : 3D
   ?  :
 :===
 |
-[%autowidth,grid="none",stripes="odd"]
-!===
-! 3H is forcing,
-  > !4H! is kickback
-!===
-|===
-
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes="odd"]
-:===
-  1D : 1H
-  3D : ?
-:===
-|
-[%autowidth,grid="none",stripes="odd"]
-!===
-! 3H is forcing,
-  > !4H! is kickback
-!===
-|===
-
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes="odd"]
-:===
-  1S : [nobr]#3C{ensp}inv.#
-  ?  :
-:===
-|
-[%autowidth,grid="none",stripes="odd"]
-!===
-! 3D is forcing +
-  > !4D! is kickback
-!===
-|===
-
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes="odd"]
-:===
-  1H : 2D
-  3C : ?
-:===
-|
-[%autowidth,grid="none",stripes="odd"]
-!===
-! 3D is forcing +
-  > !4D! is kickback
-!===
-|===
-
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes="odd"]
-:===
-  1S : 2H
-  3D : ?
-:===
-|
-[%autowidth,grid="none",stripes="odd"]
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! 3H is forcing +
   > !4H! is kickback
 !===
 |===
 
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
+:===
+  1D : 1H
+  3D : ?
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 3H is forcing +
+  > !4H! is kickback
+!===
+|===
+
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1S : [nobr]#3C{ensp}inv.#
+  ?  :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 3D is forcing +
+  > !4D! is kickback
+!===
+|===
+
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1H : 2D
+  3C : ?
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 3D is forcing +
+  > !4D! is kickback
+!===
+|===
+
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1S : 2H
+  3D : ?
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 3H is forcing +
+  > !4H! is kickback
+!===
+|===
+
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
 :===
   1H : 1S
   3H : ?
 :===
 |
-[%autowidth,grid="none",stripes="odd"]
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! 3S is forcing +
   > !4S! is kickback
 !===
 |===
 
-[%autowidth,cols="2*^.^a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
-[grid="none",stripes="odd"]
+[grid="none",stripes="none",frame="allx"]
 :===
   1S : 2D
   2H : 3D
   3H : ?
 :===
 |
-[%autowidth,grid="none",stripes="odd"]
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
-! 3S is forcing,
+! 3S is forcing +
   > !4S! is kickback
 !===
 |===
