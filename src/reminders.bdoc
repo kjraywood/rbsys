@@ -245,18 +245,19 @@ d|
   {or} 4S: if {S} not bid on 1^st^ round
 
 | *KC without suit-agreement* +
-   After 3m: +
-   _ jump to cheaper of
-   _ unbid suit, 4^th^ suit,
-   _ either 2^nd^-suit +
-   After 3H (single suit): +
-   _ jump to 4S
-   _ {or} 4NT if 1^st^-suit = {S} +
-   After 3S (single suit): +
-   _ jump to 4NT +
-   If no KC ask available: +
-   _ non-jump 4^th^-suit @ 4-level
-   _ agrees last suit
+   After 3m or 3H: +
+   _ if next-step is forcing +
+   >> jump in next-step is KB
+| *Selfwood 4NT for majors* +
+  @ asker has only bid one-suit +
+  @ forcing 2NT available +
+  @ can agree partner's suit(s) +
+  _ with forcing bid @ 3-level
+| *Self minorwood* +
+  @ asker has only bid one-suit +
+  @ forcing 3m available +
+  @ can agree partner's suit(s) +
+  _ with forcing bid @ 3-level
 |===
 
 // -------------------------------- //
