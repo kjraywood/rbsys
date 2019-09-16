@@ -33,7 +33,7 @@
 		_ = #5{times}oM, FORCING#
 | vs 2NT +
   (minors)   | 3C = majors, #wk or str# +
-	       3D = majors, #GF# +
+	       3D = majors, #inv.# +
                3M = competitive, #NF# +
 	       4-lev. = #Namyats#
 | vs 3m      | 3{lab}suit{rab} = competitive, #NF# +
@@ -285,10 +285,10 @@ d|
 2+^d| Advancing Overcalls
 
 | jump cue | mixed or GF, (split-range)
-| JS       | (1C){ndash}1H{ndash}##(pass)##{ndash}2S
+| JS       | (1C){ndash}1D{ndash}##(pass)##{ndash}2S
   	     _ = #natural#, 6*{S}, 13{OrMore} +
 | JS in comp.
-           |  (1C){ndash}1H{ndash}##(2C)##{ndash}2S
+           |  (1C){ndash}1D{ndash}##(1H)##{ndash}2S
   	     _ = #fit-showing#
 |===
 
