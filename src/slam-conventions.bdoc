@@ -12,21 +12,21 @@ If it's possible to set a suit as trump with an unambiguous below-game
 forcing-bid, then that route must be taken to ask for key-cards in
 that suit.
 
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H |  1S   | |
-| 2H |  ?    | |
-|    |  2NT  | | natural, inv.
-|    |  3H   | | inv.
-|    |  3S   | | forcing, at most a one-loser suit
-|    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
-|    |  4H   | | to play
-|    |  4S   | | to play
-|    |  4NT  | | natural, slam inv.
-|===
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1H |  1S   | |
+// | 2H |  ?    | |
+// |    |  2NT  | | natural, inv.
+// |    |  3H   | | inv.
+// |    |  3S   | | forcing, at most a one-loser suit
+// |    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
+// |    |  4H   | | to play
+// |    |  4S   | | to play
+// |    |  4NT  | | natural, slam inv.
+// |===
 
-Responder can set hearts as trump unambiguously with a splinter,
-possibly fake, so cannot ask for KC this round.
+// Responder can set hearts as trump unambiguously with a splinter,
+// possibly fake, so cannot ask for KC this round.
 
 === Kickback has priority over a picture jump
 
@@ -384,6 +384,28 @@ then we can use kickback provided that the next step is forcing
   > !4S! is kickback
 !===
 |===
+
+We can also use kickback in the following auction where
+we are at only at two hearts.
+
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1H : 1S
+  2H : ?
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 3S is forcing +
+  > !4S! is kickback
+!===
+|===
+
+This avoids needing to remember to use a fake splinter to set hearts
+as trump.
 
 === Spades
 
