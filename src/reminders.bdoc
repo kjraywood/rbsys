@@ -51,6 +51,49 @@
 
 // -------------------------------- //
 
+[%autowidth,cols=".^s,<",grid="none"]
+|===
+2+^d| Major Opening
+
+| JS (3/1)    | inv. {tribull} pass or force
+| splinters   | 3M+1 = weak splinter +
+		1H{ndash}3NT  = {S}-splinter +
+| vs dble     | 2NT = LR or Slam-Inv. +
+		#3NT = bal. game-raise# +
+		JS = inv +
+		dble-JS = splinter
+| vs o/call   | JS = fit showing +
+		dble-JS = splinter
+		@ #if below game#
+| PH resp.    | JS = fit showing +
+		JR = weak splinter +
+		2NT = 5-5 minors, inv.
+		@ #ON vs X & 1S,# {simto} Drury
+| {emsp} 2/1 +
+ (neb.{nbsp}2C)
+       | 1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}!!2oM!!
+         _ = 5{orMore}{xtimes}{C} +
+         1M{ndash}!!2C!!{semicolon}{thinsp}2M = 6{orMore}{xtimes}M
+|===
+
+// -------------------------------- //
+
+[%autowidth,cols=".^a,^.^,.^",grid="none"]
+|===
+3+^d| Semi-forcing NT
+
+|
+[grid="none"]
+:===
+1M : !1NT!
+2{lab}__lower__{rab} : 2NT
+:===
+    | {tribull} | old-suit = NF +
+	          #unbid-minor ={nbsp}GF{nbsp}relay#
+|===
+
+// -------------------------------- //
+
 [%autowidth,cols="<",grid="none"]
 |===
 ^| 2NT Opening
@@ -92,49 +135,6 @@
 @ #3NT = 4-4-4-1, 16-17# +
 >> 4C {blueRarrow} 4D then KB +
 __ 4D = KB for {C}
-|===
-
-// -------------------------------- //
-
-[%autowidth,cols=".^s,<",grid="none"]
-|===
-2+^d| Major Opening
-
-| JS (3/1)    | inv. {tribull} pass or force
-| splinters   | 3M+1 = weak splinter +
-		1H{ndash}3NT  = {S}-splinter +
-| vs dble     | 2NT = LR or Slam-Inv. +
-		#3NT = bal. game-raise# +
-		JS = inv +
-		dble-JS = splinter
-| vs o/call   | JS = fit showing +
-		dble-JS = splinter
-		@ #if below game#
-| PH resp.    | JS = fit showing +
-		JR = weak splinter +
-		2NT = 5-5 minors, inv.
-		@ #ON vs X & 1S,# {simto} Drury
-| {emsp} 2/1 +
- (neb.{nbsp}2C)
-       | 1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}!!2oM!!
-         _ = 5{orMore}{xtimes}{C} +
-         1M{ndash}!!2C!!{semicolon}{thinsp}2M = 6{orMore}{xtimes}M
-|===
-
-// -------------------------------- //
-
-[%autowidth,cols=".^a,^.^,.^",grid="none"]
-|===
-3+^d| Semi-forcing NT
-
-|
-[grid="none"]
-:===
-1M : !1NT!
-2{lab}__lower__{rab} : 2NT
-:===
-    | {tribull} | old-suit = NF +
-	          #unbid-minor ={nbsp}GF{nbsp}relay#
 |===
 
 // -------------------------------- //
