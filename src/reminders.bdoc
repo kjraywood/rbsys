@@ -133,7 +133,7 @@
 @ 2{D} = 5c{OrMore}
 @ 2M = 4*{D}, 4*M +
 @ #3NT = 4-4-4-1, 16-17# +
-> 4C {blueRarrow} 4D {blueRarrow} KB +
+> 4C {blueRarrow} 4D {semicolon} KB for {D},{H} or {S} +
 _ 4D = KB for {C}
 |===
 
