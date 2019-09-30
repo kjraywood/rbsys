@@ -133,9 +133,8 @@
 @ 2{D} = 5c{OrMore}
 @ 2M = 4*{D}, 4*M +
 @ #3NT = 4-4-4-1, 16-17# +
-> _lower for lower_ +
-@@ !4m! sets trump = _major_ +
-@@ !4M! asks KCs in _minor_
+> 4C {blueRarrow} 4D {blueRarrow} KB +
+_ 4D = KB for {C}
 |===
 
 // -------------------------------- //
