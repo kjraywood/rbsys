@@ -232,15 +232,18 @@ rebids 3NT.
 
 [%autowidth,cols="3*^.^",grid="cols"]
 |===
-| Response           | Unpassed          | Passed
+| Response           | Unpassed    | Passed
 
-| single{nbsp}raise  | GF                | 6{ndash}10,{nbsp} 4{hyph}cd{nbsp}support
-| jump{nbsp}raise 2+<| {emsp}6{ndash}9{OrLess},{nbsp} 5{OrMore}{hyph}cd{nbsp}support{emsp}
-| JS {blueRarrow} om | natural{nbsp}inv. | #fit showing#
+| single{nbsp}raise  | GF          | 6{ndash}10, 4c{OrMore}
+| jump{nbsp}raise    | 6{ndash}9, 5c{OrMore}
+                                   | unbal.{nbsp}LR, 9{ndash}10
+| JS {blueRarrow} om | natural{nbsp}inv.
+                                   | #fit showing#
 | !2H!            2+<| {emsp}rev. Flannery{emsp}{nbsp}
-| !2S!            2+<| {emsp}LR,{nbsp} bal. or unbal.{emsp}{nbsp}
-| 2NT                | 11{ndash}12       | #avoid opposite 3^rd^{nbsp}seat#
-| 3NT                | 13{ndash}15       | --
+| !2S!               | LR, bal. {or} unbal.
+                                   | bal. LR, 11{ndash}12
+| 2NT                | 11{ndash}12 | #avoid opposite 3^rd^{nbsp}seat#
+| 3NT                | 13{ndash}15 | --
 |===
 
 === Inverted Minors
