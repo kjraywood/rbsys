@@ -320,15 +320,15 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 		  > opener shows key-cards
 |===
 
-=== Picture Jumps
+// === Picture Jumps
 
-:picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
-:picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
-:picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
+// :picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
+// :picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
+// :picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
 
-{reference} _Fast Arrival vs. Picture Bidding,_
- __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
-__ {nbsp}{ndash}{nbsp} Andrew Gumperz
+// {reference} _Fast Arrival vs. Picture Bidding,_
+//  __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
+// __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
 // Responder may initially conceal 4-card support for opener's major when
 // intending to make a picture jump to game on the second round.
@@ -342,15 +342,15 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 // 2), the 2^nd^-round jump to 3M shows strong slam-interest but !denies!
 // 4-card support.
 
-{warning} We give priority to kickback over over picture jumps
+// {warning} We give priority to kickback over over picture jumps
 
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S | 2H   | |
-| 3H | !4S! | | kickback 
-|===
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1S | 2H   | |
+// | 3H | !4S! | | kickback 
+// |===
 
-Therefore, with four good spades and five good hearts, responder
-cannot show hearts first because opener might raise with three-card
-support, thus locking us into the inferior fit.
+// Therefore, with four good spades and five good hearts, responder
+// cannot show hearts first because opener might raise with three-card
+// support, thus locking us into the inferior fit.
 
