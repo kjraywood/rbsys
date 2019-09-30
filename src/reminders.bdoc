@@ -245,9 +245,8 @@ d|
   {or} 4S: if {S} not bid on 1^st^ round
 
 | *KC for last suit (no suit-agreement)* +
-   After 3m or 3H: +
-   _ if next-step is forcing +
-   >> jump in next-step is KB
+   After 3m or 3H, if next-step is forcing +
+   > jump in next-step is KB
 
 | *KC for own suit* +
   @ asker has only bid one-suit +
