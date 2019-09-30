@@ -118,21 +118,21 @@
 ^| Minor Opening
 
 | *Responses* +
-@ 2m = GF {or} 4c 6-10 by PH +
-@ #3m = 5c{OrMore} 6-9{OrLess}#
-@ 2S = LR +
+@ 2S = LR
+@ 2m = GF
+@ #3m = 5c{OrMore} 6-9#
+@ inverted OFF by PH +
 @ JS om = nat. inv {or} fit-showing by PH
 
 |  *vs. dble* +
-@ 2NT = bal. LR
-@ 3NT = bal. GR +
-@ 2S = unbal. {LRplus}
-@ other JS = inv.
+@ JS om = LR+
+@ JS {blueRarrow} 2M = weak +
+@ 2NT, 3NT = nat. with fit
 
 | *Rebids after 1{D} {ndash} 2{C}* +
-2{D} = 5c{OrMore} +
-2M = 4*{D}, 4*M +
-#!!3NT!! = 4-4-4-1, 16-17# +
+@ 2{D} = 5c{OrMore}
+@ 2M = 4*{D}, 4*M +
+@ #!!3NT!! = 4-4-4-1, 16-17# +
 > _lower for lower_ +
 @@ !4m! sets trump = _major_ +
 @@ !4M! asks KCs in _minor_
@@ -248,14 +248,10 @@ d|
    After 3m or 3H: +
    _ if next-step is forcing +
    >> jump in next-step is KB
-| *Selfwood 4NT for majors* +
+| *Selfwood* +
   @ asker has only bid one-suit +
-  @ forcing 2NT available +
-  @ can agree partner's suit(s) +
-  _ with forcing bid @ 3-level
-| *Self minorwood* +
-  @ asker has only bid one-suit +
-  @ forcing 3m available +
+  @ minorwood or kickback strain
+  _ available below game, & forcing +
   @ can agree partner's suit(s) +
   _ with forcing bid @ 3-level
 |===
