@@ -244,16 +244,20 @@ d|
   4H: if jump, or {H} not bid on 1^st^ round +
   {or} 4S: if {S} not bid on 1^st^ round
 
-| *KC without suit-agreement* +
+| *KC for last suit (no suit-agreement)* +
    After 3m or 3H: +
    _ if next-step is forcing +
    >> jump in next-step is KB
-| *Selfwood* +
+
+| *KC for own suit* +
   @ asker has only bid one-suit +
-  @ minorwood or kickback strain
-  _ available below game, & forcing +
-  @ can agree partner's suit(s) +
-  _ with forcing bid @ 3-level
+  @ minorwood or KB is a jump +
+  @ non-jump in KC-asking strain
+  _ is forcing
+| *Priority for own-suit KC*
+  @ KB for partner's 2^nd^ suit
+  @ minorwood in own suit
+  @ KB for own suit
 |===
 
 // -------------------------------- //
