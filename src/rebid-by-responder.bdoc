@@ -224,54 +224,54 @@ A jump to 3H is a GF opposite the extra strength shown by opener.
 |    | 2NT,3C,3D | | sign off
 |===
 
-=== Picture Jumps in Reverse Auctions
+// === Picture Jumps in Reverse Auctions
 
-A single-jump in opener's first suit is a picture jump; _not a splinter_.
+// A single-jump in opener's first suit is a picture jump; _not a splinter_.
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-!===
-! 1D ! 1S
-! 2H ! 4D
-!===
-|
-[stripes=odd]
-!===
-! {S} AQT64 +
-  {H} 53 +
-  {D} KQ87 +
-  {C} J2
-!===
-|===
+// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+// |===
+// |
+// [grid="none",stripes=odd]
+// !===
+// ! 1D ! 1S
+// ! 2H ! 4D
+// !===
+// |
+// [stripes=odd]
+// !===
+// ! {S} AQT64 +
+//   {H} 53 +
+//   {D} KQ87 +
+//   {C} J2
+// !===
+// |===
 
-The picture bid can also be in opener's second suit, and five-card
-support is needed in case opener reversed into a three-card suit.
+// The picture bid can also be in opener's second suit, and five-card
+// support is needed in case opener reversed into a three-card suit.
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
- 1C : 1S
- 2D : 4D
-:===
-|
-[stripes=odd]
-!===
-! {S} AK974 +
-  {H} 63 +
-  {D} KJ983 +
-  {C} 5
-!===
-|===
+// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+// |===
+// |
+// [grid="none",stripes=odd]
+// :===
+//  1C : 1S
+//  2D : 4D
+// :===
+// |
+// [stripes=odd]
+// !===
+// ! {S} AK974 +
+//   {H} 63 +
+//   {D} KJ983 +
+//   {C} 5
+// !===
+// |===
 
-[NOTE]
-====
-A double-jump after a non-reverse is a splinter.
-_e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
-====
+// [NOTE]
+// ====
+// A double-jump after a non-reverse is a splinter.
+// _e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
+// ====
 
 == After 1m{ndash}1M{semicolon}2M
 
