@@ -18,12 +18,12 @@
 
 | jump{nbsp}raise | weak     | weak
 | 2NT            <| LR (4{orMore}{xtimes}M)
-                            <| bal. LR, NF
+                            <| bal.{nbsp}11{hyph}12 with fit
 | 3NT             | bal.{nbsp}game{hyph}raise
                     [nobr]#(4{orMore}{xtimes}M)#
-                             | bal.{nbsp}game-raise
-| jump{nbsp}shift | inv.    <| [nobr]##2S = #unbal. {LRplus}# ## +
-                               other JS = inv.
+                             | bal.{nbsp}13{hyph}15 with fit
+| jump{nbsp}shift | inv.    <| weak +
+                               [nobr]## #other minor = {LRplus}# ## +
 | dble{hyph}jump
      shift        | splinter | [orange-bg]#nat. weak ??#
 |===
