@@ -50,26 +50,51 @@ Jumps to the 4-level in a different suit are fit-showing._
 [#penalty_doubles]
 === Penalty Doubles
 
-Partner has made a take-out double, then RHO bids one of the unbid
+&(a)& We have tried to penalise them already; _e.g._{thinsp} with a penalty
+pass of a take-out double.
+
+&(b)& Partner has made a take-out double, then RHO bids one of the unbid
 suits.
 
-We have agreed a suit, hence have no further need for take-out
-doubles.
+&(c)& Partner has accurately described strength and distribution. +
+_Includes_
+@ preempts
+@ two-suited bids
+@ inv jump-shifts
+@ NT rebids
+@ NT responses in comp. +
+_Excludes_
+@ NT openings and overcalls
+@ uncontested 1NT response
 
-A double of an opponent's #same-major-suit# rebid when: +
-@ no announced fit
-@ we previously passed
+&(d)& We have established the balance-of-power with a strength-showing
+call: +
+@ redouble
+@ a double of a 1NT overcall
+@ any GF call
+
+&(e)& We have #both# bid then attempted to pass out the auction, then
+they balance.
+
+&(f)& They bid {ndash} we balance {ndash} they compete.
+
+&(g)& A delayed double of RHO's first-suit is penalties except when: +
+@ RHO was the opening bidder and partner
+_ has taken positive action on the first
+_ round +
+@ RHO rebid a _minor suit_ after a
+_ 1NT response
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1H) | P | (1S, 1NT) | P |
+| (2H) | X |           |   | penalty
+|===
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | (1D) | P |  1NT  | P |
-| (2D) | X |       |   | light take-out, both opps are limited
-|===
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| (1H) | P |  (1S, 1NT) | P |
-| (2H) | X |              |   | penalty
+| (2D) | X |       |   | light take-out, opps often have a fit
 |===
 
 [%autowidth,cols="5*^,<",grid="none"]
@@ -78,32 +103,39 @@ A double of an opponent's #same-major-suit# rebid when: +
 | (1NT) | P | (2M)  | X | | penalty
 |===
 
-Partner has accurately described strength and distribution. +
-_Includes_
-@ preempts
-@ two-suited bids
-@ splinters
-@ fit-showing jumps
-@ inv jump-shifts
-@ NT rebids
-@ NT responses in comp. +
-_Excludes_
-@ NT openings and overcalls
-@ uncontested 1NT response
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1H) | P | (P) | 2D |
+| (2H) | X |     |    | take out, partner took positive action
+                        on the first round
+|===
 
-We have established the balance-of-power with a strength-showing
-call. +
-@ redouble
-@ a double of a 1NT overcall
-@ any GF call
+&(h)& We have agreed a suit, hence have no further need for take-out
+doubles.
 
-We have tried to penalise them already; _e.g._{thinsp} with a penalty
-pass of a take-out double.
+[orange-box]#Need agreement#
 
-We have #both# bid then attempted to pass out the auction {ndash} they
-balance.
+[%autowidth,cols="2*a",grid="none",frame="none",stripes="none"]
+|===
+|
+[grid="none",stripes="odd"]
+:===
+ 1H : (1S) : 2H : (2S)
+ X  :      :    :
+:===
+|
+[grid="none",stripes="odd"]
+:===
+ 1S : (2D) : 2S : (3D)
+ X  :      :    :
+:===
+|===
 
-They bid {ndash} we balance {ndash} they compete.
+When both sides have found a fit immediately, there is merit
+in using double for take-out indicating a desire to bid one more
+but doubling in case partner wants to defend.
+The player with length in their suit can tell how well the hands fit
+together.
 
 ==== After a penalty double of a weak NT
 
