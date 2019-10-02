@@ -118,14 +118,14 @@
 ^| Minor Opening
 
 | *Responses* +
-@ 2S = LR
+{nbsp}{bull} ##!2S! = LR##
 @ 2m = GF
 @ #3m = 5c{OrMore} 6-9#
-@ inverted OFF by PH +
+@ inverted OFF by PH (3m = unbal LR) +
 @ JS om = nat. inv {or} fit-showing by PH
 
 |  *vs. dble* +
-@ JS om = LR+
+@ #JS om = LR+#
 @ JS {blueRarrow} 2M = weak +
 @ 2NT, 3NT = nat. with fit
 
@@ -133,8 +133,8 @@
 @ 2{D} = 5c{OrMore}
 @ 2M = 4*{D}, 4*M +
 @ #3NT = 4-4-4-1, 16-17# +
->> 4C {blueRarrow} 4D then KB +
-__ 4D = KB for {C}
+>> !4C! {blueRarrow} 4D then KB +
+__ !4D! = KB for {C}
 |===
 
 // -------------------------------- //
@@ -337,7 +337,7 @@ d|
 2+^.^| Carding
 
 2+<d| 6{orMore}-length known
-      >> suit-pref, mid. enc.
+      >> #middle enc. & suit-pref#
 2+<d| 2^nd^ high thru decl. to weakness in dummy
 | [nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#
          | vs slam
