@@ -235,17 +235,21 @@ d|
 ^| Slam Conventions
 
 | *Minorwood* +
-  @ minor-suit agreed, uncontested,
-  _ #4m = jump# +
+  Uncontested auction +
+  @ minor-suit agreed:  #4m = jump#
   @ 1NT opening: Tfr to m then 4m
 
 | *Kickback when {D} are trump* +
-  4H: if jump, or {H} not bid on 1^st^ round +
-  {or} 4S: if {S} not bid on 1^st^ round
+  KC ask = cheapest 4M where:
+  _ 4M = jump {or} M not bid on 1^st^ round +
+  otherwise 4H
 
-| *KC for last suit (no suit-agreement)* +
-   last bid = 3m or 3H :
-   if next-step is forcing, then jump in next-step is KB
+| *Kickback for last suit* +
+   @ no suit-agreement
+   @ KB = jump
+   @ no forcing bid to set trump
+   _ below 4-level
+   @ 3 of KB strain is forcing
 
 | *KC for own suit* +
   @ asker has only bid one-suit +
