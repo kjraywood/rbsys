@@ -121,7 +121,7 @@
 {nbsp}{bull} ##!2S! = LR##
 @ 2m = GF
 @ #3m = 5c{OrMore} 6-9#
-@ inverted OFF by PH (3m = unbal LR) +
+@ inverted OFF by PH, 3m = unbal.{thinsp}LR +
 @ JS om = nat. inv {or} fit-showing by PH
 
 |  *vs. dble* +
@@ -182,16 +182,16 @@ d|
 
 // -------------------------------- //
 
-[%autowidth,cols="2*^,2*<",grid="none"]
+[%autowidth,cols="2*^,3*<",grid="none"]
 |===
-4+^| Opener raises
+5+^| Opener raises
 
-|  1m   | 1M    | |
-|  2M   | !3om! | {ensp} GF enquiry |
-|  ?    |       | |
-|  3M   |       | 4-cd raise |
-| !3oM! |       | 3-cd raise, short oM |
-| !3NT! |       | 3-cd raise, short om |
+|  1m   | 1M    | ||
+|  2M   | !3om! | {ensp} GF enquiry ||
+|  ?    |       | ||
+|  3M   |       | 4-cd raise ||
+| !3oM! |       | 3-cd raise, short oM ||
+| !3NT! |       | 3-cd raise, short om ||
 |===
 
 // -------------------------------- //
@@ -205,7 +205,7 @@ d|
 |    |  2H  | | natural inv. {or} {H}-val., GF +
                 {tribull} !3C! = 4*{H} min +
 		{emsp}     3H  = 4*{H} max
-|    | !3C! | | {D} inv. {or} {S} inv. {or} {C}-val., GF +
+|    | !3C! | | {D} inv. {or} {S} inv. {or} {C}-val., GF{nbsp} +
                 {tribull} 3D = reject +
 		{emsp}   !3H! = accept, no {S} tol. +
 		{emsp}    3S = accept with {S} tol.
@@ -293,7 +293,7 @@ d|
 
 // -------------------------------- //
 
-[%autowidth,cols="<",grid="none"]
+[cols="<",grid="none"]
 |===
 ^| Weak Jump-Overcalls
 
