@@ -245,18 +245,16 @@ d|
   otherwise 4H
 
 | *Kickback for last suit* +
-   @ no suit-agreement
+   @ no suit-agreement +
+   @ cannot agree last suit below 4-level
    @ KB = jump
-   @ cannot set last suit as trump
-   _ below the 4-level
-   @ 3 of KB strain is forcing
+   @ 3{lab}KB-strain{rab} = Forcing
 
-| *KC for own suit* +
-  @ asker has only bid one-suit +
-  @ 3 of KC-asking strain is forcing +
-  @ KB{thinsp}/{thinsp}{H}
-  @ 4m{thinsp}/{thinsp}m except KB when
-  _ own-suit{thinsp}={thinsp}{D} & last-bid{thinsp}={thinsp}3{C}
+| *Kickback for own suit* +
+  @ asker has bid only one suit +
+  @ KB = jump
+  @ 3{lab}KB-strain{rab} = Forcing +
+  _ {or}{ensp}own-suit = {S}{emsp}&{ensp}4NT = jump
 |===
 
 // -------------------------------- //
