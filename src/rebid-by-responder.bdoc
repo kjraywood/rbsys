@@ -142,12 +142,12 @@ There is no invitation in {S} because that hand invites on 1st-round
 |===
 4+| After opener's 2-level rebid
 
-| 1D | 1S   | |
-| 2C | ?    | |
-|    | 2NT  | | 11-12
-|    | 3NT  | | 16-17
-|    | 4NT  | | 18-19
-|    | !2H! | | 4th-suit-F1, [nobr]#includes bal. 13-15#
+| 1D |  1S   | |
+| 2C |  ?    | |
+|    |  2NT  | | 11-12
+|    |  3NT  | | 16-17
+|    | !4NT! | | KC for {S} (<<slam-conventions.adoc#own-suit-kc, own-suit KC>>)
+|    | !2H!  | | 4th-suit-F1, [nobr]#includes bal. 13-15 {or} 18{OrMore}#
 |===
 
 === Fourth suit on 3rd-round or later

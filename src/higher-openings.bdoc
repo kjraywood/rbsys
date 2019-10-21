@@ -197,10 +197,9 @@ Bogust also applies when: +
 | !3C!  |       | maximum
 | !3D!  |       | medium
 |  3M   |       | minimum
-| !3oM! |       | [orange-bg]#not-in-use yet:#
-                  [nobr]#non-min, 6*M + 4*oM ??#
+| !3oM! |       | #non-min, 6*M + 4*oM#
 | !3NT! |       | solid suit
-| 4m    |       | [orange-bg]#6{ndash}5  ??#
+| 4m    |       | #6{ndash}5#
 |===
 
 [%autowidth,cols="3*<",grid="none]
@@ -222,10 +221,9 @@ Bogust also applies when: +
 | !3C!  |       | medium
 |  3D   |       | minimum
 | !3H!  |       | maximum
-| !3S!  |       | [orange-bg]#not-in-use yet:#
-                  [nobr]#possibly 6{xtimes}{D} + 4{xtimes}{H}#
+| !3S!  |       | [orange-bg]#possibly 6{xtimes}{D} + 4{xtimes}{H}#
 | !3NT! |       | solid suit
-| 4C    |       | [orange-bg]#6{ndash}5  ??#
+| 4C    |       | #6{ndash}5#
 |===
 
 ==== Interference
