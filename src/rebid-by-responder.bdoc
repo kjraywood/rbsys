@@ -11,7 +11,7 @@ __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 === Rules
 
 @ 2nd-round jump = natural & GF +
-@ #2nd-round raise of minor = GF# +
+@ 2nd-round raise of minor = GF +
 @ 4th-suit = F1
 
 === Opener's third bid
@@ -46,14 +46,14 @@ _ = #minimum strength, NF# +
 @ vs double, system on 
 @  #vs suit bid, limit bidding & cue=GF#
 
-=== Fourth suit at the 1-level
+=== Fourth suit at the one-level
 
 [%autowidth,cols="3*<",grid="none"]
 |===
-| 1C   | 1D     |
-| 1H   | ?      |
-|      | !1S!   | natural 6-10 or 11+ artificial
-|      | 2S,2NT | natural GF
+| 1C   |  1D     ||
+| 1H   |  ?      ||
+|      | !1S!    || natural 6-10 or 11+ artificial
+|      | 2S, 2NT || natural GF
 |===
 
 After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
@@ -165,6 +165,61 @@ _ on 3rd round or later +
 
 If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 
+== Third-suit forcing by responder
+
+Refers to auctions that start 1m{ndash}1M{semicolon}{nbsp}2m .
+
+The first two rules are the same as those for 4^th^-suit forcing.
+
+@ 2^nd^-round jump = natural & GF +
+@ 2^nd^-round raise of minor = GF +
+
+As with 4^th^-suit forcing, the 2^nd^-round jump to a new suit shows
+at least 5-5.
+
+=== Invitations in previously-bid suits
+
+@ after three suits, use 4^th^-suit F1
+
+@ After 1m{ndash}1M{semicolon}{nbsp}2m, use _other minor_
+
+=== Hands with no clear direction
+
+Fourth-suit forcing is also used for GF hands with no clear direction;
+including balanced hands without a stopper in the fourth suit.
+In this case, there are two unbid suits and the meanings for
+no-clear-direction hands depend on which minor and which major is
+unbid.
+
+&other minor = diamonds :& below both of 2NT and other major,
+can be used for most GF-with-no-clear-direction hands
+
+&other minor = clubs :&  to avoid conflict with old-suit invitations,
+the GF-with-no-clear-direction hands are restricted to those with
+values in clubs
+
+&other major = hearts :& natural (F1), or GF with values in hearts
+
+&other major = spades :& GF with values in spades
+
+=== Third bid by opener
+
+When opener rebids clubs, and responder bids 2D (other minor),
+opener's third bid follows similar rules as after fourth-suit
+forcing at the 2-level.
+The difference is that bidding the same suit for the third
+time is non-forcing.
+
+@ 2NT, or either previously-bid suit
+_ = minimum strength, NF
+
+@ other non-jump = ambiguous strength, F1
+
+@ jump = extra strength, GF
+
+
+
+
 == Reverses
 
 === After 1-level suit-response
@@ -194,8 +249,7 @@ when there's a cue-bid available to establish a GF.
 
 | 1C  | (1S) | Dbl | (P) |
 | 2D* | (P)  | ?   |     | * extras, #F1#
-|     |      | 2H  |     | 5-card suit, #NF#,
-                           [nobr]#see {warning} below#
+|     |      | 2H  |     | 5-card suit, #NF#, {warning}
 |     |      | 2S  |     | cue-bid, GF
 |     |   2+<| 2NT,3C,3D <| min, NF
 |     |      | 3H  |     | 5-card suit, GF
