@@ -443,18 +443,20 @@ If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 
 == Kickback for [alert]#own suit# without trump agreement
 
-*Requirements*
+=== Requirements
 
-[brickred]#All suits:# +
+&All suits:& +
 @ potential KB-bidder has bid only one suit +
 
-[brickred]#Own-suit = minor {or} hearts:# +
+&Own-suit = minor {or} hearts:& +
 @ KB is a jump
 @ three of  KB-strain is forcing
 
-[brickred]#Own-suit = spades:# +
+&Own-suit = spades:& +
 @ 4NT is a jump
 @ partner's last bid not in NT
+
+=== Examples
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
