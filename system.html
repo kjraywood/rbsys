@@ -6644,7 +6644,7 @@ positive values with a double or penalty pass.</p>
 <span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> we have agreed a minor</span>
 <span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> we have not agreed a major</span>
 <span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> the auction is uncontested</span>
-<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> <mark>it is a jump</span></mark></p>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> <mark>four of the agreed minor is a jump</span></mark></p>
 </div>
 <table class="tableblock frame-none grid-none stripes-none fit-content">
 <colgroup>
@@ -6866,27 +6866,49 @@ back to spades.</p>
 <div class="sect2">
 <h3 id="_diamonds_and_hearts">21.3. Diamonds and Hearts</h3>
 <div class="paragraph">
-<p>If we have agreed diamonds and are at 3<span class="diamonds orange">&#x2666;</span>, then:<br>
-<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 4<span class="diamonds orange">&#x2666;</span> is not a jump, so not minorwood</span><br>
-<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 4<span class="hearts red">&#x2665;</span> is a jump so it is kickback</span></p>
+<p><span class="bold-brickred">Agreed diamonds and are at 3<span class="diamonds orange">&#x2666;</span></span></p>
 </div>
 <div class="paragraph">
-<p>If we have agreed diamonds and are above 3<span class="diamonds orange">&#x2666;</span>, then:<br></p>
+<p>If we have agreed diamonds and are at 3<span class="diamonds orange">&#x2666;</span>, then:<br></p>
+</div>
+<div class="paragraph">
+<p><span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 4<span class="diamonds orange">&#x2666;</span> is not a jump, so not minorwood</span><br></p>
+</div>
+<div class="paragraph">
+<p><span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> 4<span class="hearts red">&#x2665;</span> is a jump so it is kickback</span></p>
+</div>
+<div class="paragraph">
+<p><span class="bold-brickred">Agreed diamonds and are above 3<span class="diamonds orange">&#x2666;</span></span></p>
+</div>
+<div class="paragraph">
+<p>4<span class="hearts red">&#x2665;</span> will be kickback unless it is in-focus as a possible contract
+in which case 4<span class="spades blue">&#x2660;</span> will be kickback for diamonds.</p>
+</div>
+<div class="paragraph">
+<p>Four of major is in-focus when:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>if hearts where not bid on the first round, then 4<span class="hearts red">&#x2665;</span> is kickback</p>
+<p>the major was rebid at directly after diamond agreement</p>
 </li>
 <li>
-<p>else if hearts were bid on the first round, but spades weren&#8217;t, then
-4<span class="spades blue">&#x2660;</span> is kickback</p>
-</li>
-<li>
-<p>else if both majors were bid on the first round then 4<span class="hearts red">&#x2665;</span> is kickback
-(default)</p>
+<p>delayed support for the major was offered directly after diamond agreement</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>In that case, the other major is out of focus, even if bid on the first round,
+so is kickback for diamonds.</p>
+</div>
+<div class="paragraph">
+<p>If neither of these apply, then a major-suit bid on the first round
+is in focus.</p>
+</div>
+<div class="paragraph">
+<p>If both majors were bid on the first round but neither was
+rebid or given delay support directly after diamonds agreement,
+then we default to 4<span class="hearts red">&#x2665;</span> as kickback.</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -7161,9 +7183,8 @@ unavailable, then four of the major is needed as an offer to play.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diamonds orange">&#x2666;</span> agreed<br>
-  4<span class="hearts red">&#x2665;</span> is not a jump<br>
-  <span class="hearts red">&#x2665;</span> were bid on 1<sup>st</sup> round<br>
-  4<span class="spades blue">&#x2660;</span> is a jump&#160;<br>
+  <span class="hearts red">&#x2665;</span> rebid directly after suit-agreement&#160;<br>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; <span class="hearts red">&#x2665;</span> are in focus</span>&#160;<br>
 <span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; <span class="alert">4<span class="spades blue">&#x2660;</span></span> is kickback</span></p></td>
 </tr>
 </tbody>
@@ -7209,11 +7230,9 @@ unavailable, then four of the major is needed as an offer to play.</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="diamonds orange">&#x2666;</span> agreed<br>
-  4<span class="hearts red">&#x2665;</span> is not a jump<br>
-  <span class="hearts red">&#x2665;</span> were bid on 1<sup>st</sup> round<br>
-  4<span class="spades blue">&#x2660;</span> is not a jump<br>
-  <span class="spades blue">&#x2660;</span> were bid on 1<sup>st</sup> round&#160;<br>
-<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; <span class="alert">4<span class="hearts red">&#x2665;</span></span> is kickback by default</span></p></td>
+  <span class="spades blue">&#x2660;</span> given delayed support after suit-agreement&#160;<br>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; <span class="spades blue">&#x2660;</span> are in focus</span>&#160;<br>
+<span class="nobr"><span class="mildblue small higher">&#x27a4;</span>&thinsp; <span class="alert">4<span class="hearts red">&#x2665;</span></span> is kickback</span></p></td>
 </tr>
 </tbody>
 </table></div></td>
