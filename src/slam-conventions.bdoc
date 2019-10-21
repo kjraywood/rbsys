@@ -477,9 +477,8 @@ If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1C |  1S   | |
-| 2H |  ?    | |
-|    | !4NT! | | KC for {S} +
-                 opener's last bid not NT
+| 2H |  ?    | | last bid not NT
+|    | !4NT! | | KC for {S}
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -511,10 +510,10 @@ If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 |===
 | 1D |  1S   | |
 | 2C |  ?    | |
+|    | !2H!  | | 4^th^-suit includes bal. 13-15 {or} 18{OrMore}
 |    |  2NT  | | 11-12
 |    |  3NT  | | 16-17
-|    | !4NT! | | KC for {S} +
-       	         Use 4^th^-suit with 13-15 {or} 18{OrMore}
+|    | !4NT! | | KC for {S}
 |===
 
 == Special KC-asking bids
