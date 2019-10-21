@@ -4,59 +4,6 @@
 
 {warning} [xemph]#we do not play two-suit KC#
 
-== General Principles for RKC
-
-=== Set trumps first
-
-If it's possible to set a suit as trump with an unambiguous below-game
-forcing-bid, then that route must be taken to ask for key-cards in
-that suit.
-
-// [%autowidth,cols="3*^,<",grid="none"]
-// |===
-// | 1H |  1S   | |
-// | 2H |  ?    | |
-// |    |  2NT  | | natural, inv.
-// |    |  3H   | | inv.
-// |    |  3S   | | forcing, at most a one-loser suit
-// |    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
-// |    |  4H   | | to play
-// |    |  4S   | | to play
-// |    |  4NT  | | natural, slam inv.
-// |===
-
-// Responder can set hearts as trump unambiguously with a splinter,
-// possibly fake, so cannot ask for KC this round.
-
-=== Kickback has priority over a picture jump
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S | 2H   | |
-| 3H | !4S! | | kickback 
-|===
-
-3H set hearts as trump and we cannot get back to spades.
-
-=== Majors have priority over minors
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1H  | 2D | |
-| 3D  | ?  | |
-|     | 3H | | {H} are trump
-|     | 4H | | kickback for {D}, higher priority than picture jump
-             
-|===
-
-// === Natural bidding has priority over KC
-
-// We don't sacrifice useful natural bids for uncommon situations, such
-// as asking for key-cards, without first agreeing trump.
-
-// NOTE: This is based on frequency and usefuless which are
-// overwhelmingly in favour of natural bids.
-
 == Minorwood
 
 Minorwood applies when: +
@@ -97,7 +44,8 @@ Minorwood applies when: +
 :===
 |===
 
-We also use minorwood after transferring to a minor
+We also use minorwood after
+<<notrump.adoc#minor-suit-transfers, transferring to a minor>>.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -105,11 +53,66 @@ We also use minorwood after transferring to a minor
 | 3C,{thinsp}3D | !4D!  | | minorwood
 |===
 
-== Kickback
 
-Applies when: +
-@ hearts agreed, or
+and in some <<checkback.adoc#wolff, Wolff Sign-Off>> sequences
+
+// == General Principles for RKC
+
+// === Set trumps first
+
+// If it's possible to set a suit as trump with an unambiguous below-game
+// forcing-bid, then that route must be taken to ask for key-cards in
+// that suit.
+
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1H |  1S   | |
+// | 2H |  ?    | |
+// |    |  2NT  | | natural, inv.
+// |    |  3H   | | inv.
+// |    |  3S   | | forcing, at most a one-loser suit
+// |    | !4C!,!4D! | | splinter [nobr]##(#could be fake#)##
+// |    |  4H   | | to play
+// |    |  4S   | | to play
+// |    |  4NT  | | natural, slam inv.
+// |===
+
+// Responder can set hearts as trump unambiguously with a splinter,
+// possibly fake, so cannot ask for KC this round.
+
+== Kickback after suit agreement
+
+@ Hearts agreed
+
 @ minor agreed and 4m not a jump
+
+=== Kickback has priority over a picture jump
+
+In both of the following, 3H sets hearts as trump and we cannot get
+back to spades.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S |  2H  | |
+| 3H | !4S! | | kickback
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C  | 1S |
+|  2H  | 3H |
+| !4S! |    | kickback
+|===
+
+=== Majors have priority over minors
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1H  | 2D | |
+| 3D  | ?  | |
+|     | 3H | | {H} are trump
+|     | 4H | | kickback for {D}, higher priority than picture jump
+|===
  
 === Diamonds and Hearts
 
@@ -117,28 +120,21 @@ If we have agreed diamonds and are at 3D, then: +
 @ 4D is not a jump, so not minorwood +
 @ 4H is a jump so it is kickback
 
-If we have agree diamonds and are above 3D, then 4H is kickback
-#provided that hearts were not bid on the first round#.
+If we have agreed diamonds and are above 3D, then: +
 
-Otherwise, 4H is an offer-to-play and 4S is kickback unless spades
-were also bid on the first round.
+* if hearts where not bid on the first round, then 4H is kickback
+
+* else if hearts were bid on the first round, but spades weren't, then
+  4S is kickback
+
+* else if both majors were bid on the first round then 4H is kickback
+  (default)
 
 [TIP]
 ====
-4H is needed as an offer-to-play when a 3H bid is unavailable and
-hearts were bid on the first round.
+If a major is bid on the first round, and three of the major is
+unavailable, then four of the major is needed as an offer to play.
 ====
-
-****
-.Need discussion
-
-If hearts and spades were both bid on the first round, then we need to
-choose our agreement from: +
-
-@ no KC ask +
-@ always 4H +
-@ least in-focus major via special rules
-****
 
 === Examples
 
@@ -154,9 +150,10 @@ choose our agreement from: +
 |
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
-! {C} agreed, 4C not a jump +
-   > 4C is NOT minorwood +
-   > !4D! is kickback
+! {C} agreed +
+  4C is not a jump +
+  > 4C is NOT minorwood +
+  > !4D! is kickback
 !===
 |===
 
@@ -180,6 +177,26 @@ choose our agreement from: +
   > !4D! is kickback
 |===
 
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1D : 1H
+  2C : [nobr]#3D{ensp}GF#
+  ?  :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! {D} agreed +
+  4D is not a jump +
+  > 4D is NOT minorwood +
+  4H is a jump +
+  > !4H! is kickback
+!===
+|===
+
 [%autowidth,cols="^.^a,<.^d",grid="none"]
 |===
 |
@@ -199,17 +216,18 @@ choose our agreement from: +
 |
 [grid="none",stripes="none",frame="allx"]
 :===
-  1D : 1H
-  2C : [nobr]#3D{ensp}GF#
-  ?  :
+  1H : 2D
+  2S : 3D
+  4D : ?
 :===
 |
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
-! {D} agreed, 4D not a jump +
-  > 4D is NOT minorwood +
-  4H is a jump +
-  > !4H! is kickback
+! {D} agreed +
+  4H not a jump +
+  [nobr]#{H} bid on 1^st^ round# +
+  [nobr]#{S} not bid on 1^st^ round# +
+  > !4S! is kickback
 !===
 |===
 
@@ -218,33 +236,40 @@ choose our agreement from: +
 |
 [grid="none",stripes="none",frame="allx"]
 :===
-  1H : 2D
-  2S : 3D
-  4D : ?
+  1H : 1S :
+  2D : 3D : GF
+  3H : ?  :
 :===
 |
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
-! {D} agreed, 4H not a jump +
-  [nobr]#{H} bid on 1^st^ round# +
-  > 4H is NOT kickback +
-  [nobr]#{S} not bid on 1^st^ round# +
+! {D} agreed +
+  4H is not a jump +
+  {H} were bid on 1^st^ round +
+  4{S} is a jump +
   > !4S! is kickback
 !===
 |===
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
-| 1H | 1S | |
-| 2D | 3D 2+<| GF
-| 4C | ?  | | [orange-bg]#need discussion#
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 1S | 2H |
-| 3D | 4D |
-| ?  |    | [orange-bg]#need discussion#
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1H : 1S :
+  2D : 3D : GF
+  3S : ?  :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! {D} agreed +
+  4H is not a jump +
+  {H} were bid on 1^st^ round +
+  4{S} is not a jump +
+  {S} were bid on 1^st^ round +
+  > !4H! is kickback by default
+!===
 |===
 
 === Contested auction
@@ -263,7 +288,12 @@ choose our agreement from: +
  !4S! : : :
 :===
 
-== KC-asking without trump agreement
+== Kickback for last suit without trump agreement
+
+Applies when: +
+@ cannot agree last suit below 4-level
+@ KB is a jump
+@ 3{lab}KB-strain{rab} is forcing
 
 === Minors and Hearts
 
