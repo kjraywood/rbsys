@@ -217,8 +217,83 @@ _ = minimum strength, NF
 
 @ jump = extra strength, GF
 
+When opener rebids diamonds, the other minor (clubs) is at the three
+level and only one step below 3D.
 
+So opener's first priority is to decline or accept an invitation in
+diamonds.
 
+=== Auctions
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1C |  1S  |
+| 2C |  ?   |
+|    | !2D! | inv. with {C} support
+              {or} inv. with 6{OrMore}{xtimes}{S}
+	      {or} inv. with 5*{S} & 5*{D}
+	      {or} GF with no clear direction
+|    | 2H   | natural F1
+|    | 3C{lab}__suit__{rab} | natural GF
+|===
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1C |  1H  |
+| 2C | {thinsp}? |
+|    | !2D! | _similar to above_
+|    | 2S   | GF with {S} values
+|    | 3C{lab}__suit__{rab} | natural GF
+|===
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| 1D |  1S  ||
+| 2D |  ?   ||
+|    | 2H   || natural inv. {or} GF with values in {H}
+|    | !3C! || inv. with {D} support
+              {or} inv. with 6{OrMore}{xtimes}{S}
+	      {or} GF with values in {C}
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  | 1S |
+|  2D  | 2H |
+|  ?   |    |
+| !3C! |    | 4*{H} min
+| !3H! |    | 4*{H} max
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  |  1S  |
+|  2D  | !3C! |
+|  ?   |      |
+| !3D! |      | reject {D} inv.
+| !3H! |      | accept but no {S} tolerance
+| !3S! |      | accept and {S} tolerance
+|===
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1D |  1H  |
+| 2D |  ?   |
+|    |  2S  | GF with values in {S}
+|    | !3C! | inv. with {D} support
+              {or} inv. with 6{OrMore}{xtimes}{H}
+	      {or} GF with values in {C}
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  |  1H  |
+|  2D  | !3C! |
+|  ?   |      |
+| !3D! |      | reject {D} inv.
+| !3H! |      | accept {D} inv., reject {H} inv.
+| !3S! |      | accept both
+|===
 
 == Reverses
 
