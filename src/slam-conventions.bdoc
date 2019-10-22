@@ -198,7 +198,9 @@ If the previous bid was 3H, a jump to 4S is kickback for hearts.
 Reverting to 4D indicates no interest in playing in the major, and
 nothing more to say.
 
-An unbid suit, or 4C reaffirms diamonds as trump and interest in taking control.
+An unbid sui or 4C reaffirms diamonds as trump and shows interest in
+taking control.
+
 Following that, 4H by either player is kickback for diamonds.
 
 [%autowidth,cols="3*^.^,<",grid="none"]
@@ -207,10 +209,10 @@ Following that, 4H by either player is kickback for diamonds.
 | 2C | 3D   | | GF, {D} agreed
 | 3H | ?    | | delayed {H} support given directly after {D}-agreement
                 > {H} are in focus
-|    |  3S  | | no {H} interest, unbid suit reaffirms {D} as trump
+|    |  3S  | | unbid suit reaffirms {D} as trump, rejects {H}
 |    | 3NT  | | to play
-|    | !4C! | | reaffirming {D} as trump with a {C} card
-|    |  4D  | | no {H} interest, no extras
+|    | !4C! | | reaffirms {D} as trump with a {C} card
+|    |  4D  | | rejects {H}, no extras
 |    |  4H  | | to play
 |    | !4S! | | kickback for {H}
 |===
@@ -223,7 +225,7 @@ Following that, 4H by either player is kickback for diamonds.
                 > {H} are in focus
 |    |  3S  | | no {H} fit, six-card {S}-suit ??
 |    | 3NT  | | to play
-|    | !4C! | | reaffirming {D} as trump
+|    | !4C! | | reaffirms {D} as trump, rejects {H}
 |    |  4D  | | no {H} fit, no extras
 |    |  4H  | | to play
 |    | !4S! | | kickback for {H}
@@ -239,8 +241,8 @@ offer to play if the suit was bid on the first round.
 | 3S |  ?   | | {S} given delayed support directly after suit-agreement
                 > {S} are in focus
 |    |  3NT | | to play
-|    | !4C! | | reaffirming {D} as trump
-|    |  4D  | | no {S} interest, no extras
+|    | !4C! | | reaffirms {D} as trump, rejects {S}
+|    |  4D  | | no extras, rejects {S}
 |    |  4H  | | #offer to play#, {H} were bid on first round
 |    |  4S  | | to play
 |    |  4NT | | KC for {S}
@@ -285,7 +287,7 @@ kickback.
 |  1S  |  2H  |
 |  3D  |  4D  | {D} agreed,
 |  ?   |      |
-| !4H! |      | kickback, default when both majors were bid on the 1^st^ round
+| !4H! |      | kickback, default when both majors were bid on the first round
 |===
 
 
@@ -294,7 +296,7 @@ kickback.
 | 1S |  2H  ||
 | 2S |  3D  ||
 | 4D |  ?   || {D} agreed,
-|    | !4H! || kickback, default when both majors were bid on the 1^st^ round
+|    | !4H! || kickback, default when both majors were bid on the first round
 |===
 
 [%autowidth,cols="3*^.^,<",grid="none"]
@@ -302,7 +304,7 @@ kickback.
 | 1H |  1S  ||
 | 2D |  3D  || GF, {D} agreed
 | 4C |  ?   || {C} card, slam interest
-|    |  4D  || no {S} interest, no extras
+|    |  4D  || nothing more to say
 |    | !4H! || kickback, default when both majors were bid on the 1^st^ round
 |===
 
