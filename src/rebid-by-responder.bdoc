@@ -233,9 +233,7 @@ _ = minimum strength, NF
 |  2C  | !2D! |
 |  ?   |      |
 | 2H   |      | Forcing, ambiguous strength
-| 2S   |      | minimum, NF
-| 2NT  |      | minimum, NF
-| 3C   |      | minimum, NF
+2+<| 2S,2NT,3C  | minimum, NF
 2+<| 3D,3S,3NT <| extras, GF
 |===
 
