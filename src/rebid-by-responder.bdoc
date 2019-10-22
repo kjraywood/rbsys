@@ -239,8 +239,8 @@ _ = minimum strength, NF
 === Opener rebids diamonds
 
 When opener's suit is diamonds, we must avoid overloading 3C.
-Therefore, GF hands with no-clear-direction hands and values in the other
-major, bid the other major.
+So two of the other major includes GF hands with values in the other
+major but no-clear-direction.
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
