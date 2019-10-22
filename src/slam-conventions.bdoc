@@ -284,6 +284,25 @@ unavailable, then four of the major is needed as an offer to play.
 !===
 |===
 
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1D : 1S :
+  2H : 3D : GF
+  3H : ?  :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! {D} agreed +
+  {H} rebid directly after suit-agreement +
+  > {H} are in focus +
+  > !4S! is kickback
+!===
+|===
+
 === Contested auction
 
 ##!Jump! to cheapest unbid suit above 4m is KC asking##
