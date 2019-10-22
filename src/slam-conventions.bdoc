@@ -261,7 +261,9 @@ and the other major is KC asking in {D}.
 | 1S |  2D  ||
 | 2H |  3D  ||
 | 4D |  ?   || {D} agreed,
-|    | !4H! || kickback, {H} were not bid on the 1^st^ round
+|    | !4H! || kickback, {H} were not bid on the first round
+|    | 4S   || offer to play,
+               [nobr]#{S} were bid on the first round#
 |===
 
 [%autowidth,cols="3*^.^,<",grid="none"]
@@ -269,8 +271,9 @@ and the other major is KC asking in {D}.
 | 1H |  2D  ||
 | 2S |  3D  ||
 | 4D |  ?   || {D} agreed,
-|    |  4H  || offer to play, {H} were bid on the 1^st^ round
-|    | !4S! || kickback, {S} were not bid on the 1^st^ round
+|    |  4H  || offer to play,
+               [nobr]#{H} were bid on the first round#
+|    | !4S! || kickback, {S} were not bid on the first round
 |===
 
 If both majors were bid on the first round, then 4H is the default for
