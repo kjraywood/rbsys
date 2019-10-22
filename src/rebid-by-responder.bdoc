@@ -169,7 +169,7 @@ If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 
 Refers to auctions that start 1m{ndash}1M{semicolon}{nbsp}2m .
 
-The first two rules are the same as those for 4^th^-suit forcing.
+The first two rules are the same as those for fourth-suit forcing.
 
 @ 2^nd^-round jump = natural & GF +
 @ 2^nd^-round raise of minor = GF +
@@ -241,6 +241,9 @@ _ = minimum strength, NF
 When opener's suit is diamonds, we must avoid overloading 3C.
 So two of the other major includes GF hands with values in the other
 major but no-clear-direction.
+_e.g._ on the first auction below, responder can rebid 2H with
+[lightgrey-box]#{S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx#
+.
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
