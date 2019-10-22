@@ -209,7 +209,7 @@ This keeps other rebids natural.
 | 2C | {thinsp}? |
 |    | !2D! | _similar to above_
 |    | 2S   | GF with {S} values
-|    | 3C{lab}__suit__{rab} | natural GF
+|    | 3{lab}__suit__{rab} | natural GF
 |===
 
 &Opener's third bid&
