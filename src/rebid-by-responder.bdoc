@@ -174,12 +174,11 @@ The first two rules are the same as those for 4^th^-suit forcing.
 @ 2^nd^-round jump = natural & GF +
 @ 2^nd^-round raise of minor = GF +
 
-As with 4^th^-suit forcing, the 2^nd^-round jump to a new suit shows
-at least 5-5.
+As usual, a second-round jump to a new suit shows at least 5-5.
 
 &Invitations in previously-bid suits:&
 Responder temporises with the _other minor_.
-This is similar to temporising with 4^th^-suit F1.
+This is similar to temporising with fourth-suit forcing one-round.
 
 &Hands with no clear direction:&
 As in fourth-suit forcing, GF hands with no clear direction must also
@@ -284,6 +283,8 @@ four hearts and a minimum.
 
 After responder's 3C (other minor) opener's first priority is to
 decline or accept an invitation in diamonds.
+Opener can bid 3NT with a max and some values in clubs and the other
+major.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -291,8 +292,9 @@ decline or accept an invitation in diamonds.
 |  2D  | !3C! |
 |  ?   |      |
 | !3D! |      | reject {D} inv.
-| !3H! |      | accept but no {S} tolerance
+| !3H! |      | accept {D} but no {S} tolerance
 | !3S! |      | accept and {S} tolerance
+| 3NT  |      | max with values in {H} and {C}
 |===
 
 [%autowidth,cols="2*^,<",grid="none"]
@@ -303,6 +305,7 @@ decline or accept an invitation in diamonds.
 | !3D! |      | reject {D} inv.
 | !3H! |      | accept {D} inv., reject {H} inv.
 | !3S! |      | accept both
+| 3NT  |      | max with values in {S} and {C}
 |===
 
 == Reverses
