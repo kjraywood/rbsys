@@ -177,53 +177,19 @@ The first two rules are the same as those for 4^th^-suit forcing.
 As with 4^th^-suit forcing, the 2^nd^-round jump to a new suit shows
 at least 5-5.
 
-=== Invitations in previously-bid suits
+&Invitations in previously-bid suits:&
+Responder temporises with the _other minor_.
+This is similar to temporising with 4^th^-suit F1.
 
-@ after three suits, use 4^th^-suit F1
+&Hands with no clear direction:&
+As in fourth-suit forcing, GF hands with no clear direction must also
+make a temporising bid in an unbid suit.
 
-@ After 1m{ndash}1M{semicolon}{nbsp}2m, use _other minor_
+=== Opener rebids clubs
 
-=== Hands with no clear direction
-
-Fourth-suit forcing is also used for GF hands with no clear direction;
-including balanced hands without a stopper in the fourth suit.
-In this case, there are two unbid suits and the meanings for
-no-clear-direction hands depend on which minor and which major is
-unbid.
-
-&other minor = diamonds :& below both of 2NT and other major,
-can be used for most GF-with-no-clear-direction hands
-
-&other minor = clubs :&  to avoid conflict with old-suit invitations,
-the GF-with-no-clear-direction hands are restricted to those with
-values in clubs
-
-&other major = hearts :& natural (F1), or GF with values in hearts
-
-&other major = spades :& GF with values in spades
-
-=== Third bid by opener
-
-When opener rebids clubs, and responder bids 2D (other minor),
-opener's third bid follows similar rules as after fourth-suit
-forcing at the 2-level.
-The difference is that bidding the same suit for the third
-time is non-forcing.
-
-@ 2NT, or either previously-bid suit
-_ = minimum strength, NF
-
-@ other non-jump = ambiguous strength, F1
-
-@ jump = extra strength, GF
-
-When opener rebids diamonds, the other minor (clubs) is at the three
-level and only one step below 3D.
-
-So opener's first priority is to decline or accept an invitation in
-diamonds.
-
-=== Auctions
+When opener's suit is clubs, then 2D is a conventient low-level bid,
+and is used for most no-clear-direction hands.
+This keeps other rebids natural.
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
@@ -233,8 +199,8 @@ diamonds.
               {or} inv. with 6{OrMore}{xtimes}{S}
 	      {or} inv. with 5*{S} & 5*{D}
 	      {or} GF with no clear direction
-|    | 2H   | natural F1
-|    | 3C{lab}__suit__{rab} | natural GF
+|    | 2H   | natural, F1
+|    | 3{lab}__suit__{rab} | natural GF
 |===
 
 [%autowidth,cols="^,2*<",grid="none"]
@@ -246,6 +212,39 @@ diamonds.
 |    | 3C{lab}__suit__{rab} | natural GF
 |===
 
+&Opener's third bid&
+
+After responder's 2D (other minor), opener's third bid follows similar
+rules as those after fourth-suit forcing at the 2-level.
+
+The difference is a rebid of 3C is non-forcing and bidding above it is
+GF.
+
+@ 2NT, or either previously-bid suit
+_ = minimum strength, NF
+
+@ other major (non-jump) = ambiguous strength, F1
+
+@ bidding above 3C = extra strength, GF
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C  |  1S  |
+|  2C  | !2D! |
+|  ?   |      |
+| 2H   |      | Forcing, ambiguous strength
+| 2S   |      | minimum, NF
+| 2NT  |      | minimum, NF
+| 3C   |      | minimum, NF
+2+<| 3D,3S,3NT <| extras, GF
+|===
+
+=== Opener rebids diamonds
+
+When opener's suit is diamonds, we must avoid overloading 3C.
+Therefore, GF hands with no-clear-direction hands and values in the other
+major, bid the other major.
+
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
 | 1D |  1S  ||
@@ -256,6 +255,24 @@ diamonds.
 	      {or} GF with values in {C}
 |===
 
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1D |  1H  |
+| 2D |  ?   |
+|    |  2S  | GF with values in {S}
+|    | !3C! | inv. with {D} support
+              {or} inv. with 6{OrMore}{xtimes}{H}
+	      {or} GF with values in {C}
+|===
+
+This complicates
+[lightgrey-box]#1{D} {ndash} 1{S}{semicolon} 2{D} {ndash} !!2{H}!!#
+auctions.
+Holding four hearts and a max, opener cannot raise to 4H because an
+eight-card fit is not assured.
+So we define a raise to 3H as that hand, and opener bids !3C! to show
+four hearts and a minimum.
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1D  | 1S |
@@ -265,6 +282,11 @@ diamonds.
 | !3H! |    | 4*{H} max
 |===
 
+&Opener's third bid&
+
+After responder's 3C (other minor) opener's first priority is to
+decline or accept an invitation in diamonds.
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1D  |  1S  |
@@ -273,16 +295,6 @@ diamonds.
 | !3D! |      | reject {D} inv.
 | !3H! |      | accept but no {S} tolerance
 | !3S! |      | accept and {S} tolerance
-|===
-
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-| 1D |  1H  |
-| 2D |  ?   |
-|    |  2S  | GF with values in {S}
-|    | !3C! | inv. with {D} support
-              {or} inv. with 6{OrMore}{xtimes}{H}
-	      {or} GF with values in {C}
 |===
 
 [%autowidth,cols="2*^,<",grid="none"]
