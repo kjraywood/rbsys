@@ -198,9 +198,8 @@ If the previous bid was 3H, a jump to 4S is kickback for hearts.
 Reverting to 4D indicates no interest in playing in the major, and
 nothing more to say.
 
-An unbid suit or 4C reaffirms diamonds as trump and shows interest in
-taking control.
-
+An unbid suit or 4C reaffirms diamonds as trump and shows slam
+interest.
 Following that, 4H by either player is kickback for diamonds.
 
 [%autowidth,cols="3*^.^,<",grid="none"]
