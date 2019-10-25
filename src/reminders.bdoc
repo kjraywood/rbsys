@@ -86,7 +86,7 @@
 [grid="none"]
 :===
 1M : !1NT!
-2{lab}__lower__{rab} : 2NT
+2{lab}lower{rab} : 2NT
 :===
     | {tribull} | old-suit = NF +
 	          #unbid-minor ={nbsp}GF{nbsp}relay#

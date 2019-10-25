@@ -47,8 +47,8 @@ One of: +
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1__suit__ | (X) | P    | (__bid__{thinsp}) |
-| P         | (P)   | X |           | cooperative
+| 1{lab}suit{rab} | (X) | P | (bid) |
+| P               | (P) | X |       | cooperative
 |===
 
 With 4333 and 10{OrMore} HCP, responder passes on the first
@@ -189,8 +189,8 @@ possibly with a fit-showing jump if the suits qualify.
 Double = penalty +
 {tribull} creates a force to two of opener's suit
 
-TIP: 1{lab}__suit__{rab}-(X)-XX also creates a force to two of
-     opener's suit
+TIP: [lightgrey-box]#1{lab}suit{rab} {ndash} (X) {ndash} XX#
+     also creates a force to two of opener's suit
 
 When our opening was a major, then two of either minor shows that
 minor and the other major.

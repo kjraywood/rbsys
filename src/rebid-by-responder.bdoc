@@ -199,7 +199,7 @@ This keeps other rebids natural.
 	      {or} inv. with 5*{S} & 5*{D}
 	      {or} GF with no clear direction
 |    | 2H   | natural, F1
-|    | 3{lab}__suit__{rab} | natural GF
+|    | 3{lab}suit{rab} | natural GF
 |===
 
 [%autowidth,cols="^,2*<",grid="none"]
@@ -208,7 +208,7 @@ This keeps other rebids natural.
 | 2C | {thinsp}? |
 |    | !2D! | _similar to above_
 |    | 2S   | GF with {S} values
-|    | 3{lab}__suit__{rab} | natural GF
+|    | 3{lab}suit{rab} | natural GF
 |===
 
 &Opener's third bid&
