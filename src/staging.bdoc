@@ -66,12 +66,19 @@ their suit).
 [#alt-wolff]
 == Alternatives to Wolff Sign-off
 
-Transfers after 18-19 2NT rebid,
-_esp._{thinsp} [lightgrey-bg]#1M {ndash} 1NT{semicolon} 2NT# +
+* Transfers after 18-19 2NT rebid,
+_esp._{thinsp} 1M {ndash} 1NT{semicolon} 2NT
 
-Mexican 2D opening = bal. 18-19 +
-@ [lightgrey-bg]#1m {ndash} 1M{semicolon} 2NT# = strong m, 3*M
-@ [lightgrey-bg]#1M {ndash} 1NT{semicolon} 2NT# = GF
+* Mexican 2D opening = bal. 18-19 +
+  {zwsp} +
+  [lightgrey-box]#1M {ndash} !!1NT!!{semicolon} !!2NT!! = generic GF# +
+  {zwsp} +
+  [lightgrey-box]#1{star} {ndash} 1M{semicolon} !!2NT!!
+                  = 16{OrMore} HCP, 4{xtimes}M
+		    {or} 6{OrMore}{xtimes}{star}, 2{OrLess}{xtimes}M# +
+  {zwsp} +
+  [lightgrey-box]#1{star} {ndash} 1M{semicolon} 3{star}
+                  = 6{OrMore}{xtimes}{star}, 3*M#
 
 == Romex Stayman
 
@@ -80,7 +87,7 @@ Mexican 2D opening = bal. 18-19 +
 | 2NT   | 3C |
 | ?     |    | 
 | !3NT! |    | 4-4 Majors{nbsp}
-             _ {tribull} 4{C} => {H}, 4{D} => {S}
+             _ {tribull} 4{C} {blueRarrow} {H}, 4{D} {blueRarrow} {S}
 |  3S   |    | 5*{S}
 |  3H   |    | 4{or}5*{H}{nbsp}
              _ {tribull} 3{S} asks
@@ -121,11 +128,17 @@ Therefore responder should not bid either major with that shape.
 |  4S   |      | 4*{S} _without_{thinsp} good 4-cd side suit
 |===
 
+NOTE: It feels slight more natural, and is slightly more efficient to
+      show spade length in 3-2-4 order.
+      We choose 2-3-4 to keep the order the same as when 3C is doubled
+      and opener denies {C} control.
+      In that case, it can be important that responder declares.
+
 === Vs double
 
 @ same principle as vs double of
 _ regular Stayman +
-@ reverse transfers have Romex meanings
+@ #reverse transfers have Romex meanings#
 >> accepting = sign off => garbage +
 @ other follow-ups = same as uncontested
 >> opener rev.-transfers @ 4-level
