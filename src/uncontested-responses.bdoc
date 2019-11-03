@@ -42,25 +42,31 @@ _ #without two quick-losers elsewhere# +
 
 Highest priority = good second-suit with values in that suit
 
+As in when Stayman or a transfer is doubled, our next priority is
+control in their suit.
+
 [%autowidth,cols="^,>,2*<",grid="none"]
 |===
-| 1S    | (P) | | !2NT! {emsp} (3D)
-| ?     |     | |
-2+<| 3H,4C    | | 2nd-suit
-| !Dbl! |     | | singleton
-| pass  |     | | control (1st or 2nd) or length
-| 3S    |     | | extras, no control
-| 3NT   |     | | min, no 1st or 2nd-round control
+|  1S    | (P) | | !2NT! {emsp} (3D)
+|  ?     |     | |
+2+<| 3H,4C     | | good suit
+| !X!    |     | | singleton or void
+| !pass! |     | | {D} A or K {or} {D} values & length
+|  3S    |     | | extras, no {D} control
+| !3NT!  |     | | min, no {D} control
 |===
 
-[%autowidth,cols="^,>,^,<",grid="none"]
+When opener passes, responder doubles when willing to play for
+penalties opposite length.
+
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1S   | (P) | | !2NT! {emsp}      (3D)
-| P    | (P) | | Dbl*  {emsp} {thinsp} (P) {emsp} {thinsp} * take-out
-| ?    |     | |
-| pass |     | | penalty
-| 3NT  |     | | suggestion to play to avoid ruff
-2+<| _other_ | <| COV with 1st or 2nd control in their suit
+| 1S   | (P) | !2NT! | (3D) |
+| P    | (P) | !X!*  | (P)  | * tolerance for penalty
+| ?    |     |       |      |
+| pass |  3+<| penalty
+| 3NT  |  3+<| suggestion to play to avoid ruff
+2+<| _other_ 3+<| COV with {D} A or K
 |===
 
 === Three-way Drury
