@@ -71,9 +71,12 @@
 		@ #ON vs X & 1S,# {simto} Drury
 | {emsp} 2/1 +
  (neb.{nbsp}2C)
-       | 1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}!!2oM!!
-         _ = 5{orMore}{xtimes}{C} +
-         1M{ndash}!!2C!!{semicolon}{thinsp}2M = 6{orMore}{xtimes}M
+       | 1M{ndash}!!2C!!{semicolon}{thinsp}2NT = 16-17 +
+         1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}? +
+	 {emsp}{emsp}{emsp}{emsp}!!2H!! = waiting +
+	 {emsp}{emsp}{emsp}{emsp}!!2S!! = 3*M +
+	 {emsp}{emsp}{emsp}{emsp}2NT = 16-17
+         
 |===
 
 // -------------------------------- //
@@ -176,7 +179,8 @@ d|
 ! 1m   !  1M !
 ! 1NT  ! {thinsp}? !
 !      ! 3{lab}lower{rab} ! 5-5, good suits
-!      ! 3M  ! 6*M, COG or set trump for KC
+!      ! 3M  ! 6*M, COG +
+               {or} set trump
 !===
 |===
 
@@ -252,8 +256,8 @@ d|
 
 | *Kickback for own suit* +
   @ asker has bid only one suit +
-  @ KB = jump
-  @ 3{lab}KB-strain{rab} = Forcing +
+  @ KB = jump +
+  @ 3{lab}KB-strain{rab} = Forcing
   _ {or}{ensp}own-suit = {S}{emsp}&{ensp}4NT = jump
 |===
 
