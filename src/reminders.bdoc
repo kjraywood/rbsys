@@ -69,14 +69,6 @@
 		JR = weak splinter +
 		2NT = 5-5 minors, inv.
 		@ #ON vs X & 1S,# {simto} Drury
-| {emsp} 2/1 +
- (neb.{nbsp}2C)
-       | 1M{ndash}!!2C!!{semicolon}{thinsp}2NT = 16-17 +
-         1M{ndash}!!2C!!{semicolon}{thinsp}!!2D!!{ndash}? +
-	 {emsp}{emsp}{emsp}{emsp}!!2H!! = waiting +
-	 {emsp}{emsp}{emsp}{emsp}!!2S!! = 3*M +
-	 {emsp}{emsp}{emsp}{emsp}2NT = 16-17
-         
 |===
 
 // -------------------------------- //
@@ -93,6 +85,32 @@
 :===
     | {tribull} | old-suit = NF +
 	          #unbid-minor ={nbsp}GF{nbsp}relay#
+|===
+
+// -------------------------------- //
+
+[cols=2*^.<a,grid="none", stripes="none"]
+|===
+2+^d| 2/1: nebulous 2C
+
+|
+[%autowidth,grid="none", stripes="odd"]
+:===
+    1M   : !!2C!!
+    ?    :
+  !!2D!! : waiting
+   2oM   : non{hyph}min
+   2NT   : 16-17
+:===
+|
+[%autowidth,grid="none", stripes="odd"]
+:===
+    1M   : !!2C!!
+  !!2D!! :   ?
+         : !!2H!!{nbsp}{nbsp}waiting
+         : !!2S!!{nbsp}{nbsp}{nbsp}3*M
+         :  2NT{nbsp}16-17
+:===
 |===
 
 // -------------------------------- //
