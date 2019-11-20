@@ -198,7 +198,7 @@ d|
    @ ON vs double{ensp}
    @ OFF vs overcall
 |
-[%autowidth,cols="2*^,<",grid="none", stripes="odd"]
+[%autowidth,cols="2*^,<",grid="none", stripes="odd",frame="all_indent"]
 !===
 !   1m   !   1M    !
 !   1NT  ! !!2C!!  !
@@ -206,7 +206,7 @@ d|
 !===
 
 |
-[%autowidth,cols="^,2*<",grid="none", stripes="odd"]
+[%autowidth,cols="^,2*<",grid="none", stripes="odd",frame="all_indent"]
 !===
 ! 1m   !  1M !
 ! 1NT  ! {thinsp}? !
