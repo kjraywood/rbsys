@@ -516,8 +516,14 @@ table.grid-rows tfoot > tr > th.tableblock, table.grid-rows tfoot > tr > td.tabl
 
 table.frame-all { border-width: 1px; border-color: #000}
 
+/* table options frame-nonex and frame-allx with larger
+   top and bottom margins for nested tables */
+
 table.frame-allx { border-width: 1px; margin-top: 0.125em; margin-bottom: 1.5em; }
 table.frame-nonex { margin-top: 0.125em; margin-bottom: 1.5em; }
+
+/* table option frame=all_neglm : frame=all and negative left margin */
+table.frame-all_neglm { border-width: 1px; border-color: #000; margin-left: -0.5em; }
 
 table.frame-sides { border-width: 0 1px; }
 
@@ -1070,7 +1076,7 @@ b.conum * { color: inherit !important; }
 </tr>
 </tbody>
 </table></div></td>
-<td class="tableblock halign-center valign-top"><div class="content"><table class="tableblock frame-all grid-none stripes-odd fit-content">
+<td class="tableblock halign-center valign-top"><div class="content"><table class="tableblock frame-all_neglm grid-none stripes-odd fit-content">
 <colgroup>
 <col>
 <col>

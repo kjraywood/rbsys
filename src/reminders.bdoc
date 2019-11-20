@@ -103,7 +103,7 @@
    2NT   : 16-17
 :===
 |
-[%autowidth,grid="none", stripes="odd"]
+[%autowidth,grid="none", stripes="odd", frame="all_neglm"]
 :===
     1M   : !!2C!!
   !!2D!! :   ?
