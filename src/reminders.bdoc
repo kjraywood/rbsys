@@ -330,12 +330,12 @@ d|
 | *(2m) {ndash} 2NT* +
   @ reg. Stayman & Smolen
   @ 3S = om +
-  *vs dble:* #Tfrs ON#, XX = om
+  [bold-brickred]#{thinsp}vs dble:# #Tfrs ON#, XX = om
 | *(2M) {ndash} 2NT* +
   @ 5-cd Stayman (for oM)
   @ Tfr to their M = inv oM
   @ 3S = minors +
-  *vs dble:* #Tfrs OFF#, XX = minors
+  [bold-brickred]#{thinsp}vs dble:# #Tfrs OFF#, XX = minors
 |===
 
 // -------------------------------- //
