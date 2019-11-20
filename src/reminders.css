@@ -832,10 +832,10 @@ b.conum * { color: inherit !important; }
 
 @media print {
     @page { size: 8.5in 11in;
-	margin-top: 0px;
+	margin-top: 3mm;
 	margin-bottom: 0mm;
-	margin-right: 2mm;
-	margin-left: 2mm;
+	margin-right: 2.5mm;
+	margin-left: 1.5mm;
     }
     table { font-size: 10px; }
     body {margin-top: -24px; }
