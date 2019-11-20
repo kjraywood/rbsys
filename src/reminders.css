@@ -516,6 +516,9 @@ table.frame-nonex { margin-top: 0.125em; margin-bottom: 1.5em; }
 /* table option frame=all_neglm : frame=all and negative left margin */
 table.frame-all_neglm { border-width: 1px; border-color: #000; margin-left: -0.5em; }
 
+/* table option frame=all_indent : frame=all and larger left margin */
+table.frame-all_indent { border-width: 1px; border-color: #000; margin-left: 0.5em; }
+
 table.frame-sides { border-width: 0 1px; }
 
 table.frame-topbot, table.frame-ends { border-width:1px 0 }
