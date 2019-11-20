@@ -158,7 +158,21 @@ __ !4D! = KB for {C}
 
 // -------------------------------- //
 
-[%autowidth,cols="<.^a",grid="none", stripes="none"]
+[cols="2*^,<~",grid="none"]
+|===
+3+^| Opener raises
+
+|  1m   | 1M    |
+|  2M   | !3om! | {ensp} GF enquiry
+|  ?    |       |
+|  3M   |       | 4-cd raise
+| !3oM! |       | 3-cd raise, short oM
+| !3NT! |       | 3-cd raise, short om
+|===
+
+// -------------------------------- //
+
+[cols="<.^a",grid="none", stripes="none"]
 |===
 ^d| 2-Way Checkback
 
@@ -182,20 +196,6 @@ d|
 !      ! 3M  ! 6*M, COG +
                {or} set trump
 !===
-|===
-
-// -------------------------------- //
-
-[cols="2*^,<~",grid="none"]
-|===
-3+^| Opener raises
-
-|  1m   | 1M    |
-|  2M   | !3om! | {ensp} GF enquiry
-|  ?    |       |
-|  3M   |       | 4-cd raise
-| !3oM! |       | 3-cd raise, short oM
-| !3NT! |       | 3-cd raise, short om
 |===
 
 // -------------------------------- //
