@@ -64,21 +64,34 @@ their suit).
 ****
 
 [#alt-wolff]
-== Alternatives to Wolff Sign-off
+== Alternatives to Wolff
 
-* Transfers after 18-19 2NT rebid,
-_esp._{thinsp} 1M {ndash} 1NT{semicolon} 2NT
+@ Transfers after 18-19 2NT rebid,
+_ _esp._{thinsp} 1M {ndash} 1NT{semicolon} 2NT
 
-* Mexican 2D opening = bal. 18-19 +
-  {zwsp} +
-  [lightgrey-box]#1M {ndash} !!1NT!!{semicolon} !!2NT!! = generic GF# +
-  {zwsp} +
-  [lightgrey-box]#1{star} {ndash} 1M{semicolon} !!2NT!!
-                  = 16{OrMore} HCP, 4{xtimes}M
-		    {or} 6{OrMore}{xtimes}{star}, 2{OrLess}{xtimes}M# +
-  {zwsp} +
-  [lightgrey-box]#1{star} {ndash} 1M{semicolon} 3{star}
-                  = 6{OrMore}{xtimes}{star}, 3*M#
+@ Mexican 2D opening = bal. 18-19 +
+
+=== Advantages of Mexican
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|       |   1M  ||
+| !1NT! | !2NT! || generic GF
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|    | 1{star} ||
+| 1M |  !2NT!  || 16{OrMore} HCP, 
+                 [nobr]#{lflatb} 4{xtimes}M {or}
+		       6{OrMore}{xtimes}{star}, 2{OrLess}{xtimes}M {rflatb}#
+|===	    
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|    |  1{star}  ||
+| 1M | !3{star}! || 6{OrMore}{xtimes}{star}, 3*M
+|===	    
 
 == Romex Stayman
 
@@ -198,3 +211,82 @@ When opener has denied a stopper, #reverse-transfers apply at the
 
 // Following the neutral 2D, a 2NT rebid by responder shows a balanced
 // 11-12, and permits the auction to end in 2NT, 3C or 3D
+
+== 1m {ndash} 2H = 11{ndash}12 bal.
+
+=== Advantages
+
+@ enables 1m{ndash}2NT = 13-15 or 18{orMore}
+_ and 1m{ndash}3NT = 16-17
+
+@ opener can show both-minors-minimum
+_ and both-minors-with-extras (forcing)
+
+@ allows NT to be played from either side
+
+=== Disadvantages
+
+@ must drop responder's reverse Flannery
+
+@ opps can double 2H to show hearts
+
+@ extras system to learn
+
+=== Follow-ups to 1m {ndash} 2NT
+
+Opener can show a singleton in a #higher-ranking suit#, or 
+rebid the original minor as Stayman.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1C  || 2NT | 13-15 or 18{orMore}
+|  ?   ||     |
+| !3C! ||     | #Stayman#
+3+<| !!3D!!,!!3H!!,!!3S!! <| singleton
+|  3NT ||      | sign off
+|===
+
+When the opening bid is 1D, we do not worry about showing a singleton
+club because without clubs, responder might choose an inverted-minor
+raise.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D  || 2NT |
+|  ?   ||     |
+|  3C  ||     | natural
+| !3D! ||      | #Stayman#, GF
+3+<| !!3H!!,!!3S!! <| singleton
+|  3NT ||      | sign off
+|===
+
+=== Follow-ups to 1m {ndash} 2H 
+
+The direct bids at the 3-level show extras and are GF.
+They follow the same scheme as after 1m{ndash}2NT.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D  || !2H! | 11-12 bal.
+|  ?   ||      |
+| !2S! ||      | forces 2NT
+|  2NT ||      | sign off
+|  3C  ||      | natural, extras, GF
+| !3D! ||      | #Stayman#, GF
+3+<| !!3H!!,!!3S!! <| singleton, GF
+|  3NT ||      | sign off
+|===
+
+To show a weak hand with both or one minor, opener uses the 2S relay.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  || {nbsp}!!2H!!
+| !2S! | [nullchar]#{blueRarrow}#
+        | 2NT
+|  ?   ||
+|  P   ||
+|  3C  || natural, minimum, NF
+|  3D  || sign off
+|  3NT || to play with responder as declarer
+|===
