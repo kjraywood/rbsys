@@ -26,6 +26,6 @@
 
 <<system.adoc#, __Everything__>>
 
-<<staging.adoc#, __Potential agreements__>>
-
 <<reminders.adoc#, __Reminders__>>
+
+<<staging.adoc#, __Potential agreements__>>
