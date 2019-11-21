@@ -230,12 +230,16 @@ _ and both-minors-with-extras (forcing)
 
 @ opps can double 2H to show hearts
 
-@ extras system to learn
+@ extra system to learn
 
 === Follow-ups to 1m {ndash} 2NT
 
-Opener can show a singleton in a #higher-ranking suit#, or 
-rebid the original minor as Stayman.
+Responder may have a weak four-card major in a 4333 hand.
+
+It's important that opener can show a singleton to avoid a bad 3NT.
+
+Opener can show a #singleton in a higher-ranking suit#, or 
+rebid the #original minor as Stayman#.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -244,10 +248,12 @@ rebid the original minor as Stayman.
 | !3C! ||     | #Stayman#
 3+<| !!3D!!,!!3H!!,!!3S!! <| singleton
 |  3NT ||      | sign off
+| !4C! ||     | Gerber
+|  4NT ||     | quant.
 |===
 
 When the opening bid is 1D, we do not worry about showing a singleton
-club because without clubs, responder might choose an inverted-minor
+club because with 3-3-4-3, responder can start with an inverted-minor
 raise.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -255,9 +261,33 @@ raise.
 |  1D  || 2NT |
 |  ?   ||     |
 |  3C  ||     | natural
-| !3D! ||      | #Stayman#, GF
+| !3D! ||     | #Stayman#
 3+<| !!3H!!,!!3S!! <| singleton
-|  3NT ||      | sign off
+|  3NT ||     | sign off
+| !4C! ||     | Gerber
+| 4NT  ||     | quant.
+|===
+
+Original-minor-Stayman is usually used on hands without a singleton,
+but may occasionally be used with a 6-5 (m-M) hand.
+
+These auctions are rare so we need to keep them simple and natural.
+
+If opener shows a 4cM after original-minor-Stayman, then kickback is ON.
+This means that a quantitative 4NT won't be available following
+responder's 3S.
+So with an 18-point hand and four-hearts, opener should probably
+choose a direct (quantitative) 4NT to avoid that scenario.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  | 2NT |
+| !3D! | 3S  |
+|  ?   |     |
+|  3NT |     | sign off
+|  4H  |     | 6*{D}, 5*{H}
+|  4S  |     | sign off
+|  4NT |     | RKC for {S}
 |===
 
 === Follow-ups to 1m {ndash} 2H 
@@ -277,7 +307,7 @@ They follow the same scheme as after 1m{ndash}2NT.
 |  3NT ||      | sign off
 |===
 
-To show a weak hand with both or one minor, opener uses the 2S relay.
+With a minimum opener not suitable for notrump, opener uses the 2S relay.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
