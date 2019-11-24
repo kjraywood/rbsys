@@ -44,21 +44,21 @@ _ shows 4*oM
 
 [%autowidth,cols="4*^,2*<",grid="none"]
 |===
-| (2S) | Dble | (P) | ?   | |
-|      |      |     | 2NT | | Lebensohl
-|      |      |     | 3m  | | natural, positive
-|      |      |     | 3H  | | five-card suit, inv
-|      |      |     | 3S  | | no stopper, not 4*{H}
-|      |      |     | 3NT | | to play
+| (2S) | Dble | (P) |  ?    ||
+|      |      |     | !2NT! || Lebensohl
+|      |      |     |  3m   || natural, positive
+|      |      |     |  3H   || five-card suit, inv
+|      |      |     | !3S!  || no stopper, not 4*{H}
+|      |      |     |  3NT  || to play
 |===
 
 [%autowidth,cols="4*^,2*<",grid="none"]
 |===
-| (2S) | Dble | (P) | 2NT | |
-| (P)  | 3C   |     | ?   | |
+| (2S) | Dble | (P) | !2NT! ||
+| (P)  | 3C   |     |  ?    ||
 |      |      |     2+<| P,3D,3H <| to play
-|      |      |     | 3S  | | no stopper, 4*{H}
-|      |      |     | 3NT | | stopper & 4*{H}
+|      |      |     | !3S!  || no stopper, 4*{H}
+|      |      |     | !3NT! || stopper & 4*{H}
 |===
 
 Lebensohl 2NT, followed by bidding a suit _above three of their
@@ -66,10 +66,10 @@ suit_{thinsp} is strong and _forcing if below game._
 
 [%autowidth,cols="4*^,2*<",grid="none"]
 |===
-| (2H) | Dble | (P) | 2NT | |
-| (P)  | 3C   |     | ?   | |
-|      |      |     | 3D  | | to play
-|      |      |     | 3S  | | forcing, 5*{S}
+| (2H) | Dble | (P) | !2NT! ||
+| (P)  | 3C   |     |  ?    ||
+|      |      |     |  3D   || to play
+|      |      |     |  3S   || forcing, 5*{S}
 |===
 
 === Simple Lebensohl after double of their 2-level overcall
@@ -83,13 +83,13 @@ Applies when: +
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1H  | (2D) | X  | (P)
-| ?   |      |    |
-| 2H  |      |    | default bid
-| 2S  |      |    | {S}-fit, min
-| 2NT |      |    | #Lebensohl#
-| 3C  |      |    | nat., extras
-| 3D  |      |    | nat., extras
+|  1H   | (2D) | X  | (P)
+|  ?    |      |    |
+|  2H   |      |    | default bid
+|  2S   |      |    | {S}-fit, min
+| !2NT! |      |    | #Lebensohl#
+|  3C   |      |    | nat., extras
+|  3D   |      |    | nat., extras
 |===
 
 It is particularly important opposite a balancing double of
@@ -97,10 +97,10 @@ a two level overcall.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1D  | (2S) | P   | (P) |
-| X   | (P)  | ?   |     |
-|     |      | 2NT |     | #Lebensohl#
-|     |      | _other_ | | nat., extras
+| 1D  | (2S) |  P    | (P) |
+| X   | (P)  |  ?    |     |
+|     |      | !2NT! |     | #Lebensohl#
+|     |      | _other_ |   | nat., extras
 |===
 
 {reference}
