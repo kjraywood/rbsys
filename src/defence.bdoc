@@ -8,13 +8,13 @@
 
 Standard honour-leads +
 
-@ King from AKx or KQx
->> when unsure which, third hand
-__ assumes AKx +
-@ Queen from AKQx
->> third-hand gives count
+[nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#, [nobr]#**K**{thinsp}Q{thinsp}x#
+> when unsure which, 3^rd^ hand assumes AKx
 
-Low from a doubleton +
+[nobr]#A{thinsp}K{thinsp}[OvalBox]##Q##{thinsp}x#
+> third-hand gives count
+
+[nobr]#x{thinsp}[.red.OvalBox]##x##{zwsp}#
 @ opening-lead only
 @ top card = 9 or lower
 
@@ -33,13 +33,11 @@ low from honour third
 
 Rusinow Q,J,T,9 or 8 - from four-card or longer suits
 
-Ace from AKx(x)
+[nobr]#[OvalBox]##A##{thinsp}K{thinsp}x{thinsp}x#
 
 King = power (from AKQT, AKJT, KQT9, KQJ9, KQJT) +
-It requests: +
-@ overtake with the ace and return
-@ unblock of Q, J or T
-@ otherwise count
+> overtake with the ace and return
+_ {or} unblock Q, J or T {or} count
 
 === Rusinow exceptions
 
