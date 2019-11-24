@@ -6,28 +6,26 @@
 
 === Suit Contracts
 
-Rusinow honour-leads
+Standard honour-leads +
+
+@ King from AKx or KQx
+>> when unsure which, third hand
+__ assumes AKx +
+@ Queen from AKQx
+>> third-hand gives count
+
+Low from a doubleton +
 @ opening-lead only
-@ includes 3-card-suits
-@ pivot-card = 8
+@ top card = 9 or lower
 
-Low from a doubleton
-@ opening-lead only
-@ top card = T or lower
-
-high from xxx
-
-#middle from Txx#
+[nobr]#[OvalBox]##x##{thinsp}x{thinsp}x#
 
 2^nd^ highest from four or five small, except highest of touching
 cards
 
-low from honour third (except ten)
+low from honour third
 
 4^th^ best
-
-NOTE: Leading low from Tx and middle from Txx means that a lead of the
-ten will promise the J or be a singleton
 
 === NoTrump Contracts
 
