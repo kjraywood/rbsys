@@ -212,111 +212,23 @@ When opener has denied a stopper, #reverse-transfers apply at the
 // Following the neutral 2D, a 2NT rebid by responder shows a balanced
 // 11-12, and permits the auction to end in 2NT, 3C or 3D
 
-== 1m {ndash} 2H = 11{ndash}12 bal.
+// == 1m {ndash} 2H = 11{ndash}12 bal.
 
-=== Advantages
+// === Advantages
 
-@ enables 1m{ndash}2NT = 13-15 or 18{orMore}
-_ and 1m{ndash}3NT = 16-17
+// @ enables 1m{ndash}2NT = 13-15 or 18{orMore}
+// _ and 1m{ndash}3NT = 16-17
 
-@ opener can show both-minors-minimum
-_ and both-minors-with-extras (forcing)
+// @ opener can show both-minors-minimum
+// _ and both-minors-with-extras (forcing)
 
-@ allows NT to be played from either side
+// @ allows NT to be played from either side
 
-=== Disadvantages
+// === Disadvantages
 
-@ must drop responder's reverse Flannery
+// @ must drop responder's reverse Flannery
 
-@ opps can double 2H to show hearts
+// @ opps can double 2H to show hearts
 
-@ extra system to learn
+// @ extra system to learn
 
-=== Follow-ups to 1m {ndash} 2NT
-
-Responder may have a weak four-card major in a 4333 hand.
-
-It's important that opener can show a singleton to avoid a bad 3NT.
-
-Opener can show a #singleton in a higher-ranking suit#, or 
-rebid the #original minor as Stayman#.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1C  || 2NT | 13-15 or 18{orMore}
-|  ?   ||     |
-| !3C! ||     | #Stayman#
-3+<| !!3D!!,!!3H!!,!!3S!! <| singleton
-|  3NT ||      | sign off
-| !4C! ||     | Gerber
-|  4NT ||     | quant.
-|===
-
-When the opening bid is 1D, we do not worry about showing a singleton
-club because with 3-3-4-3, responder can start with an inverted-minor
-raise.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1D  || 2NT |
-|  ?   ||     |
-|  3C  ||     | natural
-| !3D! ||     | #Stayman#
-3+<| !!3H!!,!!3S!! <| singleton
-|  3NT ||     | sign off
-| !4C! ||     | Gerber
-| 4NT  ||     | quant.
-|===
-
-Original-minor-Stayman is usually used on hands without a singleton,
-but may occasionally be used with a 6-5 (m-M) hand.
-
-These auctions are rare so we need to keep them simple and natural.
-
-If opener shows a 4cM after original-minor-Stayman, then kickback is ON.
-This means that a quantitative 4NT won't be available following
-responder's 3S.
-So with an 18-point hand and four-hearts, opener should probably
-choose a direct (quantitative) 4NT to avoid that scenario.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1D  | 2NT |
-| !3D! | 3S  |
-|  ?   |     |
-|  3NT |     | sign off
-|  4H  |     | 6*{D}, 5*{H}
-|  4S  |     | sign off
-|  4NT |     | RKC for {S}
-|===
-
-=== Follow-ups to 1m {ndash} 2H 
-
-The direct bids at the 3-level show extras and are GF.
-They follow the same scheme as after 1m{ndash}2NT.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1D  || !2H! | 11-12 bal.
-|  ?   ||      |
-| !2S! ||      | forces 2NT
-|  2NT ||      | sign off
-|  3C  ||      | natural, extras, GF
-| !3D! ||      | #Stayman#, GF
-3+<| !!3H!!,!!3S!! <| singleton, GF
-|  3NT ||      | sign off
-|===
-
-With a minimum opener not suitable for notrump, opener uses the 2S relay.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1D  || {nbsp}!!2H!!
-| !2S! | [nullchar]#{blueRarrow}#
-        | 2NT
-|  ?   ||
-|  P   ||
-|  3C  || natural, minimum, NF
-|  3D  || sign off
-|  3NT || to play with responder as declarer
-|===

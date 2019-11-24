@@ -245,11 +245,12 @@ rebids 3NT.
                                    | unbal.{nbsp}LR, 9{ndash}10
 | JS {blueRarrow} om | natural{nbsp}inv.
                                    | #fit showing#
-| !2H!            2+^| Reverse Flannery
-| !2S!               | LR, bal.{nbsp}{or}{nbsp}unbal.
+| !2H!               | bal. 11{ndash}12 | ??
+| !2S!               | LR, [nobr]#{lflatb}bal. {or} unbal.{rflatb}#
                                    | bal. LR, 11{ndash}12
-| 2NT                | 11{ndash}12 | #avoid opposite 3^rd^{nbsp}seat#
-| 3NT                | 13{ndash}15 | --
+| 2NT                | 13{ndash}15 {or} 18{OrMore}
+                                   | 11{OrMore}{ndash}12{OrLess}
+| 3NT                | 16{ndash}17 | --
 |===
 
 === Inverted Minors
@@ -267,16 +268,111 @@ Single-raise = game-forcing
 | establishing a fit and GF prepares us for 3^rd^-hand intervention
 |===
 
-=== Reverse Flannery
+=== 1m {ndash} 2NT
+
+Shows a balanced hand with 13-15 or 18{OrMore}.
+
+Responder may have a weak four-card major in a 4333 hand.
+
+==== Opener's rebids
+
+@ higher-ranking suit = shortness
+@ original minor = Stayman
+
+NOTE: Showing shortness to avoid a bad 3NT has higher priority than
+Stayman because we can still find a major-suit fit when responder
+rejects notrump, but opener will be guessing if Stayman does not
+reveal a major-suit fit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1m    | !2H! | | {emsp}5*{S}, 4{OrMore}{xtimes}{H}, {lt}{thinsp}inv.
-|  !2NT! |  ?   | |
-|        | !3C! | | 5-4 min
-|        | !3D! | | 5-4 max
-|        | !3H! | | 5-5 min
-|        | !3S! | | 5-5 max
+|  1C  || 2NT | 13-15 or 18{orMore}
+|  ?   ||     |
+| !3C! ||     | #Stayman#
+3+<| !!3D!!,!!3H!!,!!3S!! <| #shortness#
+|  3NT ||     | sign off
+| !4C! ||     | minorwood
+|  4NT ||     | quant.
+|===
+
+When the opening bid is 1D, we do not worry about showing a singleton
+club because with 3-3-4-3 and poor clubs, responder can use an
+inverted-minor raise.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D  || 2NT |
+|  ?   ||     |
+|  3C  ||     | natural
+| !3D! ||     | #Stayman#
+3+<| !!3H!!,!!3S!! <| #shortness#
+|  3NT ||     | sign off
+| !4D! ||     | minorwood
+| 4NT  ||     | quant.
+|===
+
+==== Extreme hands
+
+Opener may also rebid the original minor with an extreme hand
+such as 6-5 (m-M), which has no interest in playing notrump.
+These hands are very rare so follow-up bidding is natural.
+
+==== Same-minor Stayman
+
+If responder shows a 4cM then kickback is ON.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  | 2NT |
+| !3D! | 3S  |
+|  ?   |     |
+|  3NT |     | sign off
+|  4H  |     | 6*{D}, 5*{H}
+|  4S  |     | sign off
+|  4NT |     | RKC for {S}
+|===
+
+[CAUTION]
+====
+The above auction lacks a quantitative 4NT.
+Therefore, with 18{thinsp}HCP and four hearts, opener should probably
+choose a direct quantitative 4NT instead of Stayman.
+If accepting, responder may show a four-card heart suit in a suitable
+hand.
+====
+
+=== 1m {ndash} 2H 
+
+Shows a balanced 11{ndash}12.
+
+The direct bids at the 3-level show extras and are GF.
+
+They follow the same scheme as after 1m{ndash}2NT.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D  || !2H! | 11-12 bal.
+|  ?   ||      |
+| !2S! ||      | forces 2NT
+|  2NT ||      | sign off
+|  3C  ||      | natural, extras, GF
+| !3D! ||      | #Stayman#, GF
+3+<| !!3H!!,!!3S!! <| #shortness#, GF
+|  3NT ||      | sign off
+|===
+
+With a minimum opener not suitable for notrump, opener uses the 2S relay.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  || {nbsp}!!2H!!
+| !2S! | [nullchar]#{blueRarrow}#
+        | 2NT
+|  ?   ||
+|  P   ||
+|  3C  || natural, minimum, NF
+|  3D  || sign off
+|  3NT || to play with responder as declarer
 |===
 
 == Two-over-one Auctions
@@ -297,7 +393,6 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
                 > !2oM! =  5{OrMore}{xtimes}{C}
 |  2M  |      | 6{OrMore}{xtimes}M
 |===
-
 
 === One Diamond {ndash} Two Clubs
 
