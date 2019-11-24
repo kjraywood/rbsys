@@ -17,39 +17,47 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 @ 2C{thinsp}{forces}{thinsp}2D ON
 @ 2D = natural weak, 5*M
 
+=== Weak with both majors
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1m  || 1S ||
+| 1NT || 2H || 5*{S}, 4{OrMore}{xtimes}{H}, weak
+|===
+
+Opener chooses between pass and a preference to 2S.
+
 === Inv with both majors
 
-Rev. Flannery on the 1st-round takes care of weak hands with 5*{S} and
-4{or}5*{H}.  So we have an extra sequence to show inv both majors.
+4{ndash}4 in the majors and invitational is shown directly.
 
-A direct bid of the 2nd major shows equal length.
-
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1m  | 1H | |
-| 1NT | 2S | | 4*{S}, 4*{H}, inv
+| 1m  || 1H ||
+| 1NT || 2S || 4*{S}, 4*{H}, inv
 |===
 
-[%autowidth,cols="3*^,<",grid="none"]
+Going though the minor-suit relay shows five cards in the first suit.
+
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1m  | 1S | |
-| 1NT | 2H | | 5*{S}, 5*{H}, inv
+|  1m  || 1H   ||
+|  1NT || !2C! ||
+| !2D! || 2S   || 4*{S}, 5*{H}, inv
 |===
 
-Going though the minor-suit relay shows unequal length.
-
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1m   | 1H   | |
-| 1NT  | !2C! | |
-| !2D! | 2S   | | 4*{S}, 5*{H}, inv
+|  1m  ||  1S  ||
+|  1NT || !2C! ||
+| !2D! ||  2H  || 5*{S}, 4*{H}, inv
 |===
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1m   | 1S   | |
-| 1NT  | !2C! | |
-| !2D! | 2H   | | 5*{S}, 4*{H}, inv
+|  1m  ||  1S  ||
+|  1NT || !2C! ||
+| !2D! ||  3H  || 5*{S}, 5*{H}, inv
 |===
 
 === Second-round jumps
