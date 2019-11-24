@@ -295,8 +295,8 @@ reveal a major-suit fit.
 |  4NT ||     | quant.
 |===
 
-When the opening bid is 1D, we do not worry about showing a singleton
-club because with 3-3-4-3 and poor clubs, responder can use an
+When the opening bid is 1D, we do not worry about showing club
+shortness because with 3-3-4-3 and poor clubs, responder can use an
 inverted-minor raise.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -385,13 +385,42 @@ With a minimum opener not suitable for notrump, opener uses the 2S relay.
 _Better 2/1 Bidding: The Nebulous 2\C Bid_]
 __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
+We use an extended version of this where both opener and responder use
+waiting bids below 2NT unless they have something to say such as
+extra length, extra strength, or a fit.
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1M  | !2C! | {emsp} could be short
-|  ?   |      |
-| !2D! |      | default
-                > !2oM! =  5{OrMore}{xtimes}{C}
-|  2M  |      | 6{OrMore}{xtimes}M
+|  1M   | !2C! | {emsp} could be short
+|  ?    |      |
+| !2D!  |      | waiting
+|  2oM  |      | natural, non-minimum
+|  2M   |      | six-card suit
+|  2NT  |      | 16{ndash}17
+|  3m   |      | 5-5, decent suits
+|===
+
+Following opener's 2D, responder shows a fit for opener's major by
+skipping a step; thus bidding 2S even when opener's major is hearts.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1M   | !2C! ||
+| !2D!  |  ?   ||
+|       | !2H! || waiting
+|       | !2S! || 3*M
+|       |  2NT || 16{ndash}17
+| 2+<| 3{lab}suit{rab} | natural, extra length or extra strength
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1M   | !2C! |
+| !2D!  | !2H! |
+|  ?    |      |
+| !2S!  |      | usually min. hand that doesn't want grab NT, could have 4*oM
+| 2NT   |      | natural 12-14 or 18{OrMore}, not{nbsp}4*oM, not{nbsp}4*{C}
+| 3m    |      | 4*m with at least moderate extras
 |===
 
 === One Diamond {ndash} Two Clubs
