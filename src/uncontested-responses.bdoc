@@ -245,9 +245,7 @@ rebids 3NT.
                                    | unbal.{nbsp}LR, 9{ndash}11
 | JS {blueRarrow} om | natural{nbsp}inv.
                                    | #fit showing#
-| !2H!               | #bal. 11{ndash}12#
-                                   | bal. 11{ndash}12,
-                                     [nobr]#prefer to be dummy#
+| !2H!               2+^| #bal. 11{ndash}12#{tab}{tab}
 | !2S!               | LR, [nobr]#{lflatb}bal. {or} unbal.{rflatb}#
                                    | bal. LR, 11{ndash}12
 | 2NT                | 13{ndash}15 {or} 18{OrMore}
