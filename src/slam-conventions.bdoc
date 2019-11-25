@@ -323,7 +323,7 @@ kickback.
  !4S! : : :
 :===
 
-== Kickback for [alert]#last suit# without trump agreement
+== Kickback for [underline]#last suit# without trump agreement
 
 Applies when: +
 @ cannot agree last suit below 4-level
@@ -477,7 +477,7 @@ as trump.
 If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 
 [#own-suit-kc]
-== Kickback for [alert]#own suit# without trump agreement
+== Kickback for [underline]#own suit# without trump agreement
 
 === Requirements
 
