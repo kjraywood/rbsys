@@ -242,11 +242,12 @@ rebids 3NT.
 
 | single{nbsp}raise  | GF          | 6{ndash}10, 4c{OrMore}
 | jump{nbsp}raise    | 6{ndash}9, 5c{OrMore}
-                                   | unbal.{nbsp}LR, 9{ndash}10
+                                   | unbal.{nbsp}LR, 9{ndash}11
 | JS {blueRarrow} om | natural{nbsp}inv.
                                    | #fit showing#
-| !2H!               | bal. 11{ndash}12 | bal. 11{ndash}12,
-                                          [nobr]#prefer to be dummy#
+| !2H!               | #bal. 11{ndash}12#
+                                   | bal. 11{ndash}12,
+                                     [nobr]#prefer to be dummy#
 | !2S!               | LR, [nobr]#{lflatb}bal. {or} unbal.{rflatb}#
                                    | bal. LR, 11{ndash}12
 | 2NT                | 13{ndash}15 {or} 18{OrMore}
@@ -257,9 +258,9 @@ rebids 3NT.
 
 === Inverted Minors
 
-Single-raise = game-forcing
-
-#May have a four-card major#
+@ Single-raise = game-forcing
+@ #May have a four-card major#
+@ Inverted off by passed hand
 
 [%autowidth,cols="<",grid="none"]
 |===
@@ -379,7 +380,9 @@ With a minimum opener not suitable for notrump, opener uses the 2S relay.
 
 == Two-over-one Auctions
 
-100% game-forcing
+@ 100% game-forcing
+@ 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H show 5{OrMore}
+@ 1M{thinsp}{ndash}{thinsp}2C could be short
 
 === One Major {ndash} Two Clubs
 
@@ -430,6 +433,13 @@ skipping a step; thus bidding 2S even when opener's major is hearts.
 {reference} https://bridgewinners.com/article/view/building-a-better-21-structure-the-schuler-shift/[
 _Building a Better 2/1 Structure: The Schuler Shift_]
 __ {nbsp}{ndash}{nbsp} Andrew Gumperz
+
+Only after 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H
+
+Opener's 2NT rebid shows 6{OrMore}{xtimes}M
+
+Opener's 2M rebid denies 6{OrMore}{xtimes}M unless 6332 and poor for
+declaring NT
 
 === One Diamond {ndash} Two Clubs
 
