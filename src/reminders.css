@@ -847,6 +847,9 @@ b.conum * { color: inherit !important; }
 	margin-left: 1.5mm;
     }
     table { font-size: 10px; }
+
+    table thead tr th, table thead tr td
+    {   background: #ccd7ff; }
     body {margin-top: -24px; }
     h1 {
 	font-size: 13px;
