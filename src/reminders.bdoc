@@ -144,7 +144,6 @@
 @ #3m = 5c{OrMore} 6-9#
 @ inverted off by PH, 3m = unbal.{thinsp}LR
 @ JS om = nat. inv, fit-showing by PH
-@ #jump-reverse = GF splinter#
 
 |  *vs. dble* +
 @ #JS om = LR+#
@@ -179,8 +178,9 @@ __ !4D! = KB for {C}
 ^| Uncontested Auctions
 
 | 2^nd^-round raise of minor = GF +
-| reverse after 1NT
-  >> 2NT = NF #(not Leb.)# +
+| #jump reverse = GF splinter#
+| reverse after 1NT resp.
+  >> #2NT = NF# +
 | we bid 3 suits
   >> jump to 3NT = 16-17 +
 | #non-forcing back-preferences# +
