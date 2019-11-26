@@ -51,6 +51,25 @@
 
 // -------------------------------- //
 
+[%autowidth,cols="<",grid="none"]
+|===
+^| 2NT Opening
+
+| Tfr to {H} then 3S = 5-5 slammish
+  > 3NT = bad,{ensp} !4C! = {H},{ensp} !4D! = {S}
+
+| *3{S} {blueRarrow} 3NT* +
+  > 4m = #opt. minorwood# +
+  {emsp} 4M = stiff, 3*oM +
+  {emsp} 4NT = minors, weak
+
+| 3NT = minors, slammish
+  > 4m = minorwood,{ensp} 4NT = bad
+
+|===
+
+// -------------------------------- //
+
 [%autowidth,cols=".^s,<",grid="none"]
 |===
 2+^d| Major Opening
@@ -108,28 +127,9 @@
     1M   : !!2C!!
   !!2D!! :   ?
          : !!2H!!{nbsp}{nbsp}waiting
-         : !!2S!!{nbsp}{nbsp}{nbsp}3*M
+         : #!!2S!!{nbsp}{nbsp}{nbsp}3*M#
          :  2NT{nbsp}16-17
 :===
-|===
-
-// -------------------------------- //
-
-[%autowidth,cols="<",grid="none"]
-|===
-^| 2NT Opening
-
-| Tfr to {H} then 3S = 5-5 slammish
-  > 3NT = bad,{ensp} !4C! = {H},{ensp} !4D! = {S}
-
-| *3{S} {blueRarrow} 3NT* +
-  > 4m = #opt. minorwood# +
-  {emsp} 4M = stiff, 3*oM +
-  {emsp} 4NT = minors, weak
-
-| 3NT = minors, slammish
-  > 4m = minorwood,{ensp} 4NT = bad
-
 |===
 
 // -------------------------------- //
@@ -156,6 +156,19 @@
 @ #3NT = 4-4-4-1, 16-17# +
 >> !4C! {blueRarrow} 4D then KB +
 __ !4D! = KB for {C}
+
+| *1m{ndash}2NT = 13{ndash}15 {or} 18{orMore}* +
+  @ 3m = Stayman
+  @ higher suit = shortness
+  @ 4m = minorwood
+
+| *1m{ndash}2H = 11{ndash}12 bal.* +
+  @ !2S! {blueRarrow} 2NT
+  @ 3{lab}non-reverse{rab} = min. NF
+
+| *1m{ndash}2H; 2S {blueRarrow} 2NT; ?* +
+  3{lab}suit{rab} = same as after 1m-2NT, #GF#
+
 |===
 
 // -------------------------------- //
@@ -281,20 +294,25 @@ d|
 
 // -------------------------------- //
 
-[%autowidth,cols=".^s,<.^",grid="none"]
+[%autowidth,cols="<",grid="none"]
 |===
-2+^d| Contested auctions
+^| Contested auctions
 
-| neg. +
-  free-bid       | 2oM = 6*M, inv. or less
-                   > 2NT = Bogust
-| neg. dble      | 4{or}5{xtimes}oM +
-                   > rebid = 5-cd suit,
-		   _ 2-lev. = inv., 3-lev. = GF
-| 2/1 in comp.   | F1 when not NFB
-                   > #2^nd^-round jump = GF#
-| Un vs Un       | lo-cue = other, #usually inv.# +
-                   {bull} 1C-(2C): 2D=inv., !2H!=GF {D}
+| *Neg. free-bid* +
+  2oM = 6*M, inv. or less
+  > 2NT = Bogust 
+| *Neg. dble:* {ensp}
+  4{or}5{xtimes}oM
+  > rebid = 5-cd suit,
+  _ 2-lev. = inv., 3-lev. = GF +
+  #Simple Leb. after neg. X @ 2-level# +
+  & after reopening X @ 2-level
+| *2/1 in comp.:* {ensp}
+  F1 when not NFB
+  > #2^nd^-round jump = GF#
+| *Un vs Un* +
+  lo-cue = 4^th^ suit, #usually inv.# +
+  1C-(2C): 2D=inv., !2H!=GF {D}
 |===
 
 // -------------------------------- //
@@ -358,7 +376,7 @@ d|
 
 2+<d| 6{orMore}-length known
       >> #middle enc. & suit-pref#
-2+<d| 2^nd^ high thru decl. to weakness in dummy
+2+<d| #2^nd^ high thru decl.# to weakness in dummy
 | [nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#
          | vs slam
 	   >> count +
