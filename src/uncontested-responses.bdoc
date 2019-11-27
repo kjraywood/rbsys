@@ -330,23 +330,37 @@ If responder shows a 4cM then a non-jump bid in the other major agrees that majo
 
 ==== Extreme hands
 
-Opener may also rebid the original minor with an extreme hand
-such as 6-5 (m-M), which has no interest in playing notrump.
-If responder shows four in the wrong major, then it is still not
-possible for opener to bid the five-card major naturally because
-bidding the other major is used artificially to set trump.
-The solution is for opener to bid the original minor for a third time.
+With 6-5 (m-M), opener can jump to four of the major on the
+second-round.
+This is non-forcing, hence not much more than a minimum opening bid.
+
+Responder, can pass or use KC for the major.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1m  |  2NT  ||
+| !4M! |   ? 2+<| 6*m, 5*M, #NF#
+|      |   P   || to play, bad for slam
+|      | [alert]#4M+1# || kickback
+|===
+
+TIP: This is similar to Jacoby 2NT where we show shortness at the 3-level
+     and a second suit at the 4-level.
+
+With a stronger hand opener rebids the original minor, as Stayman,
+and continues with four of a minor.
+This is #optional minorwood#, even if responder shows a four-card major,
+because responder has already shown a balanced hand.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1D  | 2NT |
-| !3D! | 3S  |
-| !4D! |     | 6*{D}, 5*{H}
+|  1m  | 2NT    |
+| !3m! | 3M,3NT |
+| !4m! |        | #optional minorwood#
 |===
 
-It follows that with single very-long minor, opener must jump
-on either the first or second rebid.
-Jumping to 4m on the first rebid is self-minorwood.
+TIP: If responder shows a 4cM, we set trump with the other major.
+     So the third bid by opener in the minor denies a fit for the 4cM.
 
 === 1m {ndash} 2H 
 
