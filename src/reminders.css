@@ -310,7 +310,7 @@ b.button::before { content: "["; padding: 0 3px 0 2px; }
 
 b.button::after { content: "]"; padding: 0 2px 0 3px; }
 
-#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5em; *zoom: 1; position: relative; padding-left: 0.9375em; padding-right: 0.9375em; }
+#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 88em; *zoom: 1; position: relative; padding-left: 0.9375em; padding-right: 0.9375em; }
 #header::before, #header::after, #content::before, #content::after, #footnotes::before, #footnotes::after, #footer::before, #footer::after { content: " "; display: table; }
 #header::after, #content::after, #footnotes::after, #footer::after { clear: both; }
 
@@ -839,6 +839,10 @@ b.conum * { color: inherit !important; }
 
 .literalblock pre, .listingblock pre { background: #eee; }
 
+
+/* Reminders can by wider and multi-column */
+@media screen { #content {columns: 292px 4; }}
+
 @media print {
     @page { size: 8.5in 11in;
 	margin-top: 3mm;
@@ -849,7 +853,7 @@ b.conum * { color: inherit !important; }
     table { font-size: 10px; }
 
     table thead tr th, table thead tr td
-    {   background: #ccd7ff; }
+    {   background: #e0e0ff; }
     body {margin-top: -24px; }
     h1 {
 	font-size: 13px;
