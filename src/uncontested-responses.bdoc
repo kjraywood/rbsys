@@ -305,9 +305,9 @@ inverted-minor raise.
 |===
 |  1D  || 2NT |
 |  ?   ||     |
-|  3C  ||     | natural
-| !3D! ||     | #Stayman#
-3+<| !!3H!!,!!3S!! <| #shortness#
+|  3C  ||     | #natural#
+| !3D! ||     | Stayman
+3+<| !!3H!!,!!3S!! <| shortness
 |  3NT ||     | sign off
 | !4D! ||     | minorwood
 | 4NT  ||     | quant.
