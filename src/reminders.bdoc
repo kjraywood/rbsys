@@ -158,8 +158,8 @@
 __ !4D! = KB for {C}
 
 | *1m{ndash}2NT = 13{ndash}15 {or} 18{orMore}* +
-  @ 3m = Stayman
-  @ higher suit = shortness
+  @ #3m = Stayman#
+  @ #higher suit = shortness#
   @ 4m = minorwood
 
 | *1m{ndash}2H = 11{ndash}12 bal.* +
@@ -173,7 +173,7 @@ __ !4D! = KB for {C}
 
 // -------------------------------- //
 
-[%autowidth,cols="<",grid="none"]
+[cols="<",grid="none"]
 |===
 ^| Uncontested Auctions
 
@@ -306,8 +306,7 @@ d|
   4{or}5{xtimes}oM
   > rebid = 5-cd suit,
   _ 2-lev. = inv., 3-lev. = GF +
-  @ #Simple Leb. after neg.-X#
-  _ #& reopening-X @ 2-level#
+|  #Simple Leb. after negative and reopening doubles @ 2-level#
 | *2/1 in comp.:* {ensp}
   F1 when not NFB
   > #2^nd^-round jump = GF#
