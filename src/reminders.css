@@ -839,6 +839,10 @@ b.conum * { color: inherit !important; }
 
 .literalblock pre, .listingblock pre { background: #eee; }
 
+/* do not display heading or its contents in reminders */
+
+h1 { display: none; }
+#header .details { display: none; }
 
 /* Reminders can by wider and multi-column */
 @media screen { #content {columns: 292px 4; }}
@@ -850,29 +854,13 @@ b.conum * { color: inherit !important; }
 	margin-right: 2.5mm;
 	margin-left: 1.5mm;
     }
-    table { font-size: 10px; }
+    body, table { font-size: 10px; }
 
     table thead tr th, table thead tr td
     {   background: #e0e0ff; }
     body {margin-top: -24px; }
-    h1 {
-	font-size: 13px;
-        margin-top: 0px;
-        margin-left: 10px;
-	font-family: "Noto Serif", "DejaVu Serif", serif;
-	font-weight: normal;
-	font-style: italic;
-    }
-    #header .details {
-	font-size: 13px;
-	color: #000;
-	float: right;
-	border-style: none;
-	margin-top: -23px;
-        margin-right: 10px;
-    }
     #content {
-        margin-top: 12px;
+        margin-top: 40px;
 	column-count: 4;
 	-webkit-column-count: 4;
 	-moz-column-count: 4;
