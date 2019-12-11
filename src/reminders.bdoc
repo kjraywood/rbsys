@@ -8,7 +8,8 @@
 
 2+<d|
       Texas OFF vs 2NT{OrMore} +
-      Inverted crawling-Stayman
+      Inverted crawling-Stayman +
+      #Standard Baze (4C = cheap-KC)#
 | super +
   accepts    | jump = max +
                new-suit = anti-splinter
@@ -270,6 +271,10 @@ d|
 |===
 ^| Slam Conventions
 
+| *Gerber* +
+  @ jump after NT opening or rebid +
+  @ #standard responses (04, 1, 2, 3)#
+
 | *Minorwood* +
   Uncontested auction +
   @ minor-suit agreed:  #4m = jump#
@@ -400,3 +405,5 @@ d|
 // @ KASTRO
 // @ dble = penalty
 // @@ Landy & transfers by advancer
+
+[.right.xemph]#{revdate}#

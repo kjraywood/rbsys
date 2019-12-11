@@ -848,6 +848,10 @@ b.conum * { color: inherit !important; }
 
 .literalblock pre, .listingblock pre { background: #eee; }
 
+/* do not display heading or its contents in reminders */
+
+h1 { display: none; }
+#header .details { display: none; }
 
 /* Reminders can by wider and multi-column */
 @media screen { #content {columns: 292px 4; }}
@@ -859,29 +863,13 @@ b.conum * { color: inherit !important; }
 	margin-right: 2.5mm;
 	margin-left: 1.5mm;
     }
-    table { font-size: 10px; }
+    body, table { font-size: 10px; }
 
     table thead tr th, table thead tr td
     {   background: #e0e0ff; }
     body {margin-top: -24px; }
-    h1 {
-	font-size: 13px;
-        margin-top: 0px;
-        margin-left: 10px;
-	font-family: "Noto Serif", "DejaVu Serif", serif;
-	font-weight: normal;
-	font-style: italic;
-    }
-    #header .details {
-	font-size: 13px;
-	color: #000;
-	float: right;
-	border-style: none;
-	margin-top: -23px;
-        margin-right: 10px;
-    }
     #content {
-        margin-top: 12px;
+        margin-top: 40px;
 	column-count: 4;
 	-webkit-column-count: 4;
 	-moz-column-count: 4;
@@ -895,7 +883,7 @@ b.conum * { color: inherit !important; }
 <div id="header">
 <h1>Reminders</h1>
 <div class="details">
-<span id="revdate">November 26, 2019</span>
+<span id="revdate">December 10, 2019</span>
 </div>
 </div>
 <div id="content">
@@ -912,7 +900,8 @@ b.conum * { color: inherit !important; }
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-middle" colspan="2"><p class="tableblock">Texas OFF vs 2NT<span class="vhigher"><strong>+</strong></span><br>
-      Inverted crawling-Stayman</p></td>
+      Inverted crawling-Stayman<br>
+      <mark>Standard Baze (4<span class="cardsuit green">&#x2663;</span> = cheap-KC)</mark></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>super<br>
@@ -1423,6 +1412,11 @@ b.conum * { color: inherit !important; }
 </thead>
 <tbody>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Gerber</strong><br>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> jump after NT opening or rebid</span><br>
+<span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> <mark>standard responses (04, 1, 2, 3)</span></mark></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Minorwood</strong><br>
   Uncontested auction<br>
 <span class="nobr">&nbsp;<span class="vlower mildblue big">&bull;</span> minor-suit agreed:  <mark>4m = jump</span></mark>
@@ -1607,6 +1601,9 @@ b.conum * { color: inherit !important; }
 </tr>
 </tbody>
 </table>
+<div class="paragraph">
+<p><span class="right xemph">December 10, 2019</span></p>
+</div>
 </div>
 </body>
 </html>
