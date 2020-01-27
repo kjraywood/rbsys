@@ -408,13 +408,17 @@ TIP: Using a relay to show GF values opposite 11{ndash}12 is also used
 
 === One Major {ndash} Two Clubs
 
-{reference} https://bridgewinners.com/article/view/better-21-bidding-the-nebulous-2c-bid[
-_Better 2/1 Bidding: The Nebulous 2\C Bid_]
-__ {nbsp}{ndash}{nbsp} Andrew Gumperz
+Opener and responder use waiting bids below 2NT unless they have
+something to say such as extra length, extra strength, or a fit.
+The waiting bids could hide a very strong hand wishing to take control
+if partner shows any extras.
 
-We use an extended version of this where both opener and responder use
-waiting bids below 2NT unless they have something to say such as
-extra length, extra strength, or a fit.
+Following a nebulous 2C a jump by opener is NOT a splinter.
+A 3-level suit-bid below 3M shows a good two suiter; at least 5-5.
+
+// {reference} https://bridgewinners.com/article/view/better-21-bidding-the-nebulous-2c-bid[
+// _Better 2/1 Bidding: The Nebulous 2\C Bid_]
+// __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -424,7 +428,7 @@ extra length, extra strength, or a fit.
 |  2oM  |      | natural, non-minimum
 |  2M   |      | six-card suit
 |  2NT  |      | 16{ndash}17
-|  3m   |      | 5-5, decent suits
+2+<| 3{lab}lower suit{rab} <| #5-5, decent suits#
 |===
 
 Following opener's 2D, responder shows a fit for opener's major by
