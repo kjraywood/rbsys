@@ -382,13 +382,15 @@ d|
 2+<d| 6{orMore}-length known
       >> #middle enc. & suit-pref#
 2+<d| #2^nd^ high thru decl.# to weakness in dummy
-| [nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#
-         | vs slam
+| [nobr]#[OvalBox]##A##{thinsp}K{thinsp}x#
+         | Qxx(x) in dummy
 	   >> count +
-           Qxx(x) in dummy
-	   >> count +
-           Jxxx or Txxx in dummy
-	   >> simple attitude
+	   except lead K
+	   @ partner's suit
+	   @ partner raised
+	   @ 5 & 6 level
+	   @ AK tight
+	   @ trick 2{OrMore}
 |===
 
 // @ *vs NT when decl. runs a suit*
