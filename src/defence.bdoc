@@ -6,13 +6,23 @@
 
 === Suit Contracts
 
-Standard honour-leads +
-
-[nobr]#A{thinsp}[OvalBox]##K##{thinsp}x#, [nobr]#**K**{thinsp}Q{thinsp}x#
-> when unsure which, 3^rd^ hand assumes AKx
+[nobr]#[OvalBox]##A##{thinsp}K{thinsp}x# +
+Except lead King when: +
+@ partner has bid or raised the suit +
+@ opps are at five or six-level
+@ you have AK doubleton
+@ at trick two and later
 
 [nobr]#A{thinsp}K{thinsp}[OvalBox]##Q##{thinsp}x#
 > third-hand gives count
+
+Other honour-leads are standard +
+
+****
+.Alternative
+
+Rusinow honour-leads from a _known long-suit._
+****
 
 [nobr]#x{thinsp}[.red.OvalBox]##x##{zwsp}#
 @ opening-lead only
