@@ -4,11 +4,9 @@ include::overview.adoc[]
 
 include::notrump.adoc[]
 
-include::uncontested-responses.adoc[]
+include::suit-openings.adoc[]
 
-include::contested-responses.adoc[]
-
-include::rebid-by-responder.adoc[]
+include::suit-auctions.adoc[]
 
 include::checkback.adoc[]
 

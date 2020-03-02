@@ -4,11 +4,9 @@
 
 <<notrump.adoc#, *NoTrump Openings*>>
 
-<<uncontested-responses.adoc#, *Uncontested Responses to Suit Openings*>>
+<<suit-openings.adoc#, *Suit Openings*>>
 
-<<contested-responses.adoc#, *Responding in Contested Auctions*>>
-
-<<rebid-by-responder.adoc#, *Rebids by Responder in suit auctions*>>
+<<suit-auctions.adoc#, *Suit Auctions*>>
 
 <<checkback.adoc#, *2-Way Checkback and Wolff Sign-off*>>
 
