@@ -99,11 +99,11 @@ double), then new suits are natural game-tries.
 
 * 2nd-round jumps to 3{lab}suit{rab} are GF and show good suits
 
-* following 2C, 2D it is not mandatory - breaking shows extras
-
 TIP: 4^th^-suit-F1 is more efficient when the fourth-suit is at the 1-level
 
 === Basic structure
+
+:note1: &#x278a;
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -111,28 +111,64 @@ TIP: 4^th^-suit-F1 is more efficient when the fourth-suit is at the 1-level
 | 1S   |  ?     ||
 |      | !2C!   || attempted sign-off in {D}, or any inv.
 |      | !2D!   || artificial GF
+|      | 2H     || sign-off if Y = 1H, +
+                  #natural GF if Y = 1D# {note1}
 |      | !2NT!  || attempted sign-off in {C}, or fit for opener's
-                    minor with some singleton
+                   minor with some singleton
 |      | 3{lab}suit{rab} || natural, GF, good suits
 |===
 
-=== Special sequence
+// [TIP]
+// ====
+// [lightgrey-box]#1{C} {ndash} 1{D}{semicolon} 1{S} {ndash} 2{H}#
 
-[%autowidth,cols="4*<",grid="none"]
+[horizontal]
+
+{note1}:: Opener has denied four hearts but responder's 2H is still
+          natural.
+          It shows a good holding that does not need lead protection,
+          allowing opener to bid notrump to protect a tenance;
+          especially in spades.
+          It also allows responder to describe 5*{H} + 6*{D}.
+
+// ====
+
+
+=== Two Clubs
+
+Opener may skip 2D with a hand that would not have passed a natural NF
+2{D} by responder.
+
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1C   |  1D ||
-| 1S   |  2H || [orange-box]#natural, GF, concentrated values#
+| 1D   |  1H  |
+| 1S   | !2C! |
+| ?    |      |
+| 2D   |      | min. range
+| 2H   |      | 3*{H}, 16{OrMore} {ndash} 18
+| !2S! |      | 4-2-5-2, 17 {ndash} 18, concentrated values
+| 2NT  |      | 17 {ndash} 18 with {C} stopper(s)
 |===
 
-The 2C and 2D bids of XYZ make this superfluous as an artificial bid.
+In the following auction, a weak responder must have at least five
+hearts to allow opener to give a preference with a minimum 4-2-1-6 or
+possibly 4-3-1-5 with concentrated values in the black suits.
+Therefore, in responding to 1C, responder should not bypass a six-card
+diamond-suit.
 
-Even though opener has denied four hearts, it seems easiest for 2H to
-be natural and GF (responder's reverse) with concentrated values.
-It allows opener to bid notrump to protect a tenance; especially in
-spades.
-It also allows responder to describe 5*{H} + 6*{D}.
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1C   |  1H  |
+| 1S   | !2C! |
+| ?    |      |
+| 2D   |      | min. range
+| 2H   |      | min. preference for {H} over {D}
+2+<| 2S,2NT  <| as above
+| 3C   |      | 6*{C} and extra values
+| 3H   |      | 3*{H}, 16{OrMore} {ndash} 18
+|===
 
-=== Artificial Game-Forcing 2D
+=== Two Diamonds
 
 Following 2D, a rebid of 2S by opener does not promise a fifth spade.
 It is the default bid for hands with no other good bid.
