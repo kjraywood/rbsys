@@ -1,0 +1,85 @@
+
+
+// === Picture Jumps
+
+// :picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
+// :picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
+// :picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
+
+// {reference} _Fast Arrival vs. Picture Bidding,_
+//  __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
+// __ {nbsp}{ndash}{nbsp} Andrew Gumperz
+
+// Responder may initially conceal 4-card support for opener's major when
+// intending to make a picture jump to game on the second round.
+// It is highly unlikely that the auction will be too high for responder
+// to jump on the second round.
+
+// We do not conceal 4-card support in other cases because a jump to 3M
+// may not be available on the 2^nd^-round (_e.g._{thinsp} 2M or 2NT
+// rebid by opener).
+// So, contrary to the recommendation of Gumperz (part 1, page 2, hand
+// 2), the 2^nd^-round jump to 3M shows strong slam-interest but !denies!
+// 4-card support.
+
+// {warning} We give priority to kickback over over picture jumps
+
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1S | 2H   | |
+// | 3H | !4S! | | kickback 
+// |===
+
+// Therefore, with four good spades and five good hearts, responder
+// cannot show hearts first because opener might raise with three-card
+// support, thus locking us into the inferior fit.
+
+
+// === Picture Jumps in Reverse Auctions
+
+// A single-jump in opener's first suit is a picture jump; _not a splinter_.
+
+// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+// |===
+// |
+// [grid="none",stripes=odd]
+// !===
+// ! 1D ! 1S
+// ! 2H ! 4D
+// !===
+// |
+// [stripes=odd]
+// !===
+// ! {S} AQT64 +
+//   {H} 53 +
+//   {D} KQ87 +
+//   {C} J2
+// !===
+// |===
+
+// The picture bid can also be in opener's second suit, and five-card
+// support is needed in case opener reversed into a three-card suit.
+
+// [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+// |===
+// |
+// [grid="none",stripes=odd]
+// :===
+//  1C : 1S
+//  2D : 4D
+// :===
+// |
+// [stripes=odd]
+// !===
+// ! {S} AK974 +
+//   {H} 63 +
+//   {D} KJ983 +
+//   {C} 5
+// !===
+// |===
+
+// [NOTE]
+// ====
+// A double-jump after a non-reverse is a splinter.
+// _e.g._{nbsp}[lightgrey-bg]##1D {ndash} 1H{semicolon} 1S {ndash} !4D!##
+// ====
