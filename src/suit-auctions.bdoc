@@ -1,6 +1,97 @@
 :sectnumoffset: 10
 
-= Rebids by Responder in suit auctions
+= Suit auctions
+
+== After 1m{ndash}1M{semicolon}2M
+
+{warning} [xemph]#No Quality & Quantity#
+
+We achieve the same goal with mostly natural bidding, and use _three
+other-minor_{thinsp} for further investigation.
+
+=== Natural invitations and choice-of-game
+
+Notrump bids and old suits are non-forcing.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m | 1M  | |
+| 2M | ?   | |
+|    | 2NT | | natural, inv,#{sp}NF{sp}#
+|    | 3m  | | natural, inv,#{sp}NF{sp}#
+|    | 3M  | | five-card suit, inv
+|    | 3NT | | natural, COG
+|===
+
+=== Investigating best game or slam
+
+For more info, responder uses #three other-minor#.
+
+[TIP]
+====
+Think of this as [brickred]##_New-Minor
+Q{thinsp}&{thinsp}Q_##.{thinsp} However, instead of min vs max, opener
+identifies the shortness in a 3-card-raise hand.
+====
+
+[%autowidth,cols="^,^,<",grid="none"]
+|===
+|  1m   |  1M   |
+|  2M   | !3om! | #GF enquiry# (often semi-natural)
+|  ?    |       |
+|  3M   |       | 4-card raise
+| !3oM! |       | 3-card raise, short oM
+| !3NT! |       | 3-card raise, #short om#
+|===
+
+When opener has shown a three-card raise, responder may suggest an
+alternate trump suit in one of the minors.  Following that, opener's
+weakest bid is returning to 4M.  Anything else is encouraging, usually
+indicating that the short-suit is a singleton.
+
+=== Responder has both majors
+
+After 1m{ndash}1{H} opener might bypass a four-card spade-suit to
+raise hearts on three. So 2S by responder is natural and forcing
+one-round.
+
+Then +
+@ old-suit, 2NT or 3NT
+_ = natural, NF +
+@ #4th-suit (3om) = 4*{H}, max#
+
+[%autowidth,cols="^,^,<",grid="none"]
+|===
+|  1m   | 1H |
+|  2H   | 2S | natural, F1
+|  ?    |    |
+|  2NT  |    | 3*{H}, #short {S}#, min, NF
+|  3m   |    | 3*{H}, 5\|6*m, #short om#, NF
+| !3om! |    | #4*{H}, max, GF#
+|  3H   |    | 4*{H}, min, NF
+|  3S   |    | 4*{S}, min, NF
+|  3NT  |    | 3*{H}, #short {S}#, max
+| !4om! |    | splinter, 4*{S}, max
+| !4H!  |    | 4*{H}, max, "`__I forgot about 3om__{thinsp}`"
+| !4S!  |    | no splinter, 4*{S}, max
+|===
+
+// 4m would be a bluhmer [ https://kwbridge.com/bb/habits-8o.htm ]
+
+[TIP]
+====
+In the previous two bidding tables, the notrump bids show shortness
+(2{OrLess}) in the new suit that responder just bid; even if it was
+only semi-natural.
+
+Also, as in the previous section, #three other-minor# is a special
+bid indicating extras; this time, non-minumum and 4-card support.
+====
+
+=== Vs interference
+
+When opener is known to have a 4-card raise (_e.g._{thinsp} no support
+double), then new suits are natural game-tries.
 
 == Second-round jumps and 4th-suit forcing
 
@@ -469,94 +560,3 @@ Following 3NT, responder can ask for KC in any suit.
 |       | !4D! || Kickback for {C}
 |       |  4M  || to play
 |===
-
-== After 1m{ndash}1M{semicolon}2M
-
-{warning} [xemph]#No Quality & Quantity#
-
-We achieve the same goal with mostly natural bidding, and use _three
-other-minor_{thinsp} for further investigation.
-
-=== Natural invitations and choice-of-game
-
-Notrump bids and old suits are non-forcing.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1m | 1M  | |
-| 2M | ?   | |
-|    | 2NT | | natural, inv,#{sp}NF{sp}#
-|    | 3m  | | natural, inv,#{sp}NF{sp}#
-|    | 3M  | | five-card suit, inv
-|    | 3NT | | natural, COG
-|===
-
-=== Investigating best game or slam
-
-For more info, responder uses #three other-minor#.
-
-[TIP]
-====
-Think of this as [brickred]##_New-Minor
-Q{thinsp}&{thinsp}Q_##.{thinsp} However, instead of min vs max, opener
-identifies the shortness in a 3-card-raise hand.
-====
-
-[%autowidth,cols="^,^,<",grid="none"]
-|===
-|  1m   |  1M   |
-|  2M   | !3om! | #GF enquiry# (often semi-natural)
-|  ?    |       |
-|  3M   |       | 4-card raise
-| !3oM! |       | 3-card raise, short oM
-| !3NT! |       | 3-card raise, #short om#
-|===
-
-When opener has shown a three-card raise, responder may suggest an
-alternate trump suit in one of the minors.  Following that, opener's
-weakest bid is returning to 4M.  Anything else is encouraging, usually
-indicating that the short-suit is a singleton.
-
-=== Responder has both majors
-
-After 1m{ndash}1{H} opener might bypass a four-card spade-suit to
-raise hearts on three. So 2S by responder is natural and forcing
-one-round.
-
-Then +
-@ old-suit, 2NT or 3NT
-_ = natural, NF +
-@ #4th-suit (3om) = 4*{H}, max#
-
-[%autowidth,cols="^,^,<",grid="none"]
-|===
-|  1m   | 1H |
-|  2H   | 2S | natural, F1
-|  ?    |    |
-|  2NT  |    | 3*{H}, #short {S}#, min, NF
-|  3m   |    | 3*{H}, 5\|6*m, #short om#, NF
-| !3om! |    | #4*{H}, max, GF#
-|  3H   |    | 4*{H}, min, NF
-|  3S   |    | 4*{S}, min, NF
-|  3NT  |    | 3*{H}, #short {S}#, max
-| !4om! |    | splinter, 4*{S}, max
-| !4H!  |    | 4*{H}, max, "`__I forgot about 3om__{thinsp}`"
-| !4S!  |    | no splinter, 4*{S}, max
-|===
-
-// 4m would be a bluhmer [ https://kwbridge.com/bb/habits-8o.htm ]
-
-[TIP]
-====
-In the previous two bidding tables, the notrump bids show shortness
-(2{OrLess}) in the new suit that responder just bid; even if it was
-only semi-natural.
-
-Also, as in the previous section, #three other-minor# is a special
-bid indicating extras; this time, non-minumum and 4-card support.
-====
-
-=== Vs interference
-
-When opener is known to have a 4-card raise (_e.g._{thinsp} no support
-double), then new suits are natural game-tries.
