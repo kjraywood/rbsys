@@ -95,15 +95,24 @@ double), then new suits are natural game-tries.
 
 == XYZ
 
-* #Only after X-Y-1{S}#
+:note1: &#x278a;
+
+* #Only after X-Y-1{S}#{ensp}{note1}
 
 * 2nd-round jumps to 3{lab}suit{rab} are GF and show good suits
 
-TIP: 4^th^-suit-F1 is more efficient when the fourth-suit is at the 1-level
+* ON vs take-out double by either opp
+
+* #OFF if either opp has shown a suit#
+  > cue = GF, jumps are inv
+
+
+[horizontal]
+{note1}:: [lightgrey-box]#1{C} {ndash} 1{D}{semicolon} 1{H} {ndash} ?#
+	  <<#fourth-suit-at-the-one-level, 4^th^-suit at the 1-level>>
+	  is more efficient than XYZ in this auction.
 
 === Basic structure
-
-:note1: &#x278a;
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -112,26 +121,20 @@ TIP: 4^th^-suit-F1 is more efficient when the fourth-suit is at the 1-level
 |      | !2C!   || attempted sign-off in {D}, or any inv.
 |      | !2D!   || artificial GF
 |      | 2H     || sign-off if Y = 1H, +
-                  #natural GF if Y = 1D# {note1}
+                   #natural GF if Y = 1D#{ensp}{note1}
 |      | !2NT!  || attempted sign-off in {C}, or fit for opener's
                    minor with some singleton
 |      | 3{lab}suit{rab} || natural, GF, good suits
 |===
 
-// [TIP]
-// ====
-// [lightgrey-box]#1{C} {ndash} 1{D}{semicolon} 1{S} {ndash} 2{H}#
-
 [horizontal]
-
-{note1}:: Opener has denied four hearts but responder's 2H is still
+{note1}:: [lightgrey-box]#1{C} {ndash} 1{D}{semicolon} 1{S} {ndash} 2{H}#
+          Opener has denied four hearts but responder's 2H is still
           natural.
           It shows a good holding that does not need lead protection,
           allowing opener to bid notrump to protect a tenance;
           especially in spades.
           It also allows responder to describe 5*{H} + 6*{D}.
-
-// ====
 
 
 === Two Clubs
@@ -145,8 +148,8 @@ Opener may skip 2D with a hand that would not have passed a natural NF
 | 1S   | !2C! |
 | ?    |      |
 | 2D   |      | min. range
-| 2H   |      | 3*{H}, 16{OrMore} {ndash} 18
-| !2S! |      | 4-2-5-2, 17 {ndash} 18, concentrated values
+| 2H   |      | 3*{H}, 16{OrMore}-18
+| !2S! |      | 4-2-5-2, 17-18, concentrated values
 | 2NT  |      | 17 {ndash} 18 with {C} stopper(s)
 |===
 
@@ -165,7 +168,7 @@ diamond-suit.
 | 2H   |      | min. preference for {H} over {D}
 2+<| 2S,2NT  <| as above
 | 3C   |      | 6*{C} and extra values
-| 3H   |      | 3*{H}, 16{OrMore} {ndash} 18
+| 3H   |      | 3*{H}, 16{OrMore}-18
 |===
 
 === Two Diamonds
@@ -179,15 +182,15 @@ It is the default bid for hands with no other good bid.
 | 1S   | !2D! |
 | ?    |      |
 | 2H   |      | {H}xxx or {H}Hx, usually minimum-strenth
-| 2S*  |      | default
+| 2S   |      | default {note1}
 | 2NT  |      | usually singleton {H}
 | 3H   |      | {H}Hxx, extras, ie. too good for 2H on
                 previous round
 |===
 
-{asterisk} could be just a minimum not suitable for 2NT.
-[nobr]#__e.g.__{ensp}{S}KQTx {H}xx {D}xx {C}AQJxx#
-
+[horizontal]
+{note1}:: could be just a minimum not suitable for 2NT.
+          [nobr]##__e.g.__ [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx# ##
 
 == Second-round jumps and 4th-suit forcing
 
@@ -233,6 +236,7 @@ _ = #minimum strength, NF# +
 @ vs double, system on 
 @  #vs suit bid, limit bidding & cue=GF#
 
+[#fourth-suit-at-the-one-level]
 === Fourth suit at the one-level
 
 [%autowidth,cols="4*<",grid="none"]
