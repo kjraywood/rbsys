@@ -93,6 +93,66 @@ bid indicating extras; this time, non-minumum and 4-card support.
 When opener is known to have a 4-card raise (_e.g._{thinsp} no support
 double), then new suits are natural game-tries.
 
+== XYZ
+
+* #Only after X-Y-1{S}#
+
+* 2nd-round jumps to 3{lab}suit{rab} are GF and show good suits
+
+* following 2C, 2D it is not mandatory - breaking shows extras
+
+TIP: 4^th^-suit-F1 is more efficient when the fourth-suit is at the 1-level
+
+=== Basic structure
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m   |  1D,1H ||
+| 1S   |  ?     ||
+|      | !2C!   || attempted sign-off in {D}, or any inv.
+|      | !2D!   || artificial GF
+|      | !2NT!  || attempted sign-off in {C}, or fit for opener's
+                    minor with some singleton
+|      | 3{lab}suit{rab} || natural, GF, good suits
+|===
+
+=== Special sequence
+
+[%autowidth,cols="4*<",grid="none"]
+|===
+| 1C   |  1D ||
+| 1S   |  2H || [orange-box]#natural, GF, concentrated values#
+|===
+
+The 2C and 2D bids of XYZ make this superfluous as an artificial bid.
+
+Even though opener has denied four hearts, it seems easiest for 2H to
+be natural and GF (responder's reverse) with concentrated values.
+It allows opener to bid notrump to protect a tenance; especially in
+spades.
+It also allows responder to describe 5*{H} + 6*{D}.
+
+=== Artificial Game-Forcing 2D
+
+Following 2D, a rebid of 2S by opener does not promise a fifth spade.
+It is the default bid for hands with no other good bid.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1C   |  1H  |
+| 1S   | !2D! |
+| ?    |      |
+| 2H   |      | {H}xxx or {H}Hx, usually minimum-strenth
+| 2S*  |      | default
+| 2NT  |      | usually singleton {H}
+| 3H   |      | {H}Hxx, extras, ie. too good for 2H on
+                previous round
+|===
+
+{asterisk} could be just a minimum not suitable for 2NT.
+[nobr]#__e.g.__{ensp}{S}KQTx {H}xx {D}xx {C}AQJxx#
+
+
 == Second-round jumps and 4th-suit forcing
 
 {reference} http://www.rpbridge.net/5m81.htm[
