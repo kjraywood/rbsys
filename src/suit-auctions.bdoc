@@ -158,7 +158,7 @@ Opener may skip 2D with a hand that would not have passed a natural NF
 
 After a 1C opening, responder does not bypass a six-card diamond-suit.
 Therefore when diamonds were not bid on the first round, responder
-will only wattempt to play in diamonds when also holding five hearts.
+will only attempt to play in diamonds when also holding five hearts.
 This allows opener to give a preference with a minimum 4-2-1-6 or
 possibly 4-3-1-5 with concentrated values in the black suits.
 
@@ -184,7 +184,7 @@ It is the default bid for hands with no other good bid.
 | 1C   |  1H  |
 | 1S   | !2D! |
 | ?    |      |
-| 2H   |      | {H}xxx or {H}Hx, usually minimum-strenth
+| 2H   |      | {H}xxx or {H}Hx, usually minimum-strength
 | 2S   |      | default {note1}
 | 2NT  |      | usually singleton {H}
 | 3H   |      | {H}Hxx, extras, ie. too good for 2H on
