@@ -109,8 +109,11 @@ double), then new suits are natural game-tries.
 
 [horizontal]
 {note1}:: [lightgrey-box]#1{C} {ndash} 1{D}{semicolon} 1{H} {ndash} ?#
+          In this auction,
 	  <<#fourth-suit-at-the-one-level, 4^th^-suit at the 1-level>>
-	  is more efficient than XYZ in this auction.
+	  does not lead to tricky follow-ups so we gain its advantages
+	  over XYZ.  We can sign-off in either minor at the 2-level
+	  and a jump to 2NT is natural and GF.
 
 === Basic structure
 
