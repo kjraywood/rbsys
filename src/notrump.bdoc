@@ -449,7 +449,7 @@ declare.
 
 @ new-suit = shortness
 >> opener assumes COG +
-@ 4m = minorwood
+@ 4m = <<slam-conventions.adoc#optional-minorwood, optional minorwood>>
 @ other jump-shift = exclusion
 @ 4NT = slam inv.
 
@@ -608,7 +608,8 @@ Regular Stayman and non-jump Smolen.
 | 2NT | !3S! | | forces 3NT
 | 3NT |  ?   | |
 |     | pass | | to play
-|     |  4m  | | optional minorwood
+|     |  4m  | | <<slam-conventions.adoc#optional-minorwood,
+                     optional minorwood>>
 |     | !4M! | | stiff with three in other major
 |     |  4NT | | both minors weak
 |===
@@ -617,16 +618,9 @@ Regular Stayman and non-jump Smolen.
 |===
 |  2NT | !3NT! | | at least 5-5 minors, slam inv.{OrMore}, F
 |  ?   |       | |
-| !4m! |       | | minorwood
+| !4m! |       | | <<slam-conventions.adoc#optional-minorwood,
+                     optional minorwood>>
 |  4NT |       | | decline
-|===
-
-[%autowidth,cols="^,<",grid="none"]
-|===
-2+^| Responses to optional minorwood
-
-| 4m+1 | accept, asks partner for KC
-| other | decline, shows KCs beginning at 4m+2
 |===
 
 === Both majors

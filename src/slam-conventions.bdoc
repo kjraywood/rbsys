@@ -44,7 +44,19 @@ Minorwood applies when: +
 :===
 |===
 
-We also use minorwood after
+== Optional Minorwood
+
+Opposite a notrump hand, we use _optional minorwood_.
+
+[%autowidth,cols="^,<",grid="none"]
+|===
+2+^| Responses to optional minorwood
+
+| 4m+1 | accept, asks partner for KC
+| other | decline, shows KCs beginning at 4m+2
+|===
+
+It applies after:
 <<notrump.adoc#minor-suit-transfers, transferring to a minor>>.
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -53,8 +65,9 @@ We also use minorwood after
 | 3C,{thinsp}3D | !4D!  | | minorwood
 |===
 
+It aslo applies in some <<notrump.adoc#2nt-opening, 2NT auctions
 
-and in some <<checkback.adoc#wolff, Wolff Sign-Off>> sequences
+some <<checkback.adoc#wolff, Wolff Sign-Off>> sequences
 
 // == General Principles for RKC
 
