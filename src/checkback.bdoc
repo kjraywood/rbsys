@@ -213,7 +213,7 @@ Applies when opener bids 2NT{eq}18-19, #even if an opp has shown a suit#.
 
 @ sign-off at the 3-level
 @ slam try in opener's minor
-@ minorwood
+@ optional minorwood
 
 [%autowidth,cols="^,3*<",grid="none"]
 |===
@@ -223,7 +223,7 @@ Applies when opener bids 2NT{eq}18-19, #even if an opp has shown a suit#.
 |     | pass, 3M | | to play
 |     | !3oM!	 | | #slam try, 5{orMore}{xtimes}m#
 |     | !3NT!	 | | slam try, 4*m
-|     | !4m!	 | | #minorwood#
+|     | !4m!	 | | #optional minorwood#
 //|   |	 4M	 | | 2-loser suit, slam inv.
 |===
 
@@ -281,7 +281,7 @@ However, it is not used following a 1NT rebid.
 |     | !3D! | | checkback
 |     |  3M  | | slam interest in {D}, values in M
 |     | !4C! | | Gerber
-|     | !4D! | | self-minorwood
+|     | !4D! | | #self-optional-minorwood#
 |===
 
 [%autowidth,cols="^,3*<",grid="none"]
@@ -290,7 +290,7 @@ However, it is not used following a 1NT rebid.
 |  2NT | !3C! | |
 | !3D! |  ?   | |
 |      | !3M! | | slam interest in {C}, values in M
-|      | !4C! | | #minorwood#
+|      | !4C! | | #optional minorwood#
 |===
 
 [TIP]
