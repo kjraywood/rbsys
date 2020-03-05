@@ -56,8 +56,9 @@ Opposite a notrump hand, we use _optional minorwood_.
 | other | decline, shows KCs beginning at 4m+2
 |===
 
-It applies after:
-<<notrump.adoc#minor-suit-transfers, transferring to a minor>>.
+It applies after
+<<notrump.adoc#minor-suit-transfers, transferring to a minor>>
+.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -65,9 +66,8 @@ It applies after:
 | 3C,{thinsp}3D | !4D!  | | minorwood
 |===
 
-It aslo applies in some <<notrump.adoc#2nt-opening, 2NT auctions
-
-some <<checkback.adoc#wolff, Wolff Sign-Off>> sequences
+It aslo applies in some <<notrump.adoc#2nt-opening, 2NT auctions>>
+and some <<checkback.adoc#wolff, Wolff Sign-Off>> sequences.
 
 // == General Principles for RKC
 
