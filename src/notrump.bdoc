@@ -567,14 +567,17 @@ Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 
 ==== Vs 2NT (minors)
 
-Our defence to 2NT intervention is similar to our defence to a 2NT
-opening that shows both minors.
-Both cue-bids show both majors, 3M is competetive, and Namyats at the
-4-level.
+Similar to vs 2NT opening that shows both minors
 
-However, when a 2NT opening is doubled, we play the next double as
-take-out because we have not established the balance of power.
-After 1NT-(2NT)-X, #subsequent doubles are penalty#.
+@ double = values
+@ both cue-bids show both majors
+@ 3M is competetive (NF)
+@ #Namyats at the 4-level#
+
+*Difference:*{ensp}after 1NT-(2NT)-X, #subsequent doubles are penalty#.
+
+When a 2NT opening is doubled, the next double as take-out because we
+have not established the balance of power.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -595,7 +598,7 @@ After 1NT-(2NT)-X, #subsequent doubles are penalty#.
 
 ==== Vs 3m
 
-ALERT:  3{lab}unbid-suit{rab} = NF
+{important} [blue]#3{lab}unbid-suit{rab} = NF#
 
 At the 4-level, we use #(non-)leaphing-Michaels#; similar to our defence
 to natural 2m or 3m openings.
