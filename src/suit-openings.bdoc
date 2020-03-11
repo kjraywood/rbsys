@@ -270,9 +270,7 @@ rebids 3NT.
 | establishing a fit and GF prepares us for 3^rd^-hand intervention
 |===
 
-=== 1m {ndash} 2NT
-
-Shows a balanced hand with 13-15 or 18{OrMore}.
+=== 1m {ndash} 2NT = 13-15 or 18{OrMore}
 
 Responder may have a weak four-card major in a 4333 hand.
 
@@ -362,9 +360,7 @@ because responder has already shown a balanced hand.
 TIP: If responder shows a 4cM, we set trump with the other major.
      So the third bid by opener in the minor denies a fit for the 4cM.
 
-=== 1m {ndash} 2H 
-
-Shows a balanced 11{ndash}12.
+=== 1m {ndash} 2H = 11{ndash}12 balanced
 
 Non-reverse direct bids at the 3-level show a minimum opening bid and
 are NF.
@@ -400,59 +396,127 @@ TIP: Using a relay to show GF values opposite 11{ndash}12 is also used
      by opener <<#after-inv-2nt, when responder rebids 2NT following a
      semi-forcing-1NT>>.
 
-== Vs Take-Out Double
+[#vs-double]
+== vs Take-Out Double
 
-****
-.Alternative
+[green-box]#Updated {ndash} Mar 11, 2020#
 
-<<staging.adoc#xfers-over-double,Transfers over take-out doubles>>
-****
+Jump raise = weak
 
-=== Jumps
+Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
-[%autowidth,cols="3*^.^",grid="cols"]
-|===
-| Response       ^| Major   ^| Minor
+=== Minor opening
 
-| jump{nbsp}raise | weak     | weak
-| 2NT            <| LR (4{orMore}{xtimes}M)
-                            <| bal.{nbsp}11{hyph}12 with fit
-| 3NT             | bal.{nbsp}game{hyph}raise
-                    [nobr]#(4{orMore}{xtimes}M)#
-                             | bal.{nbsp}13{hyph}15 with fit
-| jump{nbsp}shift | inv.    <| weak +
-                               [nobr]## #other minor = {LRplus}# ## +
-| dble{hyph}jump
-     shift        | splinter | [orange-bg]#nat. weak ??#
-|===
+@ inverted minors OFF
+@ special 2H and 2S OFF
+@ jump shift to other minor = {LRplus} +
+@ jump shift to 2M = weak
+@ any double-jump shift = weak
 
-=== Strength redouble
-
-[%autowidth,cols="3*^",grid="none"]
-|===
-| 1__suit__ | (X) | XX
-|===
-
-One of: +
-@ good three-card raise of major +
-@ no fit +
->> good 10{orMore} HCP +
->> 4{orMore} cards in 2{orMore} unbid suits +
->> #Forcing to two of opener's suit# +
->> Subsequent doubles = 4{orMore} of their suit
-
-=== Pass then double
+1D-(X)-XX includes long clubs and 10{OrMore} HCP
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1{lab}suit{rab} | (X) | P | (bid) |
-| P               | (P) | X |       | cooperative
+| 1m | (X) |  ?    ||
+|    |     |  2M   || weak JS
+|    |     |  3m   || weak
+|    |     | !2NT! || bal. 11-12 with fit
+|    |     | !3NT! || bal. 13-15 with fit
+| 2+>| [alert]#JS om# | <| {LRplus}
 |===
 
-With 4333 and 10{OrMore} HCP, responder passes on the first
-round, then doubles on the second round.
+=== Major opening
+
+@ semi-forcing 1NT, OFF
+@ 3-way Drury by PH, ON
+@ 3-card {LRplus} by unPH included in XX
+
+Jump shifts are the same as without the X: +
+@ natural & invitational by unPH
+@ fit showing by PH
+
+3M+1 showing an unspecified weak-splinter is OFF: +
+@ any double-jump shift = splinter
+@ GF single-suiters included in XX
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1M | (X) |  ?    ||
+|    |     |  3M   || weak
+|    |     | !2NT! || 4{OrMore}{xtimes}M, LR or strong GF{ensp}{note1}
+|    |     | !3NT! || 4{OrMore}{xtimes}M, bal or semi-bal., 12-14
+|===
+
+{note1}{ensp}2NT includes GF hands that are not suitable for 3NT
+_ or a splinter
+
+=== Redouble
+
+Shows no fit except for 3-card {LRplus} after major opening
+
+Includes: +
+@ 10{OrMore} with clubs after 1D opening +
+@ GF with lower-ranking single-suit
+_ after one-major opening
+
+Otherwise 11{OrMore} HCP with:
+[nobr]## #4{orMore} cards in 2{orMore} unbid suits# ##
+
+Redouble is #forcing to two of opener's suit#
+
+Subsequent doubles by either = penalty with 4{orMore} of their suit
+
+With a 3-card {LRplus} hand, responder bids the major on the next round: +
+@ non-jump = NF
+@ jump = GF
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1S | (X) |  XX  | (2C ) |
+| P  | (P) |  ?   |       |
+|    |     |  2S  |       | 3-card LR, NF
+|    |     |  3S  |       | 3*{S}, GF
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1H | (X) |  XX  | (2S ) |
+| P  | (P) |  ?   |       |
+|    |     |  3H  |       | 3-card LR, NF
+|    |     |  4H  |       | 3*{H}, GF values
+|===
+
+=== Pass then double
+
+==== Minor opening
+
+With 4333 and 11{OrMore} HCP, responder passes on the first round, then
+doubles on the second.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1D | (X) | P | (2C) |
+| P  | (P) | X |      | cooperative, some 4333, 11{OrMore} HCP
+|===
+
 Opener pulls with a singleton in their suit, or with a doubleton and
 five cards in the opening suit.
+Opener might also bid 1NT with a doubleton if they are only at the
+1-level.
+
+==== Major opening
+
+A 4333 hand opposite a major opening has a fit, so chooses the
+appropriate raise.
+Therefore no special treatment is needed.
+A balancing double is take-out with a moderate hand that wasn't
+suitable for action on the first round.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1S | (X) | P | (2C) |
+| P  | (P) | X |      | take-out
+|===
 
 == Vs Suit Overcall
 
