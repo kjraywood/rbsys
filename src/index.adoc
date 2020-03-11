@@ -2,7 +2,9 @@
 
 <<overview.adoc#, *System Overview*>> +
 {tribull}{nbsp}<<overview.adoc#double-after-fit,
-      [.green.nobr]## game-try doubles {ndash} __Mar 11, 2020__##>>
+      [.green.nobr]## game-try doubles [2020-03-11] ##>> +
+{tribull}{nbsp}<<overview.adoc#double-in-gf-auctions,
+      [.green.nobr]## double in GF auctions [2020-03-11] ##>>
 
 <<notrump.adoc#, *NoTrump Openings*>>
 

@@ -71,6 +71,7 @@ _Excludes_
 call: +
 @ redouble
 @ a double of a 1NT overcall
+@ a 2C opening
 @ any GF call
 
 &(e)& We have #both# bid then attempted to pass out the auction, then
@@ -115,7 +116,6 @@ _ 1NT response
 
 [green-box]#Updated {ndash} Mar 11, 2020#
 
-
 Exception:: both sides have bid-and-raised on 1^st^ round +
 @ double by opener = game-try
 @ double by responder = competetive +
@@ -146,6 +146,22 @@ Exception:: both sides have bid-and-raised on 1^st^ round +
 ! P  ! (P) ! !X! ! {nbsp}{nbsp}competetive
 !===
 |===
+
+[#double-in-gf-auctions]
+==== GF Auctions
+
+[green-box]#New {ndash} Mar 11, 2020#
+
+[%autowidth,cols="4*^",grid="none"]
+|===
+| 1S | (P) | !2C! | (2D)
+| ?  |     |      |
+| P  |  2+<| forcing
+| X  |  2+<| penalty
+|===
+
+Opener may rebid his suit or another suit if he has a long suit or a
+shapely hand.
 
 ==== After a penalty double of a weak NT
 
