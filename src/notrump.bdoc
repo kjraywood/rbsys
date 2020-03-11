@@ -28,7 +28,7 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 | 3NT   | to play
 | 4C    | Gerber
 | 4D,4H | Texas
-| 4S    | Quant. with minors (4-4 or 5-4)
+| 4S    | Slam try, both minors (4-4 or 5-4)
 | 4NT   | Quant.
 | 5NT   | Quant. (forces 6, invites 7)
 |===
@@ -455,6 +455,37 @@ declare.
 
 A 3NT rebid is generally to play, but opener may continue with
 undisclosed extras following a previous-round min or pre-decline.
+
+=== Quant. 4S with 4-4 or 5-4 minors
+
+Responder uses !4S! to investigate slam, holding 4-4 or 5-4 in the
+minors
+
+Opener discourages with 4NT, or shows aces (03-14-2).
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1NT | !4S! | {emsp}slam-try, 4-4 or 5-4 minors
+|   ?  |      |
+|  4NT |      | discouraging
+2+<| !5C!,!5D!,!5H! | Aces (03-14-2)
+|===
+
+
+
+Irrespective of O’s response, R can sign off in 5NT (by using ‘5S’ relay) if off 2 Aces, or he can show his holding in the minors if still interested in slam.
+
+ 
+
+1NT/2NT           ‘4S’
+
+4NT                              Discouraging
+
+5C/5D/5H          ‘5S’       relay to 5NT. R can pass or bid ‘6C’ showing 5 diamonds + 4 clubs.
+
+(# Aces)            ‘6C’       shows 5 clubs + 4 diamonds
+
+                        ‘5NT’     shows 4-4 minors FORCING
 
 === Interference over 1NT
 

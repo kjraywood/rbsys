@@ -1,6 +1,8 @@
 = System Notes
 
-<<overview.adoc#, *System Overview*>>
+<<overview.adoc#, *System Overview*>> +
+{tribull}{nbsp}<<overview.adoc#double-after-fit,
+      [.green.nobr]## game-try doubles {ndash} __Mar 11, 2020__##>>
 
 <<notrump.adoc#, *NoTrump Openings*>>
 
