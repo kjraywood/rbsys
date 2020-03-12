@@ -450,7 +450,10 @@ Jump shifts are the same as without the X: +
 {note1}{ensp}2NT includes GF hands that are not suitable for 3NT
 _ or a splinter
 
-=== 1{lab}suit{rab}-(X)-XX
+:xlab:  pass:normal[&#x276c;]
+:xrab:  pass:normal[&#x276d;]
+
+=== 1{xlab}suit{xrab}-(X)-XX
 
 Shows no fit except for 3-card {LRplus} after major opening
 
