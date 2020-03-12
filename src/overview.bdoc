@@ -116,10 +116,11 @@ _ 1NT response
 
 [green-box]#Updated {ndash} Mar 11, 2020#
 
-Exception:: both sides have bid-and-raised on 1^st^ round +
+Exception:: When both sides have bid-and-raised on 1^st^ round +
 @ double by opener = game-try
-@ double by responder = competetive +
-#These doubles promise a doubleton#
+@ double by responder = competitive +
+
+#game-try and competitive doubles promise a doubleton#
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
@@ -127,13 +128,13 @@ Exception:: both sides have bid-and-raised on 1^st^ round +
 [stripes=odd,cols="4*^",grid="none"]
 !===
 ! 1H  ! (P) ! 2H ! (3D)
-! !X! 3+^! penalty
+! X 3+^! penalty
 !===
 |
 [stripes=odd,cols="4*^",grid="none"]
 !===
 ! 1H  ! (2D) ! 2H ! (3D)
-! X   3+^! game-try
+! !X!   3+^! game-try
 !===
 |===
 
@@ -143,7 +144,7 @@ Exception:: both sides have bid-and-raised on 1^st^ round +
 [cols="3*^,<",stripes=odd,grid="none"]
 !===
 ! 1H ! (2D)!  2H ! (3D)
-! P  ! (P) ! !X! ! {nbsp}{nbsp}competetive
+! P  ! (P) ! !X! ! {nbsp}{nbsp}competitive
 !===
 |===
 
