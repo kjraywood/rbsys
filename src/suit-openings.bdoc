@@ -450,7 +450,7 @@ Jump shifts are the same as without the X: +
 {note1}{ensp}2NT includes GF hands that are not suitable for 3NT
 _ or a splinter
 
-=== Redouble
+=== 1{lab}suit{rab}-(X)-XX
 
 Shows no fit except for 3-card {LRplus} after major opening
 
@@ -465,6 +465,8 @@ Otherwise 11{OrMore} HCP with:
 Redouble is #forcing to two of opener's suit#
 
 Subsequent doubles by either = penalty with 4{orMore} of their suit
+
+==== Followup with 3-card {LRplus}
 
 With a 3-card {LRplus} hand, responder bids the major on the next round: +
 @ non-jump = NF
