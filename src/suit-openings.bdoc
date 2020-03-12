@@ -417,11 +417,11 @@ Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1m | (X) |  ?    ||
-|    |     |  2M   || weak JS
-|    |     |  3m   || weak
-|    |     | !2NT! || bal. 11-12 with fit
-|    |     | !3NT! || bal. 13-15 with fit
+| 1m | (X) |  ?  ||
+|    |     | 2M  || weak JS
+|    |     | 3m  || weak
+|    |     | 2NT || bal. 11-12 with fit
+|    |     | 3NT || bal. 13-15 with fit
 | 2+>| [alert]#JS om# | <| {LRplus}
 |===
 
