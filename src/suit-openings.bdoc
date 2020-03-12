@@ -405,7 +405,7 @@ Jump raise = weak
 
 Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
-=== 1m-(X)
+=== 1m {ndash} (X)
 
 @ inverted minors OFF
 @ special 2H and 2S OFF
@@ -420,18 +420,18 @@ Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 | 1m | (X) |  ?  ||
 |    |     | 2M  || weak JS
 |    |     | 3m  || weak
-|    |     | 2NT || bal. 11-12 with fit
-|    |     | 3NT || bal. 13-15 with fit
+|    |     | 2NT || bal. 11-12 with 4-card fit
+|    |     | 3NT || bal. 13-15 with 4-card fit
 | 2+>| [alert]#JS om# | <| {LRplus}
 |===
 
-=== 1M-(X)
+=== 1M {ndash} (X)
 
 @ semi-forcing 1NT, OFF
 @ 3-way Drury by PH, ON
 @ 3-card {LRplus} by unPH included in XX
 
-Jump shifts are the same as without the X: +
+Jump shifts are the same as after 1M-(P): +
 @ natural & invitational by unPH
 @ fit showing by PH
 
@@ -450,10 +450,10 @@ Jump shifts are the same as without the X: +
 {note1}{ensp}2NT includes GF hands that are not suitable for 3NT
 _ or a splinter
 
-:xlab:  pass:normal[&#x276c;]
-:xrab:  pass:normal[&#x276d;]
+// :xlab:  pass:normal[&#x276c;]
+// :xrab:  pass:normal[&#x276d;]
 
-=== 1{xlab}suit{xrab}-(X)-XX
+=== Redouble of opp's take-out double
 
 Shows no fit except for 3-card {LRplus} after major opening
 
@@ -491,7 +491,7 @@ With a 3-card {LRplus} hand, responder bids the major on the next round: +
 |    |     |  4H  |       | 3*{H}, GF values
 |===
 
-=== Pass then double
+=== Pass then double (after opp's T/O dble)
 
 ==== Minor opening
 

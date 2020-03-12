@@ -116,8 +116,10 @@ _ 1NT response
 
 [green-box]#Updated {ndash} Mar 11, 2020#
 
-Exception:: When both sides have bid-and-raised on 1^st^ round +
-@ double by opener = game-try
+*Exception*
+
+When both sides have bid-and-raised on 1^st^ round: +
+@ double by opener = game-try +
 @ double by responder = competitive
 
 #Game-try and competitive doubles promise a doubleton.#
