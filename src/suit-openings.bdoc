@@ -696,30 +696,56 @@ show no preference.
 | (P) |  2D |       |      | to play
 |===
 
-== Vs Two Suiters
+[#vs-2-suiters]
+== Vs Two-Suited Overcalls
+
+[green-box]#Updated {ndash} Mar 11, 2020#
+
+We pass when we can make a penalty double of any suit that they bid.
+
+So pass then double is penalty.
+
+=== Negative double
+
+If they show two known suits, double shows four or five cards in the fourth
+suit and the values to compete.
+Without a fit for opener, responder will usually be able to penalise
+at least one of their suits.
+
+If they show only one known suit, then doubles shows the other two suits
+
+[lightgrey-box]#1{H}{emsp}(!!2NT!!)^{note1}^{emsp}!!X!!{emsp}:{emsp}4 or 5 spades, 9{OrMore} HCP#
+{note1} both minors
+
+[lightgrey-box]#1{H}{emsp}(!!2H!!)^{note2}^{emsp}!!X!!{emsp}:{emsp}both minors, 9{OrMore} HCP#
+{note2} {S} + minor
+
+Whether they showed one or two suits, a subsequent double by either
+player is penalty.
+
+#A negative double does NOT set up a forcing pass situation#
 
 === Lower for Other
 
-@ Lower of their two suits = other suit +
+Applies when they have shown two known suits
+
+Used with a fit for opener, or with 6{OrMore}-cards in the fourth suit.
+
+@ higher of opp's suits = {LRplus}
+@ lower of opp's suits shows the fourth suit +
 >> next step by opener
 __ = default (nothing more to say)
 
-Thus there are two non-jump bids to show the other suit; a cue-bid of
-the lower of their two suits, and a natural bid.
+Thus there are two non-jump bids to show the fourth suit; the lower
+cue-bid , and a natural bid.
 
-@ lower way to show other suit = invitational
-@ higher way to show other suit = GF
-
-The lower cue-bid is usually _below_{thinsp} a natural bid in the
-other suit, in which case it shows invitatational values and the
-natural bid, which is higher, is GF.
-
-_e.g._
+@ lower way to show fourth suit = invitational
+@ higher way to show fourth suit = GF
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1H | (!2NT!) | ?    | | 2NT = {C} + {D}
-|    |         | !3C! | | {S} (other suit), inv. +
+|    |         | !3C! | | {S} (fourth suit), inv. +
                           {tribull} 3{D} = default
 |    |         | !3D! | | {H}, {LRplus}
 |    |         |  3H  | | {H}-raise, 7{OrMore}{ndash}10
@@ -730,12 +756,11 @@ When the lower cue-bid is _above_{thinsp} the natural bid in the
 other suit, then it shows GF values and the natural bid is
 invitational.
 
-
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1C | (!2C!) |   ?  | | 2C = {H} + {S}
 |    |        |  2D  | | {D}, inv. (NF)
-|    |        | !2H! | | {D} (other suit), GF +
+|    |        | !2H! | | {D} (fourth suit), GF +
                          {tribull} 2{S} = default
 |    |        | !2S! | | {C}, {LRplus}
 |    |        |  3C  | | {C}-raise, 7{OrMore}{ndash}10
