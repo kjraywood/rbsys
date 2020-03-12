@@ -118,9 +118,9 @@ _ 1NT response
 
 Exception:: When both sides have bid-and-raised on 1^st^ round +
 @ double by opener = game-try
-@ double by responder = competitive +
+@ double by responder = competitive
 
-#game-try and competitive doubles promise a doubleton#
+#Game-try and competitive doubles promise a doubleton.#
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
