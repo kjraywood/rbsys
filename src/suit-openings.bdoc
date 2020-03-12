@@ -701,7 +701,8 @@ show no preference.
 
 [green-box]#Updated {ndash} Mar 11, 2020#
 
-We pass when we can make a penalty double of any suit that they bid.
+With both suits shown by intervenor responder, responder passes and
+then doubles on the next round.
 
 So pass then double is penalty.
 
@@ -723,8 +724,14 @@ If they show only one known suit, then doubles shows the other two suits
 Whether they showed one or two suits, a subsequent double by either
 player is penalty.
 
-#A negative double does NOT set up a forcing pass situation#
+#A negative double sets up a forcing pass below 2NT#
 
+[NOTE]
+====
+This is because it requires four trumps to double them at the 2-level
+but double of a 3-level contract requires only a decent three-card
+suit.
+====
 === Lower for Other
 
 Applies when they have shown two known suits
