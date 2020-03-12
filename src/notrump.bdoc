@@ -567,17 +567,24 @@ Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 
 ==== Vs 2NT (minors)
 
-Similar to vs 2NT opening that shows both minors
+Similar to our defence to a 2NT opening that shows both minors
 
 @ double = values
+>> subsequent doubles are penalty {note1} +
 @ both cue-bids show both majors
+_ (3C = wk{or}str, 3D = medium) +
 @ 3M is competetive (NF)
 @ #Namyats at the 4-level#
 
-*Difference:*{ensp}after 1NT-(2NT)-X, #subsequent doubles are penalty#.
 
-When a 2NT opening is doubled, the next double as take-out because we
-have not established the balance of power.
+//.
+
+****
+{note1}{emsp}Subsequent doubles are penalty because 1NT-(2NT)-X
+establishes the balance of power.  But when they open 2NT (minors) and
+we double (values), our next double is take-out because we have not
+established the balance of power.
+****
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
