@@ -715,13 +715,19 @@ suit and the values to compete.
 Without a fit for opener, responder will usually be able to penalize
 at least one of their suits.
 
-If they show only one known suit, then doubles shows the other two suits
+[%autowidth,cols="5*<",grid="none"]
+|===
+| 1M | (!!2NT!!)* | !X! | = | 4 {or} 5 {times} oM, 9{OrMore} HCP
+| 4+<| {biglowast} both minors
+|===
 
-[lightgrey-box]#1{H}{emsp}(!!2NT!!)^{note1}^{emsp}!!X!!{emsp}:{emsp}4 or 5 spades, 9{OrMore} HCP#
-{note1} both minors
+If they show only one known suit, then double shows the other two suits.
 
-[lightgrey-box]#1{H}{emsp}(!!2H!!)^{note2}^{emsp}!!X!!{emsp}:{emsp}both minors, 9{OrMore} HCP#
-{note2} {S} + minor
+[%autowidth,cols="5*<",grid="none"]
+|===
+| 1M | (!!M!!)* | !X! | = | both minors, 4{OrMore}-4{OrMore}, 9{OrMore} HCP
+| 4+<| {biglowast} oM + unknown minor
+|===
 
 Whether they showed one or two suits, a subsequent double by either
 player is penalty.
