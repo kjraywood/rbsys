@@ -1,9 +1,8 @@
 THIS_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
-
-ifeq ($(strip $(BRIDGEDOC)),)
-    BRIDGEDOC = $(abspath $(THIS_DIR)../bridgedoc)
-endif
+PARENT_DIR = $(abspath $(THIS_DIR)..)
 
 MAIN = system.adoc
+INSTALL_DIR = $(PARENT_DIR)/web/rbsys
+BRIDGEDOC_DIR = $(PARENT_DIR)/bridgedoc
 
-include $(BRIDGEDOC)/bridgedoc.mk
+include $(BRIDGEDOC_DIR)/bridgedoc.mk
