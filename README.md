@@ -1,13 +1,7 @@
-# sysnotes
+# Raywood-Burns System Notes
 
-System notes written in asciidoctor using customised foundation theme  
-Sources (bridgeDoc files) have extension .bdoc
-Asciidoc files have extension .adoc  
-Processing is controlled via a Makefile  
-Output is html  
+Source of the system notes of Kel Raywood and Shelley Burns using
+bridgedoc which is just a preprocessor for asciidoctor.
 
-## Customisations
-
-Suit bids written as 1C, 1H,  _etc._ are replace with suit symbols.
-
-Added a "wrapping list". Items are defined by @
+Processing is controlled via the Makefile which produces static html
+that is pushed to https://kjraywood.github.io/rbsys
