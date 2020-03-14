@@ -399,7 +399,7 @@ TIP: Using a relay to show GF values opposite 11{ndash}12 is also used
 [#vs-double]
 == vs Take-Out Double
 
-[green-box]#Updated {ndash} Mar 11, 2020#
+[green-box]#Updated {ndash} Mar 13, 2020#
 
 Jump raise = weak
 
@@ -407,47 +407,73 @@ Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
 === 1m {ndash} (X)
 
-@ inverted minors OFF
-@ special 2H and 2S OFF
-@ jump shift to other minor = {LRplus} +
-@ jump shift to 2M = weak
-@ any double-jump shift = weak
+&Most responses are natural&
 
-1D-(X)-XX includes long clubs and 10{OrMore} HCP
+@ new suit forcing @ 1-level +
+@ inverted minors are OFF +
+@ special 2H and 2S are OFF
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
+5+^| NT responses
+
 | 1m | (X) |  ?  ||
-|    |     | 2M  || weak JS
-|    |     | 3m  || weak
+|    |     | 1NT || 7-10
 |    |     | 2NT || bal. 11-12 with 4-card fit
 |    |     | 3NT || bal. 13-15 with 4-card fit
-| 2+>| [alert]#JS om# | <| {LRplus}
 |===
+
+&Artificial Raise&
+
+[nobr]#jump shift to other minor (JS om) = {LRplus}#
+
+After a 1D opening, long clubs with 10{OrMore} HCP is included in XX
+
+&Other jumps are natural and weak&
+
+@ jump raise to 3m = weak +
+@ jump shift to 2M = weak +
+@ any double-jump shift = weak
 
 === 1M {ndash} (X)
 
-@ semi-forcing 1NT, OFF
-@ 3-way Drury by PH, ON
-@ 3-card {LRplus} by unPH included in XX
+&Semi-Forcing 1NT is OFF&
 
-Jump shifts are the same as after 1M-(P): +
-@ natural & invitational by unPH
-@ fit showing by PH
+@ 1M-(X)-1NT = 7-10 +
+@ 3-card {LRplus} by unPH is included in XX
 
-3M+1 showing an unspecified weak-splinter is OFF: +
-@ any double-jump shift = splinter
-@ GF single-suiters included in XX
+&3-way Reverse Drury by PH is ON&
+
+&Jump-shifts are same as after 1M-(P)& +
+@ natural & invitational by unPH +
+@ fit-showing by PH
+
+&3M + 1 showing an unspecified weak-splinter is OFF&
+
+[%autowidth,cols="3*^.^",grid="cols"]
+|===
+|              | 1H-(P)          | 1H-(X)
+
+| 3S           | weak{nbsp}splinter +
+                 in{nbsp}any{nbsp}suit
+		                 | splinter
+| 3NT          | splinter in {S} | bal. game-raise
+| 4C, 4D       | splinter        | splinter
+|===
+
+GF single-suiters are included in XX
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
+5+^| Four-Card Raises
+
 | 1M | (X) |  ?    ||
 |    |     |  3M   || weak
-|    |     | !2NT! || 4{OrMore}{xtimes}M, LR or strong GF{ensp}{note1}
+|    |     | !2NT! || 4{OrMore}{xtimes}M, LR or strong GF-raise {biglowast}
 |    |     | !3NT! || 4{OrMore}{xtimes}M, bal or semi-bal., 12-14
 |===
 
-{note1}{ensp}2NT includes GF hands that are not suitable for 3NT
+{biglowast}{ensp}2NT includes GF hands that are not suitable for 3NT
 _ or a splinter
 
 === Redouble of opp's take-out double
@@ -700,8 +726,6 @@ show no preference.
 
 [#vs-2-suiters]
 == Vs Two-Suited Overcalls
-
-[green-box]#Updated {ndash} Mar 11, 2020#
 
 With both suits shown by intervenor responder, responder passes and
 then doubles on the next round.
