@@ -1,18 +1,12 @@
 = System Notes
 
-<<overview.adoc#, *System Overview*>> +
-{tribull}{nbsp}<<overview.adoc#double-after-fit,
-      [.green.nobr]## game-try doubles [2020-03-11] ##>> +
-{tribull}{nbsp}<<overview.adoc#double-in-gf-auctions,
-      [.green.nobr]## double in GF auctions [2020-03-11] ##>>
+<<overview.adoc#, *System Overview*>>
 
 <<notrump.adoc#, *NoTrump Openings*>>
 
 <<suit-openings.adoc#, *Suit Openings*>> +
 {tribull}{nbsp}<<suit-openings.adoc#vs-double,
-      [.green.nobr]## vs Take-Out Double [2020-03-11] ##>> +
-{tribull}{nbsp}<<suit-openings.adoc#vs-2-suiters,
-      [.green.nobr]## vs Two-Suited Overcalls [2020-03-11] ##>>
+      [.green.nobr]## vs Take-Out Double [2020-03-13] ##>>
 
 <<suit-auctions.adoc#, *Suit Auctions*>>
 
