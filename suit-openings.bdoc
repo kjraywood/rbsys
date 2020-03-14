@@ -425,9 +425,9 @@ Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
 &Artificial Raise&
 
-[nobr]#jump shift to other minor (JS om) = {LRplus}#
+#jump shift to other minor (JS om) = {LRplus}#
 
-After a 1D opening, long clubs with 10{OrMore} HCP is included in XX
+After a 1D opening, long clubs with 10{OrMore} HCP is included in XX.
 
 &Other jumps are natural and weak&
 
@@ -469,12 +469,12 @@ GF single-suiters are included in XX
 
 | 1M | (X) |  ?    ||
 |    |     |  3M   || weak
-|    |     | !2NT! || 4{OrMore}{xtimes}M, LR or strong GF-raise {biglowast}
-|    |     | !3NT! || 4{OrMore}{xtimes}M, bal or semi-bal., 12-14
+|    |     | !2NT! || LR or strong GF-raise {biglowast}
+|    |     | !3NT! || bal or semi-bal., 12-14
 |===
 
-{biglowast}{ensp}2NT includes GF hands that are not suitable for 3NT
-_ or a splinter
+{biglowast}{ensp}2NT includes GF hands that are not suitable
+_ for 3NT or a splinter
 
 === Redouble of opp's take-out double
 
@@ -749,14 +749,14 @@ If they show only one known suit, then double shows the other two suits.
 
 [%autowidth,cols="5*<",grid="none"]
 |===
-| 1M | (!!M!!)* | !X! | = | both minors, 4{OrMore}-4{OrMore}, 9{OrMore} HCP
+| 1M | (!!2M!!)* | !X! | = | both minors, 4{OrMore}-4{OrMore}, 9{OrMore} HCP
 | 4+<| {biglowast} oM + unknown minor
 |===
 
 Whether they showed one or two suits, a subsequent double by either
 player is penalty.
 
-#A negative double sets up a forcing pass below 2NT#
+#A negative double sets up a force below 2NT#
 
 === Lower for Other
 
