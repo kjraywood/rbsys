@@ -659,8 +659,7 @@ Regular Stayman and non-jump Smolen.
 |===
 |  2NT | !3NT! | | at least 5-5 minors, slam inv.{OrMore}, F
 |  ?   |       | |
-| !4m! |       | | <<slam-conventions.adoc#optional-minorwood,
-                     optional minorwood>>
+| !4m! |       | | #straight minorwood#
 |  4NT |       | | decline
 |===
 
@@ -680,12 +679,12 @@ _ = 5-5 Majors, slam inv. +
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  2NT      | 3R | {nbsp} transfer
-|  3M       | 4m | {nbsp} 2^nd^ suit
-|  ?        |    |
-|  4M       |    | fit in M
-|  4NT      |    | no fit
-| cheap new-suit |   | fit in m, slam suitable
+|  2NT      | !3R! | {ensp} transfer
+|  3M       |  4m  | {ensp} 2^nd^ suit
+|  ?        |      |
+|  4M       |      | fit in M
+|  4NT      |      | no fit
+| cheapest +
+  new-suit  |      | fit in m, slam suitable
+                     > responder shows KC
 |===
-
-Following "fit in m", responder shows key-cards
