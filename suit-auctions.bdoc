@@ -282,25 +282,28 @@ When opener's suit is clubs, then 2D is a convenient low-level bid,
 and is used for most no-clear-direction hands.
 This keeps other rebids natural.
 
-[%autowidth,cols="^,2*<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
 | 1C |  1S  |
 | 2C |  ?   |
-|    | !2D! | inv. with {C} support
+|    | !2D! | {ensp} inv. with {C} support
               [nobr]#{or} inv. with 6{OrMore}{xtimes}{S}#
 	      [nobr]#{or} inv. with 5*{S} & 5*{D}#
 	      [nobr]#{or} GF with no clear direction#
-|    | 2H   | natural, F1
-|    | 3{lab}suit{rab} | natural GF
+|    | 2H   | {ensp} natural, F1
+|    | [nobr]##3&#x1f334;## | {ensp} natural GF
+//|    | 3&#x2693; | {ensp} natural GF
+//|    |3{lab}suit{rab} | {ensp} natural GF
 |===
 
-[%autowidth,cols="^,2*<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C |  1H  |
-| 2C | {thinsp}? |
-|    | !2D! | _similar to above_
-|    | 2S   | GF with {S} values
-|    | 3{lab}suit{rab} | natural GF
+| 1C |  1H  ||
+| 2C |  ?   ||
+|    | !2D! || _similar to above_
+|    | 2S   || GF with {S} values
+|    | [nobr]##3&#x1f43b;## ||  natural GF
+//|    | 3{lab}suit{rab} || natural GF
 |===
 
 &Opener's third bid&
@@ -318,14 +321,14 @@ _ = minimum strength, NF
 
 @ bidding above 3C = extra strength, GF
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1C  |  1S  |
-|  2C  | !2D! |
-|  ?   |      |
-| 2H   |      | Forcing, ambiguous strength
-2+<| 2S,2NT,3C <| minimum, NF
-2+<| 3D,3S,3NT <| extras, GF
+|  1C  |  1S  ||
+|  2C  | !2D! ||
+|  ?   |      ||
+| 2H   |      || Forcing, ambiguous strength
+2+<| 2S, 2NT, 3C | <| minimum, NF
+2+<| 3D, 3S, 3NT | <| extras, GF
 |===
 
 === Opener rebids diamonds
@@ -334,29 +337,28 @@ When opener's suit is diamonds, we must avoid overloading 3C.
 So two of the other major includes GF hands with values in the other
 major but no-clear-direction.
 
-[%autowidth,cols="^,2*<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
 | 1D |  1H  |
 | 2D |  ?   |
-|    |  2S  | GF with values in {S}
-|    | !3C! | inv. with {D} support
-              [nobr[#{or} inv. with 6{OrMore}{xtimes}{H}#
+|    |  2S  | {ensp} GF with values in {S}
+|    | !3C! | {ensp} inv. with {D} support
+              [nobr]#{or} inv. with 6{OrMore}{xtimes}{H}#
 	      [nobr]#{or} GF with values in {C}#
 |===
 
-[%autowidth,cols="2*^,2*<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1D |  1S  ||
-| 2D |  ?   ||
-|    |  2H  || natural inv.
-               [nobr]#{or} GF with values in {H}{emsp}{note1}#
-|    | !3C! || inv. with {D} support
+| 1D |  1S  |
+| 2D |  ?   |
+|    |  2H  | {ensp} natural inv.
+               [nobr]#{or} GF with values in {H} {biglowast}#
+|    | !3C! | {ensp} inv. with {D} support
                [nobr]#{or} inv. with 6{OrMore}{xtimes}{S}#
 	       [nobr]#{or} GF with values in {C}#
 |===
 
-[horizontal]
-{note1}:: _e.g._ 
+{biglowast}{ensp}__e.g.__
 [lightgrey-box]#{S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx#
 
 Holding four hearts and a max, opener cannot raise 2H to 4H because an
