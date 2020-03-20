@@ -379,7 +379,7 @@ d|
 ^| Leads & Carding
 
 | *[OvalBox]#A#{thinsp}K{thinsp}x :*
-   except A{thinsp}[OvalBox]##K##{thinsp}x
+   except A{thinsp}[OvalBox]##K##{thinsp}x when
    @ partner bid or raised the suit
    @ 5 & 6 level
    @ AK tight
