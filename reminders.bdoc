@@ -380,8 +380,7 @@ d|
 
 | *[OvalBox]#A#{thinsp}K{thinsp}x :*
    except A{thinsp}[OvalBox]##K##{thinsp}x
-   @ partner's suit
-   @ partner raised
+   @ partner bid or raised the suit
    @ 5 & 6 level
    @ AK tight
    @ trick 2{OrMore} +
