@@ -4,9 +4,7 @@
 
 <<notrump.adoc#, *NoTrump Openings*>>
 
-<<suit-openings.adoc#, *Suit Openings*>> +
-{tribull}{nbsp}<<suit-openings.adoc#vs-double,
-      [.green.nobr]## vs Take-Out Double [2020-03-13] ##>>
+<<suit-openings.adoc#, *Suit Openings*>>
 
 <<suit-auctions.adoc#, *Suit Auctions*>>
 
