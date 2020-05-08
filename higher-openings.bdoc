@@ -175,11 +175,17 @@ positive values with a double or penalty pass.
 @ #non-forcing vs overcall#
 @ lead-directing (McCabe) vs double
 
+[#mccabe]
 === McCabe
 
-*vs double of weak two*
-@ new suit = COV + fit
-@ redouble = run-out to long-suit
+[green-box]#Updated {ndash} May 8, 2020#
+
+*vs double of weak two* +
+@ new suit
+_ = COV (lead-directing) + fit +
+@ redouble = run-out to long-suit +
+@ raise promises A or K
+_  (lead-directing)
 
 [#bogust]
 === Bogust

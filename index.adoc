@@ -10,7 +10,9 @@
 
 <<checkback.adoc#, *2-Way Checkback and Wolff Sign-off*>>
 
-<<higher-openings.adoc#, *Higher Opening Bids*>>
+<<higher-openings.adoc#, *Higher Opening Bids*>> +
+{tribull}{nbsp}<<higher-openings.adoc#mccabe,
+  [.green.nobr]## McCabe [2020-05-8] ##>> 
 
 <<slam-conventions.adoc#, *Slam Conventions*>>
 
