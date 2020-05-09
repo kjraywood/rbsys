@@ -12,7 +12,7 @@
 
 <<higher-openings.adoc#, *Higher Opening Bids*>> +
 {tribull}{nbsp}<<higher-openings.adoc#mccabe,
-  [.green.nobr]## McCabe [2020-05-08] ##>> 
+  [.green.nobr]## __McCabe__, updated 2020-05-08 ##>> 
 
 <<slam-conventions.adoc#, *Slam Conventions*>>
 
@@ -20,9 +20,11 @@
 
 <<competitive-bidding.adoc#, *Competitive Bidding*>> +
 {tribull}{nbsp}<<competitive-bidding.adoc#doubling-artificial-bids,
-  [.green.nobr]## Doubling Artificial Bids [2020-05-08] ##>> 
+  [.green.nobr]## __Doubling Artificial Bids__, new 2020-05-08 ##>> 
 
-<<defence.adoc#, *Leads and Carding*>>
+<<defence.adoc#, *Leads and Carding*>> +
+{tribull}{nbsp}<<defence.adoc#signal_on_ace_lead_vs_suit,
+  [.green.nobr]## __A from AK vs suits__, updated 2020-05-09 ##>> 
 
 '''
 
@@ -32,4 +34,4 @@
 
 <<staging.adoc#, __Potential agreements__>> +
 {tribull}{nbsp}<<staging.adoc#mexican,
-  [.green.nobr]## Mexican 2D [2020-05-09] ##>> 
+  [.green.nobr]## __Mexican 2D__, new 2020-05-09 ##>> 

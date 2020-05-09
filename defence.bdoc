@@ -120,23 +120,30 @@ to cost a trick.
 
 trump lead {tribull} suit preference
 
-==== K from AK vs suit contracts
+[#signal_on_ace_lead_vs_suit]
+==== A from AK vs suit contracts
 
-@ vs slam
->> count +
-@ dummy has Qxx(x) in led suit
->> count (2^nd^ highest from [T|9]xxx) +
-@ dummy has [J|T]xxx(x) in led suit
->> simple attitude +
-@ dummy has a stiff in led suit,
-_ long trumps,
-_ and equal-length side-suits
->> suit-preference
+[green-box]#Updated {ndash} May 9, 2020#
+
+At the five-level or higher, we lead K from AK, so the following only
+applies at the four-level or lower.
+
+*dummy has Qxx(x) in led suit* +
+> #attitude for ruff#
+_ = only encourage with a doubleton
+// > count (2^nd^ highest from [T|9]xxx) +
+
+*dummy has Jxxx(x) or Txxx(x) in led suit* +
+> simple attitude 
+
+*dummy has a stiff in led suit* +
+> usually attitude, but suit-pref when dummy
+_ has long trumps and equal-length side-suits
 
 A ten is usually treated as an honour card (it might win a trick), but
-when partner leads a king (from AKx) and dummy has the guarded queen,
+when partner leads an ace (from AKx) and dummy has the guarded queen,
 we treat the ten like any other spot card.
-Thus from Tx we play the ten to give count.
+Thus from Txx we play the ten to discourage.
 
 ==== vs NT on a spot-card lead
 
