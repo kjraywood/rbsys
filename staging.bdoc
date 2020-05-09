@@ -100,8 +100,8 @@ strain in which we are likely to play.
 
 Constraints: +
 @ includes 5*{S} + 4*{H} +
-@ we need a relay to 3NT if
-_ a major-suit fit is not found
+@ we need a relay to 3NT if a major-suit fit
+_ is not found
 
 Therefore we cannot play 5-card Stayman.
 
