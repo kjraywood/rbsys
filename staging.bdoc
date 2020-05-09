@@ -63,15 +63,77 @@ Not sure if we should use cooperative (4333) or penalty (4-cards in
 their suit).
 ****
 
-[#alt-wolff]
-== Alternatives to Wolff
+[#mexican]
+== Mexican 2D opening
 
-@ Transfers after 18-19 2NT rebid,
-_ _esp._{thinsp} 1M {ndash} 1NT{semicolon} 2NT
+Shows 18 to bad 20, balanced
 
-@ Mexican 2D opening = bal. 18-19 +
+=== Responses
 
-=== Advantages of Mexican
+We aim to have opener declare , so responder usually does not bid a
+strain in which we are likely to play.
+
+[%autowidth,cols="^,<",grid="none"]
+|===
+| P   | weak with diamonds
+| 2H  | transfer to spades +
+	{tribull} usual 2^nd^-round transfer methods,
+	except [nobr]#3S {forces} 3NT#
+| 2S  | forces 2NT with fewer than four spades +
+	> 3C = Stayman without spades +
+	{emsp}{thinsp}3D = transfer to hearts without spades +
+	{emsp}{thinsp}3H = strong with clubs +
+	{emsp}{thinsp}3S = strong with diamonds
+| 2NT | weak with clubs or string both minors strong
+| 3C  | Stayman with spades
+| 3D  | transfer to hearts with spades
+        [nobr]#= 5{OrMore}{xtimes}{H} + 4*{S}# +
+| 3H,3S | stiff with 3{xtimes}oM
+| 3NT | big 2-suiter
+|===
+
+NOTE:  3D includes one Smolen shape; 4-5 in {S}-{H}. The other (5-4 {S}-{H})
+       is included in 3C; Stayman with spades.
+
+=== Stayman with spades (4 or 5)
+
+Constraints:
+@ includes 5*{S} + 4*{H}
+@ with no fit, we need a relay to 3NT
+
+#Therefore we cannot play regular 5-card Stayman.#
+
+Responder has shown 4*{S} so opener bids 3S to set trump with
+either four or five spades.
+
+#Opener bids 3NT to show five hearts.#
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| !2D! | !3C! |
+|  ?   |      |
+| !3D! |      | negative +
+                > !3H! = Smolen (5*{S} + 4*{H}) +
+		{emsp}{thinsp}!!3S!! {forces} 3NT
+|  3H  |      | 4*{H} +
+                > !3S! {forces} 3NT +
+		{emsp}{thinsp}!!3NT!! = agrees {H}
+
+|  3S  |      | agrees {S}
+|  3NT |      | 5*{H}
+|===
+
+=== Stayman without spades (less than four)
+
+Occurs after 2S {forces} 2NT, so we do not need a relay to 3NT with no
+fit.
+
+Does not include Smolen shapes.
+
+#Therefore, we play regular 5-card Stayman.#
+
+
+=== Sequences released by Mexican 2D
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===

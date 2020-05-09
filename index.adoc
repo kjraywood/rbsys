@@ -30,4 +30,6 @@
 
 <<reminders.adoc#, __Reminders__>>
 
-<<staging.adoc#, __Potential agreements__>>
+<<staging.adoc#, __Potential agreements__>> +
+{tribull}{nbsp}<<staging.adoc#doubling-artificial-bids,
+  [.green.nobr]## Mexican 2D [2020-05-09] ##>> 
