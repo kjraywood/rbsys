@@ -77,18 +77,19 @@ strain in which we are likely to play.
 |===
 | P   | weak with diamonds
 | 2H  | transfer to spades +
-	{tribull} usual <<notrump.adoc#_second_round_transfers,
-	                  2^nd^-round-transfer>> methods,
-	except [nobr]#3S {forces} 3NT#
+	{tribull} <<notrump.adoc#_second_round_transfers,
+	            2^nd^-round-transfer>> methods,
+	__ except 3S {forces} 3NT
 | 2S  | forces 2NT, fewer than four spades +
-	> 3C = 5-card Stayman without four spades +
+	> 3C = 5-card Stayman
+	__ without four spades +
 	{emsp}{thinsp}3D = transfer to hearts without spades +
 	{emsp}{thinsp}3H = strong with clubs +
 	{emsp}{thinsp}3S = strong with diamonds
 | 2NT | weak with clubs or strong both minors
 | 3C  | Stayman with spades
 | 3D  | transfer to hearts with spades
-        [nobr]#= 5{OrMore}{xtimes}{H} + 4*{S}# +
+        [nobr]#= 5{OrMore}{xtimes}{H}, 4*{S}# +
 | 3H,3S | stiff with 3{xtimes}oM
 | 3NT | big 2-suiter
 |===
@@ -98,23 +99,24 @@ NOTE:  3D includes one Smolen shape; 4-5 in {S}-{H}. The other (5-4 {S}-{H})
 
 === Stayman with spades (4 or 5)
 
-Constraints:
-@ includes 5*{S} + 4*{H}
+Constraints: +
+@ includes 5*{S} & 4*{H} +
 @ with no fit, we need a relay to 3NT
 
-#Therefore we cannot play 5-card Stayman.#
+Therefore we cannot play 5-card Stayman.
 
-Responder has shown 4*{S} so opener bids 3S to set trump with
-either four or five spades.
+We don't need a way for opener to show five spades becuase responder
+has shown 4*{S}.
+So opener bids 3S to set trump with either four or five spades.
 
-#Opener bids 3NT to show five hearts.#
+#To show five hearts, Opener bids 3NT#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | !2D! | !3C! |
 |  ?   |      |
 | !3D! |      | negative +
-                > !3H! = Smolen (5*{S} + 4*{H}) +
+                > !3H! = Smolen (5*{S}, 4*{H}) +
 		{emsp}{thinsp}!!3S!! {forces} 3NT
 |  3H  |      | 4*{H} +
                 > !3S! {forces} 3NT +
