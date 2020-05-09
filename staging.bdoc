@@ -148,7 +148,7 @@ Responder has less than four spades, so cannot have 4-4 majors.
                 > !3S! = agrees {H} +
 		{emsp}{thinsp}3NT = sign off
 | !3S! |      | 5*{S} +
-                > #NT = sign off = agrees {H} +
+                > 3NT = sign off +
 		{emsp}{thinsp}4m = natural +
 		{emsp}{thinsp}!!4H!! = agrees {S}
 |===
