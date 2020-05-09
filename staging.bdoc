@@ -144,10 +144,10 @@ Responder has less than four spades, so cannot have 4-4 majors.
                 > !3H! #DOES NOT EXIST# +
 		{emsp}{thinsp}!!3S!! = 4*{H} +
 		{emsp}{thinsp}3NT = sign off
-| !3H! |      | 5*{H} +
+|  3H  |      | 5*{H} +
                 > !3S! = agrees {H} +
 		{emsp}{thinsp}3NT = sign off
-| !3S! |      | 5*{S} +
+|  3S  |      | 5*{S} +
                 > 3NT = sign off +
 		{emsp}{thinsp}4m = natural +
 		{emsp}{thinsp}!!4H!! = agrees {S}
