@@ -12,13 +12,15 @@
 
 <<higher-openings.adoc#, *Higher Opening Bids*>> +
 {tribull}{nbsp}<<higher-openings.adoc#mccabe,
-  [.green.nobr]## McCabe [2020-05-8] ##>> 
+  [.green.nobr]## McCabe [2020-05-08] ##>> 
 
 <<slam-conventions.adoc#, *Slam Conventions*>>
 
 <<defensive-bidding.adoc#, *Defensive Bidding*>>
 
-<<competitive-bidding.adoc#, *Competitive Bidding*>>
+<<competitive-bidding.adoc#, *Competitive Bidding*>> +
+{tribull}{nbsp}<<competitive-bidding.adoc#doubling-artificial-bids,
+  [.green.nobr]## Doubling Artificial Bids [2020-05-08] ##>> 
 
 <<defence.adoc#, *Leads and Carding*>>
 

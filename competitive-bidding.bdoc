@@ -277,3 +277,75 @@ The purpose is to help the defence.
 | (1H) | 1S  | (2D) |  P     | |
 | (3D) | P   | 3S   | !Dble! | | {S} Hx or Hxx
 |===
+
+[#doubling-artificial-bids]
+== Doubling Artificial Bids
+
+=== General Rules
+
+&__Double of an artificial non-forcing bid is for takeout__&
+
+It is take-out of the suit they bid, not the suit they show.
+
+_Examples_
+@ artificial defence to our 1NT
+@ weak-only multi-2D
+
+TIP:  If we cannot double a non-forcing bid with shortness in
+      the bid suit, then we risk the auction ending there.
+
+&__Double of an artificial forcing bid shows the suit__&
+
+_Examples_
+@ Bergen Raises
+@ Drury Raises
+@ KC responses
+@ Stayman*
+@ Transfers*
+
+{biglowast}{ensp}see next sections for exceptions
+
+=== They open a weak-NT
+
+If they open a weak-NT,
+#double of their Stayman or transfer shows high-card strength#
+({simto}15{OrMore}HCP).
+It is not lead-directing, or showing length in the suit bid.
+
+=== They play transfers after their 1C opening
+
+Double = take-out of the suit shown by the transfer.
+
+Bidding the suit shown by the transfer is natural.
+
+TIP:  Their 1-level transfers only show four-card suits.
+      When we have a length in the suit bid on our right,
+      we may want to play in that suit so we take advantage
+      of the extra step that their transfers have given us.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|   |      |     | (1C*) | {biglowast} could be short
+| P | (1D{superdag})
+           |  ?  |       | &dagger; 4{OrMore}{xtimes}{H}
+|   |      |  X  |       | take-out of HEARTS (suit on left)
+|   |      | 1H  |       | NATURAL
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|   |      |     | (1C*) | {biglowast} could be short
+| P | (1H{superdag})
+           |  ?  |       | &dagger; 4{OrMore}{xtimes}{S}
+|   |      |  X  |       | take-out of SPADES
+|   |      | 1S  |       | NATURAL
+|===
+
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|   |      |     | (1C*) | {biglowast} could be short
+| P | (1S{superdag})
+           |  ?  |       | &dagger; no 4-card major
+|   |      |  X  |       | Both majors, {simto} a take-out double of a natural 1D response
+|===
