@@ -93,22 +93,22 @@ strain in which we are likely to play.
 | 3NT | big 2-suiter
 |===
 
-NOTE:  3D includes one Smolen shape; 4*{S}, 5*{H}. The other (5*{S}, 4*{H})
-       is included in 3C; Stayman with spades.
+// NOTE:  3D includes one Smolen shape; 4*{S}, 5*{H}. The other (5*{S}, 4*{H})
+//       is included in 3C; Stayman with spades.
 
 === Stayman with spades (4 or 5)
 
 Constraints: +
-@ includes 5*{S} & 4*{H} +
+@ includes 5*{S} + 4*{H} +
 @ with no fit, we need a relay to 3NT
 
 Therefore we cannot play 5-card Stayman.
 
-We don't need a way for opener to show five spades becuase responder
-has shown 4*{S}.
+We don't need a way for opener to show five spades because responder
+has shown four.
 So opener bids 3S to set trump with either four or five spades.
 
-#To show five hearts, Opener bids 3NT#
+#To show five hearts, opener bids 3NT#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
