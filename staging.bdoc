@@ -111,19 +111,46 @@ So opener bids 3S to set trump with either four or five spades.
 
 #To show five hearts, opener bids 3NT#
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="2*^",grid="none"]
 |===
-| !2D! | !3C! |
-|  ?   |      |
-| !3D! |      | negative +
-                > !3H! = Smolen (5*{S}, 4*{H}) +
-		{emsp}{thinsp}!!3S!! {blueRarrow} 3NT
-|  3H  |      | 4*{H} +
-                > !3S! {blueRarrow} 3NT +
-		{emsp}{thinsp}!!3NT!! = agrees {H}
+| !2D! | !3C!
+|  ?   |
+|===
 
-|  3S  |      | agrees {S}
-|  3NT |      | 5*{H}
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| !3D! |  ?   || negative 
+|      | !3H! || Smolen (5*{S}, 4*{H})
+|      | !3S! || {blueRarrow} 3NT
+|===
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+|  3H  |  ?    || 4*{H}
+|      | !3S!  || {blueRarrow} 3NT
+|      | !3NT! || agrees {H}
+|===
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| 3S |  ?    || agrees {S}
+|    | !3NT! || non-serious slam try
+|    | 4m,4H || serious slam try
+|    |  4S   || sign-off
+|===
+
+Following 3NT showing five hearts, we
+#swap hearts and diamonds# to allow opener to declare hearts
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| !3NT! |  ?   || 5*{H}
+|       |  4C  || natural, slam interest
+|       | !4D! || #transfer to HEARTS#
+|       | !4H! || #DIAMONDS, slam interest# +
+	          > 4S = KC for {D} +
+	          {emsp}{thinsp}4NT = negative
+|       | !4S! || kickback for {H}
 |===
 
 === Five-card Stayman without four spades
@@ -133,28 +160,39 @@ no fit.
 
 Does not include Smolen shapes.
 
-Responder has less than four spades, so cannot have 4-4 majors.
+Responder cannot have 4-4 majors.
 
-#Therefore, we play simple 5-card-Stayman responses#
+Therefore #simple 5-card-Stayman responses#
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="2*^",grid="none"]
 |===
-| !2D! | !2S! |
-|  2NT | !3C! |
-|  ?   |      |
-| !3D! |      | no 5-card major +
-                > !3H! #DOES NOT EXIST# +
-		{emsp}{thinsp}!!3S!! = 4*{H} +
-		{emsp}{thinsp}3NT = sign off
-|  3H  |      | 5*{H} +
-                > !3S! = agrees {H} +
-		{emsp}{thinsp}3NT = sign off
-|  3S  |      | 5*{S} +
-                > 3NT = sign off +
-		{emsp}{thinsp}4m = natural +
-		{emsp}{thinsp}!!4H!! = agrees {S}
+| !2D! | !2S!
+|  2NT | !3C!
+|  ?   |
 |===
 
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| !3D! |  ?   || no 5-card major 
+|      | !3H! || #DOES NOT EXIST#
+|      | !3S! || 4*{H}
+|      | 3NT  || sign off
+|===
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+|  3H  |  ?   || 5*{H}
+|      | !3S! || agrees {H}
+|      |  3NT || sign off
+|===
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+|  3S  |  ?   || 5*{S}
+|      |  3NT || sign off
+|      |  4m  || natural
+|      | !4H! || agrees {S}
+|===
 
 === Sequences released by Mexican 2D
 
