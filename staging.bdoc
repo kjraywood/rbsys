@@ -79,11 +79,10 @@ strain in which we are likely to play.
 | 2H  | transfer to spades +
 	{tribull} <<notrump.adoc#_second_round_transfers,
 	            2^nd^-round-transfer>> methods,
-	__ except 3S {forces} 3NT
+	__ except 3S {blueRarrow} 3NT
 | 2S  | forces 2NT, fewer than four spades +
-	> 3C = 5-card Stayman
-	__ without four spades +
-	{emsp}{thinsp}3D = transfer to hearts without spades +
+	> 3C = 5-card Stayman, not four spades +
+	{emsp}{thinsp}3D = transfer to hearts w/o spades +
 	{emsp}{thinsp}3H = strong with clubs +
 	{emsp}{thinsp}3S = strong with diamonds
 | 2NT | weak with clubs or strong both minors
@@ -117,9 +116,9 @@ So opener bids 3S to set trump with either four or five spades.
 |  ?   |      |
 | !3D! |      | negative +
                 > !3H! = Smolen (5*{S}, 4*{H}) +
-		{emsp}{thinsp}!!3S!! {forces} 3NT
+		{emsp}{thinsp}!!3S!! {blueRarrow} 3NT
 |  3H  |      | 4*{H} +
-                > !3S! {forces} 3NT +
+                > !3S! {blueRarrow} 3NT +
 		{emsp}{thinsp}!!3NT!! = agrees {H}
 
 |  3S  |      | agrees {S}
@@ -261,7 +260,7 @@ _ regular Stayman +
 | !Redbl! |   | {lt}5*{S}, {lt}4*{H} +
               _ {tribull} 3D = sign-off +
               _ {tribull} 3H asks {S}-length +
-              _ {tribull} 3S {forces} 3NT +
+              _ {tribull} 3S {blueRarrow} 3NT +
               _ {tribull} 3NT = 4*{S} + 5*{H}, COG +
               _ _etc._
 |===
