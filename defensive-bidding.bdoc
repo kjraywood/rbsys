@@ -149,22 +149,23 @@ If they double, then redouble shows both minors
 @ 1NT vs. minor = 11 {ndash} 14 +
 @ 1NT vs. major = 11{OrMore} {ndash} 17{OrLess}
 >> Range Stayman +
-@ 2NT = 20 {ndash} 21
+@ 2NT = 19 {ndash} 20
 
 #System ON# in all cases
 
 ==== Inviting opposite wide-range 1NT
 
-@ Only applies vs major
+*Only applies vs major*
 
-The wide-range 1NT means that responder has two ranges of invitations. +
-@ a *strong invitation* {thinsp}({simto}11 HCP)
-_ is only declined with a min +
-@ a *weak invitation* {thinsp}({simto}9 HCP)
-_ is only accepted with a max +
+Wide-range 1NT {blueRarrow} advancer has two ranges of invitations
 
-Strong invitations are bid the same way as invitations after an
-opening-bid of 1NT.
+*weak invitation* {thinsp}({simto}9 HCP) +
+@ use <<#_range_stayman, Range Stayman>> +
+@ only accepted with a max
+
+*strong invitation* {thinsp}({simto}11 HCP) +
+@ use regular 1NT system +
+@ only declined with a min
 
 [%autowidth,cols="5*^,<",grid=none]
 |===
@@ -190,42 +191,51 @@ have made a 1S overcall.
 
 ==== Range Stayman
 
-@ Only applies vs major
-@ #ignore double# +
-@ all weak invitations use Range Stayman
+*Only applies vs major*
 
-ALERT: Range Stayman does not promise a four-card major.
+Used by: +
+@ all weak invitations
+@ strong invitation with 4oM
+
+ALERT: Range Stayman does not promise four of other major.
+
+*Responses to Range Stayman*
+
+@ jump to 3oM shows 5-card suit and max
+@ 2NT shows any other max
+@ 2oM shows 4 or 5 and min +
+@ #cue-bid of 2M# shows 4 or 5 of oM
+_ and #medium strength# +
+@ 2D shows none of above
+_ = not max and fewer than four of oM
 
 [%autowidth,cols="4*^,<",grid=none]
 |===
-|      |     |     | (1M) |
-|  P   | (P) | 1NT | (P)  |
-| !2C! | (P) |  ?  |      |
-|      |     | !2D!  |    | not max, not 4*oM
-|      |     |  2oM  |    | min, 4*oM
-|      |     | !2M!  |    | #med, 4*oM#
-                      [nobr]##{tribull} #3oM-1 = transfer# ##
-|      |     | !2NT! |    | max, not 5*oM
-                      [nobr]#{tribull} 3C = re-Stayman#
-|      |     | 3oM   |    | max, 5*oM
+|      |     |       | (1S) |
+|  P   | (P) |  1NT  | (P)  |
+| !2C! | (P) |   ?   |      |
+|      |     | !2D!  |      | not max, not 4*oM
+|      |     |  2H   |      | 4 or 5 hearts, minimum
+|      |     | !2S!  |      | 4 or 5 hearts, medium +
+                              > #3C = asks for 5# +
+                              > #3D = transfer#
+|      |     | !2NT! |      | max, not 5*{H} +
+                              > 3C = re-Stayman
+|      |     | 3H    |      | max, 5*{H}
 |===
 
-Range Stayman is also used with a strong invitation containing a
-four-card major.
-Therefore if balancer replies 2D, advancer shows a strong invitation by cue-bidding.
-Essentially this asks if balancer is minimum or medium.
+Following 2D, advancer shows a strong invitation by cue-bidding.
+This asks if balancer is minimum or medium.
 
 [%autowidth,cols="2*^,<",grid=none]
 |===
-|      |      | {emsp}{emsp}{emsp}(1M)
+|      |      | {emsp}{emsp}{emsp}(1S)
 |  P   | (P)  | 1NT {ensp}{ensp}(P)
 | !2C! | (P)  | {nbsp}{thinsp}!!2D!! {emsp}{ensp}(P)
 |  ?   |      |
-| 2oM  |      | 5*oM, weak-inv. +
-         [nobr]#{tribull} balancer passes or bids 2NT#
-	       _ with medium and no fit
-| !2M! |      | strong inv, #asks min or med# +
-	        {tribull} 2NT=min, 3NT=med
+| 2H   |      | 5*{H}, weak-inv.
+| !2S! |      | strong inv, #asks min or med# +
+	        > 2NT=min, 3NT=med
 | 2NT  |      | sign off
 |===
 
