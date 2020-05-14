@@ -178,14 +178,19 @@ positive values with a double or penalty pass.
 [#mccabe]
 === McCabe
 
-[green-box]#Updated {ndash} May 8, 2020#
+[green-box]#Updated {ndash} May 14, 2020#
 
-*vs double of weak two* +
-@ new suit
-_ = COV (lead-directing) + fit +
-@ redouble = run-out to long-suit +
-@ raise promises A or K
-_  (lead-directing)
+[%autowidth,cols="<.^s,>.^,<",grid="none"]
+|===
+3+^d| vs double of weak two
+
+| new suit || COV (lead-directing) with fit
+| raise    || A or K (lead-directing)
+| redouble | &#x25c0; | run-out to long suit +
+                  raise without A or K
+| jump shift || [orange-bg]#lead directing??# +
+                [orange-bg]#save suggesting??#
+|===
 
 [#bogust]
 === Bogust
