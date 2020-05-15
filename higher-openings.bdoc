@@ -186,7 +186,7 @@ positive values with a double or penalty pass.
 
 | new suit || COV (lead-directing) with fit
 | raise    || A or K (lead-directing)
-| redouble | &#x25c0; | run-out to long suit +
+| redouble | &#x25c0; | run-out to long suit, _or_ +
                   raise without A or K
 | jump shift || [orange-bg]#lead directing??# +
                 [orange-bg]#save suggesting??#
@@ -216,7 +216,9 @@ Bogust also applies when: +
 [%autowidth,cols="3*<",grid="none]
 |===
 |  2M   | !2NT! |
-| !3C!*  | !3D!{superdag} | {emsp}* max, {superdag} asking
+| [nobr]#!!3C!!*# 
+        | [nobr]#!!3D!!{superdag}#
+                | {biglowast} max,{emsp} &dagger; asking
 |  ?    |       |
 | 3M    |       | very-good suit (AKJxxx or AQJxxx) with Q or QJ on side
 | 3NT   |       | moderate suit, scattered values
