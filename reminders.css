@@ -632,6 +632,14 @@ sup.footnote a:active, sup.footnoteref a:active { text-decoration: underline; }
 
 div.unbreakable { page-break-inside: avoid; }
 
+/* Kel - use Noto+Sans+Symbols for suit-symbols (web-font)
+       - some systems might have older Noto+Sans=Symbols2 installed
+*/
+
+.cardsuit { font-family: "Noto Sans Symbols", sans-serif;
+	    font-weight: normal; font-style: normal; line-height: 1;
+	  }
+
 /* Kel - draw oval around character */
 .OvalBox {
     border-radius: 50%;
@@ -653,6 +661,7 @@ div.unbreakable { page-break-inside: avoid; }
 .githubblue { color: #0366d6; }
 
 .big { font-size: larger; line-height: 0; }
+.bigger { font-size: 150%; line-height: 0; }
 
 .small { font-size: smaller; }
 
@@ -796,6 +805,7 @@ div.unbreakable { page-break-inside: avoid; }
 .higher { bottom: 0.0625em; line-height: 0; position: relative; vertical-align: baseline; }
 .vhigher { bottom: 0.5ex; line-height: 0; position: relative; vertical-align: baseline; }
 .vlower { bottom: -0.125em; line-height: 0; position: relative; vertical-align: baseline; }
+.vvlower { bottom: -0.33em; line-height: 0; position: relative; vertical-align: baseline; }
 .vraise {vertical-align: 8%; }
 .vvraise {vertical-align: 12.5%; }
 .ssmall { font-size: 75%; }
