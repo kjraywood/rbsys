@@ -83,14 +83,14 @@ strain in which we are likely to play.
 | 2S  | forces 2NT, fewer than four spades +
 	> 3C = 5-card Stayman, not four spades +
 	{emsp}{thinsp}3D = transfer to hearts w/o spades +
-	{emsp}{thinsp}3H = strong with clubs +
-	{emsp}{thinsp}3S = strong with diamonds
-| 2NT | weak with clubs or strong both minors
+	{emsp}{thinsp}3H = #strong with clubs# +
+	{emsp}{thinsp}3S = #strong with diamonds#
+| 2NT | #weak with clubs,# _or_
+        [nobr]#strong with both minors#
 | 3C  | Stayman with spades
 | 3D  | transfer to hearts with spades
         [nobr]#= 5{OrMore}{xtimes}{H}, 4*{S}# +
 | 3H,3S | stiff with 3{xtimes}oM
-| 3NT | big 2-suiter
 |===
 
 // NOTE:  3D includes one Smolen shape; 4*{S}, 5*{H}. The other (5*{S}, 4*{H})
@@ -128,7 +128,7 @@ So opener bids 3S to set trump with either four or five spades.
 |===
 |  3H  |  ?    || 4*{H}
 |      | !3S!  || {blueRarrow} 3NT
-|      | !3NT! || agrees {H}
+|      | !3NT! || #agrees {H}#
 |===
 
 [%autowidth,cols="2*^,2*<",grid="none"]
@@ -150,7 +150,6 @@ Following 3NT showing five hearts, we
 |       | !4H! || #DIAMONDS, slam interest# +
 	          > 4S = KC for {D} +
 	          {emsp}{thinsp}4NT = negative
-|       | !4S! || kickback for {H}
 |===
 
 === Five-card Stayman without four spades
@@ -204,16 +203,16 @@ Therefore #simple 5-card-Stayman responses#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|    | 1{star} ||
-| 1M |  !2NT!  || 16{OrMore} HCP, 
-                 [nobr]#{lflatb} 4{xtimes}M {or}
-		       6{OrMore}{xtimes}{star}, 2{OrLess}{xtimes}M {rflatb}#
+|    | 1{btrfly} ||
+| 1M |  !2NT!    || 16{OrMore} HCP, 
+                    [nobr]#{lflatb} 4{xtimes}M {or}
+		           6{OrMore}{xtimes}{btrfly}, 2{OrLess}{xtimes}M {rflatb}#
 |===	    
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|    |  1{star}  ||
-| 1M | !3{star}! || 6{OrMore}{xtimes}{star}, 3*M
+|    |  1{btrfly}  ||
+| 1M | !3{btrfly}! || 6{OrMore}{xtimes}{btrfly}, 3*M
 |===	    
 
 == Romex Stayman
