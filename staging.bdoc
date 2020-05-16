@@ -86,7 +86,7 @@ strain in which we are likely to play.
 	{emsp}{thinsp}3H = #strong with clubs# +
 	{emsp}{thinsp}3S = #strong with diamonds#
 | 2NT | #weak with clubs,# _or_
-        [nobr]#strong with both minors#
+        ##[nobr]#strong with both minors# ##
 | 3C  | Stayman with spades
 | 3D  | transfer to hearts with spades
         [nobr]#= 5{OrMore}{xtimes}{H}, 4*{S}# +
@@ -203,16 +203,16 @@ Therefore #simple 5-card-Stayman responses#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|    | 1{btrfly} ||
-| 1M |  !2NT!    || 16{OrMore} HCP, 
-                    [nobr]#{lflatb} 4{xtimes}M {or}
-		           6{OrMore}{xtimes}{btrfly}, 2{OrLess}{xtimes}M {rflatb}#
+|    | 1{strawberry} ||
+| 1M | !2NT! || 16{OrMore} HCP, 
+                [nobr]#{lflatb} 4{xtimes}M {or}
+	              6{OrMore}{xtimes}{strawberry}, 2{OrLess}{xtimes}M {rflatb}#
 |===	    
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|    |  1{btrfly}  ||
-| 1M | !3{btrfly}! || 6{OrMore}{xtimes}{btrfly}, 3*M
+|    |  1{strawberry}  ||
+| 1M | !3{strawberry}! || 6{OrMore}{xtimes}{strawberry}, 3*M
 |===	    
 
 == Romex Stayman
