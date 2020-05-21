@@ -1,15 +1,13 @@
 :sectnumoffset: 2
 
-= NoTrump Openings
+= One NoTrump Opening
 
-== 1NT Opening
-
-=== Overview
+== Responses to 1NT
 
 [%autowidth,cols="^,<",grid="none"]
 |===
 | 2C    | Stayman, promises a 4-card major, Smolen, Baze,
-          [nobr]#delayed Texas & Gerber#
+          [nobr]#delayed Texas#
 | 2D,2H | Jacoby transfer +
           [nobr]#{tribull} 2^nd^-round transfers,#
 	  _ incl. 2NT = 4{OrMore}{xtimes}{C}
@@ -26,7 +24,7 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 			   3NT{thinsp}={thinsp}neg.#
 | 3H,3S | stiff with 3{xtimes}oM
 | 3NT   | to play
-| 4C    | Gerber
+| 4C    | #ConFit#
 | 4D,4H | Texas
 | 4S    | Slam try, both minors (4-4 or 5-4)
 | 4NT   | Quant.
@@ -83,21 +81,78 @@ iCS maximises the chances that opener declares.
             | Stayman then Smolen
 |===
 
-=== Stayman
+=== Mackay-Lite (4S = quant. with 4-4 or 5-4 minors)
 
-@ Promises a 4-card major
-@ Includes 5*{S}, inv. (bal. or 5-5)
+Used when responder needs to know min. vs max and also
+wants to seek a minor-suit fit.
 
-==== Rebids
+Opener discourages with 4NT, or shows aces (03-14-2).
 
-@ 2H = inverted Crawling-Stayman
-_ #( {S}-length {ge} {H}-length )# +
-@ 2S = inv
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT | !4S!      | | slam-try, 4-4 or 5-4 minors
+|   ?  |           | |
+|  4NT |        2+<| discouraging +
+3+<| !5C!,!5D!,!5H! <| Aces (03-14-2) +
+                    <| > 4S {blueRarrow} 5NT
+|===
+
+Following a discouraging 4NT, responder may still seek a minor-suit
+slam with a forcing 5NT.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT  | !4S! | {emsp}slam-try, 4-4 or 5-4 minors
+|  4NT  | ? 2+<| discouraging
+|       |  P   || to play
+|       | 5NT  || at least 4-4 minors, FORCING
+|    2+<| __other__
+               <| [orange-bg]#not in use#
+|===
+
+Following an ace-showing response sign-off is via 5S forcing 5NT.
+
+Responder may also seek a minor-suit fit.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT  | !4S! | {emsp}slam-try, 4-4 or 5-4 minors
+| !{lab}Aces{rab}!
+        |  ?   ||
+|       | !5S! || forces 5NT +
+                  > pass = to play +
+		  > !6C! = 5*{D}, 4*{C}
+|       | !5NT! || 4-4 minors, FORCING
+|       | !6C!  || 6*{C}, 4*{D}
+|===
+
+=== ConFit (4C)
+
+Used with balanced or semi-balanced hands when
+[nobr]#minimum total HCP = 32{ndash}33#
+
+Opener shows controls (A=2, K=1), then we seek a fit
+
+After 1NT opening, the lowest response (4D) shows FOUR or FEWER
+
+Details in: <<slam-conventions.adoc#confit,Slam Conventions / ConFit>>
+
+== Stayman
+
+@ promises a 4-card major
+@ includes 5*{S} inv. (bal. or 5-5)
 @ Smolen
-@ delayed Gerber & Texas
 @ Baze
+@ delayed Texas
 
-==== Invitational 2S rebid
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1NT   | !2C! ||
+| !2D!  |  2H  || inverted Crawling-Stayman
+                  [nobr]#( {S}-length {ge} {H}-length )#
+|===
+
+=== Invitational 2S rebid
 
 @ only way to invite with 5*{S}
 @ can be balanced or unbalanced;
@@ -115,7 +170,7 @@ _ possibly 5-5 shape
 | 4S    |      | max, 3*{S}
 |===
 
-==== Baze
+=== Baze
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -123,11 +178,11 @@ _ possibly 5-5 shape
 | 2M  |  ?    | |
 |     | !3oM! | | M fit, slam-inv, unspecified{nbsp}shortness +
                   {tribull} next step asks
-|     | !4C!  | | M fit, KC ask (not Gerber)
+|     | !4C!  | | M fit, #KC ask#
 |     | !4D!  | | M fit, slam-inv, no{nbsp}shortness +
                   > 4M by O = decline +
-                  > #4oM by O = accept, KC ask# +
-                  > 4NT by O = min, to play
+                  _ #4oM by O = accept, KC ask# +
+                  _ 4NT by O = min, to play
 |===
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
@@ -202,9 +257,9 @@ It's possible to miss a 4{hyph}-4 major-suit fit when responder rebids
 |  3D   |     | 5*{D}, 4*M, short {C}, GF
 |===
 
-=== Jacoby transfers
+== Jacoby transfers
 
-==== Super Accepts
+=== Super Accepts
 
 ALERT: Unusual treatment
 
@@ -239,7 +294,7 @@ occurs more frequently then a max.
 We attempt to increase accuracy in the more frequent case.
 ====
 
-==== Second-round transfers
+=== Second-round transfers
 
 {reference} https://justinlall.wordpress.com/2005/06/20/transfer-extensions/[
 _Transfer Extensions_]
@@ -299,12 +354,12 @@ from: +
 @ new-suit = own 5-card suit
 @ 3NT = no fit, offer to play
 
-==== Self splinter
+=== Self splinter
 
 Following a normal accept, a jump-shift rebid by responder =
 self-splinter slam-try
 
-==== Balanced slam-try
+=== Balanced slam-try
 
 Transfer then double-raise to 4M show a balanced slam-try with a
 5-card major.
@@ -427,7 +482,7 @@ responder shows that control and is a slam try with preference to
 declare.
 
 [#minor-suit-transfers]
-=== Minor-suit transfers
+== Minor-suit transfers
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -445,7 +500,7 @@ declare.
 | !3D!  |      | pre-accept ({D}Qxx or better)
 |===
 
-==== Rebids with strong hands
+=== Rebids with strong hands
 
 @ new-suit = shortness
 >> opener assumes COG +
@@ -456,45 +511,14 @@ declare.
 A 3NT rebid is generally to play, but opener may continue with
 undisclosed extras following a previous-round min or pre-decline.
 
-=== Quant. 4S with 4-4 or 5-4 minors
-
-Responder uses !4S! to investigate slam, holding 4-4 or 5-4 in the
-minors
-
-Opener discourages with 4NT, or shows aces (03-14-2).
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1NT | !4S! | {emsp}slam-try, 4-4 or 5-4 minors
-|   ?  |      |
-|  4NT |      | discouraging
-2+<| !5C!,!5D!,!5H! | Aces (03-14-2)
-|===
-
-
-
-Irrespective of O’s response, R can sign off in 5NT (by using ‘5S’ relay) if off 2 Aces, or he can show his holding in the minors if still interested in slam.
-
- 
-
-1NT/2NT           ‘4S’
-
-4NT                              Discouraging
-
-5C/5D/5H          ‘5S’       relay to 5NT. R can pass or bid ‘6C’ showing 5 diamonds + 4 clubs.
-
-(# Aces)            ‘6C’       shows 5 clubs + 4 diamonds
-
-                        ‘5NT’     shows 4-4 minors FORCING
-
-=== Interference over 1NT
+== Interference over 1NT
 
 Texas is ON when the interference is _below_{thinsp} 2NT.
 
 When the interference is 2NT or higher, we treat the situation
 similarly to when they make a preemptive opening-bid in that strain.
 
-==== Vs penalty double
+=== Vs penalty double
 
 Transfers are on, redouble is one minor, 2C is both majors, and 2NT is
 both minors.
@@ -522,13 +546,13 @@ to compete to the 3-level.
 | !3m!  || 6*m + 4*{H}
 |===
 
-==== Vs natural 2C (single suit)
+=== Vs natural 2C (single suit)
 
 @ dble = take-out
 >> subsequent cue (3C) requests stopper +
 @ other system ON
 
-==== Vs artificial double or 2C
+=== Vs artificial double or 2C
 
 Includes 2C = {C} + other (known or unknown)
 
@@ -538,9 +562,8 @@ Includes 2C = {C} + other (known or unknown)
 We can pass to discover an unspecified suit, then use our normal agreements
 vs interference (take-out double, Unified Lebensohl).
 
-==== Vs 2D, 2H or 2S (any)
+=== Negative double thru 3S
 
-Double = negative +
 {reference}
 https://sites.google.com/site/psmartinsite/Home/bridge-articles/countering-notrump-interference[
 _Countering Notrump Interference_]
@@ -551,21 +574,81 @@ _ #as though the interference was natural# +
 @ creates force to 2{S}
 >> subsequent doubles are penalty
 
+=== Vs 2D
+
+#Standard Lebensohl#, except that a direct 3C is invitational (NF).
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1NT  | (2D) |  ?    ||
+|      |      |  X    || negative
+|      |      |  2M   || natural sign-off
+|      |      | !2NT! || Leb.
+|      |      |  3C   || natural, #inv.#
+|      |      | !3D!  || Stayman without a stopper
+|      |      |  3M   || 5-card suit, #FORCING#
+|      |      |  3NT  || to play
+|===
+
+Direct and delayed (via 2NT) cue-bids of 3D depend on the meaning of
+their 2D
+
+====  Classification of their 2D
+
+[%autowidth,cols="^.^s,2*<.^",grid="all"]
+|===
+| natural | shows diamonds | includes 2-suiters with diamonds
+| artificial | does not show diamonds | includes 2-suiters which might have diamonds
+|===
+
+==== vs artificial 2D
+
+If their 2D does not show diamonds, then our 3D bids are natural.
+
+[%autowidth,cols="^.^s,<.^",grid="all"]
+|===
+| direct 3D   | natural inv.
+| 2NT then 3D | natural weak
+|===
+
+==== vs natural 2D
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1NT  | (2D) |  ?    |     |
+|      |      | !2NT! |     | Leb.
+|      |      |  3C   |     | natural, #inv.#
+|      |      | !3D!  |     | Stayman without a stopper
+|      |      |  3M   |     | 5-card suit, #FORCING#
+|      |      | !3NT! |     | No 4cM, No {D}-stopper
+|      |      | !4C!  |     | [orange-bg]#????#
+|      |   2+<| !!4D!!,!!4H!!
+                           <| Texas transfer
+|      |      
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|  1NT | (2D) | !2NT! | (P) |
+| !3C! | (P)  |  ?    |     |
+|      |      |  3C   |     | natural, weak
+|      |      | !3D!  |     | Stayman with a stopper
+|      |      |  3M   |     | inv. (usually a 6-card suit)
+|      |      | !3NT! |     | to play with {D}-stopper
+|===
+
+=== Vs 2M
+
 2M is to play except when the opps have promised at least five in the
 suit (_e.g._{thinsp} they play transfers vs our 1NT); then it is
 Michaels.
 
 Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
 
-// If the interference shows two known suits, we do not try to sort out
-// stoppers in both suits.  We let them guess which suit to lead.
+NOTE: If the interference shows two known suits, we do not try to sort out
+      stoppers in both suits.  We let them guess which suit to lead.
 
-// If the interference shows a known 5-card suit and an unknown second
-// suit (typically known 5-card major and unknown minor), then bidding
-// that suit is a stopper-asking cue-bid.
-// However, 3NT by responder neither confirms nor denies a stopper.
-
-==== Vs 2NT (minors)
+=== Vs 2NT (minors)
 
 Similar to our defence to a 2NT opening that shows both minors
 
@@ -575,9 +658,6 @@ Similar to our defence to a 2NT opening that shows both minors
 _ (3C = wk{or}str, 3D = medium) +
 @ 3M is competetive (NF)
 @ #Namyats at the 4-level#
-
-
-//.
 
 ****
 {note1}{emsp}Subsequent doubles are penalty because 1NT-(2NT)-X
@@ -603,7 +683,7 @@ established the balance of power.
 2+<| 4H,4S <| to play
 |===
 
-==== Vs 3m
+=== Vs 3m
 
 {important} [blue]#3{lab}unbid-suit{rab} = NF#
 
@@ -622,7 +702,7 @@ to natural 2m or 3m openings.
 3+<| 4H,4S <| to play
 |===
 
-==== Vs 3M
+=== Vs 3M
 
 Similar to vs their opening 3M, we play #non-leaping michaels# except
 that 4NT is natural; not both minors-weak.
@@ -638,53 +718,4 @@ that 4NT is natural; not both minors-weak.
 | 4oM  ||| to play
 | 4M   ||| both minors, decent hand
 | 4NT  ||| #natural, inv.#
-|===
-
-== 2NT Opening
-
-Regular Stayman and non-jump Smolen.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 2NT | !3S! | | forces 3NT
-| 3NT |  ?   | |
-|     | pass | | to play
-|     |  4m  | | <<slam-conventions.adoc#optional-minorwood,
-                     optional minorwood>>
-|     | !4M! | | stiff with three in other major
-|     |  4NT | | both minors weak
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  2NT | !3NT! | | at least 5-5 minors, slam inv.{OrMore}, F
-|  ?   |       | |
-| !4m! |       | | #straight minorwood#
-|  4NT |       | | decline
-|===
-
-=== Both majors
-
-Transfer to {S} then 4H
-_ = 5-5 majors, game only
-
-Transfer to {H} then 3S
-_ = 5-5 Majors, slam inv. +
-> 3NT = poor for majors,{ensp} 4C = {H},{ensp} 4D = {S}
-
-=== Major-minor
-
-{warning} [xemph]#Minimal agreements# +
- +
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  2NT      | !3R! | {ensp} transfer
-|  3M       |  4m  | {ensp} 2^nd^ suit
-|  ?        |      |
-|  4M       |      | fit in M
-|  4NT      |      | no fit
-| cheapest +
-  new-suit  |      | fit in m, slam suitable
-                     > responder shows KC
 |===

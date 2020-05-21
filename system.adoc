@@ -2,7 +2,9 @@
 
 include::overview.adoc[]
 
-include::notrump.adoc[]
+include::one-notrump.adoc[]
+
+include::other-notrump.adoc[]
 
 include::suit-openings.adoc[]
 

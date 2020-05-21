@@ -2,7 +2,9 @@
 
 <<overview.adoc#, *System Overview*>>
 
-<<notrump.adoc#, *NoTrump Openings*>>
+<<one-notrump.adoc#, *One NoTrump Opening*>>
+
+<<other-notrump.adoc#, *Other NoTrump Openings*>>
 
 <<suit-openings.adoc#, *Suit Openings*>>
 
@@ -10,21 +12,15 @@
 
 <<checkback.adoc#, *2-Way Checkback and Wolff Sign-off*>>
 
-<<higher-openings.adoc#, *Higher Opening Bids*>> +
-{tribull}{nbsp}<<higher-openings.adoc#mccabe,
-  [.green.nobr]## __McCabe__, updated 2020-05-08 ##>> 
+<<higher-openings.adoc#, *Higher Opening Bids*>>
 
 <<slam-conventions.adoc#, *Slam Conventions*>>
 
 <<defensive-bidding.adoc#, *Defensive Bidding*>>
 
-<<competitive-bidding.adoc#, *Competitive Bidding*>> +
-{tribull}{nbsp}<<competitive-bidding.adoc#doubling-artificial-bids,
-  [.green.nobr]## __Doubling Artificial Bids__, new 2020-05-08 ##>> 
+<<competitive-bidding.adoc#, *Competitive Bidding*>>
 
-<<defence.adoc#, *Leads and Carding*>> +
-{tribull}{nbsp}<<defence.adoc#signal_on_ace_lead_vs_suit,
-  [.green.nobr]## __A from AK vs suits__, updated 2020-05-09 ##>> 
+<<defence.adoc#, *Leads and Carding*>>
 
 '''
 
@@ -32,6 +28,4 @@
 
 <<reminders.adoc#, __Reminders__>>
 
-<<staging.adoc#, __Potential agreements__>> +
-{tribull}{nbsp}<<staging.adoc#mexican,
-  [.green.nobr]## __Mexican 2D__, new 2020-05-09 ##>> 
+<<staging.adoc#, __Potential agreements__>>
