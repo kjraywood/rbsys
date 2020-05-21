@@ -10,8 +10,6 @@
 
 <<uncontested-auctions.adoc#, *Uncontested Auctions*>>
 
-<<checkback.adoc#, *2-Way Checkback and Wolff Sign-off*>>
-
 <<higher-openings.adoc#, *Higher Opening Bids*>>
 
 <<slam-conventions.adoc#, *Slam Conventions*>>

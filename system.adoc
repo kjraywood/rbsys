@@ -10,8 +10,6 @@ include::suit-openings.adoc[]
 
 include::uncontested-auctions.adoc[]
 
-include::checkback.adoc[]
-
 include::higher-openings.adoc[]
 
 include::slam-conventions.adoc[]

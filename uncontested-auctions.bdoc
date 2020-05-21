@@ -1,6 +1,6 @@
 :sectnumoffset: 16
 
-= Suit Auctions
+= Uncontested Auctions
 
 == After 1m{ndash}1M{semicolon}2M
 
@@ -402,6 +402,185 @@ major.
 | !3H! |      | accept {D} inv., reject {H} inv.
 | !3S! |      | accept both
 | 3NT  |      | max with values in {S} and {C}
+|===
+
+== Two-Way Checkback
+
+{reference} https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html[
+_Two-Way Checkback Stayman_]
+__ {nbsp}{ndash}{nbsp} Andrew Gumperz
+
+@ ON after both minors or both majors
+@ ON vs take-out double by either opp +
+@ #OFF if either opp has shown a suit#
+>> cue = GF, jumps are inv +
+
+*Passed hand*
+@ 2C{thinsp}{forces}{thinsp}2D ON
+@ 2D = natural weak, 5*M
+
+=== Weak with both majors
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1m  || 1S ||
+| 1NT || 2H || 5*{S}, 4{OrMore}{xtimes}{H}, weak
+|===
+
+Opener chooses between pass and a preference to 2S.
+
+=== Inv with both majors
+
+Invitational with 4{ndash}4 majors is shown directly.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1m  || 1H ||
+| 1NT || 2S || 4*{S}, 4*{H}, inv
+|===
+
+Going though the minor-suit relay shows five cards in the first suit.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|  1m  || 1H   ||
+|  1NT || !2C! ||
+| !2D! || 2S   || 4*{S}, 5*{H}, inv
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|  1m  ||  1S  ||
+|  1NT || !2C! ||
+| !2D! ||  2H  || 5*{S}, 4*{H}, inv
+|===
+
+A jump after the relay shows extra length.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|  1m  ||  1S  ||
+|  1NT || !2C! ||
+| !2D! ||  3H  || 5*{S}, 5*{H}, inv
+|===
+
+=== Second-round jumps
+
+These are picture-bids, providing opener with an accurate description
+of responder's hand.
+
+*Second suit:*{thinsp} 5-5 with most values in the long suits. Slam is
+possible if the hands fit well.
+
+*Rebid of own suit:*{thinsp} A one-loser suit or just setting trump
+for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
+4M).
+
+==== Summary
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1m  | 1S       |
+| 1NT | {ensp}?  |
+|     | 3C,3D,3H | 5-5, good suits
+|     | 3S       | 1-loser suit, or set trump for KC ask
+|===
+
+=== Choice-of-game
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1C   |  1H   | |
+| 1NT  | !2C!  | |
+| !2D! | !3NT! | | Choice of game
+|===
+
+_e.g._{thinsp} {S}{thinsp}Kxx {H}{thinsp}KQxxx {D}{thinsp}KQx {C}{thinsp}Jx
+
+[TIP]
+====
+Using the 2C relay always invites something.
+Here it invites opener to bid 4M with a good hand for suit play.
+====
+
+=== Game-forcing Checkback
+
+Priorities: +
+@ Majors up the line +
+@ 3m = good 5 or 6 card suit +
+@ 2NT = none of the above
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  |  1S  | |
+| 1NT | !2D! | |
+| 2H  |  ?   | |
+|     | 2S   | | 5{orMore}{xtimes}{S}
+|     | 2NT  | | no fit, requests further description
+|     | 3H   | | slam try in {H}
+|     | 4H   | | sign off
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D  |  1S  | |
+| 1NT | !2D! | |
+| 2NT |  ?   | |
+|     | 3C   | | 4*{C}
+|     | 3H   | | 5-5 Majors, non-pure
+|===
+
+==== Slam trys and non-serious 3NT
+
+If we have agreed a major at the three level, and responder has
+indicated preference for suit-play over notrump by not using a COG
+sequence, then non-serious 3NT applies.
+By opener it indicates non-max, but not terrible for slam.
+By responder it is a mild slam-try, indicating that opener needs a
+fitting max for slam to be good.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D   |  1S  |
+|  1NT  | !2D! |
+|  2S   |  3S  |
+| !3NT! |      | cooperative (non-serious)
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D   |  1H   | |
+|  1NT  | !2D!  | |
+|  2H   |  2S   | |
+|  3S   | !3NT! | | mild slam try
+|===
+
+=== Game-forcing with a fit for opener's minor
+
+Responder relays with 2NT then bids again, to show four-cards in
+opener's minor and GF strength; possibly slammish.
+Responder's suits are usually 4-4 (M-m) because: +
+@ 4-5
+>> inverted minor on first round +
+@ 5-5 (pure)
+>> jumps to 3m +
+@ 5-4 or non-pure 5-5
+>> 2D (GF checkback)
+
+*Exception:* There is a special sequence for 5-4 with two weak
+doubletons, allowing opener to choose 3NT to protect tenaces in those
+suits.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  |  1M   | |
+| 1NT | !2NT! | | forces 3C
+| 3C  | ?     | |
+|     | pass  | | to play
+|     | !3D!  | | 4*m, _other-minor_{thinsp} singleton
+|     | !3oM! | | 4*m, _other-Major_{thinsp} singleton
+|     | !3M!  | | #5*M + 4*m, xx in others#, COG
+|     | !3NT! | | 4*M + 4*m, no singleton, slam try
 |===
 
 == Reverses

@@ -65,7 +65,7 @@ strain in which we are likely to play.
 |===
 | P   | weak with diamonds
 | 2H  | transfer to spades +
-	{tribull} <<notrump.adoc#_second_round_transfers,
+	{tribull} <<one-notrump.adoc#_second_round_transfers,
 	            2^nd^-round-transfer>> methods,
 	__ except 3S {blueRarrow} 3NT
 | 2S  | forces 2NT, fewer than four spades +

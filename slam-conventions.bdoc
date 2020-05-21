@@ -1,4 +1,4 @@
-:sectnumoffset: 25
+:sectnumoffset: 24
 
 = Slam Conventions
 
@@ -57,7 +57,7 @@ Opposite a notrump hand, we use _optional minorwood_.
 |===
 
 It applies after
-<<notrump.adoc#minor-suit-transfers, transferring to a minor>>
+<<one-notrump.adoc#minor-suit-transfers, transferring to a minor>>
 .
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -66,8 +66,8 @@ It applies after
 | 3C,{thinsp}3D | !4D!  | | optional minorwood
 |===
 
-It also applies in some <<notrump.adoc#2nt-opening, 2NT auctions>>
-and some <<checkback.adoc#wolff, Wolff Sign-Off>> sequences.
+It also applies in some <<other-notrump.adoc#2nt-opening, 2NT auctions>>
+.
 
 // == General Principles for RKC
 
