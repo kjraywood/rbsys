@@ -698,13 +698,47 @@ double.
 
 Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
 
-=== Gerber
+[#confit]
+=== ConFit
 
-Applies after
-@ 1NT and 2NT openings
-@ 1NT rebids
+ALERT: Replaces Gerber
 
-&Responses:&{thinsp} 04, 1, 2, 3
+Applies after: +
+@ 1NT opening
+@ Mexican 2D opening
+@ 2NT family openings
+
+Used with balanced or semi-balanced hands when
+[nobr]#minimum total HCP = 32{ndash}33#
+
+Opener shows controls (A=2, K=1), then we seek a fit
+
+After 1NT opening, the control showing responses start at #FOUR or fewer#
+
+After other NT openings, the control showing responses start at #SIX or fewer#
+
+[%autowidth,cols="2*^.^,<",grid="none",stripes="odd"]
+|===
+| 2NT | !4C! |
+| ?   | |
+| 4D  | | 6 controls or fewer
+| 4H  | | 7
+| 4S  | | 8
+| 4NT | | 9
+2+<| 5{lab}suit{rab} <| 10 controls, biddable suit
+| 5NT | | 11 controls
+|===
+
+[%autowidth,cols="2*^.^,<",grid="none",stripes="odd"]
+|===
+| 2NT | !4C! |
+| 4D  | !4H! | asking
+| ?   | |
+| 4S  | | 4
+| 4NT | | 5
+2+<| 5{lab}suit{rab} <| 6 controls, biddable suit
+| 5NT | | 6 controls, no biddable suit
+|===
 
 === Cheap Key-Card after preempts
 
