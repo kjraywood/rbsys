@@ -178,8 +178,6 @@ positive values with a double or penalty pass.
 [#mccabe]
 === McCabe
 
-[green-box]#Updated {ndash} May 14, 2020#
-
 [%autowidth,cols="<.^s,>.^,<",grid="none"]
 |===
 3+^d| vs double of weak two
