@@ -8,7 +8,7 @@
 
 <<suit-openings.adoc#, *Suit Openings*>>
 
-<<suit-auctions.adoc#, *Suit Auctions*>>
+<<uncontested-auctions.adoc#, *Uncontested Auctions*>>
 
 <<checkback.adoc#, *2-Way Checkback and Wolff Sign-off*>>
 
