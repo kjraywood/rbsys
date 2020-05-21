@@ -102,7 +102,7 @@ slam with a forcing 5NT.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1NT  | !4S! | {emsp}slam-try, 4-4 or 5-4 minors
+|  1NT  | !4S! || slam-try, 4-4 or 5-4 minors
 |  4NT  | ? 2+<| discouraging
 |       |  P   || to play
 |       | 5NT  || at least 4-4 minors, FORCING
@@ -116,12 +116,12 @@ Responder may also seek a minor-suit fit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1NT  | !4S! | {emsp}slam-try, 4-4 or 5-4 minors
-| !{lab}Aces{rab}!
+|  1NT  | !4S! || slam-try, 4-4 or 5-4 minors
+| {lab}!!Aces!!{rab}
         |  ?   ||
 |       | !5S! || forces 5NT +
                   > pass = to play +
-		  > !6C! = 5*{D}, 4*{C}
+		  _ !6C! = 5*{D}, 4*{C}
 |       | !5NT! || 4-4 minors, FORCING
 |       | !6C!  || 6*{C}, 4*{D}
 |===
@@ -133,9 +133,9 @@ Used with balanced or semi-balanced hands when
 
 Opener shows controls (A=2, K=1), then we seek a fit
 
-After 1NT opening, the lowest response (4D) shows FOUR or FEWER
+After 1NT opening, the lowest response (4D) shows #FOUR or FEWER#
 
-Details in: <<slam-conventions.adoc#confit,Slam Conventions / ConFit>>
+{link}{ensp}<<slam-conventions.adoc#confit, *Details*>>
 
 == Stayman
 
