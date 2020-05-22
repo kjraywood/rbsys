@@ -105,12 +105,14 @@ slam with a forcing 5NT.
 |  1NT  | !4S! || slam-try, 4-4 or 5-4 minors
 |  4NT  | ? 2+<| discouraging
 |       |  P   || to play
-|       | 5NT  || at least 4-4 minors, FORCING
+|       | 5NT  || FORCING
+                  > opener bids a 4-card minor
+		  _ or 6NT
 |    2+<| __other__
                <| [orange-bg]#not in use#
 |===
 
-Following an ace-showing response sign-off is via 5S forcing 5NT.
+Following an ace-showing response, sign-off is via 5S forcing 5NT.
 
 Responder may also seek a minor-suit fit.
 
@@ -123,8 +125,11 @@ Responder may also seek a minor-suit fit.
                   > pass = to play +
 		  _ !6C! = 5*{D}, 4*{C}
 |       | !5NT! || 4-4 minors, FORCING
-|       | !6C!  || 6*{C}, 4*{D}
+|       | !6C!  || 5*{C}, 4*{D}
 |===
+
+TIP: With 5-4 minors, responder shows longer clubs directly and
+     shorter clubs indirectly.
 
 === ConFit (4C)
 
@@ -395,7 +400,6 @@ The focus is on a stopper in the doubled suit.
 _ and A or K of doubled suit +
 @ pass promises a stopper +
 @ redouble = no stopper
-
 ==== Opener accepts the transfer
 
 We have set trump so responder continues with natural methods
@@ -405,7 +409,8 @@ to make game or slam tries.
 
 ==== Opener passes
 
-Opener has shown a stopper so we can can resume our normal auction.
+Opener has shown a stopper #(could be QJx with fit)# so we can can
+resume our normal auction.
 Responder can redouble to re-transfer but must have at least two cards
 in the transfer suit in case opener has a stack and passes.
 
@@ -574,9 +579,44 @@ _ #as though the interference was natural# +
 @ creates force to 2{S}
 >> subsequent doubles are penalty
 
-=== Vs 2D
+=== Vs 2D natural single-suiter
 
-#Standard Lebensohl#, except that a direct 3C is invitational (NF).
+#Standard Lebensohl# except that a direct 3C is invitational (NF).
+
+3M is #forcing# as per standard Leb. and #denies a stopper#.
+
+With 5-card major + diamond-stopper + GF, start with a negative double
+and follow with 3M.
+The neg. double can be off-shape because responder will be able to
+control the auction.
+
+// Direct and delayed (via 2NT) cue-bids of 3D depend on the meaning of
+// their 2D.
+
+// ====  Classification of their 2D
+
+// [%autowidth,cols="^.^s,2*<.^",grid="all"]
+// |===
+// | natural | shows diamonds | single-suiter
+// | 
+// includes 2-suiters with diamonds
+// | artificial | does not show diamonds | includes 2-suiters which might have diamonds
+// |===
+
+// ==== vs artificial 2D
+
+// If their 2D does not show diamonds, then our 3D bids are natural.
+
+// [%autowidth,cols="^.^s,<.^",grid="all"]
+// |===
+// | direct 3D   | natural inv.
+// | 2NT then 3D | natural weak
+// |===
+
+// Other bids are the same as vs natural 2D except that we #ignore
+// stoppers vs 2-suiters#.
+//
+// ==== vs natural 2D
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -584,58 +624,25 @@ _ #as though the interference was natural# +
 |      |      |  X    || negative
 |      |      |  2M   || natural sign-off
 |      |      | !2NT! || Leb.
-|      |      |  3C   || natural, #inv.#
+|      |      |  3C   || natural, #INV.#
 |      |      | !3D!  || Stayman without a stopper
-|      |      |  3M   || 5-card suit, #FORCING#
-|      |      |  3NT  || to play
-|===
-
-Direct and delayed (via 2NT) cue-bids of 3D depend on the meaning of
-their 2D
-
-====  Classification of their 2D
-
-[%autowidth,cols="^.^s,2*<.^",grid="all"]
-|===
-| natural | shows diamonds | includes 2-suiters with diamonds
-| artificial | does not show diamonds | includes 2-suiters which might have diamonds
-|===
-
-==== vs artificial 2D
-
-If their 2D does not show diamonds, then our 3D bids are natural.
-
-[%autowidth,cols="^.^s,<.^",grid="all"]
-|===
-| direct 3D   | natural inv.
-| 2NT then 3D | natural weak
-|===
-
-==== vs natural 2D
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| 1NT  | (2D) |  ?    |     |
-|      |      | !2NT! |     | Leb.
-|      |      |  3C   |     | natural, #inv.#
-|      |      | !3D!  |     | Stayman without a stopper
-|      |      |  3M   |     | 5-card suit, #FORCING#
-|      |      | !3NT! |     | No 4cM, No {D}-stopper
-|      |      | !4C!  |     | [orange-bg]#????#
+|      |      |  3M   || 5-card suit, #FORCING, no stopper#
+|      |      | !3NT! || No 4cM, No {D}-stopper
+|      |      | !4C!  || ConFit
 |      |   2+<| !!4D!!,!!4H!!
-                           <| Texas transfer
+                      <| Texas transfer
 |      |      
 |===
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|  1NT | (2D) | !2NT! | (P) |
-| !3C! | (P)  |  ?    |     |
-|      |      |  3C   |     | natural, weak
-|      |      | !3D!  |     | Stayman with a stopper
-|      |      |  3M   |     | inv. (usually a 6-card suit)
-|      |      | !3NT! |     | to play with {D}-stopper
-|===
+// [%autowidth,cols="4*^,<",grid="none"]
+// |===
+// |  1NT | (2D) | !2NT! | (P) |
+// | !3C! | (P)  |  ?    |     |
+// |      |      |  3C   |     | natural, weak
+// |      |      | !3D!  |     | Stayman with a stopper
+// |      |      |  3M   |     | inv. (usually a 6-card suit)
+// |      |      | !3NT! |     | to play with {D}-stopper
+// |===
 
 === Vs 2M
 
