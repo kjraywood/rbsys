@@ -278,7 +278,7 @@ Responder may have a weak four-card major in a 4333 hand.
 @ higher-ranking suit = shortness
 @ original minor = Stayman
 
-NOTE: Showing shortness to avoid a bad 3NT has higher priority than
+Showing shortness to avoid a bad 3NT has higher priority than
 Stayman because we can still find a major-suit fit when responder
 rejects notrump, but opener will be guessing if Stayman does not
 reveal a major-suit fit.
@@ -290,7 +290,7 @@ reveal a major-suit fit.
 | !3C! ||     | #Stayman#
 3+<| !!3D!!,!!3H!!,!!3S!! <| #shortness#
 |  3NT ||     | sign off
-| !4C! ||     | minorwood
+| !4C! ||     | #optional minorwood#
 |  4NT ||     | quant.
 |===
 
@@ -306,9 +306,18 @@ start with an inverted-minor raise; not 2NT.
 | !3D! ||     | Stayman
 3+<| !!3H!!,!!3S!! <| shortness
 |  3NT ||     | sign off
-| !4D! ||     | minorwood
+| !4D! ||     | #optional minorwood#
 | 4NT  ||     | quant.
 |===
+
+[NOTE]
+====
+It's unusual for a jump to be optional minorwood.
+The conditions here are: +
+@ partner has shown a balanced hand
+@ we are in a GF
+@ #a natural bid of 3m is not available#
+====
 
 ==== Same-minor Stayman
 
