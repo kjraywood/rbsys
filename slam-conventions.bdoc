@@ -706,18 +706,35 @@ ALERT: Replaces Gerber
 Applies after: +
 @ 1NT opening
 @ Mexican 2D opening
-@ 2NT family openings
+@ 2NT family openings +
+@ nebulous 2C (2/1) then 2NT rebid by
+_  either showing 15{OrMore}-17 & no singleton
 
 Used with balanced or semi-balanced hands when
 [nobr]#minimum total HCP = 32{ndash}33#
 
-Opener shows controls (A=2, K=1), then we seek a fit
+The asking bid is a jump to 4C opposite a balanced or semi-balanced hand
+of 1NT opening-strength or greater.
 
-After 1NT opening, the control showing responses start at #FOUR or fewer#
+The teller (usually opener) shows controls (A=2, K=1), then we seek a fit.
 
-After other NT openings, the control showing responses start at #SIX or fewer#
+The number of controls shown by the first step, depends on the
+point-range shown by the limited hand.
 
-[%autowidth,cols="2*^.^,<",grid="none",stripes="odd"]
+.Number of controls shown by first step
+[%autowidth,cols="2*<.^",grid="none"]
+|===
+^d| HCP range ^d| 1st-step
+
+| 15 {ndash} 17 | FOUR or fewer
+| 18 {ndash} 19 | FIVE or fewer
+| 20{OrMore}    | SIX or fewer
+|===
+
+TIP:  The in-between NT range of 18-19 starts with the in-between
+      number of controls (five).
+
+[%autowidth,cols="2*^.^,<",grid="none"]
 |===
 | 2NT | !4C! |
 | ?   | |
