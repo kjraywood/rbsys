@@ -733,10 +733,13 @@ show no preference.
 [#vs-2-suiters]
 == Vs Two-Suited Overcalls
 
-With both suits shown by intervenor responder, responder passes and
-then doubles on the next round.
+With both suits shown by intervenor, responder passes and then doubles
+on the next round.
 
 So pass then double is penalty.
+
+// It's not dangerous for responder to pass with a good hand,
+// because most opponent's play a 2-suited overcall as forcing.
 
 === Negative double
 
