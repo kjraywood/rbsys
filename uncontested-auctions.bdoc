@@ -643,8 +643,7 @@ A jump to 3H is a GF opposite the extra strength shown by opener.
 
 === Jump Reverse
 
-Game-forcing splinter
-
+Invitational splinter
 
 == Two-over-one Auctions
 
@@ -673,7 +672,7 @@ A 3-level suit-bid below 3M shows a good two suiter; at least 5-5.
 | !2D!  |      | waiting
 |  2oM  |      | natural, non-minimum
 |  2M   |      | six-card suit
-|  2NT  |      | 16{ndash}17
+|  2NT  |      | 16{ndash}17, no singleton
 2+<| 3{lab}lower suit{rab} <| #5-5, decent suits#
 |===
 
@@ -686,7 +685,7 @@ skipping a step; thus bidding 2S even when opener's major is hearts.
 | !2D!  |  ?   ||
 |       | !2H! || waiting
 |       | !2S! || 3*M
-|       |  2NT || 16{ndash}17
+|       |  2NT || 16{ndash}17, no singleton
 | 2+<| 3{lab}suit{rab} | natural, extra length or extra strength
 |===
 
