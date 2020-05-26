@@ -13,8 +13,8 @@
                     [nobr]#{tribull} opener can#
 		    _ pass or
 		    _ force
-	                        | fit-showing
-| jump{nbsp}raise | limit, incl. [nobr]#3*M + stiff# | weak splinter
+	                        | #mini-splinter#
+| jump{nbsp}raise | limit, incl. [nobr]#3*M + stiff# | #weak splinter#
 | 3M + 1       |  weak splinter, unspecified suit |
 | 1H{ndash}3NT | spade splinter |
 |===
@@ -350,13 +350,13 @@ Responder, can pass or use KC for the major.
 |      | [alert]#4M+1# || kickback
 |===
 
-TIP: This is similar to Jacoby 2NT where we show shortness at the 3-level
-     and a second suit at the 4-level.
+TIP: This is similar to Jacoby 2NT where we show shortness at the
+     3-level and a second suit at the 4-level.
 
 With a stronger hand opener rebids the original minor, as Stayman,
 and continues with four of a minor.
-This is #optional minorwood#, even if responder shows a four-card major,
-because responder has already shown a balanced hand.
+This is #optional minorwood#, even if responder shows a four-card
+major, because responder has already shown a balanced hand.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -535,8 +535,7 @@ doubles on the second.
 
 Opener pulls with a singleton in their suit, or with a doubleton and
 five cards in the opening suit.
-Opener might also bid 1NT with a doubleton if they are only at the
-1-level.
+Opener also bids 1NT with a doubleton if they are only at the 1-level.
 
 ==== Major opening
 
@@ -554,7 +553,7 @@ suitable for action on the first round.
 
 == Vs Suit Overcall
 
-=== Raises
+=== Limit Raises
 
 .Both majors at 1-level
 [%autowidth,cols="4*^,<",grid="none"]
@@ -648,17 +647,46 @@ The 3rd bid in each of the following is a 2oM NFB.
 {tribull} subsequent bid of oM by neg-doubler
 _ = 5-card suit, #2oM = inv.#, #3oM = GF#
 
-* #Jump to _four lower suit_{thinsp} = fit showing# +
- +
-[lightgrey-box]#1{S}{emsp}(2{D}){emsp}4{H}{emsp}={emsp}fit showing# +
- +
-[lightgrey-box]#1{D}{emsp}(1{S}){emsp}4{H}{emsp}={emsp}to play#
-
 ==== Passed hand
 
 No weak-two opening => +
 @ Two  _other major_{thinsp} is usually a five-card suit.
 @ Jump to 3oM = fit-showing, usually 5-5
+
+=== Fit-Showing Jumps & Splinters in comp.
+
+By an unpassed hand, a #jump to game# in a new suit is to play; #not fit-showing#.
+Therefore the highest fit-showing jumps are four of a minor.
+
+As per our 2oM NFB agreements, a #jump to 3oM# is natural and forcing;
+#not fit-showing#.
+Therefore, after we open a major and they overcall a minor, there is
+no fit-showing jump in the other major.
+
+Fit-showing jumps are #a single-jump# when a non-jump in the same suit
+would be forcing.
+
+If a double-jump in the unbid minor is below game, then it is a
+splinter.
+
+[%autowidth,cols="3*^,2*<",grid="none"]
+|===
+| 1S | (2D) |  ?   ||
+|    |      |  3C  || natural, F [nobr]#(not a jump)#
+|    |      | !4C! || #fit-showing# [nobr]#(single jump)#
+|    |      | !4D! || splinter [nobr]#(opp's suit)#
+|    |      |  4H  || to play [nobr]#(game bid)#
+|===
+
+[%autowidth,cols="3*^,2*<",grid="none"]
+|===
+| 1S | (2C) |  ?   ||
+|    |      |  2D  || natural F [nobr]#(not a jump)#
+|    |      | !3D! || #fit-showing# [nobr]#(single jump)#
+|    |      | !4C! || splinter [nobr]#(opp's suit)#
+|    |      | !4D! || splinter [nobr]#(double jump)#
+|    |      |  4H  || to play [nobr]#(game bid)#
+|===
 
 === Two over one in comp.
 
