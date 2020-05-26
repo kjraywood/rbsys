@@ -523,6 +523,18 @@ Texas is ON when the interference is _below_{thinsp} 2NT.
 When the interference is 2NT or higher, we treat the situation
 similarly to when they make a preemptive opening-bid in that strain.
 
+=== Negative double thru 3S
+
+{reference}
+https://sites.google.com/site/psmartinsite/Home/bridge-articles/countering-notrump-interference[
+_Countering Notrump Interference_]
+__ {nbsp}{ndash}{nbsp} Phillip Martin
+
+@ take-out of bid suit
+_ #as though the interference was natural# +
+@ creates force to 2{S}
+>> subsequent doubles are penalty
+
 === Vs penalty double
 
 Transfers are on, redouble is one minor, 2C is both majors, and 2NT is
@@ -564,96 +576,127 @@ Includes 2C = {C} + other (known or unknown)
 @ System ON
 @ double of 2C = Stayman
 
-We can pass to discover an unspecified suit, then use our normal agreements
-vs interference (take-out double, Unified Lebensohl).
-
-=== Negative double thru 3S
-
-{reference}
-https://sites.google.com/site/psmartinsite/Home/bridge-articles/countering-notrump-interference[
-_Countering Notrump Interference_]
-__ {nbsp}{ndash}{nbsp} Phillip Martin
-
-@ take-out of bid suit
-_ #as though the interference was natural# +
-@ creates force to 2{S}
->> subsequent doubles are penalty
+We can pass to discover an unspecified suit, then use a take-out or
+Lebensohl.
 
 === Vs 2D natural single-suiter
 
 #Standard Lebensohl# except that a direct 3C is invitational (NF).
 
-3M is #forcing# as per standard Leb. and #denies a stopper#.
+3M is #forcing# (standard Leb.) and #denies a stopper#.
+With 5cM + diamond-stopper + GF, responder starts with a negative
+double and follows with 3M.
+An off-shape neg. double is OK here responder will be able to control
+the auction.
 
-With 5-card major + diamond-stopper + GF, start with a negative double
-and follow with 3M.
-The neg. double can be off-shape because responder will be able to
-control the auction.
+3D requests a stopper for NT.
+Without a stopper, opener shows a 5-card major or bids 4C.
 
-// Direct and delayed (via 2NT) cue-bids of 3D depend on the meaning of
-// their 2D.
+NOTE: Responder denied a four-card major and a diamond stopper, so
+      usually has clubs.
 
-// ====  Classification of their 2D
+==== Responder has both majors
 
-// [%autowidth,cols="^.^s,2*<.^",grid="all"]
-// |===
-// | natural | shows diamonds | single-suiter
-// | 
-// includes 2-suiters with diamonds
-// | artificial | does not show diamonds | includes 2-suiters which might have diamonds
-// |===
-
-// ==== vs artificial 2D
-
-// If their 2D does not show diamonds, then our 3D bids are natural.
-
-// [%autowidth,cols="^.^s,<.^",grid="all"]
-// |===
-// | direct 3D   | natural inv.
-// | 2NT then 3D | natural weak
-// |===
-
-// Other bids are the same as vs natural 2D except that we #ignore
-// stoppers vs 2-suiters#.
-//
-// ==== vs natural 2D
-
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="^.^s,<.^",grid="all"]
 |===
-| 1NT  | (2D) |  ?    ||
-|      |      |  X    || negative
-|      |      |  2M   || natural sign-off
-|      |      | !2NT! || Leb.
-|      |      |  3C   || natural, #INV.#
-|      |      | !3D!  || Stayman without a stopper
-|      |      |  3M   || 5-card suit, #FORCING, no stopper#
-|      |      | !3NT! || No 4cM, No {D}-stopper
-|      |      | !4C!  || ConFit
-|      |   2+<| !!4D!!,!!4H!!
-                      <| Texas transfer
-|      |      
+| 5 {ndash} 5  |  3S (forcing) then 4H if spades are not raised
+| 5 {ndash} 4 with stopper
+               | neg. double then 3M (forcing with stopper)
+	         if a fit is not found
+| 5 {ndash} 4  without a stopper
+               | 3D (Stayman without stopper) then guess
+                 whether or not to pull to four of the 5cM
+		 if opener bids 3NT
 |===
+
+****
+.Alternative
+
+Give-up 2NT then 3M = inv. and use it for Smolen without a stopper
+****
 
 // [%autowidth,cols="4*^,<",grid="none"]
 // |===
-// |  1NT | (2D) | !2NT! | (P) |
-// | !3C! | (P)  |  ?    |     |
-// |      |      |  3C   |     | natural, weak
-// |      |      | !3D!  |     | Stayman with a stopper
-// |      |      |  3M   |     | inv. (usually a 6-card suit)
-// |      |      | !3NT! |     | to play with {D}-stopper
+// | 1NT  | (2D) |  ?    ||
+// |      |      |  X    || negative
+// |      |      |  2M   || natural sign-off
+// |      |      | !2NT! || Leb.
+// |      |      |  3C   || natural, #INV.#
+// |      |      | !3D!  || Stayman without a stopper
+// |      |      |  3M   || 5-card suit, #FORCING, no stopper#
+// |      |      | !3NT! || No 4cM, No {D}-stopper
+// |      |      | !4C!  || ConFit
+// |      |   2+<| !!4D!!,!!4H!!
+//                       <| Texas transfer
+// |      |      
 // |===
+
+=== vs artificial 2D
+
+dble = take-out of diamonds (usual meaning)
+
+==== 2D shows 5{OrMore}{xtimes}{lab}known major{rab}
+
+2{lab}known major{rab} = Michaels
+
+Other = Lebensohl, stopper refers to known major
+
+==== 2D shows a single major (unknown suit)
+
+Dble = take-out of diamonds
+
+2{lab}either major{rab} = to play
+
+3m = inv.
+
+3{lab}either major{rab} = forcing, no stopper in other major
+
+3NT = to play (stoppers in both majors??)
+
+Otherwise, pass to discover their suit, then: +
+_ dble = take-out
+_ other = Lebensohl
+
+==== 2D shows a 2-suiter
+
+We don't try to sort out stoppers in both suits.
+
+Two and three-level bids are as vs single unknown major
+
+****
+.Possible Agreement
+
+If 2D showed one known suit, and one unknown suit, then
+three of the known suit is Stayman
+****
+
+==== 2D = Suction = {H} {or} {S} + {C}
+
+With a suitable hand use a negative double
+
+Pass with some length in diamonds, then follow
+normal single-suiter or two-suiter agreements
+
+Otherwise, #assume that intervenor has hearts#
+and use Lebensohl.
 
 === Vs 2M
 
-2M is to play except when the opps have promised at least five in the
-suit (_e.g._{thinsp} they play transfers vs our 1NT); then it is
+2S is to play except vs 2H showing five or more spades; then it is
 Michaels.
 
-Other bids are <<competitive-bidding.adoc#unified-leb,Unified Lebensohl>>
+Otherwise, #standard Lebensohl# except three of either minor
+is invitational.
 
-NOTE: If the interference shows two known suits, we do not try to sort out
-      stoppers in both suits.  We let them guess which suit to lead.
+If 2M showed a two suiter in which either suit might be only
+four-cards in length, then we disregard stoppers.
+
+****
+.Possible Agreement
+
+vs 2M showing a five-card major and unknown minor, then
+Lebensohl stopper showing/dening is ON
+****
 
 === Vs 2NT (minors)
 
