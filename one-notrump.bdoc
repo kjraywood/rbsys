@@ -603,7 +603,7 @@ NOTE: Responder denied a four-card major and a diamond stopper, so
 | 5 {ndash} 4 with stopper
                | neg. double then 3M (forcing with stopper)
 	         if a fit is not found
-| 5 {ndash} 4  without a stopper
+| 5 {ndash} 4  without stopper
                | 3D (Stayman without stopper) then guess
                  whether or not to pull to four of the 5cM
 		 if opener bids 3NT
@@ -612,7 +612,8 @@ NOTE: Responder denied a four-card major and a diamond stopper, so
 ****
 .Alternative
 
-Give-up 2NT then 3M = inv. and use it for Smolen without a stopper
+Give-up 2NT-then-3M showing an invitational single-suiter, and use it
+for Smolen without a stopper
 ****
 
 // [%autowidth,cols="4*^,<",grid="none"]
