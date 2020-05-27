@@ -542,7 +542,6 @@ both minors.
 Pass is to play but opener redoubles with a five-card suit, after
 which 2C is pass-or-correct and pass says, _"I think you'll make it."_
 
-
 With a 4-card major and 6-card minor (McCartney), responder is willing
 to compete to the 3-level.
 2S is four spades and a six-card minor.
@@ -583,19 +582,59 @@ Lebensohl.
 
 #Standard Lebensohl# except that a direct 3C is invitational (NF).
 
-3M is #forcing# (standard Leb.) and #denies a stopper#.
-With 5cM + diamond-stopper + GF, responder starts with a negative
-double and follows with 3M.
-An off-shape neg. double is OK here responder will be able to control
-the auction.
+[%autowidth,cols="^.^s,^,<.^",grid="none"]
+|===
+3+^d| Direct bids
 
-3D requests a stopper for NT.
-Without a stopper, opener shows a 5-card major or bids 4C.
+| 3D  || Stayman without a stopper. +
+         = at least one 4cM,
+	 _ #could be 5-4 majors either way#
+| 3M  || forcing, #denies a stopper#
+| 3NT || values for 3NT, no 4cM, no stopper +
+         > opener passes with a stopper,
+	 _ else bids a 5cM or 4C
+|===
 
-NOTE: Responder denied a four-card major and a diamond stopper, so
-      usually has clubs.
+[%autowidth,cols="^.^s,^,<.^",grid="none"]
+|===
+3+^d| After 2NT {blueRarrow} 3C
 
-==== Responder has both majors
+| 3D  || Stayman WITH a stopper. +
+         = at least one 4cM,
+	 _ #NOT 5-4 majors#
+| 3M  || invitational, [.nobr.orange-bg]#ambiguous re stopper ??#
+| 3NT || values for 3NT, but denies a stopper +
+         > opener passes with a stopper,
+	 _ else bids a 5cM or 4C
+|===
+
+To show a 5cM with GF values and a stopper, responder starts with a
+negative double and follows with 3M.
+Responder may or may not have four in the other major.
+
+[%autowidth,cols="4*^", grid="none"]
+|===
+|     | 1NT | (2D) | X
+| (P) | 2S  | (P)  | 3H{thinsp}*
+|===
+
+{biglowast} Responder has five hearts, less than four spades, GF values, and a
+stopper in diamonds.
+
+[%autowidth,cols="4*^", grid="none"]
+|===
+|     | 1NT | (2D) | X
+| (P) | 3C  | (P)  | 3S{thinsp}{superdag}
+|===
+
+&dagger; Responder has five spades, GF values, a stopper, and may or
+may not have four hearts.
+
+NOTE: An off-shape neg. double is OK because responder's GF values and
+      stopper in the opp's suit allows us to play 3NT if major-suit
+      fit is not found.
+
+==== Summary: Responder has both majors
 
 [%autowidth,cols="^.^s,<.^",grid="all"]
 |===
@@ -603,10 +642,9 @@ NOTE: Responder denied a four-card major and a diamond stopper, so
 | 5 {ndash} 4 with stopper
                | neg. double then 3M (forcing with stopper)
 	         if a fit is not found
-| 5 {ndash} 4  without stopper
-               | 3D (Stayman without stopper) then guess
-                 whether or not to pull to four of the 5cM
-		 if opener bids 3NT
+| 5 {ndash} 4 or [nobr]#4 {ndash} 4# without stopper
+               | 3D (Stayman without stopper) then pass
+                 if opener bids 3NT
 |===
 
 ****
@@ -616,27 +654,11 @@ Give-up 2NT-then-3M showing an invitational single-suiter, and use it
 for Smolen without a stopper
 ****
 
-// [%autowidth,cols="4*^,<",grid="none"]
-// |===
-// | 1NT  | (2D) |  ?    ||
-// |      |      |  X    || negative
-// |      |      |  2M   || natural sign-off
-// |      |      | !2NT! || Leb.
-// |      |      |  3C   || natural, #INV.#
-// |      |      | !3D!  || Stayman without a stopper
-// |      |      |  3M   || 5-card suit, #FORCING, no stopper#
-// |      |      | !3NT! || No 4cM, No {D}-stopper
-// |      |      | !4C!  || ConFit
-// |      |   2+<| !!4D!!,!!4H!!
-//                       <| Texas transfer
-// |      |      
-// |===
-
 === vs artificial 2D
 
 dble = take-out of diamonds (usual meaning)
 
-==== 2D shows 5{OrMore}{xtimes}{lab}known major{rab}
+==== 2D shows 5{OrMore} of a known major
 
 2{lab}known major{rab} = Michaels
 
