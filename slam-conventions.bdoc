@@ -6,7 +6,8 @@
 
 == Minorwood
 
-Minorwood applies when: +
+Minorwood #ONLY# applies when all of the following conditions
+are met: +
 @ we have agreed a minor
 @ we have not agreed a major
 @ the auction is uncontested
@@ -46,14 +47,40 @@ Minorwood applies when: +
 
 == Optional Minorwood
 
-Opposite a notrump hand, we use _optional minorwood_.
-
 [%autowidth,cols="^,<",grid="none"]
 |===
 2+^| Responses to optional minorwood
 
 | 4m+1 | accept, asks partner for KC
 | other | decline, shows KCs beginning at 4m+2
+|===
+
+=== Pulling 3NT
+
+The minor was previously agreed and 3NT was bid to play
+
+OR
+
+The minor is the only possible trump suit
+
+[%autowidth,cols="2*^",grid="none"]
+|===
+|  1S  | 2D
+|  3D  | 3NT
+| !4D! |
+|===
+
+4D is optional minorwood. Responder may have a slam-suitable hand, but
+not enough extras to initiate a slam investigation.
+
+=== Opposite a balanced hand
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT  | !2H! ||
+|  2S   | !3C! || shows diamonds
+|  3D   | !4D! || 3D = neutral, denying a {S}-fit +
+                  4D = extra length and optional minorwood
 |===
 
 It applies after
