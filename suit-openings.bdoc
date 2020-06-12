@@ -441,20 +441,29 @@ After a 1D opening, long clubs with 10{OrMore} HCP is included in XX.
 @ jump shift to 2M = weak +
 @ any double-jump shift = weak
 
+[#vs-dble-of-major]
 === 1M {ndash} (X)
 
-&Semi-Forcing 1NT is OFF&
+[green-box]#Updated {ndash} June 12, 2020#
+
+Semi-Forcing 1NT is OFF
 
 @ 1M-(X)-1NT = 7-10 +
 @ 3-card {LRplus} by unPH is included in XX
 
-&3-way Reverse Drury by PH is ON&
-
-&Jump-shifts:& +
+#Jump shift = same as without opp's double:# +
 @ natural & invitational by unPH +
-@ splinter by PH
+@ mini-splinter by PH
 
-&3M + 1 showing an unspecified weak-splinter is OFF&
+By unPH: +
+@ new suit at 2-level = less than inv. +
+@ GF single-suiters are included in XX
+
+By PH: #3-way Reverse Drury is ON#
+
+==== Game Forcing Splinters
+
+#3M + 1 showing an unspecified weak-splinter is OFF#
 
 [%autowidth,cols="3*^.^",grid="cols"]
 |===
@@ -467,12 +476,10 @@ After a 1D opening, long clubs with 10{OrMore} HCP is included in XX.
 | 4C, 4D       | splinter        | splinter
 |===
 
-GF single-suiters are included in XX
+==== Four-Card Raises
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-5+^| Four-Card Raises
-
 | 1M | (X) |  ?    ||
 |    |     |  3M   || weak
 |    |     | !2NT! || LR or strong GF-raise {biglowast}
@@ -481,6 +488,8 @@ GF single-suiters are included in XX
 
 {biglowast}{ensp}2NT includes GF hands that are not suitable
 _ for 3NT or a splinter
+
+3-way Rev.-Drury by PH
 
 === Redouble of opp's take-out double
 
