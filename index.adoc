@@ -6,7 +6,9 @@
 
 <<other-notrump.adoc#, *Other NoTrump Openings*>>
 
-<<suit-openings.adoc#, *Suit Openings*>>
+<<suit-openings.adoc#, *Suit Openings*>> +
+{tribull}{nbsp}<<suit-openings.adoc#vs-dble-of-major,
+      [.green.nobr]## vs 1M-(X) [2020-06-12] ##>>
 
 <<uncontested-auctions.adoc#, *Uncontested Auctions*>>
 
