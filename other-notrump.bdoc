@@ -51,11 +51,11 @@ _ = 5-5 Majors, slam inv. +
                      > responder shows KC
 |===
 
-[#mexican]
 == Mexican 2D opening
 
 Shows 18 to bad 20, balanced
 
+[#_responses_to_mexican_2d]
 === Responses
 
 We aim to have opener declare , so responder usually does not bid a
@@ -66,20 +66,24 @@ strain in which we are likely to play.
 | P   | weak with diamonds
 | 2H  | transfer to spades +
 	{tribull} <<one-notrump.adoc#_second_round_transfers,
-	            2^nd^-round-transfer>> methods,
-	__ except 3S {blueRarrow} 3NT
+	            2^nd^-round-transfers>>,
+	__ and 3S {blueRarrow} 3NT
 | 2S  | forces 2NT, fewer than four spades +
 	> 3C = 5-card Stayman, not four spades +
 	{emsp}{thinsp}3D = transfer to hearts w/o spades +
+	{emsp}{emsp}{emsp}{ensp}{tribull} 2^nd^-round transfers +
 	{emsp}{thinsp}3H = #strong with clubs# +
 	{emsp}{thinsp}3S = #strong with diamonds#
-| 2NT | #weak with clubs,# _or_
-        ##[nobr]#strong with both minors# ##
+| 2NT | {emsp} clubs & weak +
+        _or_{nbsp} both minors & strong +
+	_or_{nbsp} #major+minor & {lflatb}{thinsp}moderate {or} slam{thinsp}{rflatb}#
 | 3C  | Stayman with spades
 | 3D  | transfer to hearts with spades
         [nobr]#= 5{OrMore}{xtimes}{H}, 4*{S}# +
 | 3H,3S | stiff with 3{xtimes}oM
-| 4C    | #ConFit#
+| 3NT   | #both minors & {lflatb}{thinsp}moderate {or} slam{thinsp}{rflatb}#
+| 4C    | ConFit
+| 4D,4H | #Texas transfers#
 |===
 
 // NOTE:  3D includes one Smolen shape; 4*{S}, 5*{H}. The other (5*{S}, 4*{H})
