@@ -441,7 +441,7 @@ After a 1D opening, long clubs with 10{OrMore} HCP is included in XX.
 @ jump shift to 2M = weak +
 @ any double-jump shift = weak
 
-[#vs-dble-of-major]
+[#_vs_dble_of_major]
 === 1M {ndash} (X)
 
 [green-box]#Updated {ndash} June 12, 2020#
@@ -656,11 +656,34 @@ The 3rd bid in each of the following is a 2oM NFB.
 {tribull} subsequent bid of oM by neg-doubler
 _ = 5-card suit, #2oM = inv.#, #3oM = GF#
 
-==== Passed hand
+=== vs Overcall by passed hand
 
-No weak-two opening => +
-@ Two  _other major_{thinsp} is usually a five-card suit.
-@ Jump to 3oM = fit-showing, usually 5-5
+[green-box]#Updated {ndash} June 13, 2020#
+
+Two _other major_{thinsp} by PH is usually a five-card suit because
+there was no weak-two opening.
+
+A jump-shift is fit showing.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| P   | (P) | 1C {ensp} (1S)
+| ?   |     |
+| 2H  |     | usually 5*{H}
+2+<| 3D,3H <| fit showing 
+|===
+
+NOTE: A fit-showing jump is a raise of partner's suit so shows the
+      offence for playing at the level to which it raises.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| P   | (P) | 1H {ensp} (2D)
+| ?   |     |
+| 2S  |     | usually 5*{S}
+2+<| 3S,4C <| fit showing with offence for 4H,
+              [nobr]#hence usually 5-5#
+|===
 
 === Fit-Showing Jumps & Splinters in comp.
 
