@@ -651,7 +651,10 @@ Invitational splinter
 @ 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H show 5{OrMore}
 @ 1M{thinsp}{ndash}{thinsp}2C could be short
 
+[#_nebulous_two_clubs]
 === One Major {ndash} Two Clubs
+
+[green-box]#Updated {ndash} June 15, 2020#
 
 Opener and responder use waiting bids below 2NT unless they have
 something to say such as extra length, extra strength, or a fit.
@@ -670,9 +673,9 @@ A 3-level suit-bid below 3M shows a good two suiter; at least 5-5.
 |  1M   | !2C! | {emsp} could be short
 |  ?    |      |
 | !2D!  |      | waiting
-|  2oM  |      | natural, non-minimum
+|  2oM  |      | natural, #non-minimum#
 |  2M   |      | six-card suit
-|  2NT  |      | 16{ndash}17, no singleton
+|  2NT  |      | 16{ndash}17, no singleton, #could have 4*oM#
 2+<| 3{lab}lower suit{rab} <| #5-5, decent suits#
 |===
 
@@ -689,13 +692,17 @@ skipping a step; thus bidding 2S even when opener's major is hearts.
 | 2+<| 3{lab}suit{rab} | natural, extra length or extra strength
 |===
 
+Following a second nebulous-bid by responder, opener can rebid 2NT
+(denying four in the other major) or 2S, which is really just another
+nebulous bid saying that opener doesn't want to grab the NT.
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1M   | !2C! |
 | !2D!  | !2H! |
 |  ?    |      |
-| !2S!  |      | usually min. hand that doesn't want grab NT, could have 4*oM
-| 2NT   |      | natural 12-14 or 18{OrMore}, not{nbsp}4*oM, not{nbsp}4*{C}
+| !2S!  |      | usually min. hand that doesn't want grab NT, #could have 4*oM#
+| 2NT   |      | natural 12-14 or 18{OrMore}, #not{nbsp}4*oM#, not{nbsp}4*{C}
 | 3m    |      | 4*m with at least moderate extras
 |===
 
