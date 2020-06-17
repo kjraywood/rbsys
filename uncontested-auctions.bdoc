@@ -410,14 +410,20 @@ major.
 _Two-Way Checkback Stayman_]
 __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
-@ ON after both minors or both majors
+@ ON after both minors or both majors +
 @ ON vs take-out double by either opp +
-@ #OFF if either opp has shown a suit#
+@ #OFF if either opp has shown a suit# +
 >> cue = GF, jumps are inv +
 
-*Passed hand*
-@ 2C{thinsp}{forces}{thinsp}2D ON
-@ 2D = natural weak, 5*M
+*OFF by passed hand*
+
+[green-box]#Updated {ndash} June 16, 2020#
+
+@ regular new-minor forcing,
+_ inv. values +
+>> opener jumps with a max,
+__ 2-level = NF +
+@ 2NT = natural inv.
 
 === Weak with both majors
 
