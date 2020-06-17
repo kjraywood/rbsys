@@ -675,8 +675,9 @@ A 3-level suit-bid below 3M shows a good two suiter; at least 5-5.
 | !2D!  |      | waiting
 |  2oM  |      | natural, #non-minimum#
 |  2M   |      | six-card suit
-|  2NT  |      | 16{ndash}17, no singleton, #could have 4*oM#
-2+<| 3{lab}lower suit{rab} <| #5-5, decent suits#
+|  2NT  |      | 16{ndash}17, no singleton,
+                 [nobr]## #could have 4*oM# ##
+2+<| [nobr]#3{lab}lower suit{rab}# <| #5-5, decent suits#
 |===
 
 Following opener's 2D, responder shows a fit for opener's major by
