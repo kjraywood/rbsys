@@ -48,9 +48,9 @@ shows both majors but does not promise a good hand.
 2D = both majors, could be weak,
 [nobr]##_e.g._{thinsp} [lightgrey-bg]#{S}JT93 {H}K982 {D}8763 {C}4# ##
 
-== Responsive doubles
+== Responsive Doubles
 
-=== Vs Raised Minor
+=== Reponsive double of raised minor
 
 A responsive-double of a raised minor shows both majors and the values
 to compete at that level
@@ -60,18 +60,25 @@ to compete at that level
 [lightgrey-box]#(1{D}){emsp}X{emsp}(3{D}){emsp}!!X!!{emsp}:{emsp}both majors,
                 10{OrMore}#
 
-=== Vs Raised Major
+=== Responsive double of raised major
+
+[green-box]#Updated {ndash} June 16, 2020#
+
+==== They raise to TWO MAJOR
 
 ALERT: Unusual treatment
 
-A responsive-double of a raised major shows #four in the other major#
+Applies only when they raise a major opening to the 2-level
 
-2NT shows both minors.
+A responsive-double of a #major raised to the 2-level# shows #four in
+the other major#
+
+2NT shows both minors
 
 [%autowidth,cols="5*^,<",grid="rows"]
 |===
 | (1H) | X | (2H) |  ?  ||
-|      |   |      | !X! || #4*{S}, 6{OrMore}#
+|      |   |      | !X! || #4*{S}#, 6{OrMore}{thinsp}HCP
 |      |   |      | 2S  || 5{orMore}{xtimes}{S}, 5{ndash}8
 |      |   |    | !2NT! || both minors
 |      |   |      | 3S  || 5{orMore}{xtimes}{S}, 9{ndash}11{orLess}
@@ -79,20 +86,36 @@ A responsive-double of a raised major shows #four in the other major#
 
 After a responsive double, intervenor raises to the appropriate level
 with a fit, else makes the most descriptive bid possible.
-Intervenor's 2NT is a scramble with both minors.
+#Intervenor's 2NT is a scramble with both minors.#
 
 [%autowidth,cols="4*^,<",grid="rows"]
 |===
-| (1S) |  X  | (2S) | !X!* | {emsp} 4*{H}, 8{OrMore}
-| (P)  |  ?  |      |      |
-|      | 4H  |      |      | {H}-fit, extras
-|      | 3H  |      |      | {H}-fit, min
-|      | 3D  |      |      | 5*{D}, not 4*{C}, (2-3-5-3)
-|      | 3C  |      |      | 5*{C}, may have 4*{D},
-                             [nobr]#(2-3-3-5 or 1-3-4-5)#
-|     | !2NT! |     |      | none of the above,
-                             [nobr]#(1-3-5-4 or 2-3-4-4)#
+| (1S) |  X  | (2S) | !X! | {emsp} 4*{H}, 8{OrMore}{thinsp}HCP
+| (P)  |  ?  |      |     |
+|      | 4H  |      |     | {H}-fit, extras
+|      | 3H  |      |     | {H}-fit, min
+|      | 3D  |      |     | 5*{D}, not 4*{C}, hence 2-3-5-3
+|      | 3C  |      |     | 5*{C}, may have 4*{D},
+                            [nobr]#(2-3-3-5 or 1-3-4-5)#
+|     | !2NT! |     |     | none of the above #(Scramble)#,
+                            [nobr]#1-3-5-4 or 2-3-4-4#
 |===
+
+
+NOTE: Responsive doubles also apply when our intervention was an
+      overcall.
+
+// Although it usually shows four in the other major, it could
+// be five when advancer wants to show both unbid suits.
+// Also, following the raise, 2NT shows a good raise because there
+// is no cue-bid available below three of the overcalled suit.
+// See <<#_two_level_overcalls, two-level overcalls>>
+
+==== They raise to THREE MAJOR
+
+When the opps raise a major to the #3-level#, then a responsive double
+denies four of the other major and could be just showing general
+high-card strength.
 
 == NoTrump Overcalls
 
@@ -306,7 +329,7 @@ They opened two-*major* {tribull} transfers OFF
 @ New suit = constructive, NF +
 @ JS = natural, good hand, but NF
 >> _no inv./inv._{thinsp} applies +
-@ double of raise = responsive +
+@ double of their raise = responsive +
 @ double of new suit = snapdragon
 
 ==== Honour redouble vs neg. double
@@ -352,6 +375,7 @@ A bid of the suit on overcaller's right is natural.
 There is no cue-bid in this auction.
 To show a good raise of spades, overcaller just jumps to 3S.
 
+[#_two_level_overcalls]
 === Two-level overcalls
 
 &vs pass& [ _e.g._ {thinsp}(1S) - 2C - (P) - ? ] +
