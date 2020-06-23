@@ -27,13 +27,6 @@ Notrump bids and old suits are non-forcing.
 
 For more info, responder uses #three other-minor#.
 
-[TIP]
-====
-Think of this as [brickred]##_New-Minor
-Q{thinsp}&{thinsp}Q_##.{thinsp} However, instead of min vs max, opener
-identifies the shortness in a 3-card-raise hand.
-====
-
 [%autowidth,cols="^,^,<",grid="none"]
 |===
 |  1m   |  1M   |
@@ -44,10 +37,18 @@ identifies the shortness in a 3-card-raise hand.
 | !3NT! |       | 3-card raise, #short om#
 |===
 
+[TIP]
+====
+Think of this as #GF New-Minor Q{thinsp}&{thinsp}Q#.
+However, instead of min vs max, opener
+identifies the shortness in a 3-card-raise hand.
+====
+
 When opener has shown a three-card raise, responder may suggest an
-alternate trump suit in one of the minors.  Following that, opener's
-weakest bid is returning to 4M.  Anything else is encouraging, usually
-indicating that the short-suit is a singleton.
+alternate trump suit in one of the minors.
+Following that, opener's weakest bid is returning to 4M.
+Anything else is encouraging, usually indicating that the short-suit
+is a singleton.
 
 === Responder has both majors
 
@@ -95,15 +96,37 @@ double), then new suits are natural game-tries.
 
 == Second-round jumps and 4th-suit forcing
 
+=== 4th-Suit-F1 vs 4th-Suit-GF vs{nbsp}XYZ
+
+[green-box]#Updated {ndash} June 22, 2020#
+
 {reference} http://www.rpbridge.net/5m81.htm[
 _Forcing vs. Limit Style_]
 __ {nbsp}{ndash}{nbsp} Richard Pavlicek
+
+{reference}
+http://bridgewinners.com/article/view/responding-to-1c-with-six-ds-four-of-a-major-and-6-9-points/?cj=968891[
+_Why XYZ is not a good convention_ ]
+__ {nbsp}{ndash}{nbsp} Oren Kriegel
+
+Other reasons we prefer 4^th^-Suit-F1 to XYZ:
+
+* When the 4^th^-suit bid is 1S, we use it as a 2-way bid (natural or
+  11{OrMore} artificial).  Unlike XYZ, this preserves a natural
+  2C, and allows opener to make a cheap, descriptive 3^rd^-round bid.
+  
+* XYZ doesn't apply when the 3^rd^ suit is at the 2-level, so new
+  rules (__e.g.__{thinsp} 4^th^-Suit Forcing) are needed.
+  We use the same rules for 4^th^ suit at the 1, 2 and 3 levels.
+
+* We use the same rules when a minor is rebid by opener;
+  _i.e._{thinsp}3^rd^-suit forcing auctions.
 
 === Rules
 
 @ 2nd-round jump = natural & GF +
 @ 2nd-round raise of minor = GF +
-@ 4th-suit = F1
+@ 4th-suit = one-round force (rebid not promised)
 
 === Opener's third bid
 
@@ -120,7 +143,7 @@ _ = #minimum strength, NF# +
 |  1S  | !2D! |
 |  ?   |      |
 |  2H  |      | minumum, NF, usually {H}Hx
-| !2S! |      | #ambiguous strength, F1#{emsp}{note1}
+| !2S! |      | #ambiguous strength, F1# {biglowast}
 |  2NT |      | minimum, NF
 |  3C  |      | 6{xtimes}{C}, ambiguous strength, F1
 |  3D  |      | 4{xtimes}{D}, ambiguous strength, F1
@@ -129,9 +152,31 @@ _ = #minimum strength, NF# +
 |  3NT |      | 15-17, stiff {H}, 4th-suit well stopped
 |===
 
-[horizontal]
-{note1}:: could be just a minimum not suitable for 2NT.
-          [nobr]##__e.g.__ [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx# ##
+{biglowast} could be just a minimum not suitable for 2NT.
+_  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
+
+[#_1h_1s_2c_2d]
+====  Exception: 1H {ndash} 1S{semicolon} 2C {ndash} [underline]#2D#
+
+[green-box]#New {ndash} June 22, 2020#
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1H  |  1S  |
+|  2C  | !2D! |
+|  2H  |      | F or NF?  Extra length?
+|===
+
+According to the rules, 2H is minimum and NF (a 2-level bid in
+opener's first suit).
+However, with minimum strength and 6-4, opener would rebid hearts
+before introducing clubs, so it cannot be that hand.
+Therefore we make an exception to the rule.
+
+In this sequence, 2H is the default bid; +
+@ #ambiguous# strength, hence #forcing# +
+@ will not have extra {H}-length if miniumum;
+_ may have extra {H}-length with extra strength
 
 === Vs interference
 
