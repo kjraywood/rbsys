@@ -591,8 +591,9 @@ https://kwbridge.com/leb.htm[
 _Lebensohl over Weak 2-Bids_]
 __ {nbsp}{ndash}{nbsp} Karen Walker +
 
+==== Overview
+
 @ 3{lab}unbid-suit{rab} = inv
-@ neg. X then 3oM = Forcing (5*oM) +
 @ cue-bid asks for stopper
 @ 3NT shows a stopper +
 @ direct cue-bid or 3NT (fast)
@@ -600,36 +601,49 @@ _ denies 4*oM +
 @ 2NT then cue-bid or 3NT (slow)
 _ shows 4*oM
 
+==== Responding to double of 2M
+
+[%autowidth,cols="4*^,2*<",grid="none"]
+|===
+| (2H) | Dble | (P) |  ?    ||
+|      |      |     | !2NT! || Lebensohl
+|      |      |     |  3m   || natural, positive
+|      |      |     | !3H!  || GF, no {H} stopper, not 4*{S}
+|      |      |     |  3S   || #five-card suit, inv#
+|      |      |     |  3NT  || to play
+|===
+
 [%autowidth,cols="4*^,2*<",grid="none"]
 |===
 | (2S) | Dble | (P) |  ?    ||
 |      |      |     | !2NT! || Lebensohl
 |      |      |     |  3m   || natural, positive
-|      |      |     |  3H   || five-card suit, inv
-|      |      |     | !3S!  || no stopper, not 4*{H}
+|      |      |     |  3H   || #four or five-card suit, inv#
+|      |      |     | !3S!  || GF, no {S} stopper, not 4*{H}
 |      |      |     |  3NT  || to play
 |===
+
+==== After 2NT {blueRarrow} 3C
 
 [%autowidth,cols="4*^,2*<",grid="none"]
 |===
 | (2S) | Dble | (P) | !2NT! ||
 | (P)  | 3C   |     |  ?    ||
 |      |      |     2+<| P,3D,3H <| to play
-|      |      |     | !3S!  || no stopper, 4*{H}
-|      |      |     | !3NT! || stopper & 4*{H}
+|      |      |     | !3S!  || no {S} stopper, 4*{H}
+|      |      |     | !3NT! || {S} stopper & 4*{H}
 |===
 
-Lebensohl 2NT, followed by bidding a suit _above three of their
-suit_{thinsp} is strong and _forcing if below game._
+Lebensohl 2NT, followed by bidding at the three level #above three of
+their suit# shows #exactly a four-card suit# and #invitational values#.
 
 [%autowidth,cols="4*^,2*<",grid="none"]
 |===
 | (2H) | Dble | (P) | !2NT! ||
 | (P)  | 3C   |     |  ?    ||
 |      |      |     |  3D   || to play
-|      |      |     |  3S   || forcing, 5*{S}
+|      |      |     |  3S   || inv., 4*{S}
 |===
-
 
 // http://andrew-gumperz.blogspot.ca/2011/12/bidding-over-4-level-preempts.html
 
