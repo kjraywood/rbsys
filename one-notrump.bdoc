@@ -4,6 +4,9 @@
 
 == Responses to 1NT
 
+[green-box]#Updated {ndash} June 28, 2020#
+[.nobr.green.xemph]#Replaced Mackay 4\S with Baron-quant 4\S#
+
 [%autowidth,cols="^,<",grid="none"]
 |===
 | 2C    | Stayman, promises a 4-card major, Smolen, Baze,
@@ -26,8 +29,10 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 | 3NT   | to play
 | 4C    | #ConFit#, bal. or semi-bal., strong
 | 4D,4H | Texas
-| 4S    | Slam try, both minors (4-4 or 5-4)
-| 4NT   | Quant.
+| 4S    | #Strong quant.#
+         [nobr]#(opener only declines with dead min.)#
+| 4NT   | #Weak quant.#
+         [nobr]#(opener only accepts with clear max.)#
 | 5NT   | Quant. (forces 6, invites 7)
 |===
 
@@ -80,56 +85,6 @@ iCS maximises the chances that opener declares.
 | [nobr]#4-5 {or} 5-4#
             | Stayman then Smolen
 |===
-
-=== Mackay-Lite (4S = quant. with 4-4 or 5-4 minors)
-
-Used when responder needs to know min. vs max and also
-wants to seek a minor-suit fit.
-
-Opener discourages with 4NT, or shows aces (03-14-2).
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1NT | !4S!      | | slam-try, 4-4 or 5-4 minors
-|   ?  |           | |
-|  4NT |        2+<| discouraging +
-3+<| !5C!,!5D!,!5H! <| Aces (03-14-2) +
-                    <| > 4S {blueRarrow} 5NT
-|===
-
-Following a discouraging 4NT, responder may still seek a minor-suit
-slam with a forcing 5NT.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1NT  | !4S! || slam-try, 4-4 or 5-4 minors
-|  4NT  | ? 2+<| discouraging
-|       |  P   || to play
-|       | 5NT  || FORCING
-                  > opener bids a 4-card minor
-		  _ or 6NT
-|    2+<| __other__
-               <| [orange-bg]#not in use#
-|===
-
-Following an ace-showing response, sign-off is via 5S forcing 5NT.
-
-Responder may also seek a minor-suit fit.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1NT  | !4S! || slam-try, 4-4 or 5-4 minors
-| {lab}!!Aces!!{rab}
-        |  ?   ||
-|       | !5S! || forces 5NT +
-                  > pass = to play +
-		  _ !6C! = 5*{D}, 4*{C}
-|       | !5NT! || 4-4 minors, FORCING
-|       | !6C!  || 5*{C}, 4*{D}
-|===
-
-TIP: With 5-4 minors, responder shows longer clubs directly and
-     shorter clubs indirectly.
 
 === ConFit (4C)
 
