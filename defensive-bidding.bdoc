@@ -190,23 +190,27 @@ Wide-range 1NT {blueRarrow} advancer has two ranges of invitations
 @ use regular 1NT system +
 @ only declined with a min
 
-[%autowidth,cols="5*^,<",grid=none]
+==== Strong-invitation auctions
+
+[%autowidth,cols="4*^,<",grid=none]
 |===
-| (1M) |  P   | (P) |  1NT  | | good 11 {ndash} bad 17
-| (P)  | !2S! | (P) |  ?    | | 2S = {C} or balanced strong-inv.
-|      |      |     |  2NT  | | min
-|      |      |     |  3C   | | not min
+|     |     | (1M) |  P   | 
+| (P) | 1NT | (P)  | !2S! | {C} _or_{thinsp} bal. strong-inv.
+| (P) |  ?  |   2+<|
+|     | 2NT |   2+<| min
+|     | 3C  |   2+<| not min
 |===
 
-[%autowidth,cols="5*^,<",grid=none]
+[%autowidth,cols="4*^,<",grid=none]
 |===
-| (1S) |  P   | (P) |  1NT  | |
-| (P)  | !2D! | (P) |  2H   | | 2D = transfer to {H}
-| (P)  | !2S! | (P) |  ?    | | 2S = strong inv.
-|      |      |     |  2NT  | | min, no {H} fit
-|      |      |     |  3H   | | min, {H} fit
-|      |      |     |  3NT  | | not min, no {H} fit
-|      |      |     |  4H   | | not min, {H} fit
+|     |     | (1S) |  P   | 
+| (P) | 1NT | (P)  | !2D! | transfer to {H}
+| (P) | 2H  | (P)  | !2S! | strong inv.
+| (P) |  ?  |   2+<|
+|     | 2NT |   2+<| min, no {H} fit
+|     | 3H  |   2+<| min, with {H} fit
+|     | 3NT |   2+<| not min, no {H} fit
+|     | 4H  |   2+<| not min, with {H} fit
 |===
 
 There is no corresponding auction for 5*{S}{thinsp} because that hand would
