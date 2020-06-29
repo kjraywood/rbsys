@@ -273,18 +273,18 @@ _ 5{ndash}5{OrMore} other two suits
 @ system OFF
 @ under-suit cue = Stayman
 
-[%autowidth,cols="4*^,<",grid=none]
+[%autowidth,cols="2*^,<",grid=none]
 |===
-|       |      |      | (1C)     |
-|   P   | (1H) | 1NT* | (P{or}X) | {emsp}* natural, 16-19
-|   ?   |      |      |          |
-2+<| pass      |      |         <| to play
-|   XX  |      |      |          | 2 lowest excluding suit on left,
-                                   [nobr]#minors in this case#
-2+<| 2C,2D     |      |         <| to play
-| !2H!  |      |      |          | under-suit cue = Stayman
-| 2S    |      |      |          | to play
-| 2NT   |      |      |          | natural inv.
+|       |      | {tab} {tab} (1C)
+|   P   | (1H) | 1NT {emsp} (P{or}X)
+|   ?   |      |
+2+<| pass     <| to play
+|   XX  |      | 2 lowest excluding suit on left,
+                 [nobr]#minors in this case#
+2+<| 2C,2D    <| to play
+| !2H!  |      | under-suit cue = Stayman
+| 2S    |      | to play
+| 2NT   |      | natural inv.
 |===
 
 === vs weak two or precision 2C
