@@ -156,7 +156,7 @@ _ = #minimum strength, NF# +
 _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 
 [#_1h_1s_2c_2d]
-====  Exception: 1H {ndash} 1S{semicolon} 2C {ndash} [underline]#2D#
+====  1H {ndash} 1S{semicolon} 2C {ndash} [underline]#2D#
 
 [green-box]#New {ndash} June 22, 2020#
 
@@ -167,16 +167,38 @@ _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 |  2H  |      | F or NF?  Extra length?
 |===
 
-According to the rules, 2H is minimum and NF (a 2-level bid in
-opener's first suit).
-However, with minimum strength and 6-4, opener would rebid hearts
-before introducing clubs, so it cannot be that hand.
-Therefore we make an exception to the rule.
+*A:* [lightgrey-box]#{S}{thinsp}xx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQxx#
+*B:* [lightgrey-box]#{S}{thinsp}Qx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQJx#
 
-In this sequence, 2H is the default bid; +
-@ #ambiguous# strength, hence #forcing# +
-@ will not have extra {H}-length if miniumum;
-_ may have extra {H}-length with extra strength
+Hand A would like to make a NF 2H.
+
+If 2H is NF, then it would usually not have a sixth heart because with
+minimum strength and 6-4, opener would rebid hearts before introducing
+clubs.
+
+This follows the rule that a rebid of a suit that was bid on the
+first-round denies extra strength; so is non-forcing.
+
+Hand B is too strong for a NF bid.
+The forcing options are: +
+@ 3NT = stopper in diamonds, 16-17
+@ jump to 3S = 3-card support, extras
+@ jump to 3H = good 6-4
+@ 3D = 4*{D}, extra values
+@ 3C = extra length or extra strength
+
+Of these options, 3C is the only suitable bid for hand B, so it #does not promise 5-5#.
+
+// According to the rules, 2H is minimum and NF (a 2-level bid in
+// opener's first suit).
+// However, with minimum strength and 6-4, opener would rebid hearts
+// before introducing clubs, so it cannot be that hand.
+// Therefore we make an exception to the rule.
+
+// In this sequence, 2H is the default bid; +
+// @ #ambiguous# strength, hence #forcing# +
+// @ will not have extra {H}-length if miniumum;
+// _ may have extra {H}-length with extra strength
 
 === Vs interference
 
