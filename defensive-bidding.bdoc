@@ -587,6 +587,7 @@ As before, reopener is limited by the failure to act on the previous round.
 === Lebensohl after we double their weak TWO-MAJOR
 
 [green-box]#Updated {ndash} June 27, 2020#
+[.nobr.green.xemph]#Rewrite of Unified Lebensohl#
 
 {warning} [xemph]#Lebensohl does NOT apply after a double of their weak TWO-DIAMONDS#
 
@@ -687,7 +688,7 @@ This follows the scheme of #slow shows four in the other major.#
 
 === Leaping Michaels
 
-==== vs major
+==== Leaping Michaels vs major
 
 Applies after weak two or Fantunes 2M opening.
 
@@ -719,7 +720,11 @@ Following a Leaping-Michaels 4m: +
 |      |       |     | !5C!   | | KC for {H}
 |===
 
-==== vs minor
+[#_leaping_michaels_vs_minor]
+==== Leaping Michaels vs minor
+
+[green-box]#Updated {ndash} June 27, 2020#
+[.nobr.green.xemph]#We do not play 2-suit KC#
 
 Applies after natural 2m openings including weak twos, Fantunues twos
 and Precision-style 2C opening.
@@ -729,9 +734,12 @@ and Precision-style 2C opening.
 | (2m) | ?    | |
 |      | !3m! | | some solid suit, requests stopper
 |      | 3M   | | natural, strong
-|      | !4C! | | #om + unknown M, GF#
-|      | !4D! | | #both majors#
-                      [nobr]#{tribull} 4NT = 2-suit KC#
+|      | !4C! | | om + unknown M, GF +
+                  > 4D asks for major +
+		  {emsp} #4H = KC for minor#
+|      | !4D! | | #both majors# +
+                  > 4NT = KC for {H} +
+		  _ {nbsp}5C = KC for {S}
 |===
 
 [TIP]
