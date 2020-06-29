@@ -132,18 +132,25 @@ _ possibly 5-5 shape
 
 === Baze
 
+[green-box]#Updated {ndash} June 28, 2020#
+[.nobr.green.xemph]#Added strong & weak quant. inv w/o fit#
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1NT | !2C!  | |
-| 2M  |  ?    | |
-|     | !3oM! | | M fit, slam-inv, unspecified{nbsp}shortness +
-                  {tribull} next step asks
-|     | !4C!  | | M fit, #KC ask#
-|     | !4D!  | | M fit, slam-inv, no{nbsp}shortness +
-                  > 4M by O = decline +
-                  _ #4oM by O = accept, KC ask# +
-                  _ 4NT by O = min, to play
+| 1NT | !2C!  ||
+| 2M  |  ?    ||
+|     | !3oM! || M fit, slam-inv, unspecified{nbsp}shortness +
+                 {tribull} next step asks
+|     | !4C!  || M fit, #KC ask#
+|     | !4D!  || M fit, slam-inv, no{nbsp}shortness +
+                 > 4M by O = decline +
+                 _ #4oM by O = accept, KC ask# +
+                 _ 4NT by O = min, to play
+|     | !4oM! || #Strong Quant.#, no fit
+|     |  4NT  || #Weak Quant.#, no fit
 |===
+
+&Identifying the shortness following 3oM&
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
