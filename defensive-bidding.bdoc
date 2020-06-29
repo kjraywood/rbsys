@@ -612,7 +612,7 @@ suit, we try for 3NT by asking for a stopper.  Thus: +
 @ a fast cue-bid asks for a stopper and
 _ #denies four of the other major#
 
-Of course, a cue-bid could also be the beginning of a slam-try.
+A cue-bid could also be the beginning of a slam-try.
 
 With #four of the other major# and GF values, we use the slow route
 through 2NT to offer a #choice-of-game#:
@@ -639,7 +639,7 @@ Summary: :: we use slow/fast to show/deny #FOUR in OTHER MAJOR#
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |       | (2S) | {thinsp}X {emsp} (P)
-| !2NT! | (P)  | !3C!
+| !2NT! | (P)  | !3C! {emsp} (P)
 |  ?    |      |
 2+<| P,3D,3H  <| to play
 | !3S!  |      | COG, no{nbsp}{S}{hyph}stopper, 4*{H}
@@ -671,7 +671,7 @@ This follows the scheme of #slow shows four in the other major.#
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |       | (2H) | {thinsp}X {emsp} (P)
-| !2NT! | (P)  | !3C!
+| !2NT! | (P)  | !3C! {emsp} (P)
 |  ?    |      |
 2+<| P,3D     <| to play
 | !3H!  |      | COG, no{nbsp}{H}{hyph}stopper, 4*{S}
