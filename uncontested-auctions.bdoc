@@ -98,8 +98,6 @@ double), then new suits are natural game-tries.
 
 === 4th-Suit-F1 vs 4th-Suit-GF vs{nbsp}XYZ
 
-[green-box]#Updated {ndash} June 22, 2020#
-
 {reference} http://www.rpbridge.net/5m81.htm[
 _Forcing vs. Limit Style_]
 __ {nbsp}{ndash}{nbsp} Richard Pavlicek
@@ -158,7 +156,7 @@ _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 [#_1h_1s_2c_2d]
 ====  1H {ndash} 1S{semicolon} 2C {ndash} [underline]#2D#
 
-[green-box]#New {ndash} June 22, 2020#
+// [green-box]#Updated {ndash} June 30, 2020#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -483,8 +481,6 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 >> cue = GF, jumps are inv +
 
 *OFF by passed hand*
-
-[green-box]#Updated {ndash} June 16, 2020#
 
 @ regular new-minor forcing,
 _ inv. values +
