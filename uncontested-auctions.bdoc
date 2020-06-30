@@ -94,20 +94,20 @@ bid indicating extras; this time, non-minumum and 4-card support.
 When opener is known to have a 4-card raise (_e.g._{thinsp} no support
 double), then new suits are natural game-tries.
 
-== Second-round jumps and 4th-suit forcing
+== Second-round jumps and fourth-suit forcing
 
-=== 4th-Suit-F1 vs 4th-Suit-GF vs{nbsp}XYZ
-
+We use forcing 2^nd^-round jumps::
 {reference} http://www.rpbridge.net/5m81.htm[
 _Forcing vs. Limit Style_]
 __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 
+We prefer _4^th^-Suit-F1_ to{thinsp} _XYZ_::
 {reference}
 http://bridgewinners.com/article/view/responding-to-1c-with-six-ds-four-of-a-major-and-6-9-points/?cj=968891[
 _Why XYZ is not a good convention_ ]
 __ {nbsp}{ndash}{nbsp} Oren Kriegel
 
-Other reasons we prefer 4^th^-Suit-F1 to XYZ:
+*Other reasons we prefer _4^th^-Suit-F1_{thinsp} to _XYZ_*
 
 * When the 4^th^-suit bid is 1S, we use it as a 2-way bid (natural or
   11{OrMore} artificial).  Unlike XYZ, this preserves a natural
@@ -126,14 +126,17 @@ Other reasons we prefer 4^th^-Suit-F1 to XYZ:
 @ 2nd-round raise of minor = GF +
 @ 4th-suit = one-round force (rebid not promised)
 
-=== Opener's third bid
+[#_3rd_bid_by_opener_in_4sf1]
+=== Third bid by opener in fourth-suit-forcing auction
 
-After fourth-suit forcing at the 2-level: +
+After fourth-suit at the 2-level: +
 @ 2NT, or a #2-level bid# of
 _ #either player's first-suit#
 _ = #minimum strength, NF# +
 @ other non-jump = ambiguous strength, F1 +
 @ jump = extra strength, GF
+
+==== Fourth suit at the 2-level after three 1-level bids
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -154,49 +157,39 @@ _ = #minimum strength, NF# +
 _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 
 [#_1h_1s_2c_2d]
-====  1H {ndash} 1S{semicolon} 2C {ndash} [underline]#2D#
+====  Fourth-suit after 1H {ndash} 1S{semicolon} 2C
 
-// [green-box]#Updated {ndash} June 30, 2020#
+[green-box]#Updated {ndash} June 30, 2020#
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="2*^",grid="none"]
 |===
-|  1H  |  1S  |
-|  2C  | !2D! |
-|  2H  |      | F or NF?  Extra length?
+|  1H  |  1S
+|  2C  | !2D!
+|  ?   |
 |===
 
-*A:* [lightgrey-box]#{S}{thinsp}xx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQxx#
-*B:* [lightgrey-box]#{S}{thinsp}Qx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQJx#
+As per the <<_3rd_bid_by_opener_in_4sf1, rules>>, #2H = NF# ; hence minimum strength.
 
-Hand A would like to make a NF 2H.
+Opener will usually not have a
+sixth heart because with minimum strength and 6-4, opener would rebid
+hearts before introducing clubs.
 
-If 2H is NF, then it would usually not have a sixth heart because with
-minimum strength and 6-4, opener would rebid hearts before introducing
-clubs.
+Therefore, 2H is appropriate on mimimum hands that are unsuitable
+for the other NF rebids (2S, 2NT)
 
-This follows the rule that a rebid of a suit that was bid on the
-first-round denies extra strength; so is non-forcing.
+*Examples*
 
-Hand B is too strong for a NF bid.
-The forcing options are: +
-@ 3NT = stopper in diamonds, 16-17
-@ jump to 3S = 3-card support, extras
-@ jump to 3H = good 6-4
-@ 3D = 4*{D}, extra values
-@ 3C = extra length or extra strength
+[lightgrey-box]#{S}{thinsp}xx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQxx# 2{H}::
+  Typical hand;  2H=NF allows the partnership to stop low
 
-Of these options, 3C is the only suitable bid for hand B, so it #does not promise 5-5#.
+[lightgrey-box]#{S}{thinsp}x {H}{thinsp}AJTxx {D}{thinsp}xx {C}{thinsp}KQTxx# 2{H}::
+  Even with extra shape, 2H=NF is best to avoid forcing the auction higher
 
-// According to the rules, 2H is minimum and NF (a 2-level bid in
-// opener's first suit).
-// However, with minimum strength and 6-4, opener would rebid hearts
-// before introducing clubs, so it cannot be that hand.
-// Therefore we make an exception to the rule.
+[lightgrey-box]#{S}{thinsp}Qx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQJx# 3{C}::
+  Too strong for a NF bid;  3C is forcing one-round and does not promise extra length
 
-// In this sequence, 2H is the default bid; +
-// @ #ambiguous# strength, hence #forcing# +
-// @ will not have extra {H}-length if miniumum;
-// _ may have extra {H}-length with extra strength
+[lightgrey-box]#{S}{thinsp}x {H}{thinsp}AQJxxx {D}{thinsp}Kx {C}{thinsp}KQJx# 3{H}::
+  Opener must jump in hearts with extra strength and extra length
 
 === Vs interference
 
