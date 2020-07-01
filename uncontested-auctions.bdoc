@@ -96,43 +96,133 @@ double), then new suits are natural game-tries.
 
 == Second-round jumps and fourth-suit forcing
 
-We use forcing 2^nd^-round jumps::
-{reference} http://www.rpbridge.net/5m81.htm[
-_Forcing vs. Limit Style_]
+*2nd-round jump = natural & GF* +
+_ {reference} http://www.rpbridge.net/5m81.htm[_Forcing vs. Limit Style_]
 __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 
-We prefer _4^th^-Suit-F1_ to{thinsp} _XYZ_::
-{reference}
-http://bridgewinners.com/article/view/responding-to-1c-with-six-ds-four-of-a-major-and-6-9-points/?cj=968891[
-_Why XYZ is not a good convention_ ]
+*4th-suit = one-round force* +
+_ {reference}
+  http://bridgewinners.com/article/view/responding-to-1c-with-six-ds-four-of-a-major-and-6-9-points/?cj=968891[
+  _Why XYZ is not a good convention_ ]
 __ {nbsp}{ndash}{nbsp} Oren Kriegel
 
-*Other reasons we prefer _4^th^-Suit-F1_{thinsp} to _XYZ_*
 
-* When the 4^th^-suit bid is 1S, we use it as a 2-way bid (natural or
-  11{OrMore} artificial).  Unlike XYZ, this preserves a natural
-  2C, and allows opener to make a cheap, descriptive 3^rd^-round bid.
+****
+.Another reason for preferring 4th-suit-F1 to XYZ
   
-* XYZ doesn't apply when the 3^rd^ suit is at the 2-level, so new
-  rules (__e.g.__{thinsp} 4^th^-Suit Forcing) are needed.
-  We use the same rules for 4^th^ suit at the 1, 2 and 3 levels.
+If the third suit is at the 2-level, or if opener rebids the original
+minor, then XYZ is not an option.
+So other agreements are needed for those auctions; _e.g._{thinsp} many
+change to 4th-suit-GF with second-round jumps and raises as
+invitational.
 
-* We use the same rules when a minor is rebid by opener;
-  _i.e._{thinsp}3^rd^-suit forcing auctions.
+By contrast, we use one common set of agreements that apply 
+in all third and fourth-suit forcing auctions.
+****
 
-=== Rules
+=== Second-round raise of a minor
 
-@ 2nd-round jump = natural & GF +
-@ 2nd-round raise of minor = GF +
-@ 4th-suit = one-round force (rebid not promised)
+[green-box]#Updated {ndash} July 1, 2020#
+[.nobr.green.xemph]#Added example auctions and justification#
+
+#**2^nd^-round raise of minor = GF**#
+
+The final bid in each of the following auctions is GF
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",cols="2*^",stripes=odd]
+:===
+ 1D : 1S
+ 2C : !3C!
+:===
+|
+[grid="none",cols="2*^",stripes=odd]
+:===
+ 1H : 1S
+ 2D : !3D!
+:===
+|
+[grid="none",cols="2*^",stripes=odd]
+:===
+ 1D : 1S
+ 2D : !3D!
+:===
+|===
+
+****
+.Why we have this agreement
+
+To invite in the forcing-style, we temporise with a new suit
+(3rd or 4th suit = one-round force).
+So the second-round minor-suit-raise agreement is needed to set trump
+and establish a GF while staying below 3NT.
+
+Note that 4th-suit-GF partnerships do the opposite.
+They play second-round jumps and second-round raises as invitational.
+****
+
+=== Vs interference
+
+&vs double:& System ON +
+
+&vs suit-bid:& #Limit bidding & cue{thinsp}={thinsp}GF#
+
+_Limit bidding = second-round jumps and raises are invitational_
+
+=== Fourth suit at the one-level
+
+[green-box]#Updated {ndash} July 1, 2020#
+[.nobr.green.xemph]#Added example auction#
+
+[%autowidth,cols="4*<",grid="none"]
+|===
+| 1C   |  1D     ||
+| 1H   |  ?      ||
+|      | !1S!    || natural 6-10 or 11+ artificial, F1
+|   2+<| 2C,2D,2H | natural, NF (less than inv.)
+|   2+<| 2S, 2NT  | natural, GF (2nd-round jump)
+|===
+
+*After 4th-suit = 1S*
+
+Opener bids as though 1S is natural (6-10) +
+@ any non-jump = minimum range
+_ ({simto}{thinsp}12{ndash}15) +
+@ jump = extras (16{ndash}18{OrLess}) +
+@ opener may not bid above 3S
+
+*Example*
+
+[%autowidth,cols="2*.^a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",cols="2*^",stripes=odd]
+:===
+ 1C : 1D
+ 2H : !1S!
+ 2S : 2NT
+:===
+|
+[grid="none",cols="<",frame=none,stripes=none]
+!===
+! {S} Q96 +
+  {H} A3 +
+  {D} AJT87 +
+  {C} T73
+!===
+|===
+
+_2NT invites game in notrump and confirms that responder does not have
+four spades._
 
 [#_3rd_bid_by_opener_in_4sf1]
-=== Third bid by opener in fourth-suit-forcing auction
+=== Third bid by opener in fourth-suit-forcing auctions
 
-After fourth-suit at the 2-level: +
-@ 2NT, or a #2-level bid# of
-_ #either player's first-suit#
-_ = #minimum strength, NF# +
+*After fourth-suit at the 2-level* +
+@ 2NT, or a #2-level bid of either player's first suit#
+_ = NF, hence minimum strength +
 @ other non-jump = ambiguous strength, F1 +
 @ jump = extra strength, GF
 
@@ -160,6 +250,7 @@ _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 ====  Fourth-suit after 1H {ndash} 1S{semicolon} 2C
 
 [green-box]#Updated {ndash} June 30, 2020#
+[.nobr.green.xemph]#Added examples#
 
 [%autowidth,cols="2*^",grid="none"]
 |===
@@ -170,12 +261,11 @@ _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 
 As per the <<_3rd_bid_by_opener_in_4sf1, rules>>, #2H = NF# ; hence minimum strength.
 
-Opener will usually not have a
-sixth heart because with minimum strength and 6-4, opener would rebid
-hearts before introducing clubs.
+Opener will usually not have a sixth heart because with minimum
+strength and 6-4, opener would rebid hearts before introducing clubs.
 
-Therefore, 2H is appropriate on mimimum hands that are unsuitable
-for the other NF rebids (2S, 2NT)
+Therefore, 2H is appropriate on mimimum hands that are unsuitable for
+either of the other NF rebids (2S, 2NT).
 
 *Examples*
 
@@ -190,23 +280,6 @@ for the other NF rebids (2S, 2NT)
 
 [lightgrey-box]#{S}{thinsp}x {H}{thinsp}AQJxxx {D}{thinsp}Kx {C}{thinsp}KQJx# 3{H}::
   Opener must jump in hearts with extra strength and extra length
-
-=== Vs interference
-
-@ vs double, system on 
-@  #vs suit bid, limit bidding & cue=GF#
-
-=== Fourth suit at the one-level
-
-[%autowidth,cols="4*<",grid="none"]
-|===
-| 1C   |  1D     ||
-| 1H   |  ?      ||
-|      | !1S!    || natural 6-10 or 11+ artificial
-|      | 2S, 2NT || natural GF
-|===
-
-After 4th-suit=1S, opener assumes natural, but may not bid above 3S.
 
 === Rebidding after 1H{ndash}1S
 
