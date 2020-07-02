@@ -405,40 +405,40 @@ Hands with no clear direction::
 2D (unbid minor) is used for #suit-oriented invitations# and GF hands
 with no clear direction.
 
-[%autowidth,cols="3*^.^,<",grid="none"]
+[%autowidth,cols="2*^.^,<",grid="none"]
 |===
-| 1C |  1S  ||
-| 2C |  ?   ||
-|    | !2D! || inv. [ {C} supp. {or} 6{OrMore}{xtimes}{S}
-                    {or} 5{ndash}5{xtimes}{S}{ndash}{D} ] +
-	       _or_{thinsp} GF with no clear direction
-|    |  2H  || inv.{OrMore}, natural (4{orMore}{xtimes}{H}),
-               #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}#
-|    |  2NT || natural, inv.
-|    |  3C  || GF (2nd-round raise of minor)
-| 2+>| 3D,3H <| 5{ndash}5 GF
-               _ (2nd-round jump)
-|    |  3S  || GF, semi-solid suit
-|    |  3NT || to play
+| 1C |  1S  |
+| 2C |  ?   |
+|    | !2D! | inv.{thinsp}[ {C} supp. {or} 6{OrMore}{xtimes}{S}
+                   {or} 5{ndash}5{xtimes}{S}{ndash}{D} ] +
+	      _or_{thinsp} GF with no clear direction
+|    |  2H  | inv.{OrMore}, natural (4{orMore}{xtimes}{H}),
+              #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}#
+  2+>| 2NT <| natural, inv.
+|    |  3C  | GF (2nd-round raise of minor)
+2+>| 3D,3H <| 5{ndash}5 GF
+              _ (2nd-round jump)
+|    |  3S  | GF, semi-solid suit
+  2+>| 3NT <| to play
 |===
 
 When opener bypasses 1S, then responder's 2S shows a GF with values in spades.
 This removes that hand type from the the unbid minor.
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1C |  1H  ||
-| 2C |  ?   ||
-|    | !2D! || inv. [ {C} supp. {or} 6{OrMore}{xtimes}{H}
-                    {or} 5{ndash}5{xtimes}{H}{ndash}{D} ] +
-	       _or_{thinsp} GF with values in {D}
-|    |  2H  || to play
-|    |  2S  || #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
-|    |  2NT || natural, inv.
-|    |  3C  || GF raise
-|    |  3D  || 5{ndash}5 GF
-|    |  3H  || GF, semi-solid suit
-|    |  3NT || to play
+| 1C |  1H  |
+| 2C |  ?   |
+|    | !2D! | inv.{thinsp}[ {C} supp. {or} 6{OrMore}{xtimes}{H}
+                   {or} 5{ndash}5{xtimes}{H}{ndash}{D} ] +
+	      _or_{thinsp} GF with values in {D}
+|    |  2H  | to play
+|    |  2S  | #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
+  2+>| 2NT <| natural, inv.
+|    |  3C  | GF raise
+|    |  3D  | 5{ndash}5 GF
+|    |  3H  | GF, semi-solid suit
+  2+>| 3NT <| to play
 |===
 
 &Opener's third bid&
@@ -449,19 +449,21 @@ principles to bidding after fourth-suit forcing at the 2-level.
 However, the _safety level_{thinsp} is defined as three of opener's minor
 so a rebid of 3C is non-forcing and bidding above it is GF.
 
-  * 2NT, or either previously-bid suit = minimum strength, NF
+@ 2NT, or either previously-bid suit
+_ = minimum strength, NF +
 
-  * other major (non-jump) = ambiguous strength, F1
+@ other major (non-jump)
+_ = ambiguous strength, F1 +
 
-  * bidding above 3C = extra strength, GF
+@ bidding above 3C
+_ = extra strength, GF +
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1C  |  1S  ||
 |  2C  | !2D! ||
 |  ?   |      ||
-| 2H   |      || #{thinsp}values in {H}{thinsp}#, ambiguous{nbsp}strength,
-                 #{thinsp}F1{thinsp}#
+| 2H   |      || #{thinsp}values in {H}{thinsp}#, ambiguous{nbsp}strength
 3+<| 2S, 2NT, 3C
               <| minimum, NF
 3+<| 3D, 3S, 3NT
@@ -477,12 +479,12 @@ The unbid minor (3C) is at the 3-level, so must have fewer hand-types.
 
 Responder is unable to show inv. 5-5 in M-{C}.
 
-[%autowidth,cols="3*^.^,<",grid="none"]
+[%autowidth,cols="2*^.^,<",grid="none"]
 |===
-| 1D |  1H  ||
-| 2D |  ?   ||
-|    |  2S  || #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
-|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{H} ] +
+| 1D |  1H  |
+| 2D |  ?   |
+|    |  2S  | #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
+|    | !3C! | inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{H} ] +
 	       _or_{thinsp} GF with values in {C}
 |===
 
@@ -491,15 +493,15 @@ The most awkward case is diamonds and spades.
 Responder's 2H rebid must include GF hands with values but not
 necessarily length in hearts.
 
-[%autowidth,cols="3*^.^,<",grid="none"]
+[%autowidth,cols="2*^.^,<",grid="none"]
 |===
-| 1D |  1S  ||
-| 2D |  ?   ||
-|    |  2H  || inv.{OrMore}, natural (4{orMore}{xtimes}{H}), #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}# +
-               _or_ #{thinsp}GF{thinsp}# with #{thinsp}values in {H}{thinsp}# +
-	       _ _e.g._ {S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx
-|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
-	       _or_{thinsp} GF with values in {C}
+| 1D |  1S  |
+| 2D |  ?   |
+|    |  2H  | inv.{OrMore}, natural (4{orMore}{xtimes}{H}), #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}# +
+              _or_ #{thinsp}GF{thinsp}# with #{thinsp}values in {H}{thinsp}# +
+	      _ _e.g._ {S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx
+|    | !3C! | inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
+	      _or_{thinsp} GF with values in {C}
 |===
 
 Holding four hearts and a max, opener cannot raise 2H to 4H because an
