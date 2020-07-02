@@ -341,27 +341,32 @@ There is no invitation in {S} because that hand invites on 1st-round
 
 === Responder's notrump ladder
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="3*^.^,<",grid="none"]
 |===
 4+^| After three suits at the 1-level
 
-| 1C | 1H   | |
-| 1S | ?    | |
-|    | 2NT  | | 13-15 or 18{OrMore}
-|    | 3NT  | | 16-17
-|    | !2D! | | 4th-Suit-F1, [nobr]#includes bal. 11-12#
+| 1C |  1H  ||
+| 1S |  ?   ||
+|    |  2NT || 13-15 or 18{OrMore}
+|    |  3NT || 16-17
+|    | !2D! || 4th-Suit-F1, [nobr]#includes bal. 11-12#
+|    |  3S  || GF raise
+|    | #{thinsp}!!4S!!{thinsp}#
+            || KC for {H} (<<slam-conventions.adoc#own-suit-kc, own-suit KC>>)
 |===
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="3*^.^,<",grid="none"]
 |===
 4+| After opener's 2-level rebid
 
-| 1D |  1S   | |
-| 2C |  ?    | |
-|    |  2NT  | | 11-12
-|    |  3NT  | | 16-17
-|    | !4NT! | | KC for {S} (<<slam-conventions.adoc#own-suit-kc, own-suit KC>>)
-|    | !2H!  | | 4th-suit-F1, [nobr]#includes bal. 13-15 {or} 18{OrMore}#
+| 1D |  1S   ||
+| 2C |  ?    ||
+|    |  2NT  || 11-12
+|    |  3NT  || 16-17
+|    | #!!4NT!!#
+             || KC for {S} (<<slam-conventions.adoc#own-suit-kc, own-suit KC>>)
+|    | !2H!  || 4th-suit-F1,
+     [nobr]## includes bal.{thinsp}[ 13-15 {or} #{thinsp}18{OrMore}{thinsp}# ]##
 |===
 
 === Fourth suit on 3rd-round or later
