@@ -71,6 +71,9 @@ penalties opposite length.
 
 === Three-way Drury
 
+[green-box]#Updated {ndash} July 1, 2020#
+[.nobr.green.xemph]#Simplified follow-ups to the four-card raise#
+
 @ ON vs Dble & 1S
 @ OFF vs 2C
 
@@ -82,42 +85,56 @@ penalties opposite length.
 | !2D! |    | 3*M, #9{ndash}11# {or} 5*M, 7{ndash}11
 |===
 
-After a 3-card Drury raise, most of opener's bids are the same as
-after a single raise; _i.e._{thinsp} next-step game-tries and new-suit
-slam-tries apply.
+==== After 2D (three-card or five-card raise)
+
+Next-step game-tries and new-suit slam-tries apply
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  P   |  1H   | |
-| !2D! |  ?    | |
-|      |  2H   | | sign-off
-|      | !2S!  | | next-step game-try
-|      | !2NT! | | spades, 2nd-suit slam-try
-|      | 3C,3D | | 2nd-suit slam-try
-|      | 3H    | | invitational, long trumps
-| 2+<| !!3S!!,!!4C!!,!!4D!! <| void-splinter slam-try
-|      | 3NT   | | many playing tricks + side stoppers
+|  P   |  1H   ||
+| !2D! |  ?    ||
+|      |  2H   || sign-off
+|      | !2S!  || next-step game-try
+|      | !2NT! || spades, 2nd-suit slam-try
+|      | 3C,3D || 2nd-suit slam-try
+|      | 3H    || invitational, long trumps
+3+>| !!3S!!,!!4C!!,!!4D!!
+               <| void-splinter slam-try
+|      | 3NT   || many playing tricks + side stoppers
 |===
 
-A four-card Drury raise (2C) can have constructive-raise (8-9) or
-limit-raise (10-11) strength.  With game-interest opposite the weaker
-raise, opener bids immediately above 2M with the same scheme as after the
-three-card Drury raise.
+==== After 2C (four-card raise)
 
-Opener can ask for the strength by bidding 2D.  This shows game interest
-opposite the limit raise.  Responder returns to the trump suit with
-the weaker raise, and shows the location of secondary values,
-with limit-raise strength.
+A four-card Drury raise (2C) can have constructive-raise (8-9) or
+limit-raise (10-11) strength.
+
+Immediately bidding a new suit above TWO MAJOR is a _second-suit
+slam-try_{thins} showing interest based on fit.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  P   |  1S  ||
+| !2C! |  ?   ||
+|      | !2D! || range-ask
+|      | 2H   || natural, F1
+|      | 2S   || sign-off
+3+>| 3C,3D,3H <| 2nd-suit slam-try
+|===
+
+Following the range-ask, responder returns to the trump-suit with the
+lower range (constructive raise).
+With a limit-raise, responder shows the location of secondary values.
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
-|  P   |  1H   |
-| !2C! | !2D!* | {emsp}* range-ask
-|  ?   |       |
-|  2H  |       | min
-2+<| 2S,3C,3D  | max, values in bid suit
-|  2NT |       | max, 3-4-3-3
-|  3H  |       | max, most values in trump
+|  P   |  1S  |
+| !2C! | !2D! |
+|  ?   |      |
+|  2H  |      | LR, secondary values in {H}
+|  2S  |      | CR
+|  2NT |      | max, 4-3-3-3
+2+<| 3C,3D    | LR, secondary values in bid suit
+|  3S  |      | LR, most values in trump
 |===
 
 === Semi-Forcing 1NT
