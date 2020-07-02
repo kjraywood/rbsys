@@ -109,7 +109,7 @@ A four-card Drury raise (2C) can have constructive-raise (8-9) or
 limit-raise (10-11) strength.
 
 Immediately bidding a new suit above TWO MAJOR is a _second-suit
-slam-try_{thins} showing interest based on fit.
+slam-try_{thinsp} showing interest based on fit.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
