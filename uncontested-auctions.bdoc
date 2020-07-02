@@ -390,9 +390,6 @@ If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 
 == Third-suit forcing by responder
 
-[green-box]#Updated {ndash} July 1, 2020#
-[.nobr.green.xemph]#Expanded the tables of responer's rebids#
-
 Refers to auctions that start 1m{ndash}1M{semicolon}{nbsp}2m .
 
 Follows the same rules as fourth-suit forcing::
@@ -411,38 +408,46 @@ Hands with no clear direction::
 
 === Opener rebids clubs
 
-When opener's suit is clubs, then 2D is a convenient low-level bid,
-and is used for most no-clear-direction hands.
-This keeps other rebids natural.
+[green-box]#Updated {ndash} July 2, 2020#
+[.nobr.green.xemph]#Clearer descriptions. Some extra highlights.#
+
+2D (unbid minor) is used for #suit-oriented invitations# and GF hands
+with no clear direction.
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1C |  1S  ||
 | 2C |  ?   ||
-|    | !2D! || inv.
-               _ [ {C} supp. {or} 6{OrMore}{xtimes}{S} {or} 5{ndash}5 {S}{ndash}{D} ], +
+|    | !2D! || inv. [ {C} supp. {or} 6{OrMore}{xtimes}{S}
+                    {or} 5{ndash}5{xtimes}{S}{ndash}{D} ] +
 	       _or_{thinsp} GF with no clear direction
-|    | 2H   || natural, #F1#
-|    | 2NT  || natural, inv.
-|    | 3C   || GF raise
-               _ (2nd-round raise of minor)
+|    |  2H  || inv.{OrMore}, natural (4{orMore}{xtimes}{H}),
+               #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}#
+|    |  2NT || natural, inv.
+|    |  3C  || GF (2nd-round raise of minor)
 | 2+>| 3D,3H <| 5{ndash}5 GF
                _ (2nd-round jump)
-|    | 3S   || GF, semi-solid suit
-|    | 3NT  || to play
+|    |  3S  || GF, semi-solid suit
+|    |  3NT || to play
 |===
+
+When opener bypasses 1S, then responder's 2S shows a GF with values in spades.
+This removes that hand type from the the unbid minor.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1C |  1H  ||
 | 2C |  ?   ||
-|    | !2D! || _similar to above_
-|    | 2S   || GF with {S} values
-|    | 2NT  || natural, inv.
-|    | 3C   || GF raise
-|    | 3D   || 5{ndash}5 GF
-|    | 3H   || GF, semi-solid suit
-|    | 3NT  || to play
+|    | !2D! || inv. [ {C} supp. {or} 6{OrMore}{xtimes}{H}
+                    {or} 5{ndash}5{xtimes}{H}{ndash}{D} ] +
+	       _or_{thinsp} GF with values in {D}
+|    |  2H  || to play
+|    |  2S  || #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
+|    |  2NT || natural, inv.
+|    |  3C  || GF raise
+|    |  3D  || 5{ndash}5 GF
+|    |  3H  || GF, semi-solid suit
+|    |  3NT || to play
 |===
 
 &Opener's third bid&
@@ -464,7 +469,8 @@ so a rebid of 3C is non-forcing and bidding above it is GF.
 |  1C  |  1S  ||
 |  2C  | !2D! ||
 |  ?   |      ||
-| 2H   |      || Forcing, ambiguous strength
+| 2H   |      || #{thinsp}values in {H}{thinsp}#, ambiguous{nbsp}strength,
+                 #{thinsp}F1{thinsp}#
 3+<| 2S, 2NT, 3C
               <| minimum, NF
 3+<| 3D, 3S, 3NT
@@ -473,34 +479,41 @@ so a rebid of 3C is non-forcing and bidding above it is GF.
 
 === Opener rebids diamonds
 
-When opener's suit is diamonds, we must avoid overloading 3C.
-So two of the other major includes GF hands with values in the other
-major but no-clear-direction.
+[green-box]#Updated {ndash} July 2, 2020#
+[.nobr.green.xemph]#Clearer descriptions. Some extra highlights.#
+
+The unbid minor (3C) is at the 3-level, so must have fewer hand-types.
+
+Responder is unable to show inv. 5-5 in M-{C}.
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1D |  1H  ||
 | 2D |  ?   ||
-|    |  2S  || GF with values in {S}
-|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{H} ], +
+|    |  2S  || #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
+|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{H} ] +
 	       _or_{thinsp} GF with values in {C}
 |===
 
+The most awkward case is diamonds and spades.
+
+Responder's 2H rebid must include GF hands with values but not
+necessarily length in hearts.
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1D |  1S  ||
 | 2D |  ?   ||
-|    |  2H  || natural inv., +
-               _or_{thinsp} GF with values in {H} +
+|    |  2H  || inv.{OrMore}, natural (4{orMore}{xtimes}{H}), #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}# +
+               _or_ #{thinsp}GF{thinsp}# with #{thinsp}values in {H}{thinsp}# +
 	       _ _e.g._ {S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx
-|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{S} ], +
+|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
 	       _or_{thinsp} GF with values in {C}
 |===
 
 Holding four hearts and a max, opener cannot raise 2H to 4H because an
 eight-card fit is not assured.
-So we use 3C (fourth suit) as four hearts and a minimum, and 3H as
+So #we use 3C (fourth suit) as four hearts and a minimum#, and 3H as
 four hearts and a maximim.
 
 [%autowidth,cols="2*^,<",grid="none"]
@@ -508,8 +521,9 @@ four hearts and a maximim.
 |  1D  | 1S |
 |  2D  | 2H |
 |  ?   |    |
-| !3C! |    | 4*{H} min
-| !3H! |    | 4*{H} max
+| #{thinsp}!!3C!!{thinsp}#
+       |    | #{thinsp}4*{H}, min{thinsp}#
+| !3H! |    | {thinsp}4*{H}, max, #{thinsp}GF{thinsp}#
 |===
 
 &Opener's third bid&
