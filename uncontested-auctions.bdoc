@@ -390,22 +390,24 @@ If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 
 == Third-suit forcing by responder
 
+[green-box]#Updated {ndash} July 1, 2020#
+[.nobr.green.xemph]#Expanded the tables of responer's rebids#
+
 Refers to auctions that start 1m{ndash}1M{semicolon}{nbsp}2m .
 
-The first two rules are the same as those for fourth-suit forcing.
-
-@ 2^nd^-round jump = natural & GF +
-@ 2^nd^-round raise of minor = GF +
+Follows the same rules fourth-suit forcing::
+  @ 2nd-round jump = natural & GF +
+  @ 2nd-round raise of minor = GF
 
 As usual, a second-round jump to a new suit shows at least 5-5.
 
-&Invitations in previously-bid suits:&
-Responder temporises with the _other minor_.
-This is similar to temporising with fourth-suit forcing one-round.
+Invitations in previously-bid suits::
+  Responder temporises with the _other minor_.
+  This is similar to temporising with fourth-suit forcing one-round.
 
-&Hands with no clear direction:&
-As in fourth-suit forcing, GF hands with no clear direction must also
-make a temporising bid in an unbid suit.
+Hands with no clear direction::
+  As in fourth-suit forcing, GF hands with no clear direction must
+  also make a temporising bid in an unbid suit.
 
 === Opener rebids clubs
 
@@ -413,18 +415,21 @@ When opener's suit is clubs, then 2D is a convenient low-level bid,
 and is used for most no-clear-direction hands.
 This keeps other rebids natural.
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="3*^.^,<",grid="none"]
 |===
-| 1C |  1S  |
-| 2C |  ?   |
-|    | !2D! | {ensp} inv. with {C} support
-              [nobr]#{or} inv. with 6{OrMore}{xtimes}{S}#
-	      [nobr]#{or} inv. with 5*{S} & 5*{D}#
-	      [nobr]#{or} GF with no clear direction#
-|    | 2H   | {ensp} natural, F1
-|    | [nobr]##3&#x1f334;## | {ensp} natural GF
-//|    | 3&#x2693; | {ensp} natural GF
-//|    |3{lab}suit{rab} | {ensp} natural GF
+| 1C |  1S  ||
+| 2C |  ?   ||
+|    | !2D! || inv.
+               _ [ {C} supp. {or} 6{OrMore}{xtimes}{S} {or} 5{ndash}5 {S}{ndash}{D} ], +
+	       _or_{thinsp} GF with no clear direction
+|    | 2H   || natural, #F1#
+|    | 2NT  || natural, inv.
+|    | 3C   || GF raise
+               _ (2nd-round raise of minor)
+| 2+>| 3D,3H <| 5{ndash}5 GF
+               _ (2nd-round jump)
+|    | 3S   || GF, semi-solid suit
+|    | 3NT  || to play
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -433,24 +438,26 @@ This keeps other rebids natural.
 | 2C |  ?   ||
 |    | !2D! || _similar to above_
 |    | 2S   || GF with {S} values
-|    | [nobr]##3&#x1f43b;## ||  natural GF
-//|    | 3{lab}suit{rab} || natural GF
+|    | 2NT  || natural, inv.
+|    | 3C   || GF raise
+|    | 3D   || 5{ndash}5 GF
+|    | 3H   || GF, semi-solid suit
+|    | 3NT  || to play
 |===
 
 &Opener's third bid&
 
 After responder's 2D (other minor), opener's third bid follows similar
-rules as those after fourth-suit forcing at the 2-level.
+principles to bidding after fourth-suit forcing at the 2-level.
 
-The difference is a rebid of 3C is non-forcing and bidding above it is
-GF.
+However, the _safety level_{thinsp} is defined as three of opener's minor
+so a rebid of 3C is non-forcing and bidding above it is GF.
 
-@ 2NT, or either previously-bid suit
-_ = minimum strength, NF
+  * 2NT, or either previously-bid suit = minimum strength, NF
 
-@ other major (non-jump) = ambiguous strength, F1
+  * other major (non-jump) = ambiguous strength, F1
 
-@ bidding above 3C = extra strength, GF
+  * bidding above 3C = extra strength, GF
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -458,8 +465,10 @@ _ = minimum strength, NF
 |  2C  | !2D! ||
 |  ?   |      ||
 | 2H   |      || Forcing, ambiguous strength
-2+<| 2S, 2NT, 3C | <| minimum, NF
-2+<| 3D, 3S, 3NT | <| extras, GF
+3+<| 2S, 2NT, 3C
+              <| minimum, NF
+3+<| 3D, 3S, 3NT
+              <| extras, GF
 |===
 
 === Opener rebids diamonds
@@ -468,29 +477,26 @@ When opener's suit is diamonds, we must avoid overloading 3C.
 So two of the other major includes GF hands with values in the other
 major but no-clear-direction.
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="3*^.^,<",grid="none"]
 |===
-| 1D |  1H  |
-| 2D |  ?   |
-|    |  2S  | {ensp} GF with values in {S}
-|    | !3C! | {ensp} inv. with {D} support
-              [nobr]#{or} inv. with 6{OrMore}{xtimes}{H}#
-	      [nobr]#{or} GF with values in {C}#
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 1D |  1S  |
-| 2D |  ?   |
-|    |  2H  | {ensp} natural inv.
-               [nobr]#{or} GF with values in {H} {biglowast}#
-|    | !3C! | {ensp} inv. with {D} support
-               [nobr]#{or} inv. with 6{OrMore}{xtimes}{S}#
-	       [nobr]#{or} GF with values in {C}#
+| 1D |  1H  ||
+| 2D |  ?   ||
+|    |  2S  || GF with values in {S}
+|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{H} ], +
+	       _or_{thinsp} GF with values in {C}
 |===
 
-{biglowast}{ensp}__e.g.__
-[lightgrey-box]#{S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx#
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| 1D |  1S  ||
+| 2D |  ?   ||
+|    |  2H  || natural inv., +
+               _or_{thinsp} GF with values in {H} +
+	       _ _e.g._ {S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx
+|    | !3C! || inv. [ {D} supp. {or} 6{OrMore}{xtimes}{S} ], +
+	       _or_{thinsp} GF with values in {C}
+|===
 
 Holding four hearts and a max, opener cannot raise 2H to 4H because an
 eight-card fit is not assured.
