@@ -753,31 +753,36 @@ suits.
                > #opener must jump with a max#
 |  2H  |     | natural, weak
 |  2S  |     | to play
-| 2NT  |     | #natural inv.#
+2+<| 2NT    <| #natural inv.#
 |===
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-3+^| No new minor
 
-|  P   | 1C  |
-|  1D  | 1NT |
-|  ?   |     |
-2+<| 2C,2D  <| to play
-2+<| 2H,2S  <| natural inv.
-2+<| 2NT    <| natural inv.
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
+|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+3+^! No new minor
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-3+^| No old  minor
+!  P   ! 1C  !
+!  1D  ! 1NT !
+!  ?   !     !
+2+<! 2C,2D  <! to play
+2+<! 2H,2S  <! natural inv.
+2+<! 2NT    <! natural inv.
+!===
+|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+3+^! No old  minor
 
-| P  | 1H   |
-| 1S | 1NT  |
-| ?  |      |
-2+<| 2C,2D <| to play, 5{OrMore}{xtimes}m
-2+<| 2H,2S <| to play
-2+<| 2NT   <| natural inv.
+! P  ! 1H   !
+! 1S ! 1NT  !
+! ?  !      !
+2+<! 2C,2D <! to play, 5{OrMore}{xtimes}m
+2+<! 2H,2S <! to play
+2+<! 2NT   <! natural inv.
+!===
 |===
 
 == Reverses
