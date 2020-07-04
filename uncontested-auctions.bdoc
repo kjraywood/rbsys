@@ -567,14 +567,8 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 @ ON vs take-out double by either opp +
 @ #OFF if either opp has shown a suit# +
 >> cue = GF, jumps are inv +
-
-*OFF by passed hand*
-
-@ regular new-minor forcing,
-_ inv. values +
->> opener jumps with a max,
-__ 2-level = NF +
-@ 2NT = natural inv.
+@ OFF by a passed hand +
+>> regular NMF with an old and new minor
 
 === Weak with both majors
 
@@ -738,6 +732,52 @@ suits.
 |     | !3oM! | | 4*m, _other-Major_{thinsp} singleton
 |     | !3M!  | | #5*M + 4*m, xx in others#, COG
 |     | !3NT! | | 4*M + 4*m, no singleton, slam try
+|===
+
+[#_nmf_by_passed_hand]
+=== Passed Hand
+
+*Regular New-Minor-Forcing* +
+ @ #if there is an old AND a new minor# +
+ @ all natural after both minors or majors
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+3+^| An old and new minor
+
+|  P   | 1C  |
+|  1S  | 1NT |
+|  ?   |     |
+|  2C  |     | to play
+| !2D! |     | NMF, inv. values +
+               > #opener must jump with a max#
+|  2H  |     | natural, weak
+|  2S  |     | to play
+| 2NT  |     | #natural inv.#
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+3+^| No new minor
+
+|  P   | 1C  |
+|  1D  | 1NT |
+|  ?   |     |
+2+<| 2C,2D  <| to play
+2+<| 2H,2S  <| natural inv.
+2+<| 2NT    <| natural inv.
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+3+^| No old  minor
+
+| P  | 1H   |
+| 1S | 1NT  |
+| ?  |      |
+2+<| 2C,2D <| to play, 5{OrMore}{xtimes}m
+2+<| 2H,2S <| to play
+2+<| 2NT   <| natural inv.
 |===
 
 == Reverses
