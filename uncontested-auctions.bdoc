@@ -741,24 +741,25 @@ suits.
  @ #if there is an old AND a new minor# +
  @ all natural after both minors or majors
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-3+^| An old and new minor
-
-|  P   | 1C  |
-|  1S  | 1NT |
-|  ?   |     |
-|  2C  |     | to play
-| !2D! |     | NMF, inv. values +
-               > #opener must jump with a max#
-|  2H  |     | natural, weak
-|  2S  |     | to play
-2+<| 2NT    <| #natural inv.#
-|===
-
-
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
+2+<a|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+3+^! An old and new minor
+
+!  P   ! 1C  !
+!  1S  ! 1NT !
+!  ?   !     !
+!  2C  !     ! to play
+! !2D! !     ! NMF, inv. values +
+               > #opener must jump with a max#
+!  2H  !     ! natural, weak
+!  2S  !     ! to play
+2+<! 2NT    <! #natural inv.#
+!===
+2+<|
+2+<|
 |
 [%autowidth,cols="2*^,<",grid="none",stripes=odd]
 !===
@@ -774,7 +775,7 @@ suits.
 |
 [%autowidth,cols="2*^,<",grid="none",stripes=odd]
 !===
-3+^! No old  minor
+3+^! No old minor
 
 ! P  ! 1H   !
 ! 1S ! 1NT  !
