@@ -48,20 +48,32 @@ cards
 [#_leads_vs_notrump]
 === NoTrump Contracts
 
-4^th^ best from length
+*4^th^ best from length*
 
-Rusinow Q,J,T,9 or 8 - from four-card or longer suits
+*King = power* +
+@ from AKQT, AKJT, KQT9, KQJ9, KQJT +
+> overtake with the ace and return,
+_ {or} unblock Q, J or T {or} count
 
 [nobr]#[OvalBox]##A##{thinsp}K{thinsp}x{thinsp}x#
 
-King = power (from AKQT, AKJT, KQT9, KQJ9, KQJT) +
-> overtake with the ace and return
-_ {or} unblock Q, J or T {or} count
+*Rusinow Q,J,T,9 or 8* +
+@ only with four-card or longer suit
 
-=== Rusinow exceptions
+*Top of touching honours in 3-card suit* +
+@ [OvalBox]#**Q**#{thinsp}J{thinsp}x
+@ [OvalBox]#**J**#{thinsp}T{thinsp}x
+@ [OvalBox]#**T**#{thinsp}9{thinsp}x
 
-Rusinow does not apply in: +
-@ partner's suit
+*Top of doubeton honour* +
+@ [OvalBox]#**Q**#{thinsp}x
+@ [OvalBox]#**J**#{thinsp}x
+@ [OvalBox]#**T**#{thinsp}x
+
+==== Rusinow exceptions
+
+*Rusinow and power king do not apply in* +
+@ partner's suit +
 @ dummy's suit +
 @ opening leader has preempted
 _ and leads a side suit
