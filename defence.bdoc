@@ -4,16 +4,19 @@
 
 == Opening Leads
 
+[#_leads_vs_suits]
 === Suit Contracts
+
+==== Honour-card leads vs suit contracts
 
 [nobr]#[OvalBox]##A##{thinsp}K{thinsp}x# +
 except lead King when: +
-@ partner has bid or raised the suit
-@ opps are at five or six-level
-@ you have AK doubleton
+@ partner has bid or raised the suit +
+@ opps are at five or six-level +
+@ you have AK doubleton +
 @ at trick two and later
 
-[nobr]#A{thinsp}K{thinsp}[OvalBox]##Q##{thinsp}x#
+[nobr]#A{thinsp}K{thinsp}[OvalBox]##Q##{thinsp}x# +
 > third-hand gives count
 
 Other honour-leads are standard +
@@ -24,19 +27,25 @@ Other honour-leads are standard +
 Rusinow honour-leads from a _known long-suit._
 ****
 
-[nobr]#x{thinsp}[.red.OvalBox]##x##{zwsp}#
-@ opening-lead only
-@ top card = 9 or lower
+[#_spot_leads_vs_suits]
+==== Spot-card leads vs suit-contracts
 
-[nobr]#[OvalBox]##x##{thinsp}x{thinsp}x#
+[green-box]#Updated {ndash} July 4, 2020#
+[.nobr.green.xemph]#Dropped low from doubletons#
+
+[nobr]#[OvalBox]##**x**##{thinsp}[red]##x##{zwsp}#
+
+[nobr]#[OvalBox]##x##{thinsp}x{thinsp}**[blue]##(##x[blue]##)##**{zwsp}# +
+@ usually top-of-nothing +
+@ low from three (count) in partner's suit
+_ #when you have not raised#
 
 2^nd^ highest from four or five small, except highest of touching
 cards
 
-low from honour third
+3^rd^ or 4^th^ best from an honour
 
-4^th^ best
-
+[#_leads_vs_notrump]
 === NoTrump Contracts
 
 4^th^ best from length
