@@ -2,10 +2,13 @@
 
 = One NoTrump Opening
 
-== Responses to 1NT
+[#_responses_to_1nt]
+== Overview
 
 [%autowidth,cols="^,<",grid="none"]
 |===
+2+<| Responses to 1NT
+
 | 2C    | Stayman, promises a 4-card major, Smolen, Baze,
           [nobr]#delayed Texas#
 | 2D,2H | Jacoby transfer +
@@ -96,10 +99,10 @@ After 1NT opening, the lowest response (4D) shows #FOUR or FEWER#
 
 == Stayman
 
-@ promises a 4-card major
-@ includes 5*{S} inv. (bal. or 5-5)
-@ Smolen
-@ Baze
+@ promises a 4-card major +
+@ includes 5*{S} inv. (bal. or 5-5) +
+@ Smolen +
+@ Baze +
 @ delayed Texas
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -172,7 +175,7 @@ _ possibly 5-5 shape
 === Vs double of Stayman
 
 In order of priority: +
-@ 3C = 4-4 majors max
+@ 3C = 4-4 majors max +
 @ 2NT = 4-4 majors min +
 @ pass promises a stopper
 _ (may have a stack) +
@@ -356,6 +359,7 @@ The focus is on a stopper in the doubled suit.
 _ and A or K of doubled suit +
 @ pass promises a stopper +
 @ redouble = no stopper
+
 ==== Opener accepts the transfer
 
 We have set trump so responder continues with natural methods
@@ -465,8 +469,8 @@ declare.
 
 @ new-suit = shortness
 >> opener assumes COG +
-@ 4m = <<slam-conventions.adoc#optional-minorwood, optional minorwood>>
-@ other jump-shift = exclusion
+@ 4m = <<slam-conventions.adoc#optional-minorwood, optional minorwood>> +
+@ other jump-shift = exclusion +
 @ 4NT = slam inv.
 
 A 3NT rebid is generally to play, but opener may continue with
