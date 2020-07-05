@@ -264,16 +264,13 @@ We attempt to increase accuracy in the more frequent case.
 _Transfer Extensions_]
 __ {nbsp}{ndash}{nbsp} Justin Lall
 
-Second-round transfers apply after a Jacoby transfer to a major.
-They are descriptive, not demanding.
+@ apply after a Jacoby transfer to a major +
+@ are descriptive, not demanding +
 
-Transfer to {H} then 2S (_transfer to 2NT_{thinsp}) does not
-show spades.
-It is invitational with exactly five hearts and fewer than
-four spades.
-Opener assumes that it is one of: +
-@ balanced or semi-balanced inv. +
-@ 5{times}{H}{thinsp}+{thinsp}5{times}m, inv.
+Transfer to {H} then 2S::
+  inv., 5*{H}, less than four spades +
+  =    balanced or semi-balanced inv. +
+  {or} 5-5{xtimes}{H}-m, inv.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -287,17 +284,13 @@ Opener assumes that it is one of: +
 |  4H  |      | | max, 3*{H}
 |===
 
-Other bids below three of the suit shown by the 1^st^-round transfer
-are 2^nd^-round transfers, showing length in the next suit.
+2nd-round transfer::
+@ to either minor = GF, 4{OrMore}{xtimes}m +
+@ re-transfer = game inv. or slam inv. +
+@ to hearts (2nd suit) = 5-5 M, GF
 
-@ 2^nd^-round transfer to 3m
-_ = 4{orMore}{xtimes}m, GF +
-@ transfer to {S} then
-_  2^nd^-round transfer to {H}
-_ = 5-5 Majors, GF +
-@ 2^nd^-round transfer to same major
-_ = inv. to game or slam +
-@ raising major = COG
+
+#Raising same major = GF, one-loser suit#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -309,14 +302,15 @@ _ = inv. to game or slam +
 |     | !3H!  | | 6{orMore}{xtimes}{S}, game or slam inv. +
                   {tribull} 3S = decline +
 		  {tribull} _other_ = accept
-|     |  3S   | | GF, good 6-card suit, COG
+|     |  3S   | | GF, one-loser 6-card suit
 |===
 
 Following a 2^nd^-round transfer that shows a new-suit, opener chooses
 from: +
-@ bid the first suit, this sets trump
-@ new-suit shows a fit for the second suit
-@ 3NT = no fit
+@ return to original major = 3-card supp. +
+@ new-suit shows a fit for the second suit +
+@ 3NT = stoppers in unshown suits +
+@ take transfer = neutral (usually 3-card supp.)
 
 === Self splinter
 
@@ -631,7 +625,9 @@ vs: 2D = single major (unknown suit)::
   @ 3{lab}either minor{rab} = natural, GF +
   @ 3{lab}either major{rab} = natural GF,
   __ #other major NOT stopped# +
-  @ 3NT = to play, both majors stopped +
+  @ 2NT = Leb. +
+    >> 3m = weak +
+    __ 3NT = to play, both majors stopped +
   +
   Otherwise, pass to discover their suit, then +
   @@ dble = take-out +
