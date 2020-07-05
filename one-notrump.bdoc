@@ -630,7 +630,7 @@ vs: 2D = single major (unknown suit)::
   @ 2{lab}either major{rab} = to play +
   @ 3{lab}either minor{rab} = natural, GF +
   @ 3{lab}either major{rab} = natural GF,
-  _ #other major NOT stopped# +
+  __ #other major NOT stopped# +
   @ 3NT = to play, both majors stopped +
   +
   Otherwise, pass to discover their suit, then +
