@@ -594,10 +594,12 @@ NOTE: An off-shape neg. double is OK because responder's GF values and
       stopper in the opp's suit allows us to play 3NT if major-suit
       fit is not found.
 
-==== Summary: Responder has both majors
+
 
 [%autowidth,cols="^.^s,<.^",grid="all"]
 |===
+2+^| Summary: Responder has both majors
+
 | 5 {ndash} 5  |  3S (forcing) then 4H if spades are not raised
 | 5 {ndash} 4 with stopper
                | neg. double then 3M (forcing with stopper)
@@ -614,72 +616,62 @@ Give-up 2NT-then-3M showing an invitational single-suiter, and use it
 for Smolen without a stopper
 ****
 
-=== vs artificial 2D
+[#_1nt_interference_artificial_2d]
+=== Vs artificial 2D
 
-dble = take-out of diamonds (usual meaning)
+*dble = take-out of diamonds* (neg.{nbsp}dble)
 
-==== 2D shows 5{OrMore} of a known major
+vs: 2D = 5{OrMore} of a known major::
+  @ 2{lab}known major{rab} = Michaels +
+  @ other = Leb. re stopper in known major
 
-2{lab}known major{rab} = Michaels
+vs: 2D = single major (unknown suit)::
+  @ Dble = take-out of diamonds +
+  @ 2{lab}either major{rab} = to play +
+  @ 3{lab}either minor{rab} = natural, GF +
+  @ 3{lab}either major{rab}
+  _ = GF #WITHOUT stopper in other major# +
+  @ 3NT = to play, both majors stopped +
+  +
+  Otherwise, pass to discover their suit, then +
+  @@ dble = take-out +
+  @@ other = Lebensohl
 
-Other = Lebensohl, stopper refers to known major
+vs: 2D shows a 2-suiter::
+  @ ignore stoppers +
+  @ 2-level = NF, 3-level = F
 
-==== 2D shows a single major (unknown suit)
+// ****
+// .Possible Agreement
 
-Dble = take-out of diamonds
+// If 2D showed one known suit, and one unknown suit, then
+// three of the known suit is Stayman
+// ****
 
-2{lab}either major{rab} = to play
+vs: 2D = Suction = {H} {or} {S} + {C}::
+  @ use neg. dble with a suitable hand +
+  @ pass with length in diamonds
+  > then Leb. when hand-type is revealed +
+  +
+  Otherwise, #assume that intervenor has hearts# +
+  @ #2H = Michaels# +
+  @ other = Leb. re stopper in hearts
 
-3m = inv.
+[#_1nt_interference_two_major]
+=== Vs TWO MAJOR
 
-3{lab}either major{rab} = forcing, no stopper in other major
+vs: 2M = [ natural {or} M + m ]::
+  @ standard Leb. re stopper in M
 
-3NT = to play (stoppers in both majors??)
+vs: 2H = transfer = 5{OrMore}{xtimes}{S}::
+  @ 2S = Michaels +
+  @ other = Leb. re stopper spades
 
-Otherwise, pass to discover their suit, then: +
-_ dble = take-out
-_ other = Lebensohl
-
-==== 2D shows a 2-suiter
-
-We don't try to sort out stoppers in both suits.
-
-Two and three-level bids are as vs single unknown major
-
-****
-.Possible Agreement
-
-If 2D showed one known suit, and one unknown suit, then
-three of the known suit is Stayman
-****
-
-==== 2D = Suction = {H} {or} {S} + {C}
-
-With a suitable hand use a negative double
-
-Pass with some length in diamonds, then follow
-normal single-suiter or two-suiter agreements
-
-Otherwise, #assume that intervenor has hearts#
-and use Lebensohl.
-
-=== Vs 2M
-
-2S is to play except vs 2H showing five or more spades; then it is
-Michaels.
-
-Otherwise, #standard Lebensohl# except three of either minor
-is invitational.
-
-If 2M showed a two suiter in which either suit might be only
-four-cards in length, then we disregard stoppers.
-
-****
-.Possible Agreement
-
-vs 2M showing a five-card major and unknown minor, then
-Lebensohl stopper showing/dening is ON
-****
+vs: 2H = both majors::
+  @ #2S = natural# +
+  @ 3{lab}either minor{rab} = natural, GF +
+  @ #3{lab}either major{rab} = natural, GF# +
+  @ 3NT = to play (ignore stoppers)
 
 === Vs 2NT (minors)
 
