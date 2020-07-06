@@ -276,7 +276,7 @@ Transfer to {H} then 2S::
 |  1NT | !2D! |
 |  2H  | !2S! | {ensp} inv., _(see above)_
 |  ?   |      |
-|  2NT |      | min, 2*{H}
+|  2NT |      | min, 2*{H} +
                 > 3m = 5-5{xtimes}{H}-m
 |  3H  |      | min, 3*{H}
 | !3S! |      | #max, {H} Ax, Kx or Qx#
@@ -632,14 +632,14 @@ vs: 2D = single major (unknown suit)::
   @@ dble = take-out +
   @@ other = Lebensohl
 
-vs: 2D shows a 2-suiter with diamonds::
+vs: 2D = 2-suiter with diamonds::
   @ 2M = natural NF
   __ #(even if they showed M)# +
   @ #3D = Stayman# +
-  @ other 3-level bid = F +
+  @ other 3-level bid = natural, F +
   @ 3NT = to play
 
-vs: 2D shows majors::
+vs: 2D = both majors::
   @ #2M = natural NF# +
   @ 3-level = F +
   @ 3NT = to play
