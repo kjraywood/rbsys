@@ -316,17 +316,19 @@ __ = neutral (usually 3-cd supp.)
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1NT | !2D!  |
-| 2H  | !2NT! | {ensp} 4{orMore}{xtimes}{C}, GF
-| ?   |       |
-| 3NT |       | no fit for {H} or {C},
+|  1NT | !2D! |
+|  2H | !2NT! | {ensp} 4{orMore}{xtimes}{C}, GF
+|  ?   |      |
+| !4C! |      | #double fit#
+                (3*{H}, 4{OrMore}{xtimes}{C})
+|  3NT |      | no fit for {H} or {C},
                 [nobr]#stoppers in {S} and {D}#
 | !3S! |      | 4-card {C}-support,
                 [nobr]#{S} control (usually ace)#
 |  3H  |      | 3-card {H}-support
 | !3D! |      | 4-card {C}-support,
                  [nobr]#{D} control (usually ace)#
-| 3C   |      | none of the above,
+|  3C  |      | none of the above,
                 3-card {C}-support
 |===
 
