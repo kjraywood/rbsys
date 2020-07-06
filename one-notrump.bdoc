@@ -268,29 +268,29 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 @ are descriptive, not demanding +
 
 Transfer to {H} then 2S::
-  inv., 5*{H}, less than four spades +
-  =    balanced or semi-balanced inv. +
-  {or} 5-5{xtimes}{H}-m, inv.
+  inv., 5*{H}, three or fewer spades,
+  [nobr]#[ bal. {or} semi-bal {or} 5-5{xtimes}{H}-m ]#
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1NT | !2D! | |
-|  2H  | !2S! | | {ensp} inv., 5*{H}, {lt}4*{S}
-|  ?   |      | |
-|  2NT |      | | min, 2*{H}
-|  3H  |      | | min, 3*{H}
-| !3S! |      | | #max, {H} Ax, Kx or Qx#
-|  3NT |      | | max, {H}{thinsp}xx
-|  4H  |      | | max, 3*{H}
+|  1NT | !2D! |
+|  2H  | !2S! | {ensp} inv., _(see above)_
+|  ?   |      |
+|  2NT |      | min, 2*{H}
+                > 3m = 5-5{xtimes}{H}-m
+|  3H  |      | min, 3*{H}
+| !3S! |      | #max, {H} Ax, Kx or Qx#
+|  3NT |      | max, {H}{thinsp}xx
+|  4H  |      | max, 3*{H}
 |===
 
-2nd-round transfer::
+2nd-round transfer: ::
 @ to either minor = GF, 4{OrMore}{xtimes}m +
-@ re-transfer = game inv. or slam inv. +
-@ to hearts (2nd suit) = 5-5 M, GF
+@ to same major = game or slam inv. +
+@ to hearts (2^nd^ suit) = 5-5 M, GF +
 
-
-#Raising same major = GF, one-loser suit#
+#self-raise = GF, one-loser suit# +
+ +
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -307,10 +307,11 @@ Transfer to {H} then 2S::
 
 Following a 2^nd^-round transfer that shows a new-suit, opener chooses
 from: +
-@ return to original major = 3-card supp. +
-@ new-suit shows a fit for the second suit +
+@ return to original major = 3-cd supp. +
+@ #new-suit shows a fit for the second suit# +
 @ 3NT = stoppers in unshown suits +
-@ take transfer = neutral (usually 3-card supp.)
+@ take transfer
+__ = neutral (usually 3-cd supp.)
 
 === Self splinter
 
@@ -588,8 +589,6 @@ NOTE: An off-shape neg. double is OK because responder's GF values and
       stopper in the opp's suit allows us to play 3NT if major-suit
       fit is not found.
 
-
-
 [%autowidth,cols="^.^s,<.^",grid="all"]
 |===
 2+^| Summary: Responder has both majors
@@ -633,16 +632,17 @@ vs: 2D = single major (unknown suit)::
   @@ dble = take-out +
   @@ other = Lebensohl
 
-vs: 2D shows a 2-suiter::
-  @ ignore stoppers +
-  @ 2-level = NF, 3-level = F
+vs: 2D shows a 2-suiter with diamonds::
+  @ 2M = natural NF
+  __ #(even if they showed M)# +
+  @ #3D = Stayman# +
+  @ other 3-level bid = F +
+  @ 3NT = to play
 
-// ****
-// .Possible Agreement
-
-// If 2D showed one known suit, and one unknown suit, then
-// three of the known suit is Stayman
-// ****
+vs: 2D shows majors::
+  @ #2M = natural NF# +
+  @ 3-level = F +
+  @ 3NT = to play
 
 vs: 2D = Suction = {H} {or} {S} + {C}::
   @ use neg. dble with a suitable hand +
