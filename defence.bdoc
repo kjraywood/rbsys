@@ -61,12 +61,14 @@ __ {or} count
 *Rusinow Q, J, T, 9 or 8* +
 _ only with four-card or longer suit
 
-*Top of touching honours in 3-card suit* +
+*Top of touching honours in 3-card suit*
+
 _ [OvalBox]#**Q**#{thinsp}J{thinsp}x
 @ [OvalBox]#**J**#{thinsp}T{thinsp}x
 @ [OvalBox]#**T**#{thinsp}9{thinsp}x
 
-*Top of doubeton honour* +
+*Top of doubeton honour*
+
 _ [OvalBox]#**Q**#{thinsp}x
 @ [OvalBox]#**J**#{thinsp}x
 @ [OvalBox]#**T**#{thinsp}x
