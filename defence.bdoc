@@ -164,14 +164,24 @@ when partner leads an ace (from AKx) and dummy has the guarded queen,
 we treat the ten like any other spot card.
 Thus from Txx we play the ten to discourage.
 
+[#_signal_vs_nt_on_spot_card_lead]
 ==== vs NT on a spot-card lead
 
-If dummy is winning the trick holding Q-J-x or J-T-x, we give count,
-followed by suit-preference when declarer plays to trick two.
+[green-box]#Updated July 6 2020#
+[.nobr.green.xemph]#Clarify trick-2 signal by third hand#
+
+If dummy is winning the trick holding Q-J-x or J-T-x, third hand gives count.
 
 This also applies if dummy has Q-T-x, provided declarer wins the ten.
 
-TIP: If we cannot have a significant honour (J or higher) we give count
+On trick two, spot cards by third hand are _suit-preference,_
+#{thinsp}not Smith{thinsp}#, because attitude about the led suit
+is already known.
+Spot cards by leader are still Smith because leader may want the suit
+continued.
+
+TIP: If we cannot have a significant honour (J or higher) we give
+     count at trick one and suit preference at trick two
 
 === Honour sequences
 
