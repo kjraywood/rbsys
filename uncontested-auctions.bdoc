@@ -422,6 +422,7 @@ with no clear direction.
 	      _or_{thinsp} GF with no clear direction
 |    |  2H  | inv.{OrMore}, natural (4{orMore}{xtimes}{H}),
               #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}#
+|    |  2S  | to play
   2+>| 2NT <| natural, inv.
 |    |  3C  | GF (2nd-round raise of minor)
 2+>| 3D,3H <| 5{ndash}5 GF
