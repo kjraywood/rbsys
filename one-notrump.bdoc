@@ -300,8 +300,8 @@ Transfer to {H} then 2S::
 |     | !3C!  | | 4{orMore}{xtimes}{D}, GF
 |     | !3D!  | | 5{orMore}{xtimes}{H}, GF
 |     | !3H!  | | 6{orMore}{xtimes}{S}, game or slam inv. +
-                  {tribull} 3S = decline +
-		  {tribull} _other_ = accept
+                  > 3S = decline +
+		  _ _other_ = accept
 |     |  3S   | | GF, one-loser 6-card suit
 |===
 
@@ -665,8 +665,8 @@ vs: 2D = both majors::
 
 vs: 2D = Suction = {H} {or} {S} + {C}::
   @ use neg. dble with a suitable hand +
-  @ pass with length in diamonds
-  > then Leb. when hand-type is revealed +
+  @ pass with length in diamonds +
+  >> then Leb. when hand-type is revealed +
   +
   Otherwise, #assume that intervenor has hearts# +
   @ #2H = Michaels# +
