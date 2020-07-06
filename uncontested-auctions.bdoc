@@ -323,9 +323,8 @@ Therefore, reponder's 2NT can be a one-round force.
                   > 3D = NF +
                   {emsp} _other_ = GF +
 |    | !3C!   | | invitation in {D} or {H} +
-                  > 3D = decline {D} +
-                  {emsp} 3H = accept {D}, decline {H} +
-                  {emsp} _other_ = accept either
+                  > 3D = decline  +
+                  {emsp} _other_ = accept
 | 2+<| 3D,3H,3S | natural, GF
 |    | 3NT    | {emsp} | 15-17 bal
 |===
