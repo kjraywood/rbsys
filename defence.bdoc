@@ -30,15 +30,13 @@ Rusinow honour-leads from a _known long-suit._
 [#_spot_leads_vs_suits]
 ==== Spot-card leads vs suit-contracts
 
-[green-box]#Updated {ndash} July 4, 2020#
-[.nobr.green.xemph]#Dropped low from doubletons#
+[OvalBox]##*x*##{thinsp}[red]##x##
 
-[nobr]#[OvalBox]##**x**##{thinsp}[red]##x##{zwsp}#
+[OvalBox]##x##{thinsp}x{thinsp}**[blue]##(##x[blue]##)##**
 
-[nobr]#[OvalBox]##x##{thinsp}x{thinsp}**[blue]##(##x[blue]##)##**{zwsp}# +
-@ usually top-of-nothing +
-@ low from three (count) in partner's suit
-_ #when you have not raised#
+usually top-of-nothing
+
+low from three (count) in partner's suit #when you have not raised#
 
 2^nd^ highest from four or five small, except highest of touching
 cards
@@ -52,34 +50,35 @@ cards
 
 *King = power* +
 _ from AKQT, AKJT, KQT9, KQJ9, KQJT +
->> overtake and return
-__ {or} unblock Q, J or T
-__ {or} count
+>> unblock or count
 
 [nobr]#[OvalBox]##A##{thinsp}K{thinsp}x{thinsp}x#
 
 *Rusinow Q, J, T, 9 or 8* +
-_ only with four-card or longer suit
+{nbsp}
+only with four-card or longer suit
 
 *Top of touching honours in 3-card suit* +
-_ [OvalBox]#**Q**#{thinsp}J{thinsp}x
-@ [OvalBox]#**J**#{thinsp}T{thinsp}x
-@ [OvalBox]#**T**#{thinsp}9{thinsp}x
+{nbsp}
+[OvalBox]#**Q**#{thinsp}J{thinsp}x {xbull}
+[OvalBox]#**J**#{thinsp}T{thinsp}x {xbull}
+[OvalBox]#**T**#{thinsp}9{thinsp}x
 
 *Top of doubeton honour* +
-_ [OvalBox]#**Q**#{thinsp}x
-@ [OvalBox]#**J**#{thinsp}x
-@ [OvalBox]#**T**#{thinsp}x
+{nbsp}
+[OvalBox]#**Q**#{thinsp}x {xbull}
+[OvalBox]#**J**#{thinsp}x {xbull}
+[OvalBox]#**T**#{thinsp}x
 
-==== Rusinow exceptions
+==== Exceptions to Rusinow and Power-King
 
-*Rusinow and power king do not apply when* +
+*Rusinow and Power-King do not apply when* +
 @ leading partner's suit +
 @ leading dummy's suit +
 @ opening leader has preempted
 _ and leads a side suit
 
-TIP: These are situations where we might want to lead honour doubleton
+TIP: We might want to lead Ax(x) or Kx in these situations
 
 == Carding
 
