@@ -499,27 +499,41 @@ necessarily length in hearts.
 | 2D |  ?   |
 |    |  2H  | inv.{OrMore}, natural (4{orMore}{xtimes}{H}), #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}# +
               _or_ #{thinsp}GF{thinsp}# with #{thinsp}values in {H}{thinsp}# +
-	      _ _e.g._ {S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx
 |    | !3C! | inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
 	      _or_{thinsp} GF with values in {C}
 |===
 
+==== After responder bids 1S then 2H
+
 Holding four hearts and a max, opener cannot raise 2H to 4H because an
 eight-card fit is not assured.
-So #we use 3C (fourth suit) as four hearts and a minimum#, and 3H as
-four hearts and a maximim.
+
+_e.g._ Responder has
+[lightgrey-box]#{S}{thinsp}AKxx {H}{thinsp}KQx {D}{thinsp}Jxx {C}{thinsp}xxx#
+
+In rare cases, opener may also have a max with neither four hearts
+nor a club stopper.
+
+So we use 3C (fourth suit) as a #maximum# and either four hearts
+or no club stopper.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1D  | 1S |
 |  2D  | 2H |
 |  ?   |    |
-| #{thinsp}!!3C!!{thinsp}#
-       |    | #{thinsp}4*{H}, min{thinsp}#
-| !3H! |    | {thinsp}4*{H}, max, #{thinsp}GF{thinsp}#
+|  2S  |    | minumum, NF, usually {S}Hx
+|  2NT |    | natural, min., NF
+| !3C! |    | max, #{thinsp}[ 4*{H} {or} no {C}-stopper ]{thinsp}# +
+              > 3D = waiting +
+	      _ 3H = 5{ndash}5{xtimes}{S}{ndash}{H} +
+|  3D  |    | min., NF
+| !3H! |    | 4*{H}, min, NF
+|  3S  |    | max., GF, 3-card support
+|  3NT |    | max, with {C}-stopper
 |===
 
-&Opener's third bid&
+==== After responder bids 3C (other minor)
 
 After responder's 3C (other minor) opener's first priority is to
 decline or accept an invitation in diamonds.
