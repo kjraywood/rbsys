@@ -497,13 +497,21 @@ necessarily length in hearts.
 |===
 | 1D |  1S  |
 | 2D |  ?   |
-|    |  2H  | inv.{OrMore}, natural (4{orMore}{xtimes}{H}), #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}# +
+|    | !2H! | inv.{OrMore}, natural (4{orMore}{xtimes}{H}), #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}# +
               _or_ #{thinsp}GF{thinsp}# with #{thinsp}values in {H}{thinsp}# +
 |    | !3C! | inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
 	      _or_{thinsp} GF with values in {C}
 |===
 
+[#_a_non_relay_approach]
 ==== After responder bids 1S then 2H
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  | 1S   |
+|  2D  | !2H! |
+|  ?   |      |
+|===
 
 Holding four hearts and a max, opener cannot raise 2H to 4H because an
 eight-card fit is not assured.
@@ -519,18 +527,18 @@ or no club stopper.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1D  | 1S |
-|  2D  | 2H |
-|  ?   |    |
-|  2S  |    | minumum, NF, usually {S}Hx
-|  2NT |    | natural, min., NF
-| !3C! |    | max, #{thinsp}[ 4*{H} {or} no {C}-stopper ]{thinsp}# +
-              > 3D = waiting +
-	      {nbsp}{ensp} 3H = 5{ndash}5{xtimes}{S}{ndash}{H} +
-|  3D  |    | min., NF
-| !3H! |    | 4*{H}, min, NF
-|  3S  |    | max., GF, 3-card support
-|  3NT |    | max, with {C}-stopper
+|  1D  |  1S  |
+|  2D  | !2H! |
+|  ?   |      |
+|  2S  || minumum, NF, usually {S}Hx
+|  2NT || natural, min., NF
+| !3C! || max, #{thinsp}[ 4*{H} {or} no {C}-stopper ]{thinsp}# +
+          > 3D = waiting +
+	  {nbsp}{ensp} 3H = 5{ndash}5{xtimes}{S}{ndash}{H} +
+|  3D  || min., NF
+| !3H! || 4*{H}, min, NF
+|  3S  || max., GF, 3-card support
+|  3NT || max, with {C}-stopper
 |===
 
 ==== After responder bids 3C (other minor)
