@@ -526,7 +526,7 @@ or no club stopper.
 |  2NT |    | natural, min., NF
 | !3C! |    | max, #{thinsp}[ 4*{H} {or} no {C}-stopper ]{thinsp}# +
               > 3D = waiting +
-	      _ 3H = 5{ndash}5{xtimes}{S}{ndash}{H} +
+	      {nbsp}{ensp} 3H = 5{ndash}5{xtimes}{S}{ndash}{H} +
 |  3D  |    | min., NF
 | !3H! |    | 4*{H}, min, NF
 |  3S  |    | max., GF, 3-card support
