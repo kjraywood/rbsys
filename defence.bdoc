@@ -176,10 +176,10 @@ If dummy is winning the trick holding Q-J-x or J-T-x, then third hand (LP) gives
 
 This also applies if dummy has Q-T-x, provided declarer wins the ten.
 
-At trick two, a spot card by LP is _suit-preference,_
-#{thinsp}not Smith{thinsp}#, because her attitude about the led suit
-is already known.
-Spot cards by leader are still Smith because he may want the suit
+When following suit at trick two, a LP gives _suit-preference_,
+[nobr]## #{thinsp}not Smith{thinsp}#, ##
+because her attitude about the led suit is already known.
+Smith by leader are still applies because he may want the suit
 continued.
 
 TIP: If LP cannot have a significant honour (J or higher) we give
