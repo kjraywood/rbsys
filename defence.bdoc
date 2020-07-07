@@ -168,19 +168,21 @@ Thus from Txx we play the ten to discourage.
 ==== vs NT on a spot-card lead
 
 [green-box]#Updated July 6 2020#
-[.nobr.green.xemph]#Clarify trick-2 signal by third hand#
+[.nobr.green.xemph]#Smith-echo is OFF when attitude is known#
 
-If dummy is winning the trick holding Q-J-x or J-T-x, third hand gives count.
+[ LP = Leader's Partner ]
+
+If dummy is winning the trick holding Q-J-x or J-T-x, third hand (LP) gives count.
 
 This also applies if dummy has Q-T-x, provided declarer wins the ten.
 
-On trick two, spot cards by third hand are _suit-preference,_
-#{thinsp}not Smith{thinsp}#, because attitude about the led suit
+At trick two, a spot card by LP is _suit-preference,_
+#{thinsp}not Smith{thinsp}#, because her attitude about the led suit
 is already known.
-Spot cards by leader are still Smith because leader may want the suit
+Spot cards by leader are still Smith because he may want the suit
 continued.
 
-TIP: If we cannot have a significant honour (J or higher) we give
+TIP: If LP cannot have a significant honour (J or higher) we give
      count at trick one and suit preference at trick two
 
 === Honour sequences
