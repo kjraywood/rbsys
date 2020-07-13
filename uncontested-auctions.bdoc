@@ -122,7 +122,7 @@ in all third and fourth-suit forcing auctions.
 
 === Second-round raise of a minor
 
-#**2^nd^-round raise of minor = GF**#
+#**2nd-round raise of minor = GF**#
 
 The final bid in each of the following auctions is GF
 
@@ -298,6 +298,7 @@ Responder need not worry about a spade fit because opener would have
 raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.  Responder will
 often pass 2H with a doubleton.
 
+[#_fourth_suit_at_the_3_level]
 === Fourth suit at the 3-level
 
 {reference}
@@ -307,11 +308,14 @@ __ {nbsp}{ndash}{nbsp} Kit Woolsey
 
 Auction starts: 1H {ndash} 1S{semicolon} 2D
 
-The fourth suit is at the 3-level so space is tight.
-
 Our 2D rebid shows extra strength (would accept an invitation to game)
 or extra length (at least 5-5 so would prefer a suit contract over NT).
-Therefore, reponder's 2NT can be a one-round force.
+Therefore reponder's 2NT can be a one-round force.
+
+*Other bids follow our forcing-style* +
+@ 2nd-round jump or raise-of-minor = GF +
+@ invitations in old suits bid the fourth suit,
+ _ then clarify on the next round
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
@@ -324,19 +328,18 @@ Therefore, reponder's 2NT can be a one-round force.
                   {emsp} _other_ = GF +
 |    | !3C!   | | invitation in {D} or {H} +
                   > 3D = decline  +
-                  {emsp} _other_ = accept
+                  {emsp} #{thinsp}__other__ = accept{thinsp}#
 | 2+<| 3D,3H,3S | natural, GF
 |    | 3NT    | {emsp} | 15-17 bal
 |===
 
-3-level suit-bids follow the normal 2nd-round rule;
-[nobr]#jumps and raise-of-minor = GF#
+There is no invitation in spades because that hand invites on the
+1st-round (1{H}-2{S} = inv.)
 
-Invitations in {D} or {H} bid 4th-suit
-> _pass-or-correct_{thinsp} responses
-
-There is no invitation in {S} because that hand invites on 1st-round
-(1{H}-2{S}).
+Responder cannot show 
+[nobr]#5{ndash}5{xtimes}{S}{ndash}{C}#
+with inv. or GF strength.
+Resonable options are 2NT (F1) or 3NT (with 16-17).
 
 === Responder's notrump ladder
 
@@ -554,10 +557,13 @@ major.
 |  2D  | !3C! |
 |  ?   |      |
 | !3D! |      | reject {D} inv.
-| !3H! |      | accept {D} but no {S} tolerance
-| !3S! |      | accept and {S} tolerance
+| !3H! |      | accept {D} but no {S}-tolerance +
+| !3S! |      | accept and {S}-tolerance
 | 3NT  |      | max with values in {H} and {C}
 |===
+
+In the above, {S}-tolerance = singleton high-honour (A, K or Q) or any
+doubleton.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
