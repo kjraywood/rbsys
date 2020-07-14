@@ -251,7 +251,7 @@ rebids 3NT.
 [#_gf_rebids_after_sf_1nt]
 === GF Rebids after semi-forcing 1NT
 
-[green-box]#New July 13 2020#
+[green-box]#New {ndash} July 13 2020#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -625,7 +625,7 @@ limit-raise-or-better.
 [#_jump_transfer_to_3nt]
 === Jump Transfer to 3NT
 
-[green-box]#New July 13 2020#
+[green-box]#New {ndash} July 13 2020#
 
 *Applies when:* +
 @ we open #one minor# +
@@ -642,13 +642,10 @@ limit-raise-or-better.
 
 [WARNING]
 ====
-#{thinsp}Does NOT apply after ONE HEART opening{thinsp}#
+#{thinsp}Does NOT apply after a 1H opening{thinsp}#
 
-[%autowidth,cols="4*^,<",grid="none",stripes="odd"]
-|===
-| 1H | (1S) | !3S! | *:* | splinter raise of {H}
-|===
-
+[lightgrey-box]##1{H}{ensp} (1{S}) {nbsp} !3{S}! {nbsp} *:*
+                 {nbsp} splinter raise of {H}##
 ====
 
 === Negative double vs 1D or 1H
