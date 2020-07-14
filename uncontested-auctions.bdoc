@@ -920,8 +920,8 @@ could have a singleton ace or king.
 | !2NT! |      | {lflatb} 6{OrMore}{xtimes}{D}, 0-2{xtimes}{S} {rflatb} {or} {lflatb} 4*{S}, GF {rflatb}
 |       | !3C! | asks which +
                  > 3D = long {D}, inv. (NF) +
-                 _ {nbsp}3S = GF-raise of {S} +
-                 _ {nbsp}_other_ = long {D}, GF
+                 {emsp} 3S = GF-raise of {S} +
+                 {emsp} _other_ = long {D}, GF
 |===
 
 Above also applies after: 1H{ndash}1S{semicolon} 2NT
@@ -932,11 +932,11 @@ Above also applies after: 1H{ndash}1S{semicolon} 2NT
 | !2NT! |      | {lflatb} 6{OrMore}{xtimes}{C}, 0-2{xtimes}{H} {rflatb} {or} {lflatb} 4*{C}, GF {rflatb}
 |       | !3C! | pass or correct, min (NF) +
                  > pass = long {C}, min (16-17) +
-		 _ {nbsp}3H = GF raise of {H} +
-		 _ {nbsp}_other_ = long {C}, GF
+		 {emsp} 3H = GF raise of {H} +
+		 {emsp} _other_ = long {C}, GF
 |       | !3D! | asks which (non-min, 8{OrMore}) +
                  > 3H = GF raise of {H} +
-		 _ {nbsp}_other_ = long {C}
+		 {emsp} _other_ = long {C}
 |===
 
 === Jumps by opener after ONE-DIAMOND response
@@ -959,7 +959,7 @@ A jump to 2NT is a GF-raise of diamonds, or GF with long clubs.
 | !2NT! |      | GF, [ 6{OrMore}{xtimes}{C} {or} 4*{D} ]
 |       | !3C! | asks which +
                  > 3D = GF-raise of {D} +
-                 _ {nbsp}_other_ = long {C}, GF
+                 {emsp} _other_ = long {C}, GF
 |===
 
 == Two-over-one Auctions
