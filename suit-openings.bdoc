@@ -251,15 +251,20 @@ rebids 3NT.
 [#_gf_rebids_after_sf_1nt]
 === GF Rebids after semi-forcing 1NT
 
+[green-box]#New July 13 2020#
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1S   | !1NT! |
 |  ?    |       |
-| !2NT! |       | generic GF
+2+<| !2NT!     <| generic GF, may include 6{times}M or 4{times}{lflatb}{H}{or}{D}{rflatb}
 |  3C   |       | 4{OrMore}{xtimes}{C}, GF
 2+<| 3D,3H     <| 5{OrMore}-card suit, GF
-| 3NT   |       | bal. 19{ndash}20 with 5*{S} and 2*{H}
+2+<| 3NT       <| bal. 19{ndash}20 with 5*{S} and 2*{H}
 |===
+
+// 2+<| !2NT!     <| generic GF, may include 6{times}M or 4{times}[{H}{or}{D}]
+
 
 == Minor Opening
 
@@ -616,6 +621,35 @@ limit-raise-or-better.
 
 @ jump-raise = weak
 @ cue = {LRplus}
+
+[#_jump_transfer_to_3nt]
+=== Jump Transfer to 3NT
+
+[green-box]#New July 13 2020#
+
+*Applies when:* +
+@ we open #one minor# +
+@ they overcall at the one-level
+
+*Jump cue-bid shows:* +
+@ 13-15 balanced +
+@ stopper(s) in the overcalled suit
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1D | (1S) | !3S! | *:* | {S}AJ2{nbsp}{H}KQT{nbsp}{D}J32{nbsp}{C}QT87
+|===
+
+[WARNING]
+====
+#{thinsp}Does NOT apply after ONE HEART opening{thinsp}#
+
+[%autowidth,cols="4*^,<",grid="none",stripes="odd"]
+|===
+| 1H | (1S) | !3S! | *:* | splinter raise of {H}
+|===
+
+====
 
 === Negative double vs 1D or 1H
 
