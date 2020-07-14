@@ -248,6 +248,19 @@ rebids 3NT.
 | 3NT ||     | 5*{H},  5*{C}, extras
 |===
 
+[#_gf_rebids_after_sf_1nt]
+=== GF Rebids after semi-forcing 1NT
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S   | !1NT! |
+|  ?    |       |
+| !2NT! |       | generic GF
+|  3C   |       | 4{OrMore}{xtimes}{C}, GF
+2+<| 3D,3H     <| 5{OrMore}-card suit, GF
+| 3NT   |       | bal. 19{ndash}20 with 5*{S} and 2*{H}
+|===
+
 == Minor Opening
 
 [%autowidth,cols="3*^.^",grid="cols"]
