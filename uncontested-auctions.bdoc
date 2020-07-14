@@ -877,7 +877,7 @@ The Mexican 2D-opening provides us with extra options.
 *jump-raise = invitational* +
 @ unbalanced (no 1NT or Mex-2D opening) +
 @ may contain unshowable singleton
-_ (jump reverse in that suit not available)
+_ (if a jump reverse in that suit is not available)
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
