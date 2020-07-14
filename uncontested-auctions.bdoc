@@ -931,7 +931,7 @@ Above also applies after: 1H{ndash}1S{semicolon} 2NT
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1C   |  1H  |
-| !2NT! |      | {lflatb} 6{OrMore}{xtimes}{C}, 0-2{xtimes}{H} {rflatb} {or} {lflatb} 4*{C}, GF {rflatb}
+| !2NT! |      | {lflatb} 6{OrMore}{xtimes}{C}, 0-2{xtimes}{H} {rflatb} {or} {lflatb} 4*{H}, GF {rflatb}
 |       | !3C! | pass or correct, min (NF) +
                  > pass = long {C}, min (16-17) +
 		 {emsp} 3H = GF raise of {H} +
