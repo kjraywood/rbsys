@@ -310,10 +310,12 @@ Auction starts: 1H {ndash} 1S{semicolon} 2D
 
 Our 2D rebid shows extra strength (would accept an invitation to game)
 or extra length (at least 5-5 so would prefer a suit contract over NT).
+
 Therefore reponder's 2NT can be a one-round force.
 
 *Other bids follow our forcing-style* +
-@ 2nd-round jump or raise-of-minor = GF +
+@ 2nd-round jump = GF +
+@ 2nd-round raise of minor = GF +
 @ invitations in old suits bid the fourth suit,
  _ then clarify on the next round
 
@@ -856,16 +858,109 @@ A jump to 3H is a GF opposite the extra strength shown by opener.
 @ shows unbalanced raise to 2NT
 @ does not promise a rebid
 
-[%autowidth,cols="^,3*<",grid="none"]
+[%autowidth,cols="3*^,<.^",grid="none"]
 |===
-| 1D | 1NT       | |
-| 2S | {ensp}?   | |
-|    | 2NT,3C,3D | | sign off
+| 1D | 1NT    ||
+| 2S |  ?     ||
+|    | 2NT +
+       3C,3D  || sign off
 |===
 
-=== Jump Reverse
+== Jump Rebids by Opener
 
-Invitational splinter
+The Mexican 2D-opening provides us with extra options.
+
+=== Invitational Raises
+
+*jump reverse = invitational splinter*
+
+*jump-raise = invitional* +
+@ unbalanced (no 1NT or Mex-2D opening) +
+@ may contain unshowable singleton
+_ (jump reverse in that suit not available)
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+| 1D   | 1S |
+| ?    |    |
+| !3H! |    | inv. {S}-raise, singleton {H}
+| 3S   |    | inv. {S}-raise,
+            _ singleton {C} is possible
+|===
+
+=== Other jumps by opener after ONE-MAJOR response
+
+*Jump rebid of original-suit includes three-card support for
+ responder's major*
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D  | 1S |
+| !3D! |    | {simto}{thinsp}16-17 HCP,
+             6{OrMore}{xtimes}{D}, 3*{S}
+|===
+
+Also applies after: 1H{ndash}1S{semicolon} 3H
+
+#Does not apply after:# 1C{ndash}1D{semicolon} 3C
+
+*Jump to 2NT shows:* +
+@ #{thinsp}GF raise{thinsp}# (4-cards) of responder's major +
+_ -OR- +
+@ long (6{OrMore}) in opener's suit with
+_ less than three in responder's major,
+_ #inv. or GF#
+
+The GF-raise hands will generally be semi-balanced (5422) but
+could have a singleton ace or king.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D   |  1S  |
+| !2NT! |      | {lflatb} 6{OrMore}{xtimes}{D}, 0-2{xtimes}{S} {rflatb} {or} {lflatb} 4*{S}, GF {rflatb}
+|       | !3C! | asks which +
+                 > 3D = long {D}, inv. (NF) +
+                 _ {thinsp}3S = GF-raise of {S} +
+                 _ _other_ = long {D}, GF
+|===
+
+Above also applies after: 1H{ndash}1S{semicolon} 2NT
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C   |  1H  |
+| !2NT! |      | {lflatb} 6{OrMore}{xtimes}{C}, 0-2{xtimes}{H} {rflatb} {or} {lflatb} 4*{C}, GF {rflatb}
+|       | !3C! | pass or correct, min (NF) +
+                 > pass = long {C}, min (16-17) +
+		 _ {nbsp}3H = GF raise of {H} +
+		 _ _other_ = long {C}, GF
+|       | !3D! | asks which (non-min, 8{OrMore}) +
+                 > 3H = GF raise of {H} +
+		 _ _other_ = long {C}
+|===
+
+=== Jumps by opener after ONE-DIAMOND response
+
+Following a 1D response, opener's jump rebid of clubs is standard with no
+other special meaning about diamond length.
+
+A jump to 2NT is a GF-raise of diamonds, or GF with long clubs.
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C | 1D |
+|  3C |    | {simto}{thinsp}16-17 HCP,
+             6{OrMore}{xtimes}{C}, no 4cM
+|===
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1C   |  1D  |
+| !2NT! |      | GF, [ 6{OrMore}{xtimes}{C} {or} 4*{D} ]
+|       | !3C! | asks which +
+                 > 3D = GF-raise of {D} +
+                 _ _other_ = long {C}, GF
+|===
 
 == Two-over-one Auctions
 
