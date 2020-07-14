@@ -187,22 +187,7 @@ Therefore #simple 5-card-Stayman responses#
 
 === Sequences released by Mexican 2D
 
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|       |   1M  ||
-| !1NT! | !2NT! || generic GF
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|    | 1{strawberry} ||
-| 1M | !2NT! || 16{OrMore} HCP, 
-                [nobr]#{lflatb} 4{xtimes}M {or}
-	              6{OrMore}{xtimes}{strawberry}, 2{OrLess}{xtimes}M {rflatb}#
-|===	    
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|    |  1{strawberry}  ||
-| 1M | !3{strawberry}! || 16-17 HCP, 6{OrMore}{xtimes}{strawberry}, 3*M
-|===	    
+See <<uncontested-auctions.adoc#_jump_rebids_by_opener,
+      *Jump Rebids by Opener*>> +
+and <<suit-openings.adoc#_gf_rebids_after_sf_1nt,
+      *GF Rebids after semi-forcing 1NT*>>
