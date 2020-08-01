@@ -140,9 +140,9 @@ _ possibly 5-5 shape
                  {tribull} next step asks
 |     | !4C!  || M fit, #KC ask#
 |     | !4D!  || M fit, slam-inv, no{nbsp}shortness +
-                 > 4M by O = decline +
-                 _ #4oM by O = accept, KC ask# +
-                 _ 4NT by O = min, to play
+                 > 4M = decline +
+                 {emsp} #4oM = accept, KC ask# +
+                 {emsp} 4NT = min, to play
 |     | !4oM! || #Strong Quant.#, no fit
 |     |  4NT  || #Weak Quant.#, no fit
 |===
@@ -152,22 +152,24 @@ _ possibly 5-5 shape
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
 |
-[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+[%autowidth,cols="^,<",grid="none",stripes=odd]
 !===
-!  1NT  ! !2C! !
-!  2H   ! !3S! !
-! !3NT! !  ?   !
-!       ! !4m! ! [nobr]#1{xtimes}m#
-!       ! !4H! ! [nobr]#1{xtimes}{S}#
+!      ! 1NT
+! !2C! ! {thinsp}2H
+! !3S! ! !3NT!
+!  ?   !
+! !4m! ! singleton{nbsp}m
+! !4H! ! singleton{nbsp}{S}
 !===
 |
-[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+[%autowidth,cols="^,<",grid="none",stripes=odd]
 !===
-! 1NT  ! !2C!  !
-! 2S   ! !3H!  !
-! !3S! !  ?    !
-!      ! !3NT! ! [nobr]#1{xtimes}{H}#
-!      ! !4m!  ! [nobr]#1{xtimes}m#
+!      ! 1NT
+! !2C! ! {thinsp}2S
+! !3H! ! !3S!
+!  ?   !
+<! !3NT! <! singleton{nbsp}{H}
+! !4m!    ! singleton{nbsp}m
 !===
 |===
 
