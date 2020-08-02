@@ -328,15 +328,12 @@ Therefore reponder's 2NT can be a one-round force.
 |    | !2NT!  | | #F1#, 11-14 if bal +
                   > 3D = NF +
                   {emsp} _other_ = GF +
-|    | !3C!   | | invitation in {D} or {H} +
+|    | !3C!   | | invitation in {D},{H} or {S} +
                   > 3D = decline  +
                   {emsp} #{thinsp}__other__ = accept{thinsp}#
 | 2+<| 3D,3H,3S | natural, GF
 |    | 3NT    | {emsp} | 15-17 bal
 |===
-
-There is no invitation in spades because that hand invites on the
-1st-round (1{H}-2{S} = inv.)
 
 Responder cannot show 
 [nobr]#5{ndash}5{xtimes}{S}{ndash}{C}#
