@@ -347,15 +347,15 @@ _ seems likely that opener will play NT
 _ = good 3-cd raise or any force +
 @ 2NT = 4-cd limit-raise +
 @ Jump cue
-_ = #split-range# 4-cd raise, mixed or GF
+_ = 4-cd raise, #{thinsp}split-range:{thinsp}# mixed or GF
 
-If a two-level cue-bid is not available, then the non-jump three-level
-cue-bid is the most defensive-raise; usually with three trumps.
+*If a two-level cue-bid is not available, then:*
 
-2NT shows a four-card raise with at least a good seven (one and a half
-defensive tricks).
-
-A jump to three of the major shows at most one defensive trick.
+@ the three-level cue-bid is the most-defensive
+_ raise, usually with three trumps +
+@ 2NT is used for all four-card raises and shows
+_ a good mixed-raise or better +
+@ a jump raise has at most one defensive trick
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
