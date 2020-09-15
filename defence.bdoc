@@ -165,26 +165,30 @@ Thus from Txx we play the ten to discourage.
 
 [ LP = Leader's Partner ]
 
-If dummy is winning the trick holding Q-J-x or J-T-x, then third hand (LP) gives count.
+This section refers to leading from length.
 
-This also applies if dummy has Q-T-x, provided declarer wins the ten.
+__It does not apply when LP has shown the suit, and therefore may want
+to hold-up to retain communication.__
 
-When following suit at trick two, LP gives _suit-preference_,
-[nobr]## #{thinsp}not Smith{thinsp}#, ##
-because her attitude about the led suit is already known.
-Smith by leader still applies because he may want the suit
-continued.
+If dummy is winning the trick holding Q-J-x or J-T-x, then third hand
+(LP) gives count.
 
-TIP: If LP cannot have a significant honour (J or higher), she gives
+This also applies if dummy has Q-T-x and declarer plays the ten.
+
+When declarer plays a new suit from dummy at trick two, then #Smith
+echo by LP is off# because his attitude about the led suit is already
+known.
+
+If count is not necessary then LP gives _suit-preference_ between the
+remained two suits.
+
+Opening leader way want the led suit continued, so #Reverse-Smith by
+leader still applies# .
+
+TIP: If LP cannot have a significant honour (J or higher), he gives
      count at trick one and suit preference at trick two
 
-[#_signals_from_a_known_long_suit]
 === Signals from a known long-suit
-
-[green-box]#New July 9 2020#
-[.nobr.green.xemph]#Dropped middle = encourage, hi-or-lo = suit-pref#
-
-[orange-box]#{thinsp}Draft{thinsp}#
 
 We stay as close as possible to: +
 @ low=encourage +
@@ -221,10 +225,7 @@ However, if we know that lowest of the sequence will make our holding
 known to partner, then that's the card we play, unless we are
 trying to disguise our holding from declarer.
 
-[#_honour_sequences_second_hand]
 ==== Second-hand play
-
-[green-box]#New July 9 2020#
 
 If choosing to split: +
 @ split low from a two-card sequence +
