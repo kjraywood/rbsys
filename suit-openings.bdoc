@@ -253,8 +253,6 @@ rebids 3NT.
 [#_gf_rebids_after_sf_1nt]
 === GF Rebids after semi-forcing 1NT
 
-[green-box]#New {ndash} July 13 2020#
-
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1S   | !1NT! |
@@ -264,8 +262,6 @@ rebids 3NT.
 2+<| 3D,3H     <| 5{OrMore}-card suit, GF
 2+<| 3NT       <| bal. 19{ndash}20 with 5*{S} and 2*{H}
 |===
-
-// 2+<| !2NT!     <| generic GF, may include 6{times}M or 4{times}[{H}{or}{D}]
 
 
 == Minor Opening
@@ -626,8 +622,6 @@ limit-raise-or-better.
 
 [#_jump_transfer_to_3nt]
 === Jump Transfer to 3NT
-
-[green-box]#New {ndash} July 13 2020#
 
 *Applies when:* +
 @ we open #one minor# +
