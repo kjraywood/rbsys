@@ -6,17 +6,19 @@
 
 [%autowidth,cols="3*<.^",grid="cols"]
 |===
-| Response       ^| Unpassed   ^| Passed
+|       ^| Unpassed   ^| Passed
 
-| 2NT             | Jacoby      | minors, inv.
-| jump{nbsp}shift | natural inv.
-                    [nobr]#{tribull} opener can#
-		    _ pass or
-		    _ force
+| 1H {ndash} 2S   | Jacoby       | mini-splinter
+| 1S {ndash} 2NT  | Jacoby      | minors, inv.
+| 1H {ndash} 2NT  | #{thinsp}mixed-raise{thinsp}#
+                                | minors, inv.
+| 1M {ndash} 3{lab}lower{rab}
+                  | natural inv. +
+                    > pass or force
 	                        | #mini-splinter#
-| jump{nbsp}raise | limit, incl. [nobr]#3*M + stiff# | #weak splinter#
-| 3M + 1       |  weak splinter, unspecified suit |
-| 1H{ndash}3NT | spade splinter |
+| 1M {ndash} 3M   | limit, incl. [nobr]#3*M + stiff# | weak
+| 1M {ndash} 3M+1 |  weak splinter, unspecified suit |
+| 1H {ndash} 3NT  | spade splinter |
 |===
 
 === Game and slam tries after a single raise
