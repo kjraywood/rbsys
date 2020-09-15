@@ -298,7 +298,6 @@ Responder need not worry about a spade fit because opener would have
 raised to 2S with a minimum 3{hyph}5{hyph}4{hyph}1.  Responder will
 often pass 2H with a doubleton.
 
-[#_fourth_suit_at_the_3_level]
 === Fourth suit at the 3-level
 
 {reference}
@@ -505,7 +504,6 @@ necessarily length in hearts.
 	      _or_{thinsp} GF with values in {C}
 |===
 
-[#_a_non_relay_approach]
 ==== Responder bids 1S then 2H
 
 [%autowidth,cols="2*^,<",grid="none"]
@@ -865,10 +863,6 @@ A jump to 3H is a GF opposite the extra strength shown by opener.
 
 == Jump Rebids by Opener
 
-[green-box]#New July 13 2020#
-
-The Mexican 2D-opening provides us with extra options.
-
 === Invitational Raises
 
 *jump reverse = invitational splinter*
@@ -887,7 +881,9 @@ _ (if a jump reverse in that suit is not available)
             _ singleton {C} is possible
 |===
 
-=== Other jumps by opener after ONE-MAJOR response
+=== Jump rebid of original suit by opener
+
+The Mexican 2D allows us to use 2NT to provide more definition to opener's jump rebid.
 
 *Jump rebid of original-suit includes three-card support for
  responder's major*
@@ -903,40 +899,37 @@ Also applies after: 1H{ndash}1S{semicolon} 3H
 
 #Does not apply after:# 1C{ndash}1D{semicolon} 3C
 
-*Jump to 2NT shows:* +
-@ #{thinsp}GF raise{thinsp}# (4-cards) of responder's major +
+*Jump to 2NT shows either:*
+@ a jump-rebid hand  with less than three
+_ in responder's major, +
 _ -OR- +
-@ long (6{OrMore}) in opener's suit with less than three
-_ in responder's major,
-_ #inv. or GF#
+@ a single-suited GF hand that is not suitable
+_ for a jump to 3NT
 
-The GF-raise hands will generally be semi-balanced (5422) but
-could have a singleton ace or king.
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// |  1D   |  1S  |
+// | !2NT! |      | {lflatb} 6{OrMore}{xtimes}{D}, 0-2{xtimes}{S} {rflatb} {or} {lflatb} 4*{S}, GF {rflatb}
+// |       | !3C! | asks which +
+//                  > 3D = long {D}, inv. (NF) +
+//                  {emsp} 3S = GF-raise of {S} +
+//                  {emsp} _other_ = long {D}, GF
+// |===
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1D   |  1S  |
-| !2NT! |      | {lflatb} 6{OrMore}{xtimes}{D}, 0-2{xtimes}{S} {rflatb} {or} {lflatb} 4*{S}, GF {rflatb}
-|       | !3C! | asks which +
-                 > 3D = long {D}, inv. (NF) +
-                 {emsp} 3S = GF-raise of {S} +
-                 {emsp} _other_ = long {D}, GF
-|===
+// Above also applies after: 1H{ndash}1S{semicolon} 2NT
 
-Above also applies after: 1H{ndash}1S{semicolon} 2NT
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C   |  1H  |
-| !2NT! |      | {lflatb} 6{OrMore}{xtimes}{C}, 0-2{xtimes}{H} {rflatb} {or} {lflatb} 4*{H}, GF {rflatb}
-|       | !3C! | pass or correct, min (NF) +
-                 > pass = long {C}, min (16-17) +
-		 {emsp} 3H = GF raise of {H} +
-		 {emsp} _other_ = long {C}, GF
-|       | !3D! | asks which (non-min, 8{OrMore}) +
-                 > 3H = GF raise of {H} +
-		 {emsp} _other_ = long {C}
-|===
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// |  1C   |  1H  |
+// | !2NT! |      | {lflatb} 6{OrMore}{xtimes}{C}, 0-2{xtimes}{H} {rflatb} {or} {lflatb} 4*{H}, GF {rflatb}
+// |       | !3C! | pass or correct, min (NF) +
+//                  > pass = long {C}, min (16-17) +
+// 		 {emsp} 3H = GF raise of {H} +
+// 		 {emsp} _other_ = long {C}, GF
+// |       | !3D! | asks which (non-min, 8{OrMore}) +
+//                  > 3H = GF raise of {H} +
+// 		 {emsp} _other_ = long {C}
+// |===
 
 === Jumps by opener after ONE-DIAMOND response
 
