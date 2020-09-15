@@ -165,10 +165,8 @@ Thus from Txx we play the ten to discourage.
 
 [ LP = Leader's Partner ]
 
-This section refers to leading from length.
-
-__It does not apply when LP has shown the suit, and therefore may want
-to hold-up to retain communication.__
+This section refers to signals by LP after a 4th-best lead from from
+length.
 
 If dummy is winning the trick holding Q-J-x or J-T-x, then third hand
 (LP) gives count.
@@ -180,13 +178,21 @@ echo by LP is off# because his attitude about the led suit is already
 known.
 
 If count is not necessary then LP gives _suit-preference_ between the
-remained two suits.
+remaining two suits.
 
 Opening leader way want the led suit continued, so #Reverse-Smith by
 leader still applies# .
 
 TIP: If LP cannot have a significant honour (J or higher), he gives
      count at trick one and suit preference at trick two
+
+[NOTE]
+====
+When LP has shown a suit which is subsequently led,
+LP may withhold a significant honour to retain communication.
+Therefore LP's signal is always attitude; even if dummy is winning
+the trick with one of the holdings shown above.
+====
 
 === Signals from a known long-suit
 
