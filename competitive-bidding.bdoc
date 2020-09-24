@@ -254,21 +254,38 @@ _Examples_
 @ Bergen Raises
 @ Drury Raises
 @ KC responses
-@ Stayman*
+@ Stayman
 @ Transfers*
 
-{biglowast}{ensp}see next sections for exceptions
+{biglowast}{ensp}except after their weak-1NT or 1C opening;
+_ see next two sections
 
 === They open a weak-NT
 
-If they open a weak-NT,
-#double of their Stayman or transfer shows high-card strength#
-({simto}15{OrMore}HCP).
-It is not lead-directing, or showing length in the suit bid.
+****
+.Definition of weak NT
+
+Their stated range includes 13 or fewer HCP
+****
+
+double of their transfer
+_ = #take-out of they suit they show#
+
+The take-out double should not be light.
+With a light double, pass and reopen if they stop low.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|   |          |    | (1NT) | {ensp} 11 {ndash} 14
+| P | (!!2D!!) | ?  |       | transfer to {H}
+|   |          | X  |       | take-out of {H}, 12{OrMore}{nbsp}HCP
+|   |          | 2H |       | {S} + minor (Michaels)
+|===
 
 === They play transfers after their 1C opening
 
-Double = take-out of the suit shown by the transfer.
+double
+_ = take-out of the suit shown by the transfer
 
 Bidding the suit shown by the transfer is natural.
 
@@ -279,27 +296,28 @@ TIP:  Their 1-level transfers only show four-card suits.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|   |      |     | (1C*) | {biglowast} could be short
-| P | (1D{superdag})
-           |  ?  |       | &dagger; 4{OrMore}{xtimes}{H}
-|   |      |  X  |       | take-out of HEARTS (suit on left)
-|   |      | 1H  |       | NATURAL
+|   |          |    | (1C) | {ensp} could be short
+| P | (!!1D!!) |  ? |      | 4{OrMore}{xtimes}{H}
+|   |          |  X |      | take-out of hearts
+|   |          | 1H |      | natural
 |===
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|   |      |     | (1C*) | {biglowast} could be short
-| P | (1H{superdag})
-           |  ?  |       | &dagger; 4{OrMore}{xtimes}{S}
-|   |      |  X  |       | take-out of SPADES
-|   |      | 1S  |       | NATURAL
+|   |          |    | (1C) | {ensp} could be short
+| P | (!!1H!!) |  ? |      | 4{OrMore}{xtimes}{S}
+|   |          |  X |      | take-out of spades
+|   |          | 1S |      | natural
 |===
 
+Their 1S response usually denies a four-card major; hence often has
+diamonds.
+#Our double of 1S shows BOTH majors.#
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-|   |      |     | (1C*) | {biglowast} could be short
-| P | (1S{superdag})
-           |  ?  |       | &dagger; no 4-card major
-|   |      |  X  |       | Both majors, {simto} a take-out double of a natural 1D response
+|   |      |   | (1C) | {ensp} could be short
+| P | [nobr]#(!!1S!!)#
+           | ? |      | no 4-card major
+|   |      | X |      | #both majors#, {simto} a take-out double of a natural 1D response
 |===
