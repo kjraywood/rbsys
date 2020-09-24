@@ -235,30 +235,14 @@ The purpose is to help the defence.
 [#doubling-artificial-bids]
 == Doubling Artificial Bids
 
-=== General Rules
+[#_double_of_splinter]
+=== They splinter on the first-round
 
-&__Double of an artificial non-forcing bid is for takeout__&
+Double of their first-round splinter is #lead-directing for the next-higher suit#
 
-It is take-out of the suit they bid, not the suit they show.
+[lightgrey-box]#(1S){emsp}P{emsp}(!!4{C}!!){emsp}X# requests {D}-lead
 
-_Examples_
-@ artificial defence to our 1NT
-@ weak-only multi-2D
-
-TIP:  If we cannot double a non-forcing bid with shortness in
-      the bid suit, then we risk the auction ending there.
-
-&__Double of an artificial forcing bid shows the suit__&
-
-_Examples_
-@ Bergen Raises
-@ Drury Raises
-@ KC responses
-@ Stayman
-@ Transfers*
-
-{biglowast}{ensp}except after their weak-1NT or 1C opening;
-_ see next two sections
+[lightgrey-box]#(1H){emsp}P{emsp}(!!4{D}!!){emsp}X# requests {S}-lead
 
 === They open a weak-NT
 
@@ -321,3 +305,28 @@ diamonds.
            | ? |      | no 4-card major
 |   |      | X |      | #both majors#, {simto} a take-out double of a natural 1D response
 |===
+
+=== Other artifical bids
+
+If their artificial bid is non-forcing, meaning that it can be passed
+when the bidder's partner has length in the bid suit, then our double
+is for take-out of the suit they bid, not the suit they show.
+
+_Examples_
+@ artificial defence to our 1NT
+@ weak-only multi-2D
+
+TIP:  If we cannot double a non-forcing bid with shortness in
+      the bid suit, then we risk the auction ending there.
+
+If their artificial bid is forcing, then except for the cases shown in
+the previous two sub-sections, then our double shows the suit they bid.
+
+_Examples_
+@ Bergen Raises
+@ Drury Raises
+@ KC responses
+@ Stayman
+@ Transfers*
+
+{biglowast}{ensp}except after their weak-1NT or 1C opening
