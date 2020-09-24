@@ -240,9 +240,9 @@ The purpose is to help the defence.
 
 Double of their first-round splinter is #lead-directing for the next-higher suit#
 
-[lightgrey-box]#(1S){emsp}P{emsp}(!!4{C}!!){emsp}X# requests {D}-lead
+[lightgrey-box]#(1{S}){emsp}P{emsp}(!!4{C}!!){emsp}X# requests {D}-lead
 
-[lightgrey-box]#(1H){emsp}P{emsp}(!!4{D}!!){emsp}X# requests {S}-lead
+[lightgrey-box]#(1{H}){emsp}P{emsp}(!!4{D}!!){emsp}X# requests {S}-lead
 
 === They open a weak-NT
 
