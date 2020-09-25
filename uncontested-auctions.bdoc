@@ -831,13 +831,13 @@ when there's a cue-bid available to establish a GF.
 
 | 1C  | (1S) | Dbl | (P) |
 | 2D* | (P)  | ?   |     | * extras, #F1#
-|     |      | 2H  |     | 5-card suit, #NF# {caution}
+|     |      | 2H  |     | 5-card suit, #NF# {smallwarn}
 |     |      | 2S  |     | cue-bid, GF
 |     |   2+<| 2NT,3C,3D <| min, NF
 |     |      | 3H  |     | 5-card suit, GF
 |===
 
-CAUTION: _2oM neg.-free-bid agreements apply_
+WARNING: _2oM neg.-free-bid agreements apply_
 
 The negative double showed four or five hearts with any strength.
 
