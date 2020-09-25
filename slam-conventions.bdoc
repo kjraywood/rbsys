@@ -755,7 +755,8 @@ point-range shown by the limited hand.
 
 | 15 {ndash} 17 | FOUR or fewer
 | 18 {ndash} 19 | FIVE or fewer
-| 20{OrMore}    | SIX or fewer
+| 20 {ndash} 21 | SIX or fewer
+| 20{OrMore}    | SEVEN or fewer
 |===
 
 TIP:  The in-between NT range of 18-19 starts with the in-between
