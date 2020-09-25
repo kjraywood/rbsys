@@ -755,8 +755,8 @@ point-range shown by the limited hand.
 
 | 15 {ndash} 17 | FOUR or fewer
 | 18 {ndash} 19 | FIVE or fewer
-| 20 {ndash} 21 | SIX or fewer
-| 20{OrMore}    | SEVEN or fewer
+| 20 {ndash} 22{OrLess} | SIX or fewer
+| 22{OrMore}    | SEVEN or fewer
 |===
 
 TIP:  The in-between NT range of 18-19 starts with the in-between
@@ -774,13 +774,18 @@ TIP:  The in-between NT range of 18-19 starts with the in-between
 | 5NT | | 11 controls
 |===
 
+When the teller bids the next step, asker can clarify with
+a relay.
+Then tell shows the exact number starting #two below# the
+shown upper limit.
+
 [%autowidth,cols="2*^.^,<",grid="none",stripes="odd"]
 |===
-| 2NT | !4C! |
-| 4D  | !4H! | asking
-| ?   | |
-| 4S  | | 4
-| 4NT | | 5
+| 2NT   | !4C! |
+| !4D!  | !4H! | asking
+| ?     | |
+| 4S    | | 4
+| 4NT   | | 5
 2+<| 5{lab}suit{rab} <| 6 controls, biddable suit
 | 5NT | | 6 controls, no biddable suit
 |===
