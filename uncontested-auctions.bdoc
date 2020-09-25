@@ -961,7 +961,19 @@ A jump to 2NT is a GF-raise of diamonds, or GF with long clubs.
 @ 1M{thinsp}{ndash}{thinsp}2C could be short
 
 [#_nebulous_two_clubs]
-=== One Major {ndash} Two Clubs
+=== Nebulous Two Clubs
+
+Applies after 1H or 1S opening.
+
+[NOTE]
+====
+After a 1H opening, responder never bids 1S with GF values but only
+four spade-cards.
+Therefore, the nebulous 2C response to a 1H opening includes 4-3-3-3
+and 4-3-4-2 shapes.
+After a 1S opening, a nebulous 2C includes 3-4-3-3 and 3-4-4-2 shapes.
+After both 1M openings, 2C includes 3-3-4-3.
+====
 
 Opener and responder use waiting bids below 2NT unless they have
 something to say such as extra length, extra strength, or a fit.
