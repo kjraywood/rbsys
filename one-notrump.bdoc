@@ -143,14 +143,16 @@ _ possibly 5-5 shape
                  > 4M = decline +
                  {emsp} #4oM = accept, KC ask# +
                  {emsp} 4NT = min, to play
-|     | !4oM! || #Weak quant.#, no fit
-|     |  4NT  || #Strong quant.#, no fit
+|     | !4oM! || #Weak quant.# {note}, no fit for M
+|     |  4NT  || #Strong quant.# {note}, no fit for M
 |===
+
+NOTE: This is the reverse of how we treat direct 4S and 4NT responses
+      to NT opening bids.
+
 
 TIP: Using 4oM as weak quant allows opener to pass with 4-4 majors and
      not max.
-     This is the reverse of how we treat direct 4S and 4NT responses
-     to NT opening bids.
 
 &Identifying the shortness following 3oM&
 
