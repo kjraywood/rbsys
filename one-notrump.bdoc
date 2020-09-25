@@ -143,8 +143,8 @@ _ possibly 5-5 shape
                  > 4M = decline +
                  {emsp} #4oM = accept, KC ask# +
                  {emsp} 4NT = min, to play
-|     | !4oM! || #Weak quant.# {note}, no fit for M
-|     |  4NT  || #Strong quant.# {note}, no fit for M
+|     | !4oM! || #Weak quant.# {note}, [nobr]#no fit for M#
+|     |  4NT  || #Strong quant.# {note}, [nore]#no fit for M#
 |===
 
 NOTE: This is the reverse of how we treat direct 4S and 4NT responses
