@@ -61,10 +61,6 @@ TIP: This scheme allows the 2C opener to declare
 
 === Second-round negative
 
-Shows a hand with no ace or king, or less then a good five points.
-
-A hand with Qxx and QJxx is a good five points.
-
 [%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
 |
@@ -80,6 +76,10 @@ A hand with Qxx and QJxx is a good five points.
   3m  : !3H!
 :===
 |===
+
+Shows a hand with no ace or king, or less then a good five points.
+
+A hand with Qxx and QJxx is a good five points.
 
 Following a 2^nd^-round neg., we can stop in 3M or 4m.
 
