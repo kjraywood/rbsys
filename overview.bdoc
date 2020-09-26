@@ -6,19 +6,19 @@
 
 === Basics
 
-@ 1NT = 15 {ndash} 17
-@ Mexican 2D = balanced 18 {ndash} 19
-@ 2NT = 20 {ndash} bad 22
-@ Strong 2C
-@ Five-card majors
-@ semi-forcing 1NT
-@ 2/1 GF
+@ 1NT = 15 {ndash} 17 +
+@ Mexican 2D = balanced 18 {ndash} 19 +
+@ 2NT = 20 {ndash} bad 22 +
+@ Strong 2C +
+@ Five-card majors +
+@ semi-forcing 1NT +
+@ 2/1 GF +
 @ aggressive initial actions
 
 === Responding to 1C
 
 Bypass 1D if +
-@ can cope with a 3-card raise
+@ can cope with a 3-card raise +
 @ will rebid or raise NT
 
 === Opener's rebid with a balanced hand
