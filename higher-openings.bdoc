@@ -197,8 +197,6 @@ positive values with a double or penalty pass.
 [#bogust]
 === Bogust
 
-==== Two Major
-
 Bogust also applies when: +
 @ 2M is a negative-free bid
 @ 2M is weak-jump overcall
@@ -227,21 +225,7 @@ Bogust also applies when: +
 2+<| 3oM,4m     | side A or K
 |===
 
-==== Two Diamonds
-
-[%autowidth,cols="2*^,<",grid="none]
-|===
-|  2D   | !2NT! |
-|  ?    |       |
-| !3C!  |       | medium
-|  3D   |       | minimum
-| !3H!  |       | maximum
-| !3S!  |       | [orange-bg]#possibly 6{xtimes}{D} + 4{xtimes}{H}#
-| !3NT! |       | solid suit
-| 4C    |       | #6{ndash}5#
-|===
-
-==== Interference
+&Interference&
 
 @ ON vs double
 @ OFF vs overcall
