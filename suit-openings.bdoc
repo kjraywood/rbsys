@@ -617,8 +617,8 @@ limit-raise-or-better.
 @ jump-raise = weak
 @ cue = {LRplus}
 
-[#_jump_transfer_to_3nt]
-=== Jump Transfer to 3NT
+[#_jump_cue_transfer_to_3nt]
+=== Jump-cue transfer to 3NT
 
 *Applies when:* +
 @ we open #one minor# +
