@@ -82,7 +82,8 @@
 		#3NT = bal. game-raise# +
 		JS = inv +
 		dble-JS = splinter
-| vs o/call   | JS = fit showing +
+| vs o/call   | JS = fit showing
+     	      	@ except 3oM +
 		dble-JS = splinter
 		@ #if below game#
 | PH resp.    | JS = fit showing +

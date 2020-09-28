@@ -1,4 +1,4 @@
-:sectnumoffset: 9
+:sectnumoffset: 10
 
 = Suit Openings
 
@@ -726,9 +726,6 @@ A jump-shift is fit showing.
 2+<| 3D,3H <| fit showing 
 |===
 
-NOTE: A fit-showing jump is a raise of partner's suit so shows the
-      offence for playing at the level to which it raises.
-
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | P   | (P) | 1H {ensp} (2D)
@@ -736,41 +733,6 @@ NOTE: A fit-showing jump is a raise of partner's suit so shows the
 | 2S  |     | usually 5*{S}
 2+<| 3S,4C <| fit showing with offence for 4H,
               [nobr]#hence usually 5-5#
-|===
-
-=== Fit-Showing Jumps & Splinters in comp.
-
-By an unpassed hand, a #jump to game# in a new suit is to play; #not fit-showing#.
-Therefore the highest fit-showing jumps are four of a minor.
-
-As per our 2oM NFB agreements, a #jump to 3oM# is natural and forcing;
-#not fit-showing#.
-Therefore, after we open a major and they overcall a minor, there is
-no fit-showing jump in the other major.
-
-Fit-showing jumps are #a single-jump# when a non-jump in the same suit
-would be forcing.
-
-If a double-jump in the unbid minor is below game, then it is a
-splinter.
-
-[%autowidth,cols="3*^,2*<",grid="none"]
-|===
-| 1S | (2D) |  ?   ||
-|    |      |  3C  || natural, F [nobr]#(not a jump)#
-|    |      | !4C! || #fit-showing# [nobr]#(single jump)#
-|    |      | !4D! || splinter [nobr]#(opp's suit)#
-|    |      |  4H  || to play [nobr]#(game bid)#
-|===
-
-[%autowidth,cols="3*^,2*<",grid="none"]
-|===
-| 1S | (2C) |  ?   ||
-|    |      |  2D  || natural F [nobr]#(not a jump)#
-|    |      | !3D! || #fit-showing# [nobr]#(single jump)#
-|    |      | !4C! || splinter [nobr]#(opp's suit)#
-|    |      | !4D! || splinter [nobr]#(double jump)#
-|    |      |  4H  || to play [nobr]#(game bid)#
 |===
 
 === Two over one in comp.
