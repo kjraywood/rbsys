@@ -192,15 +192,17 @@ If single and double jumps are both available below game in a FSJ
 situation, then the single jump is fit showing and the double jump is
 a splinter.
 
-We do not play FSJs after an opponent's take-out double of our opening
-bid.
+[cyan-box]#We do not play FSJs after an opponent's take-out double of
+           our opening bid.#
 
 === Unpassed hand
 
 FSJs by an unpassed hand apply when:
 
-@ we open ONE MAJOR, they overcall +
-@ we overcall, next hand does not pass
+@ we open ONE MAJOR
+> they overcall +
+@ we overcall
+> next hand doubles or bids (does not pass)
 
 A jump to game in a new suit is to play; not fit-showing.
 Therefore:
