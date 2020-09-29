@@ -199,10 +199,10 @@ a splinter.
 
 FSJs by an unpassed hand apply when:
 
-@ we open ONE MAJOR
-> they overcall +
-@ we overcall
-> next hand doubles or bids (does not pass)
+@ we open ONE MAJOR +
+>> they overcall +
+@ we overcall +
+>> next hand doubles or bids (does not pass)
 
 A jump to game in a new suit is to play; not fit-showing.
 Therefore:
