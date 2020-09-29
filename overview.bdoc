@@ -192,8 +192,8 @@ If single and double jumps are both available below game in a FSJ
 situation, then the single jump is fit showing and the double jump is
 a splinter.
 
-[cyan-box]#We do not play FSJs after an opponent's take-out double of
-           our opening bid.#
+[lavender-box]#We do not play FSJs after an opponent's take-out double
+               of our opening bid.#
 
 === Unpassed hand
 
@@ -207,7 +207,8 @@ FSJs by an unpassed hand apply when:
 A jump to game in a new suit is to play; not fit-showing.
 Therefore:
 
-[cyan-box]#the highest FSJ by an unpassed hand is four of a minor#
+[lavender-box]#The highest FSJ by an unpassed hand is four of a
+               minor.#
 
 We also play <<suit-openings.adoc#nfb, 2oM neg.-free bids>>
 by an unpassed hand after we open and they overcall.
@@ -215,8 +216,8 @@ When 2oM is an NFB, a jump to 3oM is natural and forcing; not
 fit-showing.
 Therefore:
 
-[cyan-box]#after we open a major and they overcall a minor, there is
-           no FSJ in the other major#
+[lavender-box]#After we open a major and they overcall a minor, there
+               is no FSJ in the other major.#
 
 &Examples&
 
