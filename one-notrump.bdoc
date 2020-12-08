@@ -147,7 +147,7 @@ _ possibly 5-5 shape
 |     |  4NT  || #Strong quant.# {note}, [nore]#no fit for M#
 |===
 
-NOTE: This is the reverse of how we treat direct 4S and 4NT responses
+NOTE: This is the reverse of how we treat immediate 4S and 4NT responses
       to NT opening bids.
 
 
@@ -563,11 +563,11 @@ Lebensohl.
 
 === Vs 2D natural single-suiter
 
-#Standard Lebensohl# except that a direct 3C is invitational (NF).
+#Standard Lebensohl# except that an immediate 3C is invitational (NF).
 
 [%autowidth,cols="^.^s,^,<.^",grid="none"]
 |===
-3+^d| Direct bids
+3+^d| Immediate bids
 
 | 3D  || Stayman without a stopper. +
          = at least one 4cM,
@@ -585,15 +585,14 @@ Lebensohl.
 | 3D  || Stayman WITH a stopper. +
          = at least one 4cM,
 	 _ #NOT 5-4 majors#
-| 3M  || invitational, [.nobr.orange-bg]#ambiguous re stopper ??#
-| 3NT || values for 3NT, but denies a stopper +
-         > opener passes with a stopper,
-	 _ else bids a 5cM or 4C
+| 3M  || invitational, #ambiguous re stopper#
+| 3NT || to play, shows a stopper
 |===
 
 To show a 5cM with GF values and a stopper, responder starts with a
-negative double and follows with 3M.
-Responder may or may not have four in the other major.
+negative double.
+If this doesn't locate a fit, then responder follows with 3M.
+Responder may or may not have four in the other major for this sequence.
 
 [%autowidth,cols="4*^", grid="none"]
 |===
