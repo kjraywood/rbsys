@@ -29,18 +29,23 @@ __ {nbsp}{ndash}{nbsp} Justin Lall
 | 3NT   | to play
 | 4C    | #ConFit#, bal. or semi-bal., strong
 | 4D,4H | Texas
-| 4S    | #Strong quant.#
-         [nobr]#(opener only declines with dead min.)#
-| 4NT   | #Weak quant.#
-         [nobr]#(opener only accepts with clear max.)#
+| 4S    | #Weak quant.# +
+         [nobr]#{tribull} opener only accepts with clear max.#
+| 4NT   | #Strong quant.# +
+         [nobr]#{tribull} opener only declines with dead min.#
 | 5NT   | Quant. (forces 6, invites 7)
 |===
 
-#ALL invitational hands with five spades use Stayman#, then raise or
- bid 2S.
+TIP: The quantitative raises are in the same order (higher =
+       stronger) following a Stayman bid; see <<#_baze, Baze>>.
 
-Invitational hands with five hearts and less than four spades
-transfer to hearts then follow with
+=== Invitational sequences
+
+All invitational hands with five spades use Stayman then raise or bid
+2S.
+
+Invitational hands with five hearts and less than four spades transfer
+to hearts then follow with
 [nobr]#2{S} ({simto} transfer to 2NT).#
 
 A 2^nd^-round transfer to a new suit is GF.
@@ -143,13 +148,9 @@ _ possibly 5-5 shape
                  > 4M = decline +
                  {emsp} #4oM = accept, KC ask# +
                  {emsp} 4NT = min, to play
-|     | !4oM! || #Weak quant.# {note}, [nobr]#no fit for M#
-|     |  4NT  || #Strong quant.# {note}, [nore]#no fit for M#
+|     | !4oM! || #Weak quant.#, [nobr]#no fit for M#
+|     |  4NT  || #Strong quant.#, [nore]#no fit for M#
 |===
-
-NOTE: This is the reverse of how we treat immediate 4S and 4NT responses
-      to NT opening bids.
-
 
 TIP: Using 4oM as weak quant allows opener to pass with 4-4 majors and
      not max.
