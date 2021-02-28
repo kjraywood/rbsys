@@ -1,98 +1,238 @@
 :sectnumoffset: 16
 
-= Uncontested Auctions
+= Uncontested Auctions I
 
-== After 1m{ndash}1M{semicolon}2M
+Auctions following a one-level response, and a non-raise rebid by
+opener that does not promise extras.
 
-{warning} [xemph]#No Quality & Quantity#
+== Two-Way Checkback
 
-We achieve the same goal with mostly natural bidding, and use _three
-other-minor_{thinsp} for further investigation.
+{reference} https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html[
+_Two-Way Checkback Stayman_]
+__ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
-=== Natural invitations and choice-of-game
+@ ON after both minors or both majors +
+@ ON vs take-out double by either opp +
+@ #OFF if either opp has shown a suit# +
+>> cue = GF, jumps are inv +
+@ OFF by a passed hand +
+>> regular NMF with an old and new minor
 
-Notrump bids and old suits are non-forcing.
+=== Weak with both majors
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1m  || 1S ||
+| 1NT || 2H || 5*{S}, 4{OrMore}{xtimes}{H}, weak
+|===
+
+Opener chooses between pass and a preference to 2S.
+
+=== Inv with both majors
+
+Invitational with 4{ndash}4 majors is shown directly.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1m  || 1H ||
+| 1NT || 2S || 4*{S}, 4*{H}, inv
+|===
+
+Going though the minor-suit relay shows five cards in the first suit.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|  1m  || 1H   ||
+|  1NT || !2C! ||
+| !2D! || 2S   || 4*{S}, 5*{H}, inv
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|  1m  ||  1S  ||
+|  1NT || !2C! ||
+| !2D! ||  2H  || 5*{S}, 4*{H}, inv
+|===
+
+A jump after the relay shows extra length.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|  1m  ||  1S  ||
+|  1NT || !2C! ||
+| !2D! ||  3H  || 5*{S}, 5*{H}, inv
+|===
+
+=== Second-round jumps
+
+These are picture-bids, providing opener with an accurate description
+of responder's hand.
+
+*Second suit:*{thinsp} 5-5 with most values in the long suits. Slam is
+possible if the hands fit well.
+
+*Rebid of own suit:*{thinsp} A one-loser suit or just setting trump
+for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
+4M).
+
+==== Summary
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+| 1m  | 1S       |
+| 1NT | {ensp}?  |
+|     | 3C,3D,3H | 5-5, good suits
+|     | 3S       | 1-loser suit, or set trump for KC ask
+|===
+
+=== Choice-of-game
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m | 1M  | |
-| 2M | ?   | |
-|    | 2NT | | natural, inv,#{sp}NF{sp}#
-|    | 3m  | | natural, inv,#{sp}NF{sp}#
-|    | 3M  | | five-card suit, inv
-|    | 3NT | | natural, COG
+| 1C   |  1H   | |
+| 1NT  | !2C!  | |
+| !2D! | !3NT! | | Choice of game
 |===
 
-=== Investigating best game or slam
-
-For more info, responder uses #three other-minor#.
-
-[%autowidth,cols="^,^,<",grid="none"]
-|===
-|  1m   |  1M   |
-|  2M   | !3om! | #GF enquiry# (often semi-natural)
-|  ?    |       |
-|  3M   |       | 4-card raise
-| !3oM! |       | 3-card raise, short oM
-| !3NT! |       | 3-card raise, #short om#
-|===
+_e.g._{thinsp} {S}{thinsp}Kxx {H}{thinsp}KQxxx {D}{thinsp}KQx {C}{thinsp}Jx
 
 [TIP]
 ====
-Think of this as #GF New-Minor Q{thinsp}&{thinsp}Q#.
-However, instead of min vs max, opener
-identifies the shortness in a 3-card-raise hand.
+Using the 2C relay always invites something.
+Here it invites opener to bid 4M with a good hand for suit play.
 ====
 
-When opener has shown a three-card raise, responder may suggest an
-alternate trump suit in one of the minors.
-Following that, opener's weakest bid is returning to 4M.
-Anything else is encouraging, usually indicating that the short-suit
-is a singleton.
+=== Game-forcing Checkback
 
-=== Responder has both majors
+Priorities: +
+@ Majors up the line +
+@ 3m = good 5 or 6 card suit +
+@ 2NT = none of the above
 
-After 1m{ndash}1{H} opener might bypass a four-card spade-suit to
-raise hearts on three. So 2S by responder is natural and forcing
-one-round.
-
-Then +
-@ old-suit, 2NT or 3NT
-_ = natural, NF +
-@ #4th-suit (3om) = 4*{H}, max#
-
-[%autowidth,cols="^,^,<",grid="none"]
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1m   | 1H |
-|  2H   | 2S | natural, F1
-|  ?    |    |
-|  2NT  |    | 3*{H}, #short {S}#, min, NF
-|  3m   |    | 3*{H}, 5\|6*m, #short om#, NF
-| !3om! |    | #4*{H}, max, GF#
-|  3H   |    | 4*{H}, min, NF
-|  3S   |    | 4*{S}, min, NF
-|  3NT  |    | 3*{H}, #short {S}#, max
-| !4om! |    | splinter, 4*{S}, max
-| !4H!  |    | 4*{H}, max, "`__I forgot about 3om__{thinsp}`"
-| !4S!  |    | no splinter, 4*{S}, max
+| 1m  |  1S  | |
+| 1NT | !2D! | |
+| 2H  |  ?   | |
+|     | 2S   | | 5{orMore}{xtimes}{S}
+|     | 2NT  | | no fit, requests further description
+|     | 3H   | | slam try in {H}
+|     | 4H   | | sign off
 |===
 
-// 4m would be a bluhmer [ https://kwbridge.com/bb/habits-8o.htm ]
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D  |  1S  | |
+| 1NT | !2D! | |
+| 2NT |  ?   | |
+|     | 3C   | | 4*{C}
+|     | 3H   | | 5-5 Majors, non-pure
+|===
 
-[TIP]
-====
-In the previous two bidding tables, the notrump bids show shortness
-(2{OrLess}) in the new suit that responder just bid; even if it was
-only semi-natural.
+==== Slam trys and non-serious 3NT
 
-Also, as in the previous section, #three other-minor# is a special
-bid indicating extras; this time, non-minumum and 4-card support.
-====
+If we have agreed a major at the three level, and responder has
+indicated preference for suit-play over notrump by not using a COG
+sequence, then non-serious 3NT applies.
+By opener it indicates non-max, but not terrible for slam.
+By responder it is a mild slam-try, indicating that opener needs a
+fitting max for slam to be good.
 
-=== Vs interference
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1D   |  1S  |
+|  1NT  | !2D! |
+|  2S   |  3S  |
+| !3NT! |      | cooperative (non-serious)
+|===
 
-When opener is known to have a 4-card raise (_e.g._{thinsp} no support
-double), then new suits are natural game-tries.
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D   |  1H   | |
+|  1NT  | !2D!  | |
+|  2H   |  2S   | |
+|  3S   | !3NT! | | mild slam try
+|===
+
+=== Game-forcing with a fit for opener's minor
+
+Responder relays with 2NT then bids again, to show four-cards in
+opener's minor and GF strength; possibly slammish.
+Responder's suits are usually 4-4 (M-m) because: +
+@ 4-5
+>> inverted minor on first round +
+@ 5-5 (pure)
+>> jumps to 3m +
+@ 5-4 or non-pure 5-5
+>> 2D (GF checkback)
+
+*Exception:* There is a special sequence for 5-4 with two weak
+doubletons, allowing opener to choose 3NT to protect tenaces in those
+suits.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m  |  1M   | |
+| 1NT | !2NT! | | forces 3C
+| 3C  | ?     | |
+|     | pass  | | to play
+|     | !3D!  | | 4*m, _other-minor_{thinsp} singleton
+|     | !3oM! | | 4*m, _other-Major_{thinsp} singleton
+|     | !3M!  | | #5*M + 4*m, xx in others#, COG
+|     | !3NT! | | 4*M + 4*m, no singleton, slam try
+|===
+
+[#_nmf_by_passed_hand]
+=== Passed Hand
+
+*Regular New-Minor-Forcing* +
+ @ #if there is an old AND a new minor# +
+ @ all natural after both minors or majors
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+2+<a|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+3+^! An old and new minor
+
+!  P   ! 1C  !
+!  1S  ! 1NT !
+!  ?   !     !
+!  2C  !     ! to play
+! !2D! !     ! NMF, inv. values +
+               > #opener must jump with a max#
+!  2H  !     ! natural, weak
+!  2S  !     ! to play
+2+<! 2NT    <! #natural inv.#
+!===
+2+<|
+2+<|
+|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+3+^! No new minor
+
+!  P   ! 1C  !
+!  1D  ! 1NT !
+!  ?   !     !
+2+<! 2C,2D  <! to play
+2+<! 2H,2S  <! natural inv.
+2+<! 2NT    <! natural inv.
+!===
+|
+[%autowidth,cols="2*^,<",grid="none",stripes=odd]
+!===
+3+^! No old minor
+
+! P  ! 1H   !
+! 1S ! 1NT  !
+! ?  !      !
+2+<! 2C,2D <! to play, 5{OrMore}{xtimes}m
+2+<! 2H,2S <! to play
+2+<! 2NT   <! natural inv.
+!===
+|===
 
 == Second-round jumps and fourth-suit forcing
 
@@ -571,499 +711,4 @@ doubleton.
 | !3H! |      | accept {D} inv., reject {H} inv.
 | !3S! |      | accept both
 | 3NT  |      | max with values in {S} and {C}
-|===
-
-== Two-Way Checkback
-
-{reference} https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html[
-_Two-Way Checkback Stayman_]
-__ {nbsp}{ndash}{nbsp} Andrew Gumperz
-
-@ ON after both minors or both majors +
-@ ON vs take-out double by either opp +
-@ #OFF if either opp has shown a suit# +
->> cue = GF, jumps are inv +
-@ OFF by a passed hand +
->> regular NMF with an old and new minor
-
-=== Weak with both majors
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| 1m  || 1S ||
-| 1NT || 2H || 5*{S}, 4{OrMore}{xtimes}{H}, weak
-|===
-
-Opener chooses between pass and a preference to 2S.
-
-=== Inv with both majors
-
-Invitational with 4{ndash}4 majors is shown directly.
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| 1m  || 1H ||
-| 1NT || 2S || 4*{S}, 4*{H}, inv
-|===
-
-Going though the minor-suit relay shows five cards in the first suit.
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|  1m  || 1H   ||
-|  1NT || !2C! ||
-| !2D! || 2S   || 4*{S}, 5*{H}, inv
-|===
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|  1m  ||  1S  ||
-|  1NT || !2C! ||
-| !2D! ||  2H  || 5*{S}, 4*{H}, inv
-|===
-
-A jump after the relay shows extra length.
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|  1m  ||  1S  ||
-|  1NT || !2C! ||
-| !2D! ||  3H  || 5*{S}, 5*{H}, inv
-|===
-
-=== Second-round jumps
-
-These are picture-bids, providing opener with an accurate description
-of responder's hand.
-
-*Second suit:*{thinsp} 5-5 with most values in the long suits. Slam is
-possible if the hands fit well.
-
-*Rebid of own suit:*{thinsp} A one-loser suit or just setting trump
-for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
-4M).
-
-==== Summary
-
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-| 1m  | 1S       |
-| 1NT | {ensp}?  |
-|     | 3C,3D,3H | 5-5, good suits
-|     | 3S       | 1-loser suit, or set trump for KC ask
-|===
-
-=== Choice-of-game
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1C   |  1H   | |
-| 1NT  | !2C!  | |
-| !2D! | !3NT! | | Choice of game
-|===
-
-_e.g._{thinsp} {S}{thinsp}Kxx {H}{thinsp}KQxxx {D}{thinsp}KQx {C}{thinsp}Jx
-
-[TIP]
-====
-Using the 2C relay always invites something.
-Here it invites opener to bid 4M with a good hand for suit play.
-====
-
-=== Game-forcing Checkback
-
-Priorities: +
-@ Majors up the line +
-@ 3m = good 5 or 6 card suit +
-@ 2NT = none of the above
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1m  |  1S  | |
-| 1NT | !2D! | |
-| 2H  |  ?   | |
-|     | 2S   | | 5{orMore}{xtimes}{S}
-|     | 2NT  | | no fit, requests further description
-|     | 3H   | | slam try in {H}
-|     | 4H   | | sign off
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1D  |  1S  | |
-| 1NT | !2D! | |
-| 2NT |  ?   | |
-|     | 3C   | | 4*{C}
-|     | 3H   | | 5-5 Majors, non-pure
-|===
-
-==== Slam trys and non-serious 3NT
-
-If we have agreed a major at the three level, and responder has
-indicated preference for suit-play over notrump by not using a COG
-sequence, then non-serious 3NT applies.
-By opener it indicates non-max, but not terrible for slam.
-By responder it is a mild slam-try, indicating that opener needs a
-fitting max for slam to be good.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1D   |  1S  |
-|  1NT  | !2D! |
-|  2S   |  3S  |
-| !3NT! |      | cooperative (non-serious)
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1D   |  1H   | |
-|  1NT  | !2D!  | |
-|  2H   |  2S   | |
-|  3S   | !3NT! | | mild slam try
-|===
-
-=== Game-forcing with a fit for opener's minor
-
-Responder relays with 2NT then bids again, to show four-cards in
-opener's minor and GF strength; possibly slammish.
-Responder's suits are usually 4-4 (M-m) because: +
-@ 4-5
->> inverted minor on first round +
-@ 5-5 (pure)
->> jumps to 3m +
-@ 5-4 or non-pure 5-5
->> 2D (GF checkback)
-
-*Exception:* There is a special sequence for 5-4 with two weak
-doubletons, allowing opener to choose 3NT to protect tenaces in those
-suits.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1m  |  1M   | |
-| 1NT | !2NT! | | forces 3C
-| 3C  | ?     | |
-|     | pass  | | to play
-|     | !3D!  | | 4*m, _other-minor_{thinsp} singleton
-|     | !3oM! | | 4*m, _other-Major_{thinsp} singleton
-|     | !3M!  | | #5*M + 4*m, xx in others#, COG
-|     | !3NT! | | 4*M + 4*m, no singleton, slam try
-|===
-
-[#_nmf_by_passed_hand]
-=== Passed Hand
-
-*Regular New-Minor-Forcing* +
- @ #if there is an old AND a new minor# +
- @ all natural after both minors or majors
-
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-2+<a|
-[%autowidth,cols="2*^,<",grid="none",stripes=odd]
-!===
-3+^! An old and new minor
-
-!  P   ! 1C  !
-!  1S  ! 1NT !
-!  ?   !     !
-!  2C  !     ! to play
-! !2D! !     ! NMF, inv. values +
-               > #opener must jump with a max#
-!  2H  !     ! natural, weak
-!  2S  !     ! to play
-2+<! 2NT    <! #natural inv.#
-!===
-2+<|
-2+<|
-|
-[%autowidth,cols="2*^,<",grid="none",stripes=odd]
-!===
-3+^! No new minor
-
-!  P   ! 1C  !
-!  1D  ! 1NT !
-!  ?   !     !
-2+<! 2C,2D  <! to play
-2+<! 2H,2S  <! natural inv.
-2+<! 2NT    <! natural inv.
-!===
-|
-[%autowidth,cols="2*^,<",grid="none",stripes=odd]
-!===
-3+^! No old minor
-
-! P  ! 1H   !
-! 1S ! 1NT  !
-! ?  !      !
-2+<! 2C,2D <! to play, 5{OrMore}{xtimes}m
-2+<! 2H,2S <! to play
-2+<! 2NT   <! natural inv.
-!===
-|===
-
-== Reverses
-
-=== After 1-level suit-response
-
-@ promises a rebid below-game +
-@ default rebid by responder
-_ = cheaper of fourth-suit & 2NT
->> to force, opener bids above
-__ three of first-suit
-
-=== In comp.
-
-When responder has shown a non-bust, _e.g._{thinsp} a 1-level response
-or negative double, then #a reverse in comp. is forcing for one
-round.#
-It does not promise a rebid as it does in an uncontested auction.
-
-[TIP]
-====
-This follows the usual style of _limit bidding in competition_{thinsp}
-when there's a cue-bid available to establish a GF.
-====
-
-[%autowidth,cols="<,3*^,<",grid="none"]
-|===
-5+^| Reverse after neg. double
-
-| 1C  | (1S) | Dbl | (P) |
-| 2D* | (P)  | ?   |     | * extras, #F1#
-|     |      | 2H  |     | 5-card suit, #NF# {note}
-|     |      | 2S  |     | cue-bid, GF
-|     |   2+<| 2NT,3C,3D <| min, NF
-|     |      | 3H  |     | 5-card suit, GF
-|===
-
-NOTE: _2oM neg.-free-bid agreements apply_
-
-The negative double showed four or five hearts with any strength.
-
-When opener has not shown extra +
-> 2H = 5-cd inv.,{ensp}3H = 5-cd GF
-
-Here, opener has shown extra and responder is forced to bid something.
-Therefore, 2H denies more than a minimum negative double.
-A jump to 3H is a GF opposite the extra strength shown by opener.
-
-=== After 1NT response
-
-@ shows unbalanced raise to 2NT
-@ does not promise a rebid
-
-[%autowidth,cols="3*^,<.^",grid="none"]
-|===
-| 1D | 1NT    ||
-| 2S |  ?     ||
-|    | 2NT +
-       3C,3D  || sign off
-|===
-
-== Jump Rebids by Opener
-
-=== Invitational Raises
-
-*jump reverse = invitational splinter*
-
-*jump-raise = invitational* +
-@ unbalanced (no 1NT or Mex-2D opening) +
-@ may contain unshowable singleton
-_ (if a jump reverse in that suit is not available)
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 1D   | 1S |
-| ?    |    |
-| !3H! |    | inv. {S}-raise, singleton {H}
-| 3S   |    | inv. {S}-raise,
-            _ singleton {C} is possible
-|===
-
-=== Jump rebid of original suit by opener
-
-The Mexican 2D allows us to use 2NT to provide more definition to opener's jump rebid.
-
-*Jump rebid of original-suit includes three-card support for
- responder's major*
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1D  | 1S |
-| !3D! |    | {simto}{thinsp}16-17 HCP,
-             6{OrMore}{xtimes}{D}, 3*{S}
-|===
-
-Also applies after: 1H{ndash}1S{semicolon} 3H
-
-#Does not apply after:# 1C{ndash}1D{semicolon} 3C
-
-*Jump to 2NT shows either:*
-@ a jump-rebid hand  with less than three
-_ in responder's major, +
-_ -OR- +
-@ a single-suited GF hand that is not suitable
-_ for a jump to 3NT
-
-// [%autowidth,cols="2*^,<",grid="none"]
-// |===
-// |  1D   |  1S  |
-// | !2NT! |      | {lflatb} 6{OrMore}{xtimes}{D}, 0-2{xtimes}{S} {rflatb} {or} {lflatb} 4*{S}, GF {rflatb}
-// |       | !3C! | asks which +
-//                  > 3D = long {D}, inv. (NF) +
-//                  {emsp} 3S = GF-raise of {S} +
-//                  {emsp} _other_ = long {D}, GF
-// |===
-
-// Above also applies after: 1H{ndash}1S{semicolon} 2NT
-
-// [%autowidth,cols="2*^,<",grid="none"]
-// |===
-// |  1C   |  1H  |
-// | !2NT! |      | {lflatb} 6{OrMore}{xtimes}{C}, 0-2{xtimes}{H} {rflatb} {or} {lflatb} 4*{H}, GF {rflatb}
-// |       | !3C! | pass or correct, min (NF) +
-//                  > pass = long {C}, min (16-17) +
-// 		 {emsp} 3H = GF raise of {H} +
-// 		 {emsp} _other_ = long {C}, GF
-// |       | !3D! | asks which (non-min, 8{OrMore}) +
-//                  > 3H = GF raise of {H} +
-// 		 {emsp} _other_ = long {C}
-// |===
-
-=== Jumps by opener after ONE-DIAMOND response
-
-Following a 1D response, opener's jump rebid of clubs is standard with
-no special meaning about diamond length.
-
-A jump to 2NT is a GF-raise of diamonds, or GF with long clubs.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C | 1D |
-|  3C |    | {simto}{thinsp}16-17 HCP,
-             6{OrMore}{xtimes}{C}, no 4cM
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C   |  1D  |
-| !2NT! |      | GF, [ 6{OrMore}{xtimes}{C} {or} 4*{D} ]
-|       | !3C! | asks which +
-                 > 3D = GF-raise of {D} +
-                 {emsp} _other_ = long {C}, GF
-|===
-
-== Two-over-one Auctions
-
-@ 100% game-forcing
-@ 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H show 5{OrMore}
-@ 1M{thinsp}{ndash}{thinsp}2C could be short
-
-[#_nebulous_two_clubs]
-=== Nebulous Two Clubs
-
-Applies after 1H or 1S opening.
-
-[NOTE]
-====
-After a 1H opening, responder never bids 1S with GF values but only
-four spade-cards.
-Therefore, the nebulous 2C response to a 1H opening includes 4-3-3-3
-and 4-3-4-2 shapes.
-After a 1S opening, a nebulous 2C includes 3-4-3-3 and 3-4-4-2 shapes.
-After both 1M openings, 2C includes 3-3-4-3.
-====
-
-Opener and responder use waiting bids below 2NT unless they have
-something to say such as extra length, extra strength, or a fit.
-The waiting bids could hide a very strong hand wishing to take control
-if partner shows any extras.
-
-Following a nebulous 2C a jump by opener is NOT a splinter.
-A 3-level suit-bid below 3M shows a good two suiter; at least 5-5.
-
-// {reference} https://bridgewinners.com/article/view/better-21-bidding-the-nebulous-2c-bid[
-// _Better 2/1 Bidding: The Nebulous 2\C Bid_]
-// __ {nbsp}{ndash}{nbsp} Andrew Gumperz
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1M   | !2C! | {emsp} could be short
-|  ?    |      |
-| !2D!  |      | waiting
-|  2oM  |      | natural, #non-minimum#
-|  2M   |      | six-card suit
-|  2NT  |      | 16{ndash}17, no singleton,
-                 [nobr]## #could have 4*oM# ##
-2+<| [nobr]#3{lab}lower suit{rab}# <| #5-5, decent suits#
-|===
-
-Following opener's 2D, responder shows a fit for opener's major by
-skipping a step; thus bidding 2S even when opener's major is hearts.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1M   | !2C! ||
-| !2D!  |  ?   ||
-|       | !2H! || waiting
-|       | !2S! || 3*M
-|       |  2NT || 16{ndash}17, no singleton
-| 2+<| 3{lab}suit{rab} | natural, extra length or extra strength
-|===
-
-Following a second nebulous-bid by responder, opener can rebid 2NT
-(denying four in the other major) or 2S, which is really just another
-nebulous bid saying that opener doesn't want to grab the NT.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1M   | !2C! |
-| !2D!  | !2H! |
-|  ?    |      |
-| !2S!  |      | usually min. hand that doesn't want grab NT, #could have 4*oM#
-| 2NT   |      | natural 12-14 or 18{OrMore}, #not{nbsp}4*oM#, not{nbsp}4*{C}
-| 3m    |      | 4*m with at least moderate extras
-|===
-
-=== The Schuler Shift
-
-{reference} https://bridgewinners.com/article/view/building-a-better-21-structure-the-schuler-shift/[
-_Building a Better 2/1 Structure: The Schuler Shift_]
-__ {nbsp}{ndash}{nbsp} Andrew Gumperz
-
-Only after 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H
-
-Opener's 2NT rebid shows 6{OrMore}{xtimes}M
-
-Opener's 2M rebid denies 6{OrMore}{xtimes}M unless 6332 and poor for
-declaring NT
-
-=== One Diamond {ndash} Two Clubs
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1D   | 2C |
-|  ?    |    |
-|  2D   |    | #__required__{thinsp} with 5{orMore}#
-               unless rebidding 3D or raising {C}
-|  2M   |    | 4*M, 4*{D}, other{nbsp}major{nbsp}unstopped
-|  2NT  |    | 4{OrLess}{xtimes}{D},
-               stoppers in both majors,
-               [nobr]#may hold 4*M#
-|  3C   | | 4*{C}, no 4-cd M
-|  3D   | | extras
-| !3M!  | | splinter for {C}
-| !3NT! | | #4-4-4-1, 16-17# +
-|===
-
-Following 3NT, responder can ask for KC in any suit.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1D   |  2C  ||
-| !3NT! |  ?   ||
-|       | !4C! || forces 4D, then 4H, 4S or 4NT = Kickback
-|       | !4D! || Kickback for {C}
-|       |  4M  || to play
 |===
