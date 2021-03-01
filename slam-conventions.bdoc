@@ -528,10 +528,10 @@ Allows KC-asking in your own suit without trump agreement
 @ asker has bid only one suit +
 @ the KB bid is a jump
 
-&Own-suit = minor {or} hearts:& +
+*Own-suit = minor or hearts:* +
 @ three of  KB-strain is forcing
 
-&Own-suit = spades:& +
+*Own-suit = spades:* +
 @ partner's last bid not in NT
 
 === Examples
