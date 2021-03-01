@@ -5,6 +5,7 @@
 Auctions following a one-level response, and a non-raise rebid by
 opener that does not promise extras.
 
+[#_2_way_checkback]
 == Two-Way Checkback
 
 {reference} https://andrew-gumperz.blogspot.com/2011/12/two-way-checkback-stayman.html[
@@ -234,6 +235,7 @@ suits.
 !===
 |===
 
+[#_4th_suit_forcing]
 == Second-round jumps and fourth-suit forcing
 
 *2nd-round jump = natural & GF* +
@@ -524,6 +526,7 @@ _ on 3rd round or later +
 
 If partner bids 3NT, fourth-suit bidder pulls with a singleton.
 
+[#_3rd_suit_forcing]
 == Third-suit forcing by responder
 
 Refers to auctions that start 1m{ndash}1M{semicolon}{nbsp}2m .
