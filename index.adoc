@@ -8,15 +8,15 @@
 
 <<suit-openings.adoc#, *Suit Openings*>>
 
-<<uncontested-auctions.adoc#, *Uncontested Auctions I*>> +
-{nbsp} <<uncontested-auctions.adoc#_2_way_checkback,
+<<uncontested-auctions.adoc#, *Uncontested Auctions 1*>> +
+{nbsp} <<uncontested-auctions-1.adoc#_2_way_checkback,
          Two-Way Checkback>> +
-{nbsp} <<uncontested-auctions.adoc#_4th_suit_forcing,
+{nbsp} <<uncontested-auctions-1.adoc#_4th_suit_forcing,
          2^nd^-round jumps & 4^th^-suit forcing>> +
-{nbsp} <<uncontested-auctions.adoc#_3rd_suit_forcing,
+{nbsp} <<uncontested-auctions-1.adoc#_3rd_suit_forcing,
          3^rd^-suit forcing>>
 
-<<uncontested-auctions-2.adoc#, *Uncontested Auctions II*>>
+<<uncontested-auctions-2.adoc#, *Uncontested Auctions 2*>>
 
 <<higher-openings.adoc#, *Higher Opening Bids*>>
 
