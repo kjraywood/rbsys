@@ -87,10 +87,10 @@ strain in which we are likely to play.
 
 === Stayman with spades
 
-This is not five-card Stayman because:
+This is not five-card Stayman because: +
 @ it includes 5*{S} + 4*{H} +
 @ if a major-suit fit is not found, then
-_ we need 3S as a relay to 3NT
+_ responder needs 3S as a relay to 3NT
 
 #To show five hearts, opener bids 3NT.#
 
@@ -102,7 +102,7 @@ declare.
 We don't need a way for opener to show five spades because responder
 has shown four.
 
-The other Smolen-shape (4*{S} + 5*{H}) is shown with a direct 3D
+The other Smolen-shape (5*{H} + 4*{S}) is shown with a direct 3D
 (transfer to hearts with spades).
 ====
 
@@ -112,10 +112,10 @@ The other Smolen-shape (4*{S} + 5*{H}) is shown with a direct 3D
 |  ?    |      ||
 | !3D!  |      || negative +
 	          > !3H! = Smolen (5*{S}, 4*{H}) +
-   {emsp}{thinsp}!!3S!! {blueRarrow} 3NT 
+   {emsp}{thinsp}!!3S!! {ensp}{blueRarrow} 3NT 
 | !3H!  |      || 4*{H}, not 4*{S} +
-	          > !3S! {blueRarrow} 3NT +
-   {emsp}{thinsp}!!3NT!! agrees {H}
+	          > !3S! {ensp}{blueRarrow} 3NT +
+   {emsp}{thinsp}!!3NT!! = agrees {H}
 | !3S!  |      || 4{or}5{xtimes}{S} (agrees {S}) +
 	          > !3NT! = non-serious slam-try +
               {emsp}4m,4H = serious slam-try +
