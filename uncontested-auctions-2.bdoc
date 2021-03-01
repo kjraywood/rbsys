@@ -363,3 +363,44 @@ Following 3NT, responder can ask for KC in any suit.
 |       | !4D! || Kickback for {C}
 |       |  4M  || to play
 |===
+
+
+=== Fourth suit at the 4-level
+
+There is one three-suit auction without a jump, in which the fourth suit
+is at the four level.
+
+[%autowidth,cols="2*^",grid="none"]
+|===
+| 1S |  2H
+| 3D |  4C
+|===
+
+The normal meaning of fourth-suit on the second-round in 2/1 auctions
+is that responder unable to bid notrump and has no other good bid.
+The problem in the above auction is obvious; the fourth suit is above
+3NT which might be the best spot.
+
+Therefore, we swap the meaning 3S and 4C at responder's second bid.
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+4+^| Fourth suit at the 4-level
+
+| 1S |  2H  ||
+| 3D |  ?   ||
+|    |  3H  || normal rebid, 6{OrMore}{xtimes}{H}, good{nbsp}suit
+|    | !3S! || #need help in 4th-suit (clubs) for NT#
+|    |  3NT || to play
+|    | !4C! || #3{xtimes}{S}, says nothing about clubs#
+|===
+
+The remaining 4-level bids are:
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| {tab}  |  4D   || natural diamond raise
+|        | !4H!  || kickback for diamonds
+|        | !4S!  || kickback for hearts (self-wood)
+|        |  4NT  || natural, needed because 2NT is not available
+|===
