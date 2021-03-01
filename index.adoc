@@ -17,6 +17,14 @@
          3^rd^-suit forcing>>
 
 <<uncontested-auctions-2.adoc#, *Uncontested Auctions 2*>>
+{nbsp} <<uncontested-auctions-2.adoc#_opener_raises,
+         After 1m{ndash}1M{semicolon}2M>> +
+{nbsp} <<uncontested-auctions-2.adoc#_reverses,
+         Reverses>> +
+{nbsp} <<uncontested-auctions-2.adoc#_jump_rebids_by_opener,
+         Jump Rebids by Opener>> +
+{nbsp} <<uncontested-auctions-2.adoc#_two_over_one_auctions,
+         Two-over-one Auctions>>
 
 <<higher-openings.adoc#, *Higher Opening Bids*>>
 

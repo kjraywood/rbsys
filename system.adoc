@@ -8,7 +8,7 @@ include::other-notrump.adoc[]
 
 include::suit-openings.adoc[]
 
-include::uncontested-auctions.adoc[]
+include::uncontested-auctions-1.adoc[]
 
 include::uncontested-auctions-2.adoc[]
 
