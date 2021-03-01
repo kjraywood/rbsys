@@ -73,7 +73,7 @@
             Kickback after suit agreement>> +
 {nbsp} 29. <<slam-conventions.adoc#_last_suit_kickback,
             Last-Suit Kickback>> +
-{nbsp} 30. <<slam-conventions.adoc#own-suit-kc,
+{nbsp} 30. <<slam-conventions.adoc#_own_suit_kickback,
             Own-Suit Kickback>> +
 {nbsp} 31. <<slam-conventions.adoc#_special_kc_asking_bids,
             Special KC-asking bids>> +

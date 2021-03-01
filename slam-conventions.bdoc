@@ -363,13 +363,13 @@ kickback.
  !4S! : : :
 :===
 
-[#_last_suit_kickback]
-== Kickback for [underline]#last suit# without trump agreement
+== Last-Suit Kickback
 
 Applies when: +
-@ cannot agree last suit below 4-level
-@ KB is a jump
-@ 3{lab}KB-strain{rab} is forcing
+@ trumps not yet agreed +
+@ cannot agree last suit below 4-level +
+@ 3{lab}KB-strain{rab} is forcing +
+@ 4{lab}KB-strain{rab} is a jump
 
 === Minors and Hearts
 
@@ -517,20 +517,21 @@ as trump.
 
 If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 
-[#own-suit-kc]
-== Kickback for [underline]#own suit# without trump agreement
+== Own-Suit Kickback
+
+AKA _Selfwood_
+
+Allows KC-asking in your own suit without trump agreement
 
 === Requirements
 
-&All suits:& +
-@ potential KB-bidder has bid only one suit +
+@ asker has bid only one suit +
+@ the KB bid is a jump
 
 &Own-suit = minor {or} hearts:& +
-@ KB is a jump
 @ three of  KB-strain is forcing
 
 &Own-suit = spades:& +
-@ 4NT is a jump
 @ partner's last bid not in NT
 
 === Examples
