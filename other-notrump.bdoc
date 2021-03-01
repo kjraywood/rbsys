@@ -73,116 +73,94 @@ strain in which we are likely to play.
 	{emsp}{emsp}{emsp}{ensp}{tribull} 2^nd^-round transfers +
 	{emsp}{thinsp}3H = #strong with clubs# +
 	{emsp}{thinsp}3S = #strong with diamonds#
-| 2NT | {emsp} clubs & weak +
-        _or_{nbsp} both minors & strong +
-	_or_{nbsp} #major+minor & {lflatb}{thinsp}moderate {or} slam{thinsp}{rflatb}#
+| 2NT | {emsp} clubs, weak +
+        _or_{nbsp} both minors, strong +
+	_or_{nbsp} #major+minor, moderate or slam-drive#
 | 3C  | Stayman with spades
 | 3D  | transfer to hearts with spades
         [nobr]#= 5{OrMore}{xtimes}{H}, 4*{S}# +
 | 3H,3S | stiff with 3{xtimes}oM
-| 3NT   | #both minors & {lflatb}{thinsp}moderate {or} slam{thinsp}{rflatb}#
+| 3NT   | #both minors, moderate or slam-drive#
 | 4C    | ConFit
 | 4D,4H | #Texas transfers#
 |===
 
-// NOTE:  3D includes one Smolen shape; 4*{S}, 5*{H}. The other (5*{S}, 4*{H})
-//       is included in 3C; Stayman with spades.
+=== Stayman with spades
 
-=== Stayman with spades (4 or 5)
+This is not five-card Stayman because:
+@ it includes 5*{S} + 4*{H} +
+@ if a major-suit fit is not found, then
+_ we need 3S as a relay to 3NT
 
-Constraints: +
-@ includes 5*{S} + 4*{H} +
-@ we need a relay to 3NT if a major-suit fit
-_ is not found
+#To show five hearts, opener bids 3NT.#
 
-Therefore we cannot play 5-card Stayman.
+Following that, we #swap hearts and diamonds# to allow opener to
+declare.
 
+[NOTE]
+====
 We don't need a way for opener to show five spades because responder
 has shown four.
-So opener bids 3S to set trump with either four or five spades.
 
-#To show five hearts, opener bids 3NT#
+The other Smolen-shape (4*{S} + 5*{H}) is shown with a direct 3D
+(transfer to hearts with spades).
+====
 
-[%autowidth,cols="2*^",grid="none"]
+[%autowidth,cols="2*^,2*<",grid="none"]
 |===
-| !2D! | !3C!
-|  ?   |
+| !2D!  | !3C! || Stayman with spades
+|  ?    |      ||
+| !3D!  |      || negative +
+	          > !3H! = Smolen (5*{S}, 4*{H}) +
+   {emsp}{thinsp}!!3S!! {blueRarrow} 3NT 
+| !3H!  |      || 4*{H}, not 4*{S} +
+	          > !3S! {blueRarrow} 3NT +
+   {emsp}{thinsp}!!3NT!! agrees {H}
+| !3S!  |      || 4{or}5{xtimes}{S} (agrees {S}) +
+	          > !3NT! = non-serious slam-try +
+              {emsp}4m,4H = serious slam-try +
+       {emsp}{thinsp}4S = sign off
+| !3NT! |      || 5*{H} +
+                  > 4C = natural, slam interest +
+   {emsp}{thinsp}!!4D!! = #transfer to HEARTS# +
+   {emsp}{thinsp}!!4H!! = #DIAMONDS, slam interest# +
 |===
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
-| !3D! |  ?   || negative 
-|      | !3H! || Smolen (5*{S}, 4*{H})
-|      | !3S! || {blueRarrow} 3NT
-|===
-
-[%autowidth,cols="2*^,2*<",grid="none"]
-|===
-|  3H  |  ?    || 4*{H}
-|      | !3S!  || {blueRarrow} 3NT
-|      | !3NT! || #agrees {H}#
-|===
-
-[%autowidth,cols="2*^,2*<",grid="none"]
-|===
-| 3S |  ?    || agrees {S}
-|    | !3NT! || non-serious slam try
-|    | 4m,4H || serious slam try
-|    |  4S   || sign-off
-|===
-
-Following 3NT showing five hearts, we
-#swap hearts and diamonds# to allow opener to declare hearts
-
-[%autowidth,cols="2*^,2*<",grid="none"]
-|===
-| !3NT! |  ?   || 5*{H}
-|       |  4C  || natural, slam interest
-|       | !4D! || #transfer to HEARTS#
-|       | !4H! || #DIAMONDS, slam interest# +
-	          > 4S = KC for {D} +
-	          {emsp}{thinsp}4NT = negative
+| !2D!  | !3C! ||
+.^| !3NT! .^| !4H! || *opener:*{nbsp} 5*{H} +
+                      *responder:*{nbsp} 4*{S}, 5*{D}, slam interest
+|   ?   |      ||
+| !4S!  |      || KC for {D}
+| !4NT! |      || negative
 |===
 
 === Five-card Stayman without four spades
 
-Occurs after opener has bid 2NT, so we do not need a relay to 3NT with
-no fit.
+@ occurs after opener has bid 2NT,
+_ (a later relay to 3NT is not needed) +
+@ does not include Smolen shapes +
+@ responder cannot have 4-4 majors
 
-Does not include Smolen shapes.
-
-Responder cannot have 4-4 majors.
-
-Therefore #simple 5-card-Stayman responses#
-
-[%autowidth,cols="2*^",grid="none"]
-|===
-| !2D! | !2S!
-|  2NT | !3C!
-|  ?   |
-|===
+Therefore, we use #simple 5-card-Stayman responses#
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
-| !3D! |  ?   || no 5-card major 
-|      | !3H! || #DOES NOT EXIST#
-|      | !3S! || 4*{H}
-|      | 3NT  || sign off
-|===
-
-[%autowidth,cols="2*^,2*<",grid="none"]
-|===
-|  3H  |  ?   || 5*{H}
-|      | !3S! || agrees {H}
-|      |  3NT || sign off
-|===
-
-[%autowidth,cols="2*^,2*<",grid="none"]
-|===
-|  3S  |  ?   || 5*{S}
-|      |  3NT || sign off
-|      |  4m  || natural
-|      | !4H! || agrees {S}
+| !2D! | !2S! || {blueRarrow} 2NT
+|  2NT | !3C! || five-card Stayman without 4*{S}
+|  ?   |      ||
+| !3D! |      || no 5-card major +
+	          > !3H! = #DOES NOT EXIST# +
+     {emsp}{thinsp}!!3S!! = 4*{H} +
+     {emsp}{thinsp}3NT    = sign off
+|  3H  |      || 5*{H} +
+                > !3S! = agrees {H} +
+     {emsp}{thinsp}3NT = sign off
+|  3S  |      || 5*{S} +
+                 > 3NT = sign off +
+     {emsp}{thinsp}4m  = natural +
+     {emsp}{thinsp}!!4H!! = agrees {S}
 |===
 
 === Sequences released by Mexican 2D
