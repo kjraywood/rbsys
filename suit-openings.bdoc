@@ -365,29 +365,15 @@ minor and later bidding the second-suit at the 4-level.
 | !3H! |  ?  ||
 |      | 3S  || 4*{S}, rejects NT
 |      | 3NT || to play
-|      | 4C  || not sure we should bid this
-|      | 4D  || rejects NT
+|      | 4C  || 4*{C}, rejects NT
+|      | 4D  || 3{OrMore}{xtimes}{D}, rejects NT
 |===
 
-// ==== Extreme hands
-
-// With 6-5 (m-M), opener can jump to four of the major on the
-// second-round.
-// This is non-forcing, hence not much more than a minimum opening bid.
-
-// Responder, can pass or use KC for the major.
-
-// [%autowidth,cols="3*^,<",grid="none"]
-// |===
-// |  1m  |  2NT  ||
-// | !4M! |   ? 2+<| 6*m, 5*M, #NF#
-// |      |   P   || to play, bad for slam
-// |      | [alert]#4M+1# || kickback
-// |===
-
-// TIP: This is similar to Jacoby 2NT where we show shortness at the
-//      3-level and a second suit at the 4-level.
-
+[CAUTION]
+====
+We need to sort out what suit is trump after
+[lightgrey-box]#1D{ndash}2NT{semicolon} 3M{ndash}4C#
+====
 
 === 1m {ndash} 2H = 11{ndash}12 balanced
 
