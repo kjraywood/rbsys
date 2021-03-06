@@ -493,7 +493,7 @@ declare.
 
 @ new-suit = shortness
 >> opener assumes COG +
-@ 4m = <<slam-conventions.adoc#optional-minorwood, optional minorwood>> +
+@ 4m = <<slam-conventions.adoc#_minorwood, minorwood>> +
 @ other jump-shift = exclusion +
 @ 4NT = slam inv.
 
@@ -734,7 +734,7 @@ established the balance of power.
 
 === Vs 3m
 
-{important} [blue]#3{lab}unbid-suit{rab} = NF#
+{caution} [blue]#3{lab}unbid-suit{rab} = NF#
 
 At the 4-level, we use #(non-)leaphing-Michaels#; similar to our defence
 to natural 2m or 3m openings.

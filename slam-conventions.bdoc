@@ -83,16 +83,6 @@ not enough extras to initiate a slam investigation.
                   4D = extra length and optional minorwood
 |===
 
-It applies after
-<<one-notrump.adoc#minor-suit-transfers, transferring to a minor>>
-.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1NT           | !2NT! | | transfer to {D}
-| 3C,{thinsp}3D | !4D!  | | optional minorwood
-|===
-
 It also applies in some <<other-notrump.adoc#2nt-opening, 2NT auctions>>
 .
 
