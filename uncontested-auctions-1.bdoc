@@ -625,11 +625,15 @@ necessarily length in hearts.
 |===
 | 1D |  1S  |
 | 2D |  ?   |
-|    | !2H! | inv.{OrMore}, natural (4{orMore}{xtimes}{H}), #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}# +
-              _or_ #{thinsp}GF{thinsp}# with #{thinsp}values in {H}{thinsp}# +
+|    |  2H  | {emsp}{nbsp} 5*{H} exactly inv., +
+              _or_{nbsp} 4*{H} inv.{OrMore}, +
+              _or_{nbsp} GF with values in {H} (2 or 3) +
 |    | !3C! | inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
 	      _or_{thinsp} GF with values in {C}
+|    | 3D   | natural, GF
+|    | 3H   | natural, GF, 5{ndash}5 in {S}{ndash}{H}
 |===
+
 
 ==== Responder bids 1S then 2H
 
