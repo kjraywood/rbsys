@@ -303,42 +303,36 @@ Responder denies a four-card major unless: +
 @ 4333 +
 @ weak four-card major
 
-NOTE:  Responder would have bid their four-card major otherwise.
-
 ==== Opener's rebids
 
-@ higher-ranking suit = shortness +
-@ other non-jump = natural +
-@ 1D{ndash}2NT{semicolon} #4C = shortness# +
+[lavender-box]#higher-ranking suit below 3NT = shortness (s.{thinsp}{or}{thinsp}v.)#
 
-The main purpose of showing shortness is to avoid a bad 3NT.
+main purpose = avoid a bad 3NT
 
-It can also be useful as a slam try when opener has a strong
-single-suiter.
+also useful as a slam try with a strong single-suiter
 
-[lavender-box]#A jump to four of the same minor is straight minorwood.#
+[lavender-box]#1D{ndash}2NT{semicolon} 4C = shortness#
 
-[lavender-box]#Rebidding the same minor and following with four of that minor is
-optional minorwood.#
+Therefore, when considering how to respond to the 1D opening, holding
+3-3-4-3 and poor clubs, responder may choose to start with an
+inverted-minor raise instead of 2NT.
+
+[lavender-box]#a jump to four of the same minor is straight minorwood#
+
+A fit is guaranteed if opener has a six-card suit and opener has other
+ways to investigate slam potential.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1C  || 2NT | 13-15 or 18{orMore}
+|  1C  || 2NT | {ensp} 13-15 or 18{orMore}
 |  ?   ||     |
 | !3C! ||     | natural, slammish, usually no shortness
 3+<| !!3D!!,!!3H!!,!!3S!! <| #shortness#
 |  3NT ||     | sign off
 | !4C! ||     | #minorwood#
-3+<| !!4D!!,!!4H!!,!!4S!! <| #6{ndash}5 in {C} and second-suit#
+3+<| 4D,4H,4S <| #6{ndash}5 in {C} and second-suit#
 |  4NT ||     | quant.
 |===
-
-Following an opening bid of 1D, opener cannot show club shortness
-below 3NT.
-
-Therefore, when considering how to respond to the 1D opening, holding
-3-3-4-3 and poor clubs, responder may choose to start with an
-inverted-minor raise instead of 2NT.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -350,15 +344,25 @@ inverted-minor raise instead of 2NT.
 |  3NT ||     | sign off
 | !4C! ||     | shortness, slam-try
 | !4D! ||     | #minorwood#
-! 4M   ||     | 6{ndash}5 in {D}{ndash}M
+3+<| 4H,4S   <| 6{ndash}5 in {D}{ndash}M
 | 4NT  ||     | quant.
 |===
 
-[%autowidth,cols="2*^,<",grid="none"]
+CAUTION: The jumps to the 4-level are #not exclusion# !
+         They are natural.
+         To use exclusion, opener must start by showing shortness.
+
+=== When opener has shown shortness
+
+
+[%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1D  | 2NT |
-| !3D! | 3S  |
-| !4D! |     | #optional minorwood#
+|  1D  | 2NT ||
+| !3H! |  ?  ||
+|      | 3S  || 4*{S}, rejects NT
+|      | 3NT || to play
+|      | 4C  || not sure we should bid this
+|      | 4D  || 4*{D}, rejects NT
 |===
 
 // ==== Extreme hands
