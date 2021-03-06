@@ -1,122 +1,122 @@
 = RB System Notes
 
-<<overview.adoc#, *System Overview*>> +
-{nbsp}{ensp} 1. <<overview.adoc#_general_approach,
-            General Approach>> +
-{nbsp}{ensp} 2. <<overview.adoc#_doubles,
-            Doubles>> +
-{nbsp}{ensp} 3. <<overview.adoc#_fit_showing_jumps,
-            Fit-showing jumps>> +
-
-<<one-notrump.adoc#, *One NoTrump Opening*>> +
-{nbsp}{ensp} 4. <<one-notrump.adoc#_overview_of_1nt_system,
-            Overview of 1NT System>> +
-{nbsp}{ensp} 5. <<one-notrump.adoc#_stayman,
-            Stayman>> +
-{nbsp}{ensp} 6. <<one-notrump.adoc#_jacoby_transfers,
-            Jacoby transfers>> +
-{nbsp}{ensp} 7. <<one-notrump.adoc#_minor-suit_transfers,
-            Minor-suit transfers>> +
-{nbsp}{ensp} 8. <<one-notrump.adoc#_interference_over_1nt,
-            Interference over 1NT>> +
-
-<<other-notrump.adoc#, *Other NoTrump Openings*>> +
-{nbsp}{ensp} 9. <<other-notrump.adoc#_2nt_opening,
-            2NT Opening>> +
-{nbsp} 10. <<other-notrump.adoc#_mexican_2d_opening,
-            Mexican 2D opening>> +
-
-<<suit-openings.adoc#, *Suit Openings*>> +
-{nbsp} 11. <<suit-openings.adoc#_major_opening,
-            Major Opening>> +
-{nbsp} 12. <<suit-openings.adoc#_minor_opening,
-            Minor Opening>> +
-{nbsp} 13. <<suit-openings.adoc#_vs_take_out_double,
-            vs Take-Out Double>> +
-{nbsp} 14. <<suit-openings.adoc#_vs_suit_overcall,
-            Vs Suit Overcall>> +
-{nbsp} 15. <<suit-openings.adoc#_vs_1nt_overcall,
-            Vs 1NT Overcall>> +
-{nbsp} 16. <<suit-openings.adoc#_vs_two_suited_overcalls,
-            Vs Two-Suited Overcalls>> +
-
-<<uncontested-auctions.adoc#, *Uncontested Auctions 1*>> +
-{nbsp} 17. <<uncontested-auctions-1.adoc#_2_way_checkback,
-             Two-Way Checkback>> +
-{nbsp} 18. <<uncontested-auctions-1.adoc#_4th_suit_forcing,
-             2^nd^-round jumps & 4^th^-suit forcing>> +
-{nbsp} 19. <<uncontested-auctions-1.adoc#_3rd_suit_forcing,
-             3^rd^-suit forcing>>
-
-<<uncontested-auctions-2.adoc#, *Uncontested Auctions 2*>> +
-{nbsp} 20. <<uncontested-auctions-2.adoc#_opener_raises,
-             After 1m{ndash}1M{semicolon}2M>> +
-{nbsp} 21. <<uncontested-auctions-2.adoc#_reverses,
-             Reverses>> +
-{nbsp} 22. <<uncontested-auctions-2.adoc#_jump_rebids_by_opener,
-             Jump Rebids by Opener>> +
-{nbsp} 23. <<uncontested-auctions-2.adoc#_two_over_one_auctions,
-             Two-over-one Auctions>>
-
-<<higher-openings.adoc#, *Higher Opening Bids*>> +
-{nbsp} 24. <<higher-openings.adoc#_two_club_opening,
-            Two Club Opening>> +
-{nbsp} 25. <<higher-openings.adoc#_weak_two_opening,
-            Weak Two Opening>> +
-
-<<slam-conventions.adoc#, *Slam Conventions*>> +
-{nbsp} 26. <<slam-conventions.adoc#_minorwood,
-            Minorwood>> +
-{nbsp} 27. <<slam-conventions.adoc#_optional_minorwood,
-            Optional Minorwood>> +
-{nbsp} 28. <<slam-conventions.adoc#_kickback_after_suit_agreement,
-            Kickback after suit agreement>> +
-{nbsp} 29. <<slam-conventions.adoc#_last_suit_kickback,
-            Last-Suit Kickback>> +
-{nbsp} 30. <<slam-conventions.adoc#_own_suit_kickback,
-            Own-Suit Kickback>> +
-{nbsp} 31. <<slam-conventions.adoc#_special_kc_asking_bids,
-            Special KC-asking bids>> +
-{nbsp} 32. <<slam-conventions.adoc#_kc_responses,
-            KC Responses>> +
-{nbsp} 33. <<slam-conventions.adoc#_first_round_ace_asking,
-            First-round ace-asking>> +
-
-<<defensive-bidding.adoc#, *Defensive Bidding*>> +
-{nbsp} 34. <<defensive-bidding.adoc#_take_out_doubles,
-            Take-out doubles>> +
-{nbsp} 35. <<defensive-bidding.adoc#_responsive_doubles,
-            Responsive Doubles>> +
-{nbsp} 36. <<defensive-bidding.adoc#_notrump_overcalls,
-            NoTrump Overcalls>> +
-{nbsp} 37. <<defensive-bidding.adoc#_suit_overcalls,
-            Suit Overcalls>> +
-{nbsp} 38. <<defensive-bidding.adoc#_klinger,
-            Two-suited overcalls (Klinger)>> +
-{nbsp} 39. <<defensive-bidding.adoc#_balancing,
-            Balancing>> +
-{nbsp} 40. <<defensive-bidding.adoc#_defence_to_preempts,
-            Defence to Preempts>> +
-
-<<competitive-bidding.adoc#, *Competitive Bidding*>> +
-{nbsp} 41. <<competitive-bidding.adoc#_support_double,
-            Support Double>> +
-{nbsp} 42. <<competitive-bidding.adoc#_2nt_in_comp,
-            2NT in competitive auctions>> +
-{nbsp} 43. <<competitive-bidding.adoc#_doubling_cue_bids,
-            Doubling cue-bids>> +
-{nbsp} 44. <<competitive-bidding.adoc#_doubling_artificial_bids,
-            Doubling Artificial Bids>> +
-
-<<defence.adoc#, *Leads and Carding*>> +
-{nbsp} 45. <<defence.adoc#_opening_leads,
-            Opening Leads>> +
-{nbsp} 46. <<defence.adoc#_carding,
-            Carding>> +
+<<system.adoc#, *Table of Contents*>>
 
 '''
 
-<<system.adoc#, __Everything__>>
+<<system.adoc#, *System Overview*>> +
+{nbsp}{ensp} 1. <<system.adoc#_general_approach,
+            General Approach>> +
+{nbsp}{ensp} 2. <<system.adoc#_doubles,
+            Doubles>> +
+{nbsp}{ensp} 3. <<system.adoc#_fit_showing_jumps,
+            Fit-showing jumps>> +
+
+<<system.adoc#, *One NoTrump Opening*>> +
+{nbsp}{ensp} 4. <<system.adoc#_overview_of_1nt_system,
+            Overview of 1NT System>> +
+{nbsp}{ensp} 5. <<system.adoc#_stayman,
+            Stayman>> +
+{nbsp}{ensp} 6. <<system.adoc#_jacoby_transfers,
+            Jacoby transfers>> +
+{nbsp}{ensp} 7. <<system.adoc#_minor-suit_transfers,
+            Minor-suit transfers>> +
+{nbsp}{ensp} 8. <<system.adoc#_interference_over_1nt,
+            Interference over 1NT>> +
+
+<<system.adoc#, *Other NoTrump Openings*>> +
+{nbsp}{ensp} 9. <<system.adoc#_2nt_opening,
+            2NT Opening>> +
+{nbsp} 10. <<system.adoc#_mexican_2d_opening,
+            Mexican 2D opening>> +
+
+<<system.adoc#, *Suit Openings*>> +
+{nbsp} 11. <<system.adoc#_major_opening,
+            Major Opening>> +
+{nbsp} 12. <<system.adoc#_minor_opening,
+            Minor Opening>> +
+{nbsp} 13. <<system.adoc#_vs_take_out_double,
+            vs Take-Out Double>> +
+{nbsp} 14. <<system.adoc#_vs_suit_overcall,
+            Vs Suit Overcall>> +
+{nbsp} 15. <<system.adoc#_vs_1nt_overcall,
+            Vs 1NT Overcall>> +
+{nbsp} 16. <<system.adoc#_vs_two_suited_overcalls,
+            Vs Two-Suited Overcalls>> +
+
+<<system.adoc#, *Uncontested Auctions*>> +
+{nbsp} 17. <<system.adoc#_2_way_checkback,
+             Two-Way Checkback>> +
+{nbsp} 18. <<system.adoc#_4th_suit_forcing,
+             2^nd^-round jumps & 4^th^-suit forcing>> +
+{nbsp} 19. <<system.adoc#_3rd_suit_forcing,
+             3^rd^-suit forcing>> +
+{nbsp} 20. <<system.adoc#_opener_raises,
+             1m{ndash}1M{semicolon}2M>> +
+{nbsp} 21. <<system.adoc#_reverses,
+             Reverses>> +
+{nbsp} 22. <<system.adoc#_jump_rebids_by_opener,
+             Jump Rebids by Opener>> +
+{nbsp} 23. <<system.adoc#_two_over_one_auctions,
+             Two-over-one Auctions>>
+
+<<system.adoc#, *Higher Opening Bids*>> +
+{nbsp} 24. <<system.adoc#_two_club_opening,
+            Two Club Opening>> +
+{nbsp} 25. <<system.adoc#_weak_two_opening,
+            Weak Two Opening>> +
+
+<<system.adoc#, *Slam Conventions*>> +
+{nbsp} 26. <<system.adoc#_minorwood,
+            Minorwood>> +
+{nbsp} 27. <<system.adoc#_optional_minorwood,
+            Optional Minorwood>> +
+{nbsp} 28. <<system.adoc#_kickback_after_suit_agreement,
+            Kickback after suit agreement>> +
+{nbsp} 29. <<system.adoc#_last_suit_kickback,
+            Last-Suit Kickback>> +
+{nbsp} 30. <<system.adoc#_own_suit_kickback,
+            Own-Suit Kickback>> +
+{nbsp} 31. <<system.adoc#_special_kc_asking_bids,
+            Special KC-asking bids>> +
+{nbsp} 32. <<system.adoc#_kc_responses,
+            KC Responses>> +
+{nbsp} 33. <<system.adoc#_first_round_ace_asking,
+            First-round ace-asking>> +
+
+<<system.adoc#, *Defensive Bidding*>> +
+{nbsp} 34. <<system.adoc#_take_out_doubles,
+            Take-out doubles>> +
+{nbsp} 35. <<system.adoc#_responsive_doubles,
+            Responsive Doubles>> +
+{nbsp} 36. <<system.adoc#_notrump_overcalls,
+            NoTrump Overcalls>> +
+{nbsp} 37. <<system.adoc#_suit_overcalls,
+            Suit Overcalls>> +
+{nbsp} 38. <<system.adoc#_klinger,
+            Two-suited overcalls (Klinger)>> +
+{nbsp} 39. <<system.adoc#_balancing,
+            Balancing>> +
+{nbsp} 40. <<system.adoc#_defence_to_preempts,
+            Defence to Preempts>> +
+
+<<system.adoc#, *Competitive Bidding*>> +
+{nbsp} 41. <<system.adoc#_support_double,
+            Support Double>> +
+{nbsp} 42. <<system.adoc#_2nt_in_comp,
+            2NT in competitive auctions>> +
+{nbsp} 43. <<system.adoc#_doubling_cue_bids,
+            Doubling cue-bids>> +
+{nbsp} 44. <<system.adoc#_doubling_artificial_bids,
+            Doubling Artificial Bids>> +
+
+<<system.adoc#, *Leads and Carding*>> +
+{nbsp} 45. <<system.adoc#_opening_leads,
+            Opening Leads>> +
+{nbsp} 46. <<system.adoc#_carding,
+            Carding>> +
+
+'''
 
 <<reminders.adoc#, __Reminders__>>
 
