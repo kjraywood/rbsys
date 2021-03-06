@@ -329,6 +329,7 @@ optional minorwood.#
 3+<| !!3D!!,!!3H!!,!!3S!! <| #shortness#
 |  3NT ||     | sign off
 | !4C! ||     | #minorwood#
+3+<| !!4D!!,!!4H!!,!!4S!! <| #6{ndash}5 in {C} and second-suit#
 |  4NT ||     | quant.
 |===
 
@@ -338,10 +339,6 @@ below 3NT.
 Therefore, when considering how to respond to the 1D opening, holding
 3-3-4-3 and poor clubs, responder may choose to start with an
 inverted-minor raise instead of 2NT.
-
-With a slammish hand, opener will be unbalanced so we have no need for
-ConFit.
-Therefore, after 1D{ndash}2NT, we a jump to 4C as shortness in clubs.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -353,6 +350,7 @@ Therefore, after 1D{ndash}2NT, we a jump to 4C as shortness in clubs.
 |  3NT ||     | sign off
 | !4C! ||     | shortness, slam-try
 | !4D! ||     | #minorwood#
+! 4M   ||     | 6{ndash}5 in {D}{ndash}M
 | 4NT  ||     | quant.
 |===
 
