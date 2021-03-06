@@ -309,18 +309,16 @@ NOTE:  Responder would have bid their four-card major otherwise.
 
 @ higher-ranking suit = shortness +
 @ other non-jump = natural +
-@ 1D{ndash}2NT{semicolon}{thinsp}4C = shortness
-@ jump to four of opening minor
-_ = straight minorwood
+@ 1D{ndash}2NT{semicolon} #4C = shortness# +
 
 The main purpose of showing shortness is to avoid a bad 3NT.
 
 It can also be useful as a slam try when opener has a strong
 single-suiter.
 
-#A jump to four of the same minor is straight minorwood.#
+[lavender-box]#A jump to four of the same minor is straight minorwood.#
 
-#Rebidding the same minor and following with four of that minor is
+[lavender-box]#Rebidding the same minor and following with four of that minor is
 optional minorwood.#
 
 [%autowidth,cols="3*^,<",grid="none"]
