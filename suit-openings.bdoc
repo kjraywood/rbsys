@@ -318,6 +318,11 @@ The main purpose of showing shortness is to avoid a bad 3NT.
 It can also be useful as a slam try when opener has a strong
 single-suiter.
 
+#A jump to four of the same minor is straight minorwood.#
+
+#Rebidding the same minor and following with four of that minor is
+optional minorwood.#
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1C  || 2NT | 13-15 or 18{orMore}
@@ -325,7 +330,7 @@ single-suiter.
 | !3C! ||     | natural, slammish, usually no shortness
 3+<| !!3D!!,!!3H!!,!!3S!! <| #shortness#
 |  3NT ||     | sign off
-| !4C! ||     | #optional minorwood#
+| !4C! ||     | #minorwood#
 |  4NT ||     | quant.
 |===
 
@@ -340,11 +345,6 @@ With a slammish hand, opener will be unbalanced so we have no need for
 ConFit.
 Therefore, after 1D{ndash}2NT, we a jump to 4C as shortness in clubs.
 
-#A jump to four of the same minor is straight minorwood.#
-
-#Rebidding the same minor and following with four of that minor is
-optional minorwood.#
-
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D  || 2NT |
@@ -357,7 +357,6 @@ optional minorwood.#
 | !4D! ||     | #minorwood#
 | 4NT  ||     | quant.
 |===
-
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
