@@ -53,7 +53,7 @@ A 2^nd^-round re-transfer is game-inv or slam-inv.
 
 &Weak&
 
-ALERT: Unusual treatment
+CAUTION: Unusual treatment
 
 [%autowidth,cols="^.^,<.^",grid="cols"]
 |===
@@ -232,7 +232,7 @@ It's possible to miss a 4{hyph}-4 major-suit fit when responder rebids
 
 === Super Accepts
 
-ALERT: Unusual treatment
+CAUTION: Unusual treatment
 
 Super-accept = bidding _above_{thinsp} responder's suit [nobr]#(min or max)#
 
