@@ -4,7 +4,7 @@
 
 '''
 
-<<system.adoc#, *System Overview*>> +
+<<system.adoc#_system_overview, *System Overview*>> +
 {nbsp}{ensp} 1. <<system.adoc#_general_approach,
             General Approach>> +
 {nbsp}{ensp} 2. <<system.adoc#_doubles,
@@ -12,7 +12,7 @@
 {nbsp}{ensp} 3. <<system.adoc#_fit_showing_jumps,
             Fit-showing jumps>> +
 
-<<system.adoc#, *One NoTrump Opening*>> +
+<<system.adoc#_one_notrump_opening, *One NoTrump Opening*>> +
 {nbsp}{ensp} 4. <<system.adoc#_overview_of_1nt_system,
             Overview of 1NT System>> +
 {nbsp}{ensp} 5. <<system.adoc#_stayman,
@@ -24,13 +24,13 @@
 {nbsp}{ensp} 8. <<system.adoc#_interference_over_1nt,
             Interference over 1NT>> +
 
-<<system.adoc#, *Other NoTrump Openings*>> +
+<<system.adoc#_other_notrump_openings, *Other NoTrump Openings*>> +
 {nbsp}{ensp} 9. <<system.adoc#_2nt_opening,
             2NT Opening>> +
 {nbsp} 10. <<system.adoc#_mexican_2d_opening,
             Mexican 2D opening>> +
 
-<<system.adoc#, *Suit Openings*>> +
+<<system.adoc#_suit_openings, *Suit Openings*>> +
 {nbsp} 11. <<system.adoc#_major_opening,
             Major Opening>> +
 {nbsp} 12. <<system.adoc#_minor_opening,
@@ -44,7 +44,7 @@
 {nbsp} 16. <<system.adoc#_vs_two_suited_overcalls,
             Vs Two-Suited Overcalls>> +
 
-<<system.adoc#, *Uncontested Auctions*>> +
+<<system.adoc#_uncontested_auctions, *Uncontested Auctions*>> +
 {nbsp} 17. <<system.adoc#_2_way_checkback,
              Two-Way Checkback>> +
 {nbsp} 18. <<system.adoc#_4th_suit_forcing,
@@ -60,13 +60,13 @@
 {nbsp} 23. <<system.adoc#_two_over_one_auctions,
              Two-over-one Auctions>>
 
-<<system.adoc#, *Higher Opening Bids*>> +
+<<system.adoc#_higher_opening_bids, *Higher Opening Bids*>> +
 {nbsp} 24. <<system.adoc#_two_club_opening,
             Two Club Opening>> +
 {nbsp} 25. <<system.adoc#_weak_two_opening,
             Weak Two Opening>> +
 
-<<system.adoc#, *Slam Conventions*>> +
+<<system.adoc#_slam_conventions, *Slam Conventions*>> +
 {nbsp} 26. <<system.adoc#_minorwood,
             Minorwood>> +
 {nbsp} 27. <<system.adoc#_optional_minorwood,
@@ -84,7 +84,7 @@
 {nbsp} 33. <<system.adoc#_first_round_ace_asking,
             First-round ace-asking>> +
 
-<<system.adoc#, *Defensive Bidding*>> +
+<<system.adoc#_defensive_bidding, *Defensive Bidding*>> +
 {nbsp} 34. <<system.adoc#_take_out_doubles,
             Take-out doubles>> +
 {nbsp} 35. <<system.adoc#_responsive_doubles,
@@ -100,7 +100,7 @@
 {nbsp} 40. <<system.adoc#_defence_to_preempts,
             Defence to Preempts>> +
 
-<<system.adoc#, *Competitive Bidding*>> +
+<<system.adoc#_competitive_bidding, *Competitive Bidding*>> +
 {nbsp} 41. <<system.adoc#_support_double,
             Support Double>> +
 {nbsp} 42. <<system.adoc#_2nt_in_comp,
@@ -110,7 +110,7 @@
 {nbsp} 44. <<system.adoc#_doubling_artificial_bids,
             Doubling Artificial Bids>> +
 
-<<system.adoc#, *Leads and Carding*>> +
+<<system.adoc#_leads_and_carding, *Leads and Carding*>> +
 {nbsp} 45. <<system.adoc#_opening_leads,
             Opening Leads>> +
 {nbsp} 46. <<system.adoc#_carding,
