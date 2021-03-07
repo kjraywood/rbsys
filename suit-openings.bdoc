@@ -653,7 +653,7 @@ partner's last-bid suit.
                       _e.g._ {S}Q983{nbsp}{H}432 {D}87{nbsp}{C}AQ74
 |===
 
-[#nfb]
+[#_negative_free_bids]
 === Negative Free-Bids of Two other-Major 
 
 Applies when:
@@ -676,7 +676,7 @@ The 3rd bid in each of the following is a 2oM NFB.
 ==== Continuations
 
 @ raise = competitive
-@ <<higher-openings.adoc#bogust, Bogust>> applies
+@ <<#bogust, Bogust>> applies
 
 ==== Other options
 

@@ -1,5 +1,3 @@
-:sectnumoffset: 25
-
 = Slam Conventions
 
 {warning} [xemph]#we do not play two-suit KC#
@@ -717,7 +715,6 @@ double.
 
 Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
 
-[#confit]
 === ConFit
 
 ALERT: Replaces Gerber

@@ -1,5 +1,3 @@
-:sectnumoffset: 0
-
 = System Overview
 
 == General Approach
@@ -210,7 +208,7 @@ Therefore:
 [lavender-box]#The highest FSJ by an unpassed hand is four of a
                minor.#
 
-We also play <<suit-openings.adoc#nfb, 2oM neg.-free bids>>
+We also play <<#_negative_free_bids, 2oM neg.-free bids>>
 by an unpassed hand after we open and they overcall.
 When 2oM is an NFB, a jump to 3oM is natural and forcing; not
 fit-showing.

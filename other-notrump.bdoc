@@ -9,7 +9,7 @@ Regular Stayman and non-jump Smolen.
 | 2NT | !3S! | | forces 3NT
 | 3NT |  ?   | |
 |     | pass | | to play
-|     |  4m  | | <<slam-conventions.adoc#optional-minorwood,
+|     |  4m  | | <<#_optional_minorwood,
                      optional minorwood>>
 |     | !4M! | | stiff with three in other major
 |     |  4NT | | both minors weak
@@ -62,7 +62,7 @@ strain in which we are likely to play.
 |===
 | P   | weak with diamonds
 | 2H  | transfer to spades +
-	{tribull} <<one-notrump.adoc#_second_round_transfers,
+	{tribull} <<#_second_round_transfers,
 	            2^nd^-round-transfers>>,
 	__ and 3S {blueRarrow} 3NT
 | 2S  | forces 2NT, fewer than four spades +
@@ -163,7 +163,7 @@ Therefore, we use #simple 5-card-Stayman responses#
 
 === Sequences released by Mexican 2D
 
-See <<uncontested-auctions.adoc#_jump_rebids_by_opener,
+See <<#_jump_rebids_by_opener,
       *Jump Rebids by Opener*>> +
-and <<suit-openings.adoc#_gf_rebids_after_sf_1nt,
+and <<#_gf_rebids_after_sf_1nt,
       *GF Rebids after semi-forcing 1NT*>>

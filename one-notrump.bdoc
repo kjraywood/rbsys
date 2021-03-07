@@ -97,7 +97,7 @@ Opener shows controls (A=2, K=1), then we seek a fit
 
 After 1NT opening, the lowest response (4D) shows #FOUR or FEWER#
 
-{link}{ensp}<<slam-conventions.adoc#confit, *Details*>>
+{link}{ensp}<<#_confit, *Details*>>
 
 == Stayman
 
@@ -489,7 +489,7 @@ declare.
 
 @ new-suit = shortness
 >> opener assumes COG +
-@ 4m = <<slam-conventions.adoc#_minorwood, minorwood>> +
+@ 4m = <<#_minorwood, minorwood>> +
 @ other jump-shift = exclusion +
 @ 4NT = slam inv.
 
