@@ -538,11 +538,11 @@ with no clear direction.
 |===
 | 1C |  1S  |
 | 2C |  ?   |
-|    | !2D! | {emsp}{nbsp} inv.{thinsp}[    {C} supp.
+|    | !2D! |  {emsp} inv.{thinsp}[    {C} supp.
                                        {or} 6{OrMore}{xtimes}{S}
                                        {or} 5{ndash}5{xtimes}{S}{ndash}{D}
 				       ] +
-	      _or_{nbsp} GF with no clear direction
+	      {raised_nullwidth_or}{emsp} GF with no clear direction
 |    |  2H  | inv.{OrMore}, natural (4{orMore}{xtimes}{H}),
               #{thinsp}not{nbsp}5-5{nbsp}GF{thinsp}#
 |    |  2S  | to play
@@ -562,10 +562,10 @@ This removes that hand type from the the unbid minor.
 |===
 | 1C |  1H  |
 | 2C |  ?   |
-|    | !2D! | {emsp}{nbsp} inv.{thinsp}[    {C} supp. {or} 6{OrMore}{xtimes}{H}
+|    | !2D! | {emsp} inv.{thinsp}[    {C} supp. {or} 6{OrMore}{xtimes}{H}
                                        {or} 5{ndash}5{xtimes}{H}{ndash}{D}
 				       ] +
-	      _or_{nbsp} GF with values in {D}
+	      {raised_nullwidth_or}{emsp} GF with values in {D}
 |    |  2H  | to play
 |    |  2S  | #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
   2+>| 2NT <| natural, inv.
@@ -615,8 +615,8 @@ Responder is unable to show inv. 5-5 in M-{C}.
 | 1D |  1H  |
 | 2D |  ?   |
 |    |  2S  | #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
-|    | !3C! | {emsp}{nbsp} inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{H} ] +
-	       _or_{nbsp} GF with values in {C}
+|    | !3C! | {emsp} inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{H} ] +
+	      {raised_nullwidth_or}{emsp} GF with values in {C}
 |===
 
 The most awkward case is diamonds and spades.
@@ -628,11 +628,11 @@ necessarily length in hearts.
 |===
 | 1D |  1S  |
 | 2D |  ?   |
-|    |  2H  | {emsp}{nbsp} 5*{H} exactly inv., +
-              _or_{nbsp} 4*{H} inv.{OrMore}, +
-              _or_{nbsp} GF with values in {H} (2 or 3) +
-|    | !3C! | {emsp}{nbsp} inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
-	      _or_{nbsp} GF with values in {C}
+|    |  2H  | {emsp} 5*{H} exactly inv., +
+              {raised_nullwidth_or}{emsp} 4*{H} inv.{OrMore}, +
+              {raised_nullwidth_or}{emsp} GF with values in {H} (2 or 3) +
+|    | !3C! | {emsp}  inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{S} ] +
+	      {raised_nullwidth_or}{emsp} GF with values in {C}
 |    | 3D   | natural, GF
 |    | 3H   | natural, GF, 5{ndash}5 in {S}{ndash}{H}
 |===
