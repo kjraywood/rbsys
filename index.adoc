@@ -73,47 +73,50 @@
             Optional Minorwood>> +
 {nbsp} 28. <<system.adoc#_kickback_after_suit_agreement,
             Kickback after suit agreement>> +
-{nbsp} 29. <<system.adoc#_last_suit_kickback,
+{nbsp} 29. <<system.adoc#_kickback_after_suit_agreement,
+            Kickback for diamonds when +
+	    {emsp}{emsp} hearts are in focus>> +
+{nbsp} 30. <<system.adoc#_last_suit_kickback,
             Last-Suit Kickback>> +
-{nbsp} 30. <<system.adoc#_own_suit_kickback,
+{nbsp} 31. <<system.adoc#_own_suit_kickback,
             Own-Suit Kickback>> +
-{nbsp} 31. <<system.adoc#_special_kc_asking_bids,
+{nbsp} 32. <<system.adoc#_special_kc_asking_bids,
             Special KC-asking bids>> +
-{nbsp} 32. <<system.adoc#_kc_responses,
+{nbsp} 33. <<system.adoc#_kc_responses,
             KC Responses>> +
-{nbsp} 33. <<system.adoc#_first_round_ace_asking,
+{nbsp} 34. <<system.adoc#_first_round_ace_asking,
             First-round ace-asking>> +
 
 <<system.adoc#_defensive_bidding, *Defensive Bidding*>> +
-{nbsp} 34. <<system.adoc#_take_out_doubles,
+{nbsp} 35. <<system.adoc#_take_out_doubles,
             Take-out doubles>> +
-{nbsp} 35. <<system.adoc#_responsive_doubles,
+{nbsp} 36. <<system.adoc#_responsive_doubles,
             Responsive Doubles>> +
-{nbsp} 36. <<system.adoc#_notrump_overcalls,
+{nbsp} 37. <<system.adoc#_notrump_overcalls,
             NoTrump Overcalls>> +
-{nbsp} 37. <<system.adoc#_suit_overcalls,
+{nbsp} 38. <<system.adoc#_suit_overcalls,
             Suit Overcalls>> +
-{nbsp} 38. <<system.adoc#_klinger,
+{nbsp} 39. <<system.adoc#_klinger,
             Two-suited overcalls (Klinger)>> +
-{nbsp} 39. <<system.adoc#_balancing,
+{nbsp} 40. <<system.adoc#_balancing,
             Balancing>> +
-{nbsp} 40. <<system.adoc#_defence_to_preempts,
+{nbsp} 41. <<system.adoc#_defence_to_preempts,
             Defence to Preempts>> +
 
 <<system.adoc#_competitive_bidding, *Competitive Bidding*>> +
-{nbsp} 41. <<system.adoc#_support_double,
+{nbsp} 42. <<system.adoc#_support_double,
             Support Double>> +
-{nbsp} 42. <<system.adoc#_2nt_in_comp,
+{nbsp} 43. <<system.adoc#_2nt_in_comp,
             2NT in competitive auctions>> +
-{nbsp} 43. <<system.adoc#_doubling_cue_bids,
+{nbsp} 44. <<system.adoc#_doubling_cue_bids,
             Doubling cue-bids>> +
-{nbsp} 44. <<system.adoc#_doubling_artificial_bids,
+{nbsp} 45. <<system.adoc#_doubling_artificial_bids,
             Doubling Artificial Bids>> +
 
 <<system.adoc#_leads_and_carding, *Leads and Carding*>> +
-{nbsp} 45. <<system.adoc#_opening_leads,
+{nbsp} 46. <<system.adoc#_opening_leads,
             Opening Leads>> +
-{nbsp} 46. <<system.adoc#_carding,
+{nbsp} 47. <<system.adoc#_carding,
             Carding>> +
 
 '''

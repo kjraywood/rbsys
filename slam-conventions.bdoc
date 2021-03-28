@@ -149,7 +149,9 @@ It also applies in some <<other-notrump.adoc#2nt-opening, 2NT auctions>>
   > !4D! is kickback
 |===
 
-=== Kickback has priority over a picture jump
+=== When both majors are in focus
+
+[lavender-box]#If we agree hearts, then we cannot get back to spades#
 
 In both of the following, 3H sets hearts as trump and we cannot get
 back to spades.
@@ -177,12 +179,37 @@ back to spades.
 |     | 4H | | kickback for {D}, higher priority than picture jump
 |===
 
-=== Diamonds and Hearts
+=== Kickback in contested auctions
+
+##!Jump! to cheapest unbid suit above 4m is KC asking##
+
+[%autowidth,grid="none"]
+:===
+  1D  : (P) : 2D : (2S)
+ !4H! : : :
+:===
+
+[%autowidth,grid="none"]
+:===
+  1D  : (1H) : !2H! : (P)
+ !4S! : : :
+:===
+
+== Kickback for diamonds when hearts are in focus
 
 The primary issue with kickback is when diamonds are agreed and 4H is
 still a possible contract.
 
-&Diamonds agreed and we are at 3\D&
+4H will be kickback #unless hearts are in focus as a possible contract.#
+
+A major-suit is in focus when one of the following applies:
+
+["lowerroman"]
+. it was rebid directly after diamond agreement
+. delayed support was given directly after diamond agreement
+. it was bid on the first round
+
+=== Diamonds agreed, hearts in focus, at 3D
 
 4D is not a jump, so not minorwood.
 
@@ -208,27 +235,23 @@ A jump to 4H is kickback.
 !===
 |===
 
-&Diamonds agreed and we are at 3M&
+=== Diamonds agreed, hearts in focus, at 3H
 
-4H will be kickback unless hearts are _in focus_ as a possible contract.
+After diamonds agreed and hearts offered as a possible trump-suit, then: +
 
-A major-suit is in focus when:
+[%autowidth,cols="<",grid="none"]
+|===
+| a raise of 3H to 4H is an offer to play
+| a jump to 4S is kickback for hearts
+| 4D indicates: +
+  @ no interest in playing in hearts +
+  @ nothing more to say
+| An unbid suit or 4C reaffirms diamonds as trump
+  and shows slam interest +
+  > 4H by either player = kickback for diamonds
+|===
 
-* it was rebid directly after diamond agreement
-
-* delayed support was given directly after diamond agreement
-
-* it was bid on the first round
-
-When hearts are in focus then 4H is an offer to play.
-If the previous bid was 3H, a jump to 4S is kickback for hearts.
-
-Reverting to 4D indicates no interest in playing in the major, and
-nothing more to say.
-
-An unbid suit or 4C reaffirms diamonds as trump and shows slam
-interest.
-Following that, 4H by either player is kickback for diamonds.
+==== Example {ndash} delayed heart support
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
@@ -244,6 +267,8 @@ Following that, 4H by either player is kickback for diamonds.
 |    | !4S! | | kickback for {H}
 |===
 
+==== Example {ndash} hearts rebid after diamond agreement
+
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1H | 1S   | |
@@ -257,6 +282,8 @@ Following that, 4H by either player is kickback for diamonds.
 |    |  4H  | | to play
 |    | !4S! | | kickback for {H}
 |===
+
+==== Example {ndash} hearts bid on the first round
 
 When 4C is available to reaffirm {D} as trump, then 4H is still an
 offer to play if the suit was bid on the first round.
@@ -275,7 +302,7 @@ offer to play if the suit was bid on the first round.
 |    |  4NT | | KC for {S}
 |===
 
-&Diamonds agreed and we are at the 4-level&
+=== Diamonds agreed and we are at the 4-level
 
 If diamonds are agreed and we are at 4C or 4D, then one of 4H or 4S by
 an unlimited hand must be kickback for diamonds.
@@ -286,15 +313,25 @@ nothing to resolve.  4H is kickback.
 Otherwise, if a major was bid on the first round then it is _in focus_
 and the other major is KC asking in {D}.
 
+==== Example {ndash} diamonds re-agreed
+
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1S |  2D  ||
 | 2H |  3D  ||
-| 4D |  ?   || {D} agreed,
+| 4D |  ?   || {D} re-agreed,
 |    | !4H! || kickback, {H} were not bid on the first round
 |    | 4S   || offer to play,
                [nobr]#{S} were bid on the first round#
+|   | !4NT! || #slam interest without {C} control#
 |===
+
+NOTE: 4NT is not needed as natural because responder
+      bids 2NT on the second round with a hand suitable
+      for play in NT, even with six-card diamond suit
+
+
+==== Example {ndash} diamonds re-agreed
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
@@ -305,6 +342,8 @@ and the other major is KC asking in {D}.
                [nobr]#{H} were bid on the first round#
 |    | !4S! || kickback, {S} were not bid on the first round
 |===
+
+==== Examples {ndash} diamonds agreed at 4-level
 
 If both majors were bid on the first round, then 4H is the default for
 kickback.
@@ -317,14 +356,15 @@ kickback.
 | !4H! |      | kickback, default when both majors were bid on the first round
 |===
 
-
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
-| 1S |  2H  ||
-| 2S |  3D  ||
-| 4D |  ?   || {D} agreed,
-|    | !4H! || kickback, default when both majors were bid on the first round
+| 1S   |  2H  ||
+| !2S! |  3D  || 2S = only 5*{S}
+| 4D   |  ?   || {D} agreed,
+|      | !4H! || kickback, default when both majors were bid on the first round
 |===
+
+==== Example {ndash} both majors bid on 1sr round
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
@@ -334,22 +374,6 @@ kickback.
 |    |  4D  || nothing more to say
 |    | !4H! || kickback, default when both majors were bid on the 1^st^ round
 |===
-
-=== Contested auction
-
-##!Jump! to cheapest unbid suit above 4m is KC asking##
-
-[%autowidth,grid="none"]
-:===
-  1D  : (P) : 2D : (2S)
- !4H! : : :
-:===
-
-[%autowidth,grid="none"]
-:===
-  1D  : (1H) : !2H! : (P)
- !4S! : : :
-:===
 
 == Last-Suit Kickback
 
@@ -526,10 +550,10 @@ Allows KC-asking in your own suit without trump agreement
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S |  2H   | |
-| 2S |  ?    | |
-|    |  3S   | | forcing
-|    | !4S!  | | kickback for {H}
+|  1S  |  2H   ||
+| !2S! |  ?    || 2S = only 5*{S}
+|      |  3S   || forcing
+|      | !4S!  || kickback for {H}
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
