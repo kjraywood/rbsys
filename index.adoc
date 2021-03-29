@@ -73,7 +73,7 @@
             Optional Minorwood>> +
 {nbsp} 28. <<system.adoc#_kickback_after_suit_agreement,
             Kickback after suit agreement>> +
-{nbsp} 29. <<system.adoc#_kickback_after_suit_agreement,
+{nbsp} 29. <<system.adoc#_kickback_diamonds_and_hearts,
             Kickback for diamonds when +
 	    {emsp}{emsp} hearts are in focus>> +
 {nbsp} 30. <<system.adoc#_last_suit_kickback,
