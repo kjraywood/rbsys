@@ -72,21 +72,19 @@ _ replaced with 4NT, which might be too high
 |===
 |  1D |  1H   ||
 |  2D |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
-|     |  3H   || sign-off
-|     | 3S,4C || cue, {H} = trump
-|     |  3NT  || to play
+|     |  2H   || sign-off
+|     |  3D   || GF
 |     | !4D!  || #minorwood#
 |     |  4H   || to play
-|  | !4S!,!5C! || exclusion, {D} = trump
-4+<a| {warning}
-      To ask for KC in {H}, responder must first set it
-      as trump by cue-bidding an unbid suit
+| | !4S!,!5C! || exclusion, {D} = trump
 |===
 
 === Raise of opener's minor-suit jump-rebid
 
 // As per 22.2
-Opener's minor-suit jump-rebid promises three-card support of responder's major
+
+[lavendar-box]#Opener's minor-suit jump-rebid promises three-card
+               support of responder's major#
 
 Benefits of 4m=minorwood: +
 @ can sometimes stop in 4NT instead of 5m
