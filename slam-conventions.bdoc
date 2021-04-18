@@ -1,11 +1,29 @@
 = Slam Conventions
 
-{warning} [xemph]#we do not play two-suit KC#
+We do not play two-suit KC.
+
+Our primary KC-asking method is kickback.
+
+In some well defined situations we use plain minorwood or optional
+minorwood instead of kickback.
 
 == Minorwood
 
-Minorwood #ONLY# applies when all of the following conditions
-are met: +
+Applies when four of the agreed minor is not needed as a natural bid
+
+@ jump to 4m after minor-suit agreement
+
+@ jump from 2m to 4m when 3m is forcing
+
+@ raise of opener's minor-suit jump-rebid
+
+@ self raise to 4m following a minor-suit
+_ transfer opposite a 1NT opening
+
+These must all be by an unpassed hand
+
+=== Jump to FOUR MINOR after minor-suit agreement
+
 @ we have agreed a minor
 @ we have not agreed a major
 @ the auction is uncontested
@@ -43,7 +61,60 @@ are met: +
 :===
 |===
 
+=== Jump from 2m to 4m when 3m is forcing
+
+Benefits: +
+@ can sometimes stop in 4NT instead of 5m
+_ with insufficient key-cards +
+@ exclusion in suit above trump-suit is not
+_ replaced with 4NT, which might be too high
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D |  1H   ||
+|  2D |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
+|     |  3H   || sign-off
+|     | 3S,4C || cue, {H} = trump
+|     |  3NT  || to play
+|     | !4D!  || #minorwood#
+|     |  4H   || to play
+|  | !4S!,!5C! || exclusion, {D} = trump
+4+<a| {warning}
+      To ask for KC in {H}, responder must first set it
+      as trump by cue-bidding an unbid suit
+|===
+
+=== Raise of opener's minor-suit jump-rebid
+
+// As per 22.2
+Opener's minor-suit jump-rebid promises three-card support of responder's major
+
+Benefits of 4m=minorwood: +
+@ can sometimes stop in 4NT instead of 5m
+_ with insufficient key-cards +
+@ exclusion in suit above trump-suit is not
+_ replaced with 4NT, which might be too high
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D  |  1H   ||
+| !3D! |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
+|      |  3H   || sign-off
+|      | 3S,4C || cue, {H} = trump
+|      |  3NT  || to play
+|      | !4D!  || #minorwood#
+|      |  4H   || to play
+|  | !4S!,!5C! || exclusion, {D} = trump
+4+<a| {warning}
+      To ask for KC in {H}, responder must first set it
+      as trump by cue-bidding an unbid suit
+|===
+
 == Optional Minorwood
+
+
+We use optional minorwood in cases where four of the minor is needed as a natural slam try
+
 
 [%autowidth,cols="^,<",grid="none"]
 |===
@@ -292,7 +363,7 @@ offer to play if the suit was bid on the first round.
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1H |  1S  | |
-| 2D |  3D  | | GF, {D} agreed
+| 2D |  3D  | | GF, {D} agreed, hence 5*S
 | 3S |  ?   | | {S} given delayed support directly after suit-agreement
                 > {S} are in focus
 |    |  3NT | | to play
