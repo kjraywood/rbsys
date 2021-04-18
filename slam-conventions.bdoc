@@ -9,24 +9,23 @@ minorwood instead of kickback.
 
 == Minorwood
 
-Applies when four of the agreed minor is not needed as a natural bid
+Applies by an unpassed hand when four of the agreed minor is not
+needed as a natural bid:
 
-@ jump to 4m after minor-suit agreement
+1. jump to 4m after minor-suit agreement
 
-@ jump from 2m to 4m when 3m is forcing
+2. jump from 2m to 4m when 3m is forcing
 
-@ raise of opener's minor-suit jump-rebid
+3. raise of opener's minor-suit jump-rebid
 
-@ self raise to 4m following a minor-suit
+4. self raise to 4m following a minor-suit
 _ transfer opposite a 1NT opening
-
-These must all be by an unpassed hand
 
 === Jump to FOUR MINOR after minor-suit agreement
 
-@ we have agreed a minor
-@ we have not agreed a major
-@ the auction is uncontested
+@ we have agreed a minor +
+@ we have not agreed a major +
+@ the auction is uncontested +
 @ #four of the agreed minor is a jump#
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
