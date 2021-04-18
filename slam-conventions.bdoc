@@ -363,7 +363,7 @@ offer to play if the suit was bid on the first round.
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1H |  1S  | |
-| 2D |  3D  | | GF, {D} agreed, hence 5*S
+| 2D |  3D  | | GF, {D} agreed, [lavender-bg]#hence 5{OrMore}{xtimes}{S}#
 | 3S |  ?   | | {S} given delayed support directly after suit-agreement
                 > {S} are in focus
 |    |  3NT | | to play
