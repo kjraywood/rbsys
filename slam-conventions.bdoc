@@ -79,6 +79,20 @@ _ replaced with 4NT, which might be too high
 | | !4S!,!5C! || exclusion, {D} = trump
 |===
 
+When opener has bid both minors, the jump to 4m as minorwood only applies to the second suit
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D |  1H   ||
+|  2C |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
+|     |  2H   || sign-off
+|     |  3C   || GF
+|     | !4C!  || #minorwood#
+|     | !4D!  || [lavender-bg]#exclusion#, {C} = trump
+|     |  4H   || to play
+|     | !4S!  || exclusion, {C} = trump
+|===
+
 === Raise of opener's minor-suit jump-rebid
 
 // As per 22.2
