@@ -9,7 +9,9 @@
 2+<d|
       Texas OFF vs 2NT{OrMore} +
       Inverted crawling-Stayman +
-      #Standard Baze (4C = cheap-KC)#
+      4S = weak quant.
+| Baze       | 4C{thinsp}={thinsp}RKC {bull}
+               #4oM{thinsp}={thinsp}weak{thinsp}quant.#
 | super +
   accepts    | jump = max +
                new-suit = anti-splinter
@@ -19,33 +21,32 @@
 	     | 3M-1 = 6{orMore}{times}M, GI or SI +
                3M = 6{times}M, COG +
                4M = bal. slam-inv, 5{times}M
-	       > 5C = KC for {S}
+	       >> 5C = KC for {S}
 	       
 | vs double  | pass = NF
-               > XX by O = 5c suit +
-               XX = {C} or {D}, weak +
-	       Tfrs ON +
-	       2S, 3m = 4*M + 6*m
+               >> XX by O = 5-card suit +
+               XX = {C}{or}{D} {bull}
+	       2C = majors +
+	       2{lab}red-suit{rab} = transfer +
+	       2S{or}3m = 4{times}M + 6{times}m
                
-| Unified +
-  Leb.       | 3{lab}new suit{rab} = inv +
-                slow cue or 3NT = 4{times}oM +
-                neg. X then 3oM
-		_ = #5{times}oM, FORCING#
+| Standard +
+  Leb.       | 3{lab}suit{rab} = F, no stopper +
+                Neg. X then 3oM
+		_ = #5{times}oM, F with stopper#
 | vs 2NT +
-  (minors)   | 3C = majors, #wk or str# +
+  (minors)   | 3C = majors, #weak or strong# +
 	       3D = majors, #inv.# +
                3M = competitive, #NF# +
 	       4-lev. = #Namyats#
 | vs 3m      | 3{lab}suit{rab} = competitive, #NF# +
 	       #4C = om + M#
-//               > 4D asks which M
+               > 4D asks
                +
-               #4D = majors# +
+               #4D = majors# {bull}
 	       4M = to play
-| vs 3M      | 4m = m + oM
-               _ (non-leap michaels) +
-               4oM = to play +
+| vs 3M      | 4m = m + oM (NLM) +
+               4oM = to play {bull}
 	       #4M = minors# +
              | 4NT = natural inv.
 |===
@@ -56,8 +57,16 @@
 |===
 ^| 2NT Opening
 
-| Tfr to {H} then 3S = 5-5 slammish
-  > 3NT = bad,{ensp} !4C! = {H},{ensp} !4D! = {S}
+| 3D {blueRarrow} {H} {tribull} #2^nd^-round transfers# +
+  @ 3S {blueRarrow} {C} {bull} 4C {blueRarrow} {D}
+  > accept = neutral +
+  @ #4D {blueRarrow} {S}# (5-5 majors, game or slam-drive)
+
+| 3H {blueRarrow} {S} {tribull} #natural 2^nd^-suit# +
+  @ 4C, 4D = natural, slam-inv. +
+  >> 1^st^ unused step = KC minor +
+  __ 2^nd^ unused step = KC major +
+  @ 4H = natural (5-5 majors, slam-inv.)
 
 | *3{S} {blueRarrow} 3NT* +
   > 4m = #opt. minorwood# +
@@ -75,18 +84,20 @@
 |===
 2+^d| Major Opening
 
-| JS (3/1)    | inv. {tribull} pass or force
-| splinters   | 3M+1 = weak splinter +
+| Jump Shift  | natural inv. by unPH
+                @ ON vs dble +
+		> pass or force
+| Raises      | 1H{ndash}2S, 1S{ndash}2NT = GF (Jacoby) +
+                1H{ndash}2NT = mixed +
+                3M+1 = weak splinter +
 		1H{ndash}3NT  = {S}-splinter +
 | vs dble     | 2NT = LR or Slam-Inv. +
-		#3NT = bal. game-raise# +
-		JS = inv +
-		dble-JS = splinter
-| vs o/call   | JS = fit showing
-     	      	@ except 3oM +
-		dble-JS = splinter
-		@ #if below game#
-| PH resp.    | JS = fit showing +
+		#3NT = bal. game-raise#
+| vs o/call   | 2oM = NF {bull} 3oM = GF +
+                other JS = fit showing +
+		dble-JS below game = splinter
+| PH resp.    | JS = mini-splinter
+                _ (incl. 1H{ndash}2S) +
 		JR = weak splinter +
 		2NT = 5-5 minors, inv.
 		@ #ON vs X & 1S,# {simto} Drury
@@ -112,7 +123,7 @@
 
 [cols=2*^.<a,grid="none", stripes="none"]
 |===
-2+^d| 2/1: nebulous 2C
+2+^d| 2/1: Nebulous 2\C
 
 |
 [%autowidth,grid="none", stripes="odd"]
@@ -134,35 +145,61 @@
 :===
 |===
 
+
+[cols="<",grid="none"]
+|===
+^| 2/1: Fourth-suit at the four level
+
+| 1S{thinsp}{ndash}{thinsp}2H +
+  3D{thinsp}{ndash} ?
+  > 3S requests {C} stopper
+  @ 4C = 3{xtimes}{S}
+|===
+
+
+
+[cols="<",grid="none"]
+|===
+^| 2/1: Rebids after 1\D {ndash} 2\C
+
+|
+@ 2{D} = 5c{OrMore}
+@ 2M = 4*{D}, 4*M +
+@ #3NT = 4-4-4-1, 16-17# +
+>> 4C {blueRarrow} 4D then KB
+ @ 4D = KB for {C}
+|===
+
 // -------------------------------- //
 
 [%autowidth,cols="<",grid="none"]
 |===
 ^| Minor Opening
 
-| *Responses* +
-{nbsp}{bull} ##!2S! = LR##
-@ 2m = GF
-@ #3m = 5c{OrMore} 6-9#
-@ inverted off by PH, 3m = unbal.{thinsp}LR
-@ JS om = nat. inv, fit-showing by PH
+| *Responses by unPH* +
+{nbsp}{bull} 2m = GF
+@ 2H = bal. 11-12
+@ 2S = LR
+@ 3m = 5{OrMore}{times}m, 6-8
+@ JS om = nat. inv
+
+| *Responses by PH* +
+{nbsp}{bull} 2m = 5{times}m, 6-8
+@ 2H = bal., 11-12
+@ 2S = bal. LR
+@ 3m = unbal. LR, 9-10
+@ JS om = fit-showing
 
 |  *vs. dble* +
 @ #JS om = LR+#
 @ JS {blueRarrow} 2M = weak +
 @ 2NT, 3NT = nat. with fit
 
-| *Rebids after 1{D} {ndash} 2{C}* +
-@ 2{D} = 5c{OrMore}
-@ 2M = 4*{D}, 4*M +
-@ #3NT = 4-4-4-1, 16-17# +
->> !4C! {blueRarrow} 4D then KB +
-__ !4D! = KB for {C}
-
 | *1m{ndash}2NT = 13{ndash}15 {or} 18{orMore}* +
-  @ #3m = Stayman#
-  @ #higher suit = shortness#
-  @ 4m = minorwood
+  >> #higher suit = shortness# +
+  __ 4m = minorwood +
+1D{ndash}2NT {tribull} 3C = natural
+{bull} 4C = shortness
 
 | *1m{ndash}2H = 11{ndash}12 bal.* +
   @ !2S! {blueRarrow} 2NT
@@ -170,6 +207,12 @@ __ !4D! = KB for {C}
 
 | *1m{ndash}2H; 2S {blueRarrow} 2NT; ?* +
   3{lab}suit{rab} = same as after 1m-2NT, #GF#
+
+|  *vs. overcall* +
+@ #Jump cue = transfer to 3NT# +
+@ 2oM = neg. free bid
+@ 3oM = 6*oM, GF +
+@ After neg. dble, 1M by opener DENIES 4*M
 
 |===
 
@@ -213,6 +256,7 @@ __ !4D! = KB for {C}
 d|
    @ ON vs double{ensp}
    @ OFF vs overcall
+   @ new-minor forcing by PH
 |
 [%autowidth,cols="2*^,<",grid="none", stripes="odd",frame="all_indent"]
 !===
@@ -240,9 +284,9 @@ d|
 
 | 1D |  1S  | |
 | 2D |  ?   | |
-|    |  2H  | | natural inv. {or} {H}-val., GF +
-		{tribull} !3C! = 4*{H} min +
-		{emsp}     3H  = 4*{H} max
+|    |  2H  | | natural inv.{OrMore} {or} {H}-val., GF +
+		{tribull} !3C! = 4*{H} max +
+		{emsp}     3H  = 4*{H} min
 |    | !3C! | | {D} inv. {or} {S} inv. {or} {C}-val., GF +
 		{tribull} 3D = reject +
 		{emsp}   !3H! = accept, no {S} tol. +
@@ -279,7 +323,16 @@ d|
 | *Minorwood* +
   Uncontested auction +
   @ minor-suit agreed:  #4m = jump#
+  @ jump raise from 2m to 4m
   @ 1NT opening: Tfr to m then 4m
+
+| *Optional Minorwood* +
+  @ pulling 3NT to agreed minor
+  _ or single suiter +
+  @ opposite NT opener when:
+  _ - responder shows two suits,
+  _ - opener gives preference to a minor,
+  _ - responder bids 4m
 
 | *Kickback when {D} are trump* +
   KC ask = cheapest 4M where:
@@ -311,10 +364,10 @@ d|
 | *Neg. dble:* {ensp}
   4{or}5{xtimes}oM +
   > rebid: 2oM = inv., 3oM = GF (5-cd)
-|  #Simple Leb. after negative and reopening doubles @ 2-level#
+|  *Simple Lebensohl.* after reopening doubles @ 2-level
 | *2/1 in comp.:* {ensp}
   F1 when not NFB
-  > #2^nd^-round jump = GF#
+  > 2^nd^-round jump = GF
 | *Un vs Un* +
   lo-cue = 4^th^ suit, #usually inv.# +
   1C-(2C): 2D=inv., !2H!=GF {D}
@@ -379,25 +432,28 @@ d|
 |===
 ^| Leads & Carding
 
-| *[OvalBox]#A#{thinsp}K{thinsp}x :*
-   except A{thinsp}[OvalBox]##K##{thinsp}x when
-   @ partner bid or raised the suit
-   @ 5 & 6 level
-   @ AK tight
-   @ trick 2{OrMore} +
-   dummy = Qxx(x)
-   >> count +
+| *[OvalBox]#A#{thinsp}K{thinsp}x* +
+   @ dummy = Qxx {tribull} attitude for ruff +
+   @ #dummy = Qxxx(x) {tribull} count# +
 
-| *[OvalBox]#K#{thinsp}Q{thinsp}x :*
+|  *A{thinsp}[OvalBox]##K##{thinsp}x* +
+   @ when partner bid or raised the suit
+   @ vs 5 & 6 level
+   @ with AK tight
+   @ at trick 2{OrMore}
+
+| *[OvalBox]#K#{thinsp}Q{thinsp}x* +
    dummy = Jxx(x)
    >> count +
    dummy = !!A!!xx
    >> count +
    dummy = Ax!!x!!
-   >> attitude {or} count in partner's suit
+   >> attitude except #count in partner's suit#
 
-| 6{orMore}-length known
-  >> #middle enc. & suit-pref#
+| *6{orMore} length is known:* +
+  @ low enc.
+  @ middle = discourage \& suit-pref for obvious shift
+  @ unusual honour requests unusual shift
 | #2^nd^ high thru decl.# to weakness
 
 |===
