@@ -23,31 +23,49 @@ Regular Stayman and non-jump Smolen.
 |  4NT |       | | decline
 |===
 
-=== Both majors
+=== Two-suiters with at least one major
 
-Transfer to {S} then 4H
-_ = 5-5 majors, game only
+#Second-round transfers after transfer to hearts#
 
-Transfer to {H} then 3S
-_ = 5-5 Majors, slam inv. +
-> 3NT = poor for majors,{ensp} 4C = {H},{ensp} 4D = {S}
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 2NT | !3D! || transfer to {H}
+| 3H  |  ?   ||
+|     | !3S! || 4{orMore}{xtimes}{C}, slam inv. or better
+|     | !4C! || 4{orMore}{xtimes}{D}, slam inv. or better
+|     | !4D! || #5{xtimes}{S}, game only or slam drive#
+|===
 
-=== Major-minor
+Following, a second-round transfer, the next step by opener is a negative or
+neutral action with: +
+@ fewer than three in responder's first suit +
+@ fewer than four in responder's second suit
+_ or a poor hand for slam
 
-{warning} [xemph]#Minimal agreements# +
- +
+The cheapest unused step is KC for responder's lower-ranking suit, and
+the next unused step is KC for responder's higher-ranking suit.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  2NT      | !3R! | {ensp} transfer
-|  3M       |  4m  | {ensp} 2^nd^ suit
-|  ?        |      |
-|  4M       |      | fit in M
-|  4NT      |      | no fit
-| cheapest +
-  new-suit  |      | fit in m, slam suitable
-                     > responder shows KC
+| 2NT | !3D! |
+| 3H  | !4C! |
+| ?   |      |
+| 4D  |      | no {H} fit, minimum for {D}
+| 4H  |      | preference for {H}
+| 4S  |      | KC for {D}
+| 4NT |      | KC for {H}
 |===
+
+
+
+=== Both majors
+
+Transfer to {S} then 4H
+_ = 5-5 majors, moderate slam inv.
+
+Transfer to {H} then 4D (showing {S})
+_ = 5-5 Majors, game only or a slam drive
+> opener must give preference to a major
 
 == Mexican 2D opening
 
