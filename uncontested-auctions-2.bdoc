@@ -170,30 +170,79 @@ _ (if a jump reverse in that suit is not available)
             _ singleton {C} is possible
 |===
 
+[#_jump_rebid_of_original_suit_by_opener]
 === Jump rebid of original suit by opener
+
+// This section is referenced from
+// <<slam-conventions.adoc#_minorwood_after_jump_rebid>>
 
 The Mexican 2D allows us to use 2NT to provide more definition to opener's jump rebid.
 
-*Jump rebid of original-suit includes three-card support for
- responder's major*
+* Jump rebid of original-suit includes three-card support for
+  responder's major
+
+* Jump to 2NT shows either: +
+  @ a jump-rebid hand  with less than three
+  _ in responder's major, +
+  _ -OR- +
+  @ a single-suited GF hand that is not suitable
+  _ for a jump to 3NT
+
+==== 1m {ndash} 1M{semicolon} 3m
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1C  | 1S ||
+| !3C! | ?  || 6{OrMore}{xtimes}{C}, 3*{S}
+|   | 3D,3H || [orange-bg]#NT probes ??, or cue for {S}#
+|      | 3S || to play
+|    | !4C! || minorwood
+|   | !4D!,!4H! || [orange-bg]# exclusion for {C} ???#
+|    | 4S   || to play
+|    | 4NT  || KC for {S}
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D  |  1H   ||
+| !3D! |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
+|      |  3H   || sign-off
+|      | 3S,4C || cue, {H} = trump
+|      |  3NT  || to play
+|      | !4D!  || #minorwood#
+|      |  4H   || to play
+|      | !4S!  || kickback for {H}
+|      | !4NT! || exclusion of {S}, trump = {D},
+                  [.nobr.lavender-bg]#4NT replaces non-kickback meaning of 4S#
+|      | !5C!  || exclusion of {C}, trump = {D} 
+|===
+
+==== 1\H {ndash} 1\S{semicolon} 3\H
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1H  | 1S ||
+| !3H! | ?  || 6{OrMore}{xtimes}{D}, 3*{S}
+|      |  3S   || #forcing#, sets trump = {S}
+|      |  3NT  || to play
+|      | 4C,4D || cue, {H} = trump
+|      |  4H   || to play
+|      | !4S!  || #kickback for {H}#
+|      | 4NT   || KC for {S} (not really necessary because 3S sets trump = {S})
+|      | !5C!, !5D! || exclusion, trump = {H} 
+|===
+
+==== 1\C {ndash} 1\D{semicolon} 2NT or 3\D
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1D  | 1S |
-| !3D! |    | {simto}{thinsp}16-17 HCP,
-             6{OrMore}{xtimes}{D}, 3*{S}
+|  1C  | 1D |
+|  ?   |    |
+|  2NT |    | 6{OrMore}{xtimes}{C}, majors stopped +
+              > 3C = NF, not accepting invitation
+| !3C! |    | 6{OrMore}{xtimes}{C}, at least one major unstopped +
+	      > #3D = Forcing#
 |===
-
-Also applies after: 1H{ndash}1S{semicolon} 3H
-
-#Does not apply after:# 1C{ndash}1D{semicolon} 3C
-
-*Jump to 2NT shows either:*
-@ a jump-rebid hand  with less than three
-_ in responder's major, +
-_ -OR- +
-@ a single-suited GF hand that is not suitable
-_ for a jump to 3NT
 
 // [%autowidth,cols="2*^,<",grid="none"]
 // |===
@@ -220,28 +269,28 @@ _ for a jump to 3NT
 // 		 {emsp} _other_ = long {C}
 // |===
 
-=== Jumps by opener after ONE-DIAMOND response
+// === Jumps by opener after ONE-DIAMOND response
 
-Following a 1D response, opener's jump rebid of clubs is standard with
-no special meaning about diamond length.
+// Following a 1D response, opener's jump rebid of clubs is standard with
+// no special meaning about diamond length.
 
-A jump to 2NT is a GF-raise of diamonds, or GF with long clubs.
+// A jump to 2NT is a GF-raise of diamonds, or GF with long clubs.
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C | 1D |
-|  3C |    | {simto}{thinsp}16-17 HCP,
-             6{OrMore}{xtimes}{C}, no 4cM
-|===
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// |  1C | 1D |
+// |  3C |    | {simto}{thinsp}16-17 HCP,
+//              6{OrMore}{xtimes}{C}, no 4cM
+// |===
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|  1C   |  1D  |
-| !2NT! |      | GF, [ 6{OrMore}{xtimes}{C} {or} 4*{D} ]
-|       | !3C! | asks which +
-                 > 3D = GF-raise of {D} +
-                 {emsp} _other_ = long {C}, GF
-|===
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// |  1C   |  1D  |
+// | !2NT! |      | GF, [ 6{OrMore}{xtimes}{C} {or} 4*{D} ]
+// |       | !3C! | asks which +
+//                  > 3D = GF-raise of {D} +
+//                  {emsp} _other_ = long {C}, GF
+// |===
 
 == Two-over-one Auctions
 

@@ -21,6 +21,12 @@ needed as a natural bid:
 4. self raise to 4m following a minor-suit
 _ transfer opposite a 1NT opening
 
+Benefits: +
+@ can sometimes stop in 4NT instead of 5m
+_ with insufficient key-cards +
+@ exclusion in suit above trump-suit is not
+_ replaced with 4NT, which might be too high
+
 === Jump to FOUR MINOR after minor-suit agreement
 
 @ we have agreed a minor +
@@ -61,12 +67,6 @@ _ transfer opposite a 1NT opening
 |===
 
 === Jump by responder from 2m to 4m when 3m is forcing
-
-Benefits: +
-@ can sometimes stop in 4NT instead of 5m
-_ with insufficient key-cards +
-@ exclusion in suit above trump-suit is not
-_ replaced with 4NT, which might be too high
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -114,32 +114,15 @@ It does NOT apply when opener jump raises responder's 2m.
 [#_minorwood_after_jump_rebid]
 === Raise of opener's minor-suit jump-rebid
 
-// As per 22.2
-
-[lavender-box]#Opener's minor-suit jump-rebid promises three-card
-               support of responder's major#
-
-Benefits of 4m=minorwood: +
-@ can sometimes stop in 4NT instead of 5m
-_ with insufficient key-cards +
-@ exclusion in suit above trump-suit is not
-_ replaced with 4NT, which might be too high
-
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1D  |  1H   ||
-| !3D! |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
-|      |  3H   || sign-off
-|      | 3S,4C || cue, {H} = trump
-|      |  3NT  || to play
-|      | !4D!  || #minorwood#
-|      |  4H   || to play
-|      | !4S!  || kickback for {H}
-|      | !4NT! || exclusion of {S}, trump = {D},
-                  [.nobr.lavender-bg]#4NT replaces non-kickback meaning of 4S#
-|      | !5C!  || exclusion of {C}, trump = {D} 
+| 1D | 1H ||
+| 3D | 4D || minorwood
 |===
 
+For full description, see: +
+<<uncontested-auctions-2.adoc#_jump_rebid_of_original_suit_by_opener,
+  Jump Rebid of Original Suit by Opener>>
 
 == Optional Minorwood
 
@@ -511,7 +494,9 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-&(b)& see also <<#_minorwood_after_jump_rebid, minorwood after jump rebid>>
+&(b)& see also
+<<uncontested-auctions-2.adoc#_jump_rebid_of_original_suit_by_opener,
+  Jump Rebid of Original Suit by Opener>>
 
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
