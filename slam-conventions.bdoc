@@ -387,14 +387,14 @@ offer to play if the suit was bid on the first round.
 
 === Diamonds agreed and we are at the 4-level
 
-If diamonds are agreed and we are at 4C or 4D, then one of 4H or 4S by
-an unlimited hand must be kickback for diamonds.
+If diamonds were _reaffirmed_ as per the previous section, then 4H is
+kickback.
 
-If diamonds were _reaffirmed_ following a 3M bid, then there is
-nothing to resolve.  4H is kickback.
-
-Otherwise, if a major was bid on the first round then it is _in focus_
-and the other major is KC asking in {D}.
+If hearts were bid on the first round, then hearts are in focus and 4H
+is an offer to play, usually showing honour doubleton.
+In that case 4S will be kickback unless spades were also bid on the
+first round.
+If neither 4H nor 4S is kickback, then 4NT is KC asking for diamonds.
 
 ==== Example {ndash} diamonds re-agreed
 
