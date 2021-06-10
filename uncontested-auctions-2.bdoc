@@ -194,24 +194,24 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |===
 |  1C  | 1S ||
 | !3C! | ?  || 6{OrMore}{xtimes}{C}, 3*{S}
-|   | 3D,3H || [orange-bg]#NT probes ??, or cue for {S}#
-|      | 3S || to play
+|   | 3D,3H || [orange-bg]#NT probes, or cue for {C}#
+|      | 3S || #forcing#, sets trump = {S}
 |    | !4C! || minorwood
-|   | !4D!,!4H! || [orange-bg]# exclusion for {C} ???#
-|    | 4S   || to play
-|    | 4NT  || KC for {S}
+|| !!4D!!,!!4H!! || [orange-bg]#exclusion for {C}#
+|    | 4S   || to play (spare bid)
+|    | 4NT  || KC for {S}, selfwood
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D  |  1H   ||
 | !3D! |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
-|      |  3H   || sign-off
-|      | 3S,4C || cue, {H} = trump
+|      |  3H   || #forcing#, sets trump = {H}
+|      | 3S,4C || cue, {D} = trump
 |      |  3NT  || to play
 |      | !4D!  || #minorwood#
-|      |  4H   || to play
-|      | !4S!  || kickback for {H}
+|      |  4H   || to play (spare bid)
+|      | !4S!  || kickback for {H} (selfwood)
 |      | !4NT! || exclusion of {S}, trump = {D},
                   [.nobr.lavender-bg]#4NT replaces non-kickback meaning of 4S#
 |      | !5C!  || exclusion of {C}, trump = {D} 
@@ -228,7 +228,7 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |      | 4C,4D || cue, {H} = trump
 |      |  4H   || to play
 |      | !4S!  || #kickback for {H}#
-|      | 4NT   || KC for {S} (not really necessary because 3S sets trump = {S})
+|      | 4NT   || spare bid but could be KC for {S}
 |      | !5C!, !5D! || exclusion, trump = {H} 
 |===
 
