@@ -441,7 +441,7 @@ NOTE: responder bids 2NT on the second round with a hand suitable for
 |===
 | 1H |  2D  ||
 | 2S |  3D  ||
-| 4D |  ?   || {D} agreed,
+| 4D |  ?   || {D} agreed
 |    |  4H  || offer to play,
                [nobr]#{H} were bid on the first round#
 |    | !4S! || kickback, {S} were not bid on the first round
@@ -450,10 +450,11 @@ NOTE: responder bids 2NT on the second round with a hand suitable for
 .(c)
 [%autowidth,cols="2*^.^,<",grid="none"]
 |===
-|  1S  |  2H  |
-|  3D  |  4D  | {D} agreed,
-|  ?   |      |
-| !4NT! |     | KC for {D}, both majors were bid on the first round
+|  1S   | 2H |
+|  3D   | 4D | {D} agreed
+|  ?    |    |
+| 4H,4S |    | offer to play
+| !4NT! |    | KC for {D}, both majors were bid on the first round
 |===
 
 .(d)
@@ -463,7 +464,7 @@ NOTE: responder bids 2NT on the second round with a hand suitable for
 | !2S! |  3D  || 2S = only 5*{S}
 | 4D   |  ?   || {D} agreed,
 |     | 4H,4S || offer to play,
-|      | !4NT! || kickback, both majors were bid on the first round
+|     | !4NT! || KC for {D}, both majors were bid on the first round
 |===
 
 .(e)
@@ -473,7 +474,8 @@ NOTE: responder bids 2NT on the second round with a hand suitable for
 | 2D |  3D  || GF, {D} agreed
 | 4C |  ?   || {C} card, slam interest
 |    |  4D  || nothing more to say
-|    | !4NT! || kickback, both majors were bid on the 1^st^ round
+|    | 4H,4S || offer to play,
+|    | !4NT! || KC for {D}, both majors were bid on the first round
 |===
 
 == Last-Suit Kickback
