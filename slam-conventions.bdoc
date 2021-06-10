@@ -509,7 +509,8 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-.(b)
+&(b)& see also <<#_minorwood_after_jump_rebid, minorwood after jump rebid>>
+
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -523,7 +524,8 @@ then we can use kickback provided that the next step is forcing
 !===
 ! #3H = non-forcing# +
   >  4H  = to play +
-  !4D! = minorwood (see <<#_minorwood_after_jump_rebid, minorwood after jump rebid>>)
+  !4D! = minorwood +
+  !4S! = kickback for {H}
 !===
 |===
 
