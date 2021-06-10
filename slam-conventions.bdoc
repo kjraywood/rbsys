@@ -12,13 +12,13 @@ minorwood instead of kickback.
 Applies by an unpassed hand when four of the agreed minor is not
 needed as a natural bid:
 
-1. jump to 4m after minor-suit agreement
+1. Jump to 4m after minor-suit agreement
 
-2. jump by responder from 2m to 4m when 3m is forcing
+2. Jump by #responder# from 2m to 4m when 3m is forcing
 
-3. raise by responder of opener's minor-suit jump-rebid
+3. Raise by responder of opener's minor-suit jump-rebid
 
-4. self raise to 4m following a minor-suit
+4. Self raise to 4m following a minor-suit
 _ transfer opposite a 1NT opening
 
 Benefits: +
@@ -66,7 +66,7 @@ _ replaced with 4NT, which might be too high
 :===
 |===
 
-=== Jump by responder from 2m to 4m when 3m is forcing
+=== Jump by RESPONDER from 2m to 4m when 3m is forcing
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -76,7 +76,10 @@ _ replaced with 4NT, which might be too high
 |     |  3D   || GF
 |     | !4D!  || #minorwood#
 |     |  4H   || to play
-| | !4S!,!5C! || exclusion, {D} = trump
+|     | !4S!  || kickback for {H}, selfwood
+|     | !4NT! || exclusion of {S}, trump = {D},
+                  [.nobr.lavender-bg]#4NT replaces non-kickback meaning of 4S#
+|     | !5C! || exclusion, {D} = trump
 |===
 
 When opener has bid both minors, the jump to 4m as minorwood only applies to the second suit.
@@ -91,16 +94,13 @@ When opener has bid both minors, the jump to 4m as minorwood only applies to the
 |     | !4C!  || #minorwood#
 |     | !4D!  || [lavender-bg]#exclusion#, {C} = trump
 |     |  4H   || to play
-|     | !4S!  || exclusion, {C} = trump
+|     | !4S!  || kickback for {H}, selfwood
+|     | !4NT! || exclusion of {S}, trump = {C},
+                  [.nobr.lavender-bg]#4NT replaces non-kickback meaning of 4S#
 |===
 
 
-[WARNING]
-====
-The above minorwood agreement applies when responder jump-raises opener's 2m.
-
-It does NOT apply when opener jump raises responder's 2m.
-====
+{warning} The jump raise by opener is not minorwood
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -109,6 +109,10 @@ It does NOT apply when opener jump raises responder's 2m.
 |  3D |    | sets {D} as trump but responder can override by biding 3H to set {H} as trump
 |  4D |    | #natural, at least 5{ndash}5#
 | !4H! |   | kickback for {D}
+| !4S! |   | kickback for {H}, [lavender-bg]#selfwood has priority over exclusion#
+| !4NT! |  | exclusion of {S}, trump = {D},
+                  [.nobr.lavender-bg]#4NT replaces non-kickback meaning of 4S#
+| !5C! |   | exclusion, {D} = trump
 |===
 
 [#_minorwood_after_jump_rebid]
