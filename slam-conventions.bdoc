@@ -76,7 +76,7 @@ suit, or a second suit.
 |     | !5C! || exclusion, {D} = trump
 |===
 
-.(b) another opener rebids same suit
+.(b)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1C |  1S   ||
@@ -105,14 +105,14 @@ suit, or a second suit.
 |     |  4NT || natural, 18{ndash}19 HCP
 |===
 
-.(c) another opener bids 2m as a second suit
+.(d) 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1H |  1S  ||
 |  2D |  ?   ||
 |     |  2H  || sign-off
 |     |  3D  || GF
-|     |  4C  || [orange-bg]#splinter ??, natural 2nd suit??#
+|     |  4C  || [lavender-bg]#natural 2nd suit??# {note}
 |     |  4D  || [lavender-bg]#minorwood#
 |     | !4H! || exclusion, trump = {D}
 |     |  4S  || to play
@@ -120,13 +120,15 @@ suit, or a second suit.
 |     |  4NT || natural, 18{ndash}19 HCP
 |===
 
-.(d) a 2/1 auction where opener rebids same minor 
+NOTE: 2nd-round jump in fourth-suit is natural
+
+.(e) a 2/1 auction where opener rebids same minor 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D |  2C  ||
 |  2D |  ?   ||
 |     |  3D  || GF
-|     |  4C  || [orange-bg]#clubs are trump ??#
+|     |  4C  || #clubs are trump#
 |     |  4D  || [lavender-bg]#minorwood#
 |     | !4H! || exclusion, trump = {D}
 |     | !4S! || exclusion, trump = {D}
@@ -135,7 +137,7 @@ suit, or a second suit.
 
 {warning} jump to 4m as minorwood only applies by responder
 
-.(e) a jump raise by opener is natural
+.(f) a jump raise by opener is natural
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1H | 2D |
@@ -398,7 +400,7 @@ After diamonds agreed and hearts offered as a possible trump-suit, then: +
 | 2D | 3D   | | GF, {D} agreed
 | 3H | ?    | | {H} rebid directly after suit-agreement
                 > {H} are in focus
-|    |  3S  | | no {H} fit, six-card {S}-suit ??
+|    |  3S  | | no {H} fit, six-card {S}-suit
 |    | 3NT  | | to play
 |    | !4C! | | reaffirms {D} as trump, rejects {H}
 |    |  4D  | | no {H} fit, no extras
