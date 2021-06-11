@@ -322,8 +322,10 @@ d|
 
 | *Minorwood* +
   Uncontested auction +
-  @ minor-suit agreed:  #4m = jump#
-  @ jump raise from 2m to 4m
+  @ minor-suit agreed:  #4m = jump# +
+  @ second-round jump raise by #responder# +
+  @ raise by responder after
+  _ jump rebid by opener +
   @ 1NT opening: Tfr to m then 4m
 
 | *Optional Minorwood* +
@@ -344,12 +346,6 @@ d|
    @ cannot agree last suit below 4-level
    @ KB = jump
    @ 3{lab}KB-strain{rab} = Forcing
-
-| *Kickback for own suit* +
-  @ asker has bid only one suit +
-  @ KB = jump +
-  @ 3{lab}KB-strain{rab} = Forcing
-  _ {or}{ensp}own-suit = {S}{emsp}&{ensp}4NT = jump
 |===
 
 // -------------------------------- //
