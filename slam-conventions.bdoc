@@ -148,11 +148,26 @@ Applies when 2m is opener's second bid.
 |===
 |  1H | 2D |
 |  ?  |    |
-|  3D |    | sets {D} as trump but responder can override by biding 3H to set {H} as trump
+|  3D |    | sets {D} as trump but responder can override
+             by biding 3H to set {H} as trump
 |  4D |    | #natural, at least 5{ndash}5#
 | !4H! |   | kickback for {D}
-| !4S! |   | exclusion, trump = {D},
+| !4S! |   | exclusion, trump = {D}
 | !5C! |   | exclusion, {D} = trump
+|===
+
+.(g) kickback takes priority over exclusion
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|  1S   | 2D |
+|  ?    |    |
+|  3D   |    | sets {D} as trump but responder can override
+               by biding 3S to set {S} as trump
+|  4D   |    | #natural, at least 5{ndash}5#
+| !4H!  |    | kickback for {D}
+|  4S   |    | to play, poor for slam
+| !4NT! |    | exclusion of {H}, trump = {D}
+| !5C!  |    | exclusion, {D} = trump
 |===
 
 [#_minorwood_after_jump_rebid]
@@ -706,7 +721,7 @@ trump, then we must do that before we can use kickback.#
 | !2S! |  ?   || 2S = only 5*{S}
 |      |  3S  || sets trump = {S}
 |      |  4S  || to play
-|      | 4NT  || natural
+|      | 4NT  || natural, 18-19 HCP
 // {smallnote}
 |===
 
@@ -726,10 +741,10 @@ trump, then we must do that before we can use kickback.#
 | 2H | ?  ||
 |    | 2S || sets trump
 |    | 3H || sets trump
-|    | 3S || splinter, trump {H}
+|    | 3S || #splinter#, trump = {H}
 |    | 4H || to play, bad for slam
-|    | !4S! || #exclusion#
-|    | 4NT  || 18-19 HCP
+|    | !4S! || #exclusion#, trump = {H}
+|    | 4NT  || natural, 18-19 HCP
 |===
 
 // ****
@@ -751,7 +766,7 @@ trump, then we must do that before we can use kickback.#
 |    |  4D  || #natural, GF# (jump in fourth-suit)
 |    |  4H  || to play, poor for slam
 |    |  4S  || to play, poor for slam
-|    |  4NT || natural, 13{ndash}15 HCP
+|    |  4NT || natural, 13-15 HCP
 |    | !5C! || #exclusion#, trump = {H} {smallnote} +
                (set trump first to play in {C})
 |    | !5D! || #exclusion#, trump = {H}
@@ -824,6 +839,7 @@ NOTE: jumping to game to indicate a bad hand for slam only applies to
 Applies when:
 
 @ direct triple-jump response to 1M opening
+@ second-round jump above four of last bid
 @ suit agreed, then jump +
 @ a non-jump following
 >> a control-bid by partner
