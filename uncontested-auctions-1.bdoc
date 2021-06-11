@@ -488,12 +488,11 @@ Reasonable options are 2NT (F1) or 3NT (with 16-17).
 
 | 1C |  1H  ||
 | 1S |  ?   ||
-|    |  2NT || 13-15 or 18{OrMore}
+|    | !2D! || 4th-Suit-F1,
+               [nobr]#includes bal. 11-12#
+|    |  2NT || 13-15
 |    |  3NT || 16-17
-|    | !2D! || 4th-Suit-F1, [nobr]#includes bal. 11-12#
-|    |  3S  || GF raise
-|    | #{sp}!!4S!!{sp}#
-            || KC for {H} (<<#_own_suit-kickback, Own-Suit Kickback>>)
+|    |  4NT || 18-19
 |===
 
 [%autowidth,cols="3*^.^,<",grid="none"]
@@ -503,12 +502,34 @@ Reasonable options are 2NT (F1) or 3NT (with 16-17).
 | 1D |  1S   ||
 | 2C |  ?    ||
 |    |  2NT  || 11-12
-|    |  3NT  || 16-17
-|    | #{sp}!!4NT!!{sp}#
-             || KC for {S} (<<#_own_suit-kickback, Own-Suit Kickback>>)
 |    | !2H!  || 4th-suit-F1,
-     [nobr]## includes bal.{thinsp}[ 13-15 {or} #{thinsp}18{OrMore}{thinsp}# ]##
+                [nobr]#includes bal. 13-15#
+|    |  3NT  || 16-17
+|    |  4NT  || 18-19
 |===
+
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+4+| In a 2/1 auction
+
+| 1S |  2D   ||
+| 2H |  ?    ||
+|    |  2NT  || 13-15
+|    |  3NT  || 16-17
+|    |  4NT  || 18-19
+|===
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+4+| In a 2/1 auction that is above 2NT
+
+| 1S |  2H   ||
+| 3C |  ?  2+<| Opener has shown extras
+|    |  3NT  || 13-15
+|    |  4NT  || 16-17
+|===
+
 
 [#_3rd_suit_forcing]
 == Third-suit forcing by responder
