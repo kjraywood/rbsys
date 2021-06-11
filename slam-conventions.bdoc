@@ -706,42 +706,38 @@ trump, then we must do that before we can use kickback.#
 | !2S! |  ?   || 2S = only 5*{S}
 |      |  3S  || sets trump = {S}
 |      |  4S  || to play
-|      | 4NT  || natural {smallnote}
+|      | 4NT  || natural
+// {smallnote}
 |===
 
-****
-{note}{nbsp}
-&Alternative&
+// ****
+// {note}{nbsp}
+// &Alternative&
 
-2NT is forcing so we could play 4NT is plain blackwood or even
-KC for hearts; the suit that responder must be interested in but
-cannot set as trumps definitively.
-****
+// 2NT is forcing so we could play 4NT is plain blackwood or even
+// KC for hearts; the suit that responder must be interested in but
+// cannot set as trumps definitively.
+// ****
 
 .(b)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1S | 2D ||
 | 2H | ?  ||
-|    | 2S || sets trump, could be minimum or very strong
+|    | 2S || sets trump
 |    | 3H || sets trump
-|    | 3S || sets trump, medium extras
+|    | 3S || splinter, trump {H}
 |    | 4H || to play, bad for slam
 |    | !4S! || #exclusion#
+|    | 4NT  || 18-19 HCP
 |===
 
-****
-{note}{nbsp}
-&Alternative&
+// ****
+// {note}{nbsp}
+// &Alternative&
 
-As previously, we could use 4NT as KC asking in {D}.
-
-Also, we could allow responder to make a splinter in opener's suit. _i.e._ +
-__ 2S = sets trump +
-__ 3S = splinter, sets {H} +
-__ {nbsp}{tribull} 4S = kickback and 4NT=exclusion of {S} +
-__ 4S = to play, bad for slam
-****
+// As previously, we could use 4NT as KC asking in {D}.
+// ****
 
 .(c)
 [%autowidth,cols="3*^,<",grid="none"]
