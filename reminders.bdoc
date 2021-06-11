@@ -336,10 +336,17 @@ d|
   _ - opener gives preference to a minor,
   _ - responder bids 4m
 
-| *Kickback when {D} are trump* +
-  KC ask = cheapest 4M where:
-  _ 4M = jump {or} M not bid on 1^st^ round +
-  otherwise 4H
+| *Kickback when {D} agreed* +
+  Excludes minorwood cases +
+  When bidding is at 3D: +
+  _ if 3H is forcing then 4H = kickback +
+  When bidding is above 3D: +
+  _ 4H is kickback unless: +
+  __ {H} were bid on 1^st^ round +
+  __ or offer to play in {H} was rejected +
+  If 4H is NOT kickback, then same scheme +
+  applies for {S} +
+  Otherwise 4NT is KC asking for {D}
 
 | *Kickback for last suit* +
    @ no suit-agreement +

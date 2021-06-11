@@ -19,7 +19,7 @@ needed as a natural bid.
 @ self raise to 4m following a minor-suit
 _ transfer opposite a 1NT opening
 
-@ jump raise to 4m by #responder# when 3m is forcing
+@ second-round jump-raise to 4m by #responder#
 
 @ raise by responder after jump rebid by opener
 
@@ -63,10 +63,9 @@ _ transfer opposite a 1NT opening
 :===
 |===
 
-=== Jump Raise to 4m by RESPONDER
+=== Second-Round Jump-Raise to 4m by RESPONDER
 
-Applies when 2m is opener's second bid, either a rebid of the first
-suit, or a second suit.
+Applies when 2m is opener's second bid.
 
 .(a) opener rebids same suit
 [%autowidth,cols="3*^,<",grid="none"]
