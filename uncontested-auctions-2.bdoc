@@ -120,13 +120,13 @@ when there's a cue-bid available to establish a GF.
 
 | 1C  | (1S) | Dbl | (P) |
 | 2D* | (P)  | ?   |     | * extras, #F1#
-|     |      | 2H  |     | 5-card suit, #NF# {note}
+|     |      | 2H  |     | 5-card suit, #NF# {smallnote}
 |     |      | 2S  |     | cue-bid, GF
 |     |   2+<| 2NT,3C,3D <| min, NF
 |     |      | 3H  |     | 5-card suit, GF
 |===
 
-NOTE: _2oM neg.-free-bid agreements apply_
+{note} _2oM neg.-free-bid agreements apply_
 
 The negative double showed four or five hearts with any strength.
 
@@ -195,14 +195,17 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |===
 |  1C  | 1S ||
 | !3C! | ?  || 6{OrMore}{xtimes}{C}, 3*{S}
-|   | 3D,3H || [orange-bg]#NT probes, or cue for {C}#
+|   | 3D,3H || #NT probes or cue for {C}# {smallnote}
 |      | 3S || #forcing#, sets trump = {S}
 |      | 4C || [lavender-bg]#minorwood#
 |    | !4D! || exclusion, trump = {C}
 |    | !4H! || exclusion, trump = {C}
 |    | 4S   || to play
-|    | 4NT  || 
+|    | 4NT  || unused
 |===
+
+NOTE: Responder doesn't need natural bids that show 5{ndash}5 because opener
+      has promised three spades
 
 .(b)
 [%autowidth,cols="3*^,<",grid="none"]
@@ -215,7 +218,7 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |      |  4D   || [lavender-bg]#minorwood#
 |      |  4H   || to play
 |      | !4S!  || exclusion, trump = {D}
-|      | 4NT   || #unused#
+|      | 4NT   || unused
 |      | !5C!  || exclusion, trump = {D} 
 |===
 

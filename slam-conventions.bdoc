@@ -112,7 +112,7 @@ suit, or a second suit.
 |  2D |  ?   ||
 |     |  2H  || sign-off
 |     |  3D  || GF
-|     |  4C  || [lavender-bg]#natural 2nd suit??# {note}
+|     |  4C  || [lavender-bg]#natural 2nd suit??# {smallnote}
 |     |  4D  || [lavender-bg]#minorwood#
 |     | !4H! || exclusion, trump = {D}
 |     |  4S  || to play
@@ -120,7 +120,7 @@ suit, or a second suit.
 |     |  4NT || natural, 18{ndash}19 HCP
 |===
 
-NOTE: 2nd-round jump in fourth-suit is natural
+{note} second-round jump in fourth-suit is natural
 
 .(e) a 2/1 auction where opener rebids same minor 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -452,11 +452,11 @@ for {D}#.
 |    | !4H! || kickback, {H} were not bid on the first round
 |    | 4S   || offer to play,
                [nobr]#{S} were bid on the first round#
-|   |  4NT || offer to play, {simto}16{ndash}17 HCP
+|   |  4NT || offer to play, {simto}16{ndash}17 HCP {smallnote}
 |===
 
-NOTE: responder bids 2NT on the second round with a hand suitable for
-      play in NT, even with six-card diamond suit
+NOTE: responder bids 2NT on the second round with a minimum hand that
+      is suitable for play in NT, even with six-card diamond suit
 
 
 .(b)
