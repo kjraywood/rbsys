@@ -78,8 +78,8 @@
 	    {emsp}{emsp} hearts are in focus>> +
 {nbsp} 30. <<system.adoc#_last_suit_kickback,
             Last-Suit Kickback>> +
-{nbsp} 31. <<system.adoc#_own_suit_kickback,
-            Own-Suit Kickback>> +
+{nbsp} 31. <<system.adoc#_setting_trump_for_kickback,
+            Setting Trump for Kickback>> +
 {nbsp} 32. <<system.adoc#_special_kc_asking_bids,
             Special KC-asking bids>> +
 {nbsp} 33. <<system.adoc#_kc_responses,

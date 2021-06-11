@@ -12,7 +12,7 @@ minorwood instead of kickback.
 Applies by an unpassed hand when four of the agreed minor is not
 needed as a natural bid.
 
-Cases:
+*Cases:*
 
 @ jump to 4m after minor-suit agreement
 
@@ -25,7 +25,7 @@ _ transfer opposite a 1NT opening
 
 === Jump to FOUR MINOR after minor-suit agreement
 
-Conditions (all required): +
+*Conditions* (all required)*:* +
 @ we have agreed a minor +
 @ we have not agreed a major +
 @ the auction is uncontested +
@@ -676,82 +676,151 @@ as trump.
 
 If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 
-== Own-Suit Kickback
+== Setting Trump for Kickback
 
-AKA _Selfwood_
+*Guiding Principle*
 
-Allows KC-asking in your own suit without trump agreement
+[lavender-box]#If we can make a forcing bid that sets major suit as
+trump, then we must do that before we can use kickback.#
 
-=== Requirements
+// == Own-Suit Kickback
+//
+// AKA _Selfwood_
+//
+// Allows KC-asking in your own suit without trump agreement
 
-@ asker has bid only one suit +
-@ the KB bid is a jump
+// === Requirements
 
-*Own-suit = minor or hearts:* +
-@ three of  KB-strain is forcing
+// @ asker has bid only one suit +
+// @ the KB bid is a jump
 
-*Own-suit = spades:* +
-@ partner's last bid not in NT
+// *Own-suit = minor or hearts:* +
+// @ three of  KB-strain is forcing
 
-=== Examples
+// *Own-suit = spades:* +
+// @ partner's last bid not in NT
 
+.(a)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1S  |  2H   ||
-| !2S! |  ?    || 2S = only 5*{S}
-|      |  3S   || forcing
-|      | !4S!  || kickback for {H}
+|  1S  |  2H  ||
+| !2S! |  ?   || 2S = only 5*{S}
+|      |  3S  || sets trump = {S}
+|      |  4S  || to play
+|      | 4NT  || natural {smallnote}
 |===
 
+****
+{note}{nbsp}
+&Alternative&
+
+2NT is forcing so we could play 4NT is plain blackwood or even
+KC for hearts; the suit that responder must be interested in but
+cannot set as trumps definitively.
+****
+
+.(b)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S |  2D   | |
-| 2H |  ?    | |
-|    |  3H   | | forcing
-|    | !4H!  | | kickback for {D}
+| 1S | 2D ||
+| 2H | ?  ||
+|    | 2S || sets trump, could be minimum or very strong
+|    | 3H || sets trump
+|    | 3S || sets trump, medium extras
+|    | 4H || to play, bad for slam
+|    | !4S! || #exclusion#
 |===
 
+****
+{note}{nbsp}
+&Alternative&
+
+As previously, we could use 4NT as KC asking in {D}.
+
+Also, we could allow responder to make a splinter in opener's suit. _i.e._ +
+__ 2S = sets trump +
+__ 3S = splinter, sets {H} +
+__ {nbsp}{tribull} 4S = kickback and 4NT=exclusion of {S} +
+__ 4S = to play, bad for slam
+****
+
+.(c)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C |  1S   | |
-| 2H |  ?    | | last bid not NT
-|    | !4NT! | | KC for {S}
+| 1C |  1S  ||
+| 2H |  ?   ||
+|    |  3C  || sets trump
+|    |  3H  || sets trump
+|    | 3NT  || natural, 11-12 HCP
+|    |  4C  || #splinter#, trump = {H}
+|    |  4D  || #natural, GF# (jump in fourth-suit)
+|    |  4H  || to play, poor for slam
+|    |  4S  || to play, poor for slam
+|    |  4NT || natural, 13{ndash}15 HCP
+|    | !5C! || #exclusion#, trump = {H} {smallnote} +
+               (set trump first to play in {C})
+|    | !5D! || #exclusion#, trump = {H}
 |===
 
+NOTE: jumping to game to indicate a bad hand for slam only applies to
+      majors, because partner can still ask for key-cards
+
+.(d)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1C |  1H   | |
-| 1S |  ?    | |
-|    |  3S   | | forcing
-|    | !4S!  | | kickback for {H}
+| 1C |  1H  ||
+| 1S |  ?   ||
+|    |  3C  || GF, sets trump
+|    |  3D  || natural, GF (jump in fourth suit)
+|    |  3H  || natural, GF
+|    |  3S  || GF, sets trump
+|    | 3NT  || natural, 16-17 HCP
+|    | !4C! || #splinter#, trump = {S}
+|    | !4D! || #splinter#, trump = {S}
+|    |  4H  || to play, no slam interest
+|    |  4S  || to play, no slam interest
+|    | 4NT  || natural, 18-19 HCP
+|    | !5C! || #exclusion#, trump = {S} +
+               (set trump first to play in {C})
+|    | !5D! || #exclusion#, trump = {S}
 |===
 
+.(e)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1D |  1H   | |
-| 2S |  ?    | |
-|    |  3S   | | forcing
-|    | !4S!  | | kickback for {H}
+| 1D |  1H  ||
+| 2S |  ?   ||
+|    |  3D  || sets trump
+|    |  3S  || sets trump
+|    | 3NT  || natural, 8-10 HCP
+|    |  4C  || #natural, GF# (jump in fourth-suit)
+|    | !4D! || #splinter#, trump = {S}
+|    |  4H  || to play, no slam interest
+|    |  4S  || to play, poor for slam
+|    | 4NT  || natural, 11-12 HCP
+|    | !5C! || #exclusion#, trump = {S}
+|    | !5D! || #exclusion#, trump = {S} +
+               (set trump first to play in {D})
 |===
 
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| !2C! | !2D! |
-|  2H  |  2S  |
-|  ?   |      |
-|  3S  |      | forcing
-| !4S! |      | kickback for {H}
-|===
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// | !2C! | !2D! |
+// |  2H  |  2S  |
+// |  ?   |      |
+// |  3S  |      | forcing
+// | !4S! |      | kickback for {H}
+// |===
 
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1D |  1S   | |
-| 2C |  ?    | |
-|    | !2H!  | | 4^th^-suit includes bal. 13-15 {or} 18{OrMore}
-|    |  2NT  | | 11-12
-|    |  3NT  | | 16-17
-|    | !4NT! | | KC for {S}
-|===
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1D |  1S   | |
+// | 2C |  ?    | |
+// |    | !2H!  | | 4^th^-suit includes bal. 13-15 {or} 18{OrMore}
+// |    |  2NT  | | 11-12
+// |    |  3NT  | | 16-17
+// |    | !4NT! | | KC for {S}
+// |===
 
 == Special KC-asking bids
 
