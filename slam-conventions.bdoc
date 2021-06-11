@@ -56,46 +56,86 @@ _ transfer opposite a 1NT opening
 :===
 |===
 
-=== These are not minorwood and we gave up selfwood
+=== Jump by RESPONDER from 2m to 4m
 
+Applies when 2m is opener's second bid, either a rebid of the first
+suit, or a second suit.
+
+.(a) opener rebids same suit
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D |  1H   ||
 |  2D |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
 |     |  2H   || sign-off
 |     |  3D   || GF
-|     |  4D   || #unused#
-|     | !4H!   || kickback for {D}
-|     | !4S!  || exclusion, trump = {D}
-|     | !5C! || exclusion, {D} = trump
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1D |  1S   ||
-|  2D |  ?    || 6{OrMore}{xtimes}{D}, 3*{S}
-|     |  2S   || sign-off
-|     |  3D   || GF
-|     |  4D   || #unused#
-|     | !4H!  ||  kickback for {D}
-|     |  4S   || to play
-|     | 4NT  || exclusion of {H}, trump = {D}
-|     | !5C! || exclusion, {D} = trump
-|===
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1D |  1H   ||
-|  2C |  ?    ||
-|     |  2H   || sign-off
-|     |  3C   || GF
-|     |  4C   || #unused#
-|     | !4D!  || kickback for {C}
+|     |  3H   || GF
+|     |  4D   || [lavender-bg]#minorwood#
 |     |  4H   || to play
-|     | !4S!  || exclusion, trump = {C}
-|     | !4NT!  || [lavender-bg]#exclusion of {D}#, {C} = trump
+|     | !4S!  || exclusion, trump = {D}
+|     | 4NT   || natural
+|     | !5C! || exclusion, {D} = trump
 |===
 
+.(b) another opener rebids same suit
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1C |  1S   ||
+|  2C |  ?    || 6{OrMore}{xtimes}{D}, 3*{S}
+|     |  2S   || sign-off
+|     |  3C   || GF
+|     |  3S   || GF
+|     |  4C   || [lavender-bg]#minorwood#
+|     | !4D!  || exclustion, trump = {C}
+|     | !4H!  || exclusion, trump = {C}
+|     |  4S   || to play
+|     | 4NT  || natural
+|===
+
+.(c) opener bids 2m as a second suit
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D |  1H  ||
+|  2C |  ?   ||
+|     |  2H  || sign-off
+|     |  3C  || GF
+|     |  4C  || [lavender-bg]#minorwood#
+|     | !4D! || exclusion, trump = {C}
+|     |  4H  || to play
+|     | !4S! || exclusion, trump = {C}
+|     |  4NT || natural, 18{ndash}19 HCP
+|===
+
+.(c) another opener bids 2m as a second suit
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1H |  1S  ||
+|  2D |  ?   ||
+|     |  2H  || sign-off
+|     |  3D  || GF
+|     |  4C  || [orange-bg]#splinter ??, natural 2nd suit??#
+|     |  4D  || [lavender-bg]#minorwood#
+|     | !4H! || exclusion, trump = {D}
+|     |  4S  || to play
+|     | !5C! || exclusion, trump = {C}
+|     |  4NT || natural, 18{ndash}19 HCP
+|===
+
+.(d) a 2/1 auction where opener rebids same minor 
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1D |  2C  ||
+|  2D |  ?   ||
+|     |  3D  || GF
+|     |  4C  || [orange-bg]#clubs are trump ??#
+|     |  4D  || [lavender-bg]#minorwood#
+|     | !4H! || exclusion, trump = {D}
+|     | !4S! || exclusion, trump = {D}
+|     | 4NT  || natural, 18{ndash}19 HCP
+|===
+
+{warning} jump to 4m as minorwood only applies by responder
+
+.(e) a jump raise by opener is natural
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1H | 2D |
@@ -108,12 +148,14 @@ _ transfer opposite a 1NT opening
 |===
 
 [#_minorwood_after_jump_rebid]
-=== We do not do minorwood after a jump-rebid either
+=== Raise by RESPONDER after a jump rebid
+
+This is also minorwood
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1D | 1H ||
-| 3D | 4D || NOT minorwood
+| 3D | 4D || [lavender-bg]#minorwood#
 |===
 
 For full description, see: +
