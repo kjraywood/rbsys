@@ -85,10 +85,10 @@ suit, or a second suit.
 |     |  3C   || GF
 |     |  3S   || GF
 |     |  4C   || [lavender-bg]#minorwood#
-|     | !4D!  || exclustion, trump = {C}
+|     | !4D!  || exclusion, trump = {C}
 |     | !4H!  || exclusion, trump = {C}
 |     |  4S   || to play
-|     | 4NT  || natural
+|     | 4NT   || natural
 |===
 
 .(c) opener bids 2m as a second suit
@@ -112,7 +112,7 @@ suit, or a second suit.
 |  2D |  ?   ||
 |     |  2H  || sign-off
 |     |  3D  || GF
-|     |  4C  || [lavender-bg]#natural 2nd suit??# {smallnote}
+|     |  4C  || [lavender-bg]#natural, 2nd suit, GF# {smallnote}
 |     |  4D  || [lavender-bg]#minorwood#
 |     | !4H! || exclusion, trump = {D}
 |     |  4S  || to play
@@ -120,7 +120,7 @@ suit, or a second suit.
 |     |  4NT || natural, 18{ndash}19 HCP
 |===
 
-{note} second-round jump in fourth-suit is natural
+{note}{nbsp} second-round jump in fourth-suit is natural
 
 .(e) a 2/1 auction where opener rebids same minor 
 [%autowidth,cols="3*^,<",grid="none"]
