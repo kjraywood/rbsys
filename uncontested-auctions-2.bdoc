@@ -188,8 +188,9 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
   @ a single-suited GF hand that is not suitable
   _ for a jump to 3NT
 
-==== 1m {ndash} 1M{semicolon} 3m
+*Examples*
 
+.(a) 1m {ndash} 1M{semicolon} 3m
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1C  | 1S ||
@@ -203,6 +204,7 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |    | 4NT  || 
 |===
 
+.(b)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D  |  1H   ||
@@ -217,8 +219,7 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |      | !5C!  || exclusion, trump = {D} 
 |===
 
-==== 1\H {ndash} 1\S{semicolon} 3\H
-
+.(c) 1\H {ndash} 1\S{semicolon} 3\H
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1H  | 1S ||
@@ -232,7 +233,7 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |      | !5C!, !5D! || exclusion, trump = {H} 
 |===
 
-==== 1\C {ndash} 1\D{semicolon} 2NT or 3\D
+=== Jump rebid of 2NT of 3\C
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
