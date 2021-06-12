@@ -305,42 +305,46 @@ NOTE: Responder doesn't need natural bids that show 5{ndash}5 because opener
 [#_nebulous_two_clubs]
 === Nebulous Two Clubs
 
-Applies after 1H or 1S opening.
+@ applies after 1H or 1S opening
 
-[NOTE]
-====
-1S{thinsp}{ndash}{thinsp}2C includes 3-4-4-2.
+@ 1S{thinsp}{ndash}{thinsp}2C includes 3-4-4-2
 
+@ 1H{thinsp}{ndash}{thinsp}2C includes 4-3-4-2
+
+{note}{nbsp}
 After a 1H opening, responder does not bid 1S with GF values and only
 four spades.
 
-Therefore, 1H{thinsp}{ndash}{thinsp}2C includes 4-3-4-2.
-====
+==== Second-round bids
 
 Opener and responder use #next-step waiting-bids# below 2NT unless they
 have something to say such as extra length, extra strength, the other
 major, or a known eight-card fit.
 
-Waiting bids by either player could hide a very strong that may bid
-again following an attempted sign-off.
-
-Following a nebulous 2C a jump by opener is NOT a splinter.
-A 3-level suit-bid below 3M shows a good two suiter; at least 5-5.
+[lavender-box]#Waiting bids by either player could hide a very strong
+that will bid again once game has been reached.#
 
 // {reference} https://bridgewinners.com/article/view/better-21-bidding-the-nebulous-2c-bid[
 // _Better 2/1 Bidding: The Nebulous 2\C Bid_]
 // __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
+&(a) Opener's rebid&
+
+Following a nebulous 2C, opener's jump-rebid  is NOT a splinter.
+A 3-level suit-bid below 3M shows a good two suiter; at least 5-5.
+
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |  1M   | !2C! | {emsp} could be short
 |  ?    |      |
-| !2D!  |      | next-step = waiting
+| !2D!  |      | [lavender-bg]#waiting, could be very strong#
 |  2oM  |      | natural
 |  2M   |      | six-card suit
 |  2NT  |      | 16{ndash}17, no singleton, not 4*oM
 2+<| [nobr]#3{lab}lower suit{rab}# <| #5-5, decent suits#
 |===
+
+&(b) Responder's rebid&
 
 Following opener's 2D, responder shows a fit for opener's major by
 skipping a step; thus bidding 2S even when opener's major is hearts.
@@ -349,11 +353,13 @@ skipping a step; thus bidding 2S even when opener's major is hearts.
 |===
 |  1M   | !2C! ||
 | !2D!  |  ?   ||
-|       | !2H! || next-step = waiting
+|       | !2H! || [lavender-bg]#waiting, could be very strong#
 |       | !2S! || 3*M
 |       |  2NT || 16{ndash}17, no singleton
 | 2+<| 3{lab}suit{rab} | natural, extra length or extra strength
 |===
+
+&(c) Opener's third bid&
 
 Following responder's 2H, a second nebulous-bid, opener can bid 2S
 which is another nebulous bid saying that opener doesn't want to grab
