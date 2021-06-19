@@ -574,10 +574,10 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-&(b)& see also
-<<uncontested-auctions-2.adoc#_jump_rebid_of_original_suit_by_opener,
+&(b)&
+special minorwood case, hence no kickback. +
+See <<uncontested-auctions-2.adoc#_jump_rebid_of_original_suit_by_opener,
   Jump Rebid of Original Suit by Opener>>
-
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -589,10 +589,9 @@ then we can use kickback provided that the next step is forcing
 |
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
-! #3H = non-forcing# +
-  >  4H  = to play +
-  !4D! = minorwood +
-  !4S! = kickback for {H}
+! 3H = #forcing# +
+  !4D! = [lavender-bg]#minorwood# +
+  > 4H  = #to play# +
 !===
 |===
 
@@ -602,14 +601,14 @@ then we can use kickback provided that the next step is forcing
 |
 [grid="none",stripes="none",frame="allx"]
 :===
-  1S : [nobr]#3C{ensp}inv.#
+  1H : [nobr]#3D{ensp}inv.#
   ?  :
 :===
 |
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
-! 3D is forcing +
-  > !4D! is kickback for {C}
+! 3H is forcing +
+  > !4H! is kickback for {D}
 !===
 |===
 
