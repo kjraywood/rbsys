@@ -11,19 +11,25 @@
 @ 2/1 GF +
 @ aggressive initial actions
 
-=== Opener's rebid with a balanced hand
+=== Responses to minor opening
 
-Usually bypass 4-card majors to rebid NT
+* <<#_responding_to_one_club, responding to 1C>>, bypassing diamonds
+  means responder cannot introduce diamonds on a later round.  So we may
+  bypass when this doesn't matter.
 
-=== Rule #1
+* traditional NT ranges and 2H = 11{ndash}12, shortness follow-ups
 
-_A call is natural and non-forcing unless defined otherwise._
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      | 1NT  | (P) | !2D! | transfer
-| (2S) | P    | (P) |  3C  | natural, NF
-|===
+// *** need a new location for rule #1 ***
+// === Rule #1
+
+// _A call is natural and non-forcing unless defined otherwise._
+
+// [%autowidth,cols="4*^,<",grid="none"]
+// |===
+// |      | 1NT  | (P) | !2D! | transfer
+// | (2S) | P    | (P) |  3C  | natural, NF
+// |===
 
 == Doubles
 
