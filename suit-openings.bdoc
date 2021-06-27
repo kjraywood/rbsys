@@ -33,6 +33,7 @@ __ and agrees second-suit +
 @ jump new-suit = void slam-try
 
 === Jacoby 2NT
+// !!! FIX ME !!!
 
 @ jump new-suit = length (at least 5-5)
 _ #without two quick-losers elsewhere# +
