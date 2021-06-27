@@ -11,7 +11,7 @@
 @ 2/1 GF +
 @ aggressive initial actions
 
-=== Responses to minor opening
+=== responses to minor opening
 
 * <<#_responding_to_one_club, responding to 1C>>: criteria for
   bypassing diamonds based on anticpating the auction
@@ -25,6 +25,26 @@
 
 * jump-shift other-minor = natural inv, traditional follow-ups
   after one-suited inv.
+
+=== responses to major opening
+
+* 3/1 = natural inv., traditional one-suit-inv follow-ups
+
+* 1{H}{ndash}2{S} {simto} Jacoby 2NT
+  > swap {S} and NT @ all levels 
+
+* 1S{ndash}3NT & 1{H}{ndash}3S = weak splinter
+
+* limit raises
+  > follow-ups {simto} game-try after single raise
+
+* <<#_nebulous_two_clubs, Nebulous Two Clubs>>
+  > next-step-nebulous below 2NT
+
+* <<#_schuler_shift, Schuler Shift>> after 1M{ndash}2D or 1S{ndash}2H
+
+
+
 
 // *** need a new location for rule #1 ***
 // === Rule #1
