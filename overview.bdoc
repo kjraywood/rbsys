@@ -13,12 +13,18 @@
 
 === Responses to minor opening
 
-* <<#_responding_to_one_club, responding to 1C>>, bypassing diamonds
-  means responder cannot introduce diamonds on a later round.  So we may
-  bypass when this doesn't matter.
+* <<#_responding_to_one_club, responding to 1C>>: criteria for
+  bypassing diamonds based on anticpating the auction
 
-* traditional NT ranges and 2H = 11{ndash}12, shortness follow-ups
+* <<#_inverted_minors, inverted minors>> by PH, single-raise = GF,
+   jump-raise = mixed, 2S = LR
 
+* [#_2nt_response_to_one_minor, traditional NT ranges],
+  [#_balanced_inv_after_one_minor, 2H = balanced 11{ndash}12],
+  shortness follow-ups
+
+* jump-shift other-minor = natural inv, traditional follow-ups
+  after one-suited inv.
 
 // *** need a new location for rule #1 ***
 // === Rule #1
