@@ -19,9 +19,11 @@
 * <<#_inverted_minors, inverted minors>> by PH, single-raise = GF,
    jump-raise = mixed, 2S = LR
 
-* <<#_2nt_response_to_one_minor, traditional NT ranges>>,
-  <<#_balanced_inv_after_one_minor, 2H = balanced 11{ndash}12>>,
-  shortness follow-ups
+* <<#_2nt_response_to_one_minor, traditional NT ranges>>:{nbsp} 2NT = 13-15 or 18{OrMore}
+  > reverse = shortness
+
+* <<#_balanced_inv_after_one_minor, 2H = balanced 11{ndash}12>>
+  > 2S {forces} 2NT
 
 * jump-shift other-minor = natural inv, traditional follow-ups
   after one-suited inv.
@@ -38,8 +40,9 @@
 * limit raises
   > follow-ups {simto} game-try after single raise
 
-* <<#_nebulous_two_clubs, Nebulous Two Clubs>>
-  > next-step-nebulous below 2NT
+* <<#_nebulous_two_clubs, Nebulous Two Clubs>> +
+  > next-step below 2NT = nebulous +
+  _ {implies} we get up to nebulous bids each
 
 * <<#_schuler_shift, Schuler Shift>> after 1M{ndash}2D or 1S{ndash}2H
 
