@@ -11,15 +11,54 @@
 @ 2/1 GF +
 @ aggressive initial actions
 
-=== Rule #1
+=== responses to minor opening
 
-_A call is natural and non-forcing unless defined otherwise._
+* <<#_responding_to_one_club, responding to 1C>>: criteria for
+  bypassing diamonds based on anticpating the auction
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      | 1NT  | (P) | !2D! | transfer
-| (2S) | P    | (P) |  3C  | natural, NF
-|===
+* <<#_inverted_minors, inverted minors>> by PH, single-raise = GF,
+   jump-raise = mixed, 2S = LR
+
+* <<#_2nt_response_to_one_minor, traditional NT ranges>>:{nbsp} 2NT = 13-15 or 18{OrMore}
+  > reverse = shortness
+
+* <<#_balanced_inv_after_one_minor, 2H = balanced 11{ndash}12>>
+  > 2S {forces} 2NT
+
+* jump-shift other-minor = natural inv, traditional follow-ups
+  after one-suited inv.
+
+=== responses to major opening
+
+* 3/1 = natural inv., traditional one-suit-inv follow-ups
+
+* 1{H}{ndash}2{S} {simto} Jacoby 2NT
+  > swap {S} and NT @ all levels 
+
+* 1S{ndash}3NT & 1{H}{ndash}3S = weak splinter
+
+* limit raises
+  > follow-ups {simto} game-try after single raise
+
+* <<#_nebulous_two_clubs, Nebulous Two Clubs>> +
+  > next-step below 2NT = nebulous +
+  _ {implies} we get up to nebulous bids each
+
+* <<#_schuler_shift, Schuler Shift>> after 1M{ndash}2D or 1S{ndash}2H
+
+
+
+
+// *** need a new location for rule #1 ***
+// === Rule #1
+
+// _A call is natural and non-forcing unless defined otherwise._
+
+// [%autowidth,cols="4*^,<",grid="none"]
+// |===
+// |      | 1NT  | (P) | !2D! | transfer
+// | (2S) | P    | (P) |  3C  | natural, NF
+// |===
 
 == Doubles
 

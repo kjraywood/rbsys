@@ -33,6 +33,7 @@ __ and agrees second-suit +
 @ jump new-suit = void slam-try
 
 === Jacoby 2NT
+// !!! FIX ME !!!
 
 @ jump new-suit = length (at least 5-5)
 _ #without two quick-losers elsewhere# +
@@ -282,11 +283,18 @@ rebids 3NT.
 | 3NT                | 16{ndash}17 | --
 |===
 
+[#_responding_to_one_club]
 === Responding to 1C
 
 Bypass 1D if +
 @ can cope with a 3-card raise +
-@ will rebid or raise NT
+@ will rebid or raise NT +
+@ if a diamond slam requires that opener
+_ has the values to reverse
+
+Therefore, usually bypass: +
+@ 4*{D} with {simto}10{ndash}15 +
+@ 5*{D} with {simto}10{ndash}12
 
 === Opener's rebid with a balanced hand
 
@@ -385,6 +393,7 @@ We need to sort out what suit is trump after
 [lightgrey-box]#1D{ndash}2NT{semicolon} 3M{ndash}4C#
 ====
 
+[#_balanced_inv_after_one_minor]
 === 1m {ndash} 2H = 11{ndash}12 balanced
 
 Responder rarely has a four-card major.
