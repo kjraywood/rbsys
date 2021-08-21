@@ -512,18 +512,30 @@ __ {nbsp}{ndash}{nbsp} Phillip Martin
 
 @ take-out of bid suit
 _ #as though the interference was natural# +
+@ at least two in the bid suit +
 @ creates force to 2{S}
->> subsequent doubles are penalty
+>> subsequent doubles are penalty +
+
+****
+{note}{nbsp}
+&Why at least two in the doubled suit?&
+
+It enables opener to pass for penalties with four in the suit.
+
+Therefore, when not passing, opener will always have at least one
+four-card suit to bid, so 2NT can be used as scrambling with two
+four-card suits.
+
+&Problem shape&
+
+There is no good bid for 4441 with competitive values
+(7{ndash}8 HCP) and the singleton in the bid suit.
+
+The same shape and 9HCP is probably worth upgrading to a GF.
+Responder hopes for a major-suit fit or that opener has extras.
+****
 
 === Vs penalty double
-
-// We use the same system as vs penalty double so that we don't have to
-// rely on the opponents to remember to alert, nor worry about confusion
-// if their system-cards are not readily available.
-
-Pass is to play but opener redoubles with a five-card suit, after
-which 2C is pass-or-correct and pass says, +
-_"I think you'll make it."_
 
 @ Transfers to the majors are ON
 @ redouble = one minor +
@@ -532,9 +544,12 @@ _"I think you'll make it."_
 
 With a 4-card major and 6-card minor (McCartney), responder is willing
 to compete to the 3-level.
+_ 2S = 4*{S} + a six-card minor +
+_ 3m = 4*{H} + six in the bid minor
 
-2S = four spades and a six-card minor
-3m = four hearts and six in the bid minor
+Pass is to play but #opener redoubles with a five-card suit#.  Then: +
+_ 2C = pass-or-correct +
+_ pass = __"`I think you'll make it`"__
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -553,17 +568,14 @@ to compete to the 3-level.
 
 === Vs artificial double
 
-system ON
+@ System ON
 
-****
-&Redouble&
+@ redouble = balance of power
+_ = {simto}8{OrMore} HCP
+>> subsequent doubles are penalty
 
-Need to decide between natural (showing values) and a weak
-single-suited minor.
-****
-
-// When their double shows a single-suit, we can pass to discover the
-// suit, then use normal competitive-bidding methods.
+If the artificial double is passed then redouble by opener shows a
+five-card suit; the same as after a penalty double is passed.
 
 === Vs 2C
 
@@ -571,28 +583,37 @@ single-suited minor.
 @ other system ON
 
 ****
-.Vs 2C = natural single-suit
+.Vs 2C = natural
 
-The system-on meaning of 2S is: balanced-invitation or {C} +
-When they show {C} I suggest: +
+Balanced Hands::
+  The system-on meaning of 2S (balanced-invitation or {C}) is
+  replaced with: +
+  #2S = balanced-inv. or GF-without-stopper# +
+  {zwsp} +
+  If going to game, opener can check for a stopper by bidding 3C. +
+  {zwsp} +
+  If opener shows a minimum with 2NT, responder can cue-bid to ask for a
+  stopper.
 
-[orange-bg]#2S = balanced-invitation or GF-without-a-stopper#
+Stayman with a stopper::
+  A negative double, followed 3NT shows at least one four-card major
+  and a stopper.
 
-If going to game, opener can check for a stopper by bidding 3C.
-If opener shows a minimum with 2NT, responder can cue-bid to ask for a stopper.
-
-A negative double, followed 2NT shows a four-card major and usually a stopper.
-
-A negative double, followed 3NT shows a four-card major promises a stopper.
-
-We need a direct cue-bid as
-Stayman-without-stopper for hands that have a singleton club, because
-they can't use a negative double.
-
-[orange-bg]#3C is Stayman without a stopper#
-
-This replaces the system-on meaning (five-card Stayman).
+Stayman without a stopper::
+  With a singleton club responder can't use a negative double so needs
+  a direct cue-bid as Stayman-without-stopper. +
+  {zwsp} +
+  Also, with GF values when V vs NV, responder may prefer to use a
+  cue-bid instead of starting with a negative double. +
+  {zwsp} +
+  [lavender-bg]#So we need to give up the system-on meaning of 3C
+  (five-card Stayman).# +
+  {zwsp} +
+  #3C = Stayman without stopper# +
+  {zwsp} +
+  This applies whenever 2C shows clubs, including two-suiters with clubs.
 ****
+
 
 === Vs 2D
 
@@ -608,7 +629,7 @@ Two level bids don't depend on the meaning of 2D.
 |===
 
 Exception::
-  If 2D only shows a _known major_ (_e.g._ a transfer to hearts),
+  If 2D shows at least five-cards in a known major (_e.g._ a transfer to hearts),
   then a two-level bid of their major is Michaels.
 
 ==== 2D shows diamonds
@@ -674,7 +695,7 @@ _ = asks for a stopper
 
 ====  2D = both majors
 
-As above. _i.e._ same as for: 2D = one-major
+Same as vs 2D = one-major
 
 ==== 2D = Suction = {H} {or} {S} + {C}
 
