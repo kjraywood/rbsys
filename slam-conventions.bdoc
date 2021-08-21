@@ -16,9 +16,6 @@ needed as a natural bid.
 
 @ jump to 4m after minor-suit agreement
 
-@ self raise to 4m following a minor-suit
-_ transfer opposite a 1NT opening
-
 @ second-round jump-raise to 4m by #responder#
 
 @ raise by responder after jump rebid by opener
@@ -71,14 +68,17 @@ Applies when 2m is opener's second bid.
 .(a) opener rebids same suit
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|  1D |  1H   ||
-|  2D |  ?    ||
-|     |  3D   || GF
-|     |  3H   || GF
-|     |  4D   || [lavender-bg]#minorwood#
-|     |  4H   || to play
-|     | !4S!  || exclusion, trump = {D}
-|     | 4NT   || natural
+|  1D |  1H  ||
+|  2D |  ?   ||
+|     |  3D  || GF
+|     |  3H  || GF
+|     | !3S! || #splinter#
+|     |  3NT || to play
+|     | !4C! || #splinter#
+|     | !4D! || [lavender-bg]#minorwood#
+|     |  4H  || to play
+|     | !4S! || exclusion, trump = {D}
+|     | 4NT  || natural, slam inv.
 |     | !5C! || exclusion, trump = {D}
 |===
 
@@ -86,20 +86,19 @@ Applies when 2m is opener's second bid.
 {note}{nbsp}
 &Second-round jumps in unbid suit&
 
-Jumps to 3S and 4C seem like splinters, but the rule is that
+The usual rule in unconested auctions is that
 second-round jumps in unbid suits are natural and GF.
-To make sense as natural, a jump to 3S must be 5{ndash}6 in
-{S}{ndash}{H}, and a jump to 4C must be very strong.
-These hands are rare but it might make sense to retain that
-meaning for consistency.
-Splinter hands can possibly be handled by first raising
-to 3D (GF).
+However, a jump reverse or a jump above 3NT is a splinter
+and invites slam.
+Having been invited back into the auction, opener may
+use kickback to accept the invitation.
+
+[orange-box]#Hearts were bid on first round so 4S is kickback#
 
 See also
 <<uncontested-auctions-1.adoc#_3rd_suit_forcing,
   Third-suit forcing by responder>>
 ****
-     
 
 .(b)
 [%autowidth,cols="3*^,<",grid="none"]
@@ -107,8 +106,9 @@ See also
 |  1C |  1S   ||
 |  2C |  ?    ||
 |     |  3C   || GF
-|     |  3D,3H || 5{ndash}5 GF (2nd-round jump)
+|     | 3D,3H || 5{ndash}5 GF (2nd-round jump)
 |     |  3S   || GF
+|     |  3NT  || to play
 |     |  4C   || [lavender-bg]#minorwood#
 |     | !4D!  || exclusion, trump = {C}
 |     | !4H!  || exclusion, trump = {C}
@@ -116,13 +116,16 @@ See also
 |     | 4NT   || natural
 |===
 
+NOTE: both of responder's 2nd-round jumps are natural because neither
+      is a reverse nor above 3NT
+
 .(c) opener bids 2m as a second suit
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D |  1H  ||
 |  2C |  ?   ||
-|     |  2H  || sign-off
-|     |  3C  || GF
+|  <2+| 3C,3D,3H | GF
+|     | !3S! || splinter
 |     |  4C  || [lavender-bg]#minorwood#
 |     | !4D! || exclusion, trump = {C}
 |     |  4H  || to play
@@ -137,7 +140,7 @@ See also
 |  2D |  ?   ||
 |     |  2H  || sign-off
 |     |  3D  || GF
-|     |  4C  || #natural, 2nd suit, GF# {smallnote}
+|     |  4C  || #splinter# {smallnote}
 |     |  4D  || [lavender-bg]#minorwood#
 |     | !4H! || exclusion, trump = {D}
 |     |  4S  || to play
