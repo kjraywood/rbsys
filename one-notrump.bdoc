@@ -663,7 +663,8 @@ bid of their major.
 @ All bids from 2NT to 3H are transfers +
 @ 3S = both minors
 
-Transfer to a major DENIES a stopper in the other major
+Transfer to a major usually does not have a stopper in the other
+major.
 
 Otherwise, pass to discover their suit, then +
 @ dble = take-out +
@@ -729,17 +730,15 @@ Otherwise, #assume that intervenor has hearts# +
 === Vs TWO MAJOR
 
 vs: 2M = [ natural {or} M + m ]::
-  @ standard Leb. re stopper in M
+  @ Rubensohl, 3M = cue
 
 vs: 2H = transfer = 5{OrMore}{xtimes}{S}::
   @ 2S = Michaels +
-  @ other = Leb. re stopper spades
+  @ Rubensohl, 3S = cue
 
 vs: 2H = both majors::
-  @ #2S = natural# +
-  @ 3{lab}either minor{rab} = natural, GF +
-  @ #3{lab}either major{rab} = natural, GF# +
-  @ 3NT = to play (ignore stoppers)
+  @ all bids from 2NT to 3H are transfers +
+  @ 3S = both minors
 
 === Vs 2NT (minors)
 
