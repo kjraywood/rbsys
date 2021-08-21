@@ -489,8 +489,8 @@ declare.
 
 @ new-suit = shortness
 >> opener assumes COG +
-@ 4m = <<#_minorwood, minorwood>> +
-@ other jump-shift = exclusion +
+@ 4m = <<#_optional_minorwood, optional minorwood>> +
+@ jump-shift = exclusion +
 @ 4NT = slam inv.
 
 A 3NT rebid is generally to play, but opener may continue with
