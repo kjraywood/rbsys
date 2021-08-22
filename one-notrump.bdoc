@@ -754,10 +754,11 @@ _ = asks for a stopper
 
 @ use neg. dble with a suitable hand +
 @ pass with length in diamonds +
->> then Rubensohl when hand-type is revealed
+>> then double (take-out) or cue-bid (Stayman)
+__ when their hand-type is revealed
 
 Otherwise, #assume that intervenor has hearts# +
-@ #2H = Michaels# +
+@ #2H = {S} + minor# (Michaels) +
 @ other = Rubensohl re stopper in hearts
 
 // To show a 5cM with GF values and a stopper, responder starts with a
