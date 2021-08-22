@@ -200,13 +200,16 @@ pass = to play
 redouble = rescue
 
 Other bids are Rubensohl, following the same scheme as after
-1NT-(2D)::
-  If double shows diamonds, then 3D is cue-bid Stayman +
-  {zwsp} +
-  If double shows a known five-card suit, then three of
-  that suit is cue-bid Stayman +
-  {zwsp} +
-  Otherwise there is no cue bid
+1NT-(2D).
+
+If dble shows diamonds::
+  3D = cue-bid Stayman
+
+If dble shows a known 5-card suit::
+  3{lab}known-suit{rab} = cue-bid Stayman
+
+If dble shows both majors, or dble shows one major::
+   there is no cue bid
 
 === Sequences released by Mexican 2D
 
