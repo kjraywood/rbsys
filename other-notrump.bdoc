@@ -177,6 +177,37 @@ Therefore, we use #simple 5-card-Stayman responses#
      {emsp}{thinsp}!!4H!! = agrees {S}
 |===
 
+=== Interference with Mexican 2D
+
+As closely as possible, we follow the same scheme as interference with
+our 1NT opener.
+
+Texas transfers are ON when the interference is below 2NT.
+
+Suit-bids at the two level are natural.
+
+Bids from 2NT to 3S, except for a cue bid, are transfers to the next
+available strain
+
+Cue bid = Stayman without stopper
+
+The transfer to 3NT requests a stopper
+
+=== Vs Double of Mexican 2D
+
+pass = to play
+
+redouble = rescue
+
+Other bids are Rubensohl, following the same scheme as after
+1NT-(2D)::
+  If double shows diamonds, then 3D is cue-bid Stayman +
+  {zwsp} +
+  If double shows a known five-card suit, then three of
+  that suit is cue-bid Stayman +
+  {zwsp} +
+  Otherwise there is no cue bid
+
 === Sequences released by Mexican 2D
 
 See <<#_jump_rebids_by_opener,
