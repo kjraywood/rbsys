@@ -614,72 +614,124 @@ Stayman without a stopper::
   This applies whenever 2C shows clubs, including two-suiters with clubs.
 ****
 
+[#_rubensohl]
+=== Rubensohl vs 2D, 2H or 2S
 
-=== Vs 2D
-
-Two level bids don't depend on the meaning of 2D.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|       || 1NT{emsp}(2D)
-|  ?    ||
-|  X    || take-out of {D}
-|  2M   || to play
-| !2NT! || clubs, competitive or better
-|===
-
-Exception::
-  If 2D shows at least five-cards in a known major (_e.g._ a transfer to hearts),
-  then a two-level bid of their major is Michaels.
-
-==== 2D shows diamonds
-
-#Includes a two-suiter with diamonds#,
-
-[lavendar-box]#Bids from 2NT to 3S, except for the cue bid,
+[lavender-box]#Bids from 2NT to 3S, except for the cue bid,
 are transfers to the next available strain#
 
-_i.e._ transfer _through_ the cue-bid
+A transfer to a suit that could not be bid at the two-level shows
+at least competitive strength.
 
-The cue bid tends to show diamond shortness, otherwise responder uses
-a negative double.
+If the suit could be bid at the two-level, then a transfer to that
+suit at the three-level shows at least invitational strength.
 
-The transfer to 3NT requests a stopper.
+A transfer to 3NT requests a stopper.
+
+A cue-bid is Stayman without a stopper.
+It tends to show a singleton or void, otherwise responder might have
+used a negative double.
 
 [%autowidth,cols="^.^s,^,<.^",grid="none"]
 |===
-3+^| vs natural 2D
+3+^| vs natural 2H
 
-| !3C! || hearts, inv.{OrMore}
-| !3D! || Stayman without a stopper +
-         = at least one 4cM,
-	 _ #could be 5-4 majors either way#
-| !3H! || spades, inv.{OrMore}
-| !3S! || values for 3NT, no 4cM, no stopper +
-         > with no stopper
-	 _ opener bids a 5cM or 4C
-| 3NT || natural, shows a stopper
+|       || 1NT{emsp}(2H)
+|  ?    ||
+|  X    || take-out of {H}
+|  2S   || to play
+| !2NT! || clubs, competitive or better
+| !3C!  || diamonds, competitive or better
+| !3D!  || #spades# (transfer thru their suit),
+           [nobr]#{zwsp}##inv.{OrMore}## (2S is available)#
+| !3H!  || Stayman without {H}-stopper +
+| !3S!  || values for 3NT, no {H}-stopper
+|  3NT  || natural, shows a stopper
 |===
 
-==== 2D = 5{OrMore} of a known major
+==== Vs transfers
 
-2{lab}their major{rab} = Michaels
+[lavender-box]#If the bid suit shows at least five in a known suit,
+               then two of that suit is Michaels, and other bids are
+               the same as Rubensohl vs a natural bid in the known
+               suit#
 
-The three level bids are transfers as though they had made a natural
-bid of their major.
+*Example*
 
 [%autowidth,cols="^.^s,^,<.^",grid="none"]
 |===
 3+^| vs 2D = transfer to hearts
 
-| !3C! || diamonds, comp.{OrMore}
-| !3D! || spades, inv.{OrMore}
-| !3H! || Stayman without a stopper +
-| !3S! || asks for {H} stopper
-|  3NT || natural, shows {H} stopper
+|  X    || #take-out of diamonds#
+| !2H!  || spades + minor
+| other || as vs natural 2H
 |===
 
-==== 2D = single major (unknown suit)
+==== Vs Two Suiters
+
+[lavender-box]#If the bid suit is one of the suits, then we treat it
+               the same as a natural bid in that suit#
+
+_i.e._{thinsp} Three of the bid suit is a cue bid.
+
+It does not matter if the second suit is known or unknown.
+
+****
+{note}{nbsp}
+&Why we need a cue in the bid suit&
+
+With a GF hand and a singleton in the bid suit, responder cannot make a negative double.
+So the cue-bid tends to show shortness.
+****
+
+*Examples*
+
+(a):: 
+     2D = {D} + major (DONT) +
+     2D = {D} + {H} (Brozel) +
+     {zwsp} +
+     Treat like a natural 2D
+
+(b)::
+     2H = both majors (Brozel) +
+     {zwsp} +
+     Treat like a natural 2H
+
+(c)::
+     2S = {S} + minor (several) +
+     {zwsp} +
+     Treat like a natural 2S
+
+****
+{note}{nbsp}
+&With length in the bid suit& responder tends to pass on the first
+round and, with sufficient strength, double when they run to the other
+suit.
+
+The delayed double shows length in the first suit; similar to
+passing an overcall and doubling a new suit on the next round.
+****
+
+[lavender-box]#If the bid suit is NOT one of the suits, then there is
+               no cue-bid#
+
+*Example*
+
+(d)::
+     2D = majors (Cappelletti) +
+     2D = {S} + other (ASTRO) +
+     {zwsp} +
+     There is no cue-bid. +
+     All bids from 2NT to 3H are transfers to the next suit. +
+     {zwsp} +
+     3S (transfer to 3NT) tends to show both minors and no stopper
+     in the majors.
+
+// Transferring to one of the known suits at the 3-level tends to show
+// shortness in the other major unless responder follows with 3NT
+// to show a stopper in the second suit.
+
+==== Vs 2D = single major (unknown suit)
 
 @ All bids from 2NT to 3H are transfers +
 @ 3S = both minors
@@ -693,11 +745,7 @@ Otherwise, pass to discover their suit, then +
 @ other major = transfer to 3NT
 _ = asks for a stopper
 
-====  2D = both majors
-
-Same as vs 2D = one-major
-
-==== 2D = Suction = {H} {or} {S} + {C}
+==== Vs 2D = Suction = {H} {or} {S} + {C}
 
 @ use neg. dble with a suitable hand +
 @ pass with length in diamonds +
@@ -746,20 +794,6 @@ Otherwise, #assume that intervenor has hearts# +
 //                | 3D (Stayman without stopper) then pass
 //                  if opener bids 3NT
 // |===
-
-[#_1nt_interference_two_major]
-=== Vs TWO MAJOR
-
-vs: 2M = [ natural {or} M + m ]::
-  @ Rubensohl, 3M = cue
-
-vs: 2H = transfer = 5{OrMore}{xtimes}{S}::
-  @ 2S = Michaels +
-  @ Rubensohl, 3S = cue
-
-vs: 2H = both majors::
-  @ all bids from 2NT to 3H are transfers +
-  @ 3S = both minors
 
 === Vs 2NT (minors)
 
