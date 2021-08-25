@@ -503,7 +503,7 @@ When the interference is 2NT or lower:
 @ Texas is ON +
 @ 4S = quant. NT raise +
 @ **vs major:** [lavender-bg]#4NT = minors# +
-@ **vs minor:** [lavender-bg]#4C = majors#
+@ **vs minor:** #4C = majors#
 
 When the interference is 2NT or higher, we treat the situation
 similarly to when they make a preemptive opening-bid in that strain.
@@ -585,8 +585,8 @@ five-card suit; the same as after a penalty double is passed.
 === Vs 2C
 
 @ dble = take-out of clubs +
-@ other system ON, except for club
-_ bids when 2C shows clubs
+@ other system ON,
+_ #except for club bids when 2C shows clubs#
 
 ==== When 2C shows clubs
 
