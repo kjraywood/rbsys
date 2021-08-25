@@ -585,10 +585,15 @@ five-card suit; the same as after a penalty double is passed.
 === Vs 2C
 
 @ dble = take-out of clubs +
-@ other system ON
+@ other system ON, except for club
+_ bids when 2C shows clubs
 
-****
-.Vs 2C = natural
+==== When 2C shows clubs
+
+Applies when: +
+@ 2C = natural single-suit +
+@ 2C = clubs + second-suit,
+_ second-suit could be know or unknown
 
 Balanced Hands::
   The system-on meaning of 2S (balanced-invitation or {C}) is
@@ -614,7 +619,14 @@ Stayman without a stopper::
   #3C = Stayman without stopper# +
   {zwsp} +
   This applies whenever 2C shows clubs, including two-suiters with clubs.
-****
+
+Both majors::
+  #4C = both majors, at least 5-5# +
+  {zwsp} +
+  This is much more useful than ConFit.
+  Without this, responder would need to show spades then hearts,
+  but advancer (opponent) may raise clubs to a high level,
+  before responder has shown any strength.
 
 [#_rubensohl]
 === Rubensohl vs 2D, 2H or 2S
