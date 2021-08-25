@@ -182,44 +182,45 @@ Therefore, we use #simple 5-card-Stayman responses#
 As closely as possible, we follow the same scheme as interference with
 our 1NT opener.
 
-Texas transfers are ON when the interference is 2NT or lower.
-
-Suit-bids at the two level are natural.
+@ Texas transfers are ON when
+_ #the interference is 2NT or lower# +
+@ Two-level suit-bid = natural +
+@ <<#_rubensohl, Rubensohl>> applies
 
 ==== Vs Double
 
-pass = to play
+@ pass = to play +
+@ redouble = rescue
 
-redouble = rescue
-
-Other bids are Rubensohl, following the same scheme as after
-1NT-(2D).
+Bids from 2NT to 3S are transfers to the next available strain.
 
 If dble shows diamonds::
-  3D = cue-bid Stayman
+  @ 3D = cue-bid Stayman, no stopper +
+  @ #4C = majors# +
+  @ 4D, 4H = Texas
 
-If dble shows a known 5-card suit::
-  3{lab}known-suit{rab} = cue-bid Stayman
-
-If dble shows both majors, or dble shows one major::
+If dble = both majors, or dble = one unknown-major::
    there is no cue bid
 
 ==== Vs 2H or 2S
 
-Double = negative
-
-Cue bid = Stayman without stopper
+@ Double = negative +
+@ Cue bid = Stayman, no stopper +
 
 Bids from 2NT to 3S, except for a cue bid, are transfers to the next
 available strain
 
-The transfer to 3NT requests a stopper
+@ transfer to 3NT requests a stopper +
+@ Texas to other major is ON +
+@ [lavender-bg]#4S = quant. NT raise# +
+@ #4NT = minors#
 
 ==== Vs 2NT (minors)
 
 @ Double = Values +
 @ Landy and Transfers +
-@ 3S {blueRarrow} 3NT
+@ 3S {blueRarrow} 3NT +
+@ 4D, 4H = Texas
 
 Same as <<#_vs_2nt_minors_over_1nt, Vs 2NT (minors) over our 1NT opening>>
 
