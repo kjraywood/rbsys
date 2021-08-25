@@ -824,7 +824,7 @@ Also applies when: +
 
 [%autowidth,cols="2*^.^,<",grid="none"]
 |===
-|      || 1NT{emsp}(2NT)
+|      || 1NT or 2D{emsp}(2NT)
 |  ?   ||
 |  P   || nothing-to-say, or penalty-of-both-suits
           > subsequent double = penalty
@@ -835,7 +835,7 @@ Also applies when: +
 | !3D! || hearts, competitive or better
 | !3H! || spades, competitive or better
 | !3S! || after 1NT opening:{ensp}##not used## +
-          after Mexican-2\D opening:{ensp}[lavender-bg]##{blueRarrow} 3NT##
+          after Mexican-2\D:{ensp}[lavender-bg]##FORCES 3NT##
 | 3NT  || to play +
 2+<| !!4D!!,!!4H!! <| Texas transfers
 |===
