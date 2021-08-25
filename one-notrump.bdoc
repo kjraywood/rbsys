@@ -593,7 +593,7 @@ _ #except for club bids when 2C shows clubs#
 Applies when: +
 @ 2C = natural single-suit +
 @ 2C = clubs + second-suit,
-_ second-suit could be know or unknown
+_ second-suit could be known or unknown
 
 Balanced Hands::
   The system-on meaning of 2S (balanced-invitation or {C}) is
@@ -814,8 +814,6 @@ Otherwise, #assume that intervenor has hearts# +
 [#_vs_2nt_minors_over_1nt]
 === Vs 2NT (minors)
 
-[green-box]#Changed 2021-08-24#
-
 We use #Landy and Transfers# to put the overcaller on lead.
 
 Also applies when: +
@@ -841,9 +839,8 @@ Also applies when: +
 |===
 
 ****
-{note}{nbsp}
-Subsequent doubles are penalty because 1NT-(2NT)-X
-establishes the balance of power.
+NOTE: Subsequent doubles are penalty because 1NT-(2NT)-X
+      establishes the balance of power.
 
 If they open 2NT (minors) and we double (values), then our next double
 is take-out because we have not established the balance of power.
@@ -851,10 +848,10 @@ is take-out because we have not established the balance of power.
 
 === Vs 3m
 
-{caution} [blue]#3{lab}unbid-suit{rab} = NF#
+{caution} Uncommon system
 
-At the 4-level, we use #(non-)leaphing-Michaels#; similar to our defence
-to natural 2m or 3m openings.
+@ #3{lab}unbid-suit{rab} = NF# +
+@ 4-level bids = [lavender-bg]#non-leaping-Michaels#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -866,12 +863,18 @@ to natural 2m or 3m openings.
 | !4C! ||| #om + unknown M#
 | !4D! ||| #both majors#
 3+<| 4H,4S <| to play
+| 4NT  ||| natural (quant.)
 |===
 
 === Vs 3M
 
-Similar to vs their opening 3M, we play #non-leaping michaels# except
-that 4NT is natural; not both minors-weak.
+[lavender-bg]#Non-leaping michaels#, 4NT is natural
+
+****
+NOTE:  When they open 3M: +
+       @ 4M = both minors strong +
+       @ 4NT = both minors weak
+****
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
