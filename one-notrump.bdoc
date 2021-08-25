@@ -661,6 +661,9 @@ used a negative double.
 | !3H!  || Stayman without {H}-stopper +
 | !3S!  || values for 3NT, no {H}-stopper
 |  3NT  || natural, shows a stopper
+| !4H!  || Texas
+| !4S!  || [lavender-bg]#quant. NT raise#
+| !4NT! || #both minors#
 |===
 
 ==== Vs transfers
