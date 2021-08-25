@@ -498,7 +498,12 @@ undisclosed extras following a previous-round min or pre-decline.
 
 == Interference over 1NT
 
-Texas is ON when the interference is #2NT or lower#.
+When the interference is 2NT or lower:
+
+@ Texas is ON +
+@ 4S = quant. NT raise +
+@ **vs major:** [lavender-bg]##4NT = minors## +
+@ **vs minor:** [lavender-bg]##4C = majors##
 
 When the interference is 2NT or higher, we treat the situation
 similarly to when they make a preemptive opening-bid in that strain.
@@ -818,7 +823,7 @@ Also applies when: +
 |  X   || values
           > #next double = penalty# {smallnote}
 | !3C! || both majors
-          > 2D = "`__you pick__{thinsp}`"
+          > 3D = "`__you pick__{thinsp}`"
 | !3D! || hearts, competitive or better
 | !3H! || spades, competitive or better
 | !3S! || after 1NT opening:{ensp}##not used## +
