@@ -90,15 +90,19 @@ The usual rule in unconested auctions is that
 second-round jumps in unbid suits are natural and GF.
 However, a jump reverse or a jump above 3NT is a splinter
 and invites slam.
-Having been invited back into the auction, opener may
-use kickback to accept the invitation.
-
-[orange-box]#Hearts were bid on first round so 4S is kickback#
 
 See also
 <<uncontested-auctions-1.adoc#_3rd_suit_forcing,
   Third-suit forcing by responder>>
 ****
+
+A splinter invites opener back into the auction.
+
+Opener can decline by returning to four of the trump suit,
+or bid four of responder's major as an offer to play.
+
+#To accept, opener can use kickback which, in the above auction,
+will be 4S because hearts where bid on the first round.#
 
 .(b)
 [%autowidth,cols="3*^,<",grid="none"]
