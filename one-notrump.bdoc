@@ -498,7 +498,7 @@ undisclosed extras following a previous-round min or pre-decline.
 
 == Interference over 1NT
 
-Texas is ON when the interference is _below_{thinsp} 2NT.
+Texas is ON when the interference is #2NT or lower#.
 
 When the interference is 2NT or higher, we treat the situation
 similarly to when they make a preemptive opening-bid in that strain.
@@ -798,40 +798,43 @@ Otherwise, #assume that intervenor has hearts# +
 //                  if opener bids 3NT
 // |===
 
+[#_vs_2nt_minors_over_1nt]
 === Vs 2NT (minors)
 
-Similar to our defence to a 2NT opening that shows both minors
+[green-box]#Changed 2021-08-24#
 
-@ double = values
->> subsequent doubles are penalty {note1} +
-@ both cue-bids show both majors
-_ (3C = wk{or}str, 3D = medium) +
-@ 3M is competetive (NF)
-@ #Namyats at the 4-level#
+We use #Landy and Transfers# to put the overcaller on lead.
 
-****
-{note1}{emsp}Subsequent doubles are penalty because 1NT-(2NT)-X
-establishes the balance of power.  But when they open 2NT (minors) and
-we double (values), our next double is take-out because we have not
-established the balance of power.
-****
+Also applies when: +
+@ we open Mexican-2D, they bid 2NT (minors) +
+@ they open 2NT showing both minors
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="2*^.^,<",grid="none"]
 |===
 |      || 1NT{emsp}(2NT)
 |  ?   ||
-|  P   || nothing or penalty of both suits
+|  P   || nothing-to-say, or penalty-of-both-suits
           > subsequent double = penalty
 |  X   || values
-          > #next double = penalty#
-| !3C! || both majors, weak or strong
-| !3D! || both majors, medium
-2+<| 3H,3S <| competitive (NF, mild inv.)
+          > #next double = penalty# {smallnote}
+| !3C! || both majors
+          > 2D = "`__you pick__{thinsp}`"
+| !3D! || hearts, competitive or better
+| !3H! || spades, competitive or better
+| !3S! || after 1NT opening:{ensp}##not used## +
+          after Mexican-2\D opening:{ensp}[lavender-bg]##{blueRarrow} 3NT##
 | 3NT  || to play +
-2+<| !!4C!!,!!4D!! <| slammish in corresponding major
-                      {simto}{nbsp}Namyats
-2+<| 4H,4S <| to play
+2+<| !!4D!!,!!4H!! <| Texas transfers
 |===
+
+****
+{note}{nbsp}
+Subsequent doubles are penalty because 1NT-(2NT)-X
+establishes the balance of power.
+
+If they open 2NT (minors) and we double (values), then our next double
+is take-out because we have not established the balance of power.
+****
 
 === Vs 3m
 
