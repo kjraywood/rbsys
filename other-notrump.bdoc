@@ -177,15 +177,25 @@ Therefore, we use #simple 5-card-Stayman responses#
      {emsp}{thinsp}!!4H!! = agrees {S}
 |===
 
-=== Interference with Mexican 2D
+[#_interference_with_mexican_2d]
+=== Interference with Mexican-2D
 
 As closely as possible, we follow the same scheme as interference with
 our 1NT opener.
 
-@ Texas transfers are ON when
-_ #the interference is 2NT or lower# +
+When the interference is 2NT or lower:
+
 @ Two-level suit-bid = natural +
-@ <<#_rubensohl, Rubensohl>> applies
+@ <<#_rubensohl, Rubensohl>> +
+@ Texas transfers are ON when +
+@ **vs double:** #4C = majors# +
+@ **vs major:** #4NT = minors# +
+@ 4S = quant. NT raise
+
+****
+{warning}{nbsp} The meanings of 4S and 4NT are reversed compared with
+interference vs 1NT, to allow opener to play NT contracts.
+****
 
 ==== Vs Double
 

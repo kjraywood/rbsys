@@ -501,9 +501,19 @@ undisclosed extras following a previous-round min or pre-decline.
 When the interference is 2NT or lower:
 
 @ Texas is ON +
-@ 4S = quant. NT raise +
-@ **vs major:** [lavender-bg]#4NT = minors# +
-@ **vs minor:** #4C = majors#
+@ **vs minor:** #4C = majors# +
+@ **vs major:** #4S = minors# +
+@ 4NT = quant. NT raise +
+
+****
+.Interference with our Mexican-2\D
+
+We swap the meanings of 4S and 4NT so that opener can play
+the NT hands.
+
+_ !2D! - (2M) - !4S! = quant. NT raise +
+_ !2D! - (2M) - !4NT! = minors
+****
 
 When the interference is 2NT or higher, we treat the situation
 similarly to when they make a preemptive opening-bid in that strain.
@@ -598,7 +608,7 @@ _ second-suit could be known or unknown
 Balanced Hands::
   The system-on meaning of 2S (balanced-invitation or {C}) is
   replaced with: +
-  #2S = balanced-inv. or GF-without-stopper# +
+  2S = balanced-inv. or [lavender-bg]#GF-without-stopper# +
   {zwsp} +
   If going to game, opener can check for a stopper by bidding 3C. +
   {zwsp} +
@@ -606,27 +616,26 @@ Balanced Hands::
   stopper.
 
 Stayman with a stopper::
-  A negative double, followed 3NT shows at least one four-card major
-  and a stopper.
+  A [lavender-bg]#negative double followed by 3NT# shows at least one
+  four-card major and a stopper.
 
 Stayman without a stopper::
   With a singleton club responder can't use a negative double so needs
   a direct cue-bid as Stayman-without-stopper. +
   {zwsp} +
-  [lavender-bg]#So we need to give up the system-on meaning of 3C
-  (five-card Stayman).# +
+  So five-card Stayman is replaced with: +
+  3C = [lavender-bg]#Stayman without stopper# +
   {zwsp} +
-  #3C = Stayman without stopper# +
-  {zwsp} +
-  This applies whenever 2C shows clubs, including two-suiters with clubs.
+  This #applies whenever 2C shows clubs#, including two-suiters with clubs.
 
 Both majors::
-  #4C = both majors, at least 5-5# +
+  The system-on way to show both majors GF, is transfer to spades, then
+  second-round transfer to hearts.
+  In a contested auction there is a danger that advancer (opponent) may
+  raise clubs to a high level, before responder's second bid.
   {zwsp} +
-  This is much more useful than ConFit.
-  Without this, responder would need to show spades then hearts,
-  but advancer (opponent) may raise clubs to a high level,
-  before responder has shown any strength.
+  Therefore, we replace Confit with: +
+  4C = #both majors, at least 5-5# +
 
 [#_rubensohl]
 === Rubensohl vs 2D, 2H or 2S
@@ -642,7 +651,7 @@ suit at the three-level shows at least invitational strength.
 
 A transfer to 3NT requests a stopper.
 
-A cue-bid is Stayman without a stopper.
+[lavender-bg]#A cue-bid is Stayman without a stopper.#
 It tends to show a singleton or void, otherwise responder might have
 used a negative double.
 
@@ -658,12 +667,12 @@ used a negative double.
 | !3C!  || diamonds, competitive or better
 | !3D!  || #spades# (transfer thru their suit),
            [nobr]#{zwsp}##inv.{OrMore}## (2S is available)#
-| !3H!  || Stayman without {H}-stopper +
+| !3H!  || Stayman, no {H}-stopper +
 | !3S!  || values for 3NT, no {H}-stopper
 |  3NT  || natural, shows a stopper
 | !4H!  || Texas
-| !4S!  || [lavender-bg]#quant. NT raise#
-| !4NT! || #both minors#
+| !4S!  || #both minors#
+| 4NT   || quant. NT raise
 |===
 
 ==== Vs transfers
@@ -785,8 +794,8 @@ Otherwise, #assume that intervenor has hearts# +
 // | (P) | 2S  | (P)  | 3H{thinsp}*
 // |===
 
-// {biglowast} Responder has five hearts, less than four spades, GF values, and a
-// stopper in diamonds.
+// {biglowast} Responder has five hearts, less than four spades, GF values, and
+// a stopper in diamonds.
 
 // [%autowidth,cols="4*^", grid="none"]
 // |===
