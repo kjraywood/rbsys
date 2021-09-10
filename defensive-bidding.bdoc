@@ -580,10 +580,14 @@ As before, reopener is limited by the failure to act on the previous round.
 
 == Defence to Preempts
 
-@ Double = take-out thru 4S
-@ Lebensohl after double of 2M
-@ Leaping Michaels
-@ Non-leaping Michaels
+@ Double = take-out thru 4S +
+@ Lebensohl after double of two #MAJOR# +
+
+vs weak-two: ::
+  Leaping Michaels and [lavender-bg]#weak Michaels#
+
+vs 3-level opening: ::
+  Non-leaping Michaels
 
 [#_leb_vs_weak_twos]
 === Lebensohl after we double their weak TWO-MAJOR
@@ -593,31 +597,31 @@ https://kwbridge.com/leb.htm[
 _Lebensohl over Weak 2-Bids_]
 __ {nbsp}{ndash}{nbsp} Karen Walker +
 
-WARNING: We do NOT use Lebensohl after a double of TWO DIAMONDS
+WARNING: #We do NOT use Lebensohl after a double of TWO DIAMONDS#
 
 ==== Responding to double of 2M
 
-Follows normal scheme for showing weakness or extras when less than GF.
+Normal scheme for weak and invitational hands: +
+@ new-suit @ 3-level = invitational +
+@ 2NT {blueRarrow} 3C
+> new-suit = weak
 
-#Immediate game bids are to play# (which is what they sound like).
-Thus: +
-@ a jump to four other-major usually has
-_ at least five cards in the suit +
-@ a fast 3NT shows a stopper and
-_ #denies four of the other major#
+*When advancer has GF values:*
 
-With less than four of the other major and no stopper in the weak-two
-suit, we try for 3NT by asking for a stopper.  Thus: +
-@ a fast cue-bid asks for a stopper and
-_ #denies four of the other major#
+[lavender-box]#direct bids (not via 2NT) deny exactly four of the
+               other major#
 
-A cue-bid could also be the beginning of a slam-try.
+@ jump to 4oM {implies} 5{OrMore}{xtimes}oM +
+@ 3NT = shows stopper, fewer than 4*oM +
+@ cue-bid = asks for stopper, fewer than 4*oM +
 
-With #four of the other major# and GF values, we use the slow route
-through 2NT to offer a #choice-of-game#:
+[lightgrey-box]#{note}{nbsp} A cue-bid could also be the beginning of
+                a slam-try#
 
-@ a cue-bid denies a stopper +
-@ 3NT shows a stopper
+[lavender-box]#the slow route via 2NT shows four of the other major#
+
+@ slow cue = 4*oM, no stopper +
+@ slow 3NT = 4*oM, with a stopper
 
 [horizontal]
 Summary: :: we use slow/fast to show/deny #FOUR in OTHER MAJOR#
@@ -631,8 +635,9 @@ Summary: :: we use slow/fast to show/deny #FOUR in OTHER MAJOR#
 | !2NT! |      | Lebensohl
 2+<| 3m,3H    <| natural, positive
 | !3S!  |      | GF, no{nbsp}{S}{hyph}stopper,
-                [nobr]#not 4*{H}#
+                [nobr]#fewer than 4*{H}#
 | 3NT   |      | to play
+| 4H    |      | to play, 5{OrMore}{xtimes}{H}
 |===
 
 [%autowidth,cols="3*^,2*<",grid="none"]
@@ -640,19 +645,19 @@ Summary: :: we use slow/fast to show/deny #FOUR in OTHER MAJOR#
 |       |  (2S) |  X   | (P) | {emsp}{tab}{emsp}
 | !2NT! |  (P)  | !3C! | (P) |
 |  ?    |    3+<|
-2+<| P,3D,3H 3+<| to play
-| !3S!  |    3+<| COG, no{nbsp}{S}{hyph}stopper, 4*{H}
-| !3NT! |    3+<| COG, {S}{hyph}stopper, 4*{H}
+2+<| P,3D,3H 3+<| natural, weak
+| !3S!  |    3+<| 4*{H}, no{nbsp}{S}{hyph}stopper
+| !3NT! |    3+<| 4*{H}, {S}{hyph}stopper
 |===
 
 ==== They open 2H, we double
 
-Advancer can bid 2S to show a weak hand with spades so we have two
-ways to show a positive with spades.
-We use Lebensohl 2NT, followed by 3S to show exactly four spades
-(other major) and invitational values.
+2S = weak hand with spades
 
-This follows the scheme of #slow shows four in the other major.#
+{implies} two ways to show positive with spades
+
+[lavender-box]#slow shows four in the other major#
+
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -673,9 +678,9 @@ This follows the scheme of #slow shows four in the other major.#
 | !2NT! | (P)  | !3C! | (P) |
 |  ?    |   3+<|
 2+<| P,3D   3+<| to play
-| !3H!  |   3+<| COG, no{nbsp}{H}{hyph}stopper, 4*{S}
+| !3H!  |   3+<| 4*{S}, no{nbsp}{H}{hyph}stopper
 |  3S   |   3+<| #four-card suit, inv#
-| !3NT! |   3+<| COG, {H}{hyph}stopper, 4*{S}
+| !3NT! |   3+<| 4*{S}, {H}{hyph}stopper
 |===
 
 // http://andrew-gumperz.blogspot.ca/2011/12/bidding-over-4-level-preempts.html
@@ -753,7 +758,8 @@ majors.
 |      |      |     | 5om  | | to play
 |===
 
-=== Vs 2NT-Opening = minors
+[#_vs_unusual_2nt_opening]
+=== Vs 2NT-Opening that shows minors
 
 // A 2NT opening showing a weak hand with both minors is part of Fantunes
 // and Polish Club.
