@@ -809,13 +809,11 @@ Pass with both minors
 Double shows values but not both minors +
 > #a subsequent double by either = take-out#
 
-****
 NOTE: Subsequent doubles are takeout because we have not established
-      the balance of power.
-
-After 1NT-(2NT)-X , subsequent doubles are penalty because pass
-is forcing.
-****
+      the balance of power. +
+      +
+      However, after 1NT-(2NT)-X , subsequent doubles are penalty
+      because pass is forcing.
 
 [%autowidth,cols="^,2*<",grid="none"]
 |===
@@ -829,5 +827,4 @@ is forcing.
 | !4H! || spades
 |===
 
-[lightgrey-box]#{note}{nbsp} 6{times}{H} + 4{times}{S} transfers to hearts
-                then bids 3{S}#
+NOTE: 6{times}{H} + 4{times}{S} transfers to hearts then bids 3{S}
