@@ -615,8 +615,7 @@ Normal scheme for weak and invitational hands: +
 @ 3NT = shows stopper, fewer than 4*oM +
 @ cue-bid = asks for stopper, fewer than 4*oM +
 
-[lightgrey-box]#{note}{nbsp} A cue-bid could also be the beginning of
-                a slam-try#
+NOTE: A cue-bid could also be the beginning of a slam-try
 
 [lavender-box]#the slow route via 2NT shows four of the other major#
 
@@ -699,7 +698,7 @@ Applies after weak two or Fantunes 2M opening.
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | (2M) | ?     | |
-|      | !3M!  | | some solid suit, requests{nbsp}stopper
+|      | !3M!  | | [lavender-box]#weak Michaels#
 |      | !4m!  | | m + oM, GF
 |      | !4M!  | | both minors, strong
 |      | !4NT! | | both minors, weak
@@ -756,6 +755,38 @@ majors.
 | (P)  | 4M   |     |  ?   | |
 |      |      |     | 4NT  | | KC in M
 |      |      |     | 5om  | | to play
+|===
+
+=== Weak Michaels vs Weak Two
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|     | (2H) | !3H!* {ensp} (P) {tab} {biglowast} {S} + m
+
+| ?   |      |
+2+<| 3S,4S  <| to play
+| 3NT |      | natural
+| 4C  |      | pass or correct 
+| 4D  |      | good fit for {C}, pass or correct 
+| 4H  |      | slam try
+               > 4S = poor, 5m = good
+| 4NT |      | asks for minor		    
+2+<| 5C,5D  <| to play
+|===
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|     | (2S) | !3S!* {ensp} (P) {tab} {biglowast} {H} + m
+
+| ?   |      |
+| 3NT |      | natural
+| 4C  |      | pass or correct 
+| 4D  |      | good fit for {C}, pass or correct 
+| 4H  |      | to play
+| 4S  |      | slam try
+               > 4NT = poor, 5m = good
+| 4NT |      | asks for minor		    
+2+<| 5C,5D  <| to play
 |===
 
 [#_vs_unusual_2nt_opening]
