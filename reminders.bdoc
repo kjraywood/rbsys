@@ -30,15 +30,16 @@
 	       2{lab}red-suit{rab} = transfer +
 	       2S{or}3m = 4{times}M + 6{times}m
                
-| Standard +
-  Leb.       | 3{lab}suit{rab} = F, no stopper +
-                Neg. X then 3oM
-		_ = #5{times}oM, F with stopper#
+| Rubensohl | T'fers thru their suit +
+              Neg. X then 3oM
+		_ = #5{times}oM, F with stopper# +
+              Neg. X then 3NT
+		_ = #4{times}oM, F with stopper#
 | vs 2NT +
-  (minors)   | 3C = majors, #weak or strong# +
-	       3D = majors, #inv.# +
-               3M = competitive, #NF# +
-	       4-lev. = #Namyats#
+  (minors)   | Landy and transfers +
+	       4C = 6-6 majors +
+	       Texas transfers +
+	       4S = minors
 | vs 3m      | 3{lab}suit{rab} = competitive, #NF# +
 	       #4C = om + M#
                > 4D asks
@@ -212,7 +213,7 @@
 @ #Jump cue = transfer to 3NT# +
 @ 2oM = neg. free bid
 @ 3oM = 6*oM, GF +
-@ After neg. dble, 1M by opener DENIES 4*M
+@ After neg. dble, 1M by opener denies 4*M
 
 |===
 
@@ -223,11 +224,12 @@
 ^| Uncontested Auctions
 
 | 2^nd^-round raise of minor = GF +
-| #jump reverse = GF splinter#
+| [orange-box]#jump rev, = GF splinter ???#
 | reverse after 1NT resp.
   >> #2NT = NF# +
 | we bid 3 suits
   >> jump to 3NT = 16-17 +
+  >> 4NT = 18-19 +
 | #non-forcing back-preferences# +
   {emsp}1C{ndash}1H; 2H{ndash}3C = inv., 4*{H}, 4{OrMore}{xtimes}{C} +
   {emsp}1H{ndash}1S; 2S{ndash}3H = 3-cd LR, 4*{S}
