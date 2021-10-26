@@ -234,6 +234,87 @@ available strain
 
 Same as <<#_vs_2nt_minors_over_1nt, Vs 2NT (minors) over our 1NT opening>>
 
+=== Vs double of 2S response 
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| !2D! | (P) | !2S! | X |
+|  ?   |     |      |   |
+|  P   |  3+<| shows stopper
+|  XX  |  3+<| denies stopper
+|===
+
+==== Opener passes the double
+
+Opener shows a stopper.
+
+Responder can redouble to resume the normal auction, but must have at
+least a doubleton spade so that opener can pass it out with a
+five-card spade holding.
+
+With shortness in spades, responder takes the intended second-round
+action; 3C = 5-card Stayman, 3D = transfer to hearts, _etc._
+
+==== Opener redoubles
+
+Opener denies a stopper so there's no advantage in having opener
+declare.
+
+Therefore the regular responses are OFF and bids in hearts or NT are
+to play.
+
+Playing in spades is no longer an option, but esponder may still need
+to know opener's heart length.
+So 3C asks only about heart length.
+
+Responder's 3S, either directly or after asking for heart length, is
+used to scramble to a four of a minor.
+
+With a single-suited slam-try in a minor-suit, responder's only option
+is signing off in five minor or optional minorwood.
+This decision will be guided by knowing about opener's lack of values
+in spades.
+
+[%autowidth,cols="4*^,2*<",grid="none"]
+|===
+| !2D! | (P) | !2S! | (X) ||
+| !XX! | (P) |  ?   |     ||
+|      |     |  2NT |     || to play
+|      |     | !3C! |     || asks for heart length +
+                             > 3D=3, 3H=2, 3S=4, 3NT=5
+|      |     | !3D! |     || #{H} + minor, GF#
+|      |     |  3H  |     || to play
+|      |     | !3S! |     || scramble for a minor
+|      |     |  3NT |     || to play
+|      |  3+<| !4C!, !4D! <| optional minorwood
+|      |     |  4H  |     || to play
+|      |  3+<| 5C, 5D     <| to play
+
+|===
+
+NOTE: Opener's replies to 3C allow responder to declare most heart
+      contracts
+
+As mention above, using 3S is also a scramble to a minor on the second
+round.
+
+[%autowidth,cols="4*^,2*<",grid="none"]
+|===
+|     | !2D! | (P) | !2S! || forces 2NT
+| (X) | !XX! | (P) | !3C! || request heart length
+| (P) | 3D, 3H | (P) | !3S! || scramble for a minor
+|===
+
+// The 2S response is based on one of: +
+// @ bad hand intending to pass 2NT +
+// @ GF hand planning to use five-card Stayman +
+// @ weak hand with hearts, intending to
+// _ transfer then pass +
+// @ GF hand with five-hearts, intending to
+// _ transfer then either bid 3NT or
+// _ show a minor suit +
+// @ strong single-suited minor-suit hand
+
 === Sequences released by Mexican 2D
 
 See <<#_jump_rebids_by_opener,
