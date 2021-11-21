@@ -225,6 +225,44 @@ available strain
 @ [lavender-bg]#4S = quant. NT raise# +
 @ #4NT = minors#
 
+[#_rubensohl_after_mexican]
+==== Rubensohl Continuations after Mexican 2D
+
+When they interfere with 2H, we have 2S available for sign-off, so our
+3D transfer-to-spades shows a stronger hand. +
+
+After our Mexican-2{D} opening, we have less need for invitational
+hands and making it GF allows us to sort out a heart stopper.
+
+@ 1NT{ndash}(2{H}){ndash}3{D} = spades, inv{OrMore}  +
+@ !2D!{ndash}(2{H}){ndash}3{D} = spades, GF +
+
+[%autowidth,cols="^.^s,^,<.^",grid="none"]
+|===
+3+^| vs natural 2H after Mexican 2D
+
+|       || !!2D!!*{emsp}(2H){ensp}{emsp} {biglowast} 18-19 balanced
+|  ?    ||
+|  X    || take-out of {H}
+|  2S   || to play
+| !2NT! || clubs, competitive or better
+| !3C!  || diamonds, competitive or better
+| !3D!  || spades #(transfer thru their suit)#,
+           [nobr]#{zwsp}GF ##(no inv. after Mexican)##{zwsp}#
+| !3H!  || Stayman, no {H}-stopper +
+| !3S!  || values for 3NT, no {H}-stopper
+| 3NT   || to play
+|===
+
+[%autowidth,cols="5*^,<", grid="none"]
+|===
+| !2D! | (2H) | !3D!* | (P) || {biglowast} {S}, GF 
+|  ?   |   4+<|
+| !3H! |   4+<| no stopper
+| !3S! |   4+<| {S}-fit with {H}-control
+| 3NT  |   4+<| no {S}-fit, {H} stopper
+|===
+
 ==== Vs 2NT (minors)
 
 @ Double = Values +
