@@ -74,8 +74,6 @@ possible if the hands fit well.
 for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 4M).
 
-==== Summary
-
 [%autowidth,cols="^,2*<",grid="none"]
 |===
 | 1m  | 1S       |
@@ -84,34 +82,27 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 |     | 3S       | 1-loser suit, or set trump for KC ask
 |===
 
-// === Choice-of-game
+[#_game_forcing_checkback]
+=== Game-Forcing Checkback
 
-// [%autowidth,cols="3*^,<",grid="none"]
-// |===
-// | 1C   |  1H   | |
-// | 1NT  | !2C!  | |
-// | !2D! | !3NT! | | Choice of game
-// |===
+==== Priorities for opener
 
-// _e.g._{thinsp} {S}{thinsp}Kxx {H}{thinsp}KQxxx {D}{thinsp}KQx {C}{thinsp}Jx
-
-// [TIP]
-// ====
-// Using the 2C relay always invites something.
-// Here it invites opener to bid 4M with a good hand for suit play.
-// ====
-
-=== Game-forcing Checkback
-
-Priorities for opener: +
-@ other-major first +
+@ #other-major first# +
 @ 3m = good 5 or 6 card suit +
 @ 2NT = none of the above
 
+// &Responder's hand-types& +
+// @ 4-4 majors, seeking fit in other major +
+// @ 5{OrMore}{xtimes}M, unbalanced,
+// _ fewer than 4*m if slammish
+// _ (otherwise responder uses 2NT{blueRarrow}3C) +
+// @ 5332 COG (3NT vs 4M)
+
 ==== Responder's rebid
 
-Responder's rebid of 2NT promises five in first suit and requests more
-info.
+[lavender-box]#If opener shows the other major, responder's rebid of
+               2NT promises five in first suit and requests more
+               info.#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -119,19 +110,57 @@ info.
 | 1NT | !2D! ||
 | 2H  |  ?   ||
 |     | 2S   || 6{orMore}{xtimes}{S}
-|     | 2NT  || 5{orMore}{xtimes}{S}, requests further description
+|     | 2NT  || 5{xtimes}{S}, requests further description
 |     | 3H   || slam try in {H}
 |     | 4H   || sign off
 |===
 
+// Returning to opener's minor suggests slam interest
+
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1D  |  1S  ||
+// | 1NT | !2D! ||
+// | 2NT |  ?   ||
+// |     | 3C   || 4*{C}
+// |     | 3H   || 5-5 Majors, non-pure
+// |===
+
+Opener's priority of showing the other-major first, ensures that we
+will find a fit there quickly.
+
+Therefore, in the following auction only, responder's 2S shows a heart
+fit and concentration of strength.
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1D  |  1S  | |
-| 1NT | !2D! | |
-| 2NT |  ?   | |
-|     | 3C   | | 4*{C}
-|     | 3H   | | 5-5 Majors, non-pure
+| 1m  |  1H  ||
+| 1NT | !2D! ||
+| 2H  | !2S! || heart-fit, spade strength
 |===
+
+It could be the first-move in a slam investigation or a choice-of-game.
+
+==== Other Choice-of-game auctions
+
+When opener shows 3-card support for responder's major, then responder
+can bid 2NT for more info.
+
+Opener then shows location of strength.
+
+With a 5332 hand responder may then choose 3NT if opener's strength
+matches responder's weakness.
+
+[%autowidth,cols="2*^",grid="none"]
+|===
+| 1D  |  1S
+| 1NT | !2D!
+| 2S  | 2NT
+| 3C  | 3NT
+|===
+
+Responder will need good hearts for this auction because opener could
+be weak there.
 
 // ==== Slam trys and non-serious 3NT
 
