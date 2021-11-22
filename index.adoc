@@ -102,21 +102,25 @@
             Balancing>> +
 {nbsp} 41. <<system.adoc#_defence_to_preempts,
             Defence to Preempts>> +
+{nbsp} 42. <<system.adoc#_kastro_vs_nt,
+            KASTRO_vs_NT>> +
 
 <<system.adoc#_competitive_bidding, *Competitive Bidding*>> +
-{nbsp} 42. <<system.adoc#_support_double,
+{nbsp} 43. <<system.adoc#_support_double,
             Support Double>> +
-{nbsp} 43. <<system.adoc#_2nt_in_comp,
+{nbsp} 44. <<system.adoc#_2nt_in_comp,
             2NT in competitive auctions>> +
-{nbsp} 44. <<system.adoc#_doubling_cue_bids,
+{nbsp} 45. <<system.adoc#_doubling_cue_bids,
             Doubling cue-bids>> +
-{nbsp} 45. <<system.adoc#_doubling_artificial_bids,
-            Doubling Artificial Bids>> +
+{nbsp} 46. <<system.adoc#_defence_to_transfers,
+            Defence to Transfers>> +
+{nbsp} 47. <<system.adoc#_vs_other_artificial_bids,
+            Vs other artificial bids>> +
 
 <<system.adoc#_leads_and_carding, *Leads and Carding*>> +
-{nbsp} 46. <<system.adoc#_opening_leads,
+{nbsp} 48. <<system.adoc#_opening_leads,
             Opening Leads>> +
-{nbsp} 47. <<system.adoc#_carding,
+{nbsp} 49. <<system.adoc#_carding,
             Carding>> +
 
 '''
