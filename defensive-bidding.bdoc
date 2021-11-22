@@ -1,5 +1,3 @@
-:sectnumoffset: 33
-
 = Defensive Bidding
 
 == Take-out doubles
@@ -889,3 +887,117 @@ Redouble = at least 5{ndash}5 in other two suits
                > overcaller passes with 5{xtimes}{D}
 | XX |    4+<| none of the above, 5{ndash}5 in {H}{ndash}{C}
 |===
+
+== Defence to transfers
+
+=== Double of transfer
+
+[lavender-box]#double of transfer = take-out of suit they show#
+
+Applies when: +
+
+@ they transfer at the #2 level# after
+_ their 1NT opening (any strength)
+
+@ they play transfer responses to 1C +
+
+@ they open Flannery 2D
+
+=== Bidding the transfer suit
+
+If their transfer is at the 2-level, bidding their suit is Michaels.
+
+If their transfer is at the 1-level, bidding their suit is natural.
+
+=== Example after their 1NT opening
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|    | (1NT) | P | (!!2D!!) || transfer to {H}
+| ?  |    4+<|
+| X  |    4+<| take-out of {H}
+| 2H |    4+<| {S} + minor (Michaels)
+|===
+
+[CAUTION]
+====
+Vs weakNT, the take-out double should not be light.
+With a light double, pass and reopen if they stop low.
+====
+
+[#_vs_transfers_after_their_1C]
+=== They play transfers after their 1C opening
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|    | (1C) | P | (!!1H!!) || 4{OrMore}{xtimes}{S}
+| ?  |   4+<|
+| X  |   4+<| take-out of {S}
+| 1S |   4+<| #natural#
+|===
+
+NOTE: Their 1-level transfers only show four-card suits.
+      When we have a length in the suit bid on our right,
+      we may want to play in that suit so we take advantage
+      of the extra step that their transfers have given us.
+
+Their 1S response usually denies a four-card major; hence often has
+diamonds.
+We treat it like a 1D response, hence
+#our double of 1S shows BOTH majors.#
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|      | (1C) | P {ensp} (!!1S!!) {emsp} no 4-card major
+|   ?  |      |
+|   X  |      | #both majors#, 4{ndash}4 or 5{ndash}4 either way, +
+                {simto} a take-out double of a natural 1D response
+|  1NT |      | natural, 16{ndash}19 +
+                > 2C=nat., 2D=cue-Stayman
+| !2C! |      | both majors, at least 5{ndash}5
+|  2D  |      | natural
+|===
+
+[CAUTION]
+====
+If they play transfers over our take-out double, then we play
+completely natural.
+
+Double shows the suit they bid, and bidding the suit they
+show (which might only be four cards) is also natural.
+====
+
+== Vs other artifical bids
+
+[#_double_of_splinter]
+=== Double of their first-round splinter
+
+Double of their first-round splinter is #lead-directing for the
+next-higher suit#
+
+[lightgrey-box]#(1{S}){emsp}P{emsp}(!!4{C}!!){emsp}X# requests {D}-lead
+
+[lightgrey-box]#(1{H}){emsp}P{emsp}(!!4{D}!!){emsp}X# requests {S}-lead
+
+=== General principles vs artificial bids
+
+If their artificial bid is non-forcing, meaning that it can be passed
+when the bidder's partner has length in the bid suit, then our double
+is for take-out of the suit they bid, not the suit they show.
+
+_Examples_ +
+@ artificial defence to our 1NT +
+@ weak-only multi-2D
+
+TIP:  If we cannot double a non-forcing bid with shortness in
+      the bid suit, then we risk the auction ending there.
+
+If their artificial bid is forcing then, except for the cases shown in
+the previous two sub-sections, our double shows the suit that they bid.
+
+_Examples_ +
+@ Bergen Raises +
+@ Drury Raises +
+@ KC responses +
+@ Stayman +
+@ Transfers at 3-level or higher
