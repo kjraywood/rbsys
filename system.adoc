@@ -16,8 +16,8 @@ include::higher-openings.adoc[]
 
 include::slam-conventions.adoc[]
 
-include::defensive-bidding.adoc[]
-
 include::competitive-bidding.adoc[]
+
+include::defensive-bidding.adoc[]
 
 include::defence.adoc[]
