@@ -46,7 +46,7 @@
 {nbsp} 16. <<system.adoc#_opener_raises,
              1m{ndash}1M{semicolon} 2M>> +
 {nbsp} 17. <<system.adoc#_1h_1s_2s,
-             1H{ndash}1S{semicolon}2S>> +
+             1H{ndash}1S{semicolon} 2S>> +
 {nbsp} 18. <<system.adoc#_reverses,
              Reverses>> +
 {nbsp} 19. <<system.adoc#_jump_rebids_by_opener,
