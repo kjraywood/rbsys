@@ -829,3 +829,63 @@ NOTE: Subsequent doubles are takeout because we have not established
 |===
 
 NOTE: 6{times}{H} + 4{times}{S} transfers to hearts then bids 3{S}
+
+== KASTRO vs NT
+
+[#_vs_double_of_kastro]
+=== When our KASTRO call is doubled
+
+==== General
+
+Passing asks for the 5-card suit, or pass if we are already in it.
+Thus it shows at least a doubleton in the doubled suit.
+
+Bidding a new suit is to play.
+
+Redouble = at least 5{ndash}5 in other two suits
+
+==== They play strong-NT
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|    | (1NT) | !!X!!* | (XX) || {biglowast} {H} + other
+| ?  |    4+<|
+| 2H |    4+<| to play
+2+<| 2C,2D,2S 4+<| long suit, to play
+| P  |    4+<| asks for 5-card suit
+|===
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|    | (1NT) | !!2C!!* | (X) || {biglowast} {S} + other
+| ?  |    4+<|
+| 2S |    4+<| to play
+2+<| 2D,2H 4+<| long suit, to play
+| P  |    4+<| asks for 5-card suit, {C} tolerance +
+               > overcaller passes with 5{xtimes}{C}
+| XX |    4+<| none of the above, 5{ndash}5 in the red-suits
+|===
+
+==== They play weak-NT
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|    | (1NT) | !!2C!!* | (X) || {biglowast} {H} + other
+| ?  |    4+<|
+| 2H |    4+<| to play
+2+<| 2D,2S 4+<| long suit, to play
+| P  |    4+<| asks for 5-card suit, {C} tolerance +
+               > overcaller passes with 5{xtimes}{C}
+| XX |    4+<| none of the above, 5{ndash}5 in {D}{ndash}{S}
+|===
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|    | (1NT) | !!2D!!* | (X) || {biglowast} {S} + other
+| ?  |    4+<|
+| 2S |    4+<| to play
+2+<| 2H,3C 4+<| long suit, to play
+| P  |    4+<| asks for 5-card suit, {D} tolerance +
+               > overcaller passes with 5{xtimes}{D}
+| XX |    4+<| none of the above, 5{ndash}5 in {H}{ndash}{C}
+|===
