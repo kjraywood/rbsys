@@ -896,18 +896,20 @@ Redouble = at least 5{ndash}5 in other two suits
 
 Applies when: +
 
+@ they play transfer responses to 1C +
+
 @ they transfer at the #2 level# after
 _ their 1NT opening (any strength)
-
-@ they play transfer responses to 1C +
 
 @ they open Flannery 2D
 
 === Bidding the transfer suit
 
-If their transfer is at the 2-level, bidding their suit is Michaels.
+[lavender-box]#If their transfer is at the 1-level, bidding their suit
+               is natural.#
 
-If their transfer is at the 1-level, bidding their suit is natural.
+[lavender-box]#If their transfer is at the 2-level, bidding their suit
+               is Michaels.#
 
 === Example after their 1NT opening
 
