@@ -225,17 +225,38 @@ _ (if a jump reverse in that suit is not available)
 The Mexican 2D allows us to use 2NT to provide more definition to
 opener's jump rebid.
 
-* Jump rebid of original-suit includes three-card support for
-  responder's major
+[lavender-box]#Jump rebid of original-suit includes three-card support for
+               responder's major#
 
-* Jump to 2NT shows either: +
-  @ a jump-rebid hand  with less than three
-  _ in responder's major, +
-  _ -OR- +
-  @ a single-suited GF hand that is not suitable
-  _ for a jump to 3NT
+Jump to 2NT shows either: +
+@ a jump-rebid hand with less than three
+_ in responder's major, +
+_ -OR- +
+@ a single-suited GF hand that is not suitable
+_ for a jump to 3NT
 
-==== 1m {ndash} 1M{semicolon} 3m
+==== Opener jump rebids a minor-suit
+
+A new-suit is typically a notrump probe, and #raising opener's minor
+to four is minorwood#.
+
+[NOTE]
+====
+Opener's jump rebid is a tight-range invitation, so raising to 4m must
+be forcing.
+
+Therefore, we define it as minorwood because there's no way to set the
+minor as trump for kickback
+====
+
+==== 1H{ndash}1S{semicolon} 3H
+
+@ 3S = forcing, sets spades as trump
+
+@ 4m = sets hearts as trump
+
+
+==== Examples Auctions
 
 .(a)
 [%autowidth,cols="3*^,<",grid="none"]
@@ -269,8 +290,7 @@ NOTE: Responder doesn't need natural bids that show 5{ndash}5 because
 |      | !5C!  || exclusion, trump = {D} 
 |===
 
-==== 1H {ndash} 1S{semicolon} 3H
-
+.(c)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1H  | 1S ||
