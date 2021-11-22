@@ -222,7 +222,8 @@ _ (if a jump reverse in that suit is not available)
 // This section is referenced from
 // <<slam-conventions.adoc#_minorwood_after_jump_rebid>>
 
-The Mexican 2D allows us to use 2NT to provide more definition to opener's jump rebid.
+The Mexican 2D allows us to use 2NT to provide more definition to
+opener's jump rebid.
 
 * Jump rebid of original-suit includes three-card support for
   responder's major
@@ -234,9 +235,9 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
   @ a single-suited GF hand that is not suitable
   _ for a jump to 3NT
 
-*Examples*
+==== 1m {ndash} 1M{semicolon} 3m
 
-.(a) 1m {ndash} 1M{semicolon} 3m
+.(a)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1C  | 1S ||
@@ -250,8 +251,8 @@ The Mexican 2D allows us to use 2NT to provide more definition to opener's jump 
 |    | 4NT  || unused
 |===
 
-NOTE: Responder doesn't need natural bids that show 5{ndash}5 because opener
-      has promised three spades
+NOTE: Responder doesn't need natural bids that show 5{ndash}5 because
+      opener has promised three spades
 
 .(b)
 [%autowidth,cols="3*^,<",grid="none"]
@@ -268,7 +269,8 @@ NOTE: Responder doesn't need natural bids that show 5{ndash}5 because opener
 |      | !5C!  || exclusion, trump = {D} 
 |===
 
-.(c) 1\H {ndash} 1\S{semicolon} 3\H
+==== 1H {ndash} 1S{semicolon} 3H
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1H  | 1S ||
@@ -282,7 +284,7 @@ NOTE: Responder doesn't need natural bids that show 5{ndash}5 because opener
 |      | !5C!, !5D! || exclusion, trump = {H} 
 |===
 
-=== Jump rebid of 2NT of 3\C
+=== Jump rebid of 2NT or 3\C
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
