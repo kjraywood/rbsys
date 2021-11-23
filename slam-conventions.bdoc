@@ -9,16 +9,13 @@ minorwood instead of kickback.
 
 == Minorwood
 
-Applies by an unpassed hand when four of the agreed minor is not
-needed as a natural bid.
-
-*Cases:*
+There are only two cases and both are a jump.
 
 @ jump to 4m after minor-suit agreement
+_ [lavender-bg]#by either player#
 
-@ second-round jump-raise to 4m by #responder#
-
-@ raise by responder after jump rebid by opener
+@ second-round jump-raise to 4m
+_ [lavender-bg]#by responder only#
 
 === Jump to FOUR MINOR after minor-suit agreement
 
@@ -72,9 +69,9 @@ Applies when 2m is opener's second bid.
 |  2D |  ?   ||
 |     |  3D  || GF
 |     |  3H  || GF
-|     | !3S! || #splinter#
+|     | !3S! || #splinter# {smallnote}
 |     |  3NT || to play
-|     | !4C! || #splinter#
+|     | !4C! || #splinter# {smallnote}
 |     | !4D! || [lavender-bg]#minorwood#
 |     |  4H  || to play
 |     | !4S! || exclusion, trump = {D}
@@ -82,27 +79,29 @@ Applies when 2m is opener's second bid.
 |     | !5C! || exclusion, trump = {D}
 |===
 
-****
-{note}{nbsp}
-&Second-round jumps in unbid suit&
+.Second-round jumps in unbid suit
+[NOTE]
+====
 
-The usual rule in unconested auctions is that
-second-round jumps in unbid suits are natural and GF.
-However, a jump reverse or a jump above 3NT is a splinter
-and invites slam.
+The usual rule in unconested auctions that second-round jumps are
+natural and GF does not apply to: +
+@ jump reverse
+_ (3S in the auction above) +
+@ jump above 3NT
+_ (4C in the auction above )
 
-See also
-<<uncontested-auctions-1.adoc#_3rd_suit_forcing,
-  Third-suit forcing by responder>>
-****
+// See also
+// <<uncontested-auctions-1.adoc#_3rd_suit_forcing,
+//   Third-suit forcing by responder>>
+====
 
-A splinter invites opener back into the auction.
+// A splinter invites opener back into the auction.
 
-Opener can decline by returning to four of the trump suit,
-or bid four of responder's major as an offer to play.
+// Opener can decline by returning to four of the trump suit,
+// or bid four of responder's major as an offer to play.
 
-#To accept, opener can use kickback which, in the above auction,
-will be 4S because hearts where bid on the first round.#
+// #To accept, opener can use kickback which, in the above auction,
+// will be 4S because hearts where bid on the first round.#
 
 .(b)
 [%autowidth,cols="3*^,<",grid="none"]
@@ -110,7 +109,7 @@ will be 4S because hearts where bid on the first round.#
 |  1C |  1S   ||
 |  2C |  ?    ||
 |     |  3C   || GF
-|     | 3D,3H || 5{ndash}5 GF (2nd-round jump)
+|  2+<| 3D,3H <| 5{ndash}5 GF (2nd-round jump)
 |     |  3S   || GF
 |     |  3NT  || to play
 |     |  4C   || [lavender-bg]#minorwood#
@@ -120,18 +119,15 @@ will be 4S because hearts where bid on the first round.#
 |     | 4NT   || natural
 |===
 
-NOTE: both of responder's 2nd-round jumps are natural because neither
-      is a reverse nor above 3NT
-
 .(c) opener bids 2m as a second suit
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D |  1H  ||
 |  2C |  ?   ||
-|  <2+| 3C,3D,3H | GF
+|  2+<| 3C,3D,3H <| GF
 |     | !3S! || splinter
 |     |  4C  || [lavender-bg]#minorwood#
-|     | !4D! || exclusion, trump = {C}
+|     | !4D! || #exclusion, trump = {C}#
 |     |  4H  || to play
 |     | !4S! || exclusion, trump = {C}
 |     |  4NT || natural, 18{ndash}19 HCP
@@ -143,31 +139,29 @@ NOTE: both of responder's 2nd-round jumps are natural because neither
 |  1H |  1S  ||
 |  2D |  ?   ||
 |     |  2H  || sign-off
-|     |  3D  || GF
+|  2+<| 3D,3H,3S <| GF
 |     |  4C  || #splinter# {smallnote}
 |     |  4D  || [lavender-bg]#minorwood#
-|     | !4H! || exclusion, trump = {D}
+|     | !4H! || #exclusion, trump = {D}#
 |     |  4S  || to play
 |     | !5C! || exclusion, trump = {C}
 |     |  4NT || natural, 18{ndash}19 HCP
 |===
 
-{note}{nbsp} second-round jump in fourth-suit is natural
+NOTE: second-round jump to new suit above 3NT is not natural
 
 .(e) a 2/1 auction where opener rebids same minor 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 |  1D |  2C  ||
 |  2D |  ?   ||
-|     |  3D  || GF
+|  2+<| 3H,3S <| splinter
 |     |  4C  || #clubs are trump#
 |     |  4D  || [lavender-bg]#minorwood#
 |     | !4H! || exclusion, trump = {D}
 |     | !4S! || exclusion, trump = {D}
 |     | 4NT  || natural, 18{ndash}19 HCP
 |===
-
-{warning} jump to 4m as minorwood only applies by responder
 
 .(f) a jump raise by opener is natural
 [%autowidth,cols="2*^,<",grid="none"]
@@ -176,11 +170,13 @@ NOTE: both of responder's 2nd-round jumps are natural because neither
 |  ?  |    |
 |  3D |    | sets {D} as trump but responder can override
              by biding 3H to set {H} as trump
-|  4D |    | #natural, at least 5{ndash}5#
+|  4D |    | [lavender-bg]#natural, at least 5{ndash}5#
 | !4H! |   | kickback for {D}
 | !4S! |   | exclusion, trump = {D}
 | !5C! |   | exclusion, {D} = trump
 |===
+
+[lavender-box]#jump-raise to 4m as minorwood only applies by responder#
 
 .(g) kickback takes priority over exclusion
 [%autowidth,cols="2*^,<",grid="none"]
@@ -196,25 +192,24 @@ NOTE: both of responder's 2nd-round jumps are natural because neither
 | !5C!  |    | exclusion, {D} = trump
 |===
 
-[#_minorwood_after_jump_rebid]
-=== Raise by RESPONDER after a jump rebid
+// [#_minorwood_after_jump_rebid]
+// === Raise by RESPONDER after a jump rebid
 
-This is also minorwood
+// This is also minorwood
 
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1D | 1H ||
-| 3D | 4D || [lavender-bg]#minorwood#
-|===
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1D | 1H ||
+// | 3D | 4D || [lavender-bg]#minorwood#
+// |===
 
-For full description, see: +
-<<uncontested-auctions-2.adoc#_jump_rebid_of_original_suit_by_opener,
-  Jump Rebid of Original Suit by Opener>>
+// For full description, see: +
+// <<uncontested-auctions-2.adoc#_jump_rebid_of_original_suit_by_opener,
+//   Jump Rebid of Original Suit by Opener>>
 
 == Optional Minorwood
 
-We use optional minorwood in cases where four of the minor is needed
-as a natural slam try
+Applies when four of the minor is needed as a natural slam try.
 
 [%autowidth,cols="^,<",grid="none"]
 |===
@@ -252,8 +247,7 @@ not enough extras to initiate a slam investigation.
                   4D = extra length and optional minorwood
 |===
 
-It also applies in some <<other-notrump.adoc#2nt-opening, 2NT auctions>>
-.
+Also see: <<other-notrump.adoc#2nt-opening, 2NT auctions>>
 
 // == General Principles for RKC
 
@@ -402,6 +396,7 @@ A jump to 4H is kickback.
 ! {D} agreed +
   4D is not a jump +
   > 4D is NOT minorwood +
+  3H is forcing +
   4H is a jump +
   > !4H! is kickback
 !===
@@ -409,7 +404,9 @@ A jump to 4H is kickback.
 
 === Diamonds agreed, hearts in focus, at 3H
 
-After diamonds agreed and hearts offered as a possible trump-suit, then: +
+After diamonds agreed and hearts offered as a possible trump-suit,
+then sometimes a new suit will reject hearts and reaffirm that
+diamonds are trump.
 
 [%autowidth,cols="<",grid="none"]
 |===
@@ -433,7 +430,7 @@ After diamonds agreed and hearts offered as a possible trump-suit, then: +
                 > {H} are in focus
 |    |  3S  | | unbid suit reaffirms {D} as trump, rejects {H}
 |    | 3NT  | | to play
-|    | !4C! | | reaffirms {D} as trump with a {C} card
+|    | !4C! | | [lavender-bg]#reaffirms {D} as trump with a {C} card#
 |    |  4D  | | rejects {H}, no extras
 |    |  4H  | | to play
 |    | !4S! | | kickback for {H}
