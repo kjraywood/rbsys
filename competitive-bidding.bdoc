@@ -6,7 +6,7 @@ Jump raise = weak
 
 Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
-[#_JS_vs_take_out_double]
+[#_js_vs_take_out_double]
 === Jump Shifts vs Take-Out Double
 
 @ minor {blueRarrow} major = weak
@@ -170,26 +170,43 @@ suitable for action on the first round.
 
 == Vs Suit Overcall
 
-=== Limit Raises
+=== Both majors at 1-level
 
-.Both majors at 1-level
+[lavender-box]#We open 1H, they overcall 1S is treated as a special
+               case#
+
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1H | (1S) |  ?   | |
-|    |      | !2S! | | #GF#
-|    |      | 3H   | | #LR#, 3{OrMore}{xtimes}{H}
+| 1H | (1S) |  ?    ||
+|    |      | !2S!  || #GF# raise
+|    |      | !2NT! || [lavender-bg]#mixed raise#
+|    |      |  3H   || #LR#, 3{OrMore}{xtimes}{H}
+|    |      | !3S!  || splinter
+|    |      |  3NT  || natural
 |===
 
 [TIP]
 ====
-Showing a GF provides a forcing-pass if the opponents compete
-further.
+This raise structure is similar to uncontested raises of 1H where our
+2S is like a Jacoby-2NT, our 2NT is a mixed-raise, and 3H is a limit
+raise.
+
+However, in this case, 3-card limit-raises are included in the
+jump-raise, and 3NT is natural
+====
+
+[NOTE]
+====
+We don't use cue={LRplus} and weak-jump raises in this special auction
+because the opps often bid to 4S when we have a heart fit.
+So it's important to show a GF immediately so that we are in a
+forcing-pass situation.
 
 It also avoids problems with a break-in-tempo opposite a
 limit-raise-or-better.
 ====
 
-&Other&
+=== Other they-overcall auctions
 
 @ jump-raise = weak
 @ cue = {LRplus}
