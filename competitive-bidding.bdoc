@@ -1,11 +1,22 @@
 = Competitive Bidding
 
-
 == vs Take-Out Double
 
 Jump raise = weak
 
 Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
+
+[#_JS_vs_take_out_double]
+=== Jump Shifts vs Take-Out Double
+
+@ minor {blueRarrow} major = weak
+
+@ minor {blueRarrow} other minor = {LRplus}
+
+@ major {blueRarrow} minor
+_ = natural inv. by unPH, mini-splinter by PH
+
+@ [lavender-bg]#major {blueRarrow} other major = mixed raise#
 
 === 1m {ndash} (X)
 
@@ -43,16 +54,19 @@ Semi-Forcing 1NT is OFF
 
 @ 1M-(X)-1NT = 7-10 +
 @ 3-card {LRplus} by unPH is included in XX
+@ [lavender-bg]#JS to other major = mixed raise#
 
-#Jump shift = same as without opp's double:# +
+#Jump shift to minor = same as uncontested:# +
 @ natural & invitational by unPH +
 @ mini-splinter by PH
+
+By PH: #3-way Reverse Drury is ON#
+
+==== New suit at 2-level
 
 By unPH: +
 @ new suit at 2-level = less than inv. +
 @ GF single-suiters are included in XX
-
-By PH: #3-way Reverse Drury is ON#
 
 ==== Game Forcing Splinters
 
@@ -69,12 +83,13 @@ By PH: #3-way Reverse Drury is ON#
 | 4C, 4D       | splinter        | splinter
 |===
 
-==== Four-Card Raises
+==== Summary of Four-Card Raises
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1M | (X) |  ?    ||
 |    |     |  3M   || weak
+|    |  2+<| JS oM <| mixed raise
 |    |     | !2NT! || LR or strong GF-raise {biglowast}
 |    |     | !3NT! || bal or semi-bal., 12-14
 |===
@@ -82,7 +97,7 @@ By PH: #3-way Reverse Drury is ON#
 {biglowast}{ensp}2NT includes GF hands that are not suitable
 _ for 3NT or a splinter
 
-3-way Rev.-Drury by PH
+3-way Rev.-Drury by PH is ON
 
 === Redouble of opp's take-out double
 
