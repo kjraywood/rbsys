@@ -19,8 +19,10 @@
 * <<#_inverted_minors, inverted minors>> by unPH, single-raise = GF,
    jump-raise = mixed, 2S = LR
 
-* <<#_2nt_response_to_one_minor, traditional NT ranges>>:{nbsp} 2NT = 13-15 or 18{OrMore}
-  > reverse = shortness
+* <<#_2nt_response_to_one_minor, traditional NT ranges>>:{nbsp}
+  2NT = 13-15 or 18{OrMore} +
+  > opener shows shortness,
+  _ except [lightgrey-bg]#`1D-2NT; 3C`# = natural 2nd-suit
 
 * <<#_balanced_inv_after_one_minor, 2H = balanced 11{ndash}12>>
   > 2S {forces} 2NT
