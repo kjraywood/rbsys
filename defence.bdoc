@@ -1,11 +1,14 @@
 = Leads and Carding
 
-== Opening Leads
-
 [#_leads_vs_suits]
-=== Suit Contracts
+== Opening Leads vs Suit Contracts
 
-==== Honour-card leads vs suit contracts
+=== Honour-card Leads vs Suit Contracts
+
+@ Rusinow honour-leads from a known long-suit,
+_ (opening-lead only) +
+
+@ otherwise standard honour-leads
 
 [nobr]#[OvalBox]##A##{thinsp}K{thinsp}x# +
 except lead King when: +
@@ -17,16 +20,16 @@ except lead King when: +
 [nobr]#A{thinsp}K{thinsp}[OvalBox]##Q##{thinsp}x# +
 > third-hand gives count
 
-Other honour-leads are standard +
-
-****
-.Alternative
-
-Rusinow honour-leads from a _known long-suit._
-****
+[NOTE]
+====
+When leading Rusinow from a known long-suit, the queen promises the
+king but may also have the ace.
+Partner of opening leader gives count if the jack is in dummy, but
+otherwise shows attitude; encouraging with ace or jack.
+====
 
 [#_spot_leads_vs_suits]
-==== Spot-card leads vs suit-contracts
+=== Spot-card Leads vs Suit Contracts
 
 [OvalBox]##*x*##{thinsp}[red]##x##
 
@@ -42,7 +45,7 @@ cards
 3^rd^ or 4^th^ best from an honour
 
 [#_leads_vs_notrump]
-=== NoTrump Contracts
+== Opening Leads vs NoTrump Contracts
 
 *4^th^ best from length*
 
@@ -68,7 +71,7 @@ only with four-card or longer suit
 [OvalBox]#**J**#{thinsp}x {xbull}
 [OvalBox]#**T**#{thinsp}x
 
-==== Exceptions to Rusinow and Power-King
+=== Exceptions to Rusinow and Power-King
 
 *Rusinow and Power-King do not apply when* +
 @ leading partner's suit +
