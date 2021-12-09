@@ -128,7 +128,7 @@
             Signalling>> +
 {nbsp} 52. <<system.adoc#_discards,
             Discards>> +
-{nbsp} 52. <<system.adoc#_Special_Defence_Situations,
+{nbsp} 53. <<system.adoc#_Special_Defence_Situations,
             Special Defence Situations>> +
 
 '''
