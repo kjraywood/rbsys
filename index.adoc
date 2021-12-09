@@ -120,13 +120,19 @@
             Vs other artificial bids>> +
 
 <<system.adoc#_leads_and_carding, *Leads and Carding*>> +
-{nbsp} 49. <<system.adoc#_opening_leads,
-            Opening Leads>> +
-{nbsp} 50. <<system.adoc#_carding,
-            Carding>> +
+{nbsp} 49. <<system.adoc#_leads_vs_suits,
+            Opening Leads vs Suits>> +
+{nbsp} 50. <<system.adoc#_leads_vs_notrump,
+            Opening Leads vs NoTrump>> +
+{nbsp} 51. <<system.adoc#_signalling,
+            Signalling>> +
+{nbsp} 52. <<system.adoc#_discards,
+            Discards>> +
+{nbsp} 52. <<system.adoc#_Special_Defence_Situations,
+            Special Defence Situations>> +
 
 '''
 
-<<reminders.adoc#, __Reminders__>>
+// <<reminders.adoc#, __Reminders__>>
 
-<<staging.adoc#, __Potential agreements__>>
+// <<staging.adoc#, __Potential agreements__>>

@@ -3,9 +3,10 @@
 [#_leads_vs_suits]
 == Opening Leads vs Suit Contracts
 
+[#_honour_leads_vs_suits]
 === Honour-card Leads vs Suit Contracts
 
-@ Rusinow honour-leads from a known long-suit,
+@ [lavender-bg]#Rusinow from a known long-suit#,
 _ (opening-lead only) +
 
 @ otherwise standard honour-leads
@@ -81,12 +82,10 @@ _ and leads a side suit
 
 TIP: We might want to lead Ax(x) or Kx in these situations
 
-== Carding
+== Signalling
 
-=== Signalling
-
-@ upside-down attitude
-@ standard count
+@ upside-down attitude +
+@ standard count +
 @ suit-preference in trump-suit +
 @ Smith Echo vs NT
 _ {ndash} rev. by opening leader
@@ -248,7 +247,7 @@ https://drive.google.com/file/d/0B1L4Qo4rjzd_M0YzdlJ1NVE2N0U/view?usp=sharing[Za
 for details.
 ====
 
-=== Discards
+== Discards
 
 Natural discards have priority.  These are: +
 @ top of honour sequence +
@@ -256,9 +255,31 @@ Natural discards have priority.  These are: +
 @ from a five-card suit in a 4-card suit of dummy
 _ or declarer
 
-First spot-card discard is upside-down attitude unless it is in
-dummy's long-suit and partner needs count.
-Subsequent discards in the same suit are suit preference.
+=== Discards vs Suits
+
+@ Upside-down attitude unless it is in
+_ dummy's long-suit and partner needs count
+
+@ Subsequent discards in the same suit are
+_ suit preference
+
+[#_discards_vs_notrump]
+=== Discards vs NoTrump
+
+@ [lavender-bg]#Count#
+
+@ Subsequent discards in the same suit are
+  suit preference
+
+If we lead a suit against NT, declarer wins and runs a suit forcing
+discards from us, including discards from the suit we have led,
+then: +
+@ an early discard from our led suit
+_ means that our suit is not ready to run +
+@ a late discard from our led suit
+_ means that our suit is ready to run
+
+=== General
 
 If declarer has shown out of a suit, discards of that suit are
 suit-preference.
@@ -266,23 +287,10 @@ suit-preference.
 We discard immediately from a suit we cannot guard; unless it is
 declarer's guess suit.
 
-If we have a suit that is ready to run, then an immediate encouraging
-discard from a side suit, shows a quick entry in that suit.
+// If we have a suit that is ready to run, then an immediate encouraging
+// discard from a side suit, shows a quick entry in that suit.
 
-If we lead a suit against NT, declarer wins and runs a suit forcing
-discards from us, including discards from the suit we have led,
-then: +
-@ an early discard from our led suit
-_ = our suit is not ready to run
-@ a late discard from our led suit
-_ = our suit is ready to run
-
-=== Suit-Preference Returns
-
-When playing a suit for partner to ruff and dummy holds no
-honour-card: +
-@ Q or T = high-suit pref.
-@ J = low-suit pref.
+== Special Defence Situations
 
 === Getting a Ruff
 
@@ -293,3 +301,55 @@ TIP: By making it appear that declarer has the king, you discourage
 other lines of defence.
 
 // === Returing the suit led by partner (see bridge/downloads/defence/returning-lead.txt
+
+=== Suit-Preference Returns
+
+When playing a suit for partner to ruff and dummy holds no
+honour-card: +
+@ Q or T = high-suit pref.
+@ J = low-suit pref.
+
+This generally applies when it was not possible to signal suit preference when winning the suit.
+_e.g._{thinsp} winning the Ace and returning through declarer's King.
+
+[#_3rd_hand_suit_pref_with_akq]
+=== Suit-preference by third hand with AKQ
+
+The first card shows suit preference
+
+If the first card is subsequently known to be the middle-card then
+the message is no suit-preference.
+This usually means nothing useful outside, but could mean a secondary
+honour, usually the king, in both side suits if that makes more sense
+on the bidding.
+
+Playing the second and third card in the the same order as the first
+and second reinforces the preference shown by the first card.
+_i.e._{thinsp} strong preference.
+
+Playing the second and third card in the opposite order means 
+that the preference shown is mild.
+
+[%autowidth,cols="<s,<",grid="vertical"]
+|===
+| A-K-Q | strong preference for higher suit
+| Q-K-A | strong preference for lower suit
+| A-Q-K | mild preference for higher suit
+| Q-A-K | mild preference for lower suit
+| K-Q-A | no preference
+| K-A-Q | not used
+|===
+
+TIP: We use K-Q-A for no preference to ensure that the original
+     holding is known as soon as possible.
+
+[#_3rd_hand_suit_pref_with_akxx]
+=== Suit-preference by third hand with AKxx
+
+The ace and king are played in suit-preference order
+
+[lavender-box]#The spot-cards are played in upside-down-attitude order#
+
+@ lowest spot {implies} strong preference +
+@ highest spot {implies} mild preference +
+@ middle spot {implies} no preference
