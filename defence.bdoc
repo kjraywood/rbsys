@@ -208,10 +208,14 @@ Most often, it is the second-highest from a long suit.
 
 From a known six-card suit::
 @ highest = natural = top of sequence +
-@ 2nd-highest = unusual = requests unusual shift +
+@ 2nd-highest = unusual
+_ = requests unusual shift +
 @ 4th-highest = middle = discouraging
 __ = can stand obvious shift +
 @ 6th-highest = lowest = encouraging
+
+{note}{nbsp}
+[aqua-background]#The 4th-highest is often the highest spot-card#
 
 === Following suit from honour sequences
 

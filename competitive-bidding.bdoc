@@ -229,10 +229,11 @@ limit-raise-or-better.
 
 [WARNING]
 ====
-#{thinsp}Does NOT apply after a 1H opening{thinsp}#
+Does NOT apply after a 1H opening{thinsp}
 
-[lightgrey-box]##1{H}{ensp} (1{S}) {nbsp} !3{S}! {nbsp} *:*
-                 {nbsp} splinter raise of {H}##
+// [lightgrey-box]##1{H}{ensp} (1{S}) {nbsp} !3{S}! {nbsp} *:*
+//                  {nbsp} splinter raise of {H}##
+`1H{ndash}(1S){ndash}3{S}` = splinter
 ====
 
 === Negative double vs 1D or 1H

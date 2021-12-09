@@ -157,9 +157,7 @@ When both sides have bid-and-raised on 1^st^ round: +
 @ double by opener = game-try +
 @ double by responder = competitive
 
-#Game-try and competitive doubles promise a doubleton.#
-
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="a",grid="none",frame="none",stripes=none]
 |===
 |
 [stripes=odd,cols="4*^",grid="none"]
@@ -167,6 +165,10 @@ When both sides have bid-and-raised on 1^st^ round: +
 ! 1H  ! (P) ! 2H ! (3D)
 ! X 3+^! penalty
 !===
+|===
+
+[%autowidth,cols="a",grid="none",frame="none",stripes=none]
+|===
 |
 [stripes=odd,cols="4*^",grid="none"]
 !===
@@ -184,6 +186,9 @@ When both sides have bid-and-raised on 1^st^ round: +
 ! P  ! (P) ! !X! ! {nbsp}{nbsp}competitive
 !===
 |===
+
+[lavender-box]#Game-try and competitive doubles promise at least
+               doubleton in their suit.#
 
 [#double-in-gf-auctions]
 ==== GF Auctions
