@@ -253,35 +253,18 @@ for details.
 
 == Discards
 
-Natural discards have priority.  These are: +
-@ top of honour sequence +
-@ 2^nd^-last in partner's suit +
-@ from a five-card suit in a 4-card suit of dummy
-_ or declarer
+// Natural discards have priority.  These are: +
+// @ top of honour sequence +
+// @ 2^nd^-last in partner's suit +
+// @ from a five-card suit in a 4-card suit of dummy
+// _ or declarer
 
-=== Discards vs Suits
+* Upside-down attitude unless it is in dummy's long-suit and partner
+  needs count
 
-@ Upside-down attitude unless it is in
-_ dummy's long-suit and partner needs count
-
-@ Subsequent discards in the same suit are
-_ suit preference
-
-[#_discards_vs_notrump]
-=== Discards vs NoTrump
-
-@ [lavender-bg]#Count#
-
-@ Subsequent discards in the same suit are
-  suit preference
-
-If we lead a suit against NT, declarer wins and runs a suit forcing
-discards from us, including discards from the suit we have led,
-then: +
-@ an early discard from our led suit
-_ means that our suit is not ready to run +
-@ a late discard from our led suit
-_ means that our suit is ready to run
+* when our first discard in a suit is attitude, our subsequent
+  discards in that suit are either suit-preference (first priority) or
+  count
 
 === General
 
@@ -291,8 +274,25 @@ suit-preference.
 We discard immediately from a suit we cannot guard; unless it is
 declarer's guess suit.
 
-// If we have a suit that is ready to run, then an immediate encouraging
-// discard from a side suit, shows a quick entry in that suit.
+=== Discards vs NoTrump
+
+If we lead a suit against NT, declarer wins and runs a suit forcing
+discards from us, including discards from the suit we have led,
+then: +
+@ an early discard from our led suit
+_ means that our suit is not ready to run +
+@ a late discard from our led suit
+_ means that our suit is ready to run
+
+At notrump, an encouraging attitude-discard tends to show either: +
+@ a stopper so that partner can discard
+_ that suit and save stoppers in other suits +
+_ -OR- +
+@ a quick entry so that you can win a trick
+_ and lead partner's long-suit through declarer
+
+The appearence of dummy plus the play usually makes the intention
+clear.
 
 == Special Defence Situations
 
