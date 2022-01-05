@@ -175,66 +175,54 @@ suitable for action on the first round.
 [lavender-box]#We open 1H, they overcall 1S is treated as a special
                case#
 
+The opps often bid to 4S when we have a heart fit so it's important to
+establish a forcing-pass situation as soon as possible when we have GF
+values.
+
+Therefore, we define the cue-bid as a GF raise and use the jump to 3H
+as a limit raise.
+
+NOTE: This also avoids the problem that occurs when there's a
+       break-in-tempo opposite a limit-raise-or-better.
+
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | 1H | (1S) |  ?    ||
-|    |      | !2S!  || #GF# raise
+|    |      | !2S!  || GF raise
 |    |      | !2NT! || [lavender-bg]#mixed raise#
-|    |      |  3H   || #LR#, 3{OrMore}{xtimes}{H}
+|    |   2+<| !3C!,!3D! <| fit-showing jumps,
+                    [nobr]## #minor-suit might be only 4-cards# ##
+|    |      |  3H   || LR, 3{OrMore}{xtimes}{H}
 |    |      | !3S!  || splinter
 |    |      |  3NT  || natural
 |===
 
 [TIP]
 ====
-This raise structure is similar to uncontested raises of 1H where our
-2S is like a Jacoby-2NT, our 2NT is a mixed-raise, and 3H is a limit
+This raise structure is similar to uncontested raises of 1H where
+2S is a GF-raise, 2NT is a mixed-raise, and 3H is a limit
 raise.
 
 However, in this case, 3-card limit-raises are included in the
 jump-raise, and 3NT is natural
 ====
 
-[NOTE]
-====
-We don't use cue={LRplus} and weak-jump raises in this special auction
-because the opps often bid to 4S when we have a heart fit.
-So it's important to show a GF immediately so that we are in a
-forcing-pass situation.
+We allow fit-showing jumps to be a four-card limit-raise with a
+four-card side-suit.
+Therefore, the jump-raise to 3H is more likely to be a 3-card raise
+or, a defensive four-card raise.
 
-It also avoids problems with a break-in-tempo opposite a
-limit-raise-or-better.
-====
-
+[#_vs_other_overcall]
 === Other they-overcall auctions
 
-@ jump-raise = weak
-@ cue = {LRplus}
-
-[#_jump_cue_transfer_to_3nt]
-=== Jump-cue transfer to 3NT
-
-*Applies when:* +
-@ we open #one minor# +
-@ they overcall at the one-level
-
-*Jump cue-bid shows:* +
-@ 13-15 balanced +
-@ stopper(s) in the overcalled suit
+@ jump-raise = weak +
+@ cue = {LRplus} +
+@ jump cue = splinter
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1D | (1S) | !3S! | *:* | {S}K62{nbsp}{H}KQT{nbsp}{D}J32{nbsp}{C}AJ87
+| 1D | (1S) | !3S! | *:* | splinter
 |===
-
-[WARNING]
-====
-Does NOT apply after a 1H opening{thinsp}
-
-// [lightgrey-box]##1{H}{ensp} (1{S}) {nbsp} !3{S}! {nbsp} *:*
-//                  {nbsp} splinter raise of {H}##
-`1H{ndash}(1S){ndash}3{S}` = splinter
-====
 
 === Negative double vs 1D or 1H
 
