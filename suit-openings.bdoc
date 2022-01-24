@@ -32,6 +32,18 @@ _Game and slam tries after a major-suit raise_ ]
 __ and agrees second-suit +
 @ jump new-suit = void slam-try
 
+=== Slam tries after a limit raise
+
+Similar to after a single-raise
+
+[%autowidth,cols="2*^,<",grid="none",stripes="odd"]
+|===
+| 1S  | 3S |
+| ?    |   |
+| !3NT! |  | generic slam-try
+2+<| 4{lab}new-suit{rab} <| 2nd-suit slam-try
+|===
+
 === Jacoby 2NT
 // !!! FIX ME !!!
 
