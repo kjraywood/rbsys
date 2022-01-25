@@ -21,9 +21,8 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 |  3NT | | bal 11-12
 |===
 
+[#_transfer_responses_to_2c]
 === Transfer responses
-
-[orange-box]#NOT IN USE#
 
 [%autowidth,cols="^,2*<.^",grid="none]
 |===
@@ -34,8 +33,11 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 	|| transfer to solid suit
 |===
 
-Following 2S or 3C, opener bids the next step then responder transfers
-to the one-loser suit.
+Following a 2S or 3C response, opener _may_{thinsp} bid the next step
+asking responder to transfer to the one-loser suit.
+
+[lavender-box]#Opener will often know which suit responder has without
+               asking, so is not required to relay.#
 
 [%autowidth,cols="3*<a",grid="none",frame="none",stripes="none"]
 |===
@@ -57,7 +59,7 @@ to the one-loser suit.
 :===
 |===
 
-TIP: This scheme allows the 2C opener to declare
+TIP: This scheme allows the 2C opener to declare in responder's suit
 
 === Second-round negative
 
@@ -182,7 +184,6 @@ positive values with a double or penalty pass.
 @ #non-forcing vs overcall#
 @ lead-directing (McCabe) vs double
 
-[#mccabe]
 === McCabe
 
 [%autowidth,cols="<.^s,>.^,<",grid="none"]
