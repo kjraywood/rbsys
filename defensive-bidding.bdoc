@@ -597,17 +597,15 @@ __ {nbsp}{ndash}{nbsp} Karen Walker +
 
 {warning}{nbsp} #We do NOT use Lebensohl after a double of TWO DIAMONDS#
 
-==== Responding to double of 2M
+Normal scheme for weak and invitational hands:
 
-Normal scheme for weak and invitational hands: +
-@ new-suit @ 3-level = invitational +
-@ 2NT {blueRarrow} 3C
-> new-suit = weak
+* new-suit @ 3-level = invitational +
+* 2NT forces 3C, then three of suit [alert]#lower in rank#
+  than preempter's suit  = weak
 
-*When advancer has GF values:*
+==== When advancer has GF values:
 
-[lavender-box]#direct bids (not via 2NT) deny exactly four of the
-               other major#
+[lavender-box]#direct bids deny exactly four of the other major#
 
 @ jump to 4oM {implies} 5{OrMore}{xtimes}oM +
 @ 3NT = shows stopper, fewer than 4*oM +
@@ -615,13 +613,12 @@ Normal scheme for weak and invitational hands: +
 
 NOTE: A cue-bid could also be the beginning of a slam-try
 
-[lavender-box]#the slow route via 2NT shows four of the other major#
+[lavender-box]#the slow route, via 2NT, shows four of the other major#
 
 @ slow cue = 4*oM, no stopper +
 @ slow 3NT = 4*oM, with a stopper
 
-[horizontal]
-Summary: :: we use slow/fast to show/deny #FOUR in OTHER MAJOR#
+TIP: direct denies and slow shows exactly FOUR of OTHER MAJOR
 
 ==== They open 2S, we double
 
@@ -651,12 +648,15 @@ Summary: :: we use slow/fast to show/deny #FOUR in OTHER MAJOR#
 
 2S = weak hand with spades
 
-{implies} two ways to show positive with spades
+{implies} two ways to invite with spades
+
+@ !slow! 3S, via 2NT, !shows! four spades
+
+@ !direct! 3S !denies! exactly four spades,
+_ [lavender-bg]#it shows FIVE spades#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-3+^| direct denies exactly four in the other major
-
 |       | (2H) | X {ensp} (P)
 |  ?    |      |
 |  2S   |      | weak
@@ -666,12 +666,11 @@ Summary: :: we use slow/fast to show/deny #FOUR in OTHER MAJOR#
                  [nobr]#fewer than 4*{S}#
 |  3S   |      | #five-card suit, inv#
 |  3NT  |      | to play
+|  4S   |      | to play, 5{OrMore}{xtimes}{S}
 |===
 
 [%autowidth,cols="3*^,2*<",grid="none"]
 |===
-5+^| slow shows four in the other major
-
 |       | (2H) |  X   | (P) | {emsp}{tab}{emsp}
 | !2NT! | (P)  | !3C! | (P) |
 |  ?    |   3+<|
