@@ -829,13 +829,49 @@ NOTE: 6{times}{H} + 4{times}{S} transfers to hearts then bids 3{S}
 
 == KASTRO vs NT
 
+{reference}
+https://drive.google.com/file/d/1jq7wyGXjzW-IUAE_zZ_ls7VPl-VdzFmW/view?usp=sharing[
+_The KASTRO defence to 1NT_]
+
+=== vs Strong Notrump
+
+strong-NT {implies} minimum-strength {ge} 14
+
+@ Dble = Hearts + other +
+@ 2C = Spades + other
+
+=== vs Weak Notrump
+
+weak-NT {implies} minimum-strength &lt; 14
+
+@ Dble = penalty +
+@ 2C = Hearts + other +
+@ 2D = Spades + other +
+
+Double by passed hand = single-suited minor
+
+=== Constraints on two-suited bids
+
+At least 5{ndash}4 either way
+
+With [alert]#both majors# we show: +
+@ shorter-suit first +
+@ hearts first with 5{ndash}5
+
+=== Follow-up bidding
+
+Without a known eight-card fit, we prefer a 5{ndash}2 fit to a
+4{ndash}3 fit.
+
+Next step by advancer asks for the 5-card suit.
+
+See reference for details and examples.
+
 [#_vs_double_of_kastro]
 === When our KASTRO call is doubled
 
-==== General
-
 Passing asks for the 5-card suit, or pass if we are already in it.
-Thus it shows at least a doubleton in the doubled suit.
+Thus it shows at least two cards in the doubled suit.
 
 Bidding a new suit is to play.
 
