@@ -11,13 +11,9 @@
 | 2D,2H | Jacoby transfer +
           [nobr]#{tribull} 2^nd^-round transfers,#
 	  _ incl. 2NT = 4{OrMore}{xtimes}{C}
-| 2S    | balanced inv. or clubs
-| 2NT   | diamonds
-| 3C    | five-card Stayman +
-{reference} https://justinlall.wordpress.com/2011/09/07/puppet-stayman-after-a-1n-opener/[
-_Puppet Stayman after a 1N Opener_]
-__ {nbsp}{ndash}{nbsp} Justin Lall
-
+| 2S    | clubs, any strength
+| 2NT   | [lavender-box]#natural, inv.#
+| 3C    | #diamonds, weak or strong#
 | 3D    | both minors, slammish +
           [nobr]#{tribull} 3H{thinsp}={thinsp}{C},
 	                   3S{thinsp}={thinsp}{D},
@@ -471,18 +467,16 @@ declare.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1NT  | !2S! | {emsp}{C} or balanced-inv.
+|  1NT  | !2S! | {emsp}{C}
 |   ?   |      |
-| !2NT! |      | min
-| !3C!  |      | max
+| !2NT! |      | pre-decline
+| !3C!  |      | pre-accept ({C}Qxx or better)
 |===
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1NT  | !2NT! | {emsp}{D}, any strength
-|   ?   |      |
-| !3C!  |      | pre-decline
-| !3D!  |      | pre-accept ({D}Qxx or better)
+|  1NT  | !3C! | {emsp}{D}, weak or strong
+|  3D   |      | Forced
 |===
 
 === Rebids with strong hands
@@ -592,11 +586,12 @@ _ = {simto}8{OrMore} HCP
 If the artificial double is passed then redouble by opener shows a
 five-card suit; the same as after a penalty double is passed.
 
+[#_vs_2c_over_our_1nt]
 === Vs 2C
 
-@ dble = take-out of clubs +
-@ other system ON,
-_ #except for club bids when 2C shows clubs#
+@ dble = negative, [lavender-bg]#take-out of clubs#
+
+@ other system ON, with a modification when 2C shows clubs
 
 ==== When 2C shows clubs
 
@@ -605,28 +600,17 @@ Applies when: +
 @ 2C = clubs + second-suit,
 _ second-suit could be known or unknown
 
-Balanced Hands::
-  The system-on meaning of 2S (balanced-invitation or {C}) is
-  replaced with: +
-  2S = balanced-inv. or [lavender-bg]#GF-without-stopper# +
-  {zwsp} +
-  If going to game, opener can check for a stopper by bidding 3C. +
-  {zwsp} +
-  If opener shows a minimum with 2NT, responder can cue-bid to ask for a
-  stopper.
+We need a cue-bid for hands with a singleton club.
+So we use: +
+@ 2S = #transfer to DIAMONDS# +
+@ 3C = Stayman !without! a stopper
+
+TIP:  These follow the Rubensohl scheme of cue-bid for Stayman
+      without a stopper, and transferring !through! their suit
 
 Stayman with a stopper::
-  A [lavender-bg]#negative double followed by 3NT# shows at least one
-  four-card major and a stopper.
-
-Stayman without a stopper::
-  With a singleton club responder can't use a negative double so needs
-  a direct cue-bid as Stayman-without-stopper. +
-  {zwsp} +
-  So five-card Stayman is replaced with: +
-  3C = [lavender-bg]#Stayman without stopper# +
-  {zwsp} +
-  This #applies whenever 2C shows clubs#, including two-suiters with clubs.
+  [lavender-box]#A negative double followed by 3NT shows at least one
+  four-card major and a stopper.#
 
 Both majors::
   The system-on way to show both majors GF, is transfer to spades, then
