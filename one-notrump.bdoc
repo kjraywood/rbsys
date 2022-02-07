@@ -492,12 +492,11 @@ undisclosed extras following a previous-round min or pre-decline.
 
 == Interference over 1NT
 
-When the interference is 2NT or lower:
-
-@ Texas is ON +
-@ **vs minor:** #4C = majors# +
-@ **vs major:** #4S = minors# +
-@ 4NT = quant. NT raise +
+When the interference is 2NT or lower::
+  @ Texas is ON +
+  @ **vs minor:** #4C = majors# +
+  @ **vs major:** #4S = minors# +
+  @ 4NT = quant. NT raise +
 
 ****
 .Interference with our Mexican-2\D
@@ -509,8 +508,8 @@ _ !2D! - (2M) - !4S! = quant. NT raise +
 _ !2D! - (2M) - !4NT! = minors
 ****
 
-When the interference is 2NT or higher, we treat the situation
-similarly to when they make a preemptive opening-bid in that strain.
+When the interference is 2NT or higher::
+    we use our defence to opening preempts
 
 === Negative double thru 3S
 
@@ -546,22 +545,24 @@ Responder hopes for a major-suit fit or that opener has extras.
 
 === Vs penalty double
 
-@ Transfers to the majors are ON
+@ Transfers to the majors are ON +
 @ redouble = one minor +
 @ 2C = both majors +
 @ 2NT = both minors
 
 With a 4-card major and 6-card minor (McCartney), responder is willing
-to compete to the 3-level.
-_ 2S = 4*{S} + a six-card minor +
-_ 3m = 4*{H} + six in the bid minor
+to compete to the 3-level. +
+@ 2S = 4*{S} + a six-card minor +
+@ 3m = 4*{H} + six in the bid minor
 
 Pass is to play but #opener redoubles with a five-card suit#.  Then: +
-_ 2C = pass-or-correct +
-_ pass = __"`I think you'll make it`"__
+@ 2C = pass-or-correct +
+@ pass = __"`I think you'll make it`"__
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
+3+^| vs penalty double
+
 |       || 1NT{emsp}(X)
 |  ?    ||
 |  P    || to play
@@ -591,17 +592,16 @@ five-card suit; the same as after a penalty double is passed.
 
 @ dble = negative, [lavender-bg]#take-out of clubs#
 
-@ other system ON, with a modification when 2C shows clubs
+@ other system ON, with modifications
+_ when 2C shows clubs
 
 ==== When 2C shows clubs
 
-Applies when: +
-@ 2C = natural single-suit +
-@ 2C = clubs + second-suit,
-_ second-suit could be known or unknown
+Applies vs [alert]#natural single-suit# and
+[alert]#clubs + second-suit#
+(second-suit could be known or unknown)
 
-We need a cue-bid for hands with a singleton club.
-So we use: +
+We need a cue-bid for hands with a singleton club, so: +
 @ 2S = #transfer to DIAMONDS# +
 @ 3C = Stayman !without! a stopper
 
@@ -613,13 +613,16 @@ Stayman with a stopper::
   four-card major and a stopper.#
 
 Both majors::
-  The system-on way to show both majors GF, is transfer to spades, then
-  second-round transfer to hearts.
-  In a contested auction there is a danger that advancer (opponent) may
-  raise clubs to a high level, before responder's second bid.
+  System-on {implies} transfer to spades, then
+  second-round transfer to hearts. +
+  {zwsp} +
+  Contested auction {implies} danger that advancer (opponent) may
+  raise clubs to a high level, before responder's second bid. +
   {zwsp} +
   Therefore, we replace Confit with: +
-  4C = #both majors, at least 5-5# +
+  [lavender-box]#4C = both majors, at least 5-5# +
+
+NOTE: We also use 4C=majors vs 2D interference that shows diamonds
 
 [#_rubensohl]
 === Rubensohl vs 2D, 2H or 2S
