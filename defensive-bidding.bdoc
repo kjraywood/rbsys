@@ -378,6 +378,21 @@ A bid of the suit on overcaller's right is natural.
 There is no cue-bid in this auction.
 To show a good raise of spades, overcaller just jumps to 3S.
 
+[#_vs_further_interference_after_our_overcall]
+=== Vs Further Interference after our Overcall
+
+If there is further bidding by opener following our cue-bid raise,
+then returning to the trump-suit is the weakest bid that overcaller
+can make.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |      | (1D)  | 1S | |
+| (P) | !2D! | (Dbl) | ?  | |
+|     |      |       | 2S | | less than an opening hand
+|     |      |       | P  | | at least an opening hand
+|===
+
 [#_two_level_overcalls]
 === Two-level overcalls
 
@@ -395,46 +410,6 @@ To show a good raise of spades, overcaller just jumps to 3S.
 @ redouble = defensive strength, no fit
 @  cue  = good 3-card raise{orMore}
 @ !2NT! = good 4-card raise{orMore}
-
-=== Vs Further Interference
-
-If there is further bidding by opener following our cue-bid raise,
-then overcaller is not forced to bid.
-We take advantage of the extra space by allowing overcaller to pass
-with nothing particular to say.
-It neither shows nor denies extra values.
-Bidding when not forced shows extra length or strength in the suit
-bid.
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|     |      | (1D)  | 1S | |
-| (P) | !2D! | (Dbl) | ?  | |
-|     |      |       | 2S | | extra length or strength in {S}
-|     |      |       | P  | | nothing to say
-|===
-
-==== Exception
-
-When advancer guarantees _four-card support_{thinsp} and forces the
-bidding to the three level, then further strain-investigation is
-rarely needed and advancer's hand is more well defined than with a
-simple cue-bid.
-Thus overcaller is better placed to make decisions for the partnership
-so the following applies.
-
-* An immediate return to the trump suit shows no game interest
-
-* A pass shows doubt, after which advancer may make a descriptive bid or
-_send it back_{thinsp} with redouble
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|     |      | (1D)  | 1S | |
-| (P) | !3D! | (Dbl) | ?  | | 3D = mixed raise
-|     |      |       | 3S | | no game interest
-|     |      |       | P  | | game try 
-|===
 
 === Sandwich position
 
