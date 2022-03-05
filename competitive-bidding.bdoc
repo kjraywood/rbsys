@@ -9,14 +9,21 @@ Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 [#_js_vs_take_out_double]
 === Jump Shifts vs Take-Out Double
 
-@ minor {blueRarrow} major = weak
+&Unpassed Hand&
 
 @ minor {blueRarrow} other minor = {LRplus}
 
-@ major {blueRarrow} minor
-_ = natural inv. by unPH, mini-splinter by PH
+@ minor {blueRarrow} major = weak
+
+@ major {blueRarrow} minor = natural inv.
 
 @ [lavender-bg]#major {blueRarrow} other major = mixed raise#
+
+&Passed Hand&
+
+@ minor {blueRarrow} other minor = LR
+
+[lavender-bg]#Others are all fit-showing#
 
 === 1m {ndash} (X)
 

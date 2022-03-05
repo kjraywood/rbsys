@@ -6,14 +6,14 @@
 |===
 |       ^| Unpassed   ^| Passed
 
-| 1H {ndash} 2S   | Jacoby       | mini-splinter
+| 1H {ndash} 2S   | Jacoby       | #fit showing#
 | 1S {ndash} 2NT  | Jacoby      | minors, inv.
 | 1H {ndash} 2NT  | #{thinsp}mixed-raise{thinsp}#
                                 | minors, inv.
 | 1M {ndash} 3{lab}lower{rab}
                   | natural inv. +
                     > pass or force
-	                        | #mini-splinter#
+	                        | #fit showing#
 | 1M {ndash} 3M   | limit, incl. [nobr]#3*M + stiff# | weak
 | 1M {ndash} 3M+1 |  weak splinter, unspecified suit |
 | 1H {ndash} 3NT  | spade splinter |
