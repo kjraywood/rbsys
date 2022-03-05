@@ -84,71 +84,35 @@ _Excludes_
 @ NT openings and overcalls
 @ uncontested 1NT response
 
-&(d)& We have established the balance-of-power with a strength-showing
+&(d)& We have #both# bid then attempted to pass out the auction, then
+they balance.
+
+&(e)& They bid {ndash} we balance {ndash} they compete.
+
+&(f)& We have established the balance-of-power with a strength-showing
 call: +
 @ redouble
 @ a double of a 1NT overcall
 @ a 2C opening
 @ any GF call
 
-&(e)& We have #both# bid then attempted to pass out the auction, then
-they balance.
+[#double-in-gf-auctions]
+==== Double in GF Auctions
 
-&(f)& They bid {ndash} we balance {ndash} they compete.
-
-[#_delayed_doubles]
-&(g)& *Delayed doubles of RHO's first suit*
-
-A delayed double of RHO's first-suit is take-out when:
-
-@ RHO is the opening bidder and partner
-_ has taken positive action on the first
-_ round +
-
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="4*^",grid="none"]
 |===
-| (1H) | P | (P) | 2D |
-| (2H) | X |     |    | *take out*, partner took positive action
-                        on the first round
+| 1S | (P) | !2C! | (2D)
+| ?  |     |      |
+| P  |  2+<| forcing
+| X  |  2+<| penalty
 |===
 
-@ RHO rebids a _minor suit_ after a
-_ 1NT response
+Opener may rebid his suit or another suit if he has a long suit or a
+shapely hand.
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| (1D) | P |  1NT  | P |
-| (2D) | X |       |   | *light take-out*, the opps often have
-                         a fit when responder denies a major
-			 and opener rebids a minor
-|===
+==== Double after suit agreement
 
-Other delayed-doubles of RHO's first suit are penalty.
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| (1H) | P | (1NT) | P |
-| (2H) | X |       |   | *penalty*, rebidding a major following
-                         a 1NT response carries no implication
-			 of a fit
-|===
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| (1D) | P | (1S) | P |
-| (2D) | X |      |   | *penalty*, there's also no implication of fit
-                        following a new-suit response
-|===
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-| (1C)  | P | (1H)  | P | |
-| (1NT) | P | (2H)  | X | | *penalty*, the opps are limited
-                            and doubler can see that the
-			    cards lie poorly for declarer
-|===
-
-&(h)& When we have agreed a suit, subsequent doubles are penalty.
+&(g)& When we have agreed a suit, subsequent doubles are penalty.
 
 *Exception*
 
@@ -189,21 +153,88 @@ When both sides have bid-and-raised on 1^st^ round: +
 [lavender-box]#Game-try and competitive doubles promise at least
                doubleton in their suit.#
 
-[#double-in-gf-auctions]
-==== GF Auctions
+[#_delayed_doubles]
+=== Delayed doubles
 
-[%autowidth,cols="4*^",grid="none"]
+==== Opener rebids in the same suit
+
+A delayed double of opener's rebid-suit is take-out when:
+
+@ RHO is the opening bidder and partner
+_ has taken positive action on the first
+_ round +
+
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1S | (P) | !2C! | (2D)
-| ?  |     |      |
-| P  |  2+<| forcing
-| X  |  2+<| penalty
+| (1H) | P | (P) | 2D |
+| (2H) | X |     |    | *take out*, partner took positive action
+                        on the first round
 |===
 
-Opener may rebid his suit or another suit if he has a long suit or a
-shapely hand.
+@ RHO rebids a _minor suit_ after a
+_ 1NT response
 
-==== After a penalty double of a weak NT
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1D) | P |  1NT  | P |
+| (2D) | X |       |   | *light take-out*, the opps often have
+                         a fit when responder denies a major
+			 and opener rebids a minor
+|===
+
+[lavender-box]#Other delayed-doubles of RHO's rebid-suit are penalty#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1H) | P | (1NT) | P |
+| (2H) | X |       |   | *penalty*, rebidding a major following
+                         a 1NT response carries no implication
+			 of a fit
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1D) | P | (1S) | P |
+| (2D) | X |      |   | *penalty*. There's also no implication of fit
+                        following a new-suit response.  #This double
+			also tends in the suit on doubler's left.#
+|===
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+| (1C)  | P | (1H)  | P | |
+| (1NT) | P | (2H)  | X | | *penalty*, the opps are limited
+                            and doubler can see that the
+			    cards lie poorly for declarer
+|===
+
+==== Opener rebids in new suit
+
+The meaning of a double of opener's second suit depends on whether
+responder bid a suit or NT.
+
+[lavender-box]#If responder bid NT, then double of opener's second
+suit is takeout#
+
+It shows at least 5{ndash}5 in the unbid suits but without the
+suit-quality for a first-round 2-suited bid (Klinger).
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1S) | P | (1NT) | P |
+| (2C) | X |       |   | At least 5{ndash}5 in diamonds and hearts
+|===
+
+[lavender-box]#If responder bid a suit, then double of opener's second
+suit is take-out of the suit on doubler's left#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1D) | P | (1S) | P |
+| (2C) | X |      |   | take-out of spades
+|===
+
+=== After a penalty double of a weak NT
 
 ****
 .Definition of weak NT
