@@ -182,20 +182,20 @@ positive values with a double or penalty pass.
 
 @ forcing in uncontested auction
 @ #non-forcing vs overcall#
-@ lead-directing (McCabe) vs double
+@ fit-showing vs double
 
-=== McCabe
+[#_new_suit_fit_showing_vs_dble]
+=== Fit-showing bids vs double
 
 [%autowidth,cols="<.^s,>.^,<",grid="none"]
 |===
 3+^d| vs double of weak two
 
-| new suit || COV (lead-directing) with fit
+| new suit || values and length (4{OrMore}) with fit
 | raise    || A or K (lead-directing)
 | redouble | &#x25c0; | run-out to long suit, _or_ +
                   raise without A or K
-| jump shift || [orange-bg]#lead directing??# +
-                [orange-bg]#save suggesting??#
+| jump shift || [orange-bg]#fit showing??#
 |===
 
 [#bogust]
