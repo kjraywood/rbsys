@@ -629,17 +629,24 @@ NOTE: We also use 4C=majors vs 2D interference that shows diamonds
 [lavender-box]#Bids from 2NT to 3S, except for the cue bid,
 are transfers to the next available strain#
 
-A transfer to a suit that could not be bid at the two-level shows
-at least competitive strength.
+@ A transfer to a suit that could not
+_ be bid at the two-level shows at
+_ least competitive strength
 
-If the suit could be bid at the two-level, then a transfer to that
-suit at the three-level shows at least invitational strength.
+@ If the suit could be bid at the
+_ two-level, then a transfer to that
+_ suit at the three-level shows at
+_ least invitational strength.
 
-A transfer to 3NT requests a stopper.
+@ A transfer to 3NT denies a stopper +
+>> 3NT by opener shows a stopper. +
+__ Without a stopper, opener bids a
+__ 5-card major, 4-card minor
 
-[lavender-bg]#A cue-bid is Stayman without a stopper.#
-It tends to show a singleton or void, otherwise responder might have
-used a negative double.
+@ A cue-bid is Stayman without a stopper.
+_ It tends to show a singleton or void,
+_ otherwise responder might have used a
+_ negative double.
 
 [%autowidth,cols="^.^s,^,<.^",grid="none"]
 |===
