@@ -19,7 +19,7 @@
             Stayman>> +
 {nbsp}{ensp} 6. <<system.adoc#_jacoby_transfers,
             Jacoby transfers>> +
-{nbsp}{ensp} 7. <<system.adoc#_minor-suit_transfers,
+{nbsp}{ensp} 7. <<system.adoc#_minor_suit_transfers,
             Minor-suit transfers>> +
 {nbsp}{ensp} 8. <<system.adoc#_interference_over_1nt,
             Interference over 1NT>> +
