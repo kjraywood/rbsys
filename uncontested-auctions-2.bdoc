@@ -257,8 +257,7 @@ _ (if a jump reverse in that suit is not available)
 [#_jump_rebid_of_original_suit_by_opener]
 === Jump rebid of original suit by opener
 
-// This section is referenced from
-// <<slam-conventions.adoc#_minorwood_after_jump_rebid>>
+// Referenced from: slam-conventions.adoc#_minorwood
 
 The Mexican 2D allows us to use 2NT to provide more definition to
 opener's jump rebid.
@@ -296,7 +295,7 @@ investigation for slam in opener's minor-suit.
 | !3C! |  ?    || 6{OrMore}{xtimes}{C}, 3*{S}
 |   2+<| 3D,3H <| NT probe or cue for {C}
 |      |  3S   || #forcing#, sets trump = {S}
-|      |  4C   || [lavender-bg]#minorwood# 
+|      |  4C   || <<#_minorwood, minorwood>>
 |      | !4D!  || exclusion of {D}, trump = {C}
 |      | !4H!  || exclusion, trump = {C}
 |      |  4S   || to play
@@ -310,7 +309,7 @@ investigation for slam in opener's minor-suit.
 |      |  3H   || #forcing#, sets trump = {H}
 |   2+<| 3S,4C <| cue, {D} = trump
 |      |  3NT  || to play
-|      |  4D   || [lavender-bg]#minorwood#
+|      |  4D   ||  <<#_minorwood, minorwood>>
 |      |  4H   || to play
 |      | !4S!  || exclusion, trump = {D}
 |      | !5C!  || exclusion, trump = {D} 
@@ -568,3 +567,4 @@ _ on 3rd round or later +
 @ applies to either player
 
 If partner bids 3NT, fourth-suit bidder pulls with a singleton.
+
