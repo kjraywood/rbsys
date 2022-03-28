@@ -64,8 +64,8 @@ A jump after the relay shows extra length.
 
 === Second-round jumps
 
-These are picture-bids, providing opener with an accurate description
-of responder's hand.
+Responder's 2nd-round jump could be a second-suit or a rebid of his
+first suit.
 
 *Second suit:*{thinsp} 5-5 with most values in the long suits. Slam is
 possible if the hands fit well.
