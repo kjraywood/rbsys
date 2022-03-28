@@ -191,9 +191,9 @@ positive values with a double or penalty pass.
 |===
 3+^d| vs double of weak two
 
-| new suit || values and length (4{OrMore}) with fit
+| new suit || lead-directing with fit
 | raise    || A or K (lead-directing)
-| redouble | &#x25c0; | run-out to long suit, _or_ +
+| redouble || run-out to long suit, _or_ +
                   raise without A or K
 | jump shift || [orange-bg]#fit showing??#
 |===
