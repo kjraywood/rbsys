@@ -578,20 +578,19 @@ If partner bids 3NT, fourth-suit bidder pulls with a singleton.
  __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
 __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
+[lavender-box]#We only use picture bids when jumping in
+               a major-suit that was bid by partner#
+
 Responder may initially conceal 4-card support for opener's major when
 intending to make a picture jump to game on the second round.
 It is highly unlikely that the auction will be too high for responder
 to jump on the second round.
 
 We do not conceal 4-card support in other cases because a jump to 3M
-may not be available on the 2^nd^-round (_e.g._{thinsp} 2M or 2NT
-rebid by opener).
-So, contrary to the recommendation of Gumperz (part 1, page 2, hand
-2), the 2^nd^-round jump to 3M shows strong slam-interest but !denies!
-4-card support.
-
-[lavender-box]#We only use picture bids when jumping to game in a major in
-               a major-suit bid by partner#
+may not be available on the 2^nd^-round (_e.g._{thinsp} when open
+rebids 2M or 2NT).  A 2^nd^-round jump to 3M !denies! 4-card support.
+This is contrary to the recommendation of Gumperz; part 1, page 2,
+hand 2),
 
 [lavender-box]#Picture bids have priority over kickback#
 
