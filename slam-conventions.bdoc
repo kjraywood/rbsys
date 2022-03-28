@@ -55,7 +55,7 @@ an inverted-minor auction
 
 === Jump-raise of 2m to 4m
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
 |
 [grid="none",stripes=odd]
@@ -67,6 +67,12 @@ an inverted-minor auction
 [grid="none",stripes=odd]
 :===
  1H :  1S
+ 2D : !4D!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1C :  1H
  2D : !4D!
 :===
 |===
@@ -168,9 +174,10 @@ Also see: <<other-notrump.adoc#2nt-opening, 2NT auctions>>
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! {C} agreed +
-  4C is not a jump +
-  > 4C is NOT minorwood +
-  > !4D! is kickback
+  @ 3C is forcing (not invitational) +
+  @ 4C is not a jump +
+  {implies} 4C is NOT minorwood +
+  {implies} !4D! is kickback
 !===
 |===
 
@@ -196,33 +203,59 @@ Also see: <<other-notrump.adoc#2nt-opening, 2NT auctions>>
 
 === When both majors are in focus
 
-[lavender-box]#If we agree hearts, then we cannot get back to spades#
+[lavender-box]#Picture bids have priority over kickback#
+
+If we agree hearts, we can get back to spades with a picture jump, but
+anything else confirms that hearts are trump
+
+
 
 In both of the following, 3H sets hearts as trump and we cannot get
 back to spades.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S |  2H  | |
-| 3H | !4S! | | kickback
+| 1S | 2H ||
+| 3H | ?  ||
+|    | !3S!  || artificial non-serious slam-try, trump={H}
+|    | !3NT! || serious slam-try with a high-honour in spades, trump={H}
+|    | !4m!  || serious slam-try, trump={H}
+|    | 4H    || poor for slam
+|    | 4S    || <<#_picture_bids, picture bid>>
 |===
+
+To use kickback in hearts, responder can first bid 3S, artificial
+non-serious slam-try, then follow with 4S.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1C  | 1S |
-|  2H  | 3H |
-| !4S! |    | kickback
+| 1C | 1S |
+| 2H | 3H |
+| ?  |    |
+| !3S! |  | artificial non-serious slam-try, trump={H}
+| !3NT! | | serious slam-try with a high-honour in spades, trump={H}
+| !4m!  | | serious slam-try, trump={H}
+| 4H   |  | poor for slam
+| !4S! |  | <<#_picture_bids, picture bid>>
 |===
+
+For the picture bid, opener will have reversed into a 3-card heart-suit.
 
 === Majors have priority over minors
 
+But picture jumps still have priority over kickback
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1H  | 2D | |
-| 3D  | ?  | |
-|     | 3H | | {H} are trump
-|     | 4H | | kickback for {D}, higher priority than picture jump
+| 1H  | 2D ||
+| 3D  | ?  ||
+|     | 3H || {H} are trump
+|     | 4H || [lavender-bg]#Picture jump#
+|     | !4S! || #kickback#, {D} are trump
+|     | !4NT! || exclusion of spades, {D} are trump
 |===
+
+To use kickback in diamonds, responder must cue-bid 3S or 4C.
 
 === Kickback in contested auctions
 
