@@ -95,7 +95,7 @@ an inverted-minor auction
 
 === Raising an invitational 3m to 4m
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
 |
 [grid="none",stripes=odd]
@@ -108,6 +108,12 @@ an inverted-minor auction
 :===
  1H   :  3D
  !4D! :
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1C :  1D
+ 3D : !4D!
 :===
 |===
 
