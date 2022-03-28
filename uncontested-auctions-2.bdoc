@@ -282,11 +282,7 @@ This even applies in responder's suit for which opener has shown
 three-card support because it provides a convenient way for responder
 to set that suit as trump for control-bidding or key-card asking.
 
-This also allows following our normal kickback rules.
-
-NOTE: Minorwood does not apply because it is not a jump
-
-A new suit above 3NT sets opener's suit as trump.
+A new suit above 3NT sets opener's suit as trump and is a slam try.
 
 A new suit below 3NT could be a notrump probe, or the start of an
 investigation for slam in opener's minor-suit.
@@ -298,17 +294,13 @@ investigation for slam in opener's minor-suit.
 |===
 |  1C  |  1S   ||
 | !3C! |  ?    || 6{OrMore}{xtimes}{C}, 3*{S}
-|   2+<| 3D,3H <| NT probe or cue for {C} {smallnote}
+|   2+<| 3D,3H <| NT probe or cue for {C}
 |      |  3S   || #forcing#, sets trump = {S}
-|      |  4C   || natural, forcing
-|      | !4D!  || [lavender-bg]#kickback#
+|      |  4C   || [lavender-bg]#minorwood# 
+|      | !4D!  || exclusion of {D}, trump = {C}
 |      | !4H!  || exclusion, trump = {C}
 |      |  4S   || to play
-|     | !4NT!  || #exclusion of {D}, trump = {C}#
 |===
-
-NOTE: Responder doesn't need natural bids that show 5{ndash}5 because
-      opener has promised three spades
 
 .(b)
 [%autowidth,cols="3*^,<",grid="none"]
@@ -318,10 +310,9 @@ NOTE: Responder doesn't need natural bids that show 5{ndash}5 because
 |      |  3H   || #forcing#, sets trump = {H}
 |   2+<| 3S,4C <| cue, {D} = trump
 |      |  3NT  || to play
-|      |  4D   || natural, forcing
-|      | !4H!  || [lavender-bg]#kickback#
+|      |  4D   || [lavender-bg]#minorwood#
+|      |  4H   || to play
 |      | !4S!  || exclusion, trump = {D}
-|      | 4NT   || unused
 |      | !5C!  || exclusion, trump = {D} 
 |===
 
@@ -334,10 +325,12 @@ NOTE: Responder doesn't need natural bids that show 5{ndash}5 because
 |      |  3NT  || to play
 |   2+<| 4C,4D <| cue, {H} = trump
 |      |  4H   || to play
-|      | !4S!  || [lavender-bg]#kickback#
-|      | 4NT   || unused
+|      | !4S!  || [lavender-bg]#kickback# {smallnote}
 | 2+<| !5C!,!5D! <| exclusion, trump = {H} 
 |===
+
+NOTE: To play in 4S, responder must bid 3S (forcing) and
+      follow with 4S
 
 === Jump rebid of 2NT or 3\C
 
