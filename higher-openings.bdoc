@@ -180,12 +180,11 @@ positive values with a double or penalty pass.
 
 === New-suit by responder
 
-@ forcing in uncontested auction
-@ #non-forcing vs overcall#
+@ forcing in uncontested auction +
+@ #non-forcing vs overcall# +
 @ fit-showing vs double
 
-[#_new_suit_fit_showing_vs_dble]
-=== Fit-showing bids vs double
+=== McCabe vs double
 
 [%autowidth,cols="<.^s,>.^,<",grid="none"]
 |===
