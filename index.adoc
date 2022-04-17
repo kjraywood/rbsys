@@ -104,33 +104,39 @@
             Take-out doubles>> +
 {nbsp} 41. <<system.adoc#_responsive_doubles,
             Responsive Doubles>> +
-{nbsp} 42. <<system.adoc#_notrump_overcalls,
-            NoTrump Overcalls>> +
-{nbsp} 43. <<system.adoc#_suit_overcalls,
+{nbsp} 42. <<system.adoc#_direct_1nt_overcalls,
+            Direct 1NT Overcalls>> +
+{nbsp} 43. <<system.adoc#_balancing_1nt,
+            Balancing 1NT>> +
+{nbsp} 44. <<system.adoc#_natural_sandwich_position_1nt,
+            Natural sandwich-position 1NT>> +
+{nbsp} 45. <<system.adoc#_nt_overcalls_of_their_preempts,
+            NT Overcalls of their preempts>> +
+{nbsp} 46. <<system.adoc#_suit_overcalls,
             Suit Overcalls>> +
-{nbsp} 44. <<system.adoc#_klinger,
+{nbsp} 47. <<system.adoc#_klinger,
             Two-suited overcalls (Klinger)>> +
-{nbsp} 45. <<system.adoc#_balancing,
+{nbsp} 48. <<system.adoc#_balancing,
             Balancing>> +
-{nbsp} 46. <<system.adoc#_defence_to_preempts,
+{nbsp} 49. <<system.adoc#_defence_to_preempts,
             Defence to Preempts>> +
-{nbsp} 47. <<system.adoc#_kastro_vs_nt,
+{nbsp} 50. <<system.adoc#_kastro_vs_nt,
             KASTRO vs NT>> +
-{nbsp} 48. <<system.adoc#_defence_to_transfers,
+{nbsp} 51. <<system.adoc#_defence_to_transfers,
             Defence to Transfers>> +
-{nbsp} 49. <<system.adoc#_vs_other_artificial_bids,
+{nbsp} 52. <<system.adoc#_vs_other_artificial_bids,
             Vs other artificial bids>> +
 
 <<system.adoc#_leads_and_carding, *Leads and Carding*>> +
-{nbsp} 50. <<system.adoc#_leads_vs_suits,
+{nbsp} 53. <<system.adoc#_leads_vs_suits,
             Opening Leads vs Suits>> +
-{nbsp} 51. <<system.adoc#_leads_vs_notrump,
+{nbsp} 54. <<system.adoc#_leads_vs_notrump,
             Opening Leads vs NoTrump>> +
-{nbsp} 52. <<system.adoc#_signalling,
+{nbsp} 55. <<system.adoc#_signalling,
             Signalling>> +
-{nbsp} 53. <<system.adoc#_discards,
+{nbsp} 56. <<system.adoc#_discards,
             Discards>> +
-{nbsp} 54. <<system.adoc#_special_defence_situations,
+{nbsp} 57. <<system.adoc#_special_defence_situations,
             Special Defence Situations>> +
 
 '''

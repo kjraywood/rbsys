@@ -113,17 +113,19 @@ When the opps raise a major to the #3-level#, then a responsive double
 denies four of the other major and could be just showing general
 high-card strength.
 
-== NoTrump Overcalls
+== Direct 1NT Overcalls
 
-=== Direct 1NT Overcall
-
-==== They opened one minor
+=== They opened one minor
 
 #System ON#, including run-out system if doubled
 
-==== They opened one major
+=== They opened one Major
 
-#System OFF#
+@ #System OFF# +
+@ cue = Stayman,
+_ includes inv with 5*oM +
+@ jump to 3oM = GF +
+@ #jump to 3m = inv.#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -137,9 +139,10 @@ high-card strength.
 | !3M! |      |     | shortness (s\|v), 3*oM
 |===
 
-Cue-bid Stayman shows at least invitational values. In response,
-overcaller must distinguish min from max so that we
-can stop with a minimum opposite an invitation.
+==== Cue-bid Stayman
+
+Cue-bid Stayman shows at least inv. +
+{tribull} Overcaller must distinguish min from max.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -153,7 +156,9 @@ can stop with a minimum opposite an invitation.
 |      |   2+<| _jump_ in oM <| {ensp} 4*oM max (GF)
 |===
 
-If they double, then redouble shows both minors
+==== Run-out after (1M)-1NT-(X)
+
+@ #redouble = both minors#
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -163,7 +168,7 @@ If they double, then redouble shows both minors
 2+<| 2m, 2oM  |    <| to play
 |===
 
-=== Balancing 1NT
+== Balancing 1NT
 
 @ 1NT vs. minor = 11 {ndash} 14 +
 @ 1NT vs. major = 11{OrMore} {ndash} 17{OrLess}
@@ -172,7 +177,7 @@ If they double, then redouble shows both minors
 
 #System ON# in all cases
 
-==== Inviting opposite wide-range 1NT
+=== Inviting opposite wide-range 1NT
 
 *Only applies vs major*
 
@@ -186,19 +191,23 @@ Wide-range 1NT {blueRarrow} advancer has two ranges of invitations
 @ use regular 1NT system +
 @ only declined with a min
 
-==== Strong-invitation auctions
+=== Strong-invitation auctions
+
+[%autowidth,cols="4*^,<",grid=none]
+|===
+5+^| Strong inv in NT
+
+|     |     | (1M) |  P  |
+| (P) | 1NT | (P)  | 2NT |
+| (P) |  ?  |   2+<|
+|     |  P  |   2+<| min
+|     | 3NT |   2+<| not min
+|===
 
 [%autowidth,cols="5*^,<",grid=none]
 |===
-|     |     | (1M) |  P   ||
-| (P) | 1NT | (P)  | !2S! || {C} _or_{thinsp} bal. strong-inv.
-| (P) |  ?  |   3+<|
-|     | 2NT |   3+<| min
-|     | 3C  |   3+<| not min
-|===
+6+^| Strong inv with five hearts
 
-[%autowidth,cols="5*^,<",grid=none]
-|===
 |     |     | (1S) |  P   ||
 | (P) | 1NT | (P)  | !2D! || transfer to {H}
 | (P) | 2H  | (P)  | !2S! || strong inv.
@@ -209,28 +218,27 @@ Wide-range 1NT {blueRarrow} advancer has two ranges of invitations
 |     | 4H  |   3+<| not min, with {H} fit
 |===
 
-There is no corresponding auction for 5*{S}{thinsp} because that hand would
-have made a 1S overcall.
+[lavender-box]#There is no auction for strong inv with 5{times}{S}{thinsp}
+               because that hand would have made a 1S overcall.#
 
-==== Range Stayman
+=== Range Stayman
 
-*Only applies vs major*
+@ only applies vs major
 
 Used by: +
-@ all weak invitations
+@ all weak invitations +
 @ strong invitation with 4oM
 
 CAUTION: Range Stayman does not promise four of other major.
 
-*Responses to Range Stayman*
+==== Responses to Range Stayman
 
-@ jump to 3oM shows 5-card suit and max
-@ 2NT shows any other max
-@ 2oM shows 4 or 5 and min +
-@ #cue-bid of 2M# shows 4 or 5 of oM
-_ and #medium strength# +
-@ 2D shows none of above
-_ = not max and fewer than four of oM
+@ jump to 3oM = 5-card suit, max +
+@ 2NT = any other max +
+@ 2oM = 4 or 5, min +
+@ [lavender-bg]#cue = 4{or}5{xtimes}oM, medium# +
+@ 2D = none of above
+_ = not max, fewer than 4{xtimes}oM
 
 [%autowidth,cols="4*^,<",grid=none]
 |===
@@ -250,27 +258,27 @@ _ = not max and fewer than four of oM
 Following 2D, advancer shows a strong invitation by cue-bidding.
 This asks if balancer is minimum or medium.
 
-[%autowidth,cols="2*^,<",grid=none]
+[%autowidth,cols="7*^",grid=none]
 |===
-|      |      | {emsp}{emsp}{emsp}(1S)
-|  P   | (P)  | 1NT {ensp}{ensp}(P)
-| !2C! | (P)  | {nbsp}{thinsp}!!2D!! {emsp}{ensp}(P)
-|  ?   |      |
-| 2H   |      | 5*{H}, weak-inv.
-| !2S! |      | strong inv, #asks min or med# +
+|      |     |      | (1S) |||
+|  P   | (P) |  1NT | (P)  |||
+| !2C! | (P) | !2D! | (P)  |||
+|  ?   |  5+<|
+| 2H   |  5+<| 5*{H}, weak-inv.
+| !2S! |  5+<| strong inv, +
 	        > 2NT=min, 3NT=med
-| 2NT  |      | sign off
+| 2NT  |  5+<| sign off
 |===
 
-=== Sandwich-position 1NT
+== Natural sandwich-position 1NT
 
 @ #natural# by unpassed hand, 16-19 +
 @ unusual by passed hand,
 _ 5{ndash}5{OrMore} other two suits
 
-&Responses to natural 1NT in sandwich position&
+=== Responses to natural 1NT in sandwich position
 
-@ system OFF
+@ system OFF +
 @ under-suit cue = Stayman
 
 [%autowidth,cols="2*^,<",grid=none]
@@ -287,19 +295,80 @@ _ 5{ndash}5{OrMore} other two suits
 | 2NT   |      | natural inv.
 |===
 
-=== vs weak two or precision 2C
+== NT Overcalls of their preempts
 
-2NT = 16-19
-@ simple Stayman & Smolen vs 2m +
-@ #5-card Stayman vs 2M# +
-@ #transfer to their major = inv oM# +
-@ vs 2M: 3S = minors +
-@ vs 2m: 3S = other minor
-@ 3NT = to play
+@ Stayman and transfers ON
 
-==== When they double
+@ #5-card Stayman if they opened 2M or 3M#
 
-When our 2NT overcall is doubled, we mimic what we do at the one-level.
+@ [lavender-bg]#transfer to their major = 5{OrMore}{xtimes}oM# +
+_ {ndash} game-inv. @ 3-level +
+_ {ndash} slam-inv. @ 4-level
+
+=== 2NT overcall of two-minor
+
+[%autowidth,cols="2*^,<",grid=none]
+|===
+|      | (2m) | 2NT {ensp} P
+|   ?  |      |
+|   P  |      | to play
+| !3C! |      | regular Stayman with Smolen
+2+<| !3D!,!3H! <| transfer
+| !3S! |      | #other minor#
+| 3NT  |      | to play
+|===
+
+=== 2NT overcall of two-Major
+
+[%autowidth,cols="2*^,<",grid=none]
+|===
+|      | (2M) | 2NT {ensp} P
+|   ?  |      |
+|   P  |      | to play
+| !3C! |      | 5-card Stayman
+2+<| !3D!,!3H! <| transfer +
+     [lavender-bg]#t'fer to their major = inv oM#
+| !3S! |      | #both minors#
+|  3NT |      | to play
+|===
+
+=== 3NT overcall of three-minor
+
+When they preempt, 4-4 major-suit fits often don't play well because of
+a bad-break or a ruff.
+
+So our Stayman 4C shows 5{ndash}5 in the majors.
+
+[%autowidth,cols="2*^,<",grid=none]
+|===
+|      | (3m) | 3NT {ensp} P
+|   ?  |      |
+|   P  |      | to play
+| !4C! |      | both majors, at least 5{ndash}5
+2+<| !4D!,!4H! <| Texas transfer +
+              > kickback after transfer is accepted
+| !4S! |      | #weak quant. or slam-drive#
+|  4NT |      | strong quant.
+|===
+
+=== 3NT overcall of three-Major
+
+[%autowidth,cols="2*^,<",grid=none]
+|===
+|      | (3M) | 3NT {ensp} P
+|   ?  |      |
+|   P  |      | to play
+| !4C! |      | 5-card Stayman
+2+<| !4D!,!4H! <| Texas transfer +
+     [lavender-bg]#t'fer to their major = slam-inv oM#
+| !3S! |      | #both minors#
+|  3NT |      | to play
+|===
+
+=== Vs double
+
+When our 2NT overcall is doubled, we mimic what we do at the
+one-level.
 
 They opened two-*minor* {tribull} transfers ON
 
