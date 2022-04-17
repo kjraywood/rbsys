@@ -55,108 +55,6 @@ Cue-bid Stayman shows at least inv. +
 2+<| 2m, 2oM  |    <| to play
 |===
 
-== Balancing 1NT
-
-@ 1NT vs. minor = 11 {ndash} 14 +
-@ 1NT vs. major = 11{OrMore} {ndash} 17{OrLess}
->> Range Stayman +
-@ 2NT = 19 {ndash} 20
-
-#System ON# in all cases
-
-=== Inviting opposite wide-range 1NT
-
-*Only applies vs major*
-
-Wide-range 1NT {blueRarrow} advancer has two ranges of invitations
-
-*weak invitation* {thinsp}({simto}9 HCP) +
-@ use <<#_range_stayman, Range Stayman>> +
-@ only accepted with a max
-
-*strong invitation* {thinsp}({simto}11 HCP) +
-@ use regular 1NT system +
-@ only declined with a min
-
-=== Strong-invitation auctions
-
-[%autowidth,cols="4*^,<",grid=none]
-|===
-5+^| Strong inv in NT
-
-|     |     | (1M) |  P  |
-| (P) | 1NT | (P)  | 2NT |
-| (P) |  ?  |   2+<|
-|     |  P  |   2+<| min
-|     | 3NT |   2+<| not min
-|===
-
-[%autowidth,cols="5*^,<",grid=none]
-|===
-6+^| Strong inv with five hearts
-
-|     |     | (1S) |  P   ||
-| (P) | 1NT | (P)  | !2D! || transfer to {H}
-| (P) | 2H  | (P)  | !2S! || strong inv.
-| (P) |  ?  |   3+<|
-|     | 2NT |   3+<| min, no {H} fit
-|     | 3H  |   3+<| min, with {H} fit
-|     | 3NT |   3+<| not min, no {H} fit
-|     | 4H  |   3+<| not min, with {H} fit
-|===
-
-[lavender-box]#There is no auction for strong inv with 5{times}{S}{thinsp}
-               because that hand would have made a 1S overcall.#
-
-=== Range Stayman
-
-@ only applies vs major
-
-Used by: +
-@ all weak invitations +
-@ strong invitation with 4oM
-
-CAUTION: Range Stayman does not promise four of other major.
-
-==== Responses to Range Stayman
-
-@ jump to 3oM = 5-card suit, max +
-@ 2NT = any other max +
-@ 2oM = 4 or 5, min +
-@ [lavender-bg]#cue = 4{or}5{xtimes}oM, medium# +
-@ 2D = none of above
-_ = not max, fewer than 4{xtimes}oM
-
-[%autowidth,cols="4*^,<",grid=none]
-|===
-|      |     |       | (1S) |
-|  P   | (P) |  1NT  | (P)  |
-| !2C! | (P) |   ?   |      |
-|      |     | !2D!  |      | not max, not 4*oM
-|      |     |  2H   |      | 4 or 5 hearts, minimum
-|      |     | !2S!  |      | 4 or 5 hearts, medium +
-                              > #3C = asks for 5# +
-                              > #3D = transfer#
-|      |     | !2NT! |      | max, not 5*{H} +
-                              > 3C = re-Stayman
-|      |     | 3H    |      | max, 5*{H}
-|===
-
-Following 2D, advancer shows a strong invitation by cue-bidding.
-This asks if balancer is minimum or medium.
-
-[%autowidth,cols="7*^",grid=none]
-|===
-|      |     |      | (1S) |||
-|  P   | (P) |  1NT | (P)  |||
-| !2C! | (P) | !2D! | (P)  |||
-|  ?   |  5+<|
-| 2H   |  5+<| 5*{H}, weak-inv.
-| !2S! |  5+<| strong inv, +
-	        > 2NT=min, 3NT=med
-| 2NT  |  5+<| sign off
-|===
-
 == Natural sandwich-position 1NT
 
 @ #natural# by unpassed hand, 16-19 +
@@ -445,7 +343,109 @@ a point or two higher when vulnerable.
 When the Klinger bid is 2NT or 3C, then the cue-bid of opener's suit
 asks for strength.
 
-== Balancing
+== Balancing 1NT
+
+@ 1NT vs. minor = 11 {ndash} 14 +
+@ 1NT vs. major = 11{OrMore} {ndash} 17{OrLess}
+>> Range Stayman +
+@ 2NT = 19 {ndash} 20
+
+#System ON# in all cases
+
+=== Inviting opposite wide-range 1NT
+
+*Only applies vs major*
+
+Wide-range 1NT {blueRarrow} advancer has two ranges of invitations
+
+*weak invitation* {thinsp}({simto}9 HCP) +
+@ use <<#_range_stayman, Range Stayman>> +
+@ only accepted with a max
+
+*strong invitation* {thinsp}({simto}11 HCP) +
+@ use regular 1NT system +
+@ only declined with a min
+
+=== Strong-invitation auctions
+
+[%autowidth,cols="4*^,<",grid=none]
+|===
+5+^| Strong inv in NT
+
+|     |     | (1M) |  P  |
+| (P) | 1NT | (P)  | 2NT |
+| (P) |  ?  |   2+<|
+|     |  P  |   2+<| min
+|     | 3NT |   2+<| not min
+|===
+
+[%autowidth,cols="5*^,<",grid=none]
+|===
+6+^| Strong inv with five hearts
+
+|     |     | (1S) |  P   ||
+| (P) | 1NT | (P)  | !2D! || transfer to {H}
+| (P) | 2H  | (P)  | !2S! || strong inv.
+| (P) |  ?  |   3+<|
+|     | 2NT |   3+<| min, no {H} fit
+|     | 3H  |   3+<| min, with {H} fit
+|     | 3NT |   3+<| not min, no {H} fit
+|     | 4H  |   3+<| not min, with {H} fit
+|===
+
+[lavender-box]#There is no auction for strong inv with 5{times}{S}{thinsp}
+               because that hand would have made a 1S overcall.#
+
+=== Range Stayman
+
+@ only applies vs major
+
+Used by: +
+@ all weak invitations +
+@ strong invitation with 4oM
+
+CAUTION: Range Stayman does not promise four of other major.
+
+==== Responses to Range Stayman
+
+@ jump to 3oM = 5-card suit, max +
+@ 2NT = any other max +
+@ 2oM = 4 or 5, min +
+@ [lavender-bg]#cue = 4{or}5{xtimes}oM, medium# +
+@ 2D = none of above
+_ = not max, fewer than 4{xtimes}oM
+
+[%autowidth,cols="4*^,<",grid=none]
+|===
+|      |     |       | (1S) |
+|  P   | (P) |  1NT  | (P)  |
+| !2C! | (P) |   ?   |      |
+|      |     | !2D!  |      | not max, not 4*oM
+|      |     |  2H   |      | 4 or 5 hearts, minimum
+|      |     | !2S!  |      | 4 or 5 hearts, medium +
+                              > #3C = asks for 5# +
+                              > #3D = transfer#
+|      |     | !2NT! |      | max, not 5*{H} +
+                              > 3C = re-Stayman
+|      |     | 3H    |      | max, 5*{H}
+|===
+
+Following 2D, advancer shows a strong invitation by cue-bidding.
+This asks if balancer is minimum or medium.
+
+[%autowidth,cols="7*^",grid=none]
+|===
+|      |     |      | (1S) |||
+|  P   | (P) |  1NT | (P)  |||
+| !2C! | (P) | !2D! | (P)  |||
+|  ?   |  5+<|
+| 2H   |  5+<| 5*{H}, weak-inv.
+| !2S! |  5+<| strong inv, +
+	        > 2NT=min, 3NT=med
+| 2NT  |  5+<| sign off
+|===
+
+== Other Balancing Bids
 
 === New-minor Drury after Balancing One-Major
 
