@@ -4,19 +4,17 @@ include::overview.adoc[]
 
 include::one-notrump.adoc[]
 
-include::other-notrump.adoc[]
+include::higher-openings.adoc[]
 
 include::suit-openings.adoc[]
 
-include::uncontested-auctions-1.adoc[]
-
-include::uncontested-auctions-2.adoc[]
-
-include::higher-openings.adoc[]
+include::uncontested-auctions.adoc[]
 
 include::slam-conventions.adoc[]
 
 include::competitive-bidding.adoc[]
+
+include::doubles.adoc[]
 
 include::defensive-bidding.adoc[]
 
