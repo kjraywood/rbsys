@@ -1,5 +1,173 @@
 = Defensive Bidding
 
+
+== Suit Overcalls
+
+=== Responses to simple overcalls
+
+@ New suit = constructive, NF +
+@ JS = natural, good hand, but NF
+>> _no inv./inv._{thinsp} applies +
+@ double of their raise = responsive +
+@ double of new suit = snapdragon
+
+==== Honour redouble vs neg. double
+
+@ Only applies at one-level
+@ Usually Ax or Kx in partner's suit +
+@ Advancer may redouble with Qx when it
+_ seems likely that opener will play NT
+
+=== One-Major Overcalls
+
+@ non-jump cue
+_ = good 3-cd raise or any force +
+@ 2NT = 4-cd limit-raise +
+@ Jump cue
+_ = 4-cd raise, #{thinsp}split-range:{thinsp}# mixed or GF
+
+*If a two-level cue-bid is not available, then:*
+
+@ the three-level cue-bid is the most-defensive
+_ raise, usually with three trumps +
+@ 2NT is used for all four-card raises and shows
+_ a good mixed-raise or better +
+@ a jump raise has at most one defensive trick
+
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+|      | (1D) | 1S {emsp}(2D)
+|   ?  |      |
+|   X  |      | responsive
+| !2NT! |     | 4{OrMore}{xtimes}{S}, good mixed-raise{OrMore}
+| !3D! |      | 3{xtimes}{S}, {LRplus}
+|  3S  |      | preemptive, up to a poor mixed-raise
+|===
+
+&Rebid by overcaller&
+
+A bid of the suit on overcaller's right is natural.
+
+[%autowidth,cols="^,4*<",grid="none"]
+|===
+| (1C) | 1H  | (P)   | 1S | 
+| (P)  | 2C* |       |    | * natural
+|===
+
+There is no cue-bid in this auction.
+To show a good raise of spades, overcaller just jumps to 3S.
+
+[#_vs_further_interference_after_our_overcall]
+=== Vs Further Interference after our Overcall
+
+If there is further bidding by opener following our cue-bid raise,
+then returning to the trump-suit is the weakest bid that overcaller
+can make.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |      | (1D)  | 1S | |
+| (P) | !2D! | (Dbl) | ?  | |
+|     |      |       | 2S | | less than an opening hand
+|     |      |       | P  | | at least an opening hand
+|===
+
+[#_two_level_overcalls]
+=== Two-level overcalls
+
+&vs pass& [ _e.g._ {thinsp}(1S) - 2C - (P) - ? ] +
+@ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
+@ 2NT = natural
+
+&vs raise& [ _e.g._ {thinsp}(1S) - 2C - (2S) - ? ] +
+@ double = responsive
+@ !2NT!  = good raise
+
+&vs negative-double& +
+
+//_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
+@ redouble = defensive strength, no fit
+@  cue  = good 3-card raise{orMore}
+@ !2NT! = good 4-card raise{orMore}
+
+=== Sandwich position
+
+==== Unpassed hand
+
+@ bid of suit on bidder's left
+_ = cue-bid
+_ = other two suits +
+@ bid of suit on bidder's right
+_ = natural +
+@ #2NT = minors#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |       | (1D) | P |
+| (1S) |  ?    |      |   |
+|      |  1NT  |      |   | natural (see responses above)
+|      | !2D!  |      |   | {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
+|      |  2S   |      |   | natural
+|      | !2NT! |      |   | minors
+|===
+
+==== Passed hand
+
+@ 1NT = unusual
+_ (5{ndash}5{OrMore} other two suits) +
+@ #cue-bid of suit on left = 6{OrMore}{xtimes}om + 4*oM#,
+_ (McCartney, "`__When I'm sixty-four__{thinsp}`")
+
+==== Raising a sandwich overcall
+
+@ bid of suit on bidder's right
+_ = natural +
+@ bid of suit on bidder's left
+_ = cue-bid
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|      |    | (1D) |  P   | |
+| (1H) | 1S | (P)  |  ?   | |
+|      |    |      |  2D  | | natural
+|      |    |      | !2H! | | cue-bid, good raise to 2S
+|===
+
+=== Weak Jump Ovecalls
+
+@ lowest jump-overcall is Klinger
+_ NOT natural & weak
+@ #new-suit after natural WJO is NF#
+
+[#_klinger]
+== Two-suited overcalls (Klinger)
+
+@ cue-bid & lowest J.O. = next 2 suits
+@ 2NT = suit-below + suit-above
+@ Only applies in direct seat
+@ ON vs short club or diamond
+
+=== Advancing
+
+If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
+an Ogust-type enquiry.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |       | (1C) | !2D! | | majors
+| (P) | !2NT! | (P)  |  ?   | | 2NT = range-ask
+|     |       |      |  3C  | | weak (6-8)
+|     |       |      |  3D  | | int. (9-11)
+|     |       |      |  3H  | | strong (12-14)
+|     |       |      |  3S  | | huge (16+)
+|===
+
+The HCP ranges do not count queens and jacks in the side suits and are
+a point or two higher when vulnerable.
+
+When the Klinger bid is 2NT or 3C, then the cue-bid of opener's suit
+asks for strength.
+
 == Direct 1NT Overcalls
 
 === They opened one minor
@@ -175,173 +343,6 @@ They opened two-*major* {tribull} transfers OFF
 | !XX! |      |     | both minors
 2+<| 3m, 3oM  |    <| to play
 |===
-
-== Suit Overcalls
-
-=== Responses to simple overcalls
-
-@ New suit = constructive, NF +
-@ JS = natural, good hand, but NF
->> _no inv./inv._{thinsp} applies +
-@ double of their raise = responsive +
-@ double of new suit = snapdragon
-
-==== Honour redouble vs neg. double
-
-@ Only applies at one-level
-@ Usually Ax or Kx in partner's suit +
-@ Advancer may redouble with Qx when it
-_ seems likely that opener will play NT
-
-=== One-Major Overcalls
-
-@ non-jump cue
-_ = good 3-cd raise or any force +
-@ 2NT = 4-cd limit-raise +
-@ Jump cue
-_ = 4-cd raise, #{thinsp}split-range:{thinsp}# mixed or GF
-
-*If a two-level cue-bid is not available, then:*
-
-@ the three-level cue-bid is the most-defensive
-_ raise, usually with three trumps +
-@ 2NT is used for all four-card raises and shows
-_ a good mixed-raise or better +
-@ a jump raise has at most one defensive trick
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|      | (1D) | 1S {emsp}(2D)
-|   ?  |      |
-|   X  |      | responsive
-| !2NT! |     | 4{OrMore}{xtimes}{S}, good mixed-raise{OrMore}
-| !3D! |      | 3{xtimes}{S}, {LRplus}
-|  3S  |      | preemptive, up to a poor mixed-raise
-|===
-
-&Rebid by overcaller&
-
-A bid of the suit on overcaller's right is natural.
-
-[%autowidth,cols="^,4*<",grid="none"]
-|===
-| (1C) | 1H  | (P)   | 1S | 
-| (P)  | 2C* |       |    | * natural
-|===
-
-There is no cue-bid in this auction.
-To show a good raise of spades, overcaller just jumps to 3S.
-
-[#_vs_further_interference_after_our_overcall]
-=== Vs Further Interference after our Overcall
-
-If there is further bidding by opener following our cue-bid raise,
-then returning to the trump-suit is the weakest bid that overcaller
-can make.
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|     |      | (1D)  | 1S | |
-| (P) | !2D! | (Dbl) | ?  | |
-|     |      |       | 2S | | less than an opening hand
-|     |      |       | P  | | at least an opening hand
-|===
-
-[#_two_level_overcalls]
-=== Two-level overcalls
-
-&vs pass& [ _e.g._ {thinsp}(1S) - 2C - (P) - ? ] +
-@ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
-@ 2NT = natural
-
-&vs raise& [ _e.g._ {thinsp}(1S) - 2C - (2S) - ? ] +
-@ double = responsive
-@ !2NT!  = good raise
-
-&vs negative-double& +
-
-//_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
-@ redouble = defensive strength, no fit
-@  cue  = good 3-card raise{orMore}
-@ !2NT! = good 4-card raise{orMore}
-
-=== Sandwich position
-
-==== Unpassed hand
-
-@ bid of suit on bidder's left
-_ = cue-bid
-_ = other two suits +
-@ bid of suit on bidder's right
-_ = natural +
-@ #2NT = minors#
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      |       | (1D) | P |
-| (1S) |  ?    |      |   |
-|      |  1NT  |      |   | natural (see responses above)
-|      | !2D!  |      |   | {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
-|      |  2S   |      |   | natural
-|      | !2NT! |      |   | minors
-|===
-
-==== Passed hand
-
-@ 1NT = unusual
-_ (5{ndash}5{OrMore} other two suits) +
-@ #cue-bid of suit on left = 6{OrMore}{xtimes}om + 4*oM#,
-_ (McCartney, "`__When I'm sixty-four__{thinsp}`")
-
-==== Raising a sandwich overcall
-
-@ bid of suit on bidder's right
-_ = natural +
-@ bid of suit on bidder's left
-_ = cue-bid
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|      |    | (1D) |  P   | |
-| (1H) | 1S | (P)  |  ?   | |
-|      |    |      |  2D  | | natural
-|      |    |      | !2H! | | cue-bid, good raise to 2S
-|===
-
-=== Weak Jump Ovecalls
-
-@ lowest jump-overcall is Klinger
-_ NOT natural & weak
-@ #new-suit after natural WJO is NF#
-
-[#_klinger]
-== Two-suited overcalls (Klinger)
-
-@ cue-bid & lowest J.O. = next 2 suits
-@ 2NT = suit-below + suit-above
-@ Only applies in direct seat
-@ ON vs short club or diamond
-
-=== Advancing
-
-If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
-an Ogust-type enquiry.
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|     |       | (1C) | !2D! | | majors
-| (P) | !2NT! | (P)  |  ?   | | 2NT = range-ask
-|     |       |      |  3C  | | weak (6-8)
-|     |       |      |  3D  | | int. (9-11)
-|     |       |      |  3H  | | strong (12-14)
-|     |       |      |  3S  | | huge (16+)
-|===
-
-The HCP ranges do not count queens and jacks in the side suits and are
-a point or two higher when vulnerable.
-
-When the Klinger bid is 2NT or 3C, then the cue-bid of opener's suit
-asks for strength.
 
 == Balancing 1NT
 
