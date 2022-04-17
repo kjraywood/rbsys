@@ -472,31 +472,6 @@ invitational.
 |    |        |  3C  | | {C}-raise, 7{OrMore}{ndash}10
 |===
 
-== Support Double
-
-Not mandatory. _i.e._{thinsp} opener may pass with min bal. hand
-
-=== After neg. double of 1S
-
-Support doubles apply following neg.-double of a 1S overcall
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|      |    |      | 1D ||
-| (1S) | X  | (2C) | X  || Support, 3*{H}
-|===
-
-=== Vs sandwich NT
-
-@ ON vs unusual
-@ OFF vs natural
-
-=== Second bid by Responder
-
-@ two of 1st suit or lower = weak
-@ above two of 1st suit = inv
-@ cue = GF
-
 [#_2nt_in_comp]
 == 2NT in competitive auctions
 
