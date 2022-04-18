@@ -102,28 +102,46 @@ _ NOT natural & weak +
 @ cue-bid & lowest J.O. = next 2 suits +
 @ 2NT = suit-below + suit-above +
 @ Only applies in direct seat +
-@ ON vs short club or diamond
+@ #ON vs short club or diamond#
 
-=== Advancing
+=== Klinger bid is 2H or lower
 
-If the Klinger (two-suited) bid is below 2NT, then 2NT by advancer is
-an Ogust-type enquiry.
+@ 2NT = {LRplus} in lower suit +
+@ cue = {LRplus} in higher suit
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-|     |       | (1C) | !2D! | | majors
-| (P) | !2NT! | (P)  |  ?   | | 2NT = range-ask
-|     |       |      |  3C  | | weak (6-8)
-|     |       |      |  3D  | | int. (9-11)
-|     |       |      |  3H  | | strong (12-14)
-|     |       |      |  3S  | | huge (16+)
+|     |       | (1C) | !2D! || majors
+| (P) |  ?    |      |      ||
+|     | !2NT! |      |   2+<| {LRplus} of {H}
+|     | !3C!  |      |   2+<| {LRplus} of {S}
 |===
 
-The HCP ranges do not count queens and jacks in the side suits and are
-a point or two higher when vulnerable.
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |       | (1H) | !2H! || {S} + {C}
+| (P) |  ?    |      |      ||
+|     | !2NT! |      |   2+<| {LRplus} of {C}
+|     | !3H!  |      |   2+<| {LRplus} of {S}
+|===
 
-When the Klinger bid is 2NT or 3C, then the cue-bid of opener's suit
-asks for strength.
+=== Klinger bid is 2S
+
+2NT is a strength enquiry
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|     |       | (1M) | !2S! || minors
+| (P) | !2NT! | (P)  |  ?   ||
+|     |       |      |  3C  || weak
+|     |       |      |  3D  || int.
+|     |       |      |  3H  || strong
+|     |       |      |  3S  || huge
+|===
+
+=== Klinger bid is 2NT or 3C
+
+Cue-bid is a strength enquiry
 
 == Sandwich-position overcalls
 
