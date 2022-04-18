@@ -90,61 +90,18 @@ can make.
 @  cue  = good 3-card raise +
 @ !2NT! = good 4-card raise
 
-=== Sandwich position
-
-==== Unpassed hand
-
-@ bid of suit on bidder's left
-_ = cue-bid
-_ = other two suits +
-@ bid of suit on bidder's right
-_ = natural +
-@ #2NT = minors#
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      |       | (1D) | P |
-| (1S) |  ?    |      |   |
-|      |  1NT  |      |   | natural (see responses above)
-|      | !2D!  |      |   | {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
-|      |  2S   |      |   | natural
-|      | !2NT! |      |   | minors
-|===
-
-==== Passed hand
-
-@ 1NT = unusual
-_ (5{ndash}5{OrMore} other two suits) +
-@ #cue-bid of suit on left = 6{OrMore}{xtimes}om + 4*oM#,
-_ (McCartney, "`__When I'm sixty-four__{thinsp}`")
-
-==== Raising a sandwich overcall
-
-@ bid of suit on bidder's right
-_ = natural +
-@ bid of suit on bidder's left
-_ = cue-bid
-
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|      |    | (1D) |  P   | |
-| (1H) | 1S | (P)  |  ?   | |
-|      |    |      |  2D  | | natural
-|      |    |      | !2H! | | cue-bid, good raise to 2S
-|===
-
 === Weak Jump Ovecalls
 
 @ lowest jump-overcall is Klinger
-_ NOT natural & weak
+_ NOT natural & weak +
 @ #new-suit after natural WJO is NF#
 
 [#_klinger]
 == Two-suited overcalls (Klinger)
 
-@ cue-bid & lowest J.O. = next 2 suits
-@ 2NT = suit-below + suit-above
-@ Only applies in direct seat
+@ cue-bid & lowest J.O. = next 2 suits +
+@ 2NT = suit-below + suit-above +
+@ Only applies in direct seat +
 @ ON vs short club or diamond
 
 === Advancing
@@ -167,6 +124,49 @@ a point or two higher when vulnerable.
 
 When the Klinger bid is 2NT or 3C, then the cue-bid of opener's suit
 asks for strength.
+
+== Sandwich-position overcalls
+
+=== Unpassed hand
+
+@ bid of suit on bidder's left
+_ = cue-bid
+_ = other two suits +
+@ bid of suit on bidder's right
+_ = natural +
+@ #2NT = minors#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |       | (1D) | P |
+| (1S) |  ?    |      |   |
+|      |  1NT  |      |   | natural (see responses above)
+|      | !2D!  |      |   | {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
+|      |  2S   |      |   | natural
+|      | !2NT! |      |   | minors
+|===
+
+=== Passed hand
+
+@ 1NT = unusual
+_ (5{ndash}5{OrMore} other two suits) +
+@ #cue-bid of suit on left = 6{OrMore}{xtimes}om + 4*oM#,
+_ (McCartney, "`__When I'm sixty-four__{thinsp}`")
+
+=== Raising a sandwich overcall
+
+@ bid of suit on bidder's right
+_ = natural +
+@ bid of suit on bidder's left
+_ = cue-bid
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|      |    | (1D) |  P   | |
+| (1H) | 1S | (P)  |  ?   | |
+|      |    |      |  2D  | | natural
+|      |    |      | !2H! | | cue-bid, good raise to 2S
+|===
 
 == Direct 1NT Overcalls
 

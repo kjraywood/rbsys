@@ -111,35 +111,37 @@
             Suit Overcalls>> +
 {nbsp} 43. <<system.adoc#_klinger,
             Two-suited overcalls (Klinger)>> +
-{nbsp} 44. <<system.adoc#_direct_1nt_overcalls,
+{nbsp} 44. <<system.adoc#_sandwich_position_overcalls,
+            Sandwich-posistion overcalls>> +
+{nbsp} 45. <<system.adoc#_direct_1nt_overcalls,
             Direct 1NT Overcalls>> +
-{nbsp} 45. <<system.adoc#_natural_sandwich_1nt,
+{nbsp} 46. <<system.adoc#_natural_sandwich_1nt,
             Natural 1NT in sandwich position>> +
-{nbsp} 46. <<system.adoc#_nt_overcalls_of_their_preempts,
+{nbsp} 47. <<system.adoc#_nt_overcalls_of_their_preempts,
             NT Overcalls of their preempts>> +
-{nbsp} 47. <<system.adoc#_balancing_1nt,
+{nbsp} 48. <<system.adoc#_balancing_1nt,
             Balancing 1NT>> +
-{nbsp} 48. <<system.adoc#_other_balancing_bids,
+{nbsp} 49. <<system.adoc#_other_balancing_bids,
             Other Balancing Bids>> +
-{nbsp} 49. <<system.adoc#_defence_to_preempts,
+{nbsp} 50. <<system.adoc#_defence_to_preempts,
             Defence to Preempts>> +
-{nbsp} 50. <<system.adoc#_kastro_vs_nt,
+{nbsp} 51. <<system.adoc#_kastro_vs_nt,
             KASTRO vs NT>> +
-{nbsp} 51. <<system.adoc#_defence_to_transfers,
+{nbsp} 52. <<system.adoc#_defence_to_transfers,
             Defence to Transfers>> +
-{nbsp} 52. <<system.adoc#_vs_other_artificial_bids,
+{nbsp} 53. <<system.adoc#_vs_other_artificial_bids,
             Vs other artificial bids>> +
 
 <<system.adoc#_leads_and_carding, *Leads and Carding*>> +
-{nbsp} 53. <<system.adoc#_leads_vs_suits,
+{nbsp} 54. <<system.adoc#_leads_vs_suits,
             Opening Leads vs Suits>> +
-{nbsp} 54. <<system.adoc#_leads_vs_notrump,
+{nbsp} 55. <<system.adoc#_leads_vs_notrump,
             Opening Leads vs NoTrump>> +
-{nbsp} 55. <<system.adoc#_signalling,
+{nbsp} 56. <<system.adoc#_signalling,
             Signalling>> +
-{nbsp} 56. <<system.adoc#_discards,
+{nbsp} 57. <<system.adoc#_discards,
             Discards>> +
-{nbsp} 57. <<system.adoc#_special_defence_situations,
+{nbsp} 58. <<system.adoc#_special_defence_situations,
             Special Defence Situations>> +
 
 '''
