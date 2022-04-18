@@ -76,19 +76,19 @@ can make.
 === Two-level overcalls
 
 &vs pass& [ _e.g._ {thinsp}(1S) - 2C - (P) - ? ] +
-@ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP)
+@ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP) +
 @ 2NT = natural
 
 &vs raise& [ _e.g._ {thinsp}(1S) - 2C - (2S) - ? ] +
-@ double = responsive
+@ double = responsive +
 @ !2NT!  = good raise
 
 &vs negative-double& +
 
 //_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
-@ redouble = defensive strength, no fit
-@  cue  = good 3-card raise{orMore}
-@ !2NT! = good 4-card raise{orMore}
+@ redouble = defensive strength, no fit +
+@  cue  = good 3-card raise +
+@ !2NT! = good 4-card raise
 
 === Sandwich position
 
@@ -223,7 +223,8 @@ Cue-bid Stayman shows at least inv. +
 2+<| 2m, 2oM  |    <| to play
 |===
 
-== Natural sandwich-position 1NT
+[#_natural_sandwich_1nt]
+== Natural 1NT in sandwich position
 
 @ #natural# by unpassed hand, 16-19 +
 @ unusual by passed hand,
@@ -936,7 +937,7 @@ Double shows the suit they bid, and bidding the suit they
 show (which might only be four cards) is also natural.
 ====
 
-== Vs other artifical bids
+== Vs other artificial bids
 
 [#_double_of_splinter]
 === Double of their first-round splinter
