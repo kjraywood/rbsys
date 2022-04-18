@@ -938,38 +938,3 @@ splinter slam-tries.
 // 2+<| 4{lab}new-suit{rab} <| 2nd-suit slam-try
 // |===
 // ====
-
-== Picture Bids
-
-:picbid1: https://bridgewinners.com/article/view/21-auctions-fast-arrival-vs-picture-bidding/
-:picbid2: https://bridgewinners.com/article/view/more-about-picture-jumps-and-fast-arrival/
-:picbid3: https://bridgewinners.com/article/view/fast-arrival-and-picture-jumps-the-3nt-slam-try/
-
-{reference} _Fast Arrival vs. Picture Bidding,_
- __ {thinsp}{picbid1}[Part 1], {picbid2}[Part 2], {picbid3}[Part 3]
-__ {nbsp}{ndash}{nbsp} Andrew Gumperz
-
-[lavender-box]#A picture bid is a jump to game in partner's major-suit
-               after having bid new suit#
-
-Responder may initially conceal 4-card support for opener's major when
-intending to make a picture jump to game on the second round.
-It is highly unlikely that the auction will be too high for responder
-to jump on the second round.
-
-We do not conceal 4-card support in other cases because a jump to 3M
-may not be available on the 2^nd^-round (_e.g._{thinsp} when open
-rebids 2M or 2NT).  A 2^nd^-round jump to 3M !denies! 4-card support.
-This is contrary to the recommendation of Gumperz for bidding the
-South hand on page 2.
-
-[lavender-box]#Picture bids have priority over kickback#
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 1S | 2H   ||
-| 3H | !4S! || picture bid
-|===
-
-To use kickback in hearts, responder can first bid 3S, artificial
-non-serious slam-try, then follow with 4S.

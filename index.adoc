@@ -42,22 +42,22 @@
              Reverses>> +
 {nbsp} 15. <<system.adoc#_two_over_one_auctions,
              Two-over-one Auctions>> +
+{nbsp} 16. <<system.adoc#_picture_bids,
+             Picture Bids>> +
 
 <<system.adoc#_uncontested_auctions, *Responder's Rebid in* +
            *Uncontested Auctions*>> +
-{nbsp} 16. <<system.adoc#_2_way_checkback,
+{nbsp} 17. <<system.adoc#_2_way_checkback,
              Two-Way Checkback>> +
-{nbsp} 17. <<system.adoc#_4th_suit_forcing,
+{nbsp} 18. <<system.adoc#_4th_suit_forcing,
              Second-round jumps & +
 	    {emsp}{emsp} fourth-suit forcing>> +
-{nbsp} 18. <<system.adoc#_3rd_suit_forcing,
+{nbsp} 19. <<system.adoc#_3rd_suit_forcing,
              Third-suit forcing>> +
-{nbsp} 19. <<system.adoc#_opener_raises,
+{nbsp} 20. <<system.adoc#_opener_raises,
              1m{ndash}1M{semicolon} 2M>> +
-{nbsp} 20. <<system.adoc#_1h_1s_2s,
+{nbsp} 21. <<system.adoc#_1h_1s_2s,
              1H{ndash}1S{semicolon} 2S>> +
-{nbsp} 21. <<system.adoc#_picture_bids,
-             Picture Bids>> +
 
 <<system.adoc#_slam_conventions, *Slam Conventions*>> +
 {nbsp} 22. <<system.adoc#_minorwood,
