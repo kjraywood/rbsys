@@ -612,16 +612,15 @@ Stayman with a stopper::
   four-card major and a stopper.#
 
 Both majors::
-  System-on {implies} transfer to spades, then
-  second-round transfer to hearts. +
-  {zwsp} +
-  Contested auction {implies} danger that advancer (opponent) may
-  raise clubs to a high level, before responder's second bid. +
-  {zwsp} +
-  Therefore, we replace Confit with: +
   [lavender-box]#4C = both majors, at least 5-5# +
 
-NOTE: We also use 4C=majors vs 2D interference that shows diamonds
+[NOTE]
+====
+We drop ConFit vs interference so that we can show both majors
+immediately.
+
+We also use 4C=majors vs 2D interference that shows diamonds.
+====
 
 [#_rubensohl]
 === Rubensohl vs 2D, 2H or 2S
