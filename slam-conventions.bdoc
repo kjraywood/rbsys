@@ -243,7 +243,7 @@ TIP: A below-game raise of an !invitational! bid is forcing because
 
 === Minorwood in competition
 
-Jump to 4m after a cue-bid raise
+&Jump to 4m after a cue-bid raise&
 
 [%autowidth,grid="none"]
 :===
@@ -713,13 +713,27 @@ If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 
 === Kickback in contested auctions
 
-##!Jump! to cheapest unbid suit above 4m is KC asking##
+==== Minors
+
+Applies when: +
+@ <<#_minorwood_in_competition, *minorwood-in-comp*>> does not apply +
+@ auction is contested +
+@ we have agreed a minor
+
+##!Jump! to cheapest unbid suit above four of our minor is KC asking##
 
 [%autowidth,grid="none"]
 :===
-  1D  : (P) : 2D : (2S)
- !4H! : : :
+  1D  : (P) : 2D : (2H)
+ !4S! : : :
 :===
+
+==== Hearts
+
+If we have agreed hearts, then 4S is kickback.
+
+@ does not need to be a jump +
+@ might be the opp's suit
 
 == Special KC-asking bids
 
