@@ -1,6 +1,5 @@
 = Defensive Bidding
 
-
 == Suit Overcalls
 
 === Responses to simple overcalls
@@ -259,8 +258,8 @@ _ 5{ndash}5{OrMore} other two suits
 |   P   | (1H) | 1NT {emsp} (P{or}X)
 |   ?   |      |
 2+<| pass     <| to play
-|   XX  |      | 2 lowest excluding suit on left,
-                 [nobr]#minors in this case#
+|   XX  |      | 2 lowest excluding suit on left +
+                 {implies} excludes {H} {implies} both minors
 2+<| 2C,2D    <| to play
 | !2H!  |      | under-suit cue = Stayman
 | 2S    |      | to play
@@ -299,7 +298,7 @@ _ {ndash} slam-inv. @ 4-level
 |   P  |      | to play
 | !3C! |      | 5-card Stayman
 2+<| !3D!,!3H! <| transfer +
-     [lavender-bg]#t'fer to their major = inv oM#
+     [lavender-bg]#transfer to their major = inv oM#
 | !3S! |      | #both minors#
 |  3NT |      | to play
 |===
@@ -332,7 +331,7 @@ So our Stayman 4C shows 5{ndash}5 in the majors.
 |   P  |      | to play
 | !4C! |      | 5-card Stayman
 2+<| !4D!,!4H! <| Texas transfer +
-     [lavender-bg]#t'fer to their major = slam-inv oM#
+     [lavender-bg]#transfer to their major = slam-inv oM#
 | !3S! |      | #both minors#
 |  3NT |      | to play
 |===
