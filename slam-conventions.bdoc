@@ -68,43 +68,13 @@ below# the upper limit that was shown by the first response.
 | 5NT | | 6 controls, no biddable suit
 |===
 
-=== Cheap Key-Card after preempts
-
-Applies when
-@ we open a preempt
-@ next hand passes or doubles for take-out
-
-(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
-
-&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
-
-&Follow-ups&
-
-Returning to the trump suit #and 4NT# are to play.
-
-Other suit bids are normal KC follow-ups.
-The priority order is: +
-@ trump queen - only after zero KCs +
-@ specific kings - except after 2+Q +
-@ suit-asking
-
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-|      |  2S   |
-| !4C! | !4S!* | {emsp}* 1 KC + {S}Q
-|  ?   |       |
-| pass |       | sign off
-| 4NT  |       | #sign off#
-| !5C! |       | specific-king ask
-| !5D!,!5H!,!6C! | | suit-ask
-|===
-
 === First-round Exclusion
 
-First-round jumps to 4M are to play.
+First-round jumps that are one-level higher than a splinter are exclusion.
 
-Other first-round jumps that are one-level higher than a splinter are
-exclusion.
+Includes: +
+@ 1H{ndash}4S +
+@ 1m{ndash}4M
 
 &Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
 
@@ -750,14 +720,46 @@ If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 
 Applies when:
 
-@ direct triple-jump response to 1M opening
-@ second-round jump above four of last bid
+@ direct triple-jump response to 1M opening +
+@ second-round jump above four of last bid +
 @ suit agreed, then jump +
-@ a non-jump following
->> a control-bid by partner
->> suit agreement at 4-level
+
+// @ a non-jump following
+// >> a control-bid by partner
+// >> suit agreement at 4-level
 
 Responses:  0, 1, 2-, 2+, 3-, 3+
+
+=== Cheap Key-Card after preempts
+
+Applies when: +
+@ we open a preempt +
+@ next hand passes or doubles for take-out
+
+(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
+
+&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
+
+&Follow-ups&
+
+Returning to the trump suit #and 4NT# are to play.
+
+Other suit bids are normal KC follow-ups.
+The priority order is: +
+@ trump queen - only after zero KCs +
+@ specific kings - except after 2+Q +
+@ suit-asking
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|      |  2S   |
+| !4C! | !4S!* | {emsp}* 1 KC + {S}Q
+|  ?   |       |
+| pass |       | sign off
+| 4NT  |       | #sign off#
+| !5C! |       | specific-king ask
+| !5D!,!5H!,!6C! | | suit-ask
+|===
 
 [#blackwood-in-comp]
 === 4NT in high-level competition
