@@ -111,8 +111,8 @@
             Suit Overcalls>> +
 {nbsp} 43. <<system.adoc#_klinger,
             Two-suited overcalls (Klinger)>> +
-{nbsp} 44. <<system.adoc#_sandwich_position_overcalls,
-            Sandwich-posistion overcalls>> +
+{nbsp} 44. <<system.adoc#_sandwich__overcalls,
+            Sandwich-position overcalls>> +
 {nbsp} 45. <<system.adoc#_direct_1nt_overcalls,
             Direct 1NT Overcalls>> +
 {nbsp} 46. <<system.adoc#_natural_sandwich_1nt,
