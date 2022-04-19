@@ -359,7 +359,10 @@ offer to play if the suit was bid on the first round.
 
 ==== Clubs agreed @ the 4-level
 
-4D is kickback
+@ 4D is kickback
+
+@ A major-suit that was bid on the first round
+_ is an offer to play
 
 [%autowidth,cols="2*^.^a,<.^d",grid="none"]
 |===
@@ -383,12 +386,10 @@ offer to play if the suit was bid on the first round.
 
 ==== Diamonds agreed @ the 4-level
 
-If diamonds were _reaffirmed_,  then 4H is kickback.
+[lavender-box]#A major-suit that was bid on the first round is
+               natural; an offer to play#
 
-If hearts were bid on the first round, then hearts are in focus and 4H
-is an offer to play, usually showing honour doubleton.
-
-If 4H is not kickback then 4S will be kickback unless spades were also
+If 4H is natural then 4S is kickback unless spades were also
 bid on the first round.
 
 If neither 4H nor 4S is kickback, then 4NT is KC asking for {D}.
@@ -409,7 +410,6 @@ NOTE: Responder would have rebid 2NT on the second round with a
       minimum hand that is suitable for play in NT; even with six-card
       diamond suit.
       So 4NT following 4-level agreement shows extras.
-
 
 .(b)
 [%autowidth,cols="3*^.^,<",grid="none"]
@@ -440,6 +440,16 @@ NOTE: Responder would have rebid 2NT on the second round with a
 | 4D   |  ?   ||
 |     | 4H,4S || offer to play,
 |     | !4NT! || KC for {D}, both majors were bid on the first round
+|===
+
+.(e)
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| 1H |  1S  ||
+| 2H |  3D  || 2S = only 5*{S}
+| 4D |  ?   ||
+|   | 4H,4S || offer to play,
+|   | !4NT! || KC for {D}, both majors were bid on the first round
 |===
 
 === Last-Suit Kickback
@@ -481,7 +491,7 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-.(b)
+.(b) minorwood applies
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -499,7 +509,7 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-.(c)
+.(c) minorwood applies
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -750,7 +760,6 @@ double.
 
 // Specific Suit Asking Bids
 // ** danger **
-
 
 == First-round ace-asking
 
