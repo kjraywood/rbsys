@@ -8,6 +8,16 @@
 
 Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
 
+=== First-round Exclusion
+
+First-round jumps that are one-level higher than a splinter are exclusion.
+
+Includes: +
+@ 1H {ndash} 4S +
+@ 1m {ndash} 4M
+
+&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
+
 === ConFit
 
 CAUTION: Replaces Gerber
@@ -67,16 +77,6 @@ below# the upper limit that was shown by the first response.
 2+<| 5{lab}suit{rab} <| 6 controls, biddable suit
 | 5NT | | 6 controls, no biddable suit
 |===
-
-=== First-round Exclusion
-
-First-round jumps that are one-level higher than a splinter are exclusion.
-
-Includes: +
-@ 1H{ndash}4S +
-@ 1m{ndash}4M
-
-&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
 
 == Minorwood
 
@@ -243,6 +243,22 @@ an inverted-minor auction
 TIP: A below-game raise of an !invitational! bid is forcing because
      we don't invite an inviter.   Since it's forcing, the limited
      hand shows key-cards.
+
+=== Minorwood in competition
+
+Jump to 4m after a cue-bid raise
+
+[%autowidth,grid="none"]
+:===
+  1D  : (1H) : !2H! : (P{or}X)
+ !4D! : : :
+:===
+
+[%autowidth,grid="none"]
+:===
+  (1S) : (2C) : (P{or}X) : !2S!
+  (P)  | !4C! : :
+:===
 
 == Optional Minorwood
 
@@ -706,12 +722,6 @@ If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 :===
   1D  : (P) : 2D : (2S)
  !4H! : : :
-:===
-
-[%autowidth,grid="none"]
-:===
-  1D  : (1H) : !2H! : (P)
- !4S! : : :
 :===
 
 == Special KC-asking bids
