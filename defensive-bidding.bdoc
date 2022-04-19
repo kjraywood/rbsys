@@ -142,9 +142,23 @@ _ NOT natural & weak +
 
 Cue-bid is a strength enquiry
 
+[#_sandwich_overcalls]
 == Sandwich-position overcalls
 
-=== Unpassed hand
+=== Vs short-club or short-diamond opening
+
+[lavender-box]#If their opening-bid could be as short as two or fewer,
+then bidding that suit in sandwich position is natural.#
+
+In this case, hands with 5{ndash}5 in the other two-suits must double.
+
+[%autowidth,cols="5*^,<",grid="none"]
+|===
+|   |      |     | (!!1C!!) || short club
+| P | (1H) |  2C |          || #natural#
+|===
+
+=== Vs normal (3{OrMore}) openings
 
 @ bid of suit on bidder's left
 _ = cue-bid
@@ -153,14 +167,14 @@ _ = other two suits +
 _ = natural +
 @ #2NT = minors#
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="5*^,<",grid="none"]
 |===
-|      |       | (1D) | P |
-| (1S) |  ?    |      |   |
-|      |  1NT  |      |   | natural (see responses above)
-|      | !2D!  |      |   | {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
-|      |  2S   |      |   | natural
-|      | !2NT! |      |   | minors
+|   |      |       | (1D) ||
+| P | (1S) |  ?    |      ||
+|   |      |  1NT  |      || natural
+|   |      | !2D!  |      || {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
+|   |      |  2S   |      || natural
+|   |      | !2NT! |      || minors
 |===
 
 === Passed hand
