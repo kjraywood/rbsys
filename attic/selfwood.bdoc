@@ -1,0 +1,41 @@
+
+// == Own-Suit Kickback
+//
+// AKA _Selfwood_
+//
+// Allows KC-asking in your own suit without trump agreement
+
+// === Requirements
+
+// @ asker has bid only one suit +
+// @ the KB bid is a jump
+
+// *Own-suit = minor or hearts:* +
+// @ three of  KB-strain is forcing
+
+// *Own-suit = spades:* +
+// @ partner's last bid not in NT
+
+
+
+
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// | !2C! | !2D! |
+// |  2H  |  2S  |
+// |  ?   |      |
+// |  3S  |      | forcing
+// | !4S! |      | kickback for {H}
+// |===
+
+
+
+// [%autowidth,cols="3*^,<",grid="none"]
+// |===
+// | 1D |  1S   | |
+// | 2C |  ?    | |
+// |    | !2H!  | | 4^th^-suit includes bal. 13-15 {or} 18{OrMore}
+// |    |  2NT  | | 11-12
+// |    |  3NT  | | 16-17
+// |    | !4NT! | | KC for {S}
+// |===
