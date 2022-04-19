@@ -241,6 +241,7 @@ TIP: A below-game raise of an !invitational! bid is forcing because
      we don't invite an inviter.   Since it's forcing, the limited
      hand shows key-cards.
 
+[#_minorwood_in_comp]
 === Minorwood in competition
 
 &Jump to 4m after a cue-bid raise&
@@ -711,12 +712,13 @@ we are at only at two hearts.
 
 If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 
+[#_kickback_in_comp]
 === Kickback in contested auctions
 
 ==== Minors
 
 Applies when: +
-@ <<#_minorwood_in_competition, *minorwood-in-comp*>> does not apply +
+@ <<#_minorwood_in_comp, *minorwood-in-comp*>> does not apply +
 @ auction is contested +
 @ we have agreed a minor
 
