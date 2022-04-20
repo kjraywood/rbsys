@@ -409,31 +409,44 @@ So pass then double is penalty.
 // It's not dangerous for responder to pass with a good hand,
 // because most opponent's play a 2-suited overcall as forcing.
 
-=== Negative double
+[#_double_vs_two_suiter]
+=== Double vs two-suiter
 
-If they show two known suits, double shows four or five cards in the fourth
-suit and the values to compete.
-Without a fit for opener, responder will usually be able to penalize
-at least one of their suits.
+Typically a 9{OrMore} balanced hand with two card's in opener's suit.
 
-[%autowidth,cols="5*<",grid="none"]
-|===
-| 1M | (!!2NT!!)* | !X! | = | 4 {or} 5 {times} oM, 9{OrMore} HCP
-| 4+<| {biglowast} both minors
-|===
+It requests cooperation by opener to double them.
 
-If they show only one known suit, then double shows the other two suits.
+Subsequent doubles at the 2-level show four of their suit.
 
-[%autowidth,cols="5*<",grid="none"]
-|===
-| 1M | (!!2M!!)* | !X! | = | both minors, 4{OrMore}-4{OrMore}, 9{OrMore} HCP
-| 4+<| {biglowast} oM + unknown minor
-|===
+Subsequent doubles at the 3-level show three of their suit.
 
-Whether they showed one or two suits, a subsequent double by either
-player is penalty.
+It does not set up a force.
 
-#A negative double sets up a force below 2NT#
+//[lavender-box]#If they show two !known! suits, then double shows four
+//               or five cards in the fourth suit and the values to
+//               compete.#
+
+// Without a fit for opener, responder will usually be able to penalize
+// at least one of their suits.
+
+// [%autowidth,cols="5*<",grid="none"]
+// |===
+// | 1M | (!!2NT!!)* | !X! | = | 4 {or} 5 {times} oM, 9{OrMore} HCP
+// | 4+<| {biglowast} both minors
+// |===
+
+// If they show only one known suit, then double shows the other two suits.
+
+// [%autowidth,cols="5*<",grid="none"]
+// |===
+// | 1M | (!!2M!!)* | !X! | = | both minors, 4{OrMore}-4{OrMore}, 9{OrMore} HCP
+// | 4+<| {biglowast} oM + unknown minor
+// |===
+
+// Whether they showed one or two suits, a subsequent double by either
+// player is penalty.
+
+// #A negative double sets up a force below 2NT#
 
 === Lower for Other
 
