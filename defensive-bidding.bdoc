@@ -12,7 +12,6 @@
 
 ==== Honour redouble vs neg. double
 
-@ Only applies at one-level
 @ Usually Ax or Kx in partner's suit +
 @ Advancer may redouble with Qx when it
 _ seems likely that opener will play NT
@@ -85,9 +84,9 @@ can make.
 &vs negative-double& +
 
 //_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
-@ redouble = defensive strength, no fit +
-@  cue  = good 3-card raise +
-@ !2NT! = good 4-card raise
+@ #redouble = high honour, unwilling to raise# +
+@  cue  = good 3-card raise (9{OrMore}) +
+@ !2NT! = good 4-card raise (7{OrMore})
 
 === Weak Jump Ovecalls
 
