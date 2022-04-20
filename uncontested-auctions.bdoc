@@ -919,8 +919,9 @@ splinter slam-tries.
 |    | 3H  || 3-card LR (NF back-preference), 4{times}{S}
 |    | 3S  || five-card suit, inv
 |  | !3NT! || Slam-interest (hence 5{times}{S}), FORCING
-|    | 4m  || [orange-bg]#slam-try (hence 5{times}{S}), 2nd-suit or splinter??#
-|    | 4H  || [orange-bg]#5{times}{S}, 3*{H}, NF-choice-of-major or slam try??#
+|    | 4m  || 2nd-suit, slam-try, hence 5{times}{S}
+|    | 4H  || picture bid, 5{times}{S} + 4*{H},
+              [nobr]#no control in either minor#
 |===
 
 // [TIP]
