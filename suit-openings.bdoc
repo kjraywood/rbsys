@@ -816,10 +816,10 @@ The remaining 4-level bids are:
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
-| {tab}  |  4D   || natural diamond raise
-|        | !4H!  || kickback for diamonds
-|        | !4S!  || kickback for hearts (self-wood)
-|        |  4NT  || natural, needed because 2NT is not available
+| {tab}  |  4D  || natural diamond raise
+|        | !4H! || last-suit kickback, for {D}
+|        |  4S  || picture bid
+|        |  4NT || natural
 |===
 
 === Fourth suit on 3rd-round or later
