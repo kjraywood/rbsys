@@ -65,7 +65,8 @@ The other Smolen-shape (5*{H} + 4*{S}) is shown with a direct 3D
    {emsp}{thinsp}!!3S!! {ensp}{blueRarrow} 3NT 
 | !3H!  |      || 4*{H}, not 4*{S} +
 	          > !3S! {ensp}{blueRarrow} 3NT +
-   {emsp}{thinsp}!!3NT!! = agrees {H}
+   {emsp}{thinsp}4H = no play +
+   {emsp}{thinsp}!!3NT!! = agrees {H}, slam interest
 | !3S!  |      || 4{or}5{xtimes}{S} (agrees {S}) +
 	          > !3NT! = non-serious slam-try +
               {emsp}4m,4H = serious slam-try +
