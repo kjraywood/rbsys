@@ -777,7 +777,10 @@ NOTE:  We can't show 5-4 in the majors with this scheme.
 ==== Vs 2D = single major (unknown suit)
 
 @ All bids from 2NT to 3H are transfers +
-@ 3S = both minors
+
+@ 3S = transfer to 3NT without a stopper +
+_ in either major.  Must have a place to play, +
+_ hence both minors; typically 4{ndash}4 or 5{ndash}4
 
 Transfer to a major usually does not have a stopper in the other
 major.
