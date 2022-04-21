@@ -125,7 +125,7 @@ Subsequent doubles by either = penalty with 4{orMore} of their suit
 ==== Followup with 3-card {LRplus}
 
 With a 3-card {LRplus} hand, responder bids the major on the next round: +
-@ non-jump = NF
+@ non-jump = NF +
 @ jump = GF
 
 [%autowidth,cols="4*^,<",grid="none"]
@@ -454,7 +454,7 @@ Applies when they have shown two known suits
 
 Used with a fit for opener, or with 6{OrMore}-cards in the fourth suit.
 
-@ higher of opp's suits = {LRplus}
+@ higher of opp's suits = {LRplus} +
 @ lower of opp's suits shows the fourth suit +
 >> next step by opener
 __ = default (nothing more to say)
@@ -462,7 +462,7 @@ __ = default (nothing more to say)
 Thus there are two non-jump bids to show the fourth suit; the lower
 cue-bid , and a natural bid.
 
-@ lower way to show fourth suit = invitational
+@ lower way to show fourth suit = invitational +
 @ higher way to show fourth suit = GF
 
 [%autowidth,cols="4*^,<",grid="none"]
