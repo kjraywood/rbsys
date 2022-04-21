@@ -129,13 +129,13 @@ Support doubles apply following neg.-double of a 1S overcall
 
 === Vs sandwich NT
 
-@ ON vs unusual
+@ ON vs unusual +
 @ OFF vs natural
 
 === Second bid by Responder
 
-@ two of 1st suit or lower = weak
-@ above two of 1st suit = inv
+@ two of 1st suit or lower = weak +
+@ above two of 1st suit = inv +
 @ cue = GF
 
 == Penalty Doubles
@@ -233,9 +233,9 @@ When both sides have bid-and-raised on 1^st^ round: +
 
 A delayed double of opener's rebid-suit is take-out when:
 
-@ RHO is the opening bidder and partner
-_ has taken positive action on the first
-_ round +
+@ RHO is the opening bidder +
+@ partner has taken positive action
+_ on the first round +
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
