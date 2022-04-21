@@ -493,9 +493,15 @@ undisclosed extras following a previous-round min or pre-decline.
 
 When the interference is 2NT or lower::
   @ Texas is ON +
-  @ **vs minor:** #4C = majors# +
-  @ **vs major:** #4S = minors# +
   @ 4NT = quant. NT raise +
+  @ **vs minor:** 4C = majors +
+  @ **vs major:** +
+  _ {ndash} 4S = minors +
+  _ {ndash} 4C = {C} + oM +
+  @ **vs hearts:**
+  _ {ndash} 4D = {D} + {S} +
+  @ **vs spades:**
+  _ {ndash} 4H = {D} + {H} +
 
 ****
 .Interference with our Mexican-2\D
@@ -637,7 +643,8 @@ _ two-level, then a transfer to that
 _ suit at the three-level shows at
 _ least invitational strength.
 
-@ A transfer to 3NT denies a stopper +
+@ A transfer to 3NT denies a stopper
+  and length in opp's suit +
 >> 3NT by opener shows a stopper. +
 __ Without a stopper, opener bids a
 __ 5-card major or 4-card minor
@@ -661,7 +668,9 @@ _ negative double.
            [nobr]#{zwsp}##inv.{OrMore}## (2S is available)#
 | !3H!  || Stayman, no {H}-stopper +
 | !3S!  || values for 3NT, no {H}-stopper
-|  3NT  || natural, shows a stopper
+|  3NT  || to play
+| !4C!  || {C} + {S}
+| !4D!  || {D} + {S}
 | !4H!  || Texas
 | !4S!  || #both minors#
 | 4NT   || quant. NT raise
