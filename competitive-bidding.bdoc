@@ -83,11 +83,11 @@ By unPH: +
 |===
 |              | 1H-(P)          | 1H-(X)
 
-| 3S           | weak{nbsp}splinter +
+h| 3S           | weak{nbsp}splinter +
                  in{nbsp}any{nbsp}suit
 		                 | splinter
-| 3NT          | splinter in {S} | bal. game-raise
-| 4C, 4D       | splinter        | splinter
+h| 3NT          | splinter in {S} | bal. game-raise
+h| 4C, 4D       | splinter        | splinter
 |===
 
 ==== Summary of Four-Card Raises
