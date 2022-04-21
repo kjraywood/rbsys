@@ -189,9 +189,9 @@ pass or double
 |
 [grid="none",stripes=odd]
 :===
-  1H  : 1S :
-  2D  : 3D : GF
- !4D! :    :
+  1D  : 2C
+  2D  : 3D
+ !4D! :
 :===
 |===
 
@@ -200,9 +200,9 @@ pass or double
 |
 [grid="none",stripes=odd]
 :===
-  1D  : 2C
-  2D  : 3D
- !4D! :
+  1H  : 1S :
+  2D  : 3D : GF
+ !4D! :    :
 :===
 |
 [grid="none",stripes=odd]
@@ -356,8 +356,6 @@ bid 3S (non-serious) then follow with 4S.
 
 === Majors have priority over minors
 
-But picture jumps still have priority over kickback
-
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1H  |  2D  ||
@@ -387,6 +385,8 @@ diamonds are trump.
 
 [%autowidth,cols="<",grid="none"]
 |===
+| After diamond agreement followed by 3H
+
 | a raise of 3H to 4H is an offer to play
 | a jump to 4S is kickback for hearts
 | 4D indicates: +
@@ -538,7 +538,7 @@ NOTE: Responder would have rebid 2NT on the second round with a
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 1H |  1S  ||
-| 2H |  3D  || 2S = only 5*{S}
+| 2H |  3D  ||
 | 4D |  ?   ||
 |   | 4H,4S || offer to play,
 |   | !4NT! || KC for {D}, both majors were bid on the first round
