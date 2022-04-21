@@ -539,6 +539,7 @@ positive values with a double or penalty pass.
 @ #non-forcing vs overcall# +
 @ fit-showing vs double
 
+[#_mccabe]
 === McCabe vs double
 
 [%autowidth,cols="<.^s,>.^,<",grid="none"]
@@ -548,8 +549,8 @@ positive values with a double or penalty pass.
 | new suit || lead-directing with fit
 | raise    || A or K (lead-directing)
 | redouble || run-out to long suit, _or_ +
-                  raise without A or K
-| jump shift || [orange-bg]#fit showing??#
+              raise without A or K
+| jump shift || fit showing
 |===
 
 [#bogust]
