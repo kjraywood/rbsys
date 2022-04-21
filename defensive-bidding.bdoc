@@ -500,9 +500,6 @@ Balancing cue-bid = decent 2-suiter +
 @ both majors vs minor +
 @ both minors vs major
 
-****
-.Possible addition
-
 After 1M, give up strong jumps to 3m play them like leaping-Michaels
 
 [%autowidth,cols="3*^,<",grid="none"]
@@ -514,16 +511,13 @@ After 1M, give up strong jumps to 3m play them like leaping-Michaels
 |     | !3D! |      | {D} + {H}
 |===
 
-****
+// ****
+// .Alternative
 
-
-****
-.Alternative
-
-Balancing cue of major could show any two unbid suits, but need
-special continuations.
-See https://bridgewinners.com/article/view/balancing-michaels[^]
-****
+// Balancing cue of major could show any two unbid suits, but need
+// special continuations.
+// See https://bridgewinners.com/article/view/balancing-michaels[^]
+// ****
 
 === Reopening after they stop in 1NT
 
