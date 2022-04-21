@@ -496,12 +496,10 @@ When the interference is 2NT or lower::
   @ 4NT = quant. NT raise +
   @ **vs minor:** 4C = majors +
   @ **vs major:** +
-  _ {ndash} 4S = minors +
-  _ {ndash} 4C = {C} + oM +
-  @ **vs hearts:**
-  _ {ndash} 4D = {D} + {S} +
-  @ **vs spades:**
-  _ {ndash} 4H = {D} + {H} +
+  __ 4S = minors +
+  __ 4C = {C} + oM +
+  @ **vs hearts:** 4D = {D} + {S} +
+  @ **vs spades:** 4H = {D} + {H} +
 
 ****
 .Interference with our Mexican-2\D
