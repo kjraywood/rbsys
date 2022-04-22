@@ -66,7 +66,7 @@ The other Smolen-shape (5*{H} + 4*{S}) is shown with a direct 3D
 | !3H!  |      || 4*{H}, not 4*{S} +
 	          > !3S! {ensp}{blueRarrow} 3NT +
    {emsp}{thinsp}4H = to play +
-   {emsp}{thinsp}!!3NT!! = agrees {H}, slam interest +
+   {emsp}{thinsp}!!3NT!! = #agrees {H}, slam interest# +
    {emsp}{thinsp}4S = quantitative
 | !3S!  |      || 4{or}5{xtimes}{S} (agrees {S}) +
 	          > !3NT! = non-serious slam-try +
@@ -78,14 +78,22 @@ The other Smolen-shape (5*{H} + 4*{S}) is shown with a direct 3D
    {emsp}{thinsp}!!4H!! = #DIAMONDS, slam interest# +
 |===
 
-[%autowidth,cols="2*^,2*<",grid="none"]
+==== Special Stayman-with-spades auction
+
+After Stayman-with-spades, followed by 3NT showing five hearts,
+responder's 4H denies a fit for hearts and shows diamonds with slam
+interest.
+
+With a good hand for diamonds, opener bids the next step (4S) as KC
+for diamonds, or 4NT with a poor hand for diamonds.
+
+[%autowidth,cols="4*<",grid="none"]
 |===
-| !2D!  | !3C! ||
-.^| !3NT! .^| !4H! || *opener:*{nbsp} 5*{H} +
-                      *responder:*{nbsp} 4*{S}, 5*{D}, slam interest
-|   ?   |      ||
-| !4S!  |      || KC for {D}
-| !4NT! |      || negative
+|             | {nbsp}!!2D!!  ||
+| !3C!        | !3NT!^__a__^  || (a){ensp}5*{H}
+| !4H!^__b__^ |   ?           || (b){ensp}5*{D}, slam interest
+|             | !4S!          || #KC for {D}#
+|             | !4NT!         || #poor for {D} slam#
 |===
 
 === Five-card Stayman without four spades
