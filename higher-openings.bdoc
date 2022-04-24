@@ -481,11 +481,11 @@ _last-train_{thinsp} slam-try.
 
 [%autowidth,cols="<,^,2*<",grid="none]
 |===
-|       |  2C  | |
-|  2D   | !3H! | | 4*{H}, 5{OrMore}{xtimes}{D}
-| !4C!* |   ?  | | * {H}, non-bust
-|       | !4D! | | last-train slam-try
-|       |  4H  | | minimum
+|       |  2C  ||
+|  2D   | !3H! || 4*{H}, 5{OrMore}{xtimes}{D}
+| !4C!* |   ?  || * {H}, non-bust
+|       | !4D! || last-train slam-try
+|       |  4H  || minimum
 |===
 
 === Interference
