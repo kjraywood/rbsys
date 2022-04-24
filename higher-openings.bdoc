@@ -1,6 +1,5 @@
 = Higher Opening Bids
 
-
 == Mexican 2D opening
 
 Shows 18 to 19, balanced
@@ -380,10 +379,10 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 
 [%autowidth,cols="^,2*<",grid="none]
 |===
-| !2D! | | weak or waiting
-|  2H  | | natural positive, any suit-quality
-|  2NT | | bal 8-10 (or 13{OrMore})
-|  3NT | | bal 11-12
+| !2D! || weak or waiting
+|  2H  || natural positive, any suit-quality
+|  2NT || bal 8{orMore}{ndash}11 (or 14{OrMore}), forcing to 4NT
+|  3NT || bal 12{ndash}13, slam forcing
 |===
 
 [#_transfer_responses_to_2c]
