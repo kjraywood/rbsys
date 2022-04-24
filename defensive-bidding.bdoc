@@ -144,16 +144,19 @@ Cue-bid is a strength enquiry
 [#_sandwich_overcalls]
 == Sandwich-position overcalls
 
-=== Vs short-club or short-diamond opening
+=== Vs nebulous-club or nebulous-diamond opening
 
-[lavender-box]#If their opening-bid could be as short as two or fewer,
-then bidding that suit in sandwich position is natural.#
+[lavender-box]#If their opening-bid is nebeulous then bidding that
+suit in sandwich position is natural.#
 
 In this case, hands with 5{ndash}5 in the other two-suits must double.
 
+NOTE: Nebulous means that there is more than one shape on which they
+      open with two or fewer.
+
 [%autowidth,cols="5*^,<",grid="none"]
 |===
-|   |      |     | (!!1C!!) || short club
+|   |      |     | (!!1C!!) || nebulous club
 | P | (1H) |  2C |          || #natural#
 |===
 
