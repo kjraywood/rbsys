@@ -713,7 +713,7 @@ skipping a step; thus bidding 2S even when opener's major is hearts.
 |  1M   | !2C! ||
 | !2D!  |  ?   ||
 |       | !2H! || [lavender-bg]#waiting, could be very strong#
-|       | !2S! || #3*M#
+|       | !2S! || #{thinsp}3*M{thinsp}#
 |       |  2NT || 16{ndash}17, no singleton
 | 2+<| 3{lab}suit{rab} | natural, extra length or extra strength
 |===
