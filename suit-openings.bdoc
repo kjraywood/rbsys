@@ -678,8 +678,10 @@ Opener and responder use #next-step waiting-bids# below 2NT unless they
 have something to say such as extra length, extra strength, the other
 major, or a known eight-card fit.
 
-[lavender-box]#Waiting bids by either player could hide a strong
-hand that will bid again once game has been reached.#
+****
+Waiting bids by either player could hide a strong
+hand that will bid again once game has been reached.
+****
 
 // {reference} https://bridgewinners.com/article/view/better-21-bidding-the-nebulous-2c-bid[
 // _Better 2/1 Bidding: The Nebulous 2\C Bid_]
@@ -711,7 +713,7 @@ skipping a step; thus bidding 2S even when opener's major is hearts.
 |  1M   | !2C! ||
 | !2D!  |  ?   ||
 |       | !2H! || [lavender-bg]#waiting, could be very strong#
-|       | !2S! || 3*M
+|       | !2S! || #3*M#
 |       |  2NT || 16{ndash}17, no singleton
 | 2+<| 3{lab}suit{rab} | natural, extra length or extra strength
 |===
@@ -739,12 +741,10 @@ the NT.
 _Building a Better 2/1 Structure: The Schuler Shift_]
 __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 
-Only after 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H
-
-Opener's 2NT rebid shows 6{OrMore}{xtimes}M
-
-Opener's 2M rebid denies 6{OrMore}{xtimes}M unless 6332 and poor for
-declaring NT
+@ Only after 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H +
+@ Opener's 2NT rebid shows 6{OrMore}{xtimes}M +
+@ Opener's 2M rebid denies 6{OrMore}{xtimes}M
+_ unless 6332 and poor for declaring NT
 
 === One Diamond {ndash} Two Clubs
 
