@@ -314,8 +314,8 @@ Usually bypass 4-card majors to rebid NT
 
 === Inverted Minors
 
-@ Single-raise = game-forcing
-@ #May have a four-card major#
+@ Single-raise = game-forcing +
+@ #May have a four-card major# +
 @ Inverted off by passed hand
 
 [%autowidth,cols="<",grid="none"]
