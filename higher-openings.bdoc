@@ -381,8 +381,8 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 |===
 | !2D! || weak or waiting
 |  2H  || natural positive, any suit-quality
-|  2NT || bal 8{orMore}{ndash}11 (or 14{OrMore}), forcing to 4NT
-|  3NT || bal 12{ndash}13, slam forcing
+|  2NT || bal 8{orMore}{ndash}11 (or 14{OrMore})
+|  3NT || bal 12{ndash}13, forcing to 4NT
 |===
 
 [#_transfer_responses_to_2c]
@@ -481,11 +481,51 @@ _last-train_{thinsp} slam-try.
 
 [%autowidth,cols="<,^,2*<",grid="none]
 |===
-|       |  2C  ||
-|  2D   | !3H! || 4*{H}, 5{OrMore}{xtimes}{D}
+|       | !2C! ||
+| !2D!  | !3H! || 4*{H}, 5{OrMore}{xtimes}{D}
 | !4C!* |   ?  || * {H}, non-bust
 |       | !4D! || last-train slam-try
 |       |  4H  || minimum
+|===
+
+=== 2NT response to 2C
+
+[%autowidth,cols="2*^,<",grid="none]
+|===
+3+^| Opener's Rebid
+
+| !2C! | 2NT | {emsp} 8{OrMore} to 11, balanced
+|  ?   |     |
+2+<| 3{lab}suit{rab} <| natural
+| 3NT || [lavender-bg]#ConFit# +
+2+<| 4{lab}suit{rab} <| #own-suit KC (Selfwood)#
+| 4NT || Minimum balanced
+|===
+
+[%autowidth,cols="3*^,<",grid="none]
+|===
+4+^| ConFit after 2C{ndash} 2NT
+
+| !2C! | 2NT ||
+| 3NT |   ?  ||
+|     | !4C! || 0 or 1 control points +
+                > 4D asks +
+                {emsp} {tribull} 4H = 0 +
+                {emsp} {emsp} 4S = 1
+|     | !4D! || 2
+|     | !4H! || 3
+|     | !4S! || 4
+|===
+
+
+[%autowidth,cols="3*^,<",grid="none]
+|===
+4+^| After control-points
+
+| 4NT ||| sign-off
+3+<| 5{lab}suit{rab} <| good 4-card suit
+| 5NT ||| Forcing 6NT, invites 7NT
+| 6NT ||| sign-off
 |===
 
 === Interference
