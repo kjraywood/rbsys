@@ -330,36 +330,31 @@ Usually bypass 4-card majors to rebid NT
 [#_2nt_response_to_one_minor]
 === 1m {ndash} 2NT
 
-Shows a balanced hand with 13-15 or 18{OrMore}
+Balanced 13-15 or 18{OrMore}
 
-Responder denies a four-card major unless: +
+No four-card major unless: +
 @ 4333 +
 @ weak four-card major
 
 ==== Opener's rebids
 
-[lavender-box]#higher-ranking suit below 3NT = shortness (s.{thinsp}{or}{thinsp}v.)#
+Higher-ranking suit below 3NT = shortness (s.{thinsp}{or}{thinsp}v.) +
+@ avoids bad 3NT +
+@ possible slam try with strong single-suiter
 
-main purpose = avoid a bad 3NT
+After 1D{ndash}2NT +
+@ 3C = natural, COG or slam-try +
+@ 4C = shortness, slam-try
 
-also useful as a slam try with a strong single-suiter
+Four of original minor is optional minorwood
 
-[lavender-box]#1D{ndash}2NT{semicolon} 4C = shortness#
+Jump to a suit above four of original minor = exclusion
 
-Therefore, when considering how to respond to the 1D opening, holding
-3-3-4-3 and poor clubs, responder may choose to start with an
-inverted-minor raise instead of 2NT.
-
-[lavender-box]#a jump to four of the same minor is straight minorwood#
-
-A fit is guaranteed if opener has a six-card suit and opener has other
-ways to investigate slam potential.
-
-[lavender-box]#a jump to the 4-level in a higher-ranking suit is exclusion#
-
+****
 With a 6{ndash}5 hand, opener cannot show the second suit immediately
 so will start by showing shortness or just rebidding the original
 minor and later bidding the second-suit at the 4-level.
+****
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -368,7 +363,7 @@ minor and later bidding the second-suit at the 4-level.
 | !3C! ||     | natural, slammish, usually no shortness
 3+<| !!3D!!,!!3H!!,!!3S!! <| #shortness#
 |  3NT ||     | sign off
-| !4C! ||     | #minorwood#
+|  4C  ||     | optional minorwood
 3+<| !!4D!!,!!4H!!,!!4S!! <| exclusion with trump = {C}
 |  4NT ||     | quant.
 |===
@@ -379,11 +374,11 @@ minor and later bidding the second-suit at the 4-level.
 |  ?   ||     |
 |  3C  ||     | #natural#
 |  3D  ||     | natural, slamish
-3+<| !!3H!!,!!3S!! <| shortness
+3+<| !!3H!!,!!3S!! <| #shortness#
 |  3NT ||     | sign off
-| !4C! ||     | shortness, slam-try
-| !4D! ||     | #minorwood#
-3+<| !!4H!!,!!4S!! <|  exclusion with trump = {D}
+| !4C! ||     | #shortness, slam-try#
+|  4D ||     | optional minorwood
+3+<| !!4H!!,!!4S!!,!!5C!! <|  exclusion with trump = {D}
 | 4NT  ||     | quant.
 |===
 
