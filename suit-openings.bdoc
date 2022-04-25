@@ -603,7 +603,7 @@ NOTE: To play in 4S, responder must bid 3S (forcing) and
 
 @ promises a rebid below-game +
 @ default rebid by responder
-_ = cheaper of fourth-suit & 2NT
+_ = cheaper of fourth-suit & 2NT +
 >> to force, opener bids above
 __ three of first-suit
 
@@ -645,7 +645,7 @@ A jump to 3H is a GF opposite the extra strength shown by opener.
 
 === After 1NT response
 
-@ shows unbalanced raise to 2NT
+@ shows unbalanced raise to 2NT +
 @ does not promise a rebid
 
 [%autowidth,cols="3*^,<.^",grid="none"]
@@ -658,17 +658,15 @@ A jump to 3H is a GF opposite the extra strength shown by opener.
 
 == Two-over-one Auctions
 
-@ 100% game-forcing
-@ 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H show 5{OrMore}
+@ 100% game-forcing +
+@ 1M{thinsp}{ndash}{thinsp}2D and 1S{thinsp}{ndash}{thinsp}2H show 5{OrMore} +
 @ 1M{thinsp}{ndash}{thinsp}2C could be short
 
 [#_nebulous_two_clubs]
 === Nebulous Two Clubs
 
-@ applies after 1H or 1S opening
-
-@ 1S{thinsp}{ndash}{thinsp}2C includes 3-4-4-2
-
+@ applies after 1H or 1S opening +
+@ 1S{thinsp}{ndash}{thinsp}2C includes 3-4-4-2 +
 @ 1H{thinsp}{ndash}{thinsp}2C includes 4-3-4-2
 
 [lavender-box]#After a 1H opening, responder does not bid 1S with GF
@@ -826,8 +824,8 @@ __ {nbsp}{ndash}{nbsp} Richard Pavlicek
 Shows #ace or a singleton# when: +
 @ 4th suit is bid for the 1st time
 _ on 3rd round or later +
-@ auction is GF
-@ NT has not been bid
+@ auction is GF +
+@ NT has not been bid +
 @ applies to either player
 
 If partner bids 3NT, fourth-suit bidder pulls with a singleton.
