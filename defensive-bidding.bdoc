@@ -146,13 +146,21 @@ Cue-bid is a strength enquiry
 
 === Vs nebulous-club or nebulous-diamond opening
 
-[lavender-box]#If their opening-bid is nebeulous then bidding that
-suit in sandwich position is natural.#
+vs nebulous 1C or 1D opening: +
+@ sandwich-position bid of opener's suit
+_ = natural +
+@ 5{ndash}5 in the other two-suits must double
 
-In this case, hands with 5{ndash}5 in the other two-suits must double.
+****
+.Definition of nebulous
 
-NOTE: Nebulous means that there is more than one shape on which they
-      open with two or fewer.
+There is more than one shape on which they open with two or fewer in
+the suit
+
+Examples: +
+@ 1D opening of Precision system +
+@ 1C opening of unbalanced-diamond system
+****
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
