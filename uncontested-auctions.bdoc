@@ -399,27 +399,28 @@ _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 |  ?   |
 |===
 
-As per the <<_3rd_bid_by_opener_in_4sf1, rules>>, #2H = NF# ; hence
-minimum strength.
+#2H = NF# ; hence minimum strength and usually only five hearts
 
-Opener will usually not have a sixth heart because with minimum
-strength and 6-4, opener would rebid hearts before introducing clubs.
+It is appropriate on mimimum hands that are unsuitable for either of
+the other NF rebids (2S, 2NT).
 
-Therefore, 2H is appropriate on mimimum hands that are unsuitable for
-either of the other NF rebids (2S, 2NT).
+****
+2H does not show six hearts because with minimum strength and 6-4,
+opener would rebid hearts before introducing clubs.
+****
 
 *Examples*
 
-[lightgrey-box]#{S}{thinsp}xx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQxx# 2{H}::
+&(a)& [lightgrey-box]#{S}{thinsp}xx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQxx# 2{H}::
   Typical hand;  2H=NF allows the partnership to stop low
 
-[lightgrey-box]#{S}{thinsp}x {H}{thinsp}AJTxx {D}{thinsp}xx {C}{thinsp}KQTxx# 2{H}::
+&(b)& [lightgrey-box]#{S}{thinsp}x {H}{thinsp}AJTxx {D}{thinsp}xx {C}{thinsp}KQTxx# 2{H}::
   Even with extra shape, 2H=NF is best to avoid forcing the auction higher
 
-[lightgrey-box]#{S}{thinsp}Qx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQJx# 3{C}::
+&(c)& [lightgrey-box]#{S}{thinsp}Qx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQJx# 3{C}::
   Too strong for a NF bid;  3C is forcing one-round and does not promise extra length
 
-[lightgrey-box]#{S}{thinsp}x {H}{thinsp}AQJxxx {D}{thinsp}Kx {C}{thinsp}KQJx# 3{H}::
+&(d)& [lightgrey-box]#{S}{thinsp}x {H}{thinsp}AQJxxx {D}{thinsp}Kx {C}{thinsp}KQJx# 3{H}::
   Opener must jump in hearts with extra strength and extra length
 
 === Rebidding after 1H{ndash}1S
