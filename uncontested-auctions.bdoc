@@ -869,17 +869,18 @@ minor-suit on the first round with an invitational jump-shift (3/1).
 ****
 .Why 3NT is not natural
 
-* Responder has at least five spades because after a 1H opening we
-  don't respond 1S with GF values and only four spades
-  {startsb}<<#_nebulous_two_clubs,Nebulous Two Clubs>>{endsb}
+@ Responder has at least five spades to bid
+_ 1S over 1H with GF values
 
-* opener has either four spades, or three-spades and a short weak suit
+@ If opener has four spades we have a
+_ nine-card fit
 
-Therefore, we have either a nine-card spade-fit, or an eight-card
-spade-fit with a ruffing value in the short-trump hand.  In either
-case, spades is preferred over notrump.
+@ With only three spades, opener has a singleton
+_ or weak doubleton
 
-{implies} we don't need a natural choice-of-game 3NT
+{implies} we prefer spades to notrump
+
+{implies} we don't need a choice-of-game 3NT
 
 {implies} [lavender-box]#3NT = FORCING, 5{times}{S}, slam interest#
 ****
