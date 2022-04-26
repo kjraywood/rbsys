@@ -802,12 +802,12 @@ is a singleton.
 === Responder has both majors
 
 After 1m{ndash}1{H} opener might bypass a four-card spade-suit to
-raise hearts on three. So 2S by responder is natural and forcing
-one-round.
+raise hearts on three.
+
+{implies} 2S by responder = natural, F1
 
 Then: +
-@ old-suit, 2NT or 3NT
-_ = natural, NF +
+@ old-suit, 2NT, 3NT = natural, NF +
 @ #4th-suit (3om) = 4*{H}, max#
 
 [%autowidth,cols="^,^,<",grid="none"]
