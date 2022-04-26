@@ -760,12 +760,15 @@ doubleton.
 |===
 
 [#_opener_raises]
-== 1m{ndash}1M{semicolon} 2M
+== Opener raises to 2M
 
-{warning} [xemph]#No Quality & Quantity#
+// == 1m{ndash}1M{semicolon} 2M
 
-We achieve the same goal with mostly natural bidding, and use _three
-other-minor_{thinsp} for further investigation.
+[%autowidth,cols="<,^",grid="none"]
+|===
+|  1{lab}suit{rab} | 1M
+|  2M              | ?
+|===
 
 === Natural invitations and choice-of-game
 
@@ -773,17 +776,15 @@ Notrump bids and old suits are non-forcing.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m | 1M  | |
-| 2M | ?   | |
-|    | 2NT | | natural, inv,#{sp}NF{sp}#
-|    | 3m  | | natural, inv,#{sp}NF{sp}#
-|    | 3M  | | five-card suit, inv
-|    | 3NT | | natural, COG
+| 1m | 1M  ||
+| 2M | ?   ||
+|    | 2NT || natural, inv,#{sp}NF{sp}#
+|    | 3m  || natural, inv,#{sp}NF{sp}#
+|    | 3M  || five-card suit, inv
+|    | 3NT || natural, COG
 |===
 
 === Investigating best game or slam
-
-For more info, responder uses #three other-minor#.
 
 [%autowidth,cols="^,^,<",grid="none"]
 |===
@@ -795,16 +796,11 @@ For more info, responder uses #three other-minor#.
 | !3NT! |       | 3-card raise, #short om#
 |===
 
-[TIP]
-====
-Think of this as #GF New-Minor Q{thinsp}&{thinsp}Q#.
-However, instead of min vs max, opener
-identifies the shortness in a 3-card-raise hand.
-====
-
 When opener has shown a three-card raise, responder may suggest an
 alternate trump suit in one of the minors.
+
 Following that, opener's weakest bid is returning to 4M.
+
 Anything else is encouraging, usually indicating that the short-suit
 is a singleton.
 
@@ -814,7 +810,7 @@ After 1m{ndash}1{H} opener might bypass a four-card spade-suit to
 raise hearts on three. So 2S by responder is natural and forcing
 one-round.
 
-Then +
+Then: +
 @ old-suit, 2NT or 3NT
 _ = natural, NF +
 @ #4th-suit (3om) = 4*{H}, max#
@@ -843,8 +839,10 @@ In the previous two bidding tables, the notrump bids show shortness
 (2{OrLess}) in the new suit that responder just bid; even if it was
 only semi-natural.
 
-Also, as in the previous section, #three other-minor# is a special
-bid indicating extras; this time, non-minumum and 4-card support.
+Also, as in the previous section,
+[alert]#__three other-minor__#{thinsp}
+is a special bid indicating extras; this time,
+non-minumum and 4-card support.
 ====
 
 === Vs interference
@@ -853,76 +851,52 @@ When opener is known to have a 4-card raise (_e.g._{thinsp} no support
 double), then new suits are natural game-tries.
 
 [#_1h_1s_2s]
-== 1H{ndash}1S{semicolon} 2S
+=== 1H{ndash}1S{semicolon} 2S
 
-=== Responder has invitational strength
+@ bids below 3NT are natural, invitational
+_ and non-forcing
 
-Responder may have only four spades and opener may have raised on three.
-
-{implies}  [lavender-box]#2NT = natural, non-forcing, 4{times}{S}#
-
-Responder may have four spades and a five-card minor.
-It's useful to be able to show this as a natural NF game-try.
-
-{implies} [lavender-box]#3m = natural, inv., NF, 4{times}{S} + 5{times}m#
-
-NOTE: With 4{times}{S} and a six-card minor, responder will usually
-      show the minor-suit on the first round with an invitational
-      jump-shift (3/1).
-
-Responder may have a 3-card LR of hearts and four spades.
-
-{implies}  [lavender-box]#3H = 3-card LR, NF, 4{times}{S}#
-
-TIP:  We also define [lightgrey-bg]#`1m-1M; 2M-3m`#
-      as non-forcing and invitational.
-
-With five or more spades and invitational strength, responder re-raises.
-
-{implies}  [lavender-box]#3S = 5{OrMore}{times}{S}, NF, inv.#
-
-=== Responder has GF strength
-
-* responder has at least five spades because after a 1H opening we
-  don't respond 1S with GF values and only four spades
-  {startsb}<<#_nebulous_two_clubs,Nebulous Two Clubs>>{endsb}
-
-* opener has either four spades, or three-spades and a short weak suit
-
-Therefore, we have either a nine-card spade-fit, or an eight-card
-spade-fit with a ruffing value in the short-trump hand.
-In either case, spades is preferred over notrump.
-
-{implies} we don't need a natural choice-of-game 3NT
-
-{implies} [lavender-box]#3NT = FORCING, 5{times}{S}, slam interest#
-
-We also use
-
-{nbsp}  [lavender-box]#4m =  2nd-suit slam-try (hence 5{times}{S})#
-
-though it might be preferable and easier to remember of these are
-splinter slam-tries.
-
-=== Summary
-
-* below-game bids are natural, invitational and non-forcing
-
-* 3NT and 4m bids are slam-tries with spades as trump
+@ 3NT and 4m are slam-tries with spades as trump
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1H | 1S  ||
 | 2S | ?   ||
 |    | 2NT || natural, inv, NF, 4{times}{S}
-|    | 3m  || natural, inv, NF, 4{times}{S} + 5{times}m
+|    | 3m  || #natural, inv, NF, 4{times}{S} & 5{times}m#
 |    | 3H  || 3-card LR (NF back-preference), 4{times}{S}
 |    | 3S  || five-card suit, inv
-|  | !3NT! || Slam-interest (hence 5{times}{S}), FORCING
-|    | 4m  || 2nd-suit, slam-try, hence 5{times}{S}
-|    | 4H  || picture bid, 5{times}{S} + 4*{H},
+|  | !3NT! || [lavender-bg]#Slam-interest (hence 5{times}{S}), FORCING#
+|    | 4m  || #{thinsp}2nd-suit, slam-try, hence 5{times}{S}{thinsp}#
+|    | 4H  || picture bid, 5{times}{S} & 4{times}{H}, pure hand,
               [nobr]#no control in either minor#
+|    | 4S  || to play
 |===
+
+****
+.Why 3m shows exactly five cards
+
+With 4{times}{S} and a six-card minor, responder will usually show the
+minor-suit on the first round with an invitational jump-shift (3/1).
+****
+
+****
+.Why 3NT is not natural
+
+* Responder has at least five spades because after a 1H opening we
+  don't respond 1S with GF values and only four spades
+  {startsb}<<#_nebulous_two_clubs,Nebulous Two Clubs>>{endsb}
+
+* opener has either four spades, or three-spades and a short weak suit
+
+Therefore, we have either a nine-card spade-fit, or an eight-card
+spade-fit with a ruffing value in the short-trump hand.  In either
+case, spades is preferred over notrump.
+
+{implies} we don't need a natural choice-of-game 3NT
+
+{implies} [lavender-box]#3NT = FORCING, 5{times}{S}, slam interest#
+****
 
 // [TIP]
 // ====
