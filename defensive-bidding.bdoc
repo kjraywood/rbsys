@@ -927,13 +927,18 @@ _ their 1NT opening (any strength)
 
 @ they open Flannery 2D
 
-=== Bidding the transfer suit
+=== Bidding the suit shown by the transfer
 
-[lavender-box]#If their transfer is at the 1-level, bidding their suit
-               is natural.#
+[%autowidth,cols="2*^"]
+|===
+h| Level of +
+  their transfer 
+h| Bidding the +
+   shown suit
 
-[lavender-box]#If their transfer is at the 2-level, bidding their suit
-               is Michaels.#
+| 1 | natural
+| 2 | Michaels
+|===
 
 === Example after their 1NT opening
 
