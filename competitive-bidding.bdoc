@@ -357,8 +357,7 @@ Double = penalty +
 TIP: [lightgrey-box]#1{lab}suit{rab} {ndash} (X) {ndash} XX#
      also creates a force to two of opener's suit
 
-When our opening was a major, then two of either minor shows that
-minor and the other major.
+=== We opened ONE MAJOR
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
@@ -369,7 +368,10 @@ minor and the other major.
 |    |       | !2NT! | | good 4{OrMore}-card raise
 |===
 
-When our opening was a minor, we play Landy and transfers.
+
+=== We opened ONE MINOR
+
+@ Landy and transfers.
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
