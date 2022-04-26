@@ -383,31 +383,39 @@ _ = NF, hence minimum strength +
 |  3D  |      | 4{xtimes}{D}, ambiguous strength, F1
 |  3H  |      | extra strength, GF
 |  3S  |      | 5{xtimes}{S}, 6{OrMore}{xtimes}{C}, GF
-|  3NT |      | 15-17, stiff {H}, 4th-suit well stopped
+|  3NT |      | extra strength, 4th-suit well stopped
 |===
 
-{biglowast} could be just a minimum not suitable for 2NT.
+****
+{biglowast} 2S could be a minimum not suitable for 2NT.
 _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
+****
 
 [#_1h_1s_2c_2d]
 ====  Fourth-suit after 1H {ndash} 1S{semicolon} 2C
 
-[%autowidth,cols="2*^",grid="none"]
+[%autowidth,cols="2*^, <",grid="none"]
 |===
-|  1H  |  1S
-|  2C  | !2D!
-|  ?   |
+| 1H  |  1S  |
+| 2C  | !2D! |
+| ?   ||
+| 2H  || minimum, usually only 5{times}{H}, #{thinsp}NF{thinsp}#
+| 2S  || minimum, usually {S}Hx, NF
+| 2NT || minimum, NF
+| 3C  || #extra strength, ambiguous length#
+| 3D  || 4{xtimes}{D}, extra strength
+| 3H  || extra length and strength, GF
+| 3S  || 3{times}{S}, extra strength, GF
+| 3NT || extra strength, 4th-suit well stopped
 |===
-
-#2H = NF# ; hence minimum strength and usually only five hearts
-
-It is appropriate on mimimum hands that are unsuitable for either of
-the other NF rebids (2S, 2NT).
 
 ****
 2H does not show six hearts because with minimum strength and 6-4,
 opener would rebid hearts before introducing clubs.
 ****
+
+2H is appropriate on mimimum hands that are unsuitable for either of
+the other NF rebids (2S, 2NT).
 
 *Examples*
 
