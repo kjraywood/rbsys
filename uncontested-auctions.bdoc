@@ -852,7 +852,7 @@ _ and non-forcing
 |    | 3m  || #natural, inv, NF, 4{times}{S} & 5{times}m#
 |    | 3H  || 3-card LR (NF back-preference), 4{times}{S}
 |    | 3S  || five-card suit, inv
-|  | !3NT! || [lavender-bg]#Slam-interest (hence 5{times}{S}), FORCING#
+|  | !3NT! || [lavender-bg]#5{times}{S}, slam interest, FORCING#
 |    | 4m  || #{thinsp}2nd-suit, slam-try, hence 5{times}{S}{thinsp}#
 |    | 4H  || picture bid, 5{times}{S} & 4{times}{H}, pure hand,
               [nobr]#no control in either minor#
@@ -881,8 +881,6 @@ _ or weak doubleton
 {implies} we prefer spades to notrump
 
 {implies} we don't need a choice-of-game 3NT
-
-{implies} [lavender-box]#3NT = FORCING, 5{times}{S}, slam interest#
 ****
 
 // [TIP]
