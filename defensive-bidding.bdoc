@@ -162,10 +162,14 @@ Examples: +
 @ 1C opening of unbalanced-diamond system
 ****
 
-[%autowidth,cols="5*^,<",grid="none"]
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-|   |      |     | (!!1C!!) || nebulous club
-| P | (1H) |  2C |          || #natural#
+|   |      |    | (!!1C!!) | {emsp} nebulous club
+| P | (1H) | ?  ||
+|   |      | 1S || 5{OrMore}{times}{S}, may have 4{times}{D} 
+|   |      | 2C || #natural#
+|   |      | 2H || natural
+|   |      | X  || (4{or}5){times}{S}, 5{times}{D}
 |===
 
 === Vs normal (3{OrMore}) openings
