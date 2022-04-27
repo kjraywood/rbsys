@@ -366,7 +366,9 @@ four spades._
 *After fourth-suit at the 2-level* +
 @ 2NT, or a #2-level bid of either player's first suit#
 _ = NF, hence minimum strength +
-@ other non-jump = ambiguous strength, F1 +
+@ other 2-level bid = ambiguous strength, F1 +
+@ non-jump 3-level bid
+_ = extra strength, ambiguous length, F1 +
 @ jump = extra strength, GF
 
 ==== Fourth suit at the 2-level after three 1-level bids
