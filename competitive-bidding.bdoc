@@ -635,71 +635,94 @@ the other major.
 ====
 
 [#_fit_showing_jumps]
-== Fit-showing jumps
+== Fit-Showing Jumps
 
-A fit-showing jump is a raise of partner's suit with length
-and strength in a second suit.
-It shows the offence for playing at the level to which it raises.
-
-=== General rules
-
-When FSJs apply, they have priority over splinters.
-
-If single and double jumps are both available below game in a FSJ
-situation, then the single jump is fit showing and the double jump is
-a splinter.
-
-[lavender-box]#We do not play FSJs after an opponent's take-out double
-               of our 1-level opening bid.#
-
-However, as part of <<#_mccabe, *McCabe*>>, we do play a fit-showing
-jump following a take-double of our weak-two opening.
+@ shows the offence for playing at
+_ the level to which it raises
 
 === Unpassed hand
 
 FSJs by an unpassed hand apply when:
 
-@ we open ONE MAJOR +
->> they overcall +
-@ we overcall +
->> next hand doubles or bids (does not pass)
+@ we open, they overcall +
+> #we jump to an unshown minor# +
 
-A jump to game in a new suit is to play; not fit-showing.
-Therefore:
+@ they open, we overcall,
+_ #next hand does not pass# +
+> we jump to a new suit
 
-[lavender-box]#The highest FSJ by an unpassed hand is four of a
-               minor.#
+****
+.Why we only use FSJs to minor-suits after we open
 
-We also play <<#_negative_free_bids, *2oM neg.-free bids*>>
+We also play <<#_negative_free_bids,
+[alert]#2oM neg.-free bids#>>
 by an unpassed hand after we open and they overcall.
+
 When 2oM is an NFB, a jump to 3oM is natural and forcing; not
 fit-showing.
-Therefore:
+****
 
-[lavender-box]#After we open a major and they overcall a minor, there
-               is no FSJ in the other major.#
+****
+.Why we only use FSJs when next hand bids after we overcall
 
-&Examples&
+After we overcall, a new-suit is constructive but not forcing.  So we
+need jump shifts to show a good hand (about opening strength) with a
+good suit.
 
-[%autowidth,cols="3*^,2*<",grid="none"]
-|===
-| 1S | (2D) |  ?   ||
-|    |      |  2H  || 2oM NFB
-|    |      |  3C  || natural, F
-|    |      |  3H  || natural, GF [nobr]#(because 2H is NF)#
-|    |      | !4C! || #fit-showing# [nobr]#(single jump)#
-|    |      | !4D! || splinter [nobr]#(opp's suit)#
-|    |      |  4H  || to play [nobr]#(game bid)#
-|===
+When all four-hands are bidding, it is highly unlikely that we have
+game on power, so FSJs take priority.
+****
+
+==== Restrictions
+
+A jump-shift to game is to play; not fit-showing
+
+FSJs have priority over splinters
+
+If single and double jumps are both available below game in a FSJ
+situation, then: +
+@ single jump = fit showing +
+@ double jump = splinter
+
+****
+<<#_js_vs_take_out_double, *We do not play FSJs by an unpassed hand
+                            after an opponent's take-out double*>>
+****
+
+==== Examples
 
 [%autowidth,cols="3*^,2*<",grid="none"]
 |===
 | 1S | (2C) |  ?   ||
-|    |      |  2D  || natural F
-|    |      | !3D! || #fit-showing# [nobr]#(single jump)#
-|    |      | !4C! || splinter [nobr]#(opp's suit)#
-|    |      | !4D! || splinter [nobr]#(double jump)#
-|    |      |  4H  || to play [nobr]#(game bid)#
+|    |      |  2D  || natural, F
+|    |      | !3D! || #fit-showing#
+                      _ (single jump to minor)
+|    |      | !4D! || splinter (double jump)
+|    |      |  2H  || 2oM NFB
+|    |      |  3H  || natural, GF
+|    |      |  4H  || to play (game bid)
+|    |      | !4C! || splinter (jump cue)
+|===
+
+[%autowidth,cols="3*^,2*<",grid="none"]
+|===
+| 1S | (2D) |  ?   ||
+|    |      |  3C  || natural, F
+|    |      | !4C! || #fit-showing#
+                      _ (single jump to minor)
+|===
+
+[%autowidth,cols="3*^,2*<",grid="none"]
+|===
+| 1D | (1S) |  ?   ||
+|    |      |  2C  || natural F
+|    |      | !3C! || #fit-showing#
+                      _ (single jump to minor)
+|    |      | !4C! || splinter (double jump)
+|    |      |  2H  || 2oM NFB
+|    |      |  3H  || natural, GF
+|    |      |  4H  || to play (game bid)
+|    |      | !3S! || splinter (jump cue)
 |===
 
 [%autowidth,cols="5*^,<",grid="none"]
@@ -715,9 +738,74 @@ Therefore:
 
 === Passed Hand
 
-The unpassed-hand FSJ situations apply with the following additions.
+If a jump-shift by an unpassed hand is natural, then the same
+jump-shift by a passed hand is fit-showing.
+
+@ also applies vs take-out double
+
+==== We open ONE MAJOR, they pass or double
+
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[%autowidth,cols="^,2*<",grid="none",stripes="odd"]
+!===
+!    !   ! 1S {ensp}(P{or}X)
+! 3D 2+<! natural, inv.
+!===
+|
+[%autowidth,cols="^,2*<",grid="none",stripes="odd"]
+!===
+! P  ! (P) ! 1S {ensp}(P{or}X)
+! 3D 2+<! #fit showing#
+!===
+|===
+
+==== We open ONE MINOR, they pass
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[%autowidth,cols="^,2*<",grid="none",stripes="odd"]
+!===
+!    !   ! 1D {ensp}(P)
+! 3C 2+<! natural, inv.
+!===
+|
+[%autowidth,cols="^,2*<",grid="none",stripes="odd"]
+!===
+! P  ! (P) ! 1D {ensp}(P)
+! 3C 2+<! #fit showing#
+!===
+|===
+
+==== We open ONE MINOR, they double
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[%autowidth,cols="2*^,<",grid="none",stripes="odd"]
+!===
+!    !     ! 1D {ensp}(X)
+! ?  !     !
+! 2M     2+<! natural, weak
+! !!3C!! 2+<! artificial, LR{OrMore}
+!===
+|
+[%autowidth,cols="2*^,<",grid="none",stripes="odd"]
+!===
+! P  ! (P) ! 1D {ensp}(X)
+! ?  !     !
+! 2M     2+<!  #fit showing#
+! !!3C!! 2+<! artificial, LR{OrMore}
+!===
+|===
+
+==== We open, they overcall
 
 2oM NFBs do not apply by a passed hand.
+
 Therefore, after an opponent overcalls, all single jumps by a passed
 hand, including to 3oM, are fit showing.
 
@@ -727,28 +815,13 @@ hand, including to 3oM, are fit showing.
 | !3H! |  3+<| fit showing
 |===
 
-Passed-hand FSJs apply after our overcalls even if the next hand
-passes.
+==== They open, we overcall
+
+A passed-hand cannot have a good hand with a good suit, so FSJs apply
+after our overcalls even if the next hand passes.
 
 [%autowidth,cols="5*^",grid="none"]
 |===
 |  P   | (1C) | 1H  | (P) |
 | !2S! |   3+<| fit showing
-|===
-
-Passed-hand FSJs apply after our ONE{hyph}MINOR opening is overcalled.
-
-[%autowidth,cols="5*^",grid="none"]
-|===
-|  P   | (P) | 1D | (1S) |
-| !3C! |  3+<| fit showing
-|===
-
-An uncontested jump-shift in the other minor by a passed hand is
-fit-showing.
-
-[%autowidth,cols="5*^",grid="none"]
-|===
-|  P   | (P) | 1D | (P) |
-| !3C! |  3+<| fit showing
 |===
