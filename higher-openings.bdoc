@@ -585,7 +585,7 @@ Majors only
 
 @ forcing in uncontested auction +
 @ #non-forcing vs overcall# +
-@ fit-showing vs double
+@ lead-directing (McCabe) vs double
 
 [#_mccabe]
 === McCabe vs double
@@ -598,7 +598,7 @@ Majors only
 | raise    || A or K (lead-directing)
 | redouble || run-out to long suit, _or_ +
               raise without A or K
-| jump shift || fit showing
+| jump shift || #splinter#
 |===
 
 [#bogust]
