@@ -598,6 +598,7 @@ Majors only
 | raise    || A or K (lead-directing)
 | redouble || run-out to long suit, _or_ +
               raise without A or K
+| 2NT      || Bogust
 | jump shift || #splinter#
 |===
 
@@ -605,8 +606,8 @@ Majors only
 === Bogust
 
 Bogust also applies when: +
-@ 2M is a negative-free bid
-@ 2M is weak-jump overcall
+@ 2M = negative-free bid +
+@ 2M = weak-jump overcall vs T-O double
 
 [%autowidth,cols="2*^,<",grid="none]
 |===
