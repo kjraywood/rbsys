@@ -637,19 +637,16 @@ the other major.
 [#_fit_showing_jumps]
 == Fit-Showing Jumps
 
-@ shows the offence for playing at
-_ the level to which it raises
+A fit-showing jump shows the offence for playing at the level to which it raises
 
 === Unpassed hand
 
-FSJs by an unpassed hand apply when:
-
 @ we open, they overcall +
-> #we jump to an unshown minor# +
+> [lavender-bg]#jump to an unshown minor# = FSJ
 
 @ they open, we overcall,
 _ #next hand does not pass# +
-> we jump to a new suit
+> [lavender-bg]jump to a new suit# = FSJ
 
 ****
 .Why we only use FSJs to minor-suits after we open
