@@ -360,18 +360,52 @@ _ ({simto}{thinsp}12{ndash}15) +
 _2NT invites game in notrump and confirms that responder does not have
 four spades._
 
-[#_3rd_bid_by_opener_in_4sf1]
-=== Third bid by opener in fourth-suit-forcing auctions
+// --------------------------------------------------------------------
 
-*After fourth-suit at the 2-level* +
-@ 2NT, or a #2-level bid of either player's first suit#
-_ = NF, hence minimum strength +
-@ other 2-level bid = ambiguous strength, F1 +
-@ non-jump 3-level bid
-_ = extra strength, ambiguous length, F1 +
+[#_4th_suit_two_minor]
+=== When the fourth-suit bid is TWO MINOR
+
+****
+.After fourth-suit at the 2-level
+
+@ #{thinsp}2NT or two of either player's first suit = NF{thinsp}# +
+_ {implies} minimum strength
+
 @ jump = extra strength, GF
+****
 
-==== Fourth suit at the 2-level after three 1-level bids
+If available, two of opener's first suit = #{thinsp}default bid{thinsp}#
+
+Otherwise opener's second-suit must be spades +
+{implies} 2S = default bid
+
+==== Fourth-suit bid = 2C
+
+Opener's first suit = diamonds +
+{implies} 2D = default bid, NF
+
+Opener's second suit = spades +
+{implies} 2S = extra length or strength, F1
+
+[%autowidth,cols="2*^, <",grid="none"]
+|===
+| 1D  |  1H  |
+| 1S  | !2C! |
+| ?   ||
+| 2D  || #default bid#, usually 5{or}6{xtimes}{D}, minimum, NF
+| 2H  || usually {H}Hx, minimum, NF
+| 2S  || #extra strength or length#, F1
+| 2NT || minimum, NF
+| 3C  || 4{xtimes}{C}, extra strength, GF
+| 3D  || extra length and strength, GF
+| 3H  || 3{times}{S}, extra strength, GF
+| 3NT || 4th-suit well stopped, extra strength
+|===
+
+==== 1C {ndash} 1H{semicolon} 1S {ndash} 2D
+
+Two of opener's first suit (clubs) is not available +
+{implies} 2S = default bid, F1
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -379,7 +413,7 @@ _ = extra strength, ambiguous length, F1 +
 |  1S  | !2D! |
 |  ?   |      |
 |  2H  |      | minumum, NF, usually {H}Hx
-| !2S! |      | #ambiguous strength, F1# {biglowast}
+| !2S! |      | #default bid#, F1 {biglowast}
 |  2NT |      | minimum, NF
 |  3C  |      | 6{xtimes}{C}, ambiguous strength, F1
 |  3D  |      | 4{xtimes}{D}, ambiguous strength, F1
@@ -393,15 +427,19 @@ _ = extra strength, ambiguous length, F1 +
 _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 ****
 
-[#_1h_1s_2c_2d]
-====  Fourth-suit after 1H {ndash} 1S{semicolon} 2C
+==== 1H {ndash} 1S{semicolon} 2C {ndash} 2D
+
+2H = default bid, NF
+
+Opener's second suit, clubs, is at the 3-level +
+{implies} 3C = extra strength, ambiguous length
 
 [%autowidth,cols="2*^, <",grid="none"]
 |===
 | 1H  |  1S  |
 | 2C  | !2D! |
 | ?   ||
-| 2H  || minimum, usually only 5{times}{H}, #{thinsp}NF{thinsp}#
+| 2H  || #default bid#, usually only 5{times}{H}, minimum,NF
 | 2S  || minimum, usually {S}Hx, NF
 | 2NT || minimum, NF
 | 3C  || #extra strength, ambiguous length#
@@ -416,9 +454,6 @@ _  __e.g.__{thinsp} [lightgrey-box]#{S}KQTx {H}xx {D}xx {C}AQJxx#
 opener would rebid hearts before introducing clubs.
 ****
 
-2H is appropriate on mimimum hands that are unsuitable for either of
-the other NF rebids (2S, 2NT).
-
 *Examples*
 
 &(a)& [lightgrey-box]#{S}{thinsp}xx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQxx# 2{H}::
@@ -428,10 +463,36 @@ the other NF rebids (2S, 2NT).
   Even with extra shape, 2H=NF is best to avoid forcing the auction higher
 
 &(c)& [lightgrey-box]#{S}{thinsp}Qx {H}{thinsp}AQJxx {D}{thinsp}xx {C}{thinsp}KQJx# 3{C}::
-  Too strong for a NF bid;  3C is forcing one-round and does not promise extra length
+  Too strong for a NF bid;  3C does not promise extra length
 
 &(d)& [lightgrey-box]#{S}{thinsp}x {H}{thinsp}AQJxxx {D}{thinsp}Kx {C}{thinsp}KQJx# 3{H}::
   Opener must jump in hearts with extra strength and extra length
+
+[#_4th_suit_two_major]
+=== When the fourth-suit bid is TWO MAJOR
+
+There is no default bid and opener must sometimes bid 2NT without a
+stopper in the fourth suit.
+
+Opener's second-suit also becomes more ambiguous, showing only at
+least one of extra length or extra strength. +
+{implies} one-round force only
+
+[%autowidth,cols="2*^, <",grid="none"]
+|===
+| 1D  |  1S  |
+| 2C  | !2H! |
+| ?   ||
+| 2S  || usually {S}Hx, minimum, NF
+| 2NT || minimum, NF
+| 3C  || #extra strength OR length#, F1
+| 3D  || extra length and strength, GF
+| 3H  || 4{xtimes}{H}, extra strength, GF
+| 3S  || 3{times}{S}, extra strength, GF
+| 3NT || extra strength, 4th-suit well stopped
+|===
+
+// --------------------------------------------------------------------
 
 === Rebidding after 1H{ndash}1S
 
