@@ -641,10 +641,10 @@ A fit-showing jump shows the offence for playing at the level to which it raises
 
 === Unpassed hand
 
-@ we open, they overcall +
+*We open, they overcall* +
 > [lavender-bg]#jump to an unshown minor# = FSJ
 
-@ they open, we overcall,
+*They open, we overcall*,
 _ #next hand does not pass# +
 > [lavender-bg]#jump to a new suit# = FSJ
 
