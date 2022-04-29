@@ -646,7 +646,7 @@ A fit-showing jump shows the offence for playing at the level to which it raises
 
 @ they open, we overcall,
 _ #next hand does not pass# +
-> [lavender-bg]jump to a new suit# = FSJ
+> [lavender-bg]#jump to a new suit# = FSJ
 
 ****
 .Why we only use FSJs to minor-suits after we open
