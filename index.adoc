@@ -1,6 +1,6 @@
 = RB System Notes
 
-<<system.adoc#, *Recent Changes*>>
+<<changelog.adoc#, *Recent Changes*>>
 
 // '''
 
