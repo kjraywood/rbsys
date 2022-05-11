@@ -508,13 +508,14 @@ _last-train_{thinsp} slam-try.
 
 | !2C! | 2NT ||
 | 3NT |   ?  ||
-|     | !4C! || 0 or 1 control points +
+|     | !4C! || 2 or fewer control points +
                 > 4D asks +
                 {emsp} {tribull} 4H = 0 +
                 {emsp} {emsp} 4S = 1
-|     | !4D! || 2
-|     | !4H! || 3
-|     | !4S! || 4
+                {emsp} {emsp} 4NT = 2
+|     | !4D! || 3
+|     | !4H! || 4
+|     | !4S! || 5
 |===
 
 
