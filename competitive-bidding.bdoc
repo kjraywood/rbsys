@@ -27,51 +27,53 @@ Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
 === 1m {ndash} (X)
 
-&Most responses are natural&
-
 @ new suit forcing @ 1-level +
 @ inverted minors are OFF +
 @ special 2H and 2S are OFF
 
+==== NT responses
+
 [%autowidth,cols="4*^,<",grid="none"]
 |===
-5+^| NT responses
-
 | 1m | (X) |  ?  ||
 |    |     | 1NT || 7-10
 |    |     | 2NT || bal. 11-12 with 4-card fit
 |    |     | 3NT || bal. 13-15 with 4-card fit
 |===
 
-&Artificial Raise&
+==== Artificial Raise
 
-#jump shift to other minor (JS om) = {LRplus}#
+@ jump shift to other minor = {LRplus} +
+@ applies by unPH and PH
 
 After a 1D opening, long clubs with 10{OrMore} HCP is included in XX.
 
-&Other jumps are natural and weak&
+==== Other jumps are natural and weak
 
 @ jump raise to 3m = weak +
-@ jump shift to 2M = weak +
-@ any double-jump shift = weak
+@ jump shift to 2M = weak by unPH, +
+_ #{thinsp}fit-showing by PH{thinsp}# +
+@ any double-jump shift = weak, +
+_ [orange-bg]#{thinsp}splinter by PH ??{thinsp}#
 
 === 1M {ndash} (X)
 
 Semi-Forcing 1NT is OFF
 
+By PH: #3-way Reverse Drury is ON#
+
 @ 1M-(X)-1NT = 7-10 +
 @ 3-card {LRplus} by unPH is included in XX +
 @ [lavender-bg]#JS to other major = mixed raise#
 
-#Jump shift to minor = same as uncontested:# +
+==== Jump shift to minor
+
 @ natural & invitational by unPH +
-@ mini-splinter by PH
+_ (same as uncontested) +
+@ fit-showing by PH
 
-By PH: #3-way Reverse Drury is ON#
+==== New suit at 2-level by unPH
 
-==== New suit at 2-level
-
-By unPH: +
 @ new suit at 2-level = less than inv. +
 @ GF single-suiters are included in XX
 
@@ -101,10 +103,16 @@ h| 4C, 4D       | splinter        | splinter
 |    |     | !3NT! || bal or semi-bal., 12-14
 |===
 
+****
 {biglowast}{ensp}2NT includes GF hands that are not suitable
 _ for 3NT or a splinter
+****
 
 3-way Rev.-Drury by PH is ON
+
+****
+3-way Rev.-Drury is also on after 1H{ndash}(1S)
+****
 
 === Redouble of opp's take-out double
 
