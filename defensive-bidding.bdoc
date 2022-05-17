@@ -2,44 +2,56 @@
 
 == Suit Overcalls
 
-=== Responses to simple overcalls
+@ double of their raise = responsive
 
-@ New suit = constructive, NF +
-@ JS = natural, good hand, but NF
->> _no inv./inv._{thinsp} applies +
-@ double of their raise = responsive +
 @ double of new suit = snapdragon
 
-==== Honour redouble vs neg. double
+@ New suit = constructive +
+_ {ndash} NF after 1-level overcall +
+_ {ndash} FORCING after 2-level overcall +
 
-@ Usually Ax or Kx in partner's suit +
-@ Advancer may redouble with Qx when it
-_ seems likely that opener will play NT
+@ Honour redouble vs neg. double +
+_ {ndash} Usually Ax or Kx in partner's suit +
+_ {ndash}  Advancer may redouble with Qx when it
+__ seems likely that opener will play NT
+
+=== Advancer has good hand with new suit
+
+[brickred]#Advancer's RHO passes#::
+  JS = natural, good hand, but NF
+  +
+  {reference}
+  https://drive.google.com/file/d/1eqoxX43UvfCGKwcZtHVUEkVUkppO9eti/view?usp=sharing[
+  _Jump-Shift Response to an Overcall_]
+  _ {nbsp}{ndash}{nbsp} Mike Lawrence
+
+[brickred]#Advancer's RHO does not pass#::
+  A JS is defined as fit-showing. Without a fit, advancer must make a
+  non-jump bid.  With all four hands bidding, we are unlikely to have
+  game on power.
 
 === One-Major Overcalls
 
-@ non-jump cue
-_ = good 3-cd raise or any force +
-@ 2NT = 4-cd limit-raise +
-@ Jump cue
+&If 2-level cue is available& +
+@ 2-level cue
+_ = 3-cd {LRplus}, or GF with new suit +
+@ 2NT = 4-cd LR +
+@ 3-level cue
 _ = 4-cd raise, #{thinsp}split-range:{thinsp}# mixed or GF
 
-*If a two-level cue-bid is not available, then:*
-
-@ the three-level cue-bid is the most-defensive
-_ raise, usually with three trumps +
-@ 2NT is used for all four-card raises and shows
-_ a good mixed-raise or better +
-@ a jump raise has at most one defensive trick
+&If 2-level cue is NOT available& +
+@ 2NT = 3-cd or 4-cd LR +
+@ 3-level cue
+_ = mixed-raise (4-cd), or GF-raise (3{OrMore}-cd)
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 |      | (1D) | 1S {emsp}(2D)
 |   ?  |      |
 |   X  |      | responsive
-| !2NT! |     | 4{OrMore}{xtimes}{S}, good mixed-raise{OrMore}
-| !3D! |      | 3{xtimes}{S}, {LRplus}
-|  3S  |      | preemptive, up to a poor mixed-raise
+| !2NT! |     | LR, 3{orMore}{xtimes}{S}
+| !3D! |      | 4-cd mixed-raise, or any GF raise
+|  3S  |      | weak
 |===
 
 &Rebid by overcaller&
