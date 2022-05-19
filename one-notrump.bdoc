@@ -674,6 +674,23 @@ _ negative double.
 | 4NT   || quant. NT raise
 |===
 
+[#_rubensohl_continuation]
+==== Follow-up to Rubensohl transfer after 2M interference
+
+When they interfere with 2M, and we use a Rubensohl-transfer to the
+other major at the 3-level, then with a max but only 2-card support,
+opener can show or deny a stopper in their suit.
+
+[%autowidth,cols="5*^,<.^",grid="none"]
+|===
+|     | 1NT | (2S) | !3D! || 5{OrMore}{xtimes}{H}, competitive{OrMore}
+| (P) |  ?  |      |      ||
+|     | 3H  |   3+<| decline
+|    | !3S! |   3+<| max, no {S} stopper
+|    |  3NT |   3+<| max, {S} stopper
+|    |  4H  |   3+<| max, with {H} fit
+|===
+
 ==== Vs transfers
 
 [lavender-box]#If the bid suit shows at least five in a known suit,
