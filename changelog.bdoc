@@ -2,14 +2,24 @@
 
 :sectnums!:
 
+== 2022-05-19
+
+*Vs neg. double of our overcall* +
+@ <<system.adoc#_suit_overcalls, honour redouble @ 1-level>> +
+@ <<system.adoc#_two_level_overcalls, value-showing redouble @ 2-level>> +
+_ {ndash} cue = good 3-card raise +
+_ {ndash} 2NT = good 4-card raise +
+
 == 2022-05-17
 
-<<system.adoc#_suit_overcalls, *Suit Overcalls*>> +
-@ *Add reference:*
-_ __Jump-shift response to an overcall__ +
-@ *Advancing 1M overcall vs raise:* +
-_ 2NT = 3 or 4-cd LR +
-_ 3-level cue = mixed raise
+<<system.adoc#_we_overcall_adv_has_good_hand,
+	*Jump-shift response to an overcall*>> +
+@ link to examples of Mike Lawrence
+
+<<system.adoc#__one_major_overcalls,
+	*Advancing 1M overcall vs raise:*>> +
+@ 2NT = 3 or 4-cd LR +
+@ 3-level cue = mixed raise
 
 == 2022-04-29
 

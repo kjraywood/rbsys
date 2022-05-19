@@ -10,11 +10,12 @@
 _ {ndash} NF after 1-level overcall +
 _ {ndash} FORCING after 2-level overcall +
 
-@ Honour redouble vs neg. double +
+@ #Honour redble vs neg. dble @ 1-level# +
 _ {ndash} Usually Ax or Kx in partner's suit +
 _ {ndash}  Advancer may redouble with Qx when it
 __ seems likely that opener will play NT
 
+[#_we_overcall_adv_has_good_hand]
 === Advancer has good hand with new suit
 
 [brickred]#Advancer's RHO passes#::
@@ -30,6 +31,7 @@ __ seems likely that opener will play NT
   non-jump bid.  With all four hands bidding, we are unlikely to have
   game on power.
 
+[#_one_major_overcalls]
 === One-Major Overcalls
 
 &If 2-level cue is available& +
@@ -85,18 +87,16 @@ can make.
 [#_two_level_overcalls]
 === Two-level overcalls
 
-&vs pass& [ _e.g._ {thinsp}(1S) - 2C - (P) - ? ] +
+&vs pass& [ _e.g._ {thinsp}(1S){ndash}2D{ndash}(P){ndash}? ] +
 @ cue = good raise (3{OrMore} trump-cards, 8{OrMore} HCP) +
 @ 2NT = natural
 
-&vs raise& [ _e.g._ {thinsp}(1S) - 2C - (2S) - ? ] +
+&vs raise& [ _e.g._ {thinsp}(1S){ndash}2D{ndash}(2S){ndash}? ] +
 @ double = responsive +
 @ !2NT!  = good raise
 
-&vs negative-double& +
-
-//_ _e.g._ {thinsp}(1S) - 2C - (Dble) - ?
-@ #redouble = high honour, unwilling to raise# +
+&vs negative-dble& [ _e.g._ {thinsp}(1S){ndash}2D{ndash}(X){ndash}? ] +
+@ redouble = values +
 @  cue  = good 3-card raise (9{OrMore}) +
 @ !2NT! = good 4-card raise (7{OrMore})
 
