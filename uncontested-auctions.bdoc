@@ -392,13 +392,13 @@ Opener's second suit = spades +
 | 1D  |  1H  |
 | 1S  | !2C! |
 | ?   ||
-| 2D  || #default bid#, usually 5{or}6{xtimes}{D}, minimum, NF
+| 2D  || #default bid#, 5{OrMore}{xtimes}{D}, minimum, NF
 | 2H  || usually {H}Hx, minimum, NF
 | 2S  || #extra strength or length#, F1
 | 2NT || minimum, NF
 | 3C  || 4{xtimes}{C}, extra strength, GF
 | 3D  || extra length and strength, GF
-| 3H  || 3{times}{S}, extra strength, GF
+| 3H  || 3{times}{H}, extra strength, GF
 | 3NT || 4th-suit well stopped, extra strength
 |===
 
@@ -417,7 +417,7 @@ Two of opener's first suit (clubs) is not available +
 |  2NT |      | minimum, NF
 |  3C  |      | 6{xtimes}{C}, ambiguous strength, F1
 |  3D  |      | 4{xtimes}{D}, ambiguous strength, F1
-|  3H  |      | extra strength, GF
+|  3H  |      | 3{times}{H}, extra strength, GF
 |  3S  |      | 5{xtimes}{S}, 6{OrMore}{xtimes}{C}, GF
 |  3NT |      | extra strength, 4th-suit well stopped
 |===
