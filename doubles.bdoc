@@ -226,10 +226,27 @@ When both sides have bid-and-raised on 1^st^ round: +
 [lavender-box]#Game-try and competitive doubles promise at least
                doubleton in their suit.#
 
-[#_delayed_doubles]
-=== Delayed doubles
+=== After a penalty double of a weak NT
 
-==== Opener rebids in the same suit
+****
+.Definition of weak NT
+
+Their stated range includes 13 or fewer HCP
+****
+
+We play our NT system.
+
+If they run to a suit, #our 1NT-interference agreements apply#. +
+@ negative doubles +
+@ Rubensohl
+
+Doubles by either are take-out _until_{thinsp}
+advancer has shown values via double or a penalty pass.
+
+[#_delayed_doubles]
+== Delayed doubles
+
+=== Opener rebids in the same suit
 
 A delayed double of opener's rebid-suit is take-out when:
 
@@ -281,7 +298,7 @@ _ 1NT response
 			    cards lie poorly for declarer
 |===
 
-==== Opener rebids in new suit
+=== Opener rebids in new suit
 
 The meaning of a double of opener's second suit depends on whether
 responder bid a suit or NT.
@@ -307,22 +324,47 @@ suit is take-out of the suit on doubler's left#
 | (2C) | X |      |   | take-out of spades
 |===
 
-=== After a penalty double of a weak NT
+[#_dble_of_nt_rebid]
+=== Penalty-Oriented Double of Opp's NT rebid
 
-****
-.Definition of weak NT
+==== Pass-out seat
 
-Their stated range includes 13 or fewer HCP
-****
+If the Opps try to stop in 1NT then we know we probably hold half the
+points.  We double if our cards are well positioned over the
+Opponent's cards, and is somewhat like a Takeout of the suit on your
+left.  Partner passes the double if his cards are well positioned over
+the other Opponent's cards.
 
-We play our NT system.
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1C)  | P | (1S) | P |
+| (1NT) | P | (P)  | X | {S}KJT75{nbsp}{H}964 {D}AT52{nbsp}{C}2
+|===
 
-If they run to a suit, #our 1NT-interference agreements apply#. +
-@ negative doubles +
-@ Rubensohl
+==== Artificial 2C in Pass-Out Seat
 
-Doubles by either are take-out _until_{thinsp}
-advancer has shown values via double or a penalty pass.
+In balancing seat, 2C shows the remaining suits
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1D)  | P | (1S) | P |
+| (1NT) | P | (P)  | X |  {S}A84{nbsp}{H}K973 {D}63{nbsp}{C}QJ75
+|===
+
+If the opening bid was 1C, then 2C is still the artificial bid showing
+the remaining suits.
+
+==== Direct seat
+
+Since you are entering a live auction, we need a stronger hand of 17{OrMore}
+points to double.
+The type of hand one might hold is a _"Trap Pass"_ type of holding.
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| (1C)  | P | (1S) | P |
+| (1NT) | X |	   |   | {S}5{nbsp}{H}AT97 {D}KT{nbsp}AQJ765
+|===
 
 == Doubling cue-bids
 

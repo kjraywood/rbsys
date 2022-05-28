@@ -94,45 +94,47 @@
             Support Doubles>> +
 {nbsp} 36. <<system.adoc#_penalty_doubles,
             Penalty Doubles>> +
-{nbsp} 37. <<system.adoc#_doubling_cue_bids,
+{nbsp} 37. <<system.adoc#_delayed_doubles,
+            Delayed Doubles>> +
+{nbsp} 38. <<system.adoc#_doubling_cue_bids,
             Doubling cue-bids>> +
 
 <<system.adoc#_defensive_bidding, *Defensive Bidding*>> +
-{nbsp} 38. <<system.adoc#_suit_overcalls,
+{nbsp} 39. <<system.adoc#_suit_overcalls,
             Suit Overcalls>> +
-{nbsp} 39. <<system.adoc#_klinger,
+{nbsp} 40. <<system.adoc#_klinger,
             Two-suited overcalls (Klinger)>> +
-{nbsp} 40. <<system.adoc#_sandwich_overcalls,
+{nbsp} 41. <<system.adoc#_sandwich_overcalls,
             Sandwich-position overcalls>> +
-{nbsp} 41. <<system.adoc#_direct_1nt_overcalls,
+{nbsp} 42. <<system.adoc#_direct_1nt_overcalls,
             Direct 1NT Overcalls>> +
-{nbsp} 42. <<system.adoc#_natural_sandwich_1nt,
+{nbsp} 43. <<system.adoc#_natural_sandwich_1nt,
             Natural 1NT in sandwich position>> +
-{nbsp} 43. <<system.adoc#_nt_overcalls_of_their_preempts,
+{nbsp} 44. <<system.adoc#_nt_overcalls_of_their_preempts,
             NT Overcalls of their preempts>> +
-{nbsp} 44. <<system.adoc#_balancing_1nt,
+{nbsp} 45. <<system.adoc#_balancing_1nt,
             Balancing 1NT>> +
-{nbsp} 45. <<system.adoc#_other_balancing_bids,
+{nbsp} 46. <<system.adoc#_other_balancing_bids,
             Other Balancing Bids>> +
-{nbsp} 46. <<system.adoc#_defence_to_preempts,
+{nbsp} 47. <<system.adoc#_defence_to_preempts,
             Defence to Preempts>> +
-{nbsp} 47. <<system.adoc#_kastro_vs_nt,
+{nbsp} 48. <<system.adoc#_kastro_vs_nt,
             KASTRO vs NT>> +
-{nbsp} 48. <<system.adoc#_defence_to_transfers,
+{nbsp} 49. <<system.adoc#_defence_to_transfers,
             Defence to Transfers>> +
-{nbsp} 49. <<system.adoc#_vs_other_artificial_bids,
+{nbsp} 50. <<system.adoc#_vs_other_artificial_bids,
             Vs other artificial bids>> +
 
 <<system.adoc#_leads_and_carding, *Leads and Carding*>> +
-{nbsp} 50. <<system.adoc#_leads_vs_suits,
+{nbsp} 51. <<system.adoc#_leads_vs_suits,
             Opening Leads vs Suits>> +
-{nbsp} 51. <<system.adoc#_leads_vs_notrump,
+{nbsp} 52. <<system.adoc#_leads_vs_notrump,
             Opening Leads vs NoTrump>> +
-{nbsp} 52. <<system.adoc#_signalling,
+{nbsp} 53. <<system.adoc#_signalling,
             Signalling>> +
-{nbsp} 53. <<system.adoc#_discards,
+{nbsp} 54. <<system.adoc#_discards,
             Discards>> +
-{nbsp} 54. <<system.adoc#_special_defence_situations,
+{nbsp} 55. <<system.adoc#_special_defence_situations,
             Special Defence Situations>> +
 
 // '''
