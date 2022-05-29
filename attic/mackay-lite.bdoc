@@ -1,0 +1,52 @@
+
+== Mackay-Lite after 1NT opening
+
+4S = quant. with 4-4 or 5-4 minors
+
+Used when responder needs to know min. vs max and also
+wants to seek a minor-suit fit.
+
+Opener discourages with 4NT, or shows aces (03-14-2).
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT | !4S!      | | slam-try, 4-4 or 5-4 minors
+|   ?  |           | |
+|  4NT |        2+<| discouraging +
+3+<| !5C!,!5D!,!5H! <| Aces (03-14-2) +
+                    <| > 4S {blueRarrow} 5NT
+|===
+
+Following a discouraging 4NT, responder may still seek a minor-suit
+slam with a forcing 5NT.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT  | !4S! || slam-try, 4-4 or 5-4 minors
+|  4NT  | ? 2+<| discouraging
+|       |  P   || to play
+|       | 5NT  || FORCING
+                  > opener bids a 4-card minor
+		  _ or 6NT
+|    2+<| __other__
+               <| [orange-bg]#not in use#
+|===
+
+Following an ace-showing response, sign-off is via 5S forcing 5NT.
+
+Responder may also seek a minor-suit fit.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT  | !4S! || slam-try, 4-4 or 5-4 minors
+| {lab}!!Aces!!{rab}
+        |  ?   ||
+|       | !5S! || forces 5NT +
+                  > pass = to play +
+		  _ !6C! = 5*{D}, 4*{C}
+|       | !5NT! || 4-4 minors, FORCING
+|       | !6C!  || 5*{C}, 4*{D}
+|===
+
+TIP: With 5-4 minors, responder shows longer clubs directly and
+     shorter clubs indirectly.
