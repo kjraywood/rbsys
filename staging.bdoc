@@ -156,7 +156,6 @@ When opener has denied a stopper, #reverse-transfers apply at the
 | !4D!  | 6+<| 5*{H},{thinsp} reverse transfer
 |===
 
-
 // == Alternate scheme for 1D-2C
 
 // Used when 1D{ndash}2NT{eq}GF so that 1D{ndash}2C may contain balanced 11-12.
@@ -174,27 +173,6 @@ When opener has denied a stopper, #reverse-transfers apply at the
 
 // Following the neutral 2D, a 2NT rebid by responder shows a balanced
 // 11-12, and permits the auction to end in 2NT, 3C or 3D
-
-// == 1m {ndash} 2H = 11{ndash}12 bal.
-
-// === Advantages
-
-// @ enables 1m{ndash}2NT = 13-15 or 18{orMore}
-// _ and 1m{ndash}3NT = 16-17
-
-// @ opener can show both-minors-minimum
-// _ and both-minors-with-extras (forcing)
-
-// @ allows NT to be played from either side
-
-// === Disadvantages
-
-// @ must drop responder's reverse Flannery
-
-// @ opps can double 2H to show hearts
-
-// @ extra system to learn
-
 
 [#wolff]
 == Wolff Sign-Off
