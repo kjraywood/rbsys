@@ -335,20 +335,44 @@ Opponent's cards, and is somewhat like a Takeout of the suit on your
 left.  Partner passes the double if his cards are well positioned over
 the other Opponent's cards.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
-| (1C)  | P | (1S) | P |
-| (1NT) | P | (P)  | X | {S}KJT75{nbsp}{H}964 {D}AT52{nbsp}{C}2
+|
+[cols=4*^.>,grid="none",stripes="none",frame="allx"]
+:===
+ (1C)  : P : (1S) : P
+ (1NT) : P : (P)  : X
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! `{S}KJT75` +
+  `{H}964` +
+  `{D}AT52` +
+  `{C}2`
+!===
 |===
 
 ==== Artificial 2C in Pass-Out Seat
 
 In balancing seat, 2C shows the remaining suits
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
-| (1D)  | P | (1S) | P |
-| (1NT) | P | (P)  | X |  {S}A84{nbsp}{H}K973 {D}63{nbsp}{C}QJ75
+|
+[cols=4*^.>,grid="none",stripes="none",frame="allx"]
+:===
+ (1D)  : P : (1S) : P
+ (1NT) : P : (P)  : !2C!
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! `{S}A84` +
+  `{H}K973` +
+  `{D}63` +
+  `{C}QJ75`
+!===
 |===
 
 If the opening bid was 1C, then 2C is still the artificial bid showing
@@ -360,10 +384,22 @@ Since you are entering a live auction, we need a stronger hand of 17{OrMore}
 points to double.
 The type of hand one might hold is a _"Trap Pass"_ type of holding.
 
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="2*^.^a",grid="none"]
 |===
-| (1C)  | P | (1S) | P |
-| (1NT) | X |	   |   | {S}5{nbsp}{H}AT97 {D}KT{nbsp}AQJ765
+|
+[cols=4*^.>,grid="none",stripes="none",frame="allx"]
+:===
+      :   : (1C)  : P
+ (1S) : P : (1NT) : X
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! `{S}5` +
+  `{H}AT97` +
+  `{D}KT` +
+  `{C}AQJ765`
+!===
 |===
 
 == Doubling cue-bids
