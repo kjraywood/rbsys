@@ -1,19 +1,10 @@
 = Potential agreements
 
-Stuff that Kel wants to do
-
 == Revised 2NT Methods
 
 {reference}
 http://bridgewinners.com/article/view/how-do-you-play-minor-suit-slam-try-over-2nt-3s-3nt/?cj=123462[
 System description and advantages by Josh Donn ]
-
-He learned these methods from Geoff Hampson and, comparing them to
-methods based on 3S forces 3NT, he wrote: +
-_"'There is no doubt in my mind these methods are quite superior.
-They show each hand type with a low bid, never higher than 4C, and
-they get opener's input rather than having responder try to define his
-entire hand at once.'"_
 
 === Responses to 2NT Opening
 
@@ -40,15 +31,15 @@ four-card major, opener must show both majors at once.
 | 2NT  | !3C! |
 |  ?   |      |
 | !3D! |      | no four-card major
-| 3M   |      | 4*{M}, not 4*{oM} +
+| 3M   |      | 4*M, not 4*oM +
                 > 4C = optional minorwood
-| 3NT  |      | 4{ndas}4 majors, min. +
+| 3NT  |      | 4{ndash}4 majors, min. +
                 > 4C = optional minorwood +
-                _ 4D, 4H = transfer
-| !4C! |      | 4{ndas}4 majors, max. +
+                _ {nbsp}4D, 4H = transfer
+| !4C! |      | 4{ndash}4 majors, max. +
                 > 4D, 4H = transfer +
-		_ 4S = KC asking for {C} +
-		_ 4NT,5C = nat. slam inv. w {C}
+		_ {nbsp}4S = KC asking for {C} +
+		_ {nbsp}4NT,5C = nat. slam-inv. with {C}
 |===
 
 === Transfer to Diamonds
@@ -63,19 +54,18 @@ Following that, responder can use kickback (4H) or sign-off in 4NT or
 
 With a good hand for diamonds, opener shows KC skipping the first
 step.
-Following that, a !jump! to 6C or 7C is a transfer to diamonds so that
+Following that, 6C or 7C is a transfer to diamonds so that
 opener can play the contract.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 2NT  | !4C! |
 |  ?   |      |
-| !4D! |      | poor for diamonds
+| !4D! |      | poor for diamonds +
                 > 4H = kickback +
-		_ 4NT or 5D = sign-off
-| higher |    | good for diamonds, shows KC as though
-                responder had used straight minorwood +
-		> jump to 6C or 7C {blueRarrow} {D}
+		_ {nbsp}4NT or 5D = sign-off
+| higher |    | good for diamonds, shows KC +
+		> 6C or 7C {blueRarrow} {D}
 |===
 
 [#xfers-over-double]
@@ -139,8 +129,10 @@ I think this is a 4441 hand short in opener's suit.
 |===
 | 2NT   | 3C |
 | ?     |    | 
-| !3NT! |    | 4-4 Majors{nbsp}
-             _ {tribull} 4{D} {blueRarrow} {H}, 4{H} {blueRarrow} {S}
+| !4C!  |    | 4-4 Majors max. +
+               >  4D,4H = transfer
+| !3NT! |    | 4-4 Majors min. +
+               >  4D,4H = transfer
 |  3S   |    | 5*{S}
 |  3H   |    | 4{or}5*{H}{nbsp}
              _ {tribull} 3{S} asks
