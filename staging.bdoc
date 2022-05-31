@@ -42,6 +42,12 @@ four-card major, opener must show both majors at once.
 		_ {nbsp}4NT,5C = nat. slam-inv. with {C}
 |===
 
+****
+.No exclusion with clubs as trump
+
+This scheme does not allow setting clubs as trump and then using exclusion.
+****
+
 === Transfer to Diamonds
 
 We are one-step lower than the trump-suit, so we do the opposite of
@@ -67,6 +73,43 @@ opener can play the contract.
 | higher |    | good for diamonds, shows KC +
 		> 6C or 7C {blueRarrow} {D}
 |===
+
+****
+.No exclusion with diamonds as trump
+
+This scheme does not allow setting diamonds as trump and then using exclusion.
+****
+
+=== Minor-Suit Stayman
+
+If opener makes a positive response, then responder can use kickback
+or exclusion.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 2NT | !3S!  ||
+| 4D  |  ?    ||
+|     | !4H!  || Kickback
+|     | !4S!  || KC for {D} excluding {S}
+|     | !4NT! || KC for {D} excluding {H}
+|===
+
+If opener makes a negative response and responder is still interested
+in slam, then responder can show a five-card minor or identify
+shortness with 5{ndash}5 in the minors.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 2NT | !3S! ||
+| 3NT |  ?   ||
+|     | 4m   || 5-card suit +
+                > 4NT = negative +
+		_ {nbsp}other shows KCs
+|     | !4M! || shortness +
+                > 4NT = negative +
+		_ {nbsp}5m = positive
+|===
+
 
 [#xfers-over-double]
 == Transfers over take-out doubles
