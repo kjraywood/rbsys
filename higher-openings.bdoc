@@ -426,14 +426,17 @@ shortness with 5{ndash}5 in the minors.
 |     | !4D! || #5{xtimes}{S}, game only or slam drive#
 |===
 
-Following, a second-round transfer, the next step by opener is a negative or
-neutral action with: +
+[lavender-box]#Following, a second-round transfer, the next step by
+opener is a neutral or negative action#
+
+Opener shows: +
 @ fewer than three in responder's first suit +
 @ fewer than four in responder's second suit
 _ or a poor hand for slam
 
-The cheapest unused step is KC for responder's lower-ranking suit, and
-the next unused step is KC for responder's higher-ranking suit.
+[lavender-box]#The cheapest unused step is KC for responder's
+lower-ranking suit, and the next unused step is KC for responder's
+higher-ranking suit.#
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -443,7 +446,7 @@ the next unused step is KC for responder's higher-ranking suit.
 | 4D  |      | no {H} fit, minimum for {D}
 | 4H  |      | preference for {H}
 | 4S  |      | KC for {D}
-| 4NT |      | KC for {H}
+| 4NT |      | [lavender-bg]#KC for {H}#
 |===
 
 === Both majors
