@@ -457,10 +457,11 @@ New suits are natural
 [%autowidth,cols="3*^.>,<",grid="none"]
 |===
 | 2NT | !3H! || transfer to {S}
-| 3S  |  ? ||
+| 3S  | ?  ||
 |     | 4C || 4{orMore}{xtimes}{C}, slam inv. or better
 |     | 4D || 4{orMore}{xtimes}{D}, slam inv. or better
 |     | 4H || #5{xtimes}{H}, slam inv.#
+|     | 4S || single-suited slam-inv in {S}
 |===
 
 &Opener's bid after a second suit&
