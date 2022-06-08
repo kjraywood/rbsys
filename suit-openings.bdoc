@@ -476,7 +476,7 @@ opener's jump rebid.
 Jump to 2NT shows either: +
 @ a jump-rebid hand with less than three
 _ in responder's major, +
-_ -OR- +
+*OR* +
 @ a single-suited GF hand that is not suitable
 _ for a jump to 3NT
 
@@ -485,9 +485,11 @@ _ for a jump to 3NT
 [lavender-box]#The jump-rebid is a tight-range invitation so any below
                game bid by responder is forcing#
 
+****
 This even applies in responder's suit for which opener has shown
 three-card support because it provides a convenient way for responder
 to set that suit as trump for control-bidding or key-card asking.
+****
 
 A new suit above 3NT sets opener's suit as trump and is a slam try.
 
@@ -502,8 +504,9 @@ investigation for slam in opener's minor-suit.
 |  1C  |  1S   ||
 | !3C! |  ?    || 6{OrMore}{xtimes}{C}, 3*{S}
 |   2+<| 3D,3H <| NT probe or cue for {C}
-|      |  3S   || [lavender-bg]#forcing#, sets trump = {S}
-|      |  4C   || <<#_minorwood, minorwood>>
+|      |  3S   || [lavender-bg]#{thinsp}**forcing**{thinsp}#,
+                  sets trump = {S}
+|      |  4C   || ##{thinsp}<<#_minorwood, *minorwood*>>{thinsp}##
 |      | !4D!  || exclusion of {D}, trump = {C}
 |      | !4H!  || exclusion, trump = {C}
 |      |  4S   || to play
@@ -514,10 +517,11 @@ investigation for slam in opener's minor-suit.
 |===
 |  1D  |  1H   ||
 | !3D! |  ?    || 6{OrMore}{xtimes}{D}, 3*{H}
-|      |  3H   || [lavender-bg]#forcing#, sets trump = {H}
+|      |  3H   || [lavender-bg]#{thinsp}**forcing**{thinsp}#,
+                  sets trump = {H}
 |   2+<| 3S,4C <| cue, {D} = trump
 |      |  3NT  || to play
-|      |  4D   ||  <<#_minorwood, minorwood>>
+|      |  4D   || ##{thinsp}<<#_minorwood, *minorwood*>>{thinsp}##
 |      |  4H   || to play
 |      | !4S!  || exclusion, trump = {D}
 |      | !5C!  || exclusion, trump = {D} 
@@ -528,11 +532,12 @@ investigation for slam in opener's minor-suit.
 |===
 |  1H  |  1S   ||
 | !3H! |  ?    || 6{OrMore}{xtimes}{D}, 3*{S}
-|      |  3S   || [lavender-bg]#forcing#, sets trump = {S}
+|      |  3S   || [lavender-bg]#{thinsp}**forcing**{thinsp}#,
+                  sets trump = {S}
 |      |  3NT  || to play
 |   2+<| 4C,4D <| cue, {H} = trump
 |      |  4H   || to play
-|      | !4S!  || [lavender-bg]#kickback# {smallnote}
+|      | !4S!  || #{thinsp}**kickback**{thinsp}# {smallnote}
 | 2+<| !5C!,!5D! <| exclusion, trump = {H} 
 |===
 
