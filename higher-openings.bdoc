@@ -351,6 +351,36 @@ four-card major, opener must show both majors at once.
 This scheme does not allow setting clubs as trump and then using exclusion.
 ****
 
+=== Minor-Suit Stayman
+
+If opener makes a positive response, then responder can use kickback
+or exclusion.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 2NT | !3S!  ||
+| 4D  |  ?    ||
+|     | !4H!  || Kickback
+|     | !4S!  || KC for {D} excluding {S}
+|     | !4NT! || KC for {D} excluding {H}
+|===
+
+If opener makes a negative response and responder is still interested
+in slam, then responder can show a five-card minor or identify
+shortness with 5{ndash}5 in the minors.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 2NT | !3S! ||
+| 3NT |  ?   ||
+|     | 4m   || 5-card suit +
+                > 4NT = negative +
+		_ {nbsp}other shows KCs
+|     | !4M! || shortness +
+                > 4NT = negative +
+		_ {nbsp}5m = positive
+|===
+
 === Transfer to Diamonds
 
 We are one-step lower than the trump-suit, so we do the opposite of
@@ -383,63 +413,34 @@ opener can play the contract.
 This scheme does not allow setting diamonds as trump and then using exclusion.
 ****
 
-=== Minor-Suit Stayman
+=== Transfer to Hearts
 
-If opener makes a positive response, then responder can use kickback
-or exclusion.
-
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="3*^.>,<",grid="none"]
 |===
-| 2NT | !3S!  ||
-| 4D  |  ?    ||
-|     | !4H!  || Kickback
-|     | !4S!  || KC for {D} excluding {S}
-|     | !4NT! || KC for {D} excluding {H}
-|===
+4+^| Second-round transfers
 
-If opener makes a negative response and responder is still interested
-in slam, then responder can show a five-card minor or identify
-shortness with 5{ndash}5 in the minors.
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-| 2NT | !3S! ||
-| 3NT |  ?   ||
-|     | 4m   || 5-card suit +
-                > 4NT = negative +
-		_ {nbsp}other shows KCs
-|     | !4M! || shortness +
-                > 4NT = negative +
-		_ {nbsp}5m = positive
-|===
-
-=== Two-suiters with at least one major
-
-#Second-round transfers after transfer to hearts#
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
 | 2NT | !3D! || transfer to {H}
 | 3H  |  ?   ||
 |     | !3S! || 4{orMore}{xtimes}{C}, slam inv. or better
 |     | !4C! || 4{orMore}{xtimes}{D}, slam inv. or better
 |     | !4D! || #5{xtimes}{S}, game only or slam drive#
+|     |  4H  || single-suited slam-inv in {H}
 |===
 
-[lavender-box]#Following, a second-round transfer, the next step by
-opener is a neutral or negative action#
+&Opener's bid after a second-round transfer&
 
-Opener shows: +
-@ fewer than three in responder's first suit +
-@ fewer than four in responder's second suit
-_ or a poor hand for slam
+@ next step = neutral or negative
 
-[lavender-box]#The cheapest unused step is KC for responder's
-lower-ranking suit, and the next unused step is KC for responder's
-higher-ranking suit.#
+@ cheapest unused step
+_ = KC for responder's lower-ranking suit
 
-[%autowidth,cols="2*^,<",grid="none"]
+@ next unused step
+_ = KC for responder's higher-ranking suit
+
+[%autowidth,cols="2*^.>,<",grid="none"]
 |===
+3+^| After a second-round transfer
+
 | 2NT | !3D! |
 | 3H  | !4C! |
 | ?   |      |
@@ -449,14 +450,53 @@ higher-ranking suit.#
 | 4NT |      | [lavender-bg]#KC for {H}#
 |===
 
+=== Transfer to spades
+
+New suits are natural
+
+[%autowidth,cols="3*^.>,<",grid="none"]
+|===
+| 2NT | !3H! || transfer to {S}
+| 3S  |  ? ||
+|     | 4C || 4{orMore}{xtimes}{C}, slam inv. or better
+|     | 4D || 4{orMore}{xtimes}{D}, slam inv. or better
+|     | 4H || #5{xtimes}{H}, slam inv.#
+|===
+
+&Opener's bid after a second suit&
+
+@ 4NT = negative
+
+@ cheapest unused step
+_ = KC for responder's lower-ranking suit
+
+@ next unused step
+_ = KC for responder's higher-ranking suit
+
+
+[%autowidth,cols="2*^.>,<",grid="none"]
+|===
+3+^| After spades and a second suit
+
+| 2NT | !3H! |
+| 3S  | 4C |
+| ?   |    |
+| 4D  |    | KC for {C}
+| 4H  |    | KC for {S} !
+| 4S  |    | preference for {S}
+| 4NT |    | negative
+|===
+
 === Both majors
 
 Transfer to {S} then 4H
-_ = 5-5 majors, moderate slam inv.
+_ = 5-5 majors, slam inv.
 
 Transfer to {H} then 4D (showing {S})
-_ = 5-5 Majors, game only or a slam drive
-> opener must give preference to a major
+_ = 5-5 Majors, game only or a slam drive +
+> opener must give preference to a major +
+>> responder passes with game-only,
+__ or uses KB or exclusion with slam-drive
 
 == Two Club Opening
 
