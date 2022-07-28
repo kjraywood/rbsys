@@ -12,8 +12,8 @@
           [nobr]#{tribull} 2^nd^-round transfers,#
 	  _ incl. 2NT = 4{OrMore}{xtimes}{C}
 | 2S    | clubs, any strength
-| 2NT   | [lavender-box]#natural, inv.#
-| 3C    | #diamonds, weak or strong#
+| [lavender-bg]#2NT# | #natural, inv.#
+| [lavender-bg]#3C#  | #diamonds, weak or strong#
 | 3D    | both minors, slammish +
           [nobr]#{tribull} 3H{thinsp}={thinsp}{C},
 	                   3S{thinsp}={thinsp}{D},
