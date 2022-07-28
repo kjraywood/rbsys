@@ -668,8 +668,8 @@ _ negative double.
 | !3S!  || values for 3NT, no {H}-stopper
 |  3NT  || to play
 | !4C!  || {C} + {S}
-| !4D!  || {D} + {S}
-| !4H!  || Texas
+| !4D!  || {D} + {S} {nbsp} [ vs 2S: Texas ]
+| !4H!  || Texas{emsp} [ vs 2S: {D} + {H} ] 
 | !4S!  || #both minors#
 | 4NT   || quant. NT raise
 |===
