@@ -341,7 +341,7 @@ four-card major, opener must show both majors at once.
                 _ {nbsp}4D, 4H = transfer
 | !4C! |      | 4{ndash}4 majors, max. +
                 > 4D, 4H = transfer +
-		_ {nbsp}4S = KC asking for {C} +
+		_ [lavender-bg]#4S# = #KC asking for {C}# +
 		_ {nbsp}4NT,5C = nat. slam-inv. with {C}
 |===
 
