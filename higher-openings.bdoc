@@ -374,11 +374,11 @@ shortness with 5{ndash}5 in the minors.
 | 2NT | !3S! ||
 | 3NT |  ?   ||
 |     | 4m   || 5-card suit +
-                > 4NT = negative +
-		_ {nbsp}other shows KCs
+                > #4NT = negative# +
+		_ [lavender-bg]#{nbsp}other shows KCs#
 |     | !4M! || shortness +
-                > 4NT = negative +
-		_ {nbsp}5m = positive
+                > 4NT = #negative# +
+		_ [lavender-bg]#{nbsp}5m = positive#
 |===
 
 === Transfer to Diamonds
