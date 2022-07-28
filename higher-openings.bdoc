@@ -446,8 +446,8 @@ _ = KC for responder's higher-ranking suit
 | ?   |      |
 | 4D  |      | no {H} fit, minimum for {D}
 | 4H  |      | preference for {H}
-| 4S  |      | KC for {D}
-| 4NT |      | [lavender-bg]#KC for {H}#
+| [lavender-bg]#4S#  || #KC for {D}#
+| [lavender-bg]#4NT# || #KC for {H}#
 |===
 
 === Transfer to Spades
