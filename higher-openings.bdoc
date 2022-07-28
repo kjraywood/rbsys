@@ -632,8 +632,8 @@ _last-train_{thinsp} slam-try.
 | !2C! | 2NT | {emsp} 8{OrMore} to 11, balanced
 |  ?   |     |
 2+<| 3{lab}suit{rab} <| natural
-| 3NT || [lavender-bg]#ConFit# +
-2+<| 4{lab}suit{rab} <| #own-suit KC (Selfwood)#
+| [lavender-bg]#3NT# || #ConFit# +
+2+<| [lavender-bg]#4{lab}suit{rab}# <| #own-suit KC (Selfwood)#
 | 4NT || Minimum balanced
 |===
 
@@ -646,8 +646,8 @@ _last-train_{thinsp} slam-try.
 |     | !4C! || 2 or fewer control points +
                 > 4D asks +
                 {emsp} {tribull} 4H = 0 +
-                {emsp} {emsp} 4S = 1
-                {emsp} {emsp} 4NT = 2
+                {emsp}{emsp} 4S = 1 +
+                {emsp}{emsp} 4NT = 2
 |     | !4D! || 3
 |     | !4H! || 4
 |     | !4S! || 5
