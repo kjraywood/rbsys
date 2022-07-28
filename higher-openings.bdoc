@@ -483,7 +483,7 @@ _ = KC for responder's higher-ranking suit
 | 3S  | 4C |
 | ?   |    |
 | 4D  |    | KC for {C}
-| 4H  |    | KC for {S} !
+| [lavender-bg]#4H# || #KC for {S}#
 | 4S  |    | preference for {S}
 | 4NT |    | negative
 |===
