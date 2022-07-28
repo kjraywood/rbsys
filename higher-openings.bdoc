@@ -314,10 +314,10 @@ Regular Stayman and non-jump Smolen.
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 2NT |  ?   ||
-|     | !3C! || Stayman or club-single-suiter +
+|| [lavender-bg]#!!3C!!# || Stayman or #club-single-suiter# +
 2+>| !3D!,!3H! | <| transfers
 |     | !3S! || both minors, slam inv.{OrMore}
-|     | 3NT  || [lavender-bg]#to play#
+|| [lavender-bg]#3NT#  || #to play#
 |     | !4C! || #transfer to DIAMONDS#
 2+>| !4D!,!4H! | <| Texas transfers
 |     | !4S! || quant. with interest in 4-4 fit
