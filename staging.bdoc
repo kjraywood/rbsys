@@ -7,12 +7,44 @@
 
 @ start at XX +
 @ apply for one-level +
-@ 1NT = balanced 10{ndash}12 +
-@ transfer to NT typically has clubs +
 @ transfer to opener's suit
-_ = constr. raise{orMore} (unlimited)
+_ = constr. raise{orMore} +
+@ raise of opener's suit = weak
 
-@ Jump-shifts are natural and invitational.
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+| 1D | (X) |  ?    ||
+|    |     | !XX!  || transfer to hearts
+|    |     | !1H!  || transfer to spades
+|    |     | !1S!  || transfer to NT, 8{OrMore}
+|    |     | !1NT! || transfer to clubs
+|    |     | !2C!  || constr. raise{OrMore} of {D}
+|    |     |  2D   || weak raise
+|===
+
+=== We open ONE CLUB, they DOUBLE
+
+// See 1st comment of
+// bridgewinners.com/article/view/
+// a-different-structure-for-transfers-over-opponents-one-level-take-out-doubles/
+
+We do not want to use 1NT as the contructive-raise-or-better because
+there's a reasonable likelihood of wrong-siding a NT contract.
+
+So in this case, we use:
+
+@ 1NT = balanced 10{ndash}12 +
+@ 1S = transfer to NT, typically with clubs
+
+1S includes a constructive raise with five-clubs but opener typically
+assumes 3&bull;3&bull;3&bull;4 with 7{ndash}9.
+
+Since 1S is unlimited it's fine to include stronger balanced hands,
+but probably not stronger hands with 5-card club-support because
+those are vulnerable to preemption.
+So:
+
+@ 2D = LR{OrMore} of clubs
 
 === Opener's rebid
 
