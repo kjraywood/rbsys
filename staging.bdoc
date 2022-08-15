@@ -58,9 +58,21 @@ Otherwise, opener makes normal rebid.
 ==== When transfer is doubled
 
 @ opener tries to make normal bid +
-@ XX = four-cards in transfer suit +
-@ pass = three-cards in transfer suit
->> responder can XX to play (no rescue)
+@ XX = four-cards in the doubled suit +
+@ pass = three-cards in the doubled suit
+>> responder can XX to play, #no retransfer#
+
+[%autowidth,cols="3*^,3*<",grid="none"]
+|===
+|     | 1C  | (X)  | !1H! 2+<| transfer to spades
+| (X) | ?   |      |||
+|     | 1S  |   3+<| 3*{S}, strength {lt} GF
+|     | 2S  |   3+<| 4*{S}, min.
+|     | XX  |   3+<| 4*{H}
+|     | P   |   3+<| 3*{H} +
+                     > XX = to play
+|     | !2H! |  3+<| GF, probably long-{C} without {H}-stopper
+|===
 
 === Effect of transfers on other bids
 
