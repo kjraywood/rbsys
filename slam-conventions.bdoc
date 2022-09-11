@@ -74,6 +74,16 @@ shown by the first response.
 | 5NT  || 5 controls, no biddable suit
 |===
 
+[%autowidth,cols="3*^,<",grid="none]
+|===
+4+^| After control-points
+
+| 4NT ||| sign-off
+3+<| 5{lab}suit{rab} <| good 4-card suit
+| 5NT ||| Forcing 6NT, invites 7NT
+| 6NT ||| sign-off
+|===
+
 ==== Auctions where 4C is ConFit
 
 [%autowidth,cols="3*a",grid="none",frame="none",stripes=none]

@@ -5,9 +5,15 @@
 == 2022-09-11
 
 <<system.adoc#_confit, *ConFit*>> +
-@ Does not apply to 2NT-family openings +
-@ Auctions where it applies and
+@ does not apply to 2NT-family openings +
+@ auctions where it applies and
 _ does NOT apply
+
+<<system.adoc#_2nt_response_to_2c, *2\C {ndash} 2NT{semicolon} ?*>> +
+@ no ConFit +
+@ jump to four any suit = Selfwood +
+@ 3NT = balanced, interest in suit-slam +
+>> responder bids decent 4-card suit
 
 == 2022-06-07
 
@@ -45,11 +51,6 @@ _ {ndash} 2NT = good 4-card raise +
 <<system.adoc#_fit_showing_jumps, *Fit-Showing Jumps*>>
 
 == 2022-04-24
-
-<<system.adoc#_2nt_response_to_2c, *2\C {ndash} 2NT{semicolon} ?*>> +
-@ Jump to four any suit = Selfwood +
-@ 3NT = ConFit +
->> 4\C=2{OrLess}, 4\D=3, ... +
 
 <<system.adoc#_sandwich_overcalls, *Sandwich-position overcalls*>> +
 @ natural vs nebulous minor opening
