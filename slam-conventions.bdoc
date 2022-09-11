@@ -18,65 +18,120 @@ Includes: +
 
 &Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
 
+[#_confit]
 === ConFit
 
-CAUTION: Replaces Gerber
+Replaces Gerber
 
-Applies after: +
-@ 1NT opening +
-@ Mexican 2D opening +
-@ 2NT family openings +
-@ nebulous 2C (2/1) then 2NT rebid by
-_  either showing 15{OrMore}-17 & no singleton
+WARNING: Does not apply after 2NT family openings because
+         [nobr]#4C = transfer to {D}#
 
-Used with balanced or semi-balanced hands when
-[nobr]#minimum total HCP = 32{ndash}33#
+Used when: +
+@ partner of NT bidder has a
+_ balanced or semi-balanced hands +
+@ minimum total HCP = 32
 
-The asking bid is a jump to 4C opposite a balanced or semi-balanced hand
-of 1NT opening-strength or greater.
+The TELLER (usually opener) shows control points (A=2, K=1), then we
+seek a fit.
 
-The TELLER (usually opener) shows control points (A=2, K=1), then we seek a fit.
+==== Showing Control-points
 
 The number of control points shown by the first step, depends on the
 point range shown by the limited hand.
 
-.Control-points shown by first step
-[%autowidth,cols="2*<.^",grid="none"]
+[%autowidth,cols=">,<",grid="none"]
 |===
 ^d| HCP range ^d| 1st-step
 
+| 12 {ndash} 14 | THREE or fewer
 | 15 {ndash} 17 | FOUR or fewer
 | 18 {ndash} 19 | FIVE or fewer
-| 20 {ndash} 22{OrLess} | SIX or fewer
-| 22{OrMore}    | SEVEN or fewer
 |===
 
 [%autowidth,cols="2*^.^,<",grid="none"]
 |===
-| 2NT | !4C! |
-| ?   | |
-| 4D  | | 6 control points or fewer
-| 4H  | | 7
-| 4S  | | 8
-| 4NT | | 9
-2+<| 5{lab}suit{rab} <| 10 controls, biddable suit
-| 5NT | | 11 controls
+| 2D  | !4C! |
+| ?   ||
+| 4D  || 5 control points or fewer
+| 4H  || 6
+| 4S  || 7
+| 4NT || 8
+2+<| 5{lab}suit{rab} <| 9 controls, biddable suit
 |===
 
-When the TELLER bids the next step, ASKER can follow with the next step.
-TELLER then shows the exact number of control-points starting #two
-below# the upper limit that was shown by the first response.
+When the TELLER bids 4D, ASKER can follow with 4H asking for the exact
+number of control-points starting #two below# the upper limit that was
+shown by the first response.
 
 [%autowidth,cols="2*^.^,<",grid="none",stripes="odd"]
 |===
-| 2NT   | !4C! |
-| !4D!  | !4H! | asking
-| ?     | |
-| 4S    | | 4
-| 4NT   | | 5
-2+<| 5{lab}suit{rab} <| 6 controls, biddable suit
-| 5NT | | 6 controls, no biddable suit
+| 2D   | !4C! |
+| !4D! | !4H! | asking
+| ?    ||
+| 4S   || 3
+| 4NT  || 4
+2+<| 5{lab}suit{rab} <| 5 controls, biddable suit
+| 5NT  || 5 controls, no biddable suit
 |===
+
+==== Auctions where 4C is ConFit
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd,cols=2*^.^]
+!===
+! 1NT ! !4C!
+!===
+||
+[grid="none",stripes=odd]
+:===
+ 2D : !4C!
+:===
+|===
+
+[%autowidth,cols="3*^.^,<.^",grid="none"]
+|===
+|  1S | !2C! || 
+| 2NT | !4C! || [ 2NT = 15-17 ]
+|===
+
+[%autowidth,cols="3*^.^,<.^",grid="none"]
+|===
+|  1S  | !2C! || 
+| !2D! | 2NT  || [ 2NT = 15-17 ]
+| !4C! |      ||
+|===
+
+[%autowidth,cols="3*^.^,<.^",grid="none"]
+|===
+|  1S  | !2C! || 
+| !2D! | !2H! ||
+| 2NT  | !4C! || [ 2NT = 12-14 ]
+|===
+
+==== Auctions where 4C is NOT ConFit
+
+[%autowidth,cols="3*^.^,<.^",grid="none"]
+|===
+|  1D |  1H  || 
+| 1NT | !4C! || self splinter
+|===
+
+[%autowidth,cols="3*^.^,<.^",grid="none"]
+|===
+|  1D  |  2NT || 
+| !4C! |      || self splinter,
+                 see <<#_2nt_response_to_one_minor, *1m{ndash}2NT*>>
+|===
+
+[%autowidth,cols="3*^.^,<.^",grid="none"]
+|===
+|  2C |  2NT || 8{OrMore}-11, forcing to 4NT
+| 3NT |  4C  || biddable suit, 
+                 see <<#_2nt_response_to_2c, *2\C{ndash}2NT*>>
+|===
+
 
 == Minorwood
 
@@ -298,7 +353,7 @@ not enough extras to initiate a slam investigation.
                   4D = extra length and optional minorwood
 |===
 
-Also see: <<other-notrump.adoc#2nt-opening, 2NT auctions>>
+Also see: <<#2nt_opening, 2NT auctions>>
 
 == Kickback
 

@@ -2,9 +2,16 @@
 
 :sectnums!:
 
+== 2022-09-11
+
+<<system.adoc#_confit, *ConFit*>> +
+@ Does not apply to 2NT-family openings +
+@ Auctions where it applies and
+_ does NOT apply
+
 == 2022-06-07
 
-<<system.adoc#, *Revised 2NT Methods*>>
+<<system.adoc#_2nt_opening, *Revised 2NT Methods*>> +
 @ 3C = Stayman or club-single-suiter +
 @ 3S = both minors, slam inv.{OrMore} +
 @ 3NT = to play +
@@ -13,8 +20,8 @@
 == 2022-05-19
 
 *Vs neg. double of our overcall* +
-@ <<system.adoc#_suit_overcalls, honour redouble @ 1-level>> +
-@ <<system.adoc#_two_level_overcalls, value-showing redouble @ 2-level>> +
+@ <<system.adoc#_suit_overcalls, *honour redouble @ 1-level*>> +
+@ <<system.adoc#_two_level_overcalls, *value-showing redouble @ 2-level*>> +
 _ {ndash} 2-level cue = good 3-cd raise +
 _ {ndash} 2NT = good 4-card raise +
 
