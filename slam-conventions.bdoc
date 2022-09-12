@@ -17,31 +17,41 @@ exclusion.
 
 ==== Examples
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
 |
 [grid="none",stripes=odd]
 :===
- 1H : !4S! : Exclusion
+ 1H : !4S!
 :===
 |
 [grid="none",stripes=odd]
 :===
- 1D : !4H! : Exclusion
+ 1D : !4H!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1D : !5C!
 :===
 |===
 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
 |===
 |
 [grid="none",stripes=odd]
 :===
- 1H : !5C! : Exclusion
+ 1H : !5C!
 :===
 |
 [grid="none",stripes=odd]
 :===
- 1S : !5H! : Exclusion
+ 1S : !5H!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1C : !4D!
 :===
 |===
 
