@@ -106,7 +106,7 @@ Therefore, we use #simple 5-card-Stayman responses#
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
-| !2D! | !2S! || {blueRarrow} 2NT
+| !2D! | !2S! || forces 2NT
 |  2NT | !3C! || five-card Stayman without 4*{S}
 |  ?   |      ||
 | !3D! |      || no 5-card major +
@@ -121,6 +121,32 @@ Therefore, we use #simple 5-card-Stayman responses#
      {emsp}{thinsp}4m  = natural +
      {emsp}{thinsp}!!4H!! = agrees {S}
 |===
+
+=== Strong Single-Suited Minor
+
+A weak hand with diamonds passes the 2D opening
+
+A weak hand with clubs bids 2NT then passes the forced 3C
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+4+^| Strong with clubs opposite Mexican 2D
+
+| !2D! | !2S! || forces 2NT
+|  2NT | !3H! || strong with clubs
+|  ?   |||
+| 3NT  |   2+<| neutral +
+                > 4C = optional minorwood +
+    {emsp}{thinsp}4D,4H,4S = exclusion  
+| 4C   |   2+<| good for {C} +
+                > 4D = kickback +
+    {emsp}{thinsp}4H,4S = exclusion +
+    {emsp}{thinsp}4NT = exclusion of {D}
+|===
+
+No other options for opener
+
+Same scheme applies to strong-with-diamonds
 
 [#_interference_with_mexican_2d]
 === Interference with Mexican-2D
