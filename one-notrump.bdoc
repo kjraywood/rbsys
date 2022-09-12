@@ -260,6 +260,16 @@ occurs more frequently then a max.
 We attempt to increase accuracy in the more frequent case.
 ====
 
+==== Following a SuperAccept
+
+Serious/Non-serious does NOT apply because opener is tightly limited
+
+[lavender-box]#The next-step after THREE MAJOR requests location of
+               secondary values#
+
+It is similar to
+<<#_slam_try_after_limit_raise, *next-step slam-try after a limit raise*>>
+
 === Second-round transfers
 
 {reference} https://justinlall.wordpress.com/2005/06/20/transfer-extensions/[
