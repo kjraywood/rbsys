@@ -381,39 +381,57 @@ shortness with 5{ndash}5 in the minors.
 		_ [lavender-bg]#5m = positive#
 |===
 
+[#_2nt_4c]
 === Transfer to Diamonds
 
-We are one-step lower than the trump-suit, so we do the opposite of
-our optional-minorwood, but more like regular transfers with a
-super-accept.
-
-Opener bids 4D to show a hand that is poor for diamonds.
-Following that, responder can use kickback (4H) or sign-off in 4NT or
-5D.
-
-With a good hand for diamonds, opener shows KC skipping the first
-step.
-Following that, 6C or 7C is a transfer to diamonds so that
-opener can play the contract.
+We treat this like optional minorwood, one-step lower, except that
+after the next-step by opener, which shows a good hand for diamonds,
+responder uses kickback instead of showing key-cards.
+This allows responder to use exclusion when opener likes diamonds.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 2NT  | !4C! |
 |  ?   |      |
-| !4D! |      | #poor for diamonds# +
+| !4D! |      | #good for diamonds# +
                 > 4H = kickback +
-		_ {nbsp}4NT or 5D = sign-off
+		_ {nbsp}4{S}, 5C = exclusion +
+		_ {nbsp}4NT = exclusion of {H}
 2+<| !4H!, !4S! +
      !4NT!, !5C!
-   <| KC responses +
-      > 6C or 7C {blueRarrow} {D}
+   <| KC responses,  poor for diamonds
 |===
 
-****
-.No exclusion with diamonds as trump
+==== Re-transfer
 
-This scheme does not allow setting diamonds as trump and then using exclusion.
-****
+Following a direct KC-response,
+
+@ 4NT = sign-off +
+@ 5C = re-transfer unless the KC-response
+_ was 4S (1 or 4) because then it is needed
+_ as the queen ask 
+
+However, holding the DQ, responder can ask for the queen knowing that
+open will bid 5D.
+Following that, responder can continue with a normal KC auction.
+
+[%autowidth,cols="3*^.>,<",grid="none"]
+|===
+| 2NT | !4C! || optional minorwood in {D}
+| 4H  |  ?   ||
+|     | !4S! || Q-ask
+|     | 4NT  || to play
+|     | 5C   || re-transfer
+|===
+
+[%autowidth,cols="3*^.>,<",grid="none"]
+|===
+| 2NT | !4C! || optional minorwood in {D}
+| 4S  |  ?   ||
+|     | 4NT  || to play
+|     | 5C   || Q-ask, or re-transfer if reponder holds DQ
+|     | 5D   || to play if responder does not hold DQ
+|===
 
 === Transfer to Hearts
 

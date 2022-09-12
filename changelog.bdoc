@@ -6,14 +6,26 @@
 
 <<system.adoc#_confit, *ConFit*>> +
 @ does not apply to 2NT-family openings +
-@ auctions where it applies and
-_ does NOT apply
+@ examples of other auctions where
+_ it does NOT apply
 
 <<system.adoc#_2nt_response_to_2c, *2\C {ndash} 2NT{semicolon} ?*>> +
 @ no ConFit +
 @ jump to four any suit = Selfwood +
 @ 3NT = balanced, interest in suit-slam +
 >> responder bids decent 4-card suit
+
+<<system.adoc#_2nt_4c, *2NT{ndash}4\C = diamonds*>> +
+@ treated like optional-minorwood,
+_ 1-step lower +
+@ kickback after 4D (good-for-diamonds) +
+@ 5C = re-transfer if not Q-ask or
+_ responder holds Q
+
+<<system.adoc#_following_a_superaccept, *Following a SuperAccept*>> +
+@ serious/non-serious does not apply +
+@ next-step requests location of
+_ secondary values
 
 == 2022-06-07
 
