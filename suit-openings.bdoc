@@ -33,6 +33,7 @@ _Game and slam tries after a major-suit raise_ ]
 __ and agrees second-suit +
 @ jump new-suit = void slam-try
 
+[#_slam_try_after_limit_raise]
 === Slam tries after a limit raise
 
 Similar to after a single-raise
@@ -41,7 +42,7 @@ Similar to after a single-raise
 |===
 | 1S  | 3S |
 | ?    |   |
-| !3NT! |  | generic slam-try
+| !3NT! |  | [lavender-bg]#next-step slam-try#
 2+<| 4{lab}new-suit{rab} <| 2nd-suit slam-try
 |===
 
