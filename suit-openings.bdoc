@@ -1,7 +1,8 @@
 [#_suit_openings]
 = Suit Openings {ndash} Responses & Opener's Rebid
 
-== Major Opening
+[#_major_opening]
+== ONE-MAJOR Opening
 
 [%autowidth,cols="3*<.^",grid="cols"]
 |===
@@ -276,24 +277,97 @@ rebids 3NT.
 2+<| 3NT       <| bal. 19{ndash}20 with 5*{S} and 2*{H}
 |===
 
-== Minor Opening
+[#_minor_opening]
+== ONE-MINOR Opening
+
+=== Balanced-hand responses
+
+Unpassed hand only
+
+@ [red]#*2*#{H} = balanced 11-12
+_ (see <<#_balanced_inv_after_one_minor, *1m{ndash}2\H*>>) +
+@ *2NT* = 13-15 or 18{OrMore}
+_ (see <<#_2nt_response_to_one_minor, *1m{ndash}2NT*>>) +
+@ *3NT* = 16-17,
+
+=== Natural jump-shift in other-minor
+
+[.bold.orange]#1{D}# *{ndash}* [.bold.green]#3{C}# = natural, inv. +
+@ Needed because [.bold.orange]#1#{D}**{ndash}**[.bold.green]#2#{C} is GF
+
+*[green]#1#{C} {ndash} [orange]#2#{D}* = natural, inv. +
+@ Convenient for removing this hand type from
+_ 2wCB and  4th-suit-F1 auctions +
+@ Prevents 4th-hand from bidding ONE MAJOR.
+
+=== Unpassed Raises
+
+****
+Raises of a minor suit need to be fairly specific about point count
+because when opener has a non-minimum, the aim will be to play 3NT.
+****
 
 [%autowidth,cols="3*^.^",grid="cols"]
 |===
-| Response           | Unpassed    | Passed
+| Description        | HCP    | Bid
 
-| single{nbsp}raise  | GF          | 6{ndash}10, 4c{OrMore}
-| jump{nbsp}raise    | 6{ndash}9, 5c{OrMore}
-                                   | unbal.{nbsp}LR, 9{ndash}11
-| JS {blueRarrow} om | natural{nbsp}inv.
-                                   | #fit showing#
-| !2H!               2+^| #bal. 11{ndash}12#{tab}{tab}
-| !2S!               | LR, [nobr]#{lflatb}bal. {or} unbal.{rflatb}#
-                                   | bal. LR, 11{ndash}12
-| 2NT                | 13{ndash}15 {or} 18{OrMore}
-                                   | 11{OrMore}{ndash}12{OrLess},
-				     [nobr]#prefer to declare#
-| 3NT                | 16{ndash}17 | --
+| very-weak  |  0 {ndash}  4 | [green]#*Pass*# or *4m*
+| weak-mixed |  5 {ndash}  7 | *3m*
+| good-mixed |  8 {ndash}  9 | [blue]#*2*#{S}
+| LR         | 10 {ndash} 11 | [blue]#*2*#{S}
+| GF         | 12{OrMore}    | *2m*
+|===
+
+==== 1m {ndash} 2S
+
+To sort out the wide-range of 2S, it is forcing to 3m.
+
+[lavender-box]#{thinsp}Following opener's forcing-2NT rebid, a new
+               suit by responder shows a max and _shortness_{thinsp}#
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  [.bold.orange]#1D# || [.alert.blue.bold]#2S#
+                       | good-mixed or LR, 8-11
+|  ?  |||
+| *2NT*              ||| non-min, asks for strength, F1 +
+                         > [.bold.orange]#3D# = 8{ndash}9 +
+			 {emsp} [green]#*3*#{C},[red]#*3*#{H},[blue]#*3*#{S}
+			        = 10{ndash}11, #shortness# +
+			 {emsp} *3NT* = 10{ndash}11, no shortness
+| [.bold.green]#3C#  ||| natural, usually non-minimum, F1
+| [.bold.orange]#3D# ||| sign-off, even if responder has max
+| *3M*               ||| GF, values
+|===
+
+====  1m {ndash} 2m = GF
+
+@ Single-raise = game-forcing +
+@ #May have a four-card major# +
+@ off by passed hand
+
+****
+.Advantages of longest-suit 1^st^ with a GF
+
+@ we bid shape more accurately +
+@ 1m-1M auctions are clearer +
+@ establishing a fit and GF prepares us for
+_ 3^rd^-hand intervention
+****
+
+=== Passed-Hand Responses
+
+We revert to all natural bidding with jump-shifts as fit-showing
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| [.bold.orange]#1D# | ? ||
+|   | [.bold.green]#2C#  || natural, 10 {ndash} 11
+|   | [.bold.orange]#2D# || 6 {ndash} 9
+|   | [.bold.orange]#3D# || 10 {ndash} 11
+|   | *2NT*              || 11 {ndash} 12
+3+>| [.bold.red]#2H#,[.bold.blue]#2S#,[.bold.green]#3C#
+                         <| fit-showing
 |===
 
 [#_responding_to_one_club]
@@ -312,21 +386,6 @@ Therefore, usually bypass: +
 === Opener's rebid with a balanced hand
 
 Usually bypass 4-card majors to rebid NT
-
-=== Inverted Minors
-
-@ Single-raise = game-forcing +
-@ #May have a four-card major# +
-@ Inverted off by passed hand
-
-****
-.Advantages of longest-suit 1^st^ with a GF
-
-@ we bid shape more accurately +
-@ 1m-1M auctions are clearer +
-@ establishing a fit and GF prepares us for
-_ 3^rd^-hand intervention
-****
 
 [#_2nt_response_to_one_minor]
 === 1m {ndash} 2NT

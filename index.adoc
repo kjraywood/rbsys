@@ -33,9 +33,9 @@
 <<system.adoc#_suit_openings, *Suit Openings {ndash} Responses* +
        *& Opener's Rebid*>> +
 {nbsp} 11. <<system.adoc#_major_opening,
-            Major Opening>> +
+            ONE-MAJOR Opening>> +
 {nbsp} 12. <<system.adoc#_minor_opening,
-            Minor Opening>> +
+            ONE-MINOR Opening>> +
 {nbsp} 13. <<system.adoc#_jump_rebids_by_opener,
              Jump Rebids by Opener>> +
 {nbsp} 14. <<system.adoc#_reverses,
