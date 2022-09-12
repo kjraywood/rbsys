@@ -10,13 +10,44 @@ Set trumps first (Jacoby-2NT, inverted-minor) to use KC.
 
 === First-round Exclusion
 
-First-round jumps that are one-level higher than a splinter are exclusion.
+First-round jumps that are one-level higher than a splinter are
+exclusion.
 
-Includes: +
-@ 1H {ndash} 4S +
-@ 1m {ndash} 4M
+[lavender-box]#Includes triple jumps to FOUR MAJOR and FIVE MINOR#
 
-&Responses:&{thinsp} 0, 1, 2-, 2+, 3-, 3+
+==== Examples
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+ 1H : !4S! : Exclusion
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1D : !4H! : Exclusion
+:===
+|===
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+ 1H : !5C! : Exclusion
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1S : !5H! : Exclusion
+:===
+|===
+
+==== Responses
+
+0, 1, 2-, 2+, 3-, 3+
 
 [#_confit]
 === ConFit
