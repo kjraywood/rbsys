@@ -791,15 +791,16 @@ Following responder's 2H, a second nebulous-bid, opener can bid 2S
 which is another nebulous bid saying that opener doesn't want to grab
 the NT.
 
-[%autowidth,cols="2*^,<",grid="none"]
+[%autowidth,cols="2*^.^,<",grid="none"]
 |===
 |  1M   | !2C! |
 | !2D!  | !2H! |
 |  ?    |      |
-| !2S!  |      | usually min. hand that doesn't want grab NT
-| 2NT   |      | natural 12-14 or 18{OrMore}
-| 3m    |      | 4*m, at least moderate extras,
-                      otherwise opener would have bid 2S or 2NT
+| !2S!  |      | usually min. hand that doesn't want
+                 to bid NT, but very-strong hand is possible
+| 2NT   |      | usually 12-14, but 18-19 with 5-2 majors
+                 is possible
+| 3m    |      | 4*m,  15{OrMore}
 |===
 
 === Schuler Shift
