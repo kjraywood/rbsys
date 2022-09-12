@@ -122,6 +122,7 @@ Therefore, we use #simple 5-card-Stayman responses#
      {emsp}{thinsp}!!4H!! = agrees {S}
 |===
 
+[#_mexican_and_strong_minor]
 === Strong Single-Suited Minor
 
 A weak hand with diamonds passes the 2D opening
@@ -243,23 +244,25 @@ hands and making it GF allows us to sort out a heart stopper.
 
 Same as <<#_vs_2nt_minors_over_1nt, Vs 2NT (minors) over our 1NT opening>>
 
+[#_mex_vs_double_of_2s_response]
 === Vs double of 2S response 
 
 [%autowidth,cols="4*^,<",grid="none"]
 |===
 | !2D! | (P) | !2S! | X |
 |  ?   |     |      |   |
-|  P   |  3+<| shows stopper
-|  XX  |  3+<| denies stopper
+| *P*  |  3+<| shows stopper
+| *XX* |  3+<| denies stopper
 |===
 
 ==== Opener passes the double
 
 Opener shows a stopper.
 
-Responder can redouble to resume the normal auction, but must have at
-least a doubleton spade so that opener can pass it out with a
-five-card spade holding.
+Responder's redouble shows at least a doubleton spade allowing opener
+to pass with a five-card spade-suit.
+Without a spade-stack, opener resumes the normal auction by bidding
+2NT.
 
 With shortness in spades, responder takes the intended second-round
 action; 3C = 5-card Stayman, 3D = transfer to hearts, _etc._
@@ -275,13 +278,21 @@ declare.
 Playing in spades is no longer an option, but responder may still need
 to know opener's heart length.
 
-[lavender-box]#3C asks only about heart length#
+[lavender-box]#3\C asks only about heart length#
 
 Responder's 3S, either directly or after asking for heart length, is
 used to scramble to a four of a minor.
 
-With a single-suited slam-try in a minor-suit, responder's only option
-is signing off in five minor or optional minorwood.
+[lavender-box]#3\D shows hearts and a minor but also requires spade
+               control so that opener can bid slam with a good
+               minor-suit fit and sufficient key-cards#
+
+With {H}+m but lacking spade control, responder will usually choose to
+play in {H}, expecting at least Hx from opener because of the lack of
+spade control.
+
+With a single-suited slam-try in a minor-suit, responder's only options
+are signing off in five minor or optional minorwood.
 This decision will be guided by knowing about opener's lack of values
 in spades.
 
@@ -293,7 +304,10 @@ in spades.
 |     |  2NT |     | to play
 |     | !3C! |     | asks for heart length +
                      > 3D=3, 3H=2, 3S=4, 3NT=5
-|     | !3D! |     | #{H} + minor, GF#
+|     | !3D! |     | #{H} + minor + {S} control, GF# +
+                     > 3S agrees {H} +
+	{emsp}{thinsp}3NT asks for minor +
+	{emsp}{thinsp}{tribull} 4m = opt. m/wood
 |     |  3H  |     | to play
 |     | !3S! |     | scramble for a minor
 |     |  3NT |     | to play
