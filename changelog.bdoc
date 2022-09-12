@@ -34,15 +34,12 @@ _ secondary values
 @ all natural by passed hand,
 _ including fit-showing jumps
 
-== 2022-06-07
+== We Overcall
 
-<<system.adoc#_2nt_opening, *Revised 2NT Methods*>> +
-@ 3C = Stayman or club-single-suiter +
-@ 3S = both minors, slam inv.{OrMore} +
-@ 3NT = to play +
-@ 4C = transfer to diamonds
-
-== 2022-05-19
+<<system.adoc#_one_major_overcalls,
+	*Advancing 1M overcall vs raise*>> +
+@ 2NT = 3 or 4-cd LR +
+@ 3-level cue = mixed raise
 
 *Vs neg. double of our overcall* +
 @ <<system.adoc#_suit_overcalls, *honour redouble @ 1-level*>> +
@@ -50,49 +47,15 @@ _ including fit-showing jumps
 _ {ndash} 2-level cue = good 3-cd raise +
 _ {ndash} 2NT = good 4-card raise +
 
-== 2022-05-17
-
-<<system.adoc#_we_overcall_adv_has_good_hand,
-	*Jump-shift response to an overcall*>> +
-@ link to examples of Mike Lawrence
-
-<<system.adoc#_one_major_overcalls,
-	*Advancing 1M overcall vs raise*>> +
-@ 2NT = 3 or 4-cd LR +
-@ 3-level cue = mixed raise
-
-== 2022-04-29
-
-<<system.adoc#_4th_suit_two_minor, *Fourth-suit = TWO MINOR*>>
-
-<<system.adoc#_4th_suit_two_major, *Fourth-suit = TWO MAJOR*>>
-
-<<system.adoc#_fit_showing_jumps, *Fit-Showing Jumps*>>
-
-== 2022-04-24
+<<system.adoc#_vs_interference_after_cue_raise,
+              *Vs interference after our cue-bid raise*>> +
+@ bidding our trump suit
+_ = weakest action
 
 <<system.adoc#_sandwich_overcalls, *Sandwich-position overcalls*>> +
 @ natural vs nebulous minor opening
 
-== 2022-04-19
-
-<<system.adoc#_interference_with_1nt, *1NT{ndash}(2M){ndash}?*>> +
-@ 4\C = oM + C +
-@ Texas transfer to their M = oM + D +
-
-<<system.adoc#_minorwood_in_comp, *Minorwood in comp.*>> +
-@ Jump to 4m after a cue-bid raise +
-
-<<system.adoc#_kickback_in_comp, *Kickback in comp.*>> +
-@ we've agreed a *minor* +
->> cheapest unbid-suit above 4m = KB +
-@ we've agreed *hearts* +
->> 4\S = KB
-
-<<system.adoc#_balancing_michaels, *Balancing Michaels*>> +
-@ (1M)-P-(P)-3m = leaping-michaels +
-	
-== 2022-04-18
+== Other Defensive Bidding
 
 <<system.adoc#_klinger, *When Klinger is 2\H or lower*>> +
 @ 2NT = {LRplus} of lower-suit +
@@ -103,66 +66,11 @@ _ {ndash} 2NT = good 4-card raise +
 @ *vs minor:* 4\C = both majors +
 @ *vs major:* 4\C = 5-card Stayman +
 
-<<system.adoc#_minorwood, *Minorwood*>> +
-@ jump to four of agreed minor +
-@ jump raise of 2m to 4m +
-@ re-raise of 3m to 4m after agreement +
-@ raise of an invitational 3m to 4m
+<<system.adoc#_weak_michaels_vs_weak_two,
+              *Weak Michaels vs Weak Two*>> +
 
-== 2022-03-04
-
-<<system.adoc#_major_opening, *Major Opening*>> +
-@ PH JS = fit showing (was mini-splinter)
-
-<<system.adoc#_js_vs_take_out_double,
-              *Jump Shifts vs Take-Out Double*>> +
-@ JS to other major = mixed raise +
-@ PH JS vs X = fit-showing, except m &#x279e; om
-
-== 2022-02-06
-
-<<system.adoc#_one_notrump_opening, *One NoTrump Opening*>> +
-@ 2\S = clubs, 2NT = natural, 3\C = diamonds +
-
-<<system.adoc#_vs_2c_over_our_1nt,
-              *Modified system-on vs 2\C interference*>>
-
-<<system.adoc#_vs_interference_after_cue_raise,
-              *Vs interference after our cue-bid raise*>> +
-@ returning to the trump suit = weakest action
-
-== 2022-01-25
-
-<<system.adoc#_transfer_responses_to_2c,
-              *Transfer responses to a 2\C-opening*>> +
-@ 2\S = one-loser red-suit +
-@ 3\C = one-loser black-suit +
-@ 3\D,3\H,3\S,4\C = transfer to solid suit
-
-== 2022-01-04
-
-
-<<system.adoc#_vs_suit_overcall,
-              *Vs Suit Overcall*>> +
-@ 1\H{ndash}(1\S){ndash}2NT = mixed raise +
-@ Fit jumps after 1\H-(1\S) can be 4-card suits +
-
-== 2021-12-8
-
-<<system.adoc#_honour_leads_vs_suits,
-              *Honour-card Leads Vs Suits*>> +
-@ Rusinow from a known long-suit
-
-<<system.adoc#_3rd_hand_suit_pref_with_akq,
-              *Suit-pref by 3rd hand with AKQ*>> +
-@ strong vs mild suit-pref
-
-
-<<system.adoc#_3rd_hand_suit_pref_with_akxx,
-              *Suit-pref by 3rd hand with AKxx*>> +
-@ UD att after A-K or K-A
-
-== 2021-11-21
+<<system.adoc#_balancing_michaels, *Balancing Leaping-Michaels*>> +
+@ (1M)-P-(P)-3m = leaping-michaels +
 
 <<system.adoc#_defence_to_transfers,
               *Defence to Transfers*>> +
@@ -176,46 +84,88 @@ _ {ndash} 2NT = good 4-card raise +
 @ new suit = to play +
 @ redouble = other 2 suits
 
-== 2021-09-09
+== Interference with our 1NT
 
-<<system.adoc#_weak_michaels_vs_weak_two,
-              *Weak Michaels vs Weak Two*>> +
+<<system.adoc#_interference_with_1nt, *1NT{ndash}(2M){ndash}?*>> +
+@ 4\C = oM + C +
+@ Texas transfer to their M = oM + D +
 
-<<system.adoc#_vs_unusual_2nt_opening,
-              *vs 2NT-opening that shows minors*>> +
-@ two levels of Landy &amp; transfers
-	  
-== 2021-08-29
-
-<<system.adoc#_interference_with_mexican_2d,
-              *Interference over Mexican-2\D*>> +
-@ Rubensohl, Texas +
-@ 4\S = quant. NT raise +
-@ 4NT vs 2M = minors
-
-== 2021-08-25
-
-<<system.adoc#_interference_over_1nt,
-              *Interference over 1NT*>> +
-@ Rubensohl, Texas +
-@ 4\C vs 2m = majors +
-@ 4\S vs 2M = minors +
-@ 4NT = quant. NT raise
-
-== 2021-08-24
+<<system.adoc#_vs_2c_over_our_1nt,
+              *1NT{ndash}(2\C nat.){ndash}?*>> +
+@ 2S {blueRarrow} {D} +
+@ 3C = Stayman without stopper +
+@ other sys ON
 
 <<system.adoc#_vs_2nt_minors_over_1nt,
-              *vs 2NT (minors) over 1NT*>> +
-@ change to Landy & transfers
+              *1NT{ndash}(2NT minors){ndash}?*>> +
+@ two levels of Landy &amp; transfers +
+@ also after Mexican-2D and
+_ <<system.adoc#_vs_unusual_2nt_opening, *vs Unusual-2NT opening*>>
 
-== 2021-06-12
+== Key-Card asking
 
-<<system.adoc#_nebulous_two_clubs,
-              *Nebulous Two Clubs*>> +
-@ waiting bids by either player are split range
+<<system.adoc#_first_round_exclusion, *First-round Exclusion*>> +
+@ includes triple jumps to 4M and 5m
 
-== 2021-02-28
+<<system.adoc#_minorwood, *Minorwood*>> +
+@ jump to four of agreed minor +
+@ jump raise of 2m to 4m +
+@ re-raise of 3m to 4m after agreement +
+@ raise of an invitational 3m to 4m
+
+<<system.adoc#_minorwood_in_comp, *Minorwood in comp.*>> +
+@ Jump to 4m after a cue-bid raise +
+
+<<system.adoc#_kickback_in_comp, *Kickback in comp.*>> +
+@ we've agreed a *minor* +
+>> KB = cheapest unbid-suit
+__ above 4m +
+@ we've agreed *hearts* +
+>> KB = 4\S
+
+== Competitive Bidding
+
+<<system.adoc#_js_vs_take_out_double,
+              *Jump Shifts vs Take-Out Double*>> +
+@ JS to other major = mixed raise +
+@ PH JS vs X = fit-showing,
+_ except m &#x279e; om
+
+<<system.adoc#_vs_suit_overcall,
+              *Vs Suit Overcall*>> +
+@ 1\H{ndash}(1\S){ndash}2NT = mixed raise +
+@ Fit jumps after 1\H-(1\S)
+_ can be 4-card suits +
+
+== Constructive Bidding
+
+<<system.adoc#_2nt_opening, *Revised 2NT Methods*>> +
+@ 3C = Stayman or club-single-suiter +
+@ 3S = both minors, slam inv.{OrMore} +
+@ 3NT = to play +
+@ 4C = transfer to diamonds
+
+<<system.adoc#_transfer_responses_to_2c,
+              *Transfer responses to a 2\C-opening*>> +
+@ 2\S = one-loser red-suit +
+@ 3\C = one-loser black-suit +
+@ 3\D,3\H,3\S,4\C = transfer to solid suit
 
 <<system.adoc#_fourth_suit_at_the_4_level,
               *Fourth suit at the 4-level*>> +
 @ swap 3\S and 4\C after 1\S-2\H; 3\D
+
+== Defence
+
+<<system.adoc#_honour_leads_vs_suits,
+              *Honour-card Leads Vs Suits*>> +
+@ Rusinow from a known long-suit
+
+<<system.adoc#_3rd_hand_suit_pref_with_akq,
+              *Suit-pref by 3rd hand with AKQ*>> +
+@ strong vs mild suit-pref
+
+
+<<system.adoc#_3rd_hand_suit_pref_with_akxx,
+              *Suit-pref by 3rd hand with AKxx*>> +
+@ UD att after A-K or K-A
