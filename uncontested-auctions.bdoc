@@ -223,7 +223,6 @@ Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
 !  ?   !     !
 !  2C  !     ! to play
 ! !2D! !     ! NMF, inv. values +
-               > #opener must jump with a max#
 !  2H  !     ! natural, weak
 !  2S  !     ! to play
 2+<! 2NT    <! #natural inv.#
@@ -255,6 +254,26 @@ Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
 2+<! 2NT   <! natural inv.
 !===
 |===
+
+[#_nmf_3rd_bid_by_opener]
+==== Opener's third bid
+
+Holding three of responder's major and four of other major, opener bids: +
+@ up-the-line with a minimum +
+@ other major with a maximum
+
+Otherwise opener's third bid, in order of priority is: +
+@ two of unbid major = four-card suit,
+_ ambiguous strength, F1 +
+@ two of responder's major = three-card support,
+_ minimum +
+@ three of responder's major = three-card support,
+_ maximum +
+@ 2NT = minimum +
+@ 3NT = maximum
+
+NOTE: two of responder's major showing a minimum is non-forcing, so
+      allows us to stop low on some invitations.
 
 [#_4th_suit_forcing]
 == Second-round jumps and fourth-suit forcing
