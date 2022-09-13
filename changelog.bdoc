@@ -44,7 +44,7 @@ _ will choose to play in {H}
 <<system.adoc#_one_major_overcalls,
 	*Advancing 1M overcall vs raise*>> +
 @ 2NT = 3 or 4-cd LR +
-@ 3-level cue = mixed raise
+@ #3-level cue = mixed raise#
 
 *Vs neg. double of our overcall* +
 @ <<system.adoc#_suit_overcalls, *honour redouble @ 1-level*>> +
@@ -75,7 +75,7 @@ _ = weakest action
               *Weak Michaels vs Weak Two*>> +
 
 <<system.adoc#_balancing_michaels, *Balancing Leaping-Michaels*>> +
-@ (1M)-P-(P)-3m = leaping-michaels +
+@ #(1M)-P-(P)-3m = leaping-michaels# +
 
 <<system.adoc#_defence_to_transfers,
               *Defence to Transfers*>> +
@@ -132,13 +132,14 @@ __ above 4m +
 
 <<system.adoc#_js_vs_take_out_double,
               *Jump Shifts vs Take-Out Double*>> +
-@ JS to other major = mixed raise +
-@ PH JS vs X = fit-showing,
+Following a take-out double: +
+@ #JS to other major = mixed raise# +
+@ PH JS = fit-showing,
 _ except m &#x279e; om
 
 <<system.adoc#_vs_suit_overcall,
               *Vs Suit Overcall*>> +
-@ 1\H{ndash}(1\S){ndash}2NT = mixed raise +
+@ #1\H{ndash}(1\S){ndash}2NT = mixed raise# +
 @ Fit jumps after 1\H-(1\S)
 _ can be 4-card suits +
 
