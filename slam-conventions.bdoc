@@ -973,6 +973,7 @@ If their four-level preempt follows a minor-suit opening or any
 | (4S) | !4NT! |  2+<| take-out
 |===
 
+[#_kc_responses]
 == KC Responses
 
 03, 14, 2{OrLess}, 2{OrMore}
@@ -980,9 +981,12 @@ If their four-level preempt follows a minor-suit opening or any
 === Specific Kings
 
 #King-ask = 5T + 1# +
-@ Promises that we have all
-_ the key-cards +
-@ if trumps {ne} {S}, then 5NT = K of 5T{thinsp}+{thinsp}1
+
+@ [lavender-bg]#does NOT promise all the key-cards# +
+>> with extras, teller bids 6NT instead of 7T +
+
+@ IF:{emsp}{emsp} trump-suit {ne} {S} +
+_ THEN:{nbsp} 5NT = K of 5T{thinsp}+{thinsp}1
 
 // ** Need example auctions **
 
@@ -990,8 +994,8 @@ _ the key-cards +
 
 Without the queen, teller returns to the trump suit
 
-With the queen but no side kings, teller makes the cheapest bid other
-than the trump-suit
+[lavender-box]#With the queen but no side kings, teller makes the
+               cheapest bid other than the trump-suit#
 
 With the queen and one or more side kings, teller shows specific kings
 up-the-line
@@ -999,7 +1003,18 @@ up-the-line
 If the cheapest non-trump-suit bid (denying any side kings) is a suit,
 then 5NT is used to show the king in that suit
 
-// ** Need example auctions **
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| 1NT   | !4D! || Texas transfer
+| 4H    | !4S! || kickback
+| !4NT! | !5C! || [ 4NT = 0 or 3, 5C = Q ask ]
+|  ?    |||
+| 5D    |   2+<| {H}Q, no side kings
+| 5H    |   2+<| no {H}Q
+| 5S    |   2+<| {H}Q and {S}K
+| 5NT   |   2+<| {H}Q and {D}K, not {S}K
+| 6C    |   2+<| {H}Q and {C}K, not {S}K or {D}K
+|===
 
 === Interference
 
