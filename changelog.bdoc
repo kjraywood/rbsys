@@ -39,38 +39,6 @@ _ will choose to play in {H}
 @ up-the-line with a min +
 @ unbid major with a max
 
-== 2022-09-11
-
-<<system.adoc#_confit, *ConFit*>> +
-@ does not apply to 2NT-family openings +
-@ examples of other auctions where
-_ it does NOT apply
-
-<<system.adoc#_2nt_response_to_2c, *2\C {ndash} 2NT{semicolon} ?*>> +
-@ no ConFit +
-@ jump to four any suit = Selfwood +
-@ 3NT = balanced, interest in suit-slam +
->> responder bids decent 4-card suit
-
-<<system.adoc#_2nt_4c, *2NT{ndash}4\C = diamonds*>> +
-@ treated like optional-minorwood,
-_ 1-step lower +
-@ kickback after 4D (good-for-diamonds) +
-@ 5C = re-transfer if not Q-ask or
-_ responder holds Q
-
-<<system.adoc#_following_a_superaccept, *Following a SuperAccept*>> +
-@ serious/non-serious does not apply +
-@ next-step requests location of
-_ secondary values
-
-<<system.adoc#_minor_opening, *ONE-MINOR Opening*>> +
-@ 1m{ndash}2S = 8-11, forcing to 3m +
->> 2NT asks +
-{emsp}{emsp}{tribull} new-suit = max + shortness +
-@ all natural by passed hand,
-_ including fit-showing jumps
-
 == We Overcall
 
 <<system.adoc#_one_major_overcalls,
@@ -176,11 +144,33 @@ _ can be 4-card suits +
 
 == Constructive Bidding
 
+<<system.adoc#_minor_opening, *ONE-MINOR Opening*>> +
+@ 1m{ndash}2S = 8-11, forcing to 3m +
+>> 2NT asks +
+{emsp}{emsp}{tribull} new-suit = max + shortness +
+@ all natural by passed hand,
+_ including fit-showing jumps
+
+<<system.adoc#_fourth_suit_at_the_4_level,
+              *Fourth suit at the 4-level*>> +
+@ swap 3\S and 4\C after 1\S-2\H; 3\D
+
+<<system.adoc#_following_a_superaccept,
+*1NT {blueRarrow} transfer {blueRarrow} super-accept*>> +
+@ serious/non-serious does not apply +
+@ next-step requests location of
+_ secondary values
+
 <<system.adoc#_2nt_opening, *Revised 2NT Methods*>> +
 @ 3C = Stayman or club-single-suiter +
 @ 3S = both minors, slam inv.{OrMore} +
 @ 3NT = to play +
-@ 4C = transfer to diamonds
+@ 4C = opt m/wood for {D} +
+{emsp}{thinsp}{vright} 4D = like {D} +
+{emsp}{thinsp}{vert} {tribull} kickback or exclusion +
+{emsp}{thinsp}{vright} other = KC response +
+{emsp}{thinsp}{vert} {tribull} cheapest {C} bid = re-transfer +
+{emsp}{thinsp}{vert} {emsp}{thinsp} unless it is Q-ask
 
 <<system.adoc#_transfer_responses_to_2c,
               *Transfer responses to a 2\C-opening*>> +
@@ -188,9 +178,10 @@ _ can be 4-card suits +
 @ 3\C = one-loser black-suit +
 @ 3\D,3\H,3\S,4\C = transfer to solid suit
 
-<<system.adoc#_fourth_suit_at_the_4_level,
-              *Fourth suit at the 4-level*>> +
-@ swap 3\S and 4\C after 1\S-2\H; 3\D
+<<system.adoc#_2nt_response_to_2c, *2\C {ndash} 2NT{semicolon} ?*>> +
+@ jump to four any suit = Selfwood +
+@ 3NT = balanced, interest in suit-slam +
+>> responder bids decent 4-card suit
 
 == Defence
 
