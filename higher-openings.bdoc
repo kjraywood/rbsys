@@ -138,7 +138,7 @@ A weak hand with clubs bids 2NT then passes the forced 3C
 |  ?   |||
 | 3NT  |   2+<| neutral +
                 > 4C = optional minorwood +
-    {emsp}{thinsp}4D,4H,4S = exclusion  
+    {emsp}{thinsp}[lavender-bg]#4D,4H,4S = exclusion#
 | 4C   |   2+<| good for {C} +
                 > 4D = kickback +
     {emsp}{thinsp}4H,4S = exclusion +
