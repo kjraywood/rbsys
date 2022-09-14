@@ -161,13 +161,13 @@ shown by the first response.
 [%autowidth,cols="3*^.^,<.^",grid="none"]
 |===
 |  1S | !2C! || 
-| 2NT | !4C! || [ 2NT = 15-17 ]
+| 2NT | !4C! || [ 2NT = 16-17 ]
 |===
 
 [%autowidth,cols="3*^.^,<.^",grid="none"]
 |===
 |  1S  | !2C! || 
-| !2D! | 2NT  || [ 2NT = 15-17 ]
+| !2D! | 2NT  || [ 2NT = 16-17 ]
 | !4C! |      ||
 |===
 
@@ -1016,10 +1016,63 @@ then 5NT is used to show the king in that suit
 | 6C    |   2+<| {H}Q and {C}K, not {S}K or {D}K
 |===
 
+[#_specific_suit_asking]
+=== Specific-Suit Asking
+
+SSA bid = not trump-suit, not Q-ask, not K-ask
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+| 1D   | !2D! || inverted, GF
+| 2S   | !4D! || minorwood
+| !4H! |  ?   || [ 4H = 0 or 3 ]
+|      |  4S  || Q-ask
+|      |  4NT || to play
+|      |  5C  || SSA in {C}
+|      |  5D  || sign off
+|      |  5H || K-ask
+|      |  5S  || SSA in {S}
+|      |  5NT || SSA in {H} (suit of K-ask)
+|===
+
+&Responses&
+
+Disregard ace because it is known {implies} AQx has same response as
+Qxx; only 3rd-round control.
+
+Responses depend on number of steps between the SSA bid and 6T (six of
+the trump suit).
+
+*All cases:* +
+@ trump-suit = no control +
+@ 6NT = KQx +
+@ jump in trump suit = Kx +
+@ cheapest unassigned step = x +
+
+*Two or more intermediate steps:*
+( _.e.g._ 5C & 5S in above ) +
+@ step 1 = only 3rd-round control,
+_ xx or Qxx +
+@ step 2 = only 2nd-round control,
+_ Kxx +
+
+*One intermediate step:*
+(_e.g._ 5NT in above ) +
+@ step 1 = only 3rd or only 2nd,
+_ xx or Qxx or Kxx
+
+*No intermediate steps:*
+(_e.g._ 6H when {S} are trump) +
+@ above 6T =  3rd-round control
+
 === Interference
+
+==== Vs Double
 
 We ignore doubles of any asking or telling bids.
 _i.e._{thinsp} we bid as though the double did not occur.
+
+==== Vs Bid
 
 @ D0P1 below 5T-1,
 _ Dbl = 0 or 3, P = 1 or 4 +
@@ -1045,6 +1098,3 @@ If trump = {S} and interference = 5{H} then +
 
 Following Pass (odd) it is still possible to ask for the trump Q with
 double.
-
-// Specific Suit Asking Bids
-// ** danger **

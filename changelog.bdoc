@@ -6,9 +6,19 @@
 
 <<system.adoc#_kc_responses, *Key-Card Responses*>> +
 @ #K-ask does NOT promise all KCs# +
->> with extras, teller bids 6NT not 7T +
-@ after Q-ask, cheapest non-trump-suit
+>> with extras, teller bids 6NT
+__ not 7T +
+@ after Q-ask, cheapest non-trump
 _ = Q but no side kings
+
+<<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
+@ SSA bid = not trump-suit,
+_ not Q-ask,
+_ not K-ask +
+*Responses:* +
+@ trump-suit = no control +
+@ 3rd or 2nd below 6T +
+@ 2nd and 3rd above 6T
 
 == 2022-09-12
 
@@ -80,8 +90,10 @@ _ = weakest action
 <<system.adoc#_defence_to_transfers,
               *Defence to Transfers*>> +
 @ Double = take-out of shown-suit +
-@ Bidding their suit @ 2-level = Michaels +
-@ Bidding their suit @ 1-level = natural
+@ Bidding their suit @ 2-level
+_ = Michaels +
+@ Bidding their suit @ 1-level
+_ = natural
 
 <<system.adoc#_vs_double_of_kastro,
               *When our KASTRO call is doubled*>> +
