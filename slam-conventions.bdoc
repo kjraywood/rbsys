@@ -1049,8 +1049,8 @@ the trump suit).
 *All cases:* +
 @ trump-suit = no control +
 @ 6NT = KQ(x) (could be AKQ) +
-@ seven of trump suit = Kx (AK) +
-@ cheapest suit-bid above 6T = x (A) +
+@ seven of trump suit = Kx (could be AK) +
+@ cheapest suit-bid above 6T = x (could be A) +
 
 *Two or more intermediate steps:*
 (_e.g._ 5C & 5S in above ) +
