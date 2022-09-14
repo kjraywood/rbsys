@@ -1019,6 +1019,9 @@ then 5NT is used to show the king in that suit
 [#_specific_suit_asking]
 === Specific-Suit Asking
 
+[lavender-box]#Used as grand-slam investigation and guarantees that
+               all key-cards and the trump-queen are held#
+
 SSA bid = not trump-suit, not Q-ask, not K-ask
 
 [%autowidth,cols="2*^,2*<",grid="none"]
