@@ -1048,16 +1048,16 @@ the trump suit).
 
 *All cases:* +
 @ trump-suit = no control +
-@ 6NT = KQx +
-@ jump in trump suit = Kx +
-@ cheapest unassigned step = x +
+@ 6NT = KQ(x) (could be AKQ) +
+@ seven of trump suit = Kx (AK) +
+@ cheapest suit-bid above 6T = x (A) +
 
 *Two or more intermediate steps:*
 (_e.g._ 5C & 5S in above ) +
 @ step 1 = only 3rd-round control,
-_ xx or Qxx +
+_ xx (Ax) or Qxx (AQx) +
 @ step 2 = only 2nd-round control,
-_ Kxx +
+_ Kxx (AKx) +
 
 *One intermediate step:*
 (_e.g._ 5NT in above ) +
