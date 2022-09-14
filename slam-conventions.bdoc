@@ -1050,7 +1050,7 @@ the trump suit).
 @ cheapest unassigned step = x +
 
 *Two or more intermediate steps:*
-( _.e.g._ 5C & 5S in above ) +
+(_e.g._ 5C & 5S in above ) +
 @ step 1 = only 3rd-round control,
 _ xx or Qxx +
 @ step 2 = only 2nd-round control,
@@ -1067,34 +1067,63 @@ _ xx or Qxx or Kxx
 
 === Interference
 
-==== Vs Double
+==== Ignore Doubles
 
 We ignore doubles of any asking or telling bids.
 _i.e._{thinsp} we bid as though the double did not occur.
 
-==== Vs Bid
+==== D0P1 below Five of our Trump-Suit
 
-@ D0P1 below 5T-1,
-_ Dbl = 0 or 3, P = 1 or 4 +
-@ DEPO otherwise
+[orange-box]#The system here has been changed WITHOUT partnership
+             agreement.  It now follows the Kantar RKC book.#
 
-.D0P1 example
-[%autowidth,cols="3*^,<",grid="none"]
+We show what we have immediately in case there is further
+interference.
+
+@ Dbl = 0 +
+@ Pass = 1 +
+@ 1st step = 2 without Q +
+@ 2nd step = 2 with Q +
+@ 3rd step = 3 without Q +
+@ 4th step = 3 with Q
+
+TIP: The responses are similar to exclusion
+     (0, 1, 2{OrLess}, 2{OrMore}, 3{OrLess}, ...)
+
+[lavender-box]#Following pass=1, asker's double is penalty; not a Q-ask.#
+
+A spare step below five of our-trump-suit is the Q-ask.
+
+If there is no spare-step, then there is no Q-ask.
+
+[%autowidth,cols="4*^,<",grid="none"]
 |===
-| 1S  | (P)  | !4D! | (Dbl)
-| 4NT | (5D) |  ?   |
-|     |      |  Dbl | 0 or 3
-|     |      |  P   | 1 or 4
-|     |      |  5H  | 2 without trump Q
-|     |      |  5S  | 2 with trump Q
+5+^| D0P1 example
+
+| 1S  | (P)  | !4D! | (Dbl) |
+| 4NT | (5D) |  ?   ||
+|     |      |  Dbl || 0 +
+                       > 5H = Q-ask
+|     |      |  P   || 1 +
+                       > #Dble = penalty# +
+                       {emsp}{thinsp}##5H = Q-ask## +
+|     |      |  5H  || 2 without Q
+|     |      |  5S  || 2 with Q
+|     |      |  5NT || 3 without Q
 |===
 
-&DEPO example&
+****
+When the interference is one step below our trump-suit, then
+two-plus-queen is above it.
+This is only bad when asker has only one KC, which is unusual;
+especially on interference auctions.
+****
 
-If trump = {S} and interference = 5{H} then +
-@ Dble = 0, 2{OrLess}, or 4 (even)
-@ Pass = 1 or 3 (odd)
-@ 5{S} = 2 with trump Q
+==== DEPO above Five of our Trump-Suit
 
-Following Pass (odd) it is still possible to ask for the trump Q with
-double.
+@ Dbl = 0 or 2 (#even#) +
+@ Pass = 1 (#odd#) +
+@ 1st step = 3 without Q +
+@ 2nd step = 3 with Q
+
+[lavender-box]#As with D0P1, following pass=1, asker's double is penalty#

@@ -205,18 +205,18 @@ Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
 |===
 
 [#_nmf_by_passed_hand]
-=== Passed Hand
+=== New-Minor-Forcing by Passed Hand
 
-*Regular New-Minor-Forcing* +
- @ #if there is an old AND a new minor# +
- @ all natural after both minors or majors
+[lavender-box]#Only on if there is an old-minor and a new-minor#
+ 
+All natural after both minors or majors
 
 [%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
 2+<a|
 [%autowidth,cols="2*^,<",grid="none",stripes=odd]
 !===
-3+^! An old and new minor
+3+^! Old-minor and new-minor
 
 !  P   ! 1C  !
 !  1S  ! 1NT !
@@ -232,7 +232,7 @@ Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
 |
 [%autowidth,cols="2*^,<",grid="none",stripes=odd]
 !===
-3+^! No new minor
+3+^! No new-minor
 
 !  P   ! 1C  !
 !  1D  ! 1NT !
@@ -244,7 +244,7 @@ Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
 |
 [%autowidth,cols="2*^,<",grid="none",stripes=odd]
 !===
-3+^! No old minor
+3+^! No old-minor
 
 ! P  ! 1H   !
 ! 1S ! 1NT  !
@@ -255,25 +255,48 @@ Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
 !===
 |===
 
-[#_nmf_3rd_bid_by_opener]
 ==== Opener's third bid
 
-Holding three of responder's major and four of other major, opener bids: +
-@ up-the-line with a minimum +
-@ other major with a maximum
+*With three of responder's major and four of other major, opener bids:* +
+@ [lavender-bg]#up-the-line with a minimum# +
+@ [lavender-bg]#other major with a maximum#
 
-Otherwise opener's third bid, in order of priority, is: +
+*Otherwise opener's third bid, in order of priority, is:* +
 @ two of unbid major = four-card suit,
 _ ambiguous strength, F1 +
 @ two of responder's major = three-card support,
-_ minimum +
+_ minimum, NF +
 @ three of responder's major = three-card support,
 _ maximum +
 @ 2NT = minimum +
 @ 3NT = maximum
 
-NOTE: two of responder's major showing a minimum is non-forcing, so
-      allows us to stop low on some invitations.
+****
+{tip}{nbsp}
+&Follows the same rules as 4th-suit-F1&
+
+@ 2-level bid of suit bid on first round
+_ = min, NF +
+@ new-suit = ambiguous strength, F1 +
+@ jump = extra-strength, GF
+****
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| P    | 1C  ||
+| 1H   | 1NT ||
+| !2D! | ?   ||
+|      | 2H  || 3*{H}, may have 4*{S}, min, NF +
+                > 2S = 4{ndash}4 majors, NF
+|      | 2S  || 4*{S}, min or max, may have 3*{H} only if max, F1 +
+                > 2NT = not 4*{S}, hence 5*{H}
+|      | 2NT || min
+|      | 3H  || 3*{H}, not 4*{S}, max, F
+|      | 3NT || max
+|===
+
+NOTE: two of responder's major showing a minimum allows us to stop low
+      on some invitations.
 
 [#_4th_suit_forcing]
 == Second-round jumps and fourth-suit forcing

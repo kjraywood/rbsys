@@ -17,7 +17,7 @@ _ not Q-ask,
 _ not K-ask +
 *Responses:* +
 @ trump-suit = no control +
-@ 3rd or 2nd below 6T +
+@ only-3rd or only-2nd below 6T +
 @ 2nd and 3rd above 6T
 
 == 2022-09-12
@@ -41,13 +41,6 @@ _ {S}-stopper, 3D showing {H}+m must
 _ include a {S} control +
 @ without a stopper responder will 
 _ will choose to play in {H}
-
-*NMF by a passed hand* +
-{ndash}
-<<system.adoc#_nmf_3rd_bid_by_opener,
-	*Opener's third bid*>> +
-@ up-the-line with a min +
-@ unbid major with a max
 
 == We Overcall
 
@@ -167,6 +160,13 @@ _ including fit-showing jumps
 <<system.adoc#_fourth_suit_at_the_4_level,
               *Fourth suit at the 4-level*>> +
 @ swap 3\S and 4\C after 1\S-2\H; 3\D
+
+*NMF by a passed hand* +
+{ndash}
+<<system.adoc#_nmf_3rd_bid_by_opener,
+	*Opener's third bid*>> +
+@ up-the-line with a min +
+@ unbid major with a max
 
 <<system.adoc#_following_a_superaccept,
 *1NT {blueRarrow} transfer {blueRarrow} super-accept*>> +
