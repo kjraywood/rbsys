@@ -1019,6 +1019,9 @@ then 5NT is used to show the king in that suit
 [#_specific_suit_asking]
 === Specific-Suit Asking
 
+Purpose::
+   To discover 2nd and 3rd-round controls in a specific suit
+
 [lavender-box]#Used as grand-slam investigation and guarantees that
                all key-cards and the trump-queen are held#
 
@@ -1040,11 +1043,15 @@ SSA bid = not trump-suit, not Q-ask, not K-ask
 
 &Responses&
 
-Disregard ace because it is known {implies} AQx has same response as
-Qxx; only 3rd-round control.
+#Treat the ace as a small card because it is known# +
+{implies} AQx is the same as Qxx; only 3rd-round control.
 
 Responses depend on number of steps between the SSA bid and 6T (six of
 the trump suit).
+
+With 2nd and 3rd-round control, reponder distinguishes between
+high-card and shortness.
+This can allow finding 7NT.
 
 *All cases:* +
 @ trump-suit = no control +
@@ -1077,9 +1084,6 @@ _i.e._{thinsp} we bid as though the double did not occur.
 
 ==== D0P1 below Five of our Trump-Suit
 
-[orange-box]#The system here has been changed WITHOUT partnership
-             agreement.  It now follows the Kantar RKC book.#
-
 We show what we have immediately in case there is further
 interference.
 
@@ -1093,7 +1097,8 @@ interference.
 TIP: The responses are similar to exclusion
      (0, 1, 2{OrLess}, 2{OrMore}, 3{OrLess}, ...)
 
-[lavender-box]#Following pass=1, asker's double is penalty; not a Q-ask.#
+[lavender-box]#Following pass=1, asker's double is PENALTY; not a
+               Q-ask.#
 
 A spare step below five of our-trump-suit is the Q-ask.
 
