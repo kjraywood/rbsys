@@ -149,6 +149,70 @@ No other options for opener
 
 Same scheme applies to strong-with-diamonds
 
+[#_mexican_both_minors]
+=== Both Minors
+
+==== Slam-Invitational
+
+Responder starts with 2NT forcing 3C, then bids 3D.
+
+TIP: The follow-ups are the same as after 1NT{ndash}3\D
+
+Opener uses lower-for-lower in the majors to show a medium or good
+hand for the corresponding minor.
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+4+^| Both minors & slammish after Mex. 2\D
+
+| !2D! | !2NT! || forces 3C
+|  3C  | !3D!  || both minors, slam-inv.
+|  ?   |       ||
+| !3H! |    2+<| medium or good, trump = {C} +
+                 > 4C = opt m/wood +
+     {emsp}{thinsp}4M = exclusion
+| !3S! |    2+<| medium or good, trump = {D} +
+                 > 4D = opt m/wood +
+     {emsp}{thinsp}4M = exclusion
+| 3NT  |    2+<| bad for minor-suit slam +
+               > #5C = pass or correct#
+|===
+
+==== Moderate or Slam-Drive
+
+Moderate = invites 11-trick game, hence around 6{ndash}8
+
+Opener must pick a minor and also indicate whether accepting or declining
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+4+^| Both minors & moderate or slam-drive
+
+| !2D! | !3NT! || both minors
+           [nobr]#{ndash} moderate or slam-drive#
+|  ?   |||
+| !4C! |   2+<| decline, trump = {C} +
+                > P = to play +
+    {emsp}{thinsp}4D = kickback +
+    {emsp}{thinsp}4M = exclusion
+| !4D! |   2+<| decline, trump = {D} +
+                > P = to play +
+    {emsp}{thinsp}4H = kickback +
+    {emsp}{thinsp}4S = exclusion +
+    {emsp}{thinsp}##4NT = exclusion of {H}##
+| !4H! |   2+<| accept, trump = {C} +
+                > 4S = kickback +
+    {emsp}{thinsp}##4NT = forces 5C, sign-off## +
+    {emsp}{thinsp}5M = exclusion
+| !4S! |   2+<| accept, trump = {D} +
+                > 4NT = kickback +
+    {emsp}{thinsp}5D = sign-off +
+    {emsp}{thinsp}5M = exclusion
+|===
+
+NOTE: When opener bids 4H to accept the game-inv and set clubs as trump,
+      4NT forces 5C to make opener the declarer .
+
 [#_interference_with_mexican_2d]
 === Interference with Mexican-2D
 
