@@ -45,9 +45,13 @@ _ = weakest action
 
 == Other Defensive Bidding
 
-<<system.adoc#_klinger, *When Klinger is 2\H or lower*>> +
-@ 2NT = {LRplus} of lower-suit +
-@ cue = {LRplus} of higher-suit +
+<<system.adoc#_klinger, *Klinger*>> +
+@ *when Klinger-bid is 2\H or lower* +
+{emsp}{vright} 2NT = {LRplus} of lower-suit +
+{emsp}{vright} cue = {LRplus} of higher-suit +
+@ *when Klinger-bid is 2\S or higher* +
+{emsp}{vright} 2NT or cue = strength ask +
+{emsp}{vert} {tribull} step-1 = weak, step-2 = med, ...
 
 <<system.adoc#_3nt_overcall_of_three_minor,
               *3NT overcalls of 3-level preempts*>> +
@@ -160,8 +164,8 @@ _ including fit-showing jumps
 <<system.adoc#_nmf_by_passed_hand,
 *NMF by a passed hand*>> +
 @ *Opener's third bid* +
-{emsp}{thinsp}{vright} up-the-line with a min +
-{emsp}{thinsp}{vright} unbid major with a max
+{emsp}{vright} up-the-line with a min +
+{emsp}{vright} unbid major with a max
 
 <<system.adoc#_following_a_superaccept,
 *1NT {blueRarrow} transfer {blueRarrow} super-accept*>> +
@@ -174,11 +178,11 @@ _ secondary values
 @ 3S = both minors, slam inv.{OrMore} +
 @ 3NT = to play +
 @ 4C = opt m/wood for {D} +
-{emsp}{thinsp}{vright} 4D = like {D} +
-{emsp}{thinsp}{vert} {tribull} kickback or exclusion +
-{emsp}{thinsp}{vright} other = KC response +
-{emsp}{thinsp}{vert} {tribull} cheapest {C} bid = re-transfer +
-{emsp}{thinsp}{vert} {emsp}{thinsp} unless it is Q-ask
+{emsp}{vright} 4D = like {D} +
+{emsp}{vert} {tribull} kickback or exclusion +
+{emsp}{vright} other = KC response +
+{emsp}{vert} {tribull} cheapest {C} bid = re-transfer +
+{emsp}{vert} {emsp}{thinsp} unless it is Q-ask
 
 <<system.adoc#_transfer_responses_to_2c,
               *Transfer responses to a 2\C-opening*>> +
