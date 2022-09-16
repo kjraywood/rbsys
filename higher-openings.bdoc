@@ -175,7 +175,10 @@ hand for the corresponding minor.
                  > 4D = opt m/wood +
      {emsp}{thinsp}4M = exclusion
 | 3NT  |    2+<| bad for minor-suit slam +
-               > #5C = pass or correct#
+       	       {vright} 4C, 4D = nat., 6-cd suit, F +
+	       {vert} {emsp} {emsp} {ensp} #(NOT opt m/wood)# +
+               {vright} 4M = 3-cd suit, NF +
+               {corner} #5C = pass or correct#
 |===
 
 ==== Moderate or Slam-Drive
