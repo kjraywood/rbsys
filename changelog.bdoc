@@ -46,10 +46,10 @@ _ = weakest action
 == Other Defensive Bidding
 
 <<system.adoc#_klinger, *Klinger*>> +
-@ *when Klinger-bid is 2\H or lower* +
+@ #**when Klinger-bid is 2\H or lower**# +
 {emsp}{vright} 2NT = {LRplus} of lower-suit +
 {emsp}{vright} cue = {LRplus} of higher-suit +
-@ *when Klinger-bid is 2\S or higher* +
+@ #**when Klinger-bid is 2\S or higher**# +
 {emsp}{vright} 2NT or cue = strength ask +
 {emsp}{vert} {tribull} step-1 = weak, step-2 = med, ...
 
