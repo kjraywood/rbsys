@@ -802,7 +802,7 @@ majors.
 
 This is what we use after [lightgrey-box]#1NT (2NT)# .
 
-Pass with both minors
+Pass with both minors +
 > a subsequent double is penalty
 
 Double shows values but not both minors +
@@ -819,7 +819,7 @@ NOTE: Subsequent doubles are takeout because we have not established
 | !3C! || both majors, 5{ndash}5 or weak 5{ndash}6
 | !3D! || hearts
 | !3H! || spades
-|  3S  || 6*{S}, 4*{H}
+|  3S  || [lavender-bg]#{thinsp}6*{S}, 4*{H}{thinsp}#
 | 3NT  || to play
 | !4C! || both majors, 6{ndash}6 or strong 5{ndash}6
 | !4D! || hearts
