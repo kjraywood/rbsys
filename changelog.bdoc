@@ -2,33 +2,11 @@
 
 :sectnums!:
 
-== 2022-09-14
+== Mexican 2\D Opening
 
 <<system.adoc#_mexican_both_minors,
-             *Mexican 2\D {ndash} Both Minors*>> +
+             *Responding to Mexican 2\D with both Minors*>> +
 
-== 2022-09-13
-
-<<system.adoc#_kc_responses, *Key-Card Responses*>> +
-@ #K-ask does NOT promise all KCs# +
->> with extras, teller bids 6NT
-__ not 7T +
-@ after Q-ask, cheapest non-trump
-_ = Q but no side kings
-
-<<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
-@ SSA bid = not trump-suit,
-_ not Q-ask,
-_ not K-ask +
-*Responses:* +
-@ trump-suit = no control +
-@ only-3rd or only-2nd below 6T +
-@ 2nd and 3rd above 6T
-
-== 2022-09-12
-
-*Mexican 2\D Opening* +
-{ndash}
 <<system.adoc#_mexican_and_strong_minor,
           *Strong Single-Suited Minor*>> +
 Opener bids: +
@@ -37,21 +15,19 @@ Opener bids: +
 @ 4m = good for m
 >> kickback or exclusion
 
-*Mexican 2\D Opening* +
-{ndash}
 <<system.adoc#_mex_vs_double_of_2s_response,
           *Vs double of 2S response*>> +
 @ Opener's redouble = no {S}-stopper +
 >> 3D = {H}+m #with {S} control# +
 >> With {H}+m but no {S} control,
-__ responder chooses {H}
+__ responder bids {H}
 
 == We Overcall
 
 <<system.adoc#_one_major_overcalls,
 	*Advancing 1M overcall vs raise*>> +
 @ 2NT = 3 or 4-cd LR +
-@ #3-level cue = mixed raise#
+@ #3-level cue = mixed or GF raise#
 
 *Vs neg. double of our overcall* +
 @ <<system.adoc#_suit_overcalls, *honour redouble @ 1-level*>> +
@@ -127,6 +103,22 @@ _ <<system.adoc#_vs_unusual_2nt_opening, *vs Unusual-2NT opening*>>
 @ re-raise of 3m to 4m after agreement +
 @ raise of an invitational 3m to 4m
 
+<<system.adoc#_kc_responses, *Key-Card Responses*>> +
+@ #K-ask does NOT promise all KCs# +
+>> with extras, teller bids 6NT
+__ not 7T +
+@ after Q-ask, cheapest non-trump
+_ = Q but no side kings
+
+<<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
+@ SSA bid = not trump-suit,
+_ not Q-ask,
+_ not K-ask +
+*Responses:* +
+@ trump-suit = no control +
+@ only-3rd or only-2nd below 6T +
+@ 2nd and 3rd above 6T
+
 <<system.adoc#_minorwood_in_comp, *Minorwood in comp.*>> +
 @ Jump to 4m after a cue-bid raise +
 
@@ -165,12 +157,11 @@ _ including fit-showing jumps
               *Fourth suit at the 4-level*>> +
 @ swap 3\S and 4\C after 1\S-2\H; 3\D
 
-*NMF by a passed hand* +
-{ndash}
-<<system.adoc#_nmf_3rd_bid_by_opener,
-	*Opener's third bid*>> +
-@ up-the-line with a min +
-@ unbid major with a max
+<<system.adoc#_nmf_by_passed_hand,
+*NMF by a passed hand*>> +
+@ *Opener's third bid* +
+{emsp}{thinsp}{vright} up-the-line with a min +
+{emsp}{thinsp}{vright} unbid major with a max
 
 <<system.adoc#_following_a_superaccept,
 *1NT {blueRarrow} transfer {blueRarrow} super-accept*>> +
