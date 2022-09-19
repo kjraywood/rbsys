@@ -903,44 +903,92 @@ NOTE: Subsequent doubles are penalty because 1NT-(2NT)-X
       not established the balance of power, so our next double is
       take-out.
 
-=== Vs 3m
+[#_vs_3c_interference_with_1nt]
+=== Vs 3\C
 
-{caution} Uncommon system
+TIP: {simto} System ON
 
-@ #3{lab}unbid-suit{rab} = NF# +
-@ 4-level bids = [lavender-bg]#non-leaping-Michaels#
+@ negative double +
+@ single-suiters without jump +
+@ jumps are two suiters with
+_ Texas t'fer to M = M + {D} +
+{emsp}{vright} 4C = majors +
+{emsp}{corner} 4D,4H = [lavender-bg]#transfer to M + {D}# 
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|      || 1NT | (3m)
+|      || 1NT | (3C)
 |  ?   |||
 |  X   ||| negative
-3+<| 3{lab}unbid-suit{rab} <| #NF#, competitive
+3+<| 3D,3H <| GF transfer +
+              > 3NT = stopper, no fit
+| 3S   ||| #DIAMONDS#, GF
 | 3NT  ||| to play +
-| !4C! ||| #om + unknown M#
-| !4D! ||| #both majors#
-3+<| 4H,4S <| to play
+| !4C! ||| #both majors#
+| !4D! ||| #HEARTS + DIAMONDS#
+| !4H! ||| #SPADES + DIAMONDS#
+| 4S   ||| quant (after Mex. 2D)
 | 4NT  ||| natural (quant.)
 |===
 
-=== Vs 3M
+[#_vs_3d_interference_with_1nt]
+=== Vs 3\D
 
-@ [lavender-bg]#Non-leaping Michaels# +
-@ 4NT = natural
-
-NOTE:  *When they !open! 3M:* +
-       @ 4M = both minors strong +
-       @ 4NT = both minors weak
+@ negative double +
+@ [lavender-bg]#SWAP MAJORS @ 3-level# +
+@ two-suiters @ 4-level +
+{emsp}{vright} 4C = majors +
+{emsp}{corner} 4D,4H = [lavender-bg]#transfer to M + {C}# +
+@ 4S = CLUBS
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-|      || 1NT | (3M)
+|      || 1NT | (3D)
 |  ?   |||
 |  X   ||| negative
-3+<| 3{lab}unbid-suit{rab} <| #NF#, competitive
+| 3H   ||| #SPADES, GF#
+| 3S   ||| #HEARTS, GF#
+| 3NT  ||| to play +
+| !4C! ||| #both majors#
+| !4D! ||| #HEARTS + CLUBS#
+| !4H! ||| #SPADES + CLUBS#
+| !4S! ||| [lavender-bg]#CLUBS#
+| 4NT  ||| natural (quant.)
+|===
+
+NOTE:  Could swap 4S and 4NT after Mex. 2D
+
+[#_vs_3major_interference_with_1nt]
+=== Vs 3M
+
+@ other major shown by Texas +
+@ [lavender-bg]#bidding spades = minors# +
+@ other bids show minor + oM
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|      || 1NT | (3H)
+|  ?   |||
+|  X   ||| negative
+| 3S   ||| minors +
+           (could be looking for 3NT)
 | 3NT  ||| to play
-| !4m! ||| #m + oM#
-| 4oM  ||| to play
-| 4M   ||| both minors, decent hand
+| !4C! ||| CLUBS + SPADES
+| !4D! ||| DIAMONDS + SPADES
+| !4H! ||| SPADES (Texas)
+| 4S   ||| both minors, decent hand
+| 4NT  ||| #natural, inv.#
+|===
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|      || 1NT | (3S)
+|  ?   |||
+|  X   ||| negative
+| 3NT  ||| to play
+| !4C! ||| CLUBS + HEARTS
+| !4D! ||| HEARTS (Texas)
+| !4H! ||| DIAMONDS + HEARTS
+| 4S   ||| both minors, decent hand
 | 4NT  ||| #natural, inv.#
 |===
