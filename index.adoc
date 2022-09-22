@@ -116,25 +116,27 @@
             Balancing 1NT>> +
 {nbsp} 46. <<system.adoc#_other_balancing_bids,
             Other Balancing Bids>> +
-{nbsp} 47. <<system.adoc#_defence_to_preempts,
+{nbsp} 47. <<system.adoc#_they_bid_and_raise,
+            They Bid and Raise>> +
+{nbsp} 48. <<system.adoc#_defence_to_preempts,
             Defence to Preempts>> +
-{nbsp} 48. <<system.adoc#_kastro_vs_nt,
+{nbsp} 49. <<system.adoc#_kastro_vs_nt,
             KASTRO vs NT>> +
-{nbsp} 49. <<system.adoc#_defence_to_transfers,
+{nbsp} 50. <<system.adoc#_defence_to_transfers,
             Defence to Transfers>> +
-{nbsp} 50. <<system.adoc#_vs_other_artificial_bids,
+{nbsp} 51. <<system.adoc#_vs_other_artificial_bids,
             Vs other artificial bids>> +
 
 <<system.adoc#_leads_and_carding, *Leads and Carding*>> +
-{nbsp} 51. <<system.adoc#_leads_vs_suits,
+{nbsp} 52. <<system.adoc#_leads_vs_suits,
             Opening Leads vs Suits>> +
-{nbsp} 52. <<system.adoc#_leads_vs_notrump,
+{nbsp} 53. <<system.adoc#_leads_vs_notrump,
             Opening Leads vs NoTrump>> +
-{nbsp} 53. <<system.adoc#_signalling,
+{nbsp} 54. <<system.adoc#_signalling,
             Signalling>> +
-{nbsp} 54. <<system.adoc#_discards,
+{nbsp} 55. <<system.adoc#_discards,
             Discards>> +
-{nbsp} 55. <<system.adoc#_special_defence_situations,
+{nbsp} 56. <<system.adoc#_special_defence_situations,
             Special Defence Situations>> +
 
 // '''
