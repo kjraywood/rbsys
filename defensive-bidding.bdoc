@@ -577,6 +577,27 @@ The 1NT responder usually has clubs here, so 2C is like a 2-suited cue-bid.
 Showing both majors is the most valuable meaning.
 As before, reopener is limited by the failure to act on the previous round.
 
+[#_they_bid_and_raise]
+== They Bid and Raise
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|       | (1H) | P {ensp} (2H)
+|  ?    |      |
+| !2NT! |      | minors
+|  X    |      | 3-suit take-out +
+                 > 2NT = scramble{blueRarrow}minor
+|===
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|       | (1S) | P {ensp} (2S)
+|  ?    |      |
+| !2NT! |      | {C} + {D} {or} {D} + {H}
+|  X    |      | 3-suit-take-out {or} {C} + {H} +
+                 > 2NT = scramble or Leb{blueRarrow}{H}
+|===
+
 == Defence to Preempts
 
 @ Double = take-out thru 4S +
