@@ -2,11 +2,12 @@
 
 :sectnums!:
 
-== 2022-09-18
+== 2022-09-21
 
-<<system.adoc#_vs_3c_interference_with_1nt, *1NT-(3\C)-?*>> +
-<<system.adoc#_vs_3d_interference_with_1nt, *1NT-(3\D)-?*>> +
-<<system.adoc#_vs_3major_interference_with_1nt, *1NT-(3M)-?*>>
+<<system.adoc#3rdSF_1d_1s_2d_2h,
+	*1\D-1\S{semicolon} 2\D-2\H{semicolon} ?*>> +
+@ 3C = max, 4*{H} +
+@ max w/o {C}-stopper must lie
 
 == Mexican 2\D Opening
 
@@ -101,6 +102,8 @@ _ = natural
 @ two levels of Landy &amp; transfers +
 @ also after Mexican-2D and
 _ <<system.adoc#_vs_unusual_2nt_opening, *vs Unusual-2NT opening*>>
+
+<<system.adoc#_vs_3c_interference_with_1nt, *1NT-(3{lab}suit{rab})-?*>> +
 
 == Key-Card asking
 
