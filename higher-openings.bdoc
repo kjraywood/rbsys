@@ -641,9 +641,12 @@ __ {nbsp}{ndash}{nbsp} Danny Kleinman
 |===
 | !2D! || weak or waiting
 |  2H  || natural positive, any suit-quality
-|  2NT || bal 8{orMore}{ndash}11 (or 14{OrMore})
-|  3NT || bal 12{ndash}13, forcing to 4NT
+|  2NT || bal 8{orMore}{ndash}11
 |===
+
+****
+With stronger balanced hands responder starts with 2D.
+****
 
 [#_transfer_responses_to_2c]
 === Transfer responses
