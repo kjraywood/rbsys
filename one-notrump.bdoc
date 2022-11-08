@@ -956,7 +956,7 @@ _ Texas t'fer to M = M + {D} +
 | 4NT  ||| natural (quant.)
 |===
 
-NOTE:  Could swap 4S and 4NT after Mex. 2D
+NOTE:  Swap 4S and 4NT after Mex. 2D opening
 
 [#_vs_3major_interference_with_1nt]
 === Vs 3M
@@ -970,8 +970,8 @@ NOTE:  Could swap 4S and 4NT after Mex. 2D
 |      || 1NT | (3H)
 |  ?   |||
 |  X   ||| negative
-| 3S   ||| minors +
-           (could be looking for 3NT)
+| 3S   ||| requests !H stopper NT +
+           > w/o stopper, opener picks best minor
 | 3NT  ||| to play
 | !4C! ||| CLUBS + SPADES
 | !4D! ||| DIAMONDS + SPADES

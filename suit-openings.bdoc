@@ -8,18 +8,21 @@
 |===
 |       ^| Unpassed   ^| Passed
 
-| 1H {ndash} 2S   | Jacoby       | #fit showing#
+| 1H {ndash} 2S   | Jacoby      | #fit showing#
 | 1S {ndash} 2NT  | Jacoby      | minors, inv.
 | 1H {ndash} 2NT  | #{thinsp}mixed-raise{thinsp}#
                                 | minors, inv.
 | 1M {ndash} 3{lab}lower{rab}
-                  | natural inv. +
-                    > pass or force
+                  | #moderate inv.# +
+                    > new suit
+                    _ = forcing
 	                        | #fit showing#
-| 1M {ndash} 3M   | limit, incl. [nobr]#3*M + stiff# | weak
-| 1M {ndash} 3M+1 |  weak splinter, unspecified suit |
+| 1M {ndash} 3M   | limit       | weak
+| 1M {ndash} 3M+1 |  weak splinter, unspecified{nbsp}suit |
 | 1H {ndash} 3NT  | spade splinter |
 |===
+
+// LR could include incl. [nobr]#3*M + stiff# ??
 
 === Game and slam tries after a single raise
 
@@ -150,16 +153,16 @@ With a limit-raise, responder shows the location of secondary values.
 |  3S  |      | LR, most values in trump
 |===
 
-=== Semi-Forcing 1NT
+// === Forcing 1NT
 
-==== Opener's rebid
+// ==== Opener's rebid
 
-@ 2D almost always at least four +
-@ 3*{D} only with 4-5-3-1
-_ & poor hearts (no 2H rebid)
-_ & {simto} 14-16{thinsp}HCP (no pass or 2S) +
-@ 2C usually four,
-_ occasionally three or even two
+// @ 2D almost always at least four +
+// @ 3*{D} only with 4-5-3-1
+// _ & poor hearts (no 2H rebid)
+// _ & {simto} 14-16{thinsp}HCP (no pass or 2S) +
+// @ 2C usually four,
+// _ occasionally three or even two
 
 // To reduce the frequency of a short-club rebid: +
 // @ open 1NT with (53)(32), 14{thinsp}HCP,
@@ -167,7 +170,9 @@ _ occasionally three or even two
 // @ rebid 2H with 4-5-2-2, decent hearts,
 // _ and 14-16{thinsp}HCP
 
-==== Impossible two spades
+=== Impossible two spades
+
+==== After 1\H {ndash} 2m
 
 @ values for 2NT (11-12{thinsp}HCP)
 @ #8{OrMore}-card fit for last-bid suit#
@@ -207,7 +212,7 @@ two-card support; _i.e._{thinsp} an 8-card fit unless opener rebid a
 |===
 
 [#after-inv-2nt]
-==== After an invitational 2NT
+=== After an invitational 2NT
 
 @ old suit = NF
 @ unbid major = 3-card fragment, GF +
@@ -221,7 +226,7 @@ _ GF
 |  3H  |  2+<| 3*{H}, GF
 |===
 
-===== Both majors
+==== Both majors
 
 With both majors, opener always shows hearts on the second round, even
 with a minimum 6{ndash}4.
@@ -250,7 +255,7 @@ with a minimum 6{ndash}4.
 !===
 |===
 
-===== Major + minor
+==== Major + minor
 
 To show 5*M + 5*m with extras, opener uses the new-minor relay then
 rebids 3NT.
@@ -265,7 +270,7 @@ rebids 3NT.
 |===
 
 [#_gf_rebids_after_sf_1nt]
-=== GF Rebids after semi-forcing 1NT
+=== GF Rebids after forcing 1NT
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -500,7 +505,7 @@ the 3-level are GF and follow the same scheme as after 1m{ndash}2NT.
 
 TIP: Using a relay to show GF values opposite 11{ndash}12 is also used
      by opener <<#after-inv-2nt, when responder rebids 2NT following a
-     semi-forcing-1NT>>.
+     forcing-1NT>>.
 
 == Jump Rebids by Opener
 
