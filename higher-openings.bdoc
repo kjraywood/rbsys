@@ -421,11 +421,11 @@ Regular Stayman and non-jump Smolen.
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 2NT |  ?   ||
-|| [lavender-bg]#!!3C!!# || Stayman or #club-single-suiter# +
+|     | !3C! || Stayman or #club-single-suiter# +
 2+>| !3D!,!3H! | <| transfers
 |     | !3S! || both minors, slam inv.{OrMore}
-|| [lavender-bg]#3NT#  || #to play#
-|| [lavender-bg]#!!4C!!# || #transfer to DIAMONDS#
+|     |  3NT || #to play#
+|     | !4C! || #transfer to DIAMONDS#
 2+>| !4D!,!4H! | <| Texas transfers
 |     | !4S! || quant. with interest in 4-4 fit
 |     | 4NT  || quant.
@@ -440,16 +440,19 @@ four-card major, opener must show both majors at once.
 |===
 | 2NT  | !3C! |
 |  ?   |      |
-| !3D! |      | no four-card major
+| !3D! |      | no four-card major +
+                {vright} 3M = Smolen +
+                {corner} 4C = optional minorwood
 | 3M   |      | 4*M, not 4*oM +
-                > 4C = optional minorwood
-| 3NT  |      | 4{ndash}4 majors, min. +
-                > 4C = optional minorwood +
-                _ {nbsp}4D, 4H = transfer
-| !4C! |      | 4{ndash}4 majors, max. +
-                > 4D, 4H = transfer +
-		_ [lavender-bg]#4S# = #KC asking for {C}# +
-		_ {nbsp}4NT,5C = nat. slam-inv. with {C}
+                {vright} non-jump oM = agrees M +
+                {corner} 4C = optional minorwood
+| 3NT  |      | 4{ndash}4 majors +
+                {vright} 4C = optional minorwood +
+                {corner} 4D, 4H = transfer
+// | !4C! |      | 4{ndash}4 majors, max. +
+//                 > 4D, 4H = transfer +
+// 		_ [lavender-bg]#4S# = #KC asking for {C}# +
+// 		_ {nbsp}4NT,5C = nat. slam-inv. with {C}
 |===
 
 ****
@@ -481,11 +484,11 @@ shortness with 5{ndash}5 in the minors.
 | 2NT | !3S! ||
 | 3NT |  ?   ||
 |     | 4m   || 5-card suit +
-                > #4NT = negative# +
-		_ [lavender-bg]#Other = KCs#
+                {vright} 4NT = negative +
+		{corner} #Other = KC-showing#
 |     | !4M! || shortness +
-                > #4NT = negative# +
-		_ [lavender-bg]#5m = positive#
+                {vright} 4NT = negative +
+		{corner} #5m = positive#
 |===
 
 [#_2nt_4c]
@@ -501,9 +504,9 @@ This allows responder to use exclusion when opener likes diamonds.
 | 2NT  | !4C! |
 |  ?   |      |
 | !4D! |      | #good for diamonds# +
-                > 4H = kickback +
-		_ {nbsp}4{S}, 5C = exclusion +
-		_ {nbsp}4NT = exclusion of {H}
+                {vright} 4H = kickback +
+		{vright} 4{S}, 5C = exclusion +
+		{corner} 4NT = exclusion of {H}
 2+<| !4H!, !4S! +
      !4NT!, !5C!
    <| KC responses,  poor for diamonds
@@ -573,8 +576,8 @@ _ = KC for responder's higher-ranking suit
 | ?   |      |
 | 4D  |      | no {H} fit, minimum for {D}
 | 4H  |      | preference for {H}
-| [lavender-bg]#4S#  || #KC for {D}#
-| [lavender-bg]#4NT# || #KC for {H}#
+| 4S  |      | #KC-asking in {D}#
+| 4NT |      | #KC-asking in {H}#
 |===
 
 === Transfer to Spades
@@ -609,8 +612,8 @@ _ = KC for responder's higher-ranking suit
 | 2NT | !3H! |
 | 3S  | 4C |
 | ?   |    |
-| 4D  |    | KC for {C}
-| [lavender-bg]#4H# || #KC for {S}#
+| 4D  |    | KC-asking in {C}
+| 4H  |    | #KC-asking in {S}#
 | 4S  |    | preference for {S}
 | 4NT |    | negative
 |===
