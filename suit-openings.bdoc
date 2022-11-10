@@ -10,16 +10,15 @@
 
 | 1H {ndash} 2S   | Jacoby      | #fit showing#
 | 1S {ndash} 2NT  | Jacoby      | minors, inv.
-| 1H {ndash} 2NT  | #{thinsp}mixed-raise{thinsp}#
+| 1H {ndash} 2NT  | #{thinsp}mixed raise{thinsp}#
                                 | minors, inv.
 | 1M {ndash} 3{lab}lower{rab}
                   | #natural, 6{ndash}8# +
                     > new suit
                     _ = forcing
 	                        | #fit showing#
-| 1M {ndash} 3M   | limit       | weak
-| 1M {ndash} 3M+1 |  weak splinter, unspecified{nbsp}suit |
-| 1H {ndash} 3NT  | spade splinter |
+| 1M {ndash} 3M   | limit raise | weak raise
+| 1M {ndash} 3NT  | 3{cdot}3{cdot}(3{cdot}4), 16{ndash}17  |
 |===
 
 // LR could include incl. [nobr]#3*M + stiff# ??
@@ -305,6 +304,7 @@ _ (see <<#_2nt_response_to_one_minor, *1m{ndash}2NT*>>) +
 _ 2wCB and  4th-suit-F1 auctions +
 @ Prevents 4th-hand from bidding ONE MAJOR.
 
+[#_minor_suit_raises]
 === Unpassed Raises
 
 ****
@@ -316,13 +316,14 @@ because when opener has a non-minimum, the aim will be to play 3NT.
 |===
 | Description        | HCP    | Bid
 
-| very-weak  |  0 {ndash}  4 | [green]#*Pass*# or *4m*
-| weak-mixed |  5 {ndash}  7 | *3m*
-| good-mixed |  8 {ndash}  9 | [blue]#*2*#{S}
+| very weak  |  0 {ndash}  4 | [green]#*Pass*# or *4m*
+| weak mixed |  5 {ndash}  7 | *3m*
+| good mixed |  8 {ndash}  9 | [blue]#*2*#{S}
 | LR         | 10 {ndash} 11 | [blue]#*2*#{S}
 | GF         | 12{OrMore}    | *2m*
 |===
 
+[#_one_minor_two_spades]
 ==== 1m {ndash} 2S
 
 To sort out the wide-range of 2S, it is forcing to 3m.
@@ -341,7 +342,7 @@ To sort out the wide-range of 2S, it is forcing to 3m.
 			        = 10{ndash}11, #shortness# +
 			 {emsp} *3NT* = 10{ndash}11, no shortness
 | [.bold.green]#3C#  ||| natural, usually non-minimum, F1
-| [.bold.orange]#3D# ||| sign-off, even if responder has max
+| [.bold.orange]#3D# ||| sign-off
 | *3M*               ||| GF, values
 |===
 

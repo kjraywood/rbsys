@@ -16,19 +16,23 @@
 * <<#_responding_to_one_club, responding to 1C>>: criteria for
   bypassing diamonds based on anticpating the auction
 
-* <<#_inverted_minors, inverted minors>> by unPH, single-raise = GF,
-   jump-raise = 5{ndash}7, 2S = 8{ndash}11 & forcing to 3m
-
 * <<#_2nt_response_to_one_minor, traditional NT ranges>>:{nbsp}
   2NT = 13-15 or 18{OrMore} +
   > opener shows shortness,
   _ except [lightgrey-bg]#`1D-2NT; 3C`# = natural 2nd-suit
 
-* <<#_balanced_inv_after_one_minor, 2H = balanced 11{ndash}12>>
-  > 2S {forces} 2NT
+* <<#_balanced_inv_after_one_minor, 2\H = balanced 11{ndash}12>> +
+  > 2S forces 2NT
 
-* jump-shift other-minor = natural inv, traditional follow-ups
-  after one-suited inv.
+* jump-shift other-minor = natural inv +
+  > opener can pass or force
+
+* <<#_minor_suit_raises, inverted minors>> by unPH, single-raise = GF,
+   jump-raise = 5{ndash}7
+
+* <<#_one_minor_two_spades, 2\S = 8{ndash}11>>, forcing to 3m +
+  > 2NT asks for strength +
+  {emsp}{corner} responder shows shortness with max
 
 === Responses to major opening
 
@@ -44,7 +48,7 @@
 
 * <<#_nebulous_two_clubs, Nebulous Two Clubs>> +
   > next-step below 2NT = nebulous +
-  _ {implies} we get up to two nebulous bids each
+  {emsp} {implies} up to two nebulous-bids each
 
 * <<#_schuler_shift, Schuler Shift>> after 1M{ndash}2D or 1S{ndash}2H
 
