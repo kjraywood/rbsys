@@ -6,6 +6,8 @@ Jump raise = weak
 
 Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
+After 1M, the lower of 2NT and JS in other-major is a limit raise and the higher is a mixed raise.
+
 [#_js_vs_take_out_double]
 === Jump Shifts vs Take-Out Double
 
@@ -13,11 +15,17 @@ Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
 @ minor {blueRarrow} other minor = {LRplus}
 
-@ minor {blueRarrow} major = weak
+@ [lightgrey-bg]#`1H (X) 2S`# = limit raise +
+@ [lightgrey-bg]#`1H (X) 2NT`# = mixed raise
 
-@ major {blueRarrow} minor = natural inv.
+@ [lightgrey-bg]#`1S (X) 3H`# = mixed  raise +
+@ [lightgrey-bg]#`1S (X) 2NT`# = limit raise
 
-@ [lavender-bg]#major {blueRarrow} other major = mixed raise#
+@ [lightgrey-bg]#`1m (X) 2M`# = natural, weak +
+@ [lightgrey-bg]#`1M (X) 3m`# = natural, weak
+
+TIP: [lightgrey-bg]#`1H (P) 2NT`#, [lightgrey-bg]#`1H (X) 2NT`# and
+     [lightgrey-bg]#`1H (1S) 2NT`# all show a mixed raise
 
 &Passed Hand&
 
