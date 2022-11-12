@@ -25,8 +25,7 @@ limit-raise and the higher is a mixed raise.
 @ [lightgrey-bg]#`1m (X) 2M`# = natural, weak +
 @ [lightgrey-bg]#`1M (X) 3m`# = natural, weak
 
-TIP: [lightgrey-bg]#`1H (P) 2NT`#, [lightgrey-bg]#`1H (X) 2NT`# and
-     [lightgrey-bg]#`1H (1S) 2NT`# all show a mixed raise
+TIP: `1H-(P)-2NT`, `1H-(X)-2NT` and `1H-(1S)-2NT` all show a mixed raise
 
 &Passed Hand&
 
@@ -69,13 +68,23 @@ _ [orange-bg]#{thinsp}splinter by PH ??{thinsp}#
 
 Forcing 1NT is OFF
 
-By PH: #3-way Reverse Drury is ON#
-
-@ 1M-(X)-1NT = 7-10 +
+@ 1NT = 7-10 +
 @ #3-card {LRplus} by unPH is included in XX# +
 @ [lavender-bg]#2NT and JS to oM = 4-card raise,# +
 _ [ lower = LR, higher = MR ] +
 @ 3NT = 4-card GF-raise
+
+****
+The LR bid includes GF hands that are two tricks stronger than a LR. +
+{implies}{ensp}``3NT`` = tight-range, mininum GF raise
+****
+
+
+*By PH:*{ensp}##3-way Reverse Drury is ON##
+
+****
+3-way Rev.-Drury is also on by PH after `1H{ndash}(1S)`
+****
 
 ==== Jump shift to minor
 
@@ -87,43 +96,6 @@ _ (same as uncontested) +
 
 @ new suit at 2-level = less than inv. +
 @ GF single-suiters are included in XX
-
-==== Game Forcing Splinters
-
-#3M + 1 showing an unspecified weak-splinter is OFF#
-
-[%autowidth,cols="3*^.^",grid="cols"]
-|===
-|              | 1H-(P)          | 1H-(X)
-
-h| 3S           | weak{nbsp}splinter +
-                 in{nbsp}any{nbsp}suit
-		                 | splinter
-h| 3NT          | splinter in {S} | bal. game-raise
-h| 4C, 4D       | splinter        | splinter
-|===
-
-==== Summary of Four-Card Raises
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| 1M | (X) |  ?    ||
-|    |     |  3M   || weak
-|    |  2+<| JS oM <| mixed raise
-|    |     | !2NT! || LR or strong GF-raise {biglowast}
-|    |     | !3NT! || bal or semi-bal., 12-14
-|===
-
-****
-{biglowast}{ensp}2NT includes GF hands that are not suitable
-_ for 3NT or a splinter
-****
-
-3-way Rev.-Drury by PH is ON
-
-****
-3-way Rev.-Drury is also on after 1H{ndash}(1S)
-****
 
 === Redouble of opp's take-out double
 
