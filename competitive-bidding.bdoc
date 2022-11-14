@@ -6,7 +6,7 @@ Jump raise = weak
 
 Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
-After 1M, the lower of 2NT and JS in other-major is a 4-card
+After 1M, the lower of 2NT and JS-to-other-major is a 4-card
 limit-raise and the higher is a mixed raise.
 
 [#_js_vs_take_out_double]
@@ -25,13 +25,13 @@ limit-raise and the higher is a mixed raise.
 @ [lightgrey-bg]#`1m (X) 2M`# = natural, weak +
 @ [lightgrey-bg]#`1M (X) 3m`# = natural, weak
 
-TIP: `1H-(P)-2NT`, `1H-(X)-2NT` and `1H-(1S)-2NT` all show a mixed raise
+TIP: `1H-(P)-2NT`, `1H-(X)-2NT`, and `1H-(1S)-2NT` all show a mixed raise
 
 &Passed Hand&
 
 @ minor {blueRarrow} other minor = LR
 
-[lavender-bg]#Others are all fit-showing#
+[lavender-bg]#All other jump-shifts are fit-showing#
 
 === 1m {ndash} (X)
 
@@ -70,13 +70,15 @@ Forcing 1NT is OFF
 
 @ 1NT = 7-10 +
 @ #3-card {LRplus} by unPH is included in XX# +
-@ [lavender-bg]#2NT and JS to oM = 4-card raise,# +
+@ [lavender-bg]#2NT and JS-to-oM = 4-card raise,# +
 _ [ lower = LR, higher = MR ] +
 @ 3NT = 4-card GF-raise
 
 ****
-The LR bid includes GF hands that are two tricks stronger than a LR. +
-{implies}{ensp}``3NT`` = tight-range, mininum GF raise
+
+The 4-card-LR bid includes hands that are two tricks stronger than a LR. +
+{implies}{ensp}``3NT`` = tight-range, mininum GF 4-card-raise
+
 ****
 
 
