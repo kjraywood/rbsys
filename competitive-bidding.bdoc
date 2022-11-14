@@ -280,10 +280,10 @@ Shows: +
 
 The 3rd bid in each of the following is a 2oM NFB.
 
-[lightgrey-box]#1m{emsp}(1{S}){emsp}2{H}#
-[lightgrey-box]#1{S}{emsp}(2m){emsp}2{H}#
-[lightgrey-box]#1m{emsp}(2{H}){emsp}2{S}#
-[lightgrey-box]#1{H}{emsp}(2m){emsp}2{S}#
+[lightgrey-box]#`1m{emsp}(1{S}){emsp}2{H}`#
+[lightgrey-box]#`1{S}{emsp}(2m){emsp}2{H}`#
+[lightgrey-box]#`1m{emsp}(2{H}){emsp}2{S}`#
+[lightgrey-box]#`1{H}{emsp}(2m){emsp}2{S}`#
 
 ==== Continuations
 
