@@ -479,13 +479,16 @@ If opener makes a negative response and responder is still interested
 in slam, then responder can show a five-card minor or identify
 shortness with 5{ndash}5 in the minors.
 
+For ease-of-memory, we treat a 4m bid as optional-minorwood
+
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 2NT | !3S! ||
 | 3NT |  ?   ||
-|     | 4m   || 5-card suit +
-                {vright} 4NT = negative +
-		{corner} #Other = KC-showing#
+|     | 4m   || 5-card suit, optional minorwood +
+                {vright} next-step = positive +
+                {vert} {corner} responder shows KCs +
+		{corner} Other = negative & KC-showing
 |     | !4M! || shortness +
                 {vright} 4NT = negative +
 		{corner} #5m = positive#
