@@ -582,30 +582,46 @@ Examples of scrambling 2NT follow those.
 
 *(a) You have already had a chance to compete*
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-| (1S) | Dbl | (2S) | P
-| (P)  | Dbl | (P)  | !2NT!
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+! (1S) ! Dbl ! (2S) ! P
+! (P)  ! Dbl ! (P)  ! !2NT!
+!===
 |===
 
 *(b) When you or partner has bid 1NT*
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-|      |     |     | 1NT
-| (2S) | Dbl | (P) | !2NT!
-|===
-
-[%autowidth,cols="4*^",grid="none"]
-|===
-|     | 1NT | (2S) | P
-| (P) | Dbl | (P)  | !2NT!
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+!      !     !     ! 1NT
+! (2S) ! Dbl ! (P) ! !2NT!
+!===
 |===
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-|      | 1D  | (1H) | 1NT
-| (2H) | Dbl | (P)  | !2NT!
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+!     ! 1NT ! (2S) ! P
+! (P) ! Dbl ! (P)  ! !2NT!
+!===
+|===
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+!      ! 1D  ! (1H) ! 1NT
+! (2H) ! Dbl ! (P)  ! !2NT!
+!===
 |===
 
 The 1NT bidder has a tight range, so we give up on invitational
@@ -619,31 +635,48 @@ uncontested auction.
 Since neither of us acted on the first round, we are unlikely
 to have game on power.
 
-[%autowidth,cols="4*^",grid="none"]
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-| (1H) | P   | (2H) | P
-| (P)  | Dbl | (P)  | !2NT!
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+! (1H) ! P   ! (2H) ! P
+! (P)  ! Dbl ! (P)  ! !2NT!
+!===
 |===
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-|      |     | (1NT) | P
-| (2C) | P   | (2S)  | P
-| (P)  | Dbl |  (P)  | !2NT!
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+!      !     ! (1NT) ! P
+! (2C) ! P   ! (2S)  ! P
+! (P)  ! Dbl !  (P)  ! !2NT!
+!===
 |===
 
 *(d) Pre-balancing auctions*
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-| (1C) | P   | (1S) | P
-| (2S) | Dbl | (P)  | !2NT!
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+! (1C) ! P   ! (1S) ! P
+! (2S) ! Dbl ! (P)  ! !2NT!
+!===
 |===
 
-[%autowidth,cols="4*^",grid="none"]
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
 |===
-| (1S) |  P    | (2S) | Dbl
-| (P)  | !2NT! |      |
+||
+[%autowidth,cols="4*^",grid="none",stripes=odd]
+!===
+! (1S) !  P    ! (2S) ! Dbl
+! (P)  ! !2NT! !      !
+!===
 |===
 
 Even though doubler may have a good hand on these auctions,
