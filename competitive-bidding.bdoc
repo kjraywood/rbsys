@@ -487,6 +487,7 @@ invitational.
 [#_2nt_in_comp]
 == 2NT in competitive auctions
 
+[#_leb_after_reopening_dble_of_2_level_overcall]
 === Simple Lebensohl after reopening double of their 2-level overcall
 
 Purpose::
@@ -520,23 +521,66 @@ Applies when::
   @ opps have bid to 2H or 2S +
   @ partner makes a take-out double +
   @ RHO passes +
-  @ the auction is not defined as Lebensohl
+  @ 2NT is not defined as natural or Lebensohl
 
 Shows::
   at least two places to play.
 
-****
-{reference}__Partnership Bidding at Bridge,__
-__ Robson and Segal,
-__ _pp. 194{ndash}198 of https://drive.google.com/file/d/1VC9QIbB7jXyM8sorFrzUzdXXdOAy-p2q/view[pdf file]._
+// ****
+// {reference}__Partnership Bidding at Bridge,__
+// __ Robson and Segal,
+// __ _pp. 194{ndash}198 of https://drive.google.com/file/d/1VC9QIbB7jXyM8sorFrzUzdXXdOAy-p2q/view[pdf file]._
 
-Our rules are not the same as theirs because they play Lebensohl in
-some situations where we think Scrambling is more valuable.
-****
+// Our rules are not the same as theirs because they play Lebensohl in
+// some situations where we think Scrambling is more valuable.
+// ****
 
-2NT is scrambling in the following situations
+Situations where 2NT is defined as Lebensohl or natural, hence not
+scrambling, are in the next two sub-sections.
 
-==== You have already had a chance to compete
+Examples of scrambling 2NT follow those.
+
+==== When 2NT is Lebensohl
+
+{bull} <<#_leb_vs_weak_twos, after we double their weak-two (major only)>>::
+
+  Applies when double is in direct or pass-out seat and next player passes. +
+  {nbsp} +
+  Scrambling 2NT would often be useful for best part-score, but we might
+  have game on power so use Lebensohl.
+
+{bull} <<#_leb_after_reopening_dble_of_2_level_overcall,
+  *after a reopening double of their 2-level overcall*>>
+
+==== When 2NT is natural
+
+{bull} *after a negative double at the 2-level*
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+||
+[%autowidth,cols="4*^",grid="none",stripes="odd"]
+!===
+!      !     !      ! 1D
+! (2S) ! Dbl ! (P)  ! 2NT
+!===
+|===
+
+{bull} *after a support double at the 2-level*
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+||
+[%autowidth,cols="4*^",grid="none",stripes="odd"]
+!===
+!      ! 1D  ! (P) ! 1S
+! (2H) ! Dbl ! (P) ! 2NT
+!===
+|===
+
+==== Examples of Scrambling 2NT
+
+*(a) You have already had a chance to compete*
 
 [%autowidth,cols="4*^",grid="none"]
 |===
@@ -544,7 +588,7 @@ some situations where we think Scrambling is more valuable.
 | (P)  | Dbl | (P)  | !2NT!
 |===
 
-==== When you or partner has bid 1NT
+*(b) When you or partner has bid 1NT*
 
 [%autowidth,cols="4*^",grid="none"]
 |===
@@ -568,7 +612,7 @@ The 1NT bidder has a tight range, so we give up on invitational
 auctions to ensure we find the best place to play in the more common
 situation where it's a part-score deal.
 
-==== Protective auctions
+*(c) Protective auctions*
 
 Partner reopons after the opps have attempted to pass-out an
 uncontested auction.
@@ -588,7 +632,7 @@ to have game on power.
 | (P)  | Dbl |  (P)  | !2NT!
 |===
 
-==== Pre-balancing auctions
+*(d) Pre-balancing auctions*
 
 [%autowidth,cols="4*^",grid="none"]
 |===
@@ -606,7 +650,7 @@ Even though doubler may have a good hand on these auctions,
 scrambling-2NT is much more useful than natural or Lebensohl because
 game on power is unlikely.
 
-However, a direct 3H can still be defined as invitational, because a
+However, #a direct 3H is still defined as invitational#, because a
 weak hand with hearts, can use scrambling-2NT and follow with 3H.
 
 [%autowidth,cols="3*^,<",grid="none"]
