@@ -542,15 +542,18 @@ Examples of scrambling 2NT follow those.
 
 ==== When 2NT is Lebensohl
 
-{bull} <<#_leb_vs_weak_twos, after we double their weak-two (major only)>>::
+{bull} after we double their weak-two (major only)::
 
+  {link}{ensp}<<#_leb_vs_weak_twos>> +
+  {zwsp} +
   Applies when double is in direct or pass-out seat and next player passes. +
-  {nbsp} +
+  {zwsp} +
   Scrambling 2NT would often be useful for best part-score, but we might
   have game on power so use Lebensohl.
 
-{bull} <<#_leb_after_reopening_dble_of_2_level_overcall,
-  *after a reopening double of their 2-level overcall*>>
+{bull} after a reopening double of their 2-level overcall::
+
+  {link}{ensp}<<#_leb_after_reopening_dble_of_2_level_overcall>>
 
 ==== When 2NT is natural
 
