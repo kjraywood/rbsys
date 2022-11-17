@@ -75,12 +75,9 @@ _ [ lower = LR, higher = MR ] +
 @ 3NT = 4-card GF-raise
 
 ****
-
 The 4-card-LR bid includes hands that are two tricks stronger than a LR. +
 {implies}{ensp}``3NT`` = tight-range, mininum GF 4-card-raise
-
 ****
-
 
 *By PH:*{ensp}##3-way Reverse Drury is ON##
 
@@ -90,8 +87,7 @@ The 4-card-LR bid includes hands that are two tricks stronger than a LR. +
 
 ==== Jump shift to minor
 
-@ natural & invitational by unPH +
-_ (same as uncontested) +
+@ natural & weak by unPH +
 @ fit-showing by PH
 
 ==== New suit at 2-level by unPH
