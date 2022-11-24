@@ -703,8 +703,8 @@ with no clear direction.
 &(b) clubs and hearts&
 
 Opener has denied 4*{S} so responder's 2S is not looking for a spade fit.
-It shows a GF hand with values in spades.
-This removes that hand type from the the unbid minor.
+
+It is a one-round force with values in spades.
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
@@ -715,7 +715,7 @@ This removes that hand type from the the unbid minor.
 				       ] +
 	      {raised_nullwidth_or}{emsp} GF with values in {D}
 |    |  2H  | to play
-|    |  2S  | #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
+|    |  2S  | #{thinsp}F1{thinsp}# with #{thinsp}{S} values{thinsp}#
   2+>| 2NT <| natural, inv.
 |    |  3C  | GF raise
 |    |  3D  | 5{ndash}5 GF
@@ -764,11 +764,10 @@ Responder is unable to show inv. 5-5 in M-{C}.
 |===
 | 1D |  1H  |
 | 2D |  ?   |
-|    |  2S  | #{thinsp}GF{thinsp}# with #{thinsp}{S} values{thinsp}#
+|    |  2S  | #{thinsp}F1{thinsp}# with #{thinsp}{S} values{thinsp}#
 |    | !3C! | {emsp} inv.{thinsp}[ {D} supp. {or} 6{OrMore}{xtimes}{H} ] +
 	      {raised_nullwidth_or}{emsp} GF with values in {C}
 |===
-
 
 &(b) diamonds and spades&
 [nobr]#{ndash} the most awkward case#
