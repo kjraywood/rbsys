@@ -1061,10 +1061,10 @@ This can allow finding 7NT.
 
 *Two or more intermediate steps:*
 (_e.g._ 5C & 5S in above ) +
-@ step 1 = only 3rd-round control,
-_ xx (Ax) or Qxx (AQx) +
-@ step 2 = only 2nd-round control,
+@ step 1 = only 2nd-round control,
 _ Kxx (AKx) +
+@ step 2 = only 3rd-round control,
+_ xx (Ax) or Qxx (AQx) +
 
 *One intermediate step:*
 (_e.g._ 5NT in above ) +

@@ -2,6 +2,16 @@
 
 :sectnums!:
 
+== 2023-03-25
+
+<<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
+
+*With two or more intermediate steps:* +
+@ step 1 = only 2nd-round control,
+_ Kxx (AKx) +
+@ step 2 = only 3rd-round control,
+_ xx (Ax) or Qxx (AQx) +
+
 == 2022-09-21
 
 <<system.adoc#_they_bid_and_raise, *They Bid and Raise*>> +
