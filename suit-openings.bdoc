@@ -510,22 +510,21 @@ TIP: Using a relay to show GF values opposite 11{ndash}12 is also used
 
 == Jump Rebids by Opener
 
-=== Invitational Raises
+=== Jump Reverse = GF splinter
 
-*jump reverse = invitational splinter*
+Allows for slam investigation below game
 
-*jump-raise = invitational* +
-@ unbalanced (no 1NT or Mex-2D opening) +
-@ may contain unshowable singleton
-_ (if a jump reverse in that suit is not available)
+> #new-suit by responder = shortness slam-try#
+
+TIP: Splinter over splinter
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
 | 1D   | 1S |
 | ?    |    |
-| !3H! |    | inv. {S}-raise, singleton {H}
+| !3H! |    | GF splinter
 | 3S   |    | inv. {S}-raise,
-            _ singleton {C} is possible
+              short {C} or {H} is possible
 |===
 
 [#_jump_rebid_of_original_suit_by_opener]
