@@ -1,0 +1,213 @@
+= Reminders for RB System-Notes
+
+:sectnums!:
+
+== Mexican 2\D Opening
+
+<<system.adoc#_mexican_both_minors,
+             *Responding to Mexican 2\D with both Minors*>> +
+
+<<system.adoc#_mexican_and_strong_minor,
+          *Strong Single-Suited Minor*>> +
+Opener bids: +
+@ 3NT = neutral
+>> opt. m/wood or exclusion +
+@ 4m = good for m
+>> kickback or exclusion
+
+<<system.adoc#_mex_vs_double_of_2s_response,
+          *Vs double of 2S response*>> +
+@ Opener's redouble = no {S}-stopper +
+>> 3D = {H}+m #with {S} control# +
+>> With {H}+m but no {S} control,
+__ responder bids {H}
+
+== We Overcall
+
+<<system.adoc#_one_major_overcalls,
+	*Advancing 1M overcall vs raise*>> +
+@ 2NT = 3 or 4-cd LR +
+@ #3-level cue = mixed or GF raise#
+
+*Vs neg. double of our overcall* +
+@ <<system.adoc#_suit_overcalls, *honour redouble @ 1-level*>> +
+@ <<system.adoc#_two_level_overcalls, *value-showing redouble @ 2-level*>> +
+_ {ndash} 2-level cue = good 3-cd raise +
+_ {ndash} 2NT = good 4-card raise +
+
+<<system.adoc#_vs_interference_after_cue_raise,
+              *Vs interference after our cue-bid raise*>> +
+@ bidding our trump suit
+_ = weakest action
+
+<<system.adoc#_sandwich_overcalls, *Sandwich-position overcalls*>> +
+@ natural vs nebulous minor opening
+
+== Other Defensive Bidding
+
+<<system.adoc#_klinger, *Klinger*>> +
+@ #**when Klinger-bid is 2\H or lower**# +
+{emsp}{vright} 2NT = {LRplus} of lower-suit +
+{emsp}{vright} cue = {LRplus} of higher-suit +
+@ #**when Klinger-bid is 2\S or higher**# +
+{emsp}{vright} 2NT or cue = strength ask +
+{emsp}{vert} {tribull} step-1 = weak, step-2 = med, ...
+
+<<system.adoc#_3nt_overcall_of_three_minor,
+              *3NT overcalls of 3-level preempts*>> +
+@ *vs minor:* 4\C = both majors +
+@ *vs major:* 4\C = 5-card Stayman +
+
+<<system.adoc#_weak_michaels_vs_weak_two,
+              *Weak Michaels vs Weak Two*>> +
+
+<<system.adoc#_balancing_michaels, *Balancing Leaping-Michaels*>> +
+@ #(1M)-P-(P)-3m = leaping-michaels# +
+
+<<system.adoc#_defence_to_transfers,
+              *Defence to Transfers*>> +
+@ Double = take-out of shown-suit +
+@ Bidding their suit @ 2-level
+_ = Michaels +
+@ Bidding their suit @ 1-level
+_ = natural
+
+<<system.adoc#_vs_double_of_kastro,
+              *When our KASTRO call is doubled*>> +
+@ pass requests 5-card suit +
+@ new suit = to play +
+@ redouble = other 2 suits
+
+== Interference with our 1NT
+
+<<system.adoc#_interference_with_1nt, *1NT{ndash}(2M){ndash}?*>> +
+@ 4\C = oM + C +
+@ Texas transfer to their M = oM + D +
+
+<<system.adoc#_vs_2c_over_our_1nt,
+              *1NT{ndash}(2\C nat.){ndash}?*>> +
+@ 2S {blueRarrow} {D} +
+@ 3C = Stayman without stopper +
+@ other sys ON
+
+<<system.adoc#_vs_2nt_minors_over_1nt,
+              *1NT{ndash}(2NT minors){ndash}?*>> +
+@ two levels of Landy &amp; transfers +
+@ also after Mexican-2D and
+_ <<system.adoc#_vs_unusual_2nt_opening, *vs Unusual-2NT opening*>>
+
+<<system.adoc#_vs_3c_interference_with_1nt, *1NT-(3{lab}suit{rab})-?*>> +
+
+== Key-Card asking
+
+<<system.adoc#_first_round_exclusion, *First-round Exclusion*>> +
+@ includes triple jumps to 4M and 5m
+
+<<system.adoc#_minorwood, *Minorwood*>> +
+@ jump to four of agreed minor +
+@ jump raise of 2m to 4m +
+@ re-raise of 3m to 4m after agreement +
+@ raise of an invitational 3m to 4m
+
+<<system.adoc#_kc_responses, *Key-Card Responses*>> +
+@ #K-ask does NOT promise all KCs# +
+>> with extras, teller bids 6NT
+__ not 7T +
+@ after Q-ask, cheapest non-trump
+_ = Q but no side kings
+
+<<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
+@ SSA bid = not trump-suit,
+_ not Q-ask,
+_ not K-ask +
+*Responses:* +
+@ trump-suit = no control +
+@ only-3rd or only-2nd below 6T +
+@ 2nd and 3rd above 6T
+
+<<system.adoc#_minorwood_in_comp, *Minorwood in comp.*>> +
+@ Jump to 4m after a cue-bid raise +
+
+<<system.adoc#_kickback_in_comp, *Kickback in comp.*>> +
+@ we've agreed a *minor* +
+>> KB = cheapest unbid-suit
+__ above 4m +
+@ we've agreed *hearts* +
+>> KB = 4\S
+
+== Competitive Bidding
+
+<<system.adoc#_js_vs_take_out_double,
+              *Jump Shifts vs Take-Out Double*>> +
+Following a take-out double: +
+@ #JS to other major = mixed raise# +
+@ PH JS = fit-showing,
+_ except m &#x279e; om
+
+<<system.adoc#_vs_suit_overcall,
+              *Vs Suit Overcall*>> +
+@ #1\H{ndash}(1\S){ndash}2NT = mixed raise# +
+@ Fit jumps after 1\H-(1\S)
+_ can be 4-card suits +
+
+== Constructive Bidding
+
+<<system.adoc#_minor_opening, *ONE-MINOR Opening*>> +
+@ 1m{ndash}2S = 8-11, forcing to 3m +
+>> 2NT asks +
+{emsp}{emsp}{tribull} #new-suit = max + shortness# +
+@ all natural by passed hand,
+_ including fit-showing jumps
+
+<<system.adoc#_fourth_suit_at_the_4_level,
+              *Fourth suit at the 4-level*>> +
+@ swap 3\S and 4\C after 1\S-2\H; 3\D
+
+<<system.adoc#_nmf_by_passed_hand,
+*NMF by a passed hand*>> +
+@ *Opener's third bid* +
+{emsp}{vright} up-the-line with a min +
+{emsp}{vright} unbid major with a max
+
+<<system.adoc#_following_a_superaccept,
+*1NT {blueRarrow} transfer {blueRarrow} super-accept*>> +
+@ serious/non-serious does not apply +
+@ next-step requests location of
+_ secondary values
+
+<<system.adoc#_2nt_opening, *Revised 2NT Methods*>> +
+@ 3C = Stayman or club-single-suiter +
+@ 3S = both minors, slam inv.{OrMore} +
+@ 3NT = to play +
+@ 4C = opt m/wood for {D} +
+{emsp}{vright} 4D = like {D} +
+{emsp}{vert} {tribull} kickback or exclusion +
+{emsp}{vright} other = KC response +
+{emsp}{vert} {tribull} cheapest {C} bid = re-transfer +
+{emsp}{vert} {emsp}{thinsp} unless it is Q-ask
+
+<<system.adoc#_transfer_responses_to_2c,
+              *Transfer responses to a 2\C-opening*>> +
+@ 2\S = one-loser red-suit +
+@ 3\C = one-loser black-suit +
+@ 3\D,3\H,3\S,4\C = transfer to solid suit
+
+<<system.adoc#_2nt_response_to_2c, *2\C {ndash} 2NT{semicolon} ?*>> +
+@ jump to four any suit = Selfwood +
+@ 3NT = balanced, interest in suit-slam +
+>> responder bids decent 4-card suit
+
+== Defence
+
+<<system.adoc#_honour_leads_vs_suits,
+              *Honour-card Leads Vs Suits*>> +
+@ Rusinow from a known long-suit
+
+<<system.adoc#_3rd_hand_suit_pref_with_akq,
+              *Suit-pref by 3rd hand with AKQ*>> +
+@ strong vs mild suit-pref
+
+
+<<system.adoc#_3rd_hand_suit_pref_with_akxx,
+              *Suit-pref by 3rd hand with AKxx*>> +
+@ UD att after A-K or K-A
