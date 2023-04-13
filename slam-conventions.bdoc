@@ -1135,3 +1135,133 @@ especially on interference auctions.
 @ 2nd step = 3 with Q
 
 [lavender-box]#As with D0P1, following pass=1, asker's double is penalty#
+
+== Splinter over Splinter
+
+*Following a GF splinter:* +
+@ return to trump suit = sign off +
+@ other non-jump suit-bid
+_ = short-suit slam-try +
+@ if kickback applies, then
+_ 4NT = substitute short-suit slam-try
+
+*Following splinter-over-splinter:* +
+@ return to trump suit = decline slam-try +
+@ other = KC in steps skipping trump-suit
+
+=== Examples
+
+.(a)
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1H   : !3S!
+  !4C! :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 3S = splinter +
+  4C = splinter slam-try
+!===
+|===
+
+.(b)
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1S   : !4H!
+  !5D! :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! Splinter-over-splinter still applies above four of our trump suit
+!===
+|===
+
+.(c)
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1H    : !4D!
+  !4NT! :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 4{S} by opener would be kickback, so 4NT is a slam-try with spade
+  shortness
+!===
+|===
+
+.(d)
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1C  : 1S
+ !3H! : !4D!
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 3H = GF splinter (jump reverse) +
+  4D = splinter slam-try
+!===
+|===
+
+.(e)
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1D  : 1H
+ !4C! : !4D!
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 4D by responder is a shortness slam-try
+  even though it is opener's first suit
+!===
+|===
+
+.(f)
+[%autowidth,cols="2*^.^a",grid="none"]
+|===
+|
+[grid="none",stripes="none",frame="allx"]
+:===
+  1S   : 2D
+ !2NT! : !4C!
+ !4H!  :
+:===
+|
+[%autowidth,grid="none",stripes="odd",frame="nonex"]
+!===
+! 2NT = Schuler shift = 6{xtimes}{S} +
+  4C = splinter +
+  4H = splinter slam-try
+!===
+|===
+
+.(g)
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S   | !4C! ||
+| !4D! |  ?   || shortness slam-try
+|      | !4H! || accept, 0 or 3 KC
+|      |  4S  || decline
+|     | !4NT! || accept, 1 or 4 KC
+|      | !5C! || accept, 2 KC w/o {S}Q
+|      | !5D! || accept, 2 KC with {S}Q
+|===
