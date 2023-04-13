@@ -510,13 +510,10 @@ TIP: Using a relay to show GF values opposite 11{ndash}12 is also used
 
 == Jump Rebids by Opener
 
+[#_jump_reverse]
 === Jump Reverse = GF splinter
 
 Allows for slam investigation below game
-
-> #new-suit by responder = shortness slam-try#
-
-TIP: Splinter over splinter
 
 [%autowidth,cols="2*^,<",grid="none"]
 |===
