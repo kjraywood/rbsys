@@ -1164,7 +1164,7 @@ _ 4NT = substitute short-suit slam-try
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! 3S = splinter +
-  4C = splinter slam-try
+  4C = short-suit slam-try
 !===
 |===
 
@@ -1214,7 +1214,7 @@ _ 4NT = substitute short-suit slam-try
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! 3H = GF splinter (jump reverse) +
-  4D = splinter slam-try
+  4D = short-suit slam-try
 !===
 |===
 
@@ -1250,7 +1250,7 @@ _ 4NT = substitute short-suit slam-try
 !===
 ! 2NT = Schuler shift = 6{xtimes}{S} +
   4C = splinter +
-  4H = splinter slam-try
+  4H = short-suit slam-try
 !===
 |===
 
