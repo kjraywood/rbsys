@@ -122,7 +122,7 @@ _ not Q-ask,
 _ not K-ask +
 *Responses:* +
 @ trump-suit = no control +
-@ only-3rd or only-2nd below 6T +
+@ only-2nd or only-3rd below 6T +
 @ 2nd and 3rd above 6T
 
 <<system.adoc#_minorwood_in_comp, *Minorwood in comp.*>> +
