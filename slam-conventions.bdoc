@@ -402,14 +402,6 @@ TIP: A below-game raise of an !invitational! bid is forcing because
 
 Applies when four of the minor is needed as a natural slam try.
 
-[%autowidth,cols="^,<",grid="none"]
-|===
-2+^| Responses to optional minorwood
-
-h| 4m+1  | accept {tribull} partner shows KCs
-h| other | decline, shows KCs beginning at 4m+2
-|===
-
 === Pulling 3NT
 
 The minor was previously agreed and 3NT was bid to play
@@ -439,6 +431,124 @@ not enough extras to initiate a slam investigation.
 |===
 
 Also see: <<#2nt_opening, 2NT auctions>>
+
+[#_opt_minorwood_responses]
+=== Responding to Optional Minorwood
+
+[%autowidth,cols="^,<",grid="none"]
+|===
+2+^| Responses to optional minorwood
+
+h| 4m+1  | accept {tribull} asker shows KCs
+h| other | decline, shows KCs beginning at 4m+2
+|===
+
+NOTE: Following an accept, it seems like the roles of asker and teller
+      have been reversed.  However when asker shows KCs, it asks
+      teller to count key-cards for the partnership and indicate
+      the appropriate level.
+
+=== Showing Kings when teller accepted
+
+* Teller shows kings, even when asker showed key-cards
+
+* Showing a king = no missing key-cards
+
+* Teller bids 5NT with no missing key-cards and no side kings
+
+* #We do not use a specific-suit-ask when teller accepted the invitation#
+
+==== Status of trump Q is known
+
+When teller knows the count of key-cards and the status of the trump
+queen, then *TELLER* does one of:
+
+* 5{lab}trump{rab} = sign-off missing two KCs or one KC and the
+  trump Q
+
+*  6{lab}trump{rab} = sign-off missing only one KC or only the
+  trump Q
+
+* other suit = !shows! a specific king and no missing KCs
+
+* 5NT = no missing KCs, no side kings
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| teller | asker ||
+
+| ...    | !4D!  || optional minorwood
+| !4H!   | !5C!  || 4H = accept +
+             [nobr]#5C = 2 no Q#
+| ?   |   ||
+| 5D  | 2+<| sign-off
+| 5H  | 2+<| {H}K, all KC
+| 5S  | 2+<| {S}K, not {H}K
+| 5NT | 2+<| all KC, no side kings
+| 6C  | 2+<| {C}K, not {H}K, not {S}K
+| 6D  | 2+<| sign-off, missing a KC or {D}Q
+|===
+
+If there is a spare step below five of the trump suit, then if all
+key-cards are held, teller can begin showing kings with that step.
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| teller | asker ||
+
+| ...  | !4D! || optional minorwood
+| !4H! | !4S! || 4H = accept,
+                 [nobr]#4S = 0 or 3#
+| ?   |   ||
+| 4NT | 2+<| Q ask, shows that Q is missing
+| 5C  | 2+<| {C}K, all KC
+| 5D  | 2+<| sign-off
+| 5H  | 2+<| {H}K, not {C}K
+| 5S  | 2+<| {S}K, not {C}K, not {H}K
+| 5NT  | 2+<| all KC, no side kings
+|  6C  | 2+<| not used
+|  6D  | 2+<| sign-off, missing a KC
+|===
+
+==== Status of trump Q is unknown
+
+Teller _asks_ for the trump queen in the usual way with the next step.
+
+It _tells_ that there is at most one key-card missing, otherwise
+teller would have signed off in 5{lab}trump{rab}.
+
+Without the queen, asker bids 5{lab}trump{rab} which teller may raise to
+six if there are no key-cards missing.
+
+With the queen, *ASKER* chooses from:
+
+* 6{lab}trump{rab} = not interested in grand, even if no KC are missing
+
+* 5NT = asks if all KC are held, no interest in side kings
+
+* 5T + 1 = artificial king-ask, provided that all KC are held
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| teller | asker ||
+
+| ...  | !4D! || optional minorwood
+| !4H! | !4S! || 4H = accept,
+                 [nobr]#4S = 1 or 4#
+| !5C! |  ?   || denies trump Q
+|      |  5D  || no Q, teller will bid 6D if no KC are missing
+|      | !5H! || shows Q, asks for kings if no KC are missing
+|      |  5NT || shows Q, asks if no KC are missing, no interest in side kings	  
+|      |  6D  || shows Q, no extras for grand
+|===
+
+After a K-ask, the followups are normal except that teller bids
+6{lab}trump{rab} with either no side king, or when a KC is missing.
+
+NOTE: The ambiguity of this response will not cause a problem because
+      in addition to no missing key-cards asker must need at least one
+      specific king; otherwise asker would have used 5NT to if only
+      interested in the KC count.
 
 == Kickback
 
