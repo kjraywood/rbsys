@@ -454,8 +454,6 @@ NOTE: Following an accept, it seems like the roles of asker and teller
 
 * Showing a king = no missing key-cards
 
-* Teller bids 5NT with no missing key-cards and no side kings
-
 * #We do not use a specific-suit-ask when teller accepted the invitation#
 
 ==== Status of trump Q is known
@@ -521,7 +519,7 @@ With the queen, *ASKER* chooses from:
 
 * 5NT = asks if all KC are held, no interest in side kings
 
-* 5T + 1 = artificial king-ask, provided that all KC are held
+* 5T + 1 = requests teller to show kings if all KC are held
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
@@ -530,14 +528,14 @@ With the queen, *ASKER* chooses from:
 | ...  | !4D! || optional minorwood
 | !4H! | !4NT! || 4H = accept,
                  [nobr]#4NT = 1 or 4#
-| !5C! |  ?   || Q ask
+| !5C! |  ?   || Q ask (denies possion of Q)
 |      |  5D  || no Q, teller will bid 6D if no KC are missing
-|      | !5H! || shows Q, asks for kings if no KC are missing
-|      |  5NT || shows Q, asks if no KC are missing, no interest in side kings	  
-|      |  6D  || shows Q, no extras for grand
+|      | !5H! || has Q, asks teller to show kings if no KC are missing
+|      |  5NT || has Q, asks teller to bid grand if no KC are missing
+|      |  6D  || has Q, no extras for grand
 |===
 
-After a K-ask, the followups are normal except that teller bids
+After 5T+1, the followups are normal except that teller bids
 6T with either no side king, or when a KC is missing.
 
 NOTE: The ambiguity of this response will not cause a problem because
