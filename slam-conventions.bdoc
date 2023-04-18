@@ -515,11 +515,11 @@ there are no key-cards missing.
 
 With the queen, *ASKER* chooses from:
 
+* 5T + 1 = asks if all KC are held, with interest in side kings
+
+* 5NT = asks if all KC are held, without interest in side kings
+
 * 6T = not interested in grand, even if no KC are missing
-
-* 5NT = asks if all KC are held, no interest in side kings
-
-* 5T + 1 = requests teller to show kings if all KC are held
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
@@ -539,9 +539,9 @@ After 5T+1, the followups are normal except that teller bids
 6T with either no side king, or when a KC is missing.
 
 NOTE: The ambiguity of this response will not cause a problem because
-      in addition to no missing key-cards asker must need at least one
-      specific king; otherwise asker would have used 5NT if only
-      interested in the KC count.
+      in addition to no missing key-cards, asker must need at least
+      one side king.  Otherwise asker would have bid 5NT to aske if
+      all KC are held.
 
 == Kickback
 
