@@ -310,33 +310,9 @@ The 3rd bid in each of the following is a 2oM NFB.
 
 * Jump to 3oM = GF, 6{orMore}-card suit
 
-* Neg. double = 4{or}5{xtimes}oM, no upper-limit on strength +
+* Neg. double = 4{or}5 {times} oM, no upper-limit on strength +
 {tribull} subsequent bid of oM by neg-doubler
 _ = 5-card suit, #2oM = inv.#, #3oM = GF#
-
-=== vs Overcall by passed hand
-
-Two _other major_{thinsp} by PH is usually a five-card suit because
-there was no weak-two opening.
-
-A jump-shift is  <<#_fit_showing_jumps, *fit showing*>>.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| P   | (P) | 1C {ensp} (1S)
-| ?   |     |
-| 2H  |     | usually 5*{H}
-2+<| 3D,3H <| fit showing 
-|===
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| P   | (P) | 1H {ensp} (2D)
-| ?   |     |
-| 2S  |     | usually 5*{S}
-2+<| 3S,4C <| fit showing with offence for 4H,
-              [nobr]#hence usually 5-5#
-|===
 
 === Two over one in comp.
 
@@ -410,101 +386,115 @@ show no preference.
 | (P) |  2D |       |      || to play
 |===
 
+[#_un_vs_un]
 == Vs Two-Suited Overcalls
 
-With both suits shown by intervenor, responder passes and then doubles
-on the next round.
+=== Both Suits are Known
 
-So pass then double is penalty.
+==== Double
 
-// It's not dangerous for responder to pass with a good hand,
-// because most opponent's play a 2-suited overcall as forcing.
+@ balanced, 9{OrMore} +
+@ subsequent doubles are penalty +
+@ does NOT create a force
 
-[#_double_vs_two_suiter]
-=== Double vs two-suiter
+They show both minors::
+&Our double shows:& +
+@ 4 or 5 of unbid major +
+@ 2 of opener's major
 
-Typically a 9{OrMore} balanced hand with two cards in opener's suit.
+They show major + minor::
+&Our double shows:& +
+@ 4 or 5 of unbid major +
+@ 2 or 3 of opener's minor
 
-It requests cooperation by opener to double them.
+NOTE: Many play that double creates a forcing-pass, hence requires
+       11{OrMore}.  Our way caters to the more common 9 and ten point
+       hands.  Occasionally we miss a penalty that others will find,
+       but we are able to show our values on many more hands.
 
-Subsequent doubles at the 2-level show four of their suit.
+==== Pass then double
 
-Subsequent doubles at the 3-level show three of their suit.
+@ penalty +
+@ usually a singleton in opener's suit +
+@ could be only three in opp's suit; +
+_ especially with five in the other
+_ known-suit (hint: lead a trump)
 
-It does not set up a force.
+==== 2NT and 3NT
 
-//[lavender-box]#If they show two !known! suits, then double shows four
-//               or five cards in the fourth suit and the values to
-//               compete.#
+Similar to 2NT and 3NT vs a take-out double
 
-// Without a fit for opener, responder will usually be able to penalize
-// at least one of their suits.
-
-// [%autowidth,cols="5*<",grid="none"]
-// |===
-// | 1M | (!!2NT!!)* | !X! | = | 4 {or} 5 {times} oM, 9{OrMore} HCP
-// | 4+<| {biglowast} both minors
-// |===
-
-// If they show only one known suit, then double shows the other two suits.
-
-// [%autowidth,cols="5*<",grid="none"]
-// |===
-// | 1M | (!!2M!!)* | !X! | = | both minors, 4{OrMore}-4{OrMore}, 9{OrMore} HCP
-// | 4+<| {biglowast} oM + unknown minor
-// |===
-
-// Whether they showed one or two suits, a subsequent double by either
-// player is penalty.
-
-// #A negative double sets up a force below 2NT#
-
-=== Lower for Other
-
-Applies when they have shown two known suits
-
-Used with a fit for opener, or with 6{OrMore}-cards in the fourth suit.
-
-@ higher of opp's suits = {LRplus} +
-@ lower of opp's suits shows the fourth suit +
->> next step by opener
-__ = default (nothing more to say)
-
-Thus there are two non-jump bids to show the fourth suit; the lower
-cue-bid , and a natural bid.
-
-@ lower way to show fourth suit = invitational +
-@ higher way to show fourth suit = GF
-
-[%autowidth,cols="4*^,<",grid="none"]
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 1H | (!2NT!) | ?    | | 2NT = {C} + {D}
-|    |         | !3C! | | {S} (fourth suit), inv. +
-                          {tribull} 3{D} = default
-|    |         | !3D! | | {H}, {LRplus}
-|    |         |  3H  | | {H}-raise, 7{OrMore}{ndash}10
-|    |         |  3S  | | {S}, GF
+3+^| We open ONE MINOR
+
+|       || 1D {ensp} (!2D!) {ensp} majors 
+|   ?   ||
+| !2NT! || inv., 4*{D}, 4 or 5 {times} {C} 
+| !3NT! || GF, 4*{D}, 4 or 5 {times} {C} 
 |===
 
-When the lower cue-bid is _above_{thinsp} the natural bid in the
-other suit, then it shows GF values and the natural bid is
-invitational.
+[%autowidth,cols="2*^,<",grid="none"]
+|===
+3+^| We open ONE MAJOR
 
-[%autowidth,cols="4*^,<",grid="none"]
+|       || 1S {ensp} (!2NT!) {ensp} minors
+|   ?   ||
+| !3NT! || GF, 4 or 5 spades, no shortness
 |===
-| 1C | (!2C!) |   ?  | | 2C = {H} + {S}
-|    |        |  2D  | | {D}, inv. (NF)
-|    |        | !2H! | | {D} (fourth suit), GF +
-                         {tribull} 2{S} = default
-|    |        | !2S! | | {C}, {LRplus}
-|    |        |  3C  | | {C}-raise, 7{OrMore}{ndash}10
-|===
+
+==== Lower for Other
+
+[orange-box]#Work in progess#
+
+// Applies when they have shown two known suits
+
+// Used with a fit for opener, or with 6{OrMore}-cards in the fourth suit.
+
+// @ higher of opp's suits = {LRplus} +
+// @ lower of opp's suits shows the fourth suit +
+// >> next step by opener
+// __ = default (nothing more to say)
+
+// Thus there are two non-jump bids to show the fourth suit; the lower
+// cue-bid , and a natural bid.
+
+// @ lower way to show fourth suit = invitational +
+// @ higher way to show fourth suit = GF
+
+// [%autowidth,cols="4*^,<",grid="none"]
+// |===
+// | 1H | (!2NT!) | ?    | | 2NT = {C} + {D}
+// |    |         | !3C! | | {S} (fourth suit), inv. +
+//                           {tribull} 3{D} = default
+// |    |         | !3D! | | {H}, {LRplus}
+// |    |         |  3H  | | {H}-raise, 7{OrMore}{ndash}10
+// |    |         |  3S  | | {S}, GF
+// |===
+
+// When the lower cue-bid is _above_{thinsp} the natural bid in the
+// other suit, then it shows GF values and the natural bid is
+// invitational.
+
+// [%autowidth,cols="4*^,<",grid="none"]
+// |===
+// | 1C | (!2C!) |   ?  | | 2C = {H} + {S}
+// |    |        |  2D  | | {D}, inv. (NF)
+// |    |        | !2H! | | {D} (fourth suit), GF +
+//                          {tribull} 2{S} = default
+// |    |        | !2S! | | {C}, {LRplus}
+// |    |        |  3C  | | {C}-raise, 7{OrMore}{ndash}10
+// |===
+
+=== One Known-suit
+
+[orange-box]#Work in progess#
 
 [#_2nt_in_comp]
 == 2NT in competitive auctions
 
 [#_leb_after_reopening_dble_of_2_level_overcall]
-=== Simple Lebensohl after reopening double of their 2-level overcall
+=== Lebensohl after reopening double of their 2-level overcall
 
 Purpose::
   to distinguish between extras and no-extras
