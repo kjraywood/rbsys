@@ -397,9 +397,15 @@ show no preference.
 @ subsequent doubles are penalty +
 @ does NOT create a force
 
-When the 4th suit is a major, double shows 4 or 5 of that suit
+4th suit = major: {implies} double shows 4 or 5 of that suit
 
-When the opening bid was a major, double shows 2 in that suit
+opening bid = major: {implies} double shows 2 in that suit
+
+[lightgrey-box]#1{H}{emsp}(!!2NT!!){emsp}Dble# 2NT = minors +
+X = 4 or 5 {times} {S}, 2{xtimes}{H}, 9{OrMore} bal.
+
+[lightgrey-box]#1{D}{emsp}(!!2NT!!){emsp}Dble# 2NT = {C} + {H} +
+X = 4 or 5 {times} {S}, 9{OrMore} bal.
 
 NOTE: Many play that double creates a forcing-pass, hence requires
        11{OrMore}.  Our way caters to the more common 9 and ten point
