@@ -469,7 +469,7 @@ queen, then *TELLER* does one of:
 *  6{lab}trump{rab} = sign-off missing only one KC or only the
   trump Q
 
-* other suit = !shows! a specific king and no missing KCs
+* suit above 5T = !shows! a specific king and no missing KCs
 
 * 5NT = no missing KCs, no side kings
 
@@ -489,8 +489,8 @@ queen, then *TELLER* does one of:
 | 6D  | 2+<| sign-off, missing a KC or {D}Q
 |===
 
-If there is a spare step below five of the trump suit, then if all
-key-cards are held, teller can begin showing kings with that step.
+If there is a spare step below five of the trump suit, then 4NT is a
+sign-off and the other step below 5T is the queen ask.
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
@@ -500,29 +500,24 @@ key-cards are held, teller can begin showing kings with that step.
 | !4H! | !4S! || 4H = accept,
                  [nobr]#4S = 0 or 3#
 | ?   |   ||
-| 4NT | 2+<| Q ask, shows that Q is missing
-| 5C  | 2+<| {C}K, all KC
-| 5D  | 2+<| sign-off
-| 5H  | 2+<| {H}K, not {C}K
-| 5S  | 2+<| {S}K, not {C}K, not {H}K
-| 5NT  | 2+<| all KC, no side kings
-|  6C  | 2+<| not used
-|  6D  | 2+<| sign-off, missing a KC
+| 4NT | 2+<| sign off
+| 5C  | 2+<| Q ask
+2+<| _higher_ 2+<| as above
 |===
 
 ==== Status of trump Q is unknown
 
-Teller _asks_ for the trump queen in the usual way with the next step.
+Teller _asks_ for the trump queen in the usual way.
 
 It _tells_ that there is at most one key-card missing, otherwise
-teller would have signed off in 5{lab}trump{rab}.
+teller would have signed off.
 
-Without the queen, asker bids 5{lab}trump{rab} which teller may raise to
-six if there are no key-cards missing.
+Without the queen, asker bids 5T which teller may raise to six if
+there are no key-cards missing.
 
 With the queen, *ASKER* chooses from:
 
-* 6{lab}trump{rab} = not interested in grand, even if no KC are missing
+* 6T = not interested in grand, even if no KC are missing
 
 * 5NT = asks if all KC are held, no interest in side kings
 
@@ -533,9 +528,9 @@ With the queen, *ASKER* chooses from:
 | teller | asker ||
 
 | ...  | !4D! || optional minorwood
-| !4H! | !4S! || 4H = accept,
-                 [nobr]#4S = 1 or 4#
-| !5C! |  ?   || denies trump Q
+| !4H! | !4NT! || 4H = accept,
+                 [nobr]#4NT = 1 or 4#
+| !5C! |  ?   || Q ask
 |      |  5D  || no Q, teller will bid 6D if no KC are missing
 |      | !5H! || shows Q, asks for kings if no KC are missing
 |      |  5NT || shows Q, asks if no KC are missing, no interest in side kings	  
@@ -543,11 +538,11 @@ With the queen, *ASKER* chooses from:
 |===
 
 After a K-ask, the followups are normal except that teller bids
-6{lab}trump{rab} with either no side king, or when a KC is missing.
+6T with either no side king, or when a KC is missing.
 
 NOTE: The ambiguity of this response will not cause a problem because
       in addition to no missing key-cards asker must need at least one
-      specific king; otherwise asker would have used 5NT to if only
+      specific king; otherwise asker would have used 5NT if only
       interested in the KC count.
 
 == Kickback

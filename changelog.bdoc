@@ -2,7 +2,7 @@
 
 :sectnums!:
 
-== 2023-04-16
+== 2023-04-17
 
 <<system.adoc#_opt_minorwood_responses, *Responding to Optional Minorwood*>> +
 [orange-bg]#WARNING# We probably won't do this.
@@ -14,6 +14,14 @@ _ showed key-cards
 <<system.adoc#_dead_notrump_defence, *The Dead NoTrump Defence*>> +
 
 == 2023-04-13
+
+<<system.adoc#_vs_1h_ocall, *Vs a 1\H Overcall*>> +
+@ X = 4 or 5 {xtimes}{S} +
+@ 1S = balanced 8{OrMore},
+_ 3{OrLess}{xtimes}{S} +
+...
+
+== 2023-04-12
 
 <<system.adoc#_jump_reverse, *Jump Reverse = GF splinter*>> +
 @ changed from invitational splinter +
