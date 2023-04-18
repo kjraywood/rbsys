@@ -397,15 +397,9 @@ show no preference.
 @ subsequent doubles are penalty +
 @ does NOT create a force
 
-They show both minors::
-&Our double shows:& +
-@ 4 or 5 of unbid major +
-@ 2 of opener's major
+When the 4th suit is a major, double shows 4 or 5 of that suit
 
-They show major + minor::
-&Our double shows:& +
-@ 4 or 5 of unbid major +
-@ 2 or 3 of opener's minor
+When the opening bid was a major, double shows 2 in that suit
 
 NOTE: Many play that double creates a forcing-pass, hence requires
        11{OrMore}.  Our way caters to the more common 9 and ten point
