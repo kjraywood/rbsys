@@ -550,36 +550,30 @@ After 1M, give up strong jumps to 3m play them like leaping-Michaels
 // See https://bridgewinners.com/article/view/balancing-michaels[^]
 // ****
 
-=== Reopening after they stop in 1NT
+[#_dead_notrump_defence]
+=== The Dead NoTrump Defence
 
-{reference} http://www.kantarbridge.com/ideas.htm[
-_Reopening after they die out in 1NT_]
-__ {nbsp}{ndash}{nbsp} Eddie Kantar
+{reference} https://drive.google.com/file/d/1ipkJypFBLjhOH4ovocByJXpcMTTlNVaF/view[
+_The Dead NoTrump Defense_]
+__ {nbsp}{ndash}{nbsp} Billy Miller
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| (1C) |  P   | (1NT) | P |
-| (P)  |  ?   |       |   |
-|      |  2C  |       |   | natural
-|      | !2D! |       |   | majors
-|===
+*Applies When*: +
+@ opps have bid one or more suits +
+@ we have only passed +
+@ one of them bids 1NT +
+@ two passes follow 1NT
 
-In the above auction, reopener is unlikely to have diamonds (no
-overcall), and the money is in the majors.
-Reopener is also limited by the failure to show both majors on the
-first round.
+Double = penalty oriented and requests lead of dummy's first-bid suit
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-| (1D) |  P   | (1NT) | P |
-| (P)  |  ?   |       |   |
-|      |  2C  |       |   | majors
-|      |  2D  |       |   | natural
-|===
+NOTE: Billy Miller suggests that doubler needs 14-16 HCP for this
+      double, but Neil Kimelman suggests that it doesn't matter
+      because the opps failure to make a game try indicates a fairly
+      even split of points.  [pp180-181, _Thin Fine Line_, Neil Kimelman]
 
-The 1NT responder usually has clubs here, so 2C is like a 2-suited cue-bid.
-Showing both majors is the most valuable meaning.
-As before, reopener is limited by the failure to act on the previous round.
+Balancing with a suit-bid = at least four of that suit and four of a
+higher suit
+
+At least one of balancer's two suits must be an unbid suit
 
 [#_they_bid_and_raise]
 == They Bid and Raise
