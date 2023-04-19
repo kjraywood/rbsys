@@ -480,9 +480,9 @@ queen, then *TELLER* does one of:
              [nobr]#5C = 2 no Q#
 | ?   |   ||
 | 5D  | 2+<| sign-off
-| 5H  | 2+<| {H}K, all KC
+| 5H  | 2+<| {H}K, all KC+Q
 | 5S  | 2+<| {S}K, not {H}K
-| 5NT | 2+<| all KC, no side kings
+| 5NT | 2+<| all KC+Q, no side kings
 | 6C  | 2+<| {C}K, not {H}K, not {S}K
 | 6D  | 2+<| sign-off, missing a KC or {D}Q
 |===
