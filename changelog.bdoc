@@ -2,20 +2,46 @@
 
 :sectnums!:
 
+== 2023-05-06
+
+
+*Non-Leaping Michaels* +
+@ applies in !either! seat
+_ vs 3{lab}__suit__{rab} opening
+
+*Suggestion for Leaping Michaels vs Weak 2\D, or Precision 2\C* +
+@ 3m = both majors +
+@ 4C = {H} + om +
+@ 4D = {S} + om
+
+// vs 3C:
+// 4C = S + red-suit
+// 4D = red-suits
+// See "Better coding of 2-suits, J Goldsmith, TBW, June 2007"
+
+<<system.adoc#_sandwich_overcalls, *vs Neb-minor in Sandwich position*>> +
+vs nebulous 1C or 1D opening: +
+@ sandwich-position bid of opener's suit
+_ = natural +
+@ 5{ndash}5 in the other two-suits must double
+
+https://drive.google.com/file/d/156kLxwgZ5LlNMuSYV_yH32WhYqs1guNh/view[*Curly Cue-bids*] +
+
 == 2023-04-18
 
 [orange-box]#WARNING: Work in progress#
 
 <<system.adoc#_un_vs_un, *Vs Two-Suited Overcalls*>> +
-@ dble = bal. 9{OrMore}
-_ - does not create a force
-_ - shows 4 or 5 of unbid major
-_ - shows 2 of opener's major
+@ dble = bal. 9{OrMore} +
+_ *-* does not create a force +
+_ *-* shows 4 or 5 of unbid major +
+_ *-* shows 2 of opener's major +
+@ see notes for other bids
 
 https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
 
 https://drive.google.com/file/d/1a9zn20W4pEBHfX4_PLQbPp5KbRhJm3uV/view[*Rebid by Opener in Comp.] +
-*Applies when:*
+*Applies when:* +
 @ they overcall one major +
 @ responder bids a forcing
 _ new-suit @ 2-level +
