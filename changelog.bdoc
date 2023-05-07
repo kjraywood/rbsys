@@ -2,6 +2,23 @@
 
 :sectnums!:
 
+== 2023-05-07
+
+<<system.adoc#_splinter_over_splinter, *Splinter over splinter*>> +
+@ new suit after splinter
+_ = short-suit slam-try +
+@ if Spl/Spl is above kickback, then
+_ show KC in steps skipping trump-suit +
+@ also see <<system.adoc#_splinter_over_splinter, *notes*>>
+
+https://drive.google.com/file/d/156kLxwgZ5LlNMuSYV_yH32WhYqs1guNh/view[*Curly Cue-bids*] +
+Partner makes a T/O double between Opps bidding two suits at the [alert]#1-level#: +
+@ lo cue {implies} low suit,
+_ hi cue {implies} high suit,
+_ but swap to keep cue-bid for hearts
+_ at the 2-level +
+@ jumps are weak 
+
 == 2023-05-06
 
 *Non-Leaping Michaels* +
@@ -24,14 +41,6 @@ vs nebulous 1C or 1D opening: +
 _ = natural +
 @ 5{ndash}5 in the other two-suits must double
 
-https://drive.google.com/file/d/156kLxwgZ5LlNMuSYV_yH32WhYqs1guNh/view[*Curly Cue-bids*] +
-Partner makes a T/O double between Opps bidding two suits at the [alert]#1-level#: +
-@ lo cue {implies} low suit,
-_ hi cue {implies} high suit,
-_ but swap to keep cue-bid for hearts
-_ at the 2-level +
-@ jumps are weak 
-
 == 2023-04-18
 
 [orange-box]#WARNING: Work in progress#
@@ -41,7 +50,7 @@ _ at the 2-level +
 _ *-* does not create a force +
 _ *-* shows 4 or 5 of unbid major +
 _ *-* shows 2 of opener's major +
-@ see notes for other bids
+@ see <<system.adoc#_un_vs_un, *notes*>> for other bids
 
 https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
 
