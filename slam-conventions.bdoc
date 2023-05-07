@@ -1278,7 +1278,11 @@ _ !show! KC in steps skipping trump-suit +
 !===
 |===
 
-.(b)
+&(b)&
+
+Splinter-over-splinter still applies if it is a non-jump new-suit
+above four of the trump suit.
+
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -1345,7 +1349,6 @@ _ !show! KC in steps skipping trump-suit +
 ! 2NT = Schuler shift = 6{xtimes}{S} +
   4C = splinter +
   4H = short-suit slam-try
-  5C = exclusion
 !===
 |===
 
@@ -1370,3 +1373,8 @@ _ !show! KC in steps skipping trump-suit +
 |     | !5NT! || accept, 1 or 4 KC
 |      | ... ||
 |===
+
+In the above example, 5H is not exclusion because kickback was not
+available for the first-splinter bidder.   So if accepting the
+short-suit-try, the first-splinter bidder shows KC in steps skipping
+the trump suit.
