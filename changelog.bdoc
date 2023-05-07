@@ -8,10 +8,10 @@
 @ applies in !either! seat
 _ vs 3{lab}__suit__{rab} opening
 
-*Suggestion for Leaping Michaels vs Weak 2\D, or Precision 2\C* +
-@ 3m = both majors +
-@ 4C = {H} + om +
-@ 4D = {S} + om
+// *Suggestion for Leaping Michaels vs Weak 2\D, or Precision 2\C* +
+// @ 3m = both majors +
+// @ 4C = {H} + om +
+// @ 4D = {S} + om
 
 // vs 3C:
 // 4C = S + red-suit
@@ -25,6 +25,12 @@ _ = natural +
 @ 5{ndash}5 in the other two-suits must double
 
 https://drive.google.com/file/d/156kLxwgZ5LlNMuSYV_yH32WhYqs1guNh/view[*Curly Cue-bids*] +
+Partner makes a T/O double between Opps bidding two suits at the [alert]#1-level#: +
+@ lo cue {implies} low suit,
+_ hi cue {implies} high suit,
+_ but swap to keep cue-bid for hearts
+_ at the 2-level +
+@ jumps are weak 
 
 == 2023-04-18
 
