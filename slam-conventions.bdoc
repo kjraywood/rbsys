@@ -1253,9 +1253,9 @@ _ 4NT = substitute short-suit slam-try
 === Following splinter-over-splinter
 
 @ return to trump suit = decline slam-try +
-@ trumps have been set, so kickback applies +
-@ if kickback is available, then repeating
-@ first-splinter suit = exclusion +
+@ kickback applies if we are below 4T +
+@ if kickback is available, then
+_ repeating first-splinter suit = exclusion +
 @ if we are above kickback,
 _ !show! KC in steps skipping trump-suit +
 
