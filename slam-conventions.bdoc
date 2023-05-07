@@ -1239,18 +1239,25 @@ especially on interference auctions.
 
 [lavender-box]#As with D0P1, following pass=1, asker's double is penalty#
 
+[_splinter_over_splinter]
 == Splinter over Splinter
 
 *Following a GF splinter:* +
 @ return to trump suit = sign off +
 @ other non-jump suit-bid
-_ = short-suit slam-try +
+_ = short-suit slam-try
+_ = #splinter-over-splinter# +
 @ if kickback applies, then
 _ 4NT = substitute short-suit slam-try
 
-*Following splinter-over-splinter:* +
+=== Following splinter-over-splinter
+
 @ return to trump suit = decline slam-try +
-@ other = KC in steps skipping trump-suit
+@ trumps have been set, so kickback applies +
+@ if kickback is available, then repeating
+@ first-splinter suit = exclusion +
+@ if we are above kickback,
+_ !show! KC in steps skipping trump-suit +
 
 === Examples
 
@@ -1277,22 +1284,6 @@ _ 4NT = substitute short-suit slam-try
 |
 [grid="none",stripes="none",frame="allx"]
 :===
-  1S   : !4H!
-  !5D! :
-:===
-|
-[%autowidth,grid="none",stripes="odd",frame="nonex"]
-!===
-! Splinter-over-splinter still applies above four of our trump suit
-!===
-|===
-
-.(c)
-[%autowidth,cols="2*^.^a",grid="none"]
-|===
-|
-[grid="none",stripes="none",frame="allx"]
-:===
   1H    : !4D!
   !4NT! :
 :===
@@ -1304,7 +1295,7 @@ _ 4NT = substitute short-suit slam-try
 !===
 |===
 
-.(d)
+.(c)
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -1321,7 +1312,7 @@ _ 4NT = substitute short-suit slam-try
 !===
 |===
 
-.(e)
+.(d)
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -1338,7 +1329,7 @@ _ 4NT = substitute short-suit slam-try
 !===
 |===
 
-.(f)
+.(e)
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -1346,7 +1337,7 @@ _ 4NT = substitute short-suit slam-try
 :===
   1S   : 2D
  !2NT! : !4C!
- !4H!  :
+ !4H!  : !5C!
 :===
 |
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
@@ -1354,17 +1345,28 @@ _ 4NT = substitute short-suit slam-try
 ! 2NT = Schuler shift = 6{xtimes}{S} +
   4C = splinter +
   4H = short-suit slam-try
+  5C = exclusion
 !===
+|===
+
+.(f)
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1S   | !4C! ||
+| !4D! |  ?   || shortness slam-try
+|      | !4H! || [orange-box]#last train??#
+|      |  4S  || decline
+|     | !4NT! || KC asking
+|      | !5C! || exclusion
 |===
 
 .(g)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1S   | !4C! ||
-| !4D! |  ?   || shortness slam-try
-|      | !4H! || accept, 0 or 3 KC
-|      |  4S  || decline
-|     | !4NT! || accept, 1 or 4 KC
-|      | !5C! || accept, 2 KC w/o {S}Q
-|      | !5D! || accept, 2 KC with {S}Q
+| 1S   | !4H! ||
+| !5D! |  ?   || shortness slam-try
+|      | !5H! || accept, 0 or 3 KC
+|      |  5S  || decline
+|     | !5NT! || accept, 1 or 4 KC
+|      | ... ||
 |===
