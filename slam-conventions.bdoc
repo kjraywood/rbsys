@@ -1239,7 +1239,7 @@ especially on interference auctions.
 
 [lavender-box]#As with D0P1, following pass=1, asker's double is penalty#
 
-[_splinter_over_splinter]
+[#_splinter_over_splinter]
 == Splinter over Splinter
 
 *Following a GF splinter:* +
