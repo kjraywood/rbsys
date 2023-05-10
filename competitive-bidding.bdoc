@@ -6,8 +6,9 @@ Jump raise = weak
 
 Redouble shows no fit so 2NT and 3NT show a fit; usually four cards.
 
-After 1M, the lower of 2NT and JS-to-other-major is a 4-card
-limit-raise and the higher is a mixed raise.
+After 1M, JS-to-other-major = mixed raise
+
+IGAS applies after 1m-(X)
 
 [#_js_vs_take_out_double]
 === Jump Shifts vs Take-Out Double
@@ -16,16 +17,10 @@ limit-raise and the higher is a mixed raise.
 
 @ minor {blueRarrow} other minor = {LRplus}
 
-@ [lightgrey-bg]#`1H (X) 2S`# = 4-card LR +
-@ [lightgrey-bg]#`1H (X) 2NT`# = mixed raise
-
-@ [lightgrey-bg]#`1S (X) 2NT`# = 4-card LR +
-@ [lightgrey-bg]#`1S (X) 3H`# = mixed  raise
+@ major {blueRarrow} other major = mixed raise
 
 @ [lightgrey-bg]#`1m (X) 2M`# = natural, weak +
 @ [lightgrey-bg]#`1M (X) 3m`# = natural, weak
-
-TIP: `1H-(P)-2NT`, `1H-(X)-2NT`, and `1H-(1S)-2NT` all show a mixed raise
 
 &Passed Hand&
 
