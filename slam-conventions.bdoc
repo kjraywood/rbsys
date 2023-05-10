@@ -1164,10 +1164,10 @@ This can allow finding 7NT.
 
 *Two or more intermediate steps:*
 (_e.g._ 5C & 5S in above ) +
-@ step 1 = only 2nd-round control,
-_ Kxx (AKx) +
-@ step 2 = only 3rd-round control,
+@ step 1 = only 3rd-round control,
 _ xx (Ax) or Qxx (AQx) +
+@ step 2 = only 2nd-round control,
+_ Kxx (AKx) +
 
 *One intermediate step:*
 (_e.g._ 5NT in above ) +
@@ -1256,8 +1256,8 @@ _ 4NT = substitute short-suit slam-try
 @ kickback applies if we are below 4T +
 @ if kickback is available, then
 _ repeating first-splinter suit = exclusion +
-@ if we are above kickback,
-_ !show! KC in steps skipping trump-suit +
+@ if we are above kickback, then accept by
+_ !showing! KC in steps skipping the trump-suit +
 
 === Examples
 
