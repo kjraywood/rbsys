@@ -15,6 +15,26 @@ __ {nbsp}{ndash}{nbsp} Andrew Gumperz
 @ #OFF by a passed hand# +
 >> regular NMF with an old and new minor
 
+=== Raising NT is natural
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m   |  1M ||
+| 1NT  | 2NT || natural inv.
+|===
+
+=== Siging-off in clubs
+
+Responder relays twice then passes.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1m   |  1M   ||
+| 1NT  | !2C!  || forces 2D
+| !2D! | !2NT! || forces 3C
+| 3C   | pass  ||
+|===
+
 === Weak with both majors
 
 [%autowidth,cols="4*^,<",grid="none"]
@@ -113,23 +133,44 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 |     | 4H   || sign off
 |===
 
-// Returning to opener's minor suggests slam interest
+=== Choice of Game Auctions
 
-// [%autowidth,cols="3*^,<",grid="none"]
-// |===
-// | 1D  |  1S  ||
-// | 1NT | !2D! ||
-// | 2NT |  ?   ||
-// |     | 3C   || 4*{C}
-// |     | 3H   || 5-5 Majors, non-pure
-// |===
+This is the most-frequent advantage of 2-way Checkback over
+new-minor-forcing.
 
-Opener's priority of showing the other-major first, ensures that we
-will find a fit there quickly.
+It occurs when: +
+@ Responder has 5332, (5*M) +
+@ Opener has 3-card support for
+_ responder's 5-card major
 
-Therefore, in the following auction only, responder's 2S shows a heart
-fit and concentration of strength.
+.(a)
+[%autowidth,cols="3*^",grid="none"]
+|===
+| 1m   ||  1M
+| 1NT  || !2C!
+| !2D! || 3NT
+2+<| P or 4M |
+|===
 
+Responder has 5332, with the doubleton in opener's suit.
+
+.(b)
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1D  |  1S  ||
+| 1NT | !2D! ||
+| 2S  | 2NT  || 5*{S}
+| 3C  | 3NT  ||
+|===
+
+Responder's 2NT rebid promises that the suit bid on the first-round is
+a 5-card suit.
+
+When opener shows a good holding in clubs, responder chooses 3NT.
+Responder will need good hearts for this auction because opener could
+be weak there.
+
+.(c)
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 1m  |  1H  ||
@@ -137,28 +178,12 @@ fit and concentration of strength.
 | 2H  | !2S! || heart-fit, spade strength
 |===
 
-It could be the first-move in a slam investigation or a choice-of-game.
+Opener denied four spades so this sequence by responder is used
+to show 5332 hand with strength in spades and a doubleton in the
+unbid minor
 
-==== Other Choice-of-game auctions
-
-When opener shows 3-card support for responder's major, then responder
-can bid 2NT for more info.
-
-Opener then shows location of strength.
-
-With a 5332 hand responder may then choose 3NT if opener's strength
-matches responder's weakness.
-
-[%autowidth,cols="2*^",grid="none"]
-|===
-| 1D  |  1S
-| 1NT | !2D!
-| 2S  | 2NT
-| 3C  | 3NT
-|===
-
-Responder will need good hearts for this auction because opener could
-be weak there.
+It's also possible that this is the first-move in a slam
+investigation.
 
 // ==== Slam trys and non-serious 3NT
 
@@ -187,21 +212,22 @@ be weak there.
 
 === Game-forcing with a fit for opener's minor
 
-Responder relays with 2NT then bids again, to show four-cards in
-opener's minor and GF strength; possibly slammish.
+Responder relays with 2C, then again with 2NT then bids again, to show
+four-cards in opener's minor and GF strength; possibly slammish.
 
 Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
-| 1m  |  1M   | |
-| 1NT | !2NT! | | forces 3C
-| 3C  | ?     | |
-|     | pass  | | to play
-|     | !3D!  | | _other-minor_{thinsp} singleton
-|     | !3oM! | | _other-Major_{thinsp} singleton
-|     | !3M!  | | #5*M + 4*m, xx in others#
-|     | !3NT! | | 5*M + 4*m, at least Qx in other two suits
+| 1m   |  1M   ||
+| 1NT  | !2C!  || forces 2D
+| !2D! | !2NT! || forces 3C
+| 3C   | ?     ||
+|      | pass  || to play
+|      | !3D!  || _other-minor_{thinsp} singleton
+|      | !3oM! || _other-Major_{thinsp} singleton
+|      | !3M!  || #5*M + 4*m, xx in others#
+|      | !3NT! || 5*M + 4*m, at least Qx in other two suits
 |===
 
 [#_nmf_by_passed_hand]
