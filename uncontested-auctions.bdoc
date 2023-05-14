@@ -133,6 +133,7 @@ for KC.  Opener's first priority is to assume a choice-of-game (3NT vs
 |     | 4H   || sign off
 |===
 
+[#_2wcb_cog]
 === Choice of Game Auctions
 
 This is the most-frequent advantage of 2-way Checkback over
@@ -210,12 +211,16 @@ investigation.
 // |  3S   | !3NT! | | mild slam try
 // |===
 
-=== Game-forcing with a fit for opener's minor
+[#_2wcb_2relays_bid]
+=== Game-forcing with a 4-card fit for opener's minor
 
-Responder relays with 2C, then again with 2NT then bids again, to show
-four-cards in opener's minor and GF strength; possibly slammish.
+Responder relays twice then bids again, to show four-cards in opener's
+minor and GF strength; possibly slammish.
 
 Responder's suits are usually 5-4 (M-m) but could be a non-pure 5-5.
+
+With a pure 5-5, responder jumps directly to three of opener's minor
+after the 1NT rebid.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
