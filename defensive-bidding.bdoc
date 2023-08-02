@@ -947,31 +947,21 @@ Redouble = at least 5{ndash}5 in other two suits
 
 === Double of transfer
 
-[lavender-box]#double of transfer = take-out of suit they show#
+Lead directing when: +
+@ transfer is at 3 or 4 level +
+@ they open a strong NT
 
-Applies when: +
-
+Take-out of shown suit when:
+@ they open a weak NT +
 @ they play transfer responses to 1C +
-
-@ they transfer at the #2 level# after
-_ their 1NT opening (any strength)
-
-@ they open Flannery 2D
+@ they open Flannery 2D +
 
 === Bidding the suit shown by the transfer
 
-[%autowidth,cols="2*^"]
-|===
-h| Level of +
-  their transfer 
-h| Bidding the +
-   shown suit
+@ Natural at 1-level +
+@ Michaels at 2{OrMore}-level
 
-| 1 | natural
-| 2 | Michaels
-|===
-
-=== Example after their 1NT opening
+=== Example after their Weak 1NT opening
 
 [%autowidth,cols="5*^,<",grid="none"]
 |===
