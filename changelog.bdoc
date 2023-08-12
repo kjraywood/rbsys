@@ -2,6 +2,13 @@
 
 :sectnums!:
 
+
+== 2023-08-12
+
+<<system.adoc#_reverses, *Reverses*>> +
+@ default bid = cheaper of 4th-suit & 2NT +
+@ 2NT includes bal. 8{ndash}10 or 14{OrMore}
+	
 == 2023-05-13
 
 <<system.adoc#_2_way_checkback, *Two-Way Checkback*>> +
@@ -22,15 +29,11 @@ _ Kxx (AKx) +
 
 The lower bid is weaker and less specific
 
-*Vs a 1\H Overcall* +
-Dropped special system
-
 <<system.adoc#_un_vs_un, *Vs Two-Suited Overcalls*>> +
-@ dble = bal. 9{OrMore} +
-_ *-* does not create a force +
-_ *-* shows 4 or 5 of unbid major +
-_ *-* shows 2 of opener's major +
-@ [orange-box]#WARNING: dropped split-range bids#
+dble = bal. 9{OrMore} +
+@ does not create a force +
+@ shows 4 or 5 of unbid major +
+@ shows 2 of opener's major +
 
 <<system.adoc#_js_vs_take_out_double,
               *Jump Shifts vs Take-Out Double*>> +
