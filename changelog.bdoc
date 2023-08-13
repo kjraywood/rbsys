@@ -2,13 +2,20 @@
 
 :sectnums!:
 
+== 2023-08-13
+
+<<system.adoc#_opener_rebids_diamonds, *Opener rebids diamonds*>> +
+1D {ndash} 1S{thinsp}{semicolon} 2D {ndash} 2H = natural +
+@ 4*{H}, inv.{OrMore}
+_ {or} 5*{H}, inv. only +
+@ 5{ndash}5 majors jumps to 3H
 
 == 2023-08-12
 
 <<system.adoc#_reverses, *Reverses*>> +
 @ default bid = cheaper of 4th-suit & 2NT +
 @ 2NT includes bal. 8{ndash}10 or 14{OrMore}
-	
+
 == 2023-05-13
 
 <<system.adoc#_2_way_checkback, *Two-Way Checkback*>> +
@@ -17,7 +24,7 @@
 _ <<system.adoc#_2wcb_2relays_bid, *GF with 4-cd fit for opener's minor*>> +
 @ updated <<system.adoc#_2wcb_cog, *choice-of-game auctions*>>
 
-== 2023-05-10
+== 2023-05-11
 
 <<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
 
@@ -27,7 +34,7 @@ _ xx (Ax) or Qxx (AQx) +
 @ step 2 = only 2nd-round control,
 _ Kxx (AKx) +
 
-The lower bid is weaker and less specific
+== 2023-05-10
 
 <<system.adoc#_un_vs_un, *Vs Two-Suited Overcalls*>> +
 dble = bal. 9{OrMore} +
@@ -35,12 +42,15 @@ dble = bal. 9{OrMore} +
 @ shows 4 or 5 of unbid major +
 @ shows 2 of opener's major +
 
+
+== 2023-05-09
+
 <<system.adoc#_js_vs_take_out_double,
               *Jump Shifts vs Take-Out Double*>> +
 Following a take-out double: +
 @ #JS to other major = mixed raise#
 
-== 2023-05-07
+== 2023-05-08
 
 <<system.adoc#_splinter_over_splinter, *Splinter over splinter*>> +
 @ new suit after splinter
@@ -49,13 +59,15 @@ _ = short-suit slam-try +
 _ show KC in steps skipping trump-suit +
 @ also see <<system.adoc#_splinter_over_splinter, *notes*>>
 
+== 2023-05-07
+
 https://drive.google.com/file/d/156kLxwgZ5LlNMuSYV_yH32WhYqs1guNh/view[*Curly Cue-bids*] +
 Partner makes a T/O double between Opps bidding two suits at the [alert]#1-level#: +
 @ lo cue {implies} low suit,
 _ hi cue {implies} high suit,
 _ but swap to keep cue-bid for hearts
 _ at the 2-level +
-@ jumps are weak 
+@ jumps are weak
 
 == 2023-05-06
 
@@ -72,6 +84,8 @@ _ vs 3{lab}__suit__{rab} opening
 // 4C = S + red-suit
 // 4D = red-suits
 // See "Better coding of 2-suits, J Goldsmith, TBW, June 2007"
+
+== 2023-05-05
 
 <<system.adoc#_sandwich_overcalls, *vs Neb-minor in Sandwich position*>> +
 vs nebulous 1C or 1D opening: +
@@ -118,7 +132,7 @@ _ have shortness in either unbid suit
 @ *vs {H}:*{nbsp} 2NT = minors +
 @ *vs {S}:*{nbsp} 2NT = minors {or} {D}+{H}
 
-<<system.adoc#_3sf_responder_bids_1s_then_2h,
-	*1\D-1\S{semicolon} 2\D-2\H{semicolon} ?*>> +
-@ 3C = max, 4*{H} +
-@ max w/o {C}-stopper must lie
+// <<system.adoc#_3sf_responder_bids_1s_then_2h,
+// 	*1\D-1\S{semicolon} 2\D-2\H{semicolon} ?*>> +
+// @ 3C = max, 4*{H} +
+// @ max w/o {C}-stopper must lie
