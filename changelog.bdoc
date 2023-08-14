@@ -8,7 +8,7 @@
 1D {ndash} 1S{thinsp}{semicolon} 2D {ndash} 2H = natural +
 @ 4*{H}, inv.{OrMore}
 _ {or} 5*{H}, inv. only +
-@ 5{ndash}5 majors jumps to 3H
+@ 5{ndash}5 majors GF jumps to 3H
 
 == 2023-08-12
 
