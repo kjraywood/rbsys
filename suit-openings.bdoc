@@ -677,7 +677,7 @@ NOTE: To play in 4S, responder must bid 3S (forcing) and
 {reference} https://www.bridgebase.com/forums/topic/18177-a-primer-on-reverse-bidding[
  _A Primer on Reverse Bidding_, Mike Hargreaves]
 
-Promises another bid below-game::
+Opener promises another bid below-game::
    {implies} next bid by responder is forcing if it is below game
 
 Default rebid by responder::
@@ -702,7 +702,7 @@ Default rebid by responder::
 Following the default bid, opener bids the cheapest contract
 that he is willing to play
 
-[%autowidth,cols="2*^,<.^",grid="none"]
+[%autowidth,cols="2*^.^,<.^",grid="none"]
 |===
 3+^| After responder's default
 
@@ -711,7 +711,7 @@ that he is willing to play
 | ?  ||
 | 3C || NF, 2{OrMore}{xtimes}{C}
 | 3D || NF, 6{xtimes}{D} or short clubs
-| 3H || [orange-bg]#NF#, 5{ndash}6 in {H}{ndash}{D},
+| 3H || [orange-bg]#NF#, 5*{H}, 6*{D},
         [nobr]#__e.g.__ {S}x {H}AKxxx {D}KQxxxx {C}x#
 | 3S || F, HCP {ge} 19
 | 3NT || HCP {ge} 19
