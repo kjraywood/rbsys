@@ -467,7 +467,7 @@ queen, then *TELLER* does one of:
 *  6{lab}trump{rab} = sign-off missing only one KC or only the
   trump Q
 
-* suit above 5T = !shows! a specific king and no missing KCs
+* suit above 5T = !shows! a specific king and not missing a KC or trump Q
 
 * 5NT = no missing KCs, no side kings
 
