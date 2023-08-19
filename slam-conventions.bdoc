@@ -452,7 +452,7 @@ NOTE: Following an accept, it seems like the roles of asker and teller
 
 * Teller shows kings, even when asker showed key-cards
 
-* Showing a king = no missing key-cards
+* Showing a king {implies} we are not missing a KC or the trump Q
 
 * #We do not use a specific-suit-ask when teller accepted the invitation#
 
@@ -468,7 +468,7 @@ queen, then *TELLER* does one of:
 
 * suit above 5T = !shows! a specific king and not missing a KC or the trump Q
 
-* 5NT = no missing KCs, no side kings
+* 5NT = not missing a KC or the trump Q, no side king to show
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
