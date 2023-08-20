@@ -469,12 +469,12 @@ NOTE: Following an accept, it seems like the roles of asker and teller
 When teller knows the count of key-cards and the status of the trump
 queen, then *TELLER* does one of:
 
-* 5T = sign-off missing two KCs or one KC and the
+* 5T = sign-off, missing two KCs or one KC and the
   trump Q
 
-* 6T = sign-off missing only one KC or the trump Q
+* 6T = sign-off, missing only one KC or the trump Q
 
-* suit above 5T = !shows! a specific king and not missing a KC or the trump Q
+* suit above 5T = not missing a KC or the trump Q, !shows! specific king
 
 * 5NT = not missing a KC or the trump Q, no side king to show
 
