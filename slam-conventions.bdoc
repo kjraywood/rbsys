@@ -218,15 +218,19 @@ shown by the first response.
                  see <<#_2nt_response_to_2c, *2\C{ndash}2NT*>>
 |===
 
+[#_minorwood]
 == Minorwood
+
+Applies by either player when the opponents have done nothing other than
+pass or double
 
 @ jump to four of agreed minor +
 @ jump raise of 2m to 4m +
 @ re-raise of 3m to 4m after agreement +
 @ raise of an invitational 3m to 4m
 
-Applies by either player when the opponents have done nothing other than
-pass or double
+Minorwood can be used to invite slam because we use #the same
+responses as optional-minorwood responses.#
 
 === Jump to 4m after minor-suit agreement
 
@@ -398,6 +402,10 @@ TIP: A below-game raise of an !invitational! bid is forcing because
   (P)  : !4C! : :
 :===
 
+=== Responses to Minorwood
+
+[orange-bg]#We use the same response scheme as optional-minorwood#
+
 == Optional Minorwood
 
 Applies when four of the minor is needed as a natural slam try.
@@ -464,7 +472,7 @@ queen, then *TELLER* does one of:
 * 5T = sign-off missing two KCs or one KC and the
   trump Q
 
-* 6T = sign-off missing only one KC or only the trump Q
+* 6T = sign-off missing only one KC or the trump Q
 
 * suit above 5T = !shows! a specific king and not missing a KC or the trump Q
 
