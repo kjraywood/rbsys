@@ -870,9 +870,9 @@ major.
 |  1D  |  1S  |
 |  2D  | !3C! |
 |  ?   |      |
-| !3D! |      | reject {D} inv.
+|  3D  |      | reject {D} inv.
 | !3H! |      | accept {D} but no {S}-tolerance +
-| !3S! |      | accept and {S}-tolerance
+|  3S  |      | accept and {S}-tolerance
 | 3NT  |      | max with values in {H} and {C}
 |===
 
