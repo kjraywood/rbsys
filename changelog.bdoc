@@ -4,14 +4,15 @@
 
 == 2024-01-02
 
-<<system.adoc#_drury, *Drury*>> 
-@ ON vs Dble
+<<system.adoc#_drury, *Drury*>> +
+@ ON vs Dble +
 @ OFF vs Overcall
 
 == 2023-08-19
 
-<<system.adoc#_minorwood, *Minorwood*>> 
-@ optional-minorwood responses to regular minorwood
+<<system.adoc#_minorwood, *Minorwood*>> +
+@ use optional-minorwood responses
+_ in regular-minorwood auctions
 
 == 2023-08-13
 
@@ -30,10 +31,11 @@ _ {or} 5*{H}, inv. only +
 == 2023-05-13
 
 <<system.adoc#_2_way_checkback, *Two-Way Checkback*>> +
-@ Raising NT is natural +
-@ Relay twice to sign-off in clubs, or
-_ <<system.adoc#_2wcb_2relays_bid, *GF with 4-cd fit for opener's minor*>> +
-@ updated <<system.adoc#_2wcb_cog, *choice-of-game auctions*>>
+@ updated <<system.adoc#_2wcb_cog, [alert]#choice-of-game auctions#>>
+@ raising NT is natural +
+@ relay twice to sign-off in clubs +
+@ see also:
+_ <<system.adoc#_2wcb_2relays_bid, [alert]#GF with 4-cd fit for opener's minor#>> +
 
 == 2023-05-11
 
@@ -108,7 +110,7 @@ _ = natural +
 
 https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
 
-https://drive.google.com/file/d/1a9zn20W4pEBHfX4_PLQbPp5KbRhJm3uV/view[*Rebid by Opener in Comp.] +
+https://drive.google.com/file/d/1a9zn20W4pEBHfX4_PLQbPp5KbRhJm3uV/view[*Rebid by Opener in Comp.*] +
 *Applies when:* +
 @ they overcall one major +
 @ responder bids a forcing
