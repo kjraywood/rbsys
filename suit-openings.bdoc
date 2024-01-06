@@ -652,7 +652,7 @@ NOTE: To play in 4S, responder must bid 3S (forcing) and
 
 {warning}{nbsp} #We do NOT use Lebensohl#
 
-==== Third bid by responder
+==== Second bid by responder
 
 Rebid of own suit::
   unlimited, but can be minimum, hence F1. Length = 5{OrMore}
@@ -670,7 +670,7 @@ Three of opener's 1st suit::
   usual meaning = default bid, unlimited but can be minumum, hence
   F1.
 
-==== Auction treated differently
+==== When 4th-suit is too high
 
 When the fourth-suit is above three of opener's first suit, we change
 the usual meanings of the fourth suit and three of opener's first
@@ -686,13 +686,11 @@ This only occurs in the following auction.
 |   | !3D! || GF, usually 3{OrMore}{xtimes}{C}
 |===
 
-[NOTE]
-====
+****
 If responder wants to sign-off in hearts in the above auction, then
 responder must have at least five spades.
-
 Thus responder's second bid will be 2S, intending to follow with 3H.
-====
+****
 
 ==== Opener reverses into 2\D
 
@@ -703,37 +701,34 @@ Thus responder's second bid will be 2S, intending to follow with 3H.
 |    | 2H || 5{OrMore}{xtimes}{H}, any strength
 |    | !2S! || default, usually weak, F1
 |    | 2NT || balanced 8{ndash}10 or 14{OrMore}
-|    | 3C || 3{OrMore}{xtimes}{C}, HCP {ge} 8
-|    | 3D || 4{OrMore}{xtimes}{D}, HCP {ge} 8
-|    | 3H || 6{OrMore}{xtimes}{H}, good suit, [orange-bg]#solid ??#
+|    | 3C || 3{OrMore}{xtimes}{C}, GF
+|    | 3D || 4{OrMore}{xtimes}{D}, GF
+|    | 3H || 6{OrMore}{xtimes}{H}, good suit, GF
 |    | 3S || splinter
 |    | 3NT || balanced 11{ndash}13
 |===
 
 ==== Opener reverses into 2\H
 
-2NT rebid is natural and GF, as after reverse to 2D
-
 When opener's minor is diamonds, the fourth-suit is below three of
 opener's suit, hence works fine as the default bid.
-
-When opener's minor is clubs, we use responder's 3C as a weak
-sign-off, and the fourth-suit, 3D, as a GF club raise.
 
 [%autowidth,cols="3*^,<.^",grid="none"]
 |===
 4+^| Responder's Rebid
 
-| 1C | 1S ||
+| 1D | 1S ||
 | 2H |  ? ||
 |    | 2S || 5{OrMore}{xtimes}{S}, any strength
 |    | 2NT || balanced 8{ndash}10 or 14{OrMore}
-|    | 3C || natural, minimum, #NF#
-|    | !3D! || 3{OrMore}{xtimes}{C}, HCP {ge} 8
-|    | 3H || 4{OrMore}{xtimes}{H}, HCP {ge} good 7
-|    | 3S || good suit
+|    | !3C! || default, usually weak, F1
+|    | 3D || 3{OrMore}{xtimes}{D}, GF
+|    | 3H || 4{OrMore}{xtimes}{H}, GF
+|    | 3S || good suit, GF
 |    | 3NT || balanced 11{ndash}13
 |===
+
+==== Third bid by opener
 
 Following the default bid, opener bids the cheapest contract
 that he is willing to play
