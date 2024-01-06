@@ -1138,54 +1138,79 @@ Purpose::
 [lavender-box]#Used as grand-slam investigation and guarantees that
                all key-cards and the trump-queen are held#
 
-SSA bid = not trump-suit, not Q-ask, not K-ask
+SSA bid = not sign-off, not Q-ask, not K-ask
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
 | 1D   | !2D! || inverted, GF
-| 2S   | !4D! || minorwood
-| !4H! |  ?   || [ 4H = 0 or 3 ]
-|      |  4S  || Q-ask
+| 2S   | !4D! || optional minorwood
+| !4S! |  ?   || [ 4S = decline, 0 or 3 ]
 |      |  4NT || to play
-|      |  5C  || SSA in {C}
+|      |  5C  || Q ask
 |      |  5D  || sign off
 |      |  5H || K-ask
 |      |  5S  || SSA in {S}
 |      |  5NT || SSA in {H} (suit of K-ask)
+|      |  6C  || SSA in {C}
 |===
 
-&Responses&
+==== Responses to SSA
 
 #Treat the ace as a small card because it is known# +
 {implies} AQx is the same as Qxx; only 3rd-round control.
 
-Responses depend on number of steps between the SSA bid and 6T (six of
-the trump suit).
+Without 2nd-round or 3rd-round control::
+   responder signs off in six of the trump suit
 
-With 2nd and 3rd-round control, reponder distinguishes between
-high-card and shortness.
-This can allow finding 7NT.
+@ 6T = no 2nd or 3rd = xxx (or Axx) 
 
-*All cases:* +
-@ trump-suit = no control +
-@ 6NT = KQ(x) (could be AKQ) +
-@ seven of trump suit = Kx (could be AK) +
-@ cheapest suit-bid above 6T = x (could be A) +
+*With both 2nd-round and 3rd-round control*
+   responder goes above six of the trump suit
+   and shows whether the controls are high-card or shortness
+
+@ 6NT = 2nd and 3rd with high-cards
+_ = KQ(x) (or AKQ) +
+
+@ 7T = 2nd and 3rd with shortness
+_ = x (or stiff A) +
+
+@ other suit above 6T
+_ = 2nd with K, 3rd with shortness
+_ = Kx tight (or AK tight) +
+
+NOTE: 6NT shows that both controls also apply to NoTrump. +
+      7T shows that both controls need a trump suit.
+      An in-between response shows one high-card control,
+      and one ruffing-control which is necessarily Kx tight.
+
+With only 2nd, or only 3rd::
+   the responses depend on number of steps between the SSA bid and 6T
 
 *Two or more intermediate steps:*
-(_e.g._ 5C & 5S in above ) +
+(_e.g._ 5S when {D} are trump ) +
 @ step 1 = only 3rd-round control,
 _ xx (Ax) or Qxx (AQx) +
 @ step 2 = only 2nd-round control,
 _ Kxx (AKx) +
 
+[NOTE]
+====
+Following a step 1 response, the next step asks if the control
+is shortness (xx) or high-card (Qxx). +
+The shortness control bids 6T. +
+The high-card control bids 6NT.
+
+An only-2nd-round-control must be Kxx so further clarification is
+not needed.
+====
+
 *One intermediate step:*
-(_e.g._ 5NT in above ) +
+(_e.g._ 5NT when {D} are trump ) +
 @ step 1 = only 3rd or only 2nd,
 _ xx or Qxx or Kxx
 
 *No intermediate steps:*
-(_e.g._ 6H when {S} are trump) +
+(_e.g._ 6C when {D} are trump) +
 @ above 6T =  3rd-round control
 
 === Interference
