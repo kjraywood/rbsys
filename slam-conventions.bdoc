@@ -1164,7 +1164,7 @@ Without 2nd-round or 3rd-round control::
 
 @ 6T = no 2nd or 3rd = xxx (or Axx) 
 
-*With both 2nd-round and 3rd-round control*
+With both 2nd-round and 3rd-round control::
    responder goes above six of the trump suit
    and shows whether the controls are high-card or shortness
 
@@ -1178,10 +1178,10 @@ _ = x (or stiff A) +
 _ = 2nd with K, 3rd with shortness
 _ = Kx tight (or AK tight) +
 
-NOTE: 6NT shows that both controls also apply to NoTrump. +
-      7T shows that both controls need a trump suit.
-      An in-between response shows one high-card control,
-      and one ruffing-control which is necessarily Kx tight.
+TIP: 6NT shows that both controls also apply to NoTrump. +
+     7T shows that both controls need a trump suit.
+     An in-between response shows one high-card control,
+     and one ruffing-control which is necessarily Kx tight.
 
 With only 2nd, or only 3rd::
    the responses depend on number of steps between the SSA bid and 6T
@@ -1193,8 +1193,7 @@ _ xx (Ax) or Qxx (AQx) +
 @ step 2 = only 2nd-round control,
 _ Kxx (AKx) +
 
-[NOTE]
-====
+****
 Following a step 1 response, the next step asks if the control
 is shortness (xx) or high-card (Qxx). +
 The shortness control bids 6T. +
@@ -1202,7 +1201,7 @@ The high-card control bids 6NT.
 
 An only-2nd-round-control must be Kxx so further clarification is
 not needed.
-====
+****
 
 *One intermediate step:*
 (_e.g._ 5NT when {D} are trump ) +
