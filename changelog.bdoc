@@ -2,17 +2,27 @@
 
 :sectnums!:
 
-== 2024-01-02
+== 2024-01-05
 
 <<system.adoc#_drury, *Drury*>> +
 @ ON vs Dble +
 @ OFF vs Overcall
 
+<<system.adoc#_reverses, *Reverse after 1-level suit response*>> +
+@ 2NT = natural GF, 8{ndash}10 or 14{OrMore} +
+@ default bid = 4th-suit +
+@ #EXCEPTION:# 1C {ndash} 1S{thinsp}{semicolon} 2H {ndash} ? +
+_ {tribull} 3C = NF {cdot} !3D! = GF, usually {C}-fit 
+
 == 2023-08-19
 
-<<system.adoc#_minorwood, *Minorwood*>> +
+<<system.adoc#_minorwood, *Minorwood*>> &
+<<system.adoc#_opt_minorwood_responses, *Optional Minorwood*>> +
 @ use optional-minorwood responses
 _ in regular-minorwood auctions
+
+@ teller shows kings, even when asker
+_ showed key-cards
 
 == 2023-08-13
 
@@ -21,12 +31,6 @@ _ in regular-minorwood auctions
 @ 4*{H}, inv.{OrMore}
 _ {or} 5*{H}, inv. only +
 @ 5{ndash}5 majors GF jumps to 3H
-
-== 2023-08-12
-
-<<system.adoc#_reverses, *Reverses*>> +
-@ default bid = cheaper of 4th-suit & 2NT +
-@ 2NT includes bal. 8{ndash}10 or 14{OrMore}
 
 == 2023-05-13
 
@@ -115,12 +119,6 @@ https://drive.google.com/file/d/1a9zn20W4pEBHfX4_PLQbPp5KbRhJm3uV/view[*Rebid by
 @ they overcall one major +
 @ responder bids a forcing
 _ new-suit @ 2-level +
-
-== 2023-04-17
-
-<<system.adoc#_opt_minorwood_responses, *Responding to Optional Minorwood*>> +
-@ teller shows kings, even when asker
-_ showed key-cards
 
 == 2023-04-15
 
