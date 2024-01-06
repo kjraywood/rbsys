@@ -648,24 +648,60 @@ NOTE: To play in 4S, responder must bid 3S (forcing) and
 [#_reverses]
 == Reverses
 
-=== After 1-level suit-response
+=== Reverse after 1-level suit-response
+
+{warning}{nbsp} #We do NOT use Lebensohl#
+
+==== Third bid by responder
+
+Rebid of own suit::
+  unlimited, but can be minimum, hence F1. Length = 5{OrMore}
+
+2NT::
+  natural GF, 8{ndash}10 or 14{OrMore}
+
+Raise of opener's 2nd suit::
+  natural GF, hence non-minimum
+
+Three of opener's 1st suit::
+  usual meaning = natural GF (non minimum)
+
+4th-suit::
+  usual meaning = default bid, unlimited but can be minumum, hence
+  F1.
+
+==== Auction treated differently
+
+When the fourth-suit is above three of opener's first suit, we change
+the usual meanings of the fourth suit and three of opener's first
+suit.
+
+This only occurs in the following auction.
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+| 1C | 1S  ||
+| 2H | ?   ||
+|    | 3C  || minimum, 2{OrMore}{xtimes}{C}, attempted sign-off
+|   | !3D! || GF, usually 3{OrMore}{xtimes}{C}
+|===
+
+[NOTE]
+====
+If responder wants to sign-off in hearts in the above auction, then
+responder must have at least five spades.
+
+Thus responder's second bid will be 2S, intending to follow with 3H.
+====
 
 ==== Opener reverses into 2\D
-
-Responder rebids as per standard _Ingberman_ +
-@ rebidding major = 5{OrMore}, any strength +
-@ 4th suit (other major ) = default, any strength +
-@ other = natural, non-minimum {implies} GF
-
-NOTE: any strength = unlimited but could be week.  In practice, the
-      4th suit is almost always weak
 
 [%autowidth,cols="3*^,<.^",grid="none"]
 |===
 | 1C | 1H ||
 | 2D |  ? ||
 |    | 2H || 5{OrMore}{xtimes}{H}, any strength
-|    | !2S! || default, could be weak
+|    | !2S! || default, usually weak, F1
 |    | 2NT || balanced 8{ndash}10 or 14{OrMore}
 |    | 3C || 3{OrMore}{xtimes}{C}, HCP {ge} 8
 |    | 3D || 4{OrMore}{xtimes}{D}, HCP {ge} 8
@@ -676,18 +712,13 @@ NOTE: any strength = unlimited but could be week.  In practice, the
 
 ==== Opener reverses into 2\H
 
-{warning}{nbsp} #We do NOT use Lebensohl#
-
 2NT rebid is natural and GF, as after reverse to 2D
 
-Therefore, weak hands need another way to sign-off in one of opener's suits.
+When opener's minor is diamonds, the fourth-suit is below three of
+opener's suit, hence works fine as the default bid.
 
-When opener's minor is diamonds, the fourth-suit is below three of opener's suit,
-hence works fine as the default bid.
-
-When opener's minor is clubs, we use responder's 3C as a weak sign-off,
-and the fourth-suit, 3D, as a GF club raise. is below three of opener's suit,
-hence works fine as the default bid.
+When opener's minor is clubs, we use responder's 3C as a weak
+sign-off, and the fourth-suit, 3D, as a GF club raise.
 
 [%autowidth,cols="3*^,<.^",grid="none"]
 |===
@@ -707,31 +738,7 @@ hence works fine as the default bid.
 Following the default bid, opener bids the cheapest contract
 that he is willing to play
 
-// [%autowidth,cols="2*^.^,<.^",grid="none"]
-// |===
-// 3+^| After responder's default
-
-// | 1D | 1S |
-// | 2H | !2NT! |
-// | ?  ||
-// | 3C || NF, 2{OrMore}{xtimes}{C}
-// | 3D || NF, 6{xtimes}{D} or short clubs
-// | 3H || [orange-bg]#NF#, 5*{H}, 6*{D},
-//         [nobr]#__e.g.__ {S}x {H}AKxxx {D}KQxxxx {C}x#
-// | 3S || F, HCP {ge} 19
-// | 3NT || HCP {ge} 19
-// |===
-
-// [%autowidth,cols="3*^,<.^",grid="none"]
-// |===
-// | 1D | 1S    ||
-// | 2H | !2NT! ||
-// | 3m |  ?    ||
-// |    | 3NT || balanced 8{ndash}10
-// |    | 4NT || balanced 14{ndash}15
-// |===
-
-=== In comp.
+=== Reverse In comp.
 
 When responder has shown a non-bust, _e.g._{thinsp} a 1-level response
 or negative double, then #a reverse in comp. is forcing for one
@@ -767,7 +774,7 @@ Here, opener has shown extra and responder is forced to bid something.
 Therefore, 2H denies more than a minimum negative double.
 A jump to 3H is a GF opposite the extra strength shown by opener.
 
-=== After 1NT response
+=== Reverse after 1NT response
 
 @ one-round force +
 @ does not promise a rebid +
