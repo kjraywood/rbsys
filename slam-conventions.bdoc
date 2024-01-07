@@ -219,21 +219,16 @@ shown by the first response.
 |===
 
 [#_minorwood]
-== Minorwood
+== Minorwood (Optional-Minorwood responses)
 
-Applies by either player when the opponents have done nothing other than
-pass or double
+[orange-bg]#Same responses as optional-minorwood# +
+{implies} can be used to invite slam
 
+*Uncontested auctions (ignoring doubles)* +
 @ jump to four of agreed minor +
 @ jump raise of 2m to 4m +
 @ re-raise of 3m to 4m after agreement +
 @ raise of an invitational 3m to 4m
-
-=== Responses
-
-#Same responses as optional-minorwood#
-
-Therefore, minorwood can be used to invite slam
 
 === Jump to 4m after minor-suit agreement
 
@@ -407,7 +402,12 @@ TIP: A below-game raise of an !invitational! bid is forcing because
 
 === Responses to Minorwood
 
-[orange-bg]#We use the same response scheme as optional-minorwood#
+=== Responses
+
+#Same responses as optional-minorwood#
+
+Therefore, minorwood can be used to invite slam
+
 
 == Optional Minorwood
 
