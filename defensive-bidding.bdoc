@@ -202,7 +202,7 @@ _ = natural +
 |   |      |       | (1D) ||
 | P | (1S) |  ?    |      ||
 |   |      |  1NT  |      || natural
-|   |      | !2D!  |      || {H}{thinsp}+{thinsp}{C}{ensp}(5{ndash}5{OrMore})
+|   |      | !2D!  |      || {H}{xplus}{C}{ensp}(5{ndash}5{OrMore})
 |   |      |  2S   |      || natural
 |   |      | !2NT! |      || minors
 |===
