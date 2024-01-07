@@ -477,9 +477,9 @@ queen, then *TELLER* does one of:
 
 * 6T = sign-off, missing only one KC or the trump Q
 
-* 5T{thinsp}+{thinsp}1 = not missing a KC or the trump Q, no side king to show
+* 5T{xplus}1 = not missing a KC or the trump Q, no side king to show
 
-* 5T{thinsp}+{thinsp}2,3,4 = not missing a KC or the trump Q,
+* 5T{xplus}2,3,4 = not missing a KC or the trump Q,
 _ !shows! specific king, 5NT = K of T+1
 
 [%autowidth,cols="3*^.^,<",grid="none"]
@@ -1106,21 +1106,21 @@ If their four-level preempt follows a minor-suit opening or any
 @ [lavender-bg]#does NOT promise all the key-cards# +
 >> with extras, teller bids 6NT instead of 7T +
 
-If:{emsp}{emsp} trump-suit {ne} {S} +
-Then:{nbsp} 5NT = K of 5T{thinsp}+{thinsp}1
+*If:*{emsp}{emsp} trump-suit {ne} {S} +
+*Then:*{nbsp} 5NT = K of 5T{xplus}1
 
 // ** Need example auctions **
 
 === Responding to the Queen Ask
 
 @ 5T = denies Q +
-@ 5T{thinsp}+{thinsp}1 = Q, no side kings, something extra +
-@ 5T{thinsp}+{thinsp}2,3,4 = Q and specific K up-the-line +
-@ 6T{thinsp}+{thinsp}1 = Q, no side kings, nothing extra +
+@ 5T{xplus}1 = Q, no side kings, something extra +
+@ 5T{xplus}2,3,4 = Q and specific K up-the-line +
+@ 6T{xplus}1 = Q, no side kings, nothing extra +
 @ 6NT = Q and _all side kings_
 
-If:{emsp}{emsp} trump-suit {ne} {S} +
-Then:{nbsp} 5NT shows K of 5T{thinsp}+{thinsp}1
+*If:*{emsp}{emsp} trump-suit {ne} {S} +
+*Then:*{nbsp} 5NT shows K of 5T{xplus}1
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
