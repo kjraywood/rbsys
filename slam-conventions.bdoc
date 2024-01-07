@@ -1111,7 +1111,7 @@ If their four-level preempt follows a minor-suit opening or any
 
 // ** Need example auctions **
 
-=== Responding to the Queen Ask
+=== Answering the Queen Ask
 
 @ 5T = denies Q +
 @ 5T{xplus}1 = Q, no side kings, something extra +
@@ -1124,15 +1124,20 @@ If their four-level preempt follows a minor-suit opening or any
 
 [%autowidth,cols="2*^,2*<",grid="none"]
 |===
+4+^| Example of answering Q-ask
+
 | 1NT   | !4D! || Texas transfer
 | 4H    | !4S! || kickback
 | !4NT! | !5C! || [ 4NT = 0 or 3, 5C = Q ask ]
 |  ?    |||
 | 5D    |   2+<| {H}Q, no side kings
 | 5H    |   2+<| no {H}Q
-| 5S    |   2+<| {H}Q and {S}K
-| 5NT   |   2+<| {H}Q and {D}K, not {S}K
-| 6C    |   2+<| {H}Q and {C}K, not {S}K or {D}K
+| 5S    |   2+<| {H}Q, no side kings, something extra
+| 5NT   |   2+<| {H}Q & {S}K
+| 6C    |   2+<| {H}Q & {C}K, not {S}K
+| 6D    |   2+<| {H}Q & {D}K, not {S}K or {C}K
+| 6H    |   2+<| {H}Q, no side kings, nothing extra
+| 6NT   |   2+<| {H}Q & all side kings
 |===
 
 [#_specific_suit_asking]
