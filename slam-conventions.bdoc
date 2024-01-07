@@ -477,9 +477,10 @@ queen, then *TELLER* does one of:
 
 * 6T = sign-off, missing only one KC or the trump Q
 
-* suit above 5T = not missing a KC or the trump Q, !shows! specific king
+* 5T{thinsp}+{thinsp}1 = not missing a KC or the trump Q, no side king to show
 
-* 5NT = not missing a KC or the trump Q, no side king to show
+* 5T{thinsp}+{thinsp}2,3,4 = not missing a KC or the trump Q,
+_ !shows! specific king, 5NT = K of T+1
 
 [%autowidth,cols="3*^.^,<",grid="none"]
 |===
@@ -488,36 +489,26 @@ queen, then *TELLER* does one of:
 | ...    | !4D!  || optional minorwood
 | !4H!   | !5C!  || 4H = accept +
              [nobr]#5C = 2 no Q#
-| ?   |   ||
-| 5D  | 2+<| sign-off
-| 5H  | 2+<| {H}K, all KC+Q
-| 5S  | 2+<| {S}K, not {H}K
-| 5NT | 2+<| all KC+Q, no side kings
-| 6C  | 2+<| {C}K, not {H}K, not {S}K
-| 6D  | 2+<| sign-off, missing a KC or {D}Q
+|  ?    |   ||
+|  5D   | 2+<| sign-off
+| !5H!  | 2+<| all KC+Q, no side kings
+|  5S   | 2+<| {S}K
+| !5NT! | 2+<| {H}K, not {S}K
+|  6C   | 2+<| {C}K, not {H}K, not {S}K
+|  6D   | 2+<| sign-off, missing a KC or {D}Q
 |===
 
-If there is a spare step below five of the trump suit, then 4NT is a
-sign-off and the other step below 5T is the queen ask.
-
-[%autowidth,cols="3*^.^,<",grid="none"]
-|===
-| teller | asker ||
-
-| ...  | !4D! || optional minorwood
-| !4H! | !4S! || 4H = accept,
-                 [nobr]#4S = 0 or 3#
-| ?   |   ||
-| 4NT | 2+<| sign off
-| 5C  | 2+<| Q ask
-2+<| _higher_ 2+<| as above
-|===
+****
+In the above table, all the bids that showed specific king also
+show that the partnership has all the key-cards and trump Q
+****
 
 ==== Status of trump Q is unknown
 
-Teller _asks_ for the trump queen in the usual way.
+Teller _asks_ for the trump queen in the usual way, but really
+it is showing that teller does not have the Q.
 
-It _tells_ that there is at most one key-card missing, otherwise
+It also _tells_ that there is at most one key-card missing, otherwise
 teller would have signed off.
 
 Without the queen, asker bids 5T which teller may raise to six if
@@ -538,7 +529,7 @@ With the queen, *ASKER* chooses from:
 | ...  | !4D! || optional minorwood
 | !4H! | !4NT! || 4H = accept,
                  [nobr]#4NT = 1 or 4#
-| !5C! |  ?   || Q ask (denies possion of Q)
+| !5C! |  ?   || Q denier ({simto} Q ask)
 |      |  5D  || no Q, teller will bid 6D if no KC are missing
 |      | !5H! || has Q, asks teller to show kings if no KC are missing
 |      |  5NT || has Q, asks teller to bid grand if no KC are missing
@@ -550,8 +541,26 @@ After 5T+1, the followups are normal except that teller bids
 
 NOTE: The ambiguity of this response will not cause a problem because
       in addition to no missing key-cards, asker must need at least
-      one side king.  Otherwise asker would have bid 5NT to aske if
+      one side king.  Otherwise asker would have bid 5NT to ask if
       all KC are held.
+
+==== When there is a spare step below 5T
+
+If there is a spare step below five of the trump suit, then 4NT is a
+sign-off and the other step below 5T is the queen denier.
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| teller | asker ||
+
+| ...  | !4D! || optional minorwood
+| !4H! | !4S! || 4H = accept,
+                 [nobr]#4S = 0 or 3#
+| ?   |   ||
+| 4NT | 2+<| sign off
+| 5C  | 2+<| Q denier ({simto} Q ask)
+2+<| _higher_ 2+<| as above
+|===
 
 == Kickback
 
