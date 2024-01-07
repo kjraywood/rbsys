@@ -218,350 +218,6 @@ shown by the first response.
                  see <<#_2nt_response_to_2c, *2\C{ndash}2NT*>>
 |===
 
-[#_minorwood]
-== Minorwood (Optional-Minorwood responses)
-
-[orange-bg]#Same responses as optional-minorwood# +
-{implies} can be used to invite slam
-
-*Uncontested auctions (ignoring doubles)* +
-@ jump to four of agreed minor +
-@ jump raise of 2m to 4m +
-@ re-raise of 3m to 4m after agreement +
-@ raise of an invitational 3m to 4m
-
-=== Jump to 4m after minor-suit agreement
-
-[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
- 1C : 2C
- !4C! :
-:===
-|
-[grid="none",stripes=odd]
-:===
- 1C :  1D
- 2D : !4D!
-:===
-|
-[grid="none",stripes=odd]
-:===
- 1C :  2C
- 2H : !4C!
-:===
-|===
- 
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
- 1D : 2D
- 2S : 3C
- !4D! :
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1D  : !2S! : LR
- !4D! :      :
-:===
-|===
-
-=== Jump-raise of 2m to 4m
-
-[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1H
-  2C : !4C!
-:===
-|
-[grid="none",stripes=odd]
-:===
- 1H :  1S
- 2D : !4D!
-:===
-|
-[grid="none",stripes=odd]
-:===
- 1C :  1H
- 2D : !4D!
-:===
-|===
-
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1D  : 2C
-  2D : !4D!
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1H  :  2D
- !4D! :
-:===
-|===
-
-=== Re-raise of 3m to 4m after agreement
-
-[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1H :  2D
-  3D : !4D!
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1D
-  2H  : 3C
- !4C! :
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1D  : 2C
-  2D  : 3D
- !4D! :
-:===
-|===
-
-[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1H  : 1S :
-  2D  : 3D : GF
- !4D! :    :
-:===
-|
-[grid="none",stripes=odd]
-:===
-  1C  : 1S :
-  2D  : 3C : GF
- !4C! :    :
-:===
-|===
-
-=== Raising an invitational 3m to 4m
-
-[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
-|===
-|
-[grid="none",stripes=odd]
-:===
-  1D  : 1H
-  3D : !4D!
-:===
-|
-[grid="none",stripes=odd]
-:===
- 1H   :  3D
- !4D! :
-:===
-|
-[grid="none",stripes=odd]
-:===
- 1C :  1D
- 3D : !4D!
-:===
-|===
-
-TIP: A below-game raise of an !invitational! bid is forcing because
-     we don't invite an inviter.   Since it's forcing, the limited
-     hand shows key-cards.
-
-[#_minorwood_in_comp]
-=== Minorwood in competition
-
-&Jump to 4m after a cue-bid raise&
-
-[%autowidth,grid="none"]
-:===
-  1D  : (1H) : !2H! : (P{or}X)
- !4D! : : :
-:===
-
-[%autowidth,grid="none"]
-:===
-  (1S) :  2C  : (P{or}X) : !2S!
-  (P)  : !4C! : :
-:===
-
-=== Responses to Minorwood
-
-=== Responses
-
-#Same responses as optional-minorwood#
-
-Therefore, minorwood can be used to invite slam
-
-
-== Optional Minorwood
-
-Applies when four of the minor is needed as a natural slam try.
-
-=== Pulling 3NT
-
-The minor was previously agreed and 3NT was bid to play
-
-OR
-
-The minor is the only possible trump suit
-
-[%autowidth,cols="2*^",grid="none"]
-|===
-|  1S  | 2D
-|  3D  | 3NT
-| !4D! |
-|===
-
-4D is optional minorwood. Responder may have a slam-suitable hand, but
-not enough extras to initiate a slam investigation.
-
-=== Opposite a balanced hand
-
-[%autowidth,cols="3*^,<",grid="none"]
-|===
-|  1NT  | !2H! ||
-|  2S   | !3C! || shows diamonds
-|  3D   | !4D! || 3D = neutral, denying a {S}-fit +
-                  4D = extra length and optional minorwood
-|===
-
-Also see: <<#2nt_opening, 2NT auctions>>
-
-[#_opt_minorwood_responses]
-=== Responding to Optional Minorwood
-
-[%autowidth,cols="^,<",grid="none"]
-|===
-2+^| Responses to optional minorwood
-
-h| 4m+1  | accept {tribull} asker shows KCs
-h| other | decline, shows KCs beginning at 4m+2
-|===
-
-NOTE: Following an accept, it seems like the roles of asker and teller
-      have been reversed.  However when asker shows KCs, it asks
-      teller to count key-cards for the partnership and indicate
-      the appropriate level.
-
-=== Showing Kings when teller accepted
-
-* Teller shows kings, even when asker showed key-cards
-
-* Showing a king {implies} we are not missing a KC or the trump Q
-
-* #We do not use a specific-suit-ask when teller accepted the invitation#
-
-==== Status of trump Q is known
-
-When teller knows the count of key-cards and the status of the trump
-queen, then *TELLER* does one of:
-
-* 5T = sign-off, missing two KCs or one KC and the
-  trump Q
-
-* 6T = sign-off, missing only one KC or the trump Q
-
-* 5T{xplus}1 = not missing a KC or the trump Q, no side king to show
-
-* 5T{xplus}2,3,4 = not missing a KC or the trump Q,
-_ !shows! specific king, 5NT = K of T+1
-
-[%autowidth,cols="3*^.^,<",grid="none"]
-|===
-| teller | asker ||
-
-| ...    | !4D!  || optional minorwood
-| !4H!   | !5C!  || 4H = accept +
-             [nobr]#5C = 2 no Q#
-|  ?    |   ||
-|  5D   | 2+<| sign-off
-| !5H!  | 2+<| all KC+Q, no side kings
-|  5S   | 2+<| {S}K
-| !5NT! | 2+<| {H}K, not {S}K
-|  6C   | 2+<| {C}K, not {H}K, not {S}K
-|  6D   | 2+<| sign-off, missing a KC or {D}Q
-|===
-
-****
-In the above table, all the bids that showed specific king also
-show that the partnership has all the key-cards and trump Q
-****
-
-==== Status of trump Q is unknown
-
-Teller _asks_ for the trump queen in the usual way, but really
-it is showing that teller does not have the Q.
-
-It also _tells_ that there is at most one key-card missing, otherwise
-teller would have signed off.
-
-Without the queen, asker bids 5T which teller may raise to six if
-there are no key-cards missing.
-
-With the queen, *ASKER* chooses from:
-
-* 5T + 1 = asks if all KC are held, with interest in side kings
-
-* 5NT = asks if all KC are held, without interest in side kings
-
-* 6T = not interested in grand, even if no KC are missing
-
-[%autowidth,cols="3*^.^,<",grid="none"]
-|===
-| teller | asker ||
-
-| ...  | !4D! || optional minorwood
-| !4H! | !4NT! || 4H = accept,
-                 [nobr]#4NT = 1 or 4#
-| !5C! |  ?   || Q denier ({simto} Q ask)
-|      |  5D  || no Q, teller will bid 6D if no KC are missing
-|      | !5H! || has Q, asks teller to show kings if no KC are missing
-|      |  5NT || has Q, asks teller to bid grand if no KC are missing
-|      |  6D  || has Q, no extras for grand
-|===
-
-After 5T+1, the followups are normal except that teller bids
-6T with either no side king, or when a KC is missing.
-
-NOTE: The ambiguity of this response will not cause a problem because
-      in addition to no missing key-cards, asker must need at least
-      one side king.  Otherwise asker would have bid 5NT to ask if
-      all KC are held.
-
-==== When there is a spare step below 5T
-
-If there is a spare step below five of the trump suit, then 4NT is a
-sign-off and the other step below 5T is the queen denier.
-
-[%autowidth,cols="3*^.^,<",grid="none"]
-|===
-| teller | asker ||
-
-| ...  | !4D! || optional minorwood
-| !4H! | !4S! || 4H = accept,
-                 [nobr]#4S = 0 or 3#
-| ?   |   ||
-| 4NT | 2+<| sign off
-| 5C  | 2+<| Q denier ({simto} Q ask)
-2+<| _higher_ 2+<| as above
-|===
-
 == Kickback
 
 === Set trumps if possible
@@ -999,102 +655,6 @@ If we have agreed hearts, then 4S is kickback.
 @ does not need to be a jump +
 @ might be the opp's suit
 
-== Special KC-asking bids
-
-=== Exclusion
-
-Applies when:
-
-@ direct triple-jump response to 1M opening +
-@ second-round jump above four of last bid +
-@ suit agreed, then jump +
-
-// @ a non-jump following
-// >> a control-bid by partner
-// >> suit agreement at 4-level
-
-Responses:  0, 1, 2-, 2+, 3-, 3+
-
-=== Cheap Key-Card after preempts
-
-Applies when: +
-@ we open a preempt +
-@ next hand passes or doubles for take-out
-
-(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
-
-&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
-
-&Follow-ups&
-
-Returning to the trump suit #and 4NT# are to play.
-
-Other suit bids are normal KC follow-ups.
-The priority order is: +
-@ trump queen - only after zero KCs +
-@ specific kings - except after 2+Q +
-@ suit-asking
-
-[%autowidth,cols="^,2*<",grid="none"]
-|===
-|      |  2S   |
-| !4C! | !4S!* | {emsp}* 1 KC + {S}Q
-|  ?   |       |
-| pass |       | sign off
-| 4NT  |       | #sign off#
-| !5C! |       | specific-king ask
-| !5D!,!5H!,!6C! | | suit-ask
-|===
-
-[#blackwood-in-comp]
-=== 4NT in high-level competition
-
-{reference} http://www.districtsix.org/Articles/Article%202011-02.aspx[
-_ACBL district-6 panel {ndash} Feb/Mar 2011_ ]
-
-If #they preempt at the 4-level# after #partner has shown opening
-values# (includes 2{orMore}-level or higher overcall) and a
-#five-card or longer suit#, then 4NT is KC asking for majors
-but plain aces for minors.
-
-If their four-level preempt follows a minor-suit opening or any
-1-level overcall, then 4NT is general take-out.
-
-// @ 5{orMore}{xtimes}Major
-// >> 4NT = KC asking +
-
-// @ 5{orMore}{xtimes}minor
-// >> 4NT = plain aces +
-
-// @ 1m opening, or 1-level overcall
-// >> 4NT = take-out
-
-&Examples&
-
-[lightgrey-box]#1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}KC#
-[lightgrey-box]#(3{D}){emsp}3{S}{emsp}(4{D}){emsp}!!4NT!!{emsp}:{emsp}KC#
-
-[lightgrey-box]#1{H}{emsp}(3{S}){emsp}!!4NT!!{emsp}:{emsp}KC#
-[lightgrey-box]#(1{S}){emsp}2{C}{emsp}(4{S}){emsp}!!4NT!!{emsp}:{emsp}aces#
-
-[lightgrey-box]#1{C}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
-                                               6{orMore}{xtimes}{D}, 4*{C}#
-
-[lightgrey-box]#(1{H}){emsp}1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
-                                               minors#
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      |  1D   | (1S) |  3H{thinsp}  | GF
-| (4S) | !4NT! |   2+<|  KC for {H}
-|===
-
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|      |  1D   | (P) | 1H  |
-| (4S) | !4NT! |  2+<| take-out
-|===
-
 [#_kc_responses]
 == KC Responses
 
@@ -1283,6 +843,446 @@ especially on interference auctions.
 @ 2nd step = 3 with Q
 
 [lavender-box]#As with D0P1, following pass=1, asker's double is penalty#
+
+[#_minorwood]
+== Minorwood (Optional-Minorwood responses)
+
+[orange-bg]#Same responses as optional-minorwood# +
+{implies} can be used to invite slam
+
+*Uncontested auctions (ignoring doubles)* +
+@ jump to four of agreed minor +
+@ jump raise of 2m to 4m +
+@ re-raise of 3m to 4m after agreement +
+@ raise of an invitational 3m to 4m
+
+=== Jump to 4m after minor-suit agreement
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+ 1C : 2C
+ !4C! :
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1C :  1D
+ 2D : !4D!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1C :  2C
+ 2H : !4C!
+:===
+|===
+ 
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+ 1D : 2D
+ 2S : 3C
+ !4D! :
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1D  : !2S! : LR
+ !4D! :      :
+:===
+|===
+
+=== Jump-raise of 2m to 4m
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+  1C  : 1H
+  2C : !4C!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1H :  1S
+ 2D : !4D!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1C :  1H
+ 2D : !4D!
+:===
+|===
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+  1D  : 2C
+  2D : !4D!
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1H  :  2D
+ !4D! :
+:===
+|===
+
+=== Re-raise of 3m to 4m after agreement
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+  1H :  2D
+  3D : !4D!
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1C  : 1D
+  2H  : 3C
+ !4C! :
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1D  : 2C
+  2D  : 3D
+ !4D! :
+:===
+|===
+
+[%autowidth,cols="2*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+  1H  : 1S :
+  2D  : 3D : GF
+ !4D! :    :
+:===
+|
+[grid="none",stripes=odd]
+:===
+  1C  : 1S :
+  2D  : 3C : GF
+ !4C! :    :
+:===
+|===
+
+=== Raising an invitational 3m to 4m
+
+[%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
+|===
+|
+[grid="none",stripes=odd]
+:===
+  1D  : 1H
+  3D : !4D!
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1H   :  3D
+ !4D! :
+:===
+|
+[grid="none",stripes=odd]
+:===
+ 1C :  1D
+ 3D : !4D!
+:===
+|===
+
+TIP: A below-game raise of an !invitational! bid is forcing because
+     we don't invite an inviter.   Since it's forcing, the limited
+     hand shows key-cards.
+
+[#_minorwood_in_comp]
+=== Minorwood in competition
+
+&Jump to 4m after a cue-bid raise&
+
+[%autowidth,grid="none"]
+:===
+  1D  : (1H) : !2H! : (P{or}X)
+ !4D! : : :
+:===
+
+[%autowidth,grid="none"]
+:===
+  (1S) :  2C  : (P{or}X) : !2S!
+  (P)  : !4C! : :
+:===
+
+=== Responses to Minorwood
+
+=== Responses
+
+#Same responses as optional-minorwood#
+
+Therefore, minorwood can be used to invite slam
+
+
+== Optional Minorwood
+
+Applies when four of the minor is needed as a natural slam try.
+
+=== Pulling 3NT
+
+The minor was previously agreed and 3NT was bid to play
+
+OR
+
+The minor is the only possible trump suit
+
+[%autowidth,cols="2*^",grid="none"]
+|===
+|  1S  | 2D
+|  3D  | 3NT
+| !4D! |
+|===
+
+4D is optional minorwood. Responder may have a slam-suitable hand, but
+not enough extras to initiate a slam investigation.
+
+=== Opposite a balanced hand
+
+[%autowidth,cols="3*^,<",grid="none"]
+|===
+|  1NT  | !2H! ||
+|  2S   | !3C! || shows diamonds
+|  3D   | !4D! || 3D = neutral, denying a {S}-fit +
+                  4D = extra length and optional minorwood
+|===
+
+Also see: <<#2nt_opening, 2NT auctions>>
+
+[#_opt_minorwood_responses]
+=== Responding to Optional Minorwood
+
+[%autowidth,cols="^,<",grid="none"]
+|===
+2+^| Responses to optional minorwood
+
+h| 4m+1  | accept {tribull} asker shows KCs
+h| other | decline, shows KCs beginning at 4m+2
+|===
+
+NOTE: Following an accept, it seems like the roles of asker and teller
+      have been reversed.  However when asker shows KCs, it asks
+      teller to count key-cards for the partnership and indicate
+      the appropriate level.
+
+=== Showing Kings when teller accepted
+
+* Teller shows kings, even when asker showed key-cards
+
+* Showing a king {implies} we are not missing a KC or the trump Q
+
+* #We do not use a specific-suit-ask when teller accepted the invitation#
+
+==== Status of trump Q is known
+
+When teller knows the count of key-cards and the status of the trump
+queen, then *TELLER* does one of:
+
+* 5T = sign-off, missing two KCs or one KC and the
+  trump Q
+
+* 6T = sign-off, missing only one KC or the trump Q
+
+* 5T{xplus}1 = not missing a KC or the trump Q, no side king to show
+
+* 5T{xplus}2,3,4 = not missing a KC or the trump Q,
+_ !shows! specific king, 5NT = K of T+1
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| teller | asker ||
+
+| ...    | !4D!  || optional minorwood
+| !4H!   | !5C!  || 4H = accept +
+             [nobr]#5C = 2 no Q#
+|  ?    |   ||
+|  5D   | 2+<| sign-off
+| !5H!  | 2+<| all KC+Q, no side kings
+|  5S   | 2+<| {S}K
+| !5NT! | 2+<| {H}K, not {S}K
+|  6C   | 2+<| {C}K, not {H}K, not {S}K
+|  6D   | 2+<| sign-off, missing a KC or {D}Q
+|===
+
+****
+In the above table, all the bids that showed specific king also
+show that the partnership has all the key-cards and trump Q
+****
+
+==== Status of trump Q is unknown
+
+Teller _asks_ for the trump queen in the usual way, but really
+it is showing that teller does not have the Q.
+
+It also _tells_ that there is at most one key-card missing, otherwise
+teller would have signed off.
+
+Without the queen, asker bids 5T which teller may raise to six if
+there are no key-cards missing.
+
+With the queen, *ASKER* chooses from:
+
+* 5T + 1 = asks if all KC are held, with interest in side kings
+
+* 5NT = asks if all KC are held, without interest in side kings
+
+* 6T = not interested in grand, even if no KC are missing
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| teller | asker ||
+
+| ...  | !4D! || optional minorwood
+| !4H! | !4NT! || 4H = accept,
+                 [nobr]#4NT = 1 or 4#
+| !5C! |  ?   || Q denier ({simto} Q ask)
+|      |  5D  || no Q, teller will bid 6D if no KC are missing
+|      | !5H! || has Q, asks teller to show kings if no KC are missing
+|      |  5NT || has Q, asks teller to bid grand if no KC are missing
+|      |  6D  || has Q, no extras for grand
+|===
+
+After 5T+1, the followups are normal except that teller bids
+6T with either no side king, or when a KC is missing.
+
+NOTE: The ambiguity of this response will not cause a problem because
+      in addition to no missing key-cards, asker must need at least
+      one side king.  Otherwise asker would have bid 5NT to ask if
+      all KC are held.
+
+==== When there is a spare step below 5T
+
+If there is a spare step below five of the trump suit, then 4NT is a
+sign-off and the other step below 5T is the queen denier.
+
+[%autowidth,cols="3*^.^,<",grid="none"]
+|===
+| teller | asker ||
+
+| ...  | !4D! || optional minorwood
+| !4H! | !4S! || 4H = accept,
+                 [nobr]#4S = 0 or 3#
+| ?   |   ||
+| 4NT | 2+<| sign off
+| 5C  | 2+<| Q denier ({simto} Q ask)
+2+<| _higher_ 2+<| as above
+|===
+
+== Special KC-asking bids
+
+=== Exclusion
+
+Applies when:
+
+@ direct triple-jump response to 1M opening +
+@ second-round jump above four of last bid +
+@ suit agreed, then jump +
+
+// @ a non-jump following
+// >> a control-bid by partner
+// >> suit agreement at 4-level
+
+Responses:  0, 1, 2-, 2+, 3-, 3+
+
+=== Cheap Key-Card after preempts
+
+Applies when: +
+@ we open a preempt +
+@ next hand passes or doubles for take-out
+
+(!4D! / 3C) {or} (!4C! / _other_{thinsp}) = key-card ask
+
+&Responses:&{thinsp} 0, 1-, 1+, 2-, 2+
+
+&Follow-ups&
+
+Returning to the trump suit #and 4NT# are to play.
+
+Other suit bids are normal KC follow-ups.
+The priority order is: +
+@ trump queen - only after zero KCs +
+@ specific kings - except after 2+Q +
+@ suit-asking
+
+[%autowidth,cols="^,2*<",grid="none"]
+|===
+|      |  2S   |
+| !4C! | !4S!* | {emsp}* 1 KC + {S}Q
+|  ?   |       |
+| pass |       | sign off
+| 4NT  |       | #sign off#
+| !5C! |       | specific-king ask
+| !5D!,!5H!,!6C! | | suit-ask
+|===
+
+[#blackwood-in-comp]
+=== 4NT in high-level competition
+
+{reference} http://www.districtsix.org/Articles/Article%202011-02.aspx[
+_ACBL district-6 panel {ndash} Feb/Mar 2011_ ]
+
+If #they preempt at the 4-level# after #partner has shown opening
+values# (includes 2{orMore}-level or higher overcall) and a
+#five-card or longer suit#, then 4NT is KC asking for majors
+but plain aces for minors.
+
+If their four-level preempt follows a minor-suit opening or any
+1-level overcall, then 4NT is general take-out.
+
+// @ 5{orMore}{xtimes}Major
+// >> 4NT = KC asking +
+
+// @ 5{orMore}{xtimes}minor
+// >> 4NT = plain aces +
+
+// @ 1m opening, or 1-level overcall
+// >> 4NT = take-out
+
+&Examples&
+
+[lightgrey-box]#1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}KC#
+[lightgrey-box]#(3{D}){emsp}3{S}{emsp}(4{D}){emsp}!!4NT!!{emsp}:{emsp}KC#
+
+[lightgrey-box]#1{H}{emsp}(3{S}){emsp}!!4NT!!{emsp}:{emsp}KC#
+[lightgrey-box]#(1{S}){emsp}2{C}{emsp}(4{S}){emsp}!!4NT!!{emsp}:{emsp}aces#
+
+[lightgrey-box]#1{C}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
+                                               6{orMore}{xtimes}{D}, 4*{C}#
+
+[lightgrey-box]#(1{H}){emsp}1{S}{emsp}(4{H}){emsp}!!4NT!!{emsp}:{emsp}take-out,
+                                               minors#
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |  1D   | (1S) |  3H{thinsp}  | GF
+| (4S) | !4NT! |   2+<|  KC for {H}
+|===
+
+[%autowidth,cols="4*^,<",grid="none"]
+|===
+|      |  1D   | (P) | 1H  |
+| (4S) | !4NT! |  2+<| take-out
+|===
 
 [#_splinter_over_splinter]
 == Splinter over Splinter
