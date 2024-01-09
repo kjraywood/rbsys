@@ -59,16 +59,16 @@
 <<system.adoc#_slam_conventions, *Slam Conventions*>> +
 {nbsp} 21. <<system.adoc#_first_round_ace_asking,
             First-round ace-asking>> +
-{nbsp} 22. <<system.adoc#_minorwood,
-            Minorwood>> +
-{nbsp} 23. <<system.adoc#_optional_minorwood,
-            Optional Minorwood>> +
-{nbsp} 24. <<system.adoc#_kickback,
+{nbsp} 22. <<system.adoc#_kickback,
             Kickback>> +
-{nbsp} 25. <<system.adoc#_special_kc_asking_bids,
-            Special KC-asking bids>> +
-{nbsp} 26. <<system.adoc#_kc_responses,
+{nbsp} 23. <<system.adoc#_kc_responses,
             KC Responses>> +
+{nbsp} 24. <<system.adoc#_minorwood,
+            Minorwood>> +
+{nbsp} 25. <<system.adoc#_optional_minorwood,
+            Optional Minorwood>> +
+{nbsp} 26. <<system.adoc#_special_kc_asking_bids,
+            Special KC-asking bids>> +
 {nbsp} 27. <<system.adoc#_splinter_over_splinter,
             Splinter over Splinter>> +
 
