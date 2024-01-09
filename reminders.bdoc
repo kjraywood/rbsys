@@ -103,11 +103,17 @@ _ <<system.adoc#_vs_unusual_2nt_opening, *vs Unusual-2NT opening*>>
 <<system.adoc#_first_round_exclusion, *First-round Exclusion*>> +
 @ includes triple jumps to 4M and 5m
 
-<<system.adoc#_minorwood, *Minorwood*>> +
+<<system.adoc#_optional_minorwood, *Optional-Minorwood*>> +
+*Classic Minorwood:*
 @ jump to four of agreed minor +
 @ jump raise of 2m to 4m +
 @ re-raise of 3m to 4m after agreement +
 @ raise of an invitational 3m to 4m
+
+*Special cases:*
+@ pulling 3NT to a minor that is the
+_ only possible trump-suit +
+@ self-raise to 4m opposite balanced hand
 
 <<system.adoc#_kc_responses, *Key-Card Responses*>> +
 @ #K-ask does NOT promise all KCs# +
@@ -125,7 +131,7 @@ _ not K-ask +
 @ only-2nd or only-3rd below 6T +
 @ 2nd and 3rd above 6T
 
-<<system.adoc#_minorwood_in_comp, *Minorwood in comp.*>> +
+<<system.adoc#_opt_minorwood_in_comp, *Optional-Minorwood in comp.*>> +
 @ Jump to 4m after a cue-bid raise +
 
 <<system.adoc#_kickback_in_comp, *Kickback in comp.*>> +
