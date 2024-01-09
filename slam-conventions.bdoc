@@ -227,8 +227,8 @@ shown by the first response.
 
 === Set trumps if possible
 
-[lavender-box]#If we can make a forcing bid that sets a major suit as
-trump, then we must do that before we can use kickback.#
+If we can make a forcing bid that sets a #major suit# as
+trump, then we must do that before we can use kickback.
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
@@ -238,6 +238,16 @@ trump, then we must do that before we can use kickback.#
 |      |  4S  || to play
 |      | 4NT  || natural, 18-19 HCP
 |===
+
+****
+The rule doesn't apply for minors because we use optional-minorwood
+in many cases.
+
+_e.g._ After an uncontested 1H{ndash}2D, a jump to 4D is optional
+minorwood.  If opener bids only 3D, then responder's next bid might be
+3H.  This would set hearts as trump and the opportunity to ask for
+key-cards in diamonds would be lost.
+****
 
 === Both majors
 
@@ -473,7 +483,7 @@ Applies when:
 
 * trumps not yet agreed
 
-* minorwood does not apply
+* optional-minorwood does not apply
 
 * #cannot agree last suit with a forcing natural-bid below 4-level#
 
@@ -488,7 +498,7 @@ then we can use kickback provided that the next step is forcing
 
 *Examples*
 
-.(a)
+.(a) opt-minorwood does NOT apply
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -506,7 +516,7 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-.(b) minorwood applies
+.(b) optional-minorwood applies
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -519,30 +529,12 @@ then we can use kickback provided that the next step is forcing
 [%autowidth,grid="none",stripes="odd",frame="nonex"]
 !===
 ! 3H = forcing +
-  !4D! = minorwood +
+  !4D! = optional-minorwood +
   4H  = #to play# +
 !===
 |===
 
-.(c) minorwood applies
-[%autowidth,cols="2*^.^a",grid="none"]
-|===
-|
-[grid="none",stripes="none",frame="allx"]
-:===
-  1H : [nobr]#3D{ensp}inv.#
-  ?  :
-:===
-|
-[%autowidth,grid="none",stripes="odd",frame="nonex"]
-!===
-! 3H = forcing +
-  !4D! = minorwood +
-  4H  = #to play# +
-!===
-|===
-
-.(d)
+.(c) opt-minorwood does NOT apply
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -559,7 +551,7 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-.(e)
+.(d) opt-minorwood does NOT apply
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -576,7 +568,7 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-.(f)
+.(e) cannot set {H} below game
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -594,7 +586,7 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-.(g)
+.(f) cannot set {H} below game
 [%autowidth,cols="2*^.^a",grid="none"]
 |===
 |
@@ -612,7 +604,7 @@ then we can use kickback provided that the next step is forcing
 !===
 |===
 
-&(h)& We can also use kickback in the following auction where
+&(g)& We can also use kickback in the following auction where
 we are at only at two hearts.
 
 [%autowidth,cols="2*^.^a",grid="none"]
@@ -641,7 +633,7 @@ If we reach 3S without agreeing trump then a jump to 4NT is KC for spades.
 ==== Minors
 
 Applies when: +
-@ <<#_minorwood_in_comp, *minorwood-in-comp*>> does not apply +
+@ <<#_opt_minorwood_in_comp, *optional-minorwood-in-comp*>> does not apply +
 @ auction is contested +
 @ we have agreed a minor
 
@@ -655,7 +647,7 @@ Applies when: +
 
 ==== Hearts
 
-If we have agreed hearts, then 4S is kickback.
+If we have agreed hearts in a contested auction, then 4S is kickback.
 
 @ does not need to be a jump +
 @ might be the opp's suit
@@ -861,6 +853,7 @@ especially on interference auctions.
 @ re-raise of 3m to 4m after agreement +
 @ raise of an invitational 3m to 4m
 
+
 === Jump to 4m after minor-suit agreement
 
 [%autowidth,cols="3*a",grid="none",frame="none",stripes=none]
@@ -1014,8 +1007,8 @@ TIP: A below-game raise of an !invitational! bid is forcing because
      we don't invite an inviter.   Since it's forcing, the limited
      hand shows key-cards.
 
-[#_minorwood_in_comp]
-=== Minorwood in competition
+[#_opt_minorwood_in_comp]
+=== Optional-Minorwood in competition
 
 &Jump to 4m after a cue-bid raise&
 
@@ -1030,15 +1023,6 @@ TIP: A below-game raise of an !invitational! bid is forcing because
   (1S) :  2C  : (P{or}X) : !2S!
   (P)  : !4C! : :
 :===
-
-=== Responses to Minorwood
-
-=== Responses
-
-#Same responses as optional-minorwood#
-
-Therefore, minorwood can be used to invite slam
-
 
 == Optional Minorwood
 
