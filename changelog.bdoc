@@ -2,6 +2,20 @@
 
 :sectnums!:
 
+== 2024-01-10
+
+<<system.adoc#_vs_two_suited_overcalls, *Vs Two-Suited Overcalls*>> +
+dble = bal. 9{OrMore} +
+@ does not create a force +
+@ shows 4 or 5 of unbid major +
+@ shows 2 of opener's major +
+
+@ 2NT, 3NT = 4-card fit +
+@ lo cue = 4^th^ suit, inv.{OrMore} +
+@ bid of 4^th^ suit = NF, competitive +
+
+See also <<system.adoc#_vs_known_and_unknown, *Vs Known & Unknown Suit*>>
+	
 == 2024-01-05
 
 <<system.adoc#_drury, *Drury*>> +
@@ -40,6 +54,8 @@ _ showed key-cards
 
 <<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
 @ see notes
+	
+== 2024-01-03
 
 https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
 
@@ -70,15 +86,6 @@ _ {or} 5*{H}, inv. only +
 @ relay twice to sign-off in clubs +
 @ see also:
 _ <<system.adoc#_2wcb_2relays_bid, [alert]#GF with 4-cd fit for opener's minor#>> +
-
-== 2023-05-10
-
-<<system.adoc#_un_vs_un, *Vs Two-Suited Overcalls*>> +
-dble = bal. 9{OrMore} +
-@ does not create a force +
-@ shows 4 or 5 of unbid major +
-@ shows 2 of opener's major +
-
 
 == 2023-05-09
 
