@@ -2,6 +2,12 @@
 
 :sectnums!:
 
+== 2024-01-11
+
+<<system.adoc#_2nt_opening, *2NT Opening*>> +
+@ 3S = both minors or {D}-single-suiter
+@ 4C = ConFit
+
 == 2024-01-10
 
 <<system.adoc#_vs_two_suited_overcalls, *Vs Two-Suited Overcalls*>> +
@@ -45,15 +51,15 @@ Does not apply after weak-jump-raise of a 1-level opening
 @ #EXCEPTION:# 1C {ndash} 1S{thinsp}{semicolon} 2H {ndash} ? +
 _ {tribull} 3C = NF {cdot} !3D! = GF, usually {C}-fit 
 
-<<system.adoc#_minorwood, *Minorwood*>> &
-<<system.adoc#_opt_minorwood_responses, *Optional Minorwood*>> +
-@ use optional-minorwood responses
-_ in regular-minorwood auctions +
-@ teller shows kings, even when asker
-_ showed key-cards
+// <<system.adoc#_minorwood, *Minorwood*>> &
+// <<system.adoc#_opt_minorwood_responses, *Optional Minorwood*>> +
+// @ use optional-minorwood responses
+// _ in regular-minorwood auctions +
+// @ teller shows kings, even when asker
+// _ showed key-cards
 
-<<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
-@ see notes
+// <<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
+// @ see notes
 	
 == 2024-01-03
 
