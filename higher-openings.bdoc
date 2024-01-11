@@ -408,11 +408,8 @@ heart length.
 // @ strong single-suited minor-suit hand
 
 
+[#_2nt]
 == 2NT Opening
-
-{reference}
-http://bridgewinners.com/article/view/how-do-you-play-minor-suit-slam-try-over-2nt-3s-3nt/?cj=123462[
-System description and advantages by Josh Donn ]
 
 === Responses to 2NT Opening
 
@@ -423,9 +420,9 @@ Regular Stayman and non-jump Smolen.
 | 2NT |  ?   ||
 |     | !3C! || Stayman or #club-single-suiter# +
 2+>| !3D!,!3H! | <| transfers
-|     | !3S! || both minors, slam inv.{OrMore}
+|     | !3S! || both minors {or} diamond-single-suiter, slam inv.{OrMore}
 |     |  3NT || #to play#
-|     | !4C! || #transfer to DIAMONDS#
+|     | !4C! || #ConFit#
 2+>| !4D!,!4H! | <| Texas transfers
 |     | !4S! || quant. with interest in 4-4 fit
 |     | 4NT  || quant.
@@ -463,89 +460,39 @@ Responder's 2nd-round 4C = {link}{ensp}<<#_optional_minorwood, Optional Minorwoo
 This scheme does not allow setting clubs as trump and then using exclusion.
 ****
 
-=== Minor-Suit Stayman
+=== Minor-Suit Stayman or Diamond-Single-Suiter
 
-If opener makes a positive response, then responder can use kickback
-or exclusion.
+Can be used with 5{ndash}4 in the minors, so opener needs
+a four-card minor to show a positive.
 
-[%autowidth,cols="3*^,<",grid="none"]
+Opener's first response assumes both minors, but responder's 4D
+shows the single-suiter and is optional-minorwood.
+
+[%autowidth,cols="2*^,<",grid="none"]
 |===
-| 2NT | !3S!  ||
-| 4D  |  ?    ||
-|     | !4H!  || Kickback
-|     | !4S!  || KC for {D} excluding {S}
-|     | !4NT! || KC for {D} excluding {H}
+| 2NT | !3S! |
+| ?   |      |
+| 3NT |      | poor for both minors
+| 4C  |      | positive for clubs +
+               {vright} 4D = single-suit, optional minorwood +
+               {vright} 4H = #kickback for clubs# +
+	       {vright} 4S = exclusion of {S} (trump = {C}) +
+	       {corner} 4NT = exclusion of {H} (trump = {C})
+| 4D  |      | positive for diamonds +
+               {vright} 4H = kickback +
+	       {vright} 4S = exclusion of {S} (trump = {C}) +
+	       {corner} 4NT = exclusion of {H} (trump = {C})
 |===
-
-If opener makes a negative response and responder is still interested
-in slam, then responder can show a five-card minor or identify
-shortness with 5{ndash}5 in the minors.
-
-For ease-of-memory, we treat a 4m bid as optional-minorwood
 
 [%autowidth,cols="3*^,<",grid="none"]
 |===
 | 2NT | !3S! ||
 | 3NT |  ?   ||
-|     | 4m   || 5-card suit, optional minorwood +
-                {vright} next-step = positive +
-                {vert} {corner} responder shows KCs +
-		{corner} Other = negative & KC-showing
-|     | !4M! || shortness +
+|     | 4C   || extra club length, treat as optional minorwood +
+|     | 4D   || diamond-single-suiter, optional minorwood +
+|     | !4M! || shortness, 5{ndash}5 minors +
                 {vright} 4NT = negative +
 		{corner} #5m = positive#
-|===
-
-[#_2nt_4c]
-=== Transfer to Diamonds
-
-We treat this like optional minorwood, one-step lower, except that
-after the next-step by opener, which shows a good hand for diamonds,
-responder uses kickback instead of showing key-cards.
-This allows responder to use exclusion when opener likes diamonds.
-
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-| 2NT  | !4C! |
-|  ?   |      |
-| !4D! |      | #good for diamonds# +
-                {vright} 4H = kickback +
-		{vright} 4{S}, 5C = exclusion +
-		{corner} 4NT = exclusion of {H}
-2+<| !4H!, !4S! +
-     !4NT!, !5C!
-   <| KC responses,  poor for diamonds
-|===
-
-==== Re-transfer
-
-Following a direct KC-response,
-
-@ 4NT = sign-off +
-@ 5C = re-transfer unless the KC-response
-_ was 4S (1 or 4) because then it is needed
-_ as the queen ask 
-
-However, holding the DQ, responder can ask for the queen knowing that
-open will bid 5D.
-Following that, responder can continue with a normal KC auction.
-
-[%autowidth,cols="3*^.>,<",grid="none"]
-|===
-| 2NT | !4C! || optional minorwood in {D}
-| 4H  |  ?   ||
-|     | !4S! || Q-ask
-|     | 4NT  || to play
-|     | 5C   || re-transfer
-|===
-
-[%autowidth,cols="3*^.>,<",grid="none"]
-|===
-| 2NT | !4C! || optional minorwood in {D}
-| 4S  |  ?   ||
-|     | 4NT  || to play
-|     | 5C   || Q-ask, or re-transfer if reponder holds DQ
-|     | 5D   || to play if responder does not hold DQ
 |===
 
 === Transfer to Hearts
