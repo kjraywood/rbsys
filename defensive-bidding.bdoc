@@ -160,59 +160,46 @@ Cue-bid is a strength enquiry
 [#_sandwich_overcalls]
 == Sandwich-position overcalls
 
-=== Vs nebulous-club or nebulous-diamond opening
+=== Vs Minor-Suit Opening
 
-vs nebulous 1C or 1D opening: +
-@ sandwich-position bid of opener's suit
-_ = natural +
+@ sandwich-position bids are natural +
 @ 5{ndash}5 in the other two-suits must double
 
-****
-.Definition of nebulous
+// [%autowidth,cols="4*^,<",grid="none"]
+// |===
+// |   |      |    | (!!1C!!) | {emsp} nebulous club
+// | P | (1H) | ?  ||
+// |   |      | 1S || 5{OrMore}{times}{S}, may have 4{times}{D} 
+// |   |      | 2C || #natural#
+// |   |      | 2H || natural
+// |   |      | X  || (4{or}5){times}{S}, 5{times}{D}
+// |===
 
-There is more than one shape on which they open with two or fewer in
-the suit
+// === Vs normal (3{OrMore}) openings
 
-Examples: +
-@ 1D opening of Precision system +
-@ 1C opening of unbalanced-diamond system
-****
+// @ bid of suit on bidder's left
+// _ = cue-bid
+// _ = other two suits +
+// @ bid of suit on bidder's right
+// _ = natural +
+// @ #2NT = minors#
 
-[%autowidth,cols="4*^,<",grid="none"]
-|===
-|   |      |    | (!!1C!!) | {emsp} nebulous club
-| P | (1H) | ?  ||
-|   |      | 1S || 5{OrMore}{times}{S}, may have 4{times}{D} 
-|   |      | 2C || #natural#
-|   |      | 2H || natural
-|   |      | X  || (4{or}5){times}{S}, 5{times}{D}
-|===
+// [%autowidth,cols="5*^,<",grid="none"]
+// |===
+// |   |      |       | (1D) ||
+// | P | (1S) |  ?    |      ||
+// |   |      |  1NT  |      || natural
+// |   |      | !2D!  |      || {H}{xplus}{C}{ensp}(5{ndash}5{OrMore})
+// |   |      |  2S   |      || natural
+// |   |      | !2NT! |      || minors
+// |===
 
-=== Vs normal (3{OrMore}) openings
+=== Unusual Sandwich NT by Passed hand
 
-@ bid of suit on bidder's left
-_ = cue-bid
-_ = other two suits +
-@ bid of suit on bidder's right
-_ = natural +
-@ #2NT = minors#
+1NT = unusual = (5{ndash}5{OrMore} other two suits) +
 
-[%autowidth,cols="5*^,<",grid="none"]
-|===
-|   |      |       | (1D) ||
-| P | (1S) |  ?    |      ||
-|   |      |  1NT  |      || natural
-|   |      | !2D!  |      || {H}{xplus}{C}{ensp}(5{ndash}5{OrMore})
-|   |      |  2S   |      || natural
-|   |      | !2NT! |      || minors
-|===
-
-=== Passed hand
-
-@ 1NT = unusual
-_ (5{ndash}5{OrMore} other two suits) +
-@ #cue-bid of suit on left = 6{OrMore}{xtimes}om + 4*oM#,
-_ (McCartney, "`__When I'm sixty-four__{thinsp}`")
+// @ #cue-bid of suit on left = 6{OrMore}{xtimes}om + 4*oM#,
+// _ (McCartney, "`__When I'm sixty-four__{thinsp}`")
 
 === Raising a sandwich overcall
 
