@@ -8,6 +8,9 @@
 @ 3S = both minors or {D}-single-suiter
 @ 4C = ConFit
 
+<<system.adoc#_sandwich_overcalls, *Sandwich-position Overcalls*>> +
+@ natural vs any minor-suit opening +
+
 == 2024-01-10
 
 <<system.adoc#_vs_two_suited_overcalls, *Vs Two-Suited Overcalls*>> +
@@ -28,23 +31,6 @@ See also <<system.adoc#_vs_known_and_unknown, *Vs Known & Unknown Suit*>>
 @ ON vs Dble +
 @ OFF vs Overcall
 
-<<system.adoc#_nlm, *Non-Leaping Michaels*>> +
-*Applies:* +
-@ in direct and balancing seat +
-@ after raise of a weak two +
-
-Does not apply after weak-jump-raise of a 1-level opening
-
-// *Suggestion for Leaping Michaels vs Weak 2\D, or Precision 2\C* +
-// @ 3m = both majors +
-// @ 4C = {H} + om +
-// @ 4D = {S} + om
-
-// vs 3C:
-// 4C = S + red-suit
-// 4D = red-suits
-// See "Better coding of 2-suits, J Goldsmith, TBW, June 2007"
-
 <<system.adoc#_reverses, *Reverse after 1-level suit response*>> +
 @ 2NT = natural GF, 8{ndash}10 or 14{OrMore} +
 @ default bid = 4th-suit +
@@ -60,13 +46,12 @@ _ {tribull} 3C = NF {cdot} !3D! = GF, usually {C}-fit
 
 // <<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
 // @ see notes
+
+https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
 	
 == 2024-01-03
 
-https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
-
 https://drive.google.com/file/d/1a9zn20W4pEBHfX4_PLQbPp5KbRhJm3uV/view[*Rebid by Opener in Comp.*] +
-*When:* +
 @ we open, they overcall one major +
 @ responder bids a
 _ new-suit @ 2-level +
@@ -75,6 +60,23 @@ _ new-suit @ 2-level +
 @ cue-bid = minimum,
 _ no definite direction +
 @ other bids are positive
+
+<<system.adoc#_nlm, *Non-Leaping Michaels*>> +
+*Applies:* +
+@ in direct and balancing seat +
+@ after raise of a weak two +
+
+Not after weak-jump-raise of 1-level opening
+
+// *Suggestion for Leaping Michaels vs Weak 2\D, or Precision 2\C* +
+// @ 3m = both majors +
+// @ 4C = {H} + om +
+// @ 4D = {S} + om
+
+// vs 3C:
+// 4C = S + red-suit
+// 4D = red-suits
+// See "Better coding of 2-suits, J Goldsmith, TBW, June 2007"
 
 == 2023-08-13
 
@@ -118,14 +120,6 @@ _ hi cue {implies} high suit,
 _ but swap to keep cue-bid for hearts
 _ at the 2-level +
 @ jumps are weak
-
-== 2023-05-05
-
-<<system.adoc#_sandwich_overcalls, *vs Neb-minor in Sandwich position*>> +
-vs nebulous 1C or 1D opening: +
-@ sandwich-position bid of opener's suit
-_ = natural +
-@ 5{ndash}5 in the other two-suits must double
 
 == 2023-04-15
 
