@@ -415,7 +415,7 @@ heart length.
 
 Regular Stayman and non-jump Smolen.
 
-[%autowidth,cols="3*^,<",grid="none"]
+[%autowidth,cols="3*^.^,<",grid="none"]
 |===
 | 2NT |  ?   ||
 |     | !3C! || Stayman or #club-single-suiter# +
@@ -474,14 +474,14 @@ shows the single-suiter and is optional-minorwood.
 | ?   |      |
 | 3NT |      | poor for both minors
 | 4C  |      | positive for clubs +
-               {vright} 4D = single-suit, optional minorwood +
+               {vright} 4D = 1-suiter, opt.-minorwood +
                {vright} 4H = #kickback for clubs# +
-	       {vright} 4S = exclusion of {S} (trump = {C}) +
-	       {corner} 4NT = exclusion of {H} (trump = {C})
+	       {vright} 4S = agree {C}, exclusion of {S} +
+	       {corner} 4NT{thinsp}= agree {C}, exclusion of {H}
 | 4D  |      | positive for diamonds +
                {vright} 4H = kickback +
-	       {vright} 4S = exclusion of {S} (trump = {C}) +
-	       {corner} 4NT = exclusion of {H} (trump = {C})
+	       {vright} 4S = exclusion of {S} +
+	       {corner} 4NT = exclusion of {H}
 |===
 
 [%autowidth,cols="3*^,<",grid="none"]
