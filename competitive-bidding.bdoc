@@ -395,10 +395,10 @@ show no preference.
 opening bid = major: {implies} double shows 2 in that suit
 
 [lightgrey-box]#1{H}{emsp}(!!2NT!!){emsp}Dble# 2NT = minors +
-X = 4 or 5 {times} {S}, 2{xtimes}{H}, 9{OrMore} bal.
+X = 4{or}5{xtimes}{S}, 2{xtimes}{H}, 9{OrMore} bal.
 
 [lightgrey-box]#1{D}{emsp}(!!2NT!!){emsp}Dble# 2NT = {C} + {H} +
-X = 4 or 5 {times} {S}, 9{OrMore} bal.
+X = 4{or}5{xtimes}{S}, 9{OrMore} bal.
 
 NOTE: Many play that double creates a forcing-pass, hence requires
        11{OrMore}.  Our way caters to the more common nine and ten point
