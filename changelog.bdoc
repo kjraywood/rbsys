@@ -5,6 +5,14 @@
 
 == 2024-02-02
 
+<<system.adoc#_nt_overcalls_of_preempts, *NT Overcalls of Preempts*>> +
+*vs 2M or 3M:* +
+@ transfers to other three suits +
+@ transfer [lavender-bg]#through# their major +
+@ cue = Stayman after 2NT o/call
+
+== 2024-01-11
+
 <<system.adoc#_vs_two_suited_overcalls, *Vs Two-Suited Overcalls*>> +
 @ #bid of unshown suit = NF# +
 _ including <<system.adoc#_vs_known_and_unknown, vs Known & Unknown Suit>>
@@ -14,8 +22,6 @@ dble = bal. 9{OrMore} +
 @ shows 4 or 5 of unbid major +
 @ shows 2 of opener's major +
 
-See notes for more
-
 == 2024-01-10
 
 <<system.adoc#_2nt_opening, *2NT Opening*>> +
@@ -24,8 +30,8 @@ See notes for more
 
 <<system.adoc#_sandwich_overcalls, *Sandwich-position Overcalls*>> +
 @ natural vs any minor-suit opening +
-	
-== 2024-01-05
+
+== 2024-01-07
 
 <<system.adoc#_drury, *Drury*>> +
 @ ON vs Dble and 1S +
@@ -46,6 +52,8 @@ _ {tribull} 3C = NF {cdot} !3D! = GF, usually {C}-fit
 
 // <<system.adoc#_specific_suit_asking, *Specific-Suit Asking*>> +
 // @ see notes
+
+== 2024-01-07
 
 https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
 @ jump to 2M shows 5{orMore} cards +
@@ -134,12 +142,6 @@ _ at the 2-level +
 @ changed from invitational splinter +
 @ invitational jump-raise by opener may
 _ have shortness in either unbid suit
-
-== 2023-04-8
-
-<<system.adoc#_general_approach, *General Approach*>> +
-@ forcing-1NT response to 1S +
-@ semi-forcing-1NT response to 1H
 
 == 2022-09-21
 

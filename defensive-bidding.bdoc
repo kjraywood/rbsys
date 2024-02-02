@@ -297,41 +297,52 @@ _ 5{ndash}5{OrMore} other two suits
 | 2NT   |      | natural inv.
 |===
 
-== NT Overcalls of their preempts
+[#_nt_overcalls_of_preempts]
+== NT Overcalls of Preempts
 
-@ Stayman and transfers ON
+*vs TWO MINOR:* +
+@ Stayman and transfers +
+@ Smolen, Texas, and ConFit +
+@ 3S = other minor
 
-@ #5-card Stayman if they opened 2M or 3M#
-
-@ [lavender-bg]#transfer to their major = 5{OrMore}{xtimes}oM# +
-_ {ndash} game-inv. @ 3-level +
-_ {ndash} slam-inv. @ 4-level
+*vs TWO MAJOR:* +
+@ cue = Stayman +
+@ transfers to other three suits +
+@ transfer [lavender-bg]#through# their major +
+@ Texas and ConFit
 
 === 2NT overcall of two-minor
 
 [%autowidth,cols="2*^,<",grid=none]
 |===
-|      | (2m) | 2NT {ensp} P
+|      | (2D) | 2NT {ensp} P
 |   ?  |      |
 |   P  |      | to play
 | !3C! |      | regular Stayman with Smolen
 2+<| !3D!,!3H! <| transfer
-| !3S! |      | #other minor#
+| !3S! |      | clubs, #other minor# +
+                > 3NT{ndash}4C = optional minorwood
 | 3NT  |      | to play
+| !4C! |      | Confit
+                > 4D = 4 or fewer
+2+<| !4D!,!4H! <| Texas transfer
 |===
 
 === 2NT overcall of two-Major
 
 [%autowidth,cols="2*^,<",grid=none]
 |===
-|      | (2M) | 2NT {ensp} P
+|      | (2S) | 2NT {ensp} P
 |   ?  |      |
 |   P  |      | to play
-| !3C! |      | 5-card Stayman
-2+<| !3D!,!3H! <| transfer +
-     [lavender-bg]#transfer to their major = inv oM#
-| !3S! |      | #both minors#
+| !3C! |      | {blueRarrow} {D}
+| !3D! |      | {blueRarrow} {H}
+| !3H! |      | {blueRarrow} {C}, [lavender-bg]#transfer !!through!! their major#
+| !3S! |      | #Stayman#
 |  3NT |      | to play
+| !4C! |      | Confit
+                > 4D = 4 or fewer
+| !4D! |      | {blueRarrow} {H}, Texas
 |===
 
 === 3NT overcall of three-minor
@@ -355,15 +366,18 @@ So our Stayman 4C shows 5{ndash}5 in the majors.
 
 === 3NT overcall of three-Major
 
+@ similar scheme to (2M){ndash}2NT +
+@ except, cue = quant.
+
 [%autowidth,cols="2*^,<",grid=none]
 |===
-|      | (3M) | 3NT {ensp} (P)
+|      | (3H) | 3NT {ensp} (P)
 |   ?  |      |
 |   P  |      | to play
-| !4C! |      | 5-card Stayman
-2+<| !4D!,!4H! <| Texas transfer +
-     [lavender-bg]#transfer to their major = slam-inv oM#
-| !4S! |      | #weak quant. or slam-drive#
+| !4C! |      | {blueRarrow} {D}
+| !4D! |      | {blueRarrow} {S}, [lavender-bg]#through their major#
+| !4H! |      | #weak quant. or slam-drive#
+| !4S! |      | {blueRarrow} {C}
 |  4NT |      | strong quant.
 |===
 

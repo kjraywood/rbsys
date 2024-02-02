@@ -111,8 +111,8 @@
             Direct 1NT Overcalls>> +
 {nbsp} 44. <<system.adoc#_natural_sandwich_1nt,
             Natural 1NT in sandwich position>> +
-{nbsp} 45. <<system.adoc#_nt_overcalls_of_their_preempts,
-            NT Overcalls of their preempts>> +
+{nbsp} 45. <<system.adoc#_nt_overcalls_of_preempts,
+            NT Overcalls of Preempts>> +
 {nbsp} 46. <<system.adoc#_balancing_1nt,
             Balancing 1NT>> +
 {nbsp} 47. <<system.adoc#_other_balancing_bids,
