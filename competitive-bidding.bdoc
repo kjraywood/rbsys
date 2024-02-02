@@ -485,23 +485,26 @@ natural bid in the 4^th^ suit.
 [#_vs_known_and_unknown]
 === Vs One-Known and One-Unknown Suit
 
-[orange-box]#Needs some clarification#
-
 Treat like a single-suited overcall
 
-Pass then dble = penalty
+Pass then dble = penalty, typically a singleton in partner's suit and
+length in their known suit with 3 or 4 in each of the unshown suits
 
-Dble {simto} negative double = values and other two suits
+Dble {simto} negative double = 9{OrMore}, typically the other
+two suits but could be a GF single-suiter in one of the unshown suits
 
 Cue of known-suit = {LRplus}
 
-2NT = natural
+2NT = natural, [orange-bg]#**Alternative:** mixed raise#
 
 3NT = to play
 
-New suit = Forcing
+New suit = #Non-Forcing#, [orange-bg]#**Alternative:** some use transfers starting with 2NT#
 
 Jump new suit = fit-showing
+
+// See https://bridgewinners.com/article/view/whats-standard-here/
+// especially comments of Dave Beer and Ed Davis re transfers
 
 [#_2nt_in_comp]
 == 2NT in competitive auctions

@@ -1,8 +1,22 @@
+// -*-adoc-*-
 = Recent Changes to RB System-Notes
 
 :sectnums!:
 
-== 2024-01-11
+== 2024-02-02
+
+<<system.adoc#_vs_two_suited_overcalls, *Vs Two-Suited Overcalls*>> +
+@ #bid of unshown suit = NF# +
+_ including <<system.adoc#_vs_known_and_unknown, vs Known & Unknown Suit>>
+
+dble = bal. 9{OrMore} +
+@ does not create a force +
+@ shows 4 or 5 of unbid major +
+@ shows 2 of opener's major +
+
+See notes for more
+
+== 2024-01-10
 
 <<system.adoc#_2nt_opening, *2NT Opening*>> +
 @ 3S = both minors or {D}-single-suiter
@@ -10,20 +24,6 @@
 
 <<system.adoc#_sandwich_overcalls, *Sandwich-position Overcalls*>> +
 @ natural vs any minor-suit opening +
-
-== 2024-01-10
-
-<<system.adoc#_vs_two_suited_overcalls, *Vs Two-Suited Overcalls*>> +
-dble = bal. 9{OrMore} +
-@ does not create a force +
-@ shows 4 or 5 of unbid major +
-@ shows 2 of opener's major +
-
-@ 2NT, 3NT = 4-card fit +
-@ lo cue = 4^th^ suit, inv.{OrMore} +
-@ bid of 4^th^ suit = NF, competitive +
-
-See also <<system.adoc#_vs_known_and_unknown, *Vs Known & Unknown Suit*>>
 	
 == 2024-01-05
 
@@ -48,7 +48,10 @@ _ {tribull} 3C = NF {cdot} !3D! = GF, usually {C}-fit
 // @ see notes
 
 https://drive.google.com/file/d/0B1L4Qo4rjzd_OHhKU2pNZXdxWms5WkVZU2tPMnBid0FMSTM4/view[*Responding to Take-Out Doubles*]
-	
+@ jump to 2M shows 5{orMore} cards +
+@ cue = forcing to 3-level +
+>> 2NT by doubler = forcing
+
 == 2024-01-03
 
 https://drive.google.com/file/d/1a9zn20W4pEBHfX4_PLQbPp5KbRhJm3uV/view[*Rebid by Opener in Comp.*] +
