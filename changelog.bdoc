@@ -3,6 +3,12 @@
 
 :sectnums!:
 
+== 2024-03-24
+
+<<system.adoc#_jump_overcalls, *Intermediate Jump-Overcalls*>> +
+@ only V vs NV +
+@ Klinger has priority
+
 == 2024-02-02
 
 <<system.adoc#_nt_overcalls_of_preempts, *NT Overcalls of Preempts*>> +

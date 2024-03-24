@@ -106,11 +106,13 @@ can make.
 @  cue  = good 3-card raise (9{OrMore}) +
 @ !2NT! = good 4-card raise (7{OrMore})
 
-=== Weak Jump Ovecalls
+[#_jump_overcalls]
+=== Jump Ovecalls
 
-@ lowest jump-overcall is Klinger
-_ NOT natural & weak +
-@ #new-suit after natural WJO is NF#
+@ lowest jump-overcall is Klinger +
+@ [lavender-bg]#V vs NV#, other jump overcalls are intermediate +
+@ otherwise, jump overcalls are weak
+>> new-suit is NF
 
 [#_klinger]
 == Two-suited overcalls (Klinger)
