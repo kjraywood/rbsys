@@ -237,8 +237,7 @@ or, a defensive four-card raise.
 |===
 | 1D | (1S) | !3S! | *:* | splinter
 |===
-
-=== Negative double vs 1D
+=== Negative double vs 1D or 1H
 
 With four-card support for a major shown by responder, opener bids _as
 though raising a one-level bid_.{thinsp} That is, opener bids
@@ -246,32 +245,32 @@ immediately to the two-level or higher with 4-card support.
  
 [%autowidth,cols="2*^,<",grid="none"]
 |===
-|  1C  | (1D) | X {ensp} (P)
+|  1C  | (1H) | X {ensp} (P)
 |   ?  |      |
-|  1M  |      | 3*M, up to 17 with no {D} stopper
-|  2M  |      | 4*M, minimum range
-| !2D! |      | GF, not 4*M
+|  1S  |      | 3*{S}, up to 17 with no {H} stopper
+|  2S  |      | 4*{S}, minimum range
+| !2H! |      | GF, not 4*{S}
 |===
 
-[#_vs_1h_ocall]
-=== Vs a 1H Overcall
+// [#_vs_1h_ocall]
+// === Vs a 1H Overcall
  
-[%autowidth,cols="2*^,<",grid="none"]
-|===
-|     || 1m {ensp} (1H)
-| ?   ||
-| X   || 4 or 5 {xtimes}{S}, any strength
-| !1S! || balanced, 8{OrMore}, 3{OrLess}{xtimes}{S}
-| 1NT  || 9{ndash}11, prefer to declare
-| 2C, 2D || natural, F1
-| !2H! || 6{OrMore}{xtimes}{S}, moderate or GF
-| !2S! || 6{OrMore}{xtimes}{S}, inv.
-| 3m   || 5{OrMore}{xtimes}m, 6{ndash}9
-|===
+// [%autowidth,cols="2*^,<",grid="none"]
+// |===
+// |     || 1m {ensp} (1H)
+// | ?   ||
+// | X   || 4 or 5 {xtimes}{S}, any strength
+// | !1S! || balanced, 8{OrMore}, 3{OrLess}{xtimes}{S}
+// | 1NT  || 9{ndash}11, prefer to declare
+// | 2C, 2D || natural, F1
+// | !2H! || 6{OrMore}{xtimes}{S}, moderate or GF
+// | !2S! || 6{OrMore}{xtimes}{S}, inv.
+// | 3m   || 5{OrMore}{xtimes}m, 6{ndash}9
+// |===
 
-Following responder's 1S, opener may bid 1NT missing a stopper in
-either {H} or the other minor.   With invitational or better values, responder
-can then !show! stoppers at the two level.
+// Following responder's 1S, opener may bid 1NT missing a stopper in
+// either {H} or the other minor.   With invitational or better values, responder
+// can then !show! stoppers at the two level.
 
 === Impossible 2S after negative double
 
