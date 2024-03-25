@@ -2,6 +2,7 @@
 
 = Competitive Bidding
 
+[#_vs_take_out_dble]
 == Vs Take-Out Double
 
 Jump raise = weak
@@ -43,7 +44,7 @@ one-level so responder's redouble will have one of: +
 
 @ minor {blueRarrow} other minor = LR
 
-[lavender-bg]#All other jump-shifts are fit-showing#
+// [lavender-bg]#All other jump-shifts are fit-showing#
 
 === 1m {ndash} (X)
 
@@ -76,6 +77,7 @@ _ #{thinsp}fit-showing by PH{thinsp}# +
 @ any double-jump shift = weak, +
 _ [orange-bg]#{thinsp}splinter by PH ??{thinsp}#
 
+[#_vs_dble_of_one_major]
 === 1M {ndash} (X)
 
 Forcing 1NT is OFF
