@@ -12,6 +12,21 @@ After 1M, JS-to-other-major = mixed raise
 
 IGAS applies after 1m-(X)
 
+****
+.IGAS = I've Got A Secret
+
+With 11{OrMore} and a 4333 hand, responder passes then doubles on the
+next round.  Therefore, responder's redouble shows at least 4{ndash}4
+in two of the other suits, unless responder has a single-suiter in clubs
+that is too strong for a non-forcing 2C.
+
+In practice, responder will usually bid a five-card major at the
+one-level so responder's redouble will have one of: +
+@ 4{ndash}4 in the majors +
+@ 4{xtimes}M + 4 or 5 in other minor +
+@ 6{OrMore}{xtimes}{C} after 1D-(X)
+****
+
 [#_js_vs_take_out_double]
 === Jump Shifts vs Take-Out Double
 
