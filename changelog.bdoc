@@ -9,6 +9,15 @@
 @ only V vs NV +
 @ Klinger has priority
 
+<<system.adoc#_vs_take_out_dble, *Vs Take-Out Double*>> +
+@ add explanation of IGAS +
+
+<<system.adoc#_js_vs_take_out_double, *JS vs T.O. Dble*>>
+& <<system.adoc#_vs_dble_of_one_major, *Vs 1M-(X)*>> +
+@ JS to other major = mixed raise +
+@ 2NT = LR or very-strong raise +
+@ 3NT = GF raise
+
 == 2024-02-02
 
 <<system.adoc#_nt_overcalls_of_preempts, *NT Overcalls of Preempts*>> +
@@ -111,13 +120,6 @@ _ {or} 5*{H}, inv. only +
 @ relay twice to sign-off in clubs +
 @ see also:
 _ <<system.adoc#_2wcb_2relays_bid, [alert]#GF with 4-cd fit for opener's minor#>> +
-
-== 2023-05-09
-
-<<system.adoc#_js_vs_take_out_double,
-              *Jump Shifts vs Take-Out Double*>> +
-Following a take-out double: +
-@ #JS to other major = mixed raise#
 
 == 2023-05-08
 
