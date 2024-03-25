@@ -82,12 +82,12 @@ Forcing 1NT is OFF
 
 @ 1NT = 7-10 +
 @ #3-card {LRplus} by unPH is included in XX# +
-@ [lavender-bg]#2NT and JS-to-oM = 4-card raise,# +
-_ [ lower = LR, higher = MR ] +
+@ 2NT = 4-card LR +
+@ JS to oM = mixed raise +
 @ 3NT = 4-card GF-raise
 
 ****
-The 4-card-LR bid includes hands that are two tricks stronger than a LR. +
+2NT includes hands that are two tricks stronger than a LR. +
 {implies}{ensp}``3NT`` = tight-range, mininum GF 4-card-raise
 ****
 
