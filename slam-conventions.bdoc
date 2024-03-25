@@ -58,7 +58,7 @@ exclusion.
 :===
 |===
 
-==== Responses
+==== Replies
 
 0, 1, 2-, 2+, 3-, 3+
 
@@ -122,7 +122,7 @@ point range shown by the limited hand.
 
 When the TELLER bids 4D, ASKER can follow with 4H asking for the exact
 number of control-points starting #two below# the upper limit that was
-shown by the first response.
+shown by the first reply.
 
 [%autowidth,cols="2*^.^,<",grid="none",stripes="odd"]
 |===
@@ -654,8 +654,8 @@ If we have agreed hearts in a contested auction, then 4S is kickback.
 @ does not need to be a jump +
 @ might be the opp's suit
 
-[#_kc_responses]
-== KC Responses
+[#_kc_replies]
+== KC Replies
 
 03, 14, 2{OrLess}, 2{OrMore}
 

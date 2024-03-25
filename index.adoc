@@ -61,8 +61,8 @@
             First-round ace-asking>> +
 {nbsp} 22. <<system.adoc#_kickback,
             Kickback>> +
-{nbsp} 23. <<system.adoc#_kc_responses,
-            KC Responses>> +
+{nbsp} 23. <<system.adoc#_kc_replies,
+            KC Replies>> +
 {nbsp} 24. <<system.adoc#_minorwood,
             Minorwood>> +
 {nbsp} 25. <<system.adoc#_optional_minorwood,
