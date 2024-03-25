@@ -284,10 +284,8 @@ Otherwise, the first agreed major-suit is trump.
 
 For the picture bid, opener will have reversed into a 3-card heart-suit.
 
-To use kickback for hearts in
-&(a)& or
-&(b)&, responder can
-bid 3S (non-serious) then follow with 4S.
+To use kickback for hearts in &(a)& or &(b)&, responder can bid 3S
+(non-serious) then follow with 4S.
 
 === Majors have priority over minors
 
@@ -657,26 +655,68 @@ If we have agreed hearts in a contested auction, then 4S is kickback.
 [#_kc_replies]
 == KC Replies
 
-03, 14, 2{OrLess}, 2{OrMore}
+03, 14, 2 without Q, 2 with Q
+
+****
+.Swap 5T+1 with 5NT in follow-ups
+
+5T+1 always has a special meaning in the follow-ups, either as the
+specific-king ask by asker, or showing the trump Q but no side kings
+by teller.
+
+When the trump suit is not spades, 5NT is used as a replacement for
+the suit of 5T+1 .
+****
+
+=== Next Asking Bid
+
+@ after 03 or 14, next step = queen ask +
+@ #king ask is always 5T + 1# +
+@ other = <<#_specific_suit_asking, *specific-suit asking*>>
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+|  1S   | !2NT! ||
+| !4NT! | !5C!  || 0 or 3
+|  ?    |||
+| 5D    |   2+<| Q ask
+| 5H    |   2+<| SSA in {H}
+| 5S    |   2+<| sign off
+| 5NT   |   2+<| K ask
+| 6C    |   2+<| SSA in {C}
+| 6D    |   2+<| SSA in {D}
+|===
+
+****
+In the above example, the 0 or 3 reply provided a step below 5T for an
+SSA bid in the suit below the trump suit.
+****
+
+[%autowidth,cols="2*^,2*<",grid="none"]
+|===
+|  1S   | !2NT! ||
+| !4NT! | !5H!  || 2 without Q
+|  ?    |||
+| 5S    |   2+<| sign off
+| !5NT! |   2+<| K ask
+2+<| 6C,{D},{H}  2+<| SSA
+|===
 
 === Specific Kings
 
-@ #King-ask = 5T + 1# +
+@ King-ask is always 5T + 1 +
 @ [lavender-bg]#does NOT promise all the key-cards# +
 >> with extras, teller bids 6NT instead of 7T +
 
 *If:*{emsp}{emsp} trump-suit {ne} {S} +
 *Then:*{nbsp} 5NT = K of 5T{xplus}1
 
-// ** Need example auctions **
-
 === Answering the Queen Ask
 
 @ 5T = denies Q +
-@ 5T{xplus}1 = Q, no side kings, something extra +
-@ 5T{xplus}2,3,4 = Q and specific K up-the-line +
-@ 6T{xplus}1 = Q, no side kings, nothing extra +
-@ 6NT = Q and _all side kings_
+@ #5T{xplus}1 = Q, no side-kings# +
+@ 6T = Q, _all side-kings_ +
+@ other = Q, side king up-the-line
 
 *If:*{emsp}{emsp} trump-suit {ne} {S} +
 *Then:*{nbsp} 5NT shows K of 5T{xplus}1
@@ -689,14 +729,13 @@ If we have agreed hearts in a contested auction, then 4S is kickback.
 | 4H    | !4S! || kickback
 | !4NT! | !5C! || [ 4NT = 0 or 3, 5C = Q ask ]
 |  ?    |||
-| 5D    |   2+<| {H}Q, no side kings
-| 5H    |   2+<| no {H}Q
-| 5S    |   2+<| {H}Q, no side kings, something extra
-| 5NT   |   2+<| {H}Q & {S}K
-| 6C    |   2+<| {H}Q & {C}K, not {S}K
-| 6D    |   2+<| {H}Q & {D}K, not {S}K or {C}K
-| 6H    |   2+<| {H}Q, no side kings, nothing extra
-| 6NT   |   2+<| {H}Q & all side kings
+|  5D   |   2+<| {H}Q & {D}K
+|  5H   |   2+<| no {H}Q
+| !5S!  |   2+<| {H}Q, no side kings
+| !5NT! |   2+<| {H}Q & {S}K, not {D}K
+|  6C   |   2+<| {H}Q & {C}K, not {D}K or {S}K
+|  6D   |   2+<| unused
+|  6H   |   2+<| {H}Q & all side kings
 |===
 
 [#_specific_suit_asking]
@@ -724,19 +763,21 @@ SSA bid = not sign-off, not Q-ask, not K-ask
 |      |  6C  || SSA in {C}
 |===
 
-==== Responses to SSA
+=== Replies to SSA
 
 #Treat the ace as a small card because it is known# +
 {implies} AQx is the same as Qxx; only 3rd-round control.
 
-Without 2nd-round or 3rd-round control::
-   responder signs off in six of the trump suit
+==== Without 2nd-round or 3rd-round control
+
+Teller signs off in six of the trump suit
 
 @ 6T = no 2nd or 3rd = xxx (or Axx) 
 
-With both 2nd-round and 3rd-round control::
-   responder goes above six of the trump suit
-   and shows whether the controls are high-card or shortness
+==== With 2nd-round and 3rd-round control
+
+Teller goes above six of the trump suit and shows whether the controls
+are high-card or shortness
 
 @ 6NT = 2nd and 3rd with high-cards
 _ = KQ(x) (or AKQ) +
@@ -750,11 +791,12 @@ _ = Kx tight (or AK tight) +
 
 TIP: 6NT shows that both controls also apply to NoTrump. +
      7T shows that both controls need a trump suit. +
-     An in-between response shows one high-card control,
+     An in-between reply shows one high-card control,
      and one ruffing-control which is necessarily Kx tight.
 
-With only 2nd, or only 3rd::
-   the responses depend on number of steps between the SSA bid and 6T
+==== With only 2nd, or only 3rd
+
+The replies depend on number of steps between the SSA bid and 6T
 
 *Two or more intermediate steps:*
 (_e.g._ 5S when {D} are trump ) +
@@ -764,7 +806,7 @@ _ xx (Ax) or Qxx (AQx) +
 _ Kxx (AKx) +
 
 ****
-Following a step 1 response, the next step asks if the control
+Following a step 1 reply, the next step asks if the control
 is shortness (xx) or high-card (Qxx). +
 The shortness control bids 6T. +
 The high-card control bids 6NT.
@@ -781,6 +823,12 @@ _ xx or Qxx or Kxx
 *No intermediate steps:*
 (_e.g._ 6C when {D} are trump) +
 @ above 6T =  3rd-round control
+
+****
+When there are no intermediate steps, we focus only on third-round
+control because without second-round control asker would probably have
+asked for kings.
+****
 
 === Interference
 
