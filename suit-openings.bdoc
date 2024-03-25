@@ -574,7 +574,7 @@ investigation for slam in opener's minor-suit.
 |   2+<| 3D,3H <| NT probe or cue for {C}
 |      |  3S   || [lavender-bg]#{thinsp}**forcing**{thinsp}#,
                   sets trump = {S}
-|      |  4C   || ##{thinsp}<<#_minorwood, *minorwood*>>{thinsp}##
+|      |  4C   || ##{thinsp}<<#_minorwood, *optional minorwood*>>{thinsp}##
 |      | !4D!  || exclusion of {D}, trump = {C}
 |      | !4H!  || exclusion, trump = {C}
 |      |  4S   || to play
@@ -589,7 +589,7 @@ investigation for slam in opener's minor-suit.
                   sets trump = {H}
 |   2+<| 3S,4C <| cue, {D} = trump
 |      |  3NT  || to play
-|      |  4D   || ##{thinsp}<<#_minorwood, *minorwood*>>{thinsp}##
+|      |  4D   || ##{thinsp}<<#_minorwood, *optional minorwood*>>{thinsp}##
 |      |  4H   || to play
 |      | !4S!  || exclusion, trump = {D}
 |      | !5C!  || exclusion, trump = {D} 
