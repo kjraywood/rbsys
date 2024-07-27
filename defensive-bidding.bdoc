@@ -770,7 +770,8 @@ and Precision-style 2C opening.
                   > 4D asks for major +
 		  {emsp} #4H = KC for minor#
 |      | !4D! | | #both majors# +
-                  > 4NT = KC for {H} +
+                  > 4S = KC for {H} +
+		  _ 4NT = natural +
 		  _ {nbsp}5C = KC for {S}
 |===
 
@@ -784,9 +785,10 @@ majors.
 [%autowidth,cols="5*^,<",grid="none"]
 |===
 | (2m) | !4C! | (P) | !4D! | | requests major
-| (P)  | 4M   |     |  ?   | |
-|      |      |     | 4NT  | | KC in M
+| (P)  | 4S   |     |  ?   | |
+|      |      |     | 4NT  | | natural
 |      |      |     | 5om  | | to play
+|      |      |     | 5m   | | KC in spades
 |===
 
 === Weak Michaels vs Weak Two
